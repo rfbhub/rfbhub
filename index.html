@@ -1,0 +1,1645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RFB Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0a0a;--card:rgba(255,255,255,0.028);--border:rgba(255,255,255,0.07);--accent:#FF9900;--accent-dim:rgba(255,153,0,0.12);--accent-bg:rgba(255,153,0,0.06);--text:#f1f1f1;--muted:rgba(255,255,255,0.35);--faint:rgba(255,255,255,0.15)}
+body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;min-height:100vh}
+
+/* ── HEADER ── */
+.header{background:linear-gradient(180deg,rgba(255,153,0,0.04) 0%,transparent 100%);border-bottom:1px solid var(--border);padding:24px 36px 20px}
+.h-row{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.brand{display:flex;align-items:center;gap:0;user-select:none}
+.brand-r{background:var(--accent);color:#000;font-size:22px;font-weight:900;padding:4px 10px 4px 12px;border-radius:8px 0 0 8px;line-height:1.1}
+.brand-h{background:#1a1a1a;color:#fff;font-size:22px;font-weight:700;padding:4px 12px 4px 10px;border-radius:0 8px 8px 0;line-height:1.1;border:1px solid rgba(255,255,255,0.1);border-left:none}
+.g-info{margin-left:12px}
+.g-name{font-size:18px;font-weight:600;color:var(--text)}
+.g-sub{font-size:12px;color:var(--muted);font-weight:400}
+.refresh{padding:7px 16px;border-radius:8px;border:1px solid rgba(255,153,0,0.25);background:transparent;color:var(--accent);font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;margin-left:auto;transition:all .15s}
+.refresh:hover{background:var(--accent-dim)}
+.h-stats{display:flex;gap:28px;flex-wrap:wrap}
+.h-stat .v{font-size:22px;font-weight:800}
+.h-stat .l{font-size:9px;color:var(--faint);letter-spacing:1.5px;margin-top:1px;font-weight:600}
+
+/* ── TABS ── */
+.tabs{display:flex;gap:6px;padding:18px 36px 0;border-bottom:1px solid var(--border);padding-bottom:12px}
+.tab{padding:8px 20px;border-radius:20px;border:none;cursor:pointer;font-size:14px;font-weight:600;background:transparent;color:rgba(255,255,255,0.3);transition:all .15s;font-family:inherit}
+.tab:hover{color:rgba(255,255,255,0.5)}
+.tab.active{background:var(--accent);color:#000}
+
+.content{padding:24px 36px 60px;max-width:1200px}
+
+/* ── CARDS ── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin-bottom:10px;transition:border-color .15s}
+.card:hover{border-color:rgba(255,255,255,0.12)}
+
+/* ── SUMMARY ── */
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.s-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center}
+.s-box .n{font-size:36px;font-weight:900;line-height:1}
+.s-box .l{font-size:11px;color:var(--muted);margin-top:5px;letter-spacing:.5px;font-weight:500}
+.s-box.green .n{color:#4ade80} .s-box.red .n{color:#f87171} .s-box.gold .n{color:var(--accent)} .s-box.blue .n{color:#60a5fa}
+
+/* ── SECTION ── */
+.sec{font-size:12px;font-weight:700;color:var(--faint);letter-spacing:1.5px;margin:24px 0 12px 2px}
+
+/* ── TAGS ── */
+.tg{font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px;white-space:nowrap;display:inline-block}
+.tg.bad{background:rgba(248,113,113,0.12);color:#fca5a5}
+.tg.good{background:rgba(74,222,128,0.1);color:#86efac}
+.tg.warn{background:rgba(251,191,36,0.1);color:#fde68a}
+.tg.tier{background:rgba(255,153,0,0.1);color:#ffb84d;font-weight:700}
+.tg.io{border-radius:6px;font-weight:700;padding:3px 10px}
+
+/* ── KEY SQUARES ── */
+.ksq{box-sizing:border-box;width:26px;min-width:26px;height:20px;border-radius:4px;font-size:10px;font-weight:700;cursor:default;position:relative;display:flex;align-items:center;justify-content:center;flex:0 0 26px}
+.ksq.empty{background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.08)}
+.ksq .tt{position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1a1a2e;border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:5px 10px;font-size:11px;white-space:nowrap;pointer-events:none;z-index:10;opacity:0;transition:opacity .12s;font-weight:500}
+.ksq:hover .tt{opacity:1}
+
+/* ── M+ GRID ── */
+.grid-wrap{overflow-x:auto;margin-bottom:16px}
+.grid-wrap table{width:100%;border-collapse:collapse;font-size:13px}
+.grid-wrap th{padding:10px 6px;text-align:center;font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.5px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg)}
+.grid-wrap th:first-child{text-align:left;min-width:140px}
+.grid-wrap td{padding:7px 6px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.025)}
+.grid-wrap td:first-child{text-align:left;font-weight:600;font-size:14px}
+.grid-wrap tr:hover{background:rgba(255,255,255,0.02)}
+.grid-cell{width:36px;height:26px;border-radius:5px;display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;margin:0 auto}
+.grid-cell.empty{background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.08)}
+
+/* ── FILTER ── */
+.frow{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}
+.fbtn{padding:6px 16px;border-radius:20px;border:none;cursor:pointer;font-size:12px;font-weight:600;background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.3);font-family:inherit;transition:all .15s}
+.fbtn:hover{color:rgba(255,255,255,0.5)}
+.fbtn.active{background:var(--accent);color:#000}
+
+/* ── LOADING ── */
+.loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:80vh;gap:14px}
+.loading .msg{font-size:16px;font-weight:600}
+.loading .sub{font-size:13px;color:var(--muted)}
+.pbar{width:260px;height:5px;border-radius:3px;background:rgba(255,255,255,0.06);margin-top:8px;overflow:hidden}
+.pfill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),#cc7a00);transition:width .3s}
+
+.err{text-align:center;padding:60px 20px}
+.err .msg{font-size:20px;font-weight:700;margin-bottom:8px}
+.err .detail{font-size:13px;color:var(--muted);margin-bottom:20px}
+.err button{padding:10px 24px;border-radius:8px;border:1px solid rgba(255,153,0,0.3);background:transparent;color:var(--accent);cursor:pointer;font-size:14px;font-family:inherit;font-weight:600}
+
+.footer{text-align:center;padding:20px;font-size:10px;color:rgba(255,255,255,0.06);letter-spacing:1.5px}
+.empty{text-align:center;padding:48px 20px;color:var(--muted);font-size:15px}
+
+/* ── MODAL ── */
+.modal-bg{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:100;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.modal{background:#111;border:1px solid var(--border);border-radius:16px;padding:28px 32px;max-width:560px;width:90%;max-height:85vh;overflow-y:auto;position:relative}
+.modal-close{position:absolute;top:12px;right:16px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:inherit;padding:4px 8px;border-radius:6px}
+.modal-close:hover{color:var(--text);background:rgba(255,255,255,0.05)}
+.modal-name{font-size:22px;font-weight:800;margin-bottom:2px}
+.modal-spec{font-size:14px;color:var(--muted);margin-bottom:16px}
+.modal-section{font-size:11px;font-weight:700;color:var(--faint);letter-spacing:1px;margin:18px 0 8px}
+.modal-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.03);font-size:13px}
+.modal-row:last-child{border:none}
+.modal-row .lbl{color:var(--muted)}
+.modal-row .val{font-weight:600}
+.modal-gear{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.modal-slot{display:flex;justify-content:space-between;padding:5px 10px;border-radius:6px;background:rgba(255,255,255,0.02);font-size:12px}
+.modal-slot .sl{color:var(--muted)}
+.modal-slot .sv{font-weight:600}
+.modal-slot.ok .sv{color:#4ade80}
+.modal-slot.miss .sv{color:#f87171}
+.modal-drow{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:13px;border-bottom:1px solid rgba(255,255,255,0.025)}
+.modal-drow:last-child{border:none}
+
+/* ── SPOTLIGHT ── */
+.spotlight{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.spot-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;text-align:center}
+.spot-card .emoji{font-size:24px;margin-bottom:6px}
+.spot-card .title{font-size:10px;color:var(--accent);font-weight:700;letter-spacing:1px;margin-bottom:6px}
+.spot-card .name{font-size:16px;font-weight:700;margin-bottom:2px}
+.spot-card .detail{font-size:12px;color:var(--muted)}
+
+/* ── CLICKABLE NAMES ── */
+.clickable{cursor:pointer;transition:opacity .15s}
+.clickable:hover{opacity:0.8;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.2);text-underline-offset:2px}
+
+/* ── MOBILE ── */
+@media(max-width:600px){
+  .header{padding:16px 14px 14px}
+  .h-row{flex-wrap:wrap;gap:10px}
+  .brand-r{font-size:18px;padding:3px 8px 3px 10px}
+  .brand-h{font-size:18px;padding:3px 10px 3px 8px}
+  .g-info{margin-left:4px}
+  .g-name{font-size:15px}
+  .g-sub{font-size:11px}
+  .refresh{padding:5px 10px;font-size:11px}
+  .h-stats{gap:14px}
+  .h-stat .v{font-size:18px}
+  .h-stat .l{font-size:8px}
+  .tabs{padding:12px 14px 0;gap:4px;overflow-x:auto;flex-wrap:nowrap}
+  .tab{padding:6px 12px;font-size:12px;white-space:nowrap;flex-shrink:0}
+  .content{padding:16px 14px 40px}
+  .summary{grid-template-columns:repeat(2,1fr);gap:8px}
+  .s-box{padding:14px 10px}
+  .s-box .n{font-size:28px}
+  .s-box .l{font-size:9px}
+  .card{padding:12px 14px;margin-bottom:8px}
+  .sec{font-size:10px;margin:16px 0 8px 2px}
+  .tg{font-size:9px;padding:2px 6px}
+  .spotlight{grid-template-columns:repeat(2,1fr);gap:8px}
+  .spot-card{padding:10px 12px}
+  .spot-card .emoji{font-size:20px}
+  .spot-card .name{font-size:14px}
+  .spot-card .detail{font-size:11px}
+  .modal{padding:20px 16px;width:95%;border-radius:12px}
+  .modal-name{font-size:18px}
+  .modal-gear{grid-template-columns:1fr}
+  .grid-wrap{font-size:11px}
+  .grid-wrap th{font-size:9px;padding:6px 3px}
+  .grid-wrap td{padding:5px 3px}
+  .grid-wrap td:first-child{font-size:12px}
+  .grid-cell{width:28px;height:22px;font-size:11px}
+  .ksq{width:22px;min-width:22px;height:18px;font-size:9px}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+const API="https://raider.io/api/v1";
+const G_R="us",G_S="stormrage",G_N="Rolling For Blame";
+const RAID_TIER="tier-mn-1";
+const WCL_API="https://www.warcraftlogs.com/api/v2/client";
+const WCL_CLIENT="a16d198f-79da-41e2-b24d-95a977c87f08";
+const WCL_SECRET="wg4C3r5TaccouYvrRYOybVGYwqnXvI1tPjYm6IFX";
+const ADMIN_KEY="77617263726166746c6f6773"; // hex encoded
+let RAID_DATA=null;
+const CC={Paladin:"#F58CBA",Warrior:"#C79C6E",Mage:"#69CCF0",Priest:"#FFFFFF",Warlock:"#9482C9",Hunter:"#ABD473",Rogue:"#FFF569",Shaman:"#0070DE",Druid:"#FF7D0A","Death Knight":"#C41E3A",DeathKnight:"#C41E3A",Monk:"#00FF96","Demon Hunter":"#A330C9",DemonHunter:"#A330C9",Evoker:"#33937F"};
+const ENCHANT_SLOTS=[{key:"head",label:"Head"},{key:"shoulder",label:"Shoulders"},{key:"chest",label:"Chest"},{key:"legs",label:"Legs"},{key:"feet",label:"Boots"},{key:"finger1",label:"Ring 1"},{key:"finger2",label:"Ring 2"},{key:"mainhand",label:"Weapon"}];
+const TIER_SLOTS=["head","shoulder","chest","hands","legs"];
+
+function rioColor(s){if(s>=3000)return"#ff8000";if(s>=2500)return"#a335ee";if(s>=2000)return"#0070dd";if(s>=1500)return"#1eff00";if(s>=1000)return"#fff";return"rgba(255,255,255,0.3)";}
+function ilvlColor(i){if(i>=265)return"#ff8000";if(i>=258)return"#a335ee";if(i>=250)return"#0070dd";if(i>=240)return"#1eff00";if(i>=230)return"#fff";return"#9d9d9d";}
+function keyColor(lvl,timed){if(!timed)return{bg:"rgba(248,113,113,0.2)",fg:"#fca5a5"};if(lvl>=12)return{bg:"rgba(255,128,0,0.25)",fg:"#ffb366"};if(lvl>=10)return{bg:"rgba(163,53,238,0.25)",fg:"#c084fc"};if(lvl>=7)return{bg:"rgba(0,112,221,0.25)",fg:"#60a5fa"};return{bg:"rgba(30,255,0,0.15)",fg:"#86efac"};}
+function raidScore(r){if(!r)return 0;return(r.mythic_bosses_killed||0)*300+(r.heroic_bosses_killed||0)*30+(r.normal_bosses_killed||0)*3;}
+
+function auditGear(c){
+  const issues=[];const gear=c.gear?.items;
+  if(!gear)return[{text:"No gear data",type:"warn"}];
+  for(const slot of ENCHANT_SLOTS){const item=gear[slot.key];if(!item||!item.item_id)continue;if(!item.enchants||item.enchants.length===0)issues.push({text:slot.label,type:"bad"});}
+  for(const sk of["neck","finger1","finger2"]){const item=gear[sk];if(!item||!item.item_id)continue;if(item.gems&&item.gems.length>0)continue;if(item.bonuses&&(item.bonuses.includes(13668)||item.bonuses.includes(6652)))issues.push({text:(sk==="neck"?"Neck":sk==="finger1"?"Ring 1":"Ring 2")+" gem",type:"bad"});}
+  return issues;
+}
+
+function countTier(c){
+  const gear=c.gear?.items;if(!gear)return 0;
+  let count=0;
+  for(const slot of TIER_SLOTS){
+    const item=gear[slot];
+    if(!item||!item.item_id)continue;
+    // Tier pieces have tier-specific bonus IDs and come from raid drops
+    // Check for the tier bonus flag in the item data
+    if(item.tier){count++;continue;}
+    // Fallback: check if item has set bonus indicators
+    if(item.bonuses){
+      // Tier set bonus IDs are typically in specific ranges per season
+      // Only count if we see actual tier-identifying bonuses (10299-10302 range for Midnight S1)
+      const tierBonuses=[10299,10300,10301,10302,10303,10304,10305,10306,10307,10308];
+      if(item.bonuses.some(b=>tierBonuses.includes(b)))count++;
+    }
+  }
+  return Math.min(count,5);
+}
+
+function getDungeonRuns(c){return c.mythic_plus_best_runs||[];}
+function getAllDungeons(chars){
+  const set=new Map();
+  for(const c of chars)for(const run of getDungeonRuns(c))if(!set.has(run.short_name))set.set(run.short_name,run.dungeon);
+  return Array.from(set.entries()).sort((a,b)=>a[1].localeCompare(b[1]));
+}
+function getBestKey(c,shortName){const match=getDungeonRuns(c).find(r=>r.short_name===shortName);if(!match)return null;return{level:match.mythic_level,timed:match.num_keystone_upgrades>0,score:match.score};}
+
+let S={status:"idle",progress:[0,0],guild:null,chars:[],tab:0,error:null};
+function set(p){Object.assign(S,p);render();}
+
+async function loadRaidData(){
+  try{
+    const r=await fetch('raid-data.json');
+    if(r.ok){RAID_DATA=await r.json();}
+  }catch(e){console.log('No raid data yet');}
+}
+
+async function getWCLToken(){
+  const r=await fetch('https://www.warcraftlogs.com/oauth/token',{
+    method:'POST',
+    headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:`grant_type=client_credentials&client_id=${WCL_CLIENT}&client_secret=${WCL_SECRET}`
+  });
+  if(!r.ok)throw new Error('WCL auth failed');
+  const d=await r.json();
+  return d.access_token;
+}
+
+async function fetchWCLReport(reportCode){
+  const token=await getWCLToken();
+  
+  // Get fights and player list
+  const query=`{
+    reportData {
+      report(code: "${reportCode}") {
+        fights(killType: Kills) {
+          id
+          name
+          difficulty
+          encounterID
+          startTime
+          endTime
+          kill
+        }
+        masterData {
+          actors(type: "Player") {
+            id
+            name
+            type
+            subType
+          }
+        }
+      }
+    }
+  }`;
+  
+  const r=await fetch(WCL_API,{
+    method:'POST',
+    headers:{'Authorization':`Bearer ${token}`,'Content-Type':'application/json'},
+    body:JSON.stringify({query})
+  });
+  
+  if(!r.ok)throw new Error('WCL fetch failed: '+r.status);
+  const d=await r.json();
+  if(d.errors){
+    console.error('GraphQL errors:',d.errors);
+    throw new Error('GraphQL error: '+d.errors[0].message);
+  }
+  
+  return d.data.reportData.report;
+}
+
+async function fetchWCLParses(reportCode,report){
+  const token=await getWCLToken();
+  const parses=[];
+  const fights=report.fights.filter(f=>f.kill);
+  
+  for(const fight of fights){
+    // Get both table data (for damage/healing) AND rankings (for parse %)
+    const query=`{
+      reportData {
+        report(code: "${reportCode}") {
+          table(
+            fightIDs: [${fight.id}]
+            startTime: ${fight.startTime}
+            endTime: ${fight.endTime}
+          )
+          rankings(fightIDs: [${fight.id}])
+        }
+      }
+    }`;
+    
+    const r=await fetch(WCL_API,{
+      method:'POST',
+      headers:{'Authorization':`Bearer ${token}`,'Content-Type':'application/json'},
+      body:JSON.stringify({query})
+    });
+    
+    if(r.ok){
+      const d=await r.json();
+      
+      if(d.errors){
+        console.error('Fight',fight.id,'errors:',d.errors);
+      }
+      
+      let tableData=d.data?.reportData?.report?.table;
+      let rankingsData=d.data?.reportData?.report?.rankings;
+      
+      // Parse JSON strings
+      if(tableData && typeof tableData==='string'){
+        tableData=JSON.parse(tableData);
+      }
+      if(rankingsData && typeof rankingsData==='string'){
+        rankingsData=JSON.parse(rankingsData);
+      }
+      
+      console.log('Fight',fight.id,fight.name,'- table:',tableData);
+      console.log('Fight',fight.id,fight.name,'- rankings:',rankingsData);
+      
+      parses.push({
+        fight:fight,
+        tableData:tableData,
+        rankingsData:rankingsData
+      });
+    }
+    
+    await sleep(300);
+  }
+  
+  return parses;
+}
+
+function processRaidData(report,parses){
+  const players=new Map();
+  const fightGuildMetrics=new Map(); // Track guild metrics per fight
+  
+  for(const p of parses){
+    const fight=p.fight;
+    const tableData=p.tableData;
+    const rankingsData=p.rankingsData;
+    
+    console.log('Processing fight:',fight.name);
+    
+    if(!tableData||!tableData.data){
+      console.log('  No table data, skipping');
+      continue;
+    }
+    
+    // Build a map of player NAME to parse % from rankings
+    const parseMap=new Map();
+    let guildSpeed=null;
+    let guildExecution=null;
+    
+    if(rankingsData&&rankingsData.data&&rankingsData.data[0]){
+      const rankData=rankingsData.data[0];
+      
+      // Extract guild-level speed and execution rankings
+      if(rankData.speed){
+        guildSpeed=rankData.speed.rank||null;
+      }
+      if(rankData.execution){
+        guildExecution=rankData.execution.rank||null;
+      }
+      
+      // Store guild metrics for this fight
+      const fightKey=`${fight.encounterID}-${fight.difficulty}`;
+      fightGuildMetrics.set(fightKey,{speed:guildSpeed,execution:guildExecution});
+      
+      if(rankData.roles){
+        const roles=rankData.roles;
+        
+        // Process DPS
+        if(roles.dps&&roles.dps.characters){
+          for(const char of roles.dps.characters){
+            parseMap.set(char.name,{
+              parse:char.rankPercent||0,
+              rank:char.rank||null,
+              spec:char.spec||'Unknown',
+              role:'DPS',
+              amount:char.amount||0
+            });
+          }
+        }
+        
+        // Process Healers
+        if(roles.healers&&roles.healers.characters){
+          for(const char of roles.healers.characters){
+            parseMap.set(char.name,{
+              parse:char.rankPercent||0,
+              rank:char.rank||null,
+              spec:char.spec||'Unknown',
+              role:'HEALING',
+              amount:char.amount||0
+            });
+          }
+        }
+        
+        // Process Tanks
+        if(roles.tanks&&roles.tanks.characters){
+          for(const char of roles.tanks.characters){
+            parseMap.set(char.name,{
+              parse:char.rankPercent||0,
+              rank:char.rank||null,
+              spec:char.spec||'Unknown',
+              role:'TANK',
+              amount:char.amount||0
+            });
+          }
+        }
+      }
+      
+      console.log('  Built parseMap with',parseMap.size,'entries');
+      if(guildSpeed)console.log('  Guild speed rank:',guildSpeed);
+      if(guildExecution)console.log('  Guild execution rank:',guildExecution);
+    }else{
+      console.log('  No rankings data');
+    }
+    
+    // Process players from table data
+    const composition=tableData.data.composition||[];
+    const damageDone=tableData.data.damageDone||[];
+    const healingDone=tableData.data.healingDone||[];
+    
+    console.log('  Composition has',composition.length,'players');
+    
+    for(let i=0;i<composition.length;i++){
+      const comp=composition[i];
+      const actor=report.masterData.actors.find(a=>a.id===comp.id);
+      
+      if(!actor){
+        console.log('  Player',comp.id,'not found in masterData');
+        continue;
+      }
+      if(actor.type!=="Player"){
+        console.log('  Actor',comp.id,actor.name,'is not a Player, type:',actor.type);
+        continue;
+      }
+      
+      // Match by NAME instead of ID
+      const parseData=parseMap.get(actor.name);
+      if(!parseData){
+        console.log('  No parse data for',actor.name);
+        continue;
+      }
+      
+      if(!players.has(actor.name)){
+        players.set(actor.name,{
+          name:actor.name,
+          class:actor.subType,
+          role:parseData.role,
+          bosses:[]
+        });
+      }
+      
+      const player=players.get(actor.name);
+      
+      player.bosses.push({
+        boss:fight.name,
+        encounterID:fight.encounterID||0,
+        difficulty:fight.difficulty||0,
+        parse:Math.round(parseData.parse),
+        rank:parseData.rank||null,
+        amount:parseData.amount||0,
+        spec:parseData.spec
+      });
+      
+      console.log('  Added',actor.name,'with parse:',parseData.parse,'rank:',parseData.rank,'amount:',parseData.amount);
+    }
+  }
+  
+  console.log('Total unique players:',players.size);
+  
+  const result=[];
+  for(const[name,data]of players){
+    if(data.bosses.length===0)continue;
+    const avg=data.bosses.reduce((s,b)=>s+b.parse,0)/data.bosses.length;
+    const best=data.bosses.reduce((max,b)=>b.parse>max.parse?b:max,{parse:0,boss:''});
+    result.push({...data,avgParse:Math.round(avg),bestParse:best});
+  }
+  
+  // Build fights array with guild metrics
+  const fightMetrics=[];
+  const seenFights=new Set();
+  
+  for(const p of parses){
+    const fightKey=`${p.fight.encounterID}-${p.fight.difficulty}`;
+    if(seenFights.has(fightKey))continue;
+    seenFights.add(fightKey);
+    
+    const fightData={
+      name:p.fight.name,
+      encounterID:p.fight.encounterID||0,
+      difficulty:p.fight.difficulty||0
+    };
+    
+    const metrics=fightGuildMetrics.get(fightKey);
+    if(metrics){
+      if(metrics.speed)fightData.guildSpeed=metrics.speed;
+      if(metrics.execution)fightData.guildExecution=metrics.execution;
+    }
+    
+    fightMetrics.push(fightData);
+  }
+  
+  return{
+    updated:new Date().toISOString(),
+    players:result,
+    fights:fightMetrics
+  };
+}
+
+async function fetchGuild(){const r=await fetch(`${API}/guilds/profile?region=${G_R}&realm=${encodeURIComponent(G_S)}&name=${encodeURIComponent(G_N)}&fields=raid_progression,members`);if(!r.ok)throw new Error("Guild fetch failed: "+r.status);return r.json();}
+async function fetchChar(realm,name){
+  try{const r=await fetch(`${API}/characters/profile?region=${G_R}&realm=${encodeURIComponent(realm)}&name=${encodeURIComponent(name)}&fields=mythic_plus_scores_by_season:current,mythic_plus_best_runs:all,raid_progression,gear`);
+  if(!r.ok)return null;return r.json();}catch(e){return null;}
+}
+function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
+async function loadAll(){
+  try{
+    set({status:"guild",error:null});
+    await loadRaidData();
+    const guild=await fetchGuild();set({guild});
+    const cutoff=new Date();cutoff.setDate(cutoff.getDate()-60);
+    const recent=guild.members.filter(m=>{const d=new Date(m.character.last_crawled_at);return d>cutoff&&m.character.active_spec_name;});
+    set({status:"chars"});
+    const chars=[];
+    for(let i=0;i<recent.length;i+=8){
+      const chunk=recent.slice(i,i+8);
+      const res=await Promise.all(chunk.map(m=>fetchChar(m.character.realm,m.character.name)));
+      res.forEach(r=>{if(r){const il=r.gear?.item_level_equipped||0;if(il===0||il<300)chars.push(r);}});
+      set({progress:[Math.min(recent.length,i+8),recent.length],chars:[...chars]});
+      if(i+8<recent.length)await sleep(200);
+    }
+    set({status:"done",chars});
+  }catch(e){set({status:"error",error:e.message});}
+}
+
+function h(t,a,...c){const el=document.createElement(t);if(a)Object.entries(a).forEach(([k,v])=>{if(k==="style"&&typeof v==="object")Object.assign(el.style,v);else if(k.startsWith("on"))el.addEventListener(k.slice(2).toLowerCase(),v);else el.setAttribute(k,v);});c.flat(9).forEach(x=>{if(x!=null)el.appendChild(typeof x==="string"?document.createTextNode(x):x);});return el;}
+
+function rankBadge(i){
+  if(i<3){const cols=["#FF9900","#C0C0C0","#CD7F32"];
+    return h("div",{style:{width:"32px",height:"32px",borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:"900",fontSize:"14px",flexShrink:"0",background:cols[i],color:"#000",fontFamily:"inherit"}},""+(i+1));}
+  return h("div",{style:{width:"32px",height:"32px",borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:"700",fontSize:"13px",flexShrink:"0",background:"rgba(255,255,255,0.04)",color:"var(--faint)",border:"1px solid var(--border)"}},""+(i+1));
+}
+
+// ═══════════════════════════════════════
+// ADMIN MODAL
+// ═══════════════════════════════════════
+function showAdmin(){
+  const existing=document.querySelector('.modal-bg');if(existing)existing.remove();
+  let stage='auth';
+  let reportData=RAID_DATA?JSON.parse(JSON.stringify(RAID_DATA)):null; // Copy loaded data if exists
+  
+  const bg=h("div",{class:"modal-bg",onclick:function(e){if(e.target===bg)bg.remove();}});
+  const modal=h("div",{class:"modal",style:{maxWidth:"700px"}},
+    h("button",{class:"modal-close",onclick:()=>bg.remove()},"\u2715"),
+    h("div",{class:"modal-name"},"Update Raid Logs"),
+    h("div",{class:"modal-spec"},"Paste a Warcraftlogs report URL to update raid data")
+  );
+  
+  const content=h("div",{id:"admin-content"});
+  modal.appendChild(content);
+  
+  function renderAuth(){
+    content.innerHTML='';
+    content.appendChild(h("div",{style:{marginTop:"16px"}},
+      h("label",{style:{fontSize:"12px",color:"var(--muted)",display:"block",marginBottom:"6px"}},"Admin Password"),
+      h("input",{
+        type:"password",
+        id:"admin-pw",
+        placeholder:"Enter password",
+        style:{width:"100%",padding:"10px 14px",borderRadius:"8px",border:"1px solid var(--border)",background:"rgba(255,255,255,0.03)",color:"var(--text)",fontSize:"14px",fontFamily:"inherit"},
+        onkeydown:function(e){if(e.key==='Enter')checkPw();}
+      }),
+      h("button",{
+        style:{marginTop:"12px",padding:"10px 20px",borderRadius:"8px",border:"1px solid var(--accent)",background:"var(--accent)",color:"#000",fontWeight:"600",cursor:"pointer",fontSize:"14px",fontFamily:"inherit"},
+        onclick:checkPw
+      },"Unlock")
+    ));
+    setTimeout(()=>document.getElementById('admin-pw')?.focus(),100);
+  }
+  
+  function checkPw(){
+    const val=document.getElementById('admin-pw')?.value||'';
+    const enc=Array.from(val).map(c=>c.charCodeAt(0).toString(16).padStart(2,'0')).join('');
+    if(enc===ADMIN_KEY){stage='input';renderInput();}
+    else{alert('Incorrect password');}
+  }
+  
+  function renderInput(){
+    content.innerHTML='';
+    content.appendChild(h("div",{style:{marginTop:"16px"}},
+      h("label",{style:{fontSize:"12px",color:"var(--muted)",display:"block",marginBottom:"6px"}},"Warcraftlogs Report URL"),
+      h("input",{
+        type:"text",
+        id:"wcl-url",
+        placeholder:"https://www.warcraftlogs.com/reports/...",
+        style:{width:"100%",padding:"10px 14px",borderRadius:"8px",border:"1px solid var(--border)",background:"rgba(255,255,255,0.03)",color:"var(--text)",fontSize:"14px",fontFamily:"inherit"}
+      }),
+      h("label",{style:{display:"flex",alignItems:"center",gap:"8px",marginTop:"12px",fontSize:"13px",color:"var(--text)",cursor:"pointer"}},
+        h("input",{type:"checkbox",id:"append-mode",style:{width:"16px",height:"16px",cursor:"pointer"}}),
+        h("span",{},"Append to existing data (merge with current raid-data.json)")
+      ),
+      h("div",{style:{display:"flex",gap:"10px",marginTop:"12px"}},
+        h("button",{
+          style:{padding:"10px 20px",borderRadius:"8px",border:"1px solid var(--accent)",background:"var(--accent)",color:"#000",fontWeight:"600",cursor:"pointer",fontSize:"14px",fontFamily:"inherit"},
+          onclick:fetchReport
+        },"Fetch Data"),
+        h("button",{
+          style:{padding:"10px 20px",borderRadius:"8px",border:"1px solid #ef4444",background:"transparent",color:"#ef4444",fontWeight:"600",cursor:"pointer",fontSize:"14px",fontFamily:"inherit"},
+          onclick:()=>{if(confirm('Reset all raid data? This cannot be undone.')){reportData=null;content.innerHTML='';content.appendChild(h("div",{style:{padding:"20px",textAlign:"center",color:"var(--muted)"}},"Data reset. Paste a new report URL above."));}}
+        },"Reset All Data")
+      ),
+      h("div",{id:"fetch-status",style:{marginTop:"12px",fontSize:"13px",color:"var(--muted)"}})
+    ));
+  }
+  
+  async function fetchReport(){
+    const url=(document.getElementById('wcl-url')?.value||'').trim();
+    const match=url.match(/reports\/([a-zA-Z0-9]+)/);
+    if(!match){alert('Invalid WCL URL');return;}
+    
+    const code=match[1];
+    const status=document.getElementById('fetch-status');
+    const appendMode=document.getElementById('append-mode')?.checked||false;
+    
+    status.textContent='Fetching report...';
+    
+    try{
+      const report=await fetchWCLReport(code);
+      console.log('GraphQL Report data:',report);
+      
+      const kills=report.fights.filter(f=>f.kill);
+      status.textContent='Fetching parse data ('+kills.length+' kills)...';
+      
+      const parses=await fetchWCLParses(code,report);
+      console.log('GraphQL Parse data:',parses);
+      
+      const newData=processRaidData(report,parses);
+      console.log('Processed new data:',newData);
+      
+      if(appendMode&&reportData){
+        // Merge with existing data
+        reportData=mergeRaidData(reportData,newData);
+        console.log('Merged with existing data:',reportData);
+        status.textContent='Merged with existing data';
+      }else{
+        reportData=newData;
+        status.textContent='';
+      }
+      
+      renderPreview();
+    }catch(e){
+      console.error('Fetch error:',e);
+      status.textContent='Error: '+e.message;
+    }
+  }
+  
+  function mergeRaidData(existing,newData){
+    const playerMap=new Map();
+    
+    // Load existing players
+    for(const p of existing.players){
+      playerMap.set(p.name,JSON.parse(JSON.stringify(p))); // Deep copy
+    }
+    
+    // Merge new players
+    for(const p of newData.players){
+      if(!playerMap.has(p.name)){
+        playerMap.set(p.name,JSON.parse(JSON.stringify(p)));
+      }else{
+        const existing=playerMap.get(p.name);
+        
+        // Merge bosses - keep best parse for each boss+difficulty combo
+        for(const newBoss of p.bosses){
+          // Find matching boss by name, encounterID, AND difficulty
+          const existingBoss=existing.bosses.find(b=>
+            b.boss===newBoss.boss&&b.encounterID===newBoss.encounterID&&b.difficulty===newBoss.difficulty
+          );
+          
+          if(!existingBoss){
+            // New boss kill, add it
+            existing.bosses.push(newBoss);
+          }else if(newBoss.parse>existingBoss.parse){
+            // Better parse, replace it
+            Object.assign(existingBoss,newBoss);
+          }
+          // Otherwise keep existing (it's better or equal)
+        }
+        
+        // Recalculate avg and best parse
+        const avg=existing.bosses.reduce((s,b)=>s+b.parse,0)/existing.bosses.length;
+        const best=existing.bosses.reduce((max,b)=>b.parse>max.parse?b:max,{parse:0,boss:''});
+        existing.avgParse=Math.round(avg);
+        existing.bestParse=best;
+      }
+    }
+    
+    // Merge fights list (dedupe by encounterID + difficulty)
+    const fightMap=new Map();
+    for(const f of existing.fights){
+      const key=`${f.encounterID}-${f.difficulty}`;
+      fightMap.set(key,f);
+    }
+    for(const f of newData.fights){
+      const key=`${f.encounterID}-${f.difficulty}`;
+      if(!fightMap.has(key)){
+        fightMap.set(key,f);
+      }
+    }
+    
+    return{
+      updated:new Date().toISOString(),
+      players:Array.from(playerMap.values()),
+      fights:Array.from(fightMap.values())
+    };
+  }
+  
+  function renderPreview(){
+    content.innerHTML='';
+    content.appendChild(h("div",{style:{marginTop:"16px"}},
+      h("div",{style:{fontSize:"13px",color:"var(--muted)",marginBottom:"12px"}},"Found "+reportData.players.length+" players across "+reportData.fights.length+" boss kills"),
+      h("div",{style:{maxHeight:"300px",overflowY:"auto",background:"rgba(255,255,255,0.02)",borderRadius:"8px",padding:"12px",marginBottom:"12px"}},
+        ...reportData.players.slice(0,10).map(p=>
+          h("div",{style:{fontSize:"12px",padding:"4px 0",borderBottom:"1px solid rgba(255,255,255,0.03)"}},
+            h("span",{style:{fontWeight:"600",color:CC[p.class]||"#fff"}},p.name),
+            " — ",
+            h("span",{style:{color:"var(--muted)"}},p.avgParse+"% avg"),
+            " — ",
+            h("span",{style:{color:"var(--accent)"}},p.bestParse.parse+"% "+p.bestParse.boss)
+          )
+        ),
+        reportData.players.length>10?h("div",{style:{fontSize:"11px",color:"var(--faint)",marginTop:"8px"}},"..."+(reportData.players.length-10)+" more"):null
+      ),
+      h("button",{
+        style:{padding:"10px 20px",borderRadius:"8px",border:"1px solid var(--accent)",background:"var(--accent)",color:"#000",fontWeight:"600",cursor:"pointer",fontSize:"14px",fontFamily:"inherit"},
+        onclick:exportData
+      },"Export raid-data.json")
+    ));
+  }
+  
+  function exportData(){
+    const blob=new Blob([JSON.stringify(reportData,null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;
+    a.download='raid-data.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    
+    content.innerHTML='';
+    content.appendChild(h("div",{style:{marginTop:"16px",textAlign:"center"}},
+      h("div",{style:{fontSize:"16px",fontWeight:"600",color:"#4ade80",marginBottom:"8px"}},"\u2713 File Downloaded"),
+      h("div",{style:{fontSize:"13px",color:"var(--muted)",marginBottom:"16px"}},"Upload raid-data.json to your GitHub repo, then refresh the site"),
+      h("button",{
+        style:{padding:"10px 20px",borderRadius:"8px",border:"1px solid var(--border)",background:"transparent",color:"var(--text)",cursor:"pointer",fontSize:"14px",fontFamily:"inherit"},
+        onclick:()=>bg.remove()
+      },"Close")
+    ));
+  }
+  
+  renderAuth();
+  bg.appendChild(modal);
+  document.body.appendChild(bg);
+}
+
+// ═══════════════════════════════════════
+// PLAYER PROFILE MODAL
+// ═══════════════════════════════════════
+function showProfile(c){
+  const existing=document.querySelector('.modal-bg');if(existing)existing.remove();
+  const ilvl=Math.round(c.gear?.item_level_equipped||0);
+  const rio=Math.round(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0);
+  const r=c.raid_progression?.[RAID_TIER];
+  const issues=auditGear(c);
+  const tier=countTier(c);
+  const runs=getDungeonRuns(c);
+  const gear=c.gear?.items||{};
+
+  const bg=h("div",{class:"modal-bg",onclick:function(e){if(e.target===bg)bg.remove();}});
+  const modal=h("div",{class:"modal"},
+    h("button",{class:"modal-close",onclick:()=>bg.remove()},"\u2715"),
+    h("div",{class:"modal-name",style:{color:CC[c.class]||"#fff"}},c.name),
+    h("div",{class:"modal-spec"},c.active_spec_name+" "+c.class+" \u00b7 "+c.realm),
+
+    // Overview
+    h("div",{class:"modal-section"},"OVERVIEW"),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Item Level"),h("span",{class:"val",style:{color:ilvlColor(ilvl)}},""+ilvl)),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"M+ Score"),h("span",{class:"val",style:{color:rioColor(rio)}},rio>0?""+rio:"None")),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Raid Progress"),h("span",{class:"val",style:{color:"#a335ee"}},r?.summary||"None")),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Tier Set"),h("span",{class:"val",style:{color:tier>=4?"var(--accent)":tier>=2?"#fde68a":"var(--muted)"}},tier>=4?"4-piece":tier>=2?"2-piece":"None")),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Enchants"),h("span",{class:"val",style:{color:issues.length===0?"#4ade80":"#f87171"}},issues.length===0?"All enchanted":issues.length+" missing")),
+
+    // Enchant Details
+    h("div",{class:"modal-section"},"ENCHANT AUDIT"),
+    h("div",{class:"modal-gear"},
+      ...ENCHANT_SLOTS.map(slot=>{
+        const item=gear[slot.key];
+        const hasEnchant=item&&item.enchants&&item.enchants.length>0;
+        const hasItem=item&&item.item_id;
+        return h("div",{class:"modal-slot "+(hasItem?(hasEnchant?"ok":"miss"):"")},
+          h("span",{class:"sl"},slot.label),
+          h("span",{class:"sv"},!hasItem?"No item":hasEnchant?"\u2713":"Missing")
+        );
+      })
+    )
+  );
+
+  // Dungeon Runs
+  if(runs.length){
+    modal.appendChild(h("div",{class:"modal-section"},"MYTHIC+ BEST RUNS"));
+    const sorted=[...runs].sort((a,b)=>b.mythic_level-a.mythic_level);
+    for(const run of sorted){
+      const kc=keyColor(run.mythic_level,run.num_keystone_upgrades>0);
+      modal.appendChild(h("div",{class:"modal-drow"},
+        h("span",{style:{color:"var(--text)",fontWeight:"500"}},run.dungeon),
+        h("div",{style:{display:"flex",alignItems:"center",gap:"10px"}},
+          h("span",{style:{fontSize:"11px",color:"var(--muted)"}},run.num_keystone_upgrades>0?"Timed":"Depleted"),
+          h("span",{style:{fontWeight:"700",color:kc.fg,fontSize:"15px"}},"+"+run.mythic_level),
+          h("span",{style:{fontSize:"12px",color:"var(--muted)"}},Math.round(run.score)+" pts")
+        )
+      ));
+    }
+  }
+
+  // Raider.IO link
+  modal.appendChild(h("div",{style:{marginTop:"18px",textAlign:"center"}},
+    h("a",{href:"https://raider.io/characters/"+G_R+"/"+encodeURIComponent(c.realm)+"/"+encodeURIComponent(c.name),target:"_blank",style:{color:"var(--accent)",fontSize:"12px",fontWeight:"600",textDecoration:"none"}},"View on Raider.IO \u2197")
+  ));
+
+  bg.appendChild(modal);
+  document.body.appendChild(bg);
+}
+
+// Helper to make clickable names
+function clickName(c,style){
+  return h("span",{class:"clickable",style:style||{},onclick:function(e){e.stopPropagation();showProfile(c);}},c.name);
+}
+
+// ═══════════════════════════════════════
+// WEEKLY SPOTLIGHT
+// ═══════════════════════════════════════
+function getActiveDifficulty(){
+  if(!RAID_DATA||!RAID_DATA.fights)return null;
+  
+  // Count boss kills per difficulty
+  const killsByDiff={5:0,4:0,3:0};
+  const seenBosses={5:new Set(),4:new Set(),3:new Set()};
+  
+  for(const fight of RAID_DATA.fights){
+    const key=`${fight.encounterID}`;
+    if(!seenBosses[fight.difficulty].has(key)){
+      seenBosses[fight.difficulty].add(key);
+      killsByDiff[fight.difficulty]++;
+    }
+  }
+  
+  // Return highest difficulty with 2+ kills
+  if(killsByDiff[5]>=2)return 5; // Mythic
+  if(killsByDiff[4]>=2)return 4; // Heroic
+  if(killsByDiff[3]>=2)return 3; // Normal
+  return null;
+}
+
+function renderSpotlight(){
+  const withRio=S.chars.filter(c=>(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0)>0);
+  const withRaid=S.chars.filter(c=>{const r=c.raid_progression?.[RAID_TIER];return r&&raidScore(r)>0;});
+  const runs=S.chars.map(c=>({c,count:getDungeonRuns(c).length,highest:getDungeonRuns(c).length?Math.max(...getDungeonRuns(c).map(r=>r.mythic_level)):0}));
+
+  const activeDiff=getActiveDifficulty();
+  console.log('Spotlight activeDiff:', activeDiff);
+  console.log('RAID_DATA exists:', !!RAID_DATA);
+  const spots=[];
+
+  // 1. Highest M+ key
+  const keyPusher=runs.filter(r=>r.highest>0).sort((a,b)=>b.highest-a.highest)[0];
+  if(keyPusher){
+    spots.push({emoji:"\u{1F511}",title:"KEY PUSHER",name:keyPusher.c.name,cls:keyPusher.c.class,detail:"+"+keyPusher.highest+" highest key"});
+  }
+
+  // 2. Well Rounded
+  const wellRounded=S.chars.map(c=>{
+    const rio=c.mythic_plus_scores_by_season?.[0]?.scores?.all||0;
+    let raidParse=0;
+    if(RAID_DATA&&activeDiff){
+      const pd=RAID_DATA.players.find(p=>p.name.toLowerCase()===c.name.toLowerCase());
+      if(pd){
+        const diffBosses=pd.bosses.filter(b=>b.difficulty===activeDiff);
+        if(diffBosses.length>=2){
+          raidParse=Math.round(diffBosses.reduce((s,b)=>s+b.parse,0)/diffBosses.length);
+        }
+      }
+    }
+    const combined=Math.round(rio*0.6+raidParse*4);
+    return{c,combined};
+  }).filter(x=>x.combined>0).sort((a,b)=>b.combined-a.combined);
+  
+  if(wellRounded.length>0){
+    const wr=wellRounded[0];
+    spots.push({emoji:"\u{2696}\uFE0F",title:"WELL ROUNDED",name:wr.c.name,cls:wr.c.class,detail:wr.combined+" combined"});
+  }
+
+  // 3. Highest RIO
+  const rioLeader=withRio.sort((a,b)=>(b.mythic_plus_scores_by_season?.[0]?.scores?.all||0)-(a.mythic_plus_scores_by_season?.[0]?.scores?.all||0))[0];
+  if(rioLeader){
+    const s=Math.round(rioLeader.mythic_plus_scores_by_season?.[0]?.scores?.all||0);
+    spots.push({emoji:"\u{1F3B2}",title:"R.IO LEADER",name:rioLeader.name,cls:rioLeader.class,detail:s+" score"});
+  }
+
+  // 4. Highest ilvl
+  const bestGeared=[...S.chars].sort((a,b)=>(b.gear?.item_level_equipped||0)-(a.gear?.item_level_equipped||0))[0];
+  if(bestGeared){
+    spots.push({emoji:"\u{1F48E}",title:"BEST GEARED",name:bestGeared.name,cls:bestGeared.class,detail:Math.round(bestGeared.gear?.item_level_equipped||0)+" ilvl"});
+  }
+
+  // 5. Parse God (DPS only, active difficulty)
+  if(RAID_DATA&&activeDiff){
+    console.log('Total RAID_DATA.players:', RAID_DATA.players.length);
+    const allDPS=RAID_DATA.players.filter(p=>p.role==='DPS');
+    console.log('DPS players:', allDPS.length);
+    
+    const dpsParsers=allDPS.map(p=>{
+      const diffBosses=p.bosses.filter(b=>b.difficulty===activeDiff);
+      console.log(p.name, 'has', diffBosses.length, 'bosses in difficulty', activeDiff);
+      const best=diffBosses.reduce((max,b)=>b.parse>max.parse?b:max,{parse:0,boss:''});
+      return{p,best};
+    }).filter(x=>x.best.parse>0).sort((a,b)=>b.best.parse-a.best.parse);
+    
+    console.log('Parse God candidates:', dpsParsers.length, dpsParsers.slice(0,3));
+    
+    if(dpsParsers.length>0){
+      const dp=dpsParsers[0];
+      const char=S.chars.find(c=>c.name.toLowerCase()===dp.p.name.toLowerCase());
+      if(char){
+        spots.push({emoji:"\u{1F525}",title:"PARSE GOD",name:char.name,cls:char.class,detail:dp.best.parse+"% "+dp.best.boss.split(',')[0]});
+      }
+    }
+  }
+
+  // 6. Healing Hero
+  if(RAID_DATA&&activeDiff){
+    const healers=RAID_DATA.players.filter(p=>p.role==='HEALING').map(p=>{
+      const diffBosses=p.bosses.filter(b=>b.difficulty===activeDiff);
+      if(diffBosses.length<2)return null;
+      const avg=Math.round(diffBosses.reduce((s,b)=>s+b.parse,0)/diffBosses.length);
+      return{p,avg};
+    }).filter(x=>x&&x.avg>0).sort((a,b)=>b.avg-a.avg);
+    
+    if(healers.length>0){
+      const h=healers[0];
+      const char=S.chars.find(c=>c.name.toLowerCase()===h.p.name.toLowerCase());
+      if(char){
+        spots.push({emoji:"\u{1F49A}",title:"HEALING HERO",name:char.name,cls:char.class,detail:h.avg+"% avg"});
+      }
+    }
+  }
+
+  // 7. Tank MVP
+  if(RAID_DATA&&activeDiff){
+    const tanks=RAID_DATA.players.filter(p=>p.role==='TANK').map(p=>{
+      const diffBosses=p.bosses.filter(b=>b.difficulty===activeDiff);
+      if(diffBosses.length<2)return null;
+      const avg=Math.round(diffBosses.reduce((s,b)=>s+b.parse,0)/diffBosses.length);
+      return{p,avg};
+    }).filter(x=>x&&x.avg>0).sort((a,b)=>b.avg-a.avg);
+    
+    if(tanks.length>0){
+      const t=tanks[0];
+      const char=S.chars.find(c=>c.name.toLowerCase()===t.p.name.toLowerCase());
+      if(char){
+        spots.push({emoji:"\u{1F6E1}\uFE0F",title:"TANK MVP",name:char.name,cls:char.class,detail:t.avg+"% avg"});
+      }
+    }
+  }
+
+  // 8. King of the Hill - best ranked 99%+ parse from any difficulty
+  if(RAID_DATA){
+    const allParses=[];
+    for(const p of RAID_DATA.players){
+      for(const b of p.bosses){
+        if(b.parse>=99&&b.rank){
+          const rankNum=parseInt(String(b.rank).replace('~',''));
+          if(!isNaN(rankNum)){
+            const diffLabel={3:'N',4:'H',5:'M'}[b.difficulty]||'';
+            allParses.push({player:p.name,cls:p.class,boss:b.boss,parse:b.parse,rank:rankNum,diff:diffLabel});
+          }
+        }
+      }
+    }
+    allParses.sort((a,b)=>a.rank-b.rank);
+    
+    console.log('KOTH: Found',allParses.length,'99+ parses:',allParses);
+    
+    if(allParses.length>0){
+      const top=allParses[0];
+      console.log('KOTH winner:',top);
+      const char=S.chars.find(c=>c.name.toLowerCase()===top.player.toLowerCase());
+      console.log('In roster?',!!char);
+      if(char){
+        spots.push({emoji:"\u{1F451}",title:"KING OF THE HILL",name:char.name,cls:char.class,detail:top.parse+"% "+top.boss.split(',')[0]+" "+top.diff+" #"+top.rank});
+      }
+    }else{
+      console.log('KOTH: No 99% parses, using fallback');
+      // Fallback: Top Parser if no 99% parses
+      const allParsers=RAID_DATA.players.map(p=>{
+        const best=p.bosses.reduce((max,b)=>b.parse>max.parse?b:max,{parse:0,boss:'',difficulty:0});
+        return{p,best};
+      }).filter(x=>x.best.parse>0).sort((a,b)=>b.best.parse-a.best.parse);
+      
+      console.log('Top 5 parsers:',allParsers.slice(0,5).map(x=>({name:x.p.name,parse:x.best.parse,boss:x.best.boss})));
+      
+      if(allParsers.length>0){
+        const candidate=allParsers[0];
+        const char=S.chars.find(c=>c.name.toLowerCase()===candidate.p.name.toLowerCase());
+        if(char){
+          const diffLabel={3:'N',4:'H',5:'M'}[candidate.best.difficulty]||'';
+          spots.push({emoji:"\u{1F525}",title:"TOP PARSER",name:char.name,cls:char.class,detail:candidate.best.parse+"% "+candidate.best.boss.split(',')[0]+" "+diffLabel});
+        }
+      }
+    }
+  }
+
+  if(!spots.length)return null;
+
+  return h("div",{class:"spotlight"},
+    ...spots.map(s=>h("div",{class:"spot-card"},
+      h("div",{class:"emoji"},s.emoji),
+      h("div",{class:"title"},s.title),
+      h("div",{class:"name",style:{color:CC[s.cls]||"#fff"}},s.name),
+      h("div",{class:"detail"},s.detail)
+    ))
+  );
+}
+
+// ═══════════════════════════════════════
+// TAB 1: POWER RANKINGS
+// ═══════════════════════════════════════
+function renderPower(){
+  const dungeons=getAllDungeons(S.chars);
+  const ranked=S.chars.map(c=>{
+    const rio=c.mythic_plus_scores_by_season?.[0]?.scores?.all||0;
+    const r=c.raid_progression?.[RAID_TIER];
+    const mk=r?.mythic_bosses_killed||0,hk=r?.heroic_bosses_killed||0,nk=r?.normal_bosses_killed||0;
+    const ilvl=c.gear?.item_level_equipped||0;
+    const issues=auditGear(c);
+    const tier=countTier(c);
+    const runs=getDungeonRuns(c);
+    const timedCount=runs.filter(r=>r.num_keystone_upgrades>0).length;
+    const highestKey=runs.length?Math.max(...runs.map(r=>r.mythic_level)):0;
+    
+    // Get raid parse data and top 500 count
+    let raidParse=0;
+    let bestParse=null;
+    let top500Count=0;
+    let top100Count=0;
+    if(RAID_DATA){
+      const pd=RAID_DATA.players.find(p=>p.name.toLowerCase()===c.name.toLowerCase());
+      if(pd){
+        // Count top 500 and top 100 parses
+        for(const b of pd.bosses){
+          if(!b.rank)continue;
+          const rankNum=parseInt(String(b.rank).replace('~',''));
+          if(!isNaN(rankNum)){
+            if(rankNum<=500)top500Count++;
+            if(rankNum<=100)top100Count++;
+          }
+        }
+        
+        // Get parse from highest difficulty with 2+ kills
+        const byDiff={};
+        for(const b of pd.bosses){
+          const fight=RAID_DATA.fights.find(f=>f.encounterID===b.encounterID&&f.name===b.boss);
+          if(!fight)continue;
+          const diff=fight.difficulty;
+          if(!byDiff[diff])byDiff[diff]=[];
+          byDiff[diff].push(b);
+        }
+        
+        // Check Mythic (5), then Heroic (4), then Normal (3)
+        for(const diff of [5,4,3]){
+          if(byDiff[diff]&&byDiff[diff].length>=2){
+            const avg=byDiff[diff].reduce((s,b)=>s+b.parse,0)/byDiff[diff].length;
+            raidParse=Math.round(avg);
+            const best=byDiff[diff].reduce((max,b)=>b.parse>max.parse?b:max,{parse:0,boss:''});
+            bestParse=best;
+            break;
+          }
+        }
+        
+        // Fallback: if no difficulty has 2+ kills, use overall average
+        if(raidParse===0&&pd.bosses.length>0){
+          raidParse=pd.avgParse||0;
+          bestParse=pd.bestParse;
+        }
+      }
+    }
+    
+    // GPS calculation - M+ focused but raid matters
+    const raidPts=mk*100+hk*15+nk*2; // legacy raid prog bonus
+    const parsePts=Math.round(raidParse*2); // raid parse: 0-200 points (avg parse % * 2)
+    // Top 100/500 ranks removed from GPS - parse % is the performance metric
+    const rioPts=Math.round(rio*0.15); // M+ score: slightly more weight
+    const ilvlPts=Math.round(Math.max(0,ilvl-220)*1.8);
+    const enchantPts=issues.length===0?50:Math.max(0,50-issues.length*7);
+    const tierPts=tier>=4?40:tier>=2?20:0;
+    const keyPts=timedCount*8+Math.max(0,highestKey-5)*5;
+    const pts=raidPts+parsePts+rioPts+ilvlPts+enchantPts+tierPts+keyPts;
+    return{c,rio,r,ilvl,issues,tier,runs,timedCount,highestKey,pts,raidParse,bestParse,top500Count,top100Count};
+  }).filter(x=>x.pts>0).sort((a,b)=>b.pts-a.pts).slice(0,30);
+  const maxPts=ranked[0]?.pts||1;
+
+  return h("div",null,
+    renderSpotlight(),
+    h("div",{style:{marginBottom:"18px",padding:"14px 18px",background:"var(--card)",borderRadius:"10px",border:"1px solid var(--border)"}},
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",marginBottom:"8px",fontWeight:"700"}},"GUILD POWER SCORE"),
+      h("div",{style:{display:"flex",gap:"18px",flexWrap:"wrap",fontSize:"13px",color:"var(--muted)"}},
+        h("span",{style:{color:"#a335ee"}},"Raid"),
+        h("span",{style:{color:rioColor(2000)}},"M+ Score"),
+        h("span",{style:{color:"rgba(255,255,255,0.5)"}},"iLvl"),
+        h("span",{style:{color:"#4ade80"}},"Enchants"),
+        h("span",{style:{color:"var(--accent)"}},"Tier Set"),
+        h("span",{style:{color:"#60a5fa"}},"Keys Timed"),
+        RAID_DATA?h("span",{style:{color:"#ff8800"}},"Parse %"):null
+      )
+    ),
+    ...ranked.map((x,i)=>{
+      const pct=Math.round((x.pts/maxPts)*100);
+      const barCol=CC[x.c.class]||"#555";
+      const keySquares=dungeons.map(([sn,name])=>{
+        const k=getBestKey(x.c,sn);
+        if(!k)return h("div",{class:"ksq",style:{background:"rgba(255,255,255,0.06)",color:"rgba(255,255,255,0.1)",width:"26px",minWidth:"26px",height:"20px"}},"-",h("div",{class:"tt"},name+" — Not run"));
+        const kc=keyColor(k.level,k.timed);
+        return h("div",{class:"ksq",style:{background:kc.bg,color:kc.fg}},""+k.level,h("div",{class:"tt"},name+" +"+k.level+(k.timed?" timed":" depleted")));
+      });
+      
+      // Parse color based on percentile
+      function parseColor(p){
+        if(p>=99)return"#ff8000";
+        if(p>=95)return"#a335ee";
+        if(p>=75)return"#0070dd";
+        if(p>=50)return"#1eff00";
+        return"rgba(255,255,255,0.5)";
+      }
+
+      return h("div",{class:"card",style:{display:"flex",gap:"14px",alignItems:"flex-start",borderLeft:"3px solid "+(i<3?["#FF9900","#C0C0C0","#CD7F32"][i]:"transparent")}},
+        rankBadge(i),
+        h("div",{style:{flex:"1",minWidth:"0"}},
+          h("div",{style:{display:"flex",alignItems:"baseline",gap:"10px",marginBottom:"3px"}},
+            clickName(x.c,{fontSize:"17px",fontWeight:"700",color:CC[x.c.class]||"#fff"}),
+            h("span",{style:{fontSize:"22px",fontWeight:"900",color:i===0?"var(--accent)":i<3?"#fff":"rgba(255,255,255,0.75)"}},x.pts+""),
+            h("span",{style:{fontSize:"11px",color:"var(--faint)",marginLeft:"-6px",fontWeight:"600"}},"GPS")
+          ),
+          h("div",{style:{fontSize:"13px",color:"var(--muted)",marginBottom:"8px"}},x.c.active_spec_name+" "+x.c.class),
+          h("div",{style:{height:"5px",borderRadius:"3px",background:"rgba(255,255,255,0.04)",width:"100%",marginBottom:"8px"}},
+            h("div",{style:{height:"100%",borderRadius:"3px",background:barCol,width:pct+"%",transition:"width .5s ease-out"}})
+          ),
+          h("div",{style:{display:"flex",gap:"8px",alignItems:"center",fontSize:"12px",flexWrap:"wrap",marginBottom:keySquares.length?"8px":"0"}},
+            x.r?h("span",{style:{color:"#a335ee",fontWeight:"600"}},x.r.summary):null,
+            x.rio>0?h("span",{class:"tg io",style:{background:rioColor(x.rio)+"22",color:rioColor(x.rio)}},Math.round(x.rio)+" io"):null,
+            h("span",{style:{color:ilvlColor(Math.round(x.ilvl)),fontWeight:"700"}},Math.round(x.ilvl)+" ilvl"),
+            x.tier>=4?h("span",{class:"tg tier"},"4pc"):x.tier>=2?h("span",{class:"tg tier"},"2pc"):null,
+            x.issues.length===0?h("span",{class:"tg good"},"\u2713 Enchanted"):h("span",{class:"tg bad"},x.issues.length+" missing"),
+            x.highestKey>0?h("span",{style:{color:keyColor(x.highestKey,true).fg,fontWeight:"700"}},"+"+x.highestKey+" best"):null,
+            x.raidParse>0?h("span",{class:"tg",style:{background:parseColor(x.raidParse)+"22",color:parseColor(x.raidParse)}},x.raidParse+"% avg"):null,
+            x.bestParse&&x.bestParse.parse>0?h("span",{class:"tg",style:{background:parseColor(x.bestParse.parse)+"15",color:parseColor(x.bestParse.parse),border:"1px solid "+parseColor(x.bestParse.parse)+"44"}},x.bestParse.parse+"% "+x.bestParse.boss.split(',')[0]):null,
+            x.top100Count>0?h("span",{style:{fontSize:"11px",fontWeight:"700",color:"#fbbf24",background:"rgba(251,191,36,0.15)",padding:"4px 8px",borderRadius:"4px",border:"1px solid rgba(251,191,36,0.3)"}},"\u2B50 "+x.top100Count+"x Top 100"):null,
+            x.top500Count>0&&x.top100Count===0?h("span",{style:{fontSize:"11px",fontWeight:"700",color:"#a78bfa",background:"rgba(167,139,250,0.15)",padding:"4px 8px",borderRadius:"4px",border:"1px solid rgba(167,139,250,0.3)"}},"\u{1F525} "+x.top500Count+"x Top 500"):null
+          ),
+          keySquares.length?h("div",{style:{display:"flex",gap:"3px",alignItems:"center",height:"20px"}},
+            h("span",{style:{fontSize:"10px",color:"var(--faint)",marginRight:"3px",fontWeight:"600"}},"KEYS"),
+            ...keySquares
+          ):null
+        )
+      );
+    })
+  );
+}
+
+// ═══════════════════════════════════════
+// TAB 2: KEYSTONE PROGRESS
+// ═══════════════════════════════════════
+function renderKeys(){
+  const dungeons=getAllDungeons(S.chars);
+  if(!dungeons.length)return h("div",{class:"empty"},"No M+ data yet. Season just started — get in there and push some keys!");
+  const players=S.chars.filter(c=>getDungeonRuns(c).length>0).sort((a,b)=>(b.mythic_plus_scores_by_season?.[0]?.scores?.all||0)-(a.mythic_plus_scores_by_season?.[0]?.scores?.all||0)).slice(0,30);
+  if(!players.length)return h("div",{class:"empty"},"Nobody has run a key yet. Be the first!");
+
+  const allTimed12=players.filter(c=>dungeons.every(([sn])=>{const k=getBestKey(c,sn);return k&&k.level>=12&&k.timed;}));
+  const allTimed10=players.filter(c=>dungeons.every(([sn])=>{const k=getBestKey(c,sn);return k&&k.level>=10&&k.timed;}));
+  const completionData=players.map(c=>{const done=dungeons.filter(([sn])=>getBestKey(c,sn)).length;return{c,done,total:dungeons.length,pct:Math.round((done/dungeons.length)*100)};}).filter(x=>x.done>0&&x.done<x.total).sort((a,b)=>b.pct-a.pct).slice(0,5);
+
+  const el=h("div",null);
+
+  // Milestones
+  const milestones=h("div",{style:{display:"flex",gap:"12px",marginBottom:"20px",flexWrap:"wrap"}});
+  
+  // Keystone Hero (3000 R.IO - all +12s timed)
+  if(allTimed12.length)milestones.appendChild(h("div",{style:{padding:"14px 20px",borderRadius:"10px",background:"rgba(255,128,0,0.06)",border:"1px solid rgba(255,128,0,0.15)"}},
+    h("div",{style:{fontSize:"11px",color:"#ff8000",fontWeight:"700",letterSpacing:"1px",marginBottom:"5px"}},"KEYSTONE HERO (3000 R.IO)"),
+    h("div",{style:{fontSize:"15px",fontWeight:"600"}},
+      ...allTimed12.map((c,i)=>[
+        i>0?h("span",null,", "):null,
+        h("span",{style:{color:CC[c.class]||"#fff"}},c.name)
+      ].filter(Boolean)).flat()
+    )
+  ));
+  
+  // All +12 Timed (Resilient keys)
+  if(allTimed12.length)milestones.appendChild(h("div",{style:{padding:"14px 20px",borderRadius:"10px",background:"rgba(251,191,36,0.06)",border:"1px solid rgba(251,191,36,0.15)"}},
+    h("div",{style:{fontSize:"11px",color:"#fbbf24",fontWeight:"700",letterSpacing:"1px",marginBottom:"5px"}},"ALL +12 TIMED (RESILIENT)"),
+    h("div",{style:{fontSize:"15px",fontWeight:"600"}},
+      ...allTimed12.map((c,i)=>[
+        i>0?h("span",null,", "):null,
+        h("span",{style:{color:CC[c.class]||"#fff"}},c.name)
+      ].filter(Boolean)).flat()
+    )
+  ));
+  
+  // All +10 Timed
+  if(allTimed10.length)milestones.appendChild(h("div",{style:{padding:"14px 20px",borderRadius:"10px",background:"rgba(163,53,238,0.05)",border:"1px solid rgba(163,53,238,0.12)"}},
+    h("div",{style:{fontSize:"11px",color:"#a335ee",fontWeight:"700",letterSpacing:"1px",marginBottom:"5px"}},"ALL +10 TIMED"),
+    h("div",{style:{fontSize:"15px",fontWeight:"600"}},
+      ...allTimed10.map((c,i)=>[
+        i>0?h("span",null,", "):null,
+        h("span",{style:{color:CC[c.class]||"#fff"}},c.name)
+      ].filter(Boolean)).flat()
+    )
+  ));
+  if(milestones.children.length)el.appendChild(milestones);
+
+  if(completionData.length){
+    el.appendChild(h("div",{class:"sec"},"ALMOST THERE"));
+    el.appendChild(h("div",{style:{display:"flex",gap:"10px",marginBottom:"20px",flexWrap:"wrap"}},
+      ...completionData.map(x=>h("div",{style:{padding:"10px 16px",borderRadius:"10px",background:"var(--card)",border:"1px solid var(--border)",minWidth:"130px"}},
+        h("div",null,clickName(x.c,{fontSize:"15px",fontWeight:"700",color:CC[x.c.class]||"#fff"})),
+        h("div",{style:{fontSize:"12px",color:"var(--muted)"}},x.done+"/"+x.total+" dungeons"),
+        h("div",{style:{height:"4px",borderRadius:"2px",background:"rgba(255,255,255,0.05)",marginTop:"6px"}},
+          h("div",{style:{height:"100%",borderRadius:"2px",background:"var(--accent)",width:x.pct+"%"}}))
+      ))
+    ));
+  }
+
+  el.appendChild(h("div",{class:"sec"},"DUNGEON GRID"));
+  const table=h("table",null);
+  const thead=h("tr",null,h("th",null,"PLAYER"));
+  dungeons.forEach(([sn,name])=>thead.appendChild(h("th",{title:name},sn||name.substring(0,4))));
+  thead.appendChild(h("th",null,"SCORE"));
+  table.appendChild(thead);
+  for(const c of players){
+    const tr=h("tr",null,h("td",null,clickName(c,{color:CC[c.class]||"#fff",fontWeight:"600"})));
+    for(const[sn,name]of dungeons){
+      const k=getBestKey(c,sn);const td=h("td",null);
+      if(!k){td.appendChild(h("div",{class:"grid-cell",style:{background:"rgba(255,255,255,0.06)",color:"rgba(255,255,255,0.1)",width:"36px",minWidth:"36px",height:"26px"}},"-"));}
+      else{const kc=keyColor(k.level,k.timed);td.appendChild(h("div",{class:"grid-cell",style:{background:kc.bg,color:kc.fg},title:name+" +"+k.level+(k.timed?" timed":" depleted")},""+k.level));}
+      tr.appendChild(td);
+    }
+    const score=c.mythic_plus_scores_by_season?.[0]?.scores?.all||0;
+    tr.appendChild(h("td",{style:{fontWeight:"700",color:rioColor(score),fontSize:"14px"}},score>0?""+Math.round(score):"-"));
+    table.appendChild(tr);
+  }
+  el.appendChild(h("div",{class:"grid-wrap"},table));
+  el.appendChild(h("div",{style:{display:"flex",gap:"16px",fontSize:"11px",color:"var(--muted)",marginTop:"10px",flexWrap:"wrap"}},
+    h("span",{style:{color:"#86efac"}},"\u25A0 +2-6 timed"),
+    h("span",{style:{color:"#60a5fa"}},"\u25A0 +7-9 timed"),
+    h("span",{style:{color:"#c084fc"}},"\u25A0 +10-11 timed"),
+    h("span",{style:{color:"#ffb366"}},"\u25A0 +12+ timed"),
+    h("span",{style:{color:"#fca5a5"}},"\u25A0 Depleted")
+  ));
+  return el;
+}
+
+// ═══════════════════════════════════════
+// TAB 3: GEAR CHECK
+// ═══════════════════════════════════════
+function renderGear(){
+  const raiders=S.chars.filter(c=>{const r=c.raid_progression?.[RAID_TIER];return r&&raidScore(r)>0;}).sort((a,b)=>raidScore(b.raid_progression?.[RAID_TIER])-raidScore(a.raid_progression?.[RAID_TIER])).slice(0,30);
+  const audited=raiders.map(c=>({c,issues:auditGear(c),ilvl:Math.round(c.gear?.item_level_equipped||0),tier:countTier(c)}));
+  const ready=audited.filter(a=>a.issues.length===0);
+  const problems=audited.filter(a=>a.issues.length>0);
+  const totalIssues=audited.reduce((s,a)=>s+a.issues.length,0);
+  const with4pc=audited.filter(a=>a.tier>=4).length;
+  const with2pc=audited.filter(a=>a.tier>=2).length;
+
+  return h("div",null,
+    h("div",{class:"summary"},
+      h("div",{class:"s-box "+(ready.length===audited.length?"green":"gold")},h("div",{class:"n"},ready.length+"/"+audited.length),h("div",{class:"l"},"RAID READY")),
+      h("div",{class:"s-box "+(totalIssues>0?"red":"green")},h("div",{class:"n"},""+totalIssues),h("div",{class:"l"},"MISSING ENCHANTS")),
+      h("div",{class:"s-box gold"},h("div",{class:"n"},with4pc+"/"+with2pc),h("div",{class:"l"},"4PC / 2PC+")),
+      h("div",{class:"s-box blue"},h("div",{class:"n"},""+audited.length),h("div",{class:"l"},"RAIDERS AUDITED"))
+    ),
+    ready.length>0?h("div",{class:"sec"},"\u2728 RAID READY \u2014 "+ready.length):null,
+    ...ready.map(a=>h("div",{class:"card",style:{display:"flex",alignItems:"center",gap:"14px",borderLeft:"3px solid #4ade80"}},
+      h("div",{style:{flex:"1"}},
+        h("div",{style:{display:"flex",alignItems:"center",gap:"8px",flexWrap:"wrap"}},
+          clickName(a.c,{fontSize:"16px",fontWeight:"700",color:CC[a.c.class]||"#fff"}),
+          h("span",{class:"tg good"},"\u2713 Enchanted"),
+          a.tier>=4?h("span",{class:"tg tier"},"4pc"):a.tier>=2?h("span",{class:"tg tier"},"2pc"):null
+        ),
+        h("div",{style:{fontSize:"13px",color:"var(--muted)",marginTop:"3px"}},a.c.active_spec_name+" "+a.c.class+" \u00b7 "+a.c.realm)
+      ),
+      h("div",{style:{display:"flex",alignItems:"center",gap:"14px"}},
+        h("span",{style:{fontSize:"13px",color:"var(--muted)"}},a.c.raid_progression?.[RAID_TIER]?.summary||"-"),
+        h("span",{style:{fontSize:"16px",fontWeight:"700",color:ilvlColor(a.ilvl)}},""+a.ilvl)
+      )
+    )),
+    problems.length>0?h("div",{class:"sec"},"NEEDS ATTENTION \u2014 "+problems.length):null,
+    ...problems.map(a=>h("div",{class:"card",style:{display:"flex",alignItems:"flex-start",gap:"14px",borderLeft:"3px solid #f87171"}},
+      h("div",{style:{flex:"1"}},
+        h("div",{style:{display:"flex",alignItems:"center",gap:"8px",flexWrap:"wrap"}},
+          clickName(a.c,{fontSize:"16px",fontWeight:"700",color:CC[a.c.class]||"#fff"}),
+          a.tier>=4?h("span",{class:"tg tier"},"4pc"):a.tier>=2?h("span",{class:"tg tier"},"2pc"):null
+        ),
+        h("div",{style:{fontSize:"13px",color:"var(--muted)",marginTop:"3px"}},a.c.active_spec_name+" "+a.c.class+" \u00b7 "+a.c.realm),
+        h("div",{style:{display:"flex",gap:"5px",flexWrap:"wrap",marginTop:"8px"}},...a.issues.map(i=>h("span",{class:"tg "+i.type},i.text)))
+      ),
+      h("div",{style:{display:"flex",alignItems:"center",gap:"14px"}},
+        h("span",{style:{fontSize:"13px",color:"var(--muted)"}},a.c.raid_progression?.[RAID_TIER]?.summary||"-"),
+        h("span",{style:{fontSize:"16px",fontWeight:"700",color:ilvlColor(a.ilvl)}},""+a.ilvl)
+      )
+    ))
+  );
+}
+
+// ═══════════════════════════════════════
+// TAB 4: RAID LOGS
+// ═══════════════════════════════════════
+function renderRaidLogs(){
+  console.log('renderRaidLogs called, RAID_DATA:', RAID_DATA);
+  
+  if(!RAID_DATA)return h("div",{class:"empty"},
+    h("div",{style:{marginBottom:"12px"}},"No raid data loaded yet"),
+    h("div",{style:{fontSize:"13px",color:"var(--faint)"}},"Use the Update Raid Logs button to fetch data")
+  );
+  
+  console.log('RAID_DATA exists, building view...');
+  
+  const updated=new Date(RAID_DATA.updated);
+  const dateStr=updated.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  
+  function parseColor(p){
+    if(p>=99)return"#e268a8"; // Pink for 99+ (WCL standard)
+    if(p>=95)return"#a335ee"; // Purple for 95-98
+    if(p>=75)return"#0070dd"; // Blue for 75-94
+    if(p>=50)return"#1eff00"; // Green for 50-74
+    return"rgba(255,255,255,0.5)";
+  }
+  
+  const diffNames={3:'N',4:'H',5:'M'};
+  
+  console.log('Building top 500 parses...');
+  
+  // Build detailed top 500 parse list - only best parse per player per boss
+  const parsesByPlayerBoss=new Map();
+  for(const p of RAID_DATA.players){
+    for(const b of p.bosses){
+      if(!b.rank)continue;
+      const rankNum=parseInt(String(b.rank).replace('~',''));
+      if(!isNaN(rankNum)&&rankNum<=500){
+        const key=`${p.name}-${b.encounterID}`;
+        const existing=parsesByPlayerBoss.get(key);
+        if(!existing||rankNum<existing.rank){
+          parsesByPlayerBoss.set(key,{
+            player:p.name,
+            class:p.class,
+            boss:b.boss,
+            difficulty:b.difficulty, // Use difficulty from boss object directly
+            parse:b.parse,
+            rank:rankNum,
+            spec:b.spec
+          });
+        }
+      }
+    }
+  }
+  const top500Parses=Array.from(parsesByPlayerBoss.values()).sort((a,b)=>a.rank-b.rank);
+  
+  console.log('Top 500 parses:', top500Parses.length);
+  console.log('Building player stats...');
+  
+  const activeDiff=getActiveDifficulty();
+  console.log('Active difficulty for Raid Logs:', activeDiff);
+  
+  // Build player raid stats - only for active difficulty
+  const raidStats=RAID_DATA.players.map(p=>{
+    // Filter bosses to active difficulty only
+    const activeBosses=p.bosses.filter(b=>b.difficulty===activeDiff);
+    
+    if(activeBosses.length===0)return null;
+    
+    // Count kills (just the number of bosses in active difficulty)
+    const killCount=activeBosses.length;
+    
+    // Get avg parse from active difficulty
+    const avgParse=Math.round(activeBosses.reduce((s,b)=>s+b.parse,0)/activeBosses.length);
+    
+    // Get best parse from active difficulty
+    const bestBoss=activeBosses.reduce((max,b)=>b.parse>max.parse?b:max,{parse:0,boss:''});
+    
+    // Count top 500 and top 100 (from active difficulty only)
+    let top500=0,top100=0;
+    for(const b of activeBosses){
+      if(!b.rank)continue;
+      const rankNum=parseInt(String(b.rank).replace('~',''));
+      if(!isNaN(rankNum)){
+        if(rankNum<=500)top500++;
+        if(rankNum<=100)top100++;
+      }
+    }
+    
+    return{
+      name:p.name,
+      class:p.class,
+      role:p.role,
+      spec:activeBosses[0]?.spec||'',
+      avgParse,
+      bestParse:bestBoss,
+      kills:killCount,
+      top500,
+      top100
+    };
+  }).filter(p=>p!==null);
+  
+  // Sort by: kill count desc, then avg parse desc
+  raidStats.sort((a,b)=>{
+    if(a.kills!==b.kills)return b.kills-a.kills;
+    return b.avgParse-a.avgParse;
+  });
+  
+  const top30=raidStats.slice(0,30);
+  
+  console.log('Top 30 raiders:', top30.length);
+  console.log('Building elements...');
+  
+  const elements=[];
+  
+  // Parse Elite section - compact like Keystone Heroes
+  if(top500Parses.length>0){
+    // Build name->class map
+    const playerClasses=new Map();
+    for(const p of top500Parses){
+      playerClasses.set(p.player,p.class);
+    }
+    
+    const top100Names=new Set();
+    const top500Names=new Set();
+    for(const p of top500Parses){
+      if(p.rank<=100)top100Names.add(p.player);
+      else top500Names.add(p.player);
+    }
+    
+    // Build colored name spans
+    const top100Sorted=Array.from(top100Names).sort();
+    const top500Sorted=Array.from(top500Names).sort();
+    const nameSpans=[];
+    
+    top100Sorted.forEach((name,i)=>{
+      if(i>0)nameSpans.push(h("span",null,", "));
+      nameSpans.push(h("span",{style:{color:CC[playerClasses.get(name)]||"#fff"}},name));
+    });
+    
+    if(top100Sorted.length>0&&top500Sorted.length>0){
+      nameSpans.push(h("span",null,", "));
+    }
+    
+    top500Sorted.forEach((name,i)=>{
+      if(i>0)nameSpans.push(h("span",null,", "));
+      nameSpans.push(h("span",{style:{color:CC[playerClasses.get(name)]||"#fff"}},name));
+    });
+    
+    elements.push(h("div",{style:{marginBottom:"20px",padding:"14px 20px",borderRadius:"10px",background:"linear-gradient(135deg, rgba(226,104,168,0.06) 0%, rgba(163,53,238,0.05) 100%)",border:"1px solid rgba(226,104,168,0.15)"}},
+      h("div",{style:{fontSize:"11px",color:"#e268a8",fontWeight:"700",letterSpacing:"1px",marginBottom:"5px"}},"PARSE ELITE"),
+      h("div",{style:{fontSize:"14px",fontWeight:"600"}},...nameSpans),
+      h("div",{style:{fontSize:"12px",color:"#e268a8",marginTop:"4px"}},
+        top500Parses.length+" top 500 "+(top500Parses.length===1?"parse":"parses")+(top100Names.size>0?" ("+top100Names.size+" top 100)":"")
+      )
+    ));
+  }
+  
+  // Stats header
+  const diffName={3:'Normal',4:'Heroic',5:'Mythic'}[activeDiff]||'';
+  
+  // Calculate time ago
+  const now=new Date();
+  const diff=now-updated;
+  const hours=Math.floor(diff/(1000*60*60));
+  const days=Math.floor(hours/24);
+  let timeAgo;
+  if(days>0)timeAgo=days+" day"+(days===1?"":"s")+" ago";
+  else if(hours>0)timeAgo=hours+" hour"+(hours===1?"":"s")+" ago";
+  else timeAgo="just now";
+  
+  elements.push(h("div",{style:{marginBottom:"20px",padding:"14px 18px",background:"var(--card)",borderRadius:"10px",border:"1px solid var(--border)",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:"10px"}},
+    h("div",null,
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",fontWeight:"700",marginBottom:"4px"}},"TOP RAIDERS"),
+      h("div",{style:{fontSize:"13px",color:"var(--muted)"}},top30.length+" raiders ranked by progression + performance"),
+      h("div",{style:{fontSize:"12px",color:"#a335ee",marginTop:"4px",fontWeight:"600"}},"Showing "+diffName+" difficulty only")
+    ),
+    h("div",{style:{fontSize:"12px",color:"var(--muted)"}},
+      "\u{1F4C5} Updated ",
+      h("span",{style:{color:"var(--text)",fontWeight:"600"}},timeAgo)
+    )
+  ));
+  
+  // Player cards (raid metrics only)
+  const diffLabel={3:'N',4:'H',5:'M'}[activeDiff]||'';
+  
+  // Get all unique bosses from fights in active difficulty
+  const allBosses=[];
+  if(RAID_DATA&&activeDiff){
+    const seen=new Set();
+    for(const fight of RAID_DATA.fights){
+      if(fight.difficulty===activeDiff){
+        const key=`${fight.encounterID}-${fight.name}`;
+        if(!seen.has(key)){
+          seen.add(key);
+          allBosses.push({name:fight.name,encounterID:fight.encounterID});
+        }
+      }
+    }
+  }
+  
+  for(const [i,p] of top30.entries()){
+    // Get full player data from RAID_DATA to access bosses array
+    const playerData=RAID_DATA.players.find(pd=>pd.name===p.name);
+    
+    // Build boss squares
+    const bossSquares=allBosses.map(boss=>{
+      const bossKill=playerData?.bosses?.find(b=>b.encounterID===boss.encounterID&&b.difficulty===activeDiff);
+      if(!bossKill){
+        return h("div",{
+          class:"ksq",
+          style:{background:"rgba(255,255,255,0.06)",color:"rgba(255,255,255,0.15)",width:"32px",minWidth:"32px",height:"24px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"10px",fontWeight:"600"}
+        },"-",h("div",{class:"tt"},boss.name+" — Not killed"));
+      }
+      
+      const parseCol=parseColor(bossKill.parse);
+      return h("div",{
+        class:"ksq",
+        style:{background:parseCol+"22",color:parseCol,width:"32px",minWidth:"32px",height:"24px",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"10px",fontWeight:"700",border:"1px solid "+parseCol+"44"}
+      },String(bossKill.parse||0),h("div",{class:"tt"},boss.name+" — "+bossKill.parse+"% parse"));
+    });
+    
+    elements.push(h("div",{class:"card",style:{display:"flex",gap:"14px",alignItems:"flex-start",borderLeft:"3px solid "+(i<3?["#FF9900","#C0C0C0","#CD7F32"][i]:"transparent")}},
+      h("div",{style:{width:"32px",height:"32px",borderRadius:"50%",background:"rgba(255,255,255,0.06)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:"14px",fontWeight:"700",color:i<3?"var(--accent)":"var(--faint)",flexShrink:"0"}},String(i+1)),
+      h("div",{style:{flex:"1",minWidth:"0"}},
+        h("div",{style:{display:"flex",alignItems:"baseline",gap:"10px",marginBottom:"3px",flexWrap:"wrap"}},
+          h("span",{style:{fontSize:"17px",fontWeight:"700",color:CC[p.class]||"#fff"}},p.name),
+          p.avgParse>0?h("span",{class:"tg",style:{background:parseColor(p.avgParse)+"22",color:parseColor(p.avgParse),fontWeight:"700",fontSize:"14px"}},p.avgParse+"% avg"):null
+        ),
+        h("div",{style:{fontSize:"13px",color:"var(--muted)",marginBottom:"8px"}},p.spec+(p.spec?" ":"")+p.class),
+        allBosses.length>0?h("div",{style:{display:"flex",gap:"4px",marginBottom:"8px",flexWrap:"wrap"}},...bossSquares):null,
+        h("div",{style:{display:"flex",gap:"8px",alignItems:"center",fontSize:"12px",flexWrap:"wrap"}},
+          h("span",{style:{color:"#a335ee",fontWeight:"600"}},p.kills+diffLabel),
+          p.bestBoss&&p.bestBoss.parse>0&&p.bestBoss.boss?h("span",{class:"tg",style:{background:parseColor(p.bestBoss.parse)+"15",color:parseColor(p.bestBoss.parse),border:"1px solid "+parseColor(p.bestBoss.parse)+"44"}},p.bestBoss.parse+"% "+p.bestBoss.boss.split(',')[0]):null,
+          p.top100>0?h("span",{style:{fontSize:"11px",fontWeight:"700",color:"#fbbf24",background:"rgba(251,191,36,0.15)",padding:"4px 8px",borderRadius:"4px",border:"1px solid rgba(251,191,36,0.3)"}},"\u2B50 "+p.top100+"x Top 100"):null,
+          p.top500>0&&p.top100===0?h("span",{style:{fontSize:"11px",fontWeight:"700",color:"#a78bfa",background:"rgba(167,139,250,0.15)",padding:"4px 8px",borderRadius:"4px",border:"1px solid rgba(167,139,250,0.3)"}},"\u{1F525} "+p.top500+"x Top 500"):null
+        )
+      )
+    ));
+  }
+  
+  console.log('Total elements:', elements.length);
+  console.log('Returning...');
+  
+  const container=h("div",null);
+  for(const el of elements){
+    if(el)container.appendChild(el);
+  }
+  return container;
+}
+
+// ═══════════════════════════════════════
+// MAIN RENDER
+// ═══════════════════════════════════════
+function render(){
+  const app=document.getElementById("app");app.innerHTML="";
+  if(S.status==="error"){app.appendChild(h("div",{class:"err"},h("div",{class:"msg"},"Failed to load"),h("div",{class:"detail"},S.error),h("button",{onclick:()=>loadAll()},"Retry")));return;}
+  if(S.status!=="done"){
+    app.appendChild(h("div",{class:"loading"},
+      h("div",{class:"brand"},h("div",{class:"brand-r"},"RFB"),h("div",{class:"brand-h"},"Hub")),
+      h("div",{class:"sub",style:{marginTop:"12px"}},S.status==="guild"?"Fetching guild roster...":"Loading "+S.progress[0]+"/"+S.progress[1]),
+      S.progress[1]>0?h("div",{class:"pbar"},h("div",{class:"pfill",style:{width:(S.progress[0]/S.progress[1]*100)+"%"}})):null
+    ));return;
+  }
+  const gr=S.guild?.raid_progression?.[RAID_TIER];
+  const raidersN=S.chars.filter(c=>{const r=c.raid_progression?.[RAID_TIER];return r&&raidScore(r)>0;}).length;
+  const avgRio=Math.round(S.chars.filter(c=>(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0)>0).reduce((s,c)=>s+(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0),0)/Math.max(1,S.chars.filter(c=>(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0)>0).length))||0;
+
+  app.appendChild(h("div",{class:"header"},
+    h("div",{class:"h-row"},
+      h("div",{class:"brand"},h("div",{class:"brand-r"},"RFB"),h("div",{class:"brand-h"},"Hub")),
+      h("div",{class:"g-info"},
+        h("div",{class:"g-name"},S.guild?.name||G_N),
+        h("div",{class:"g-sub"},G_S+"-"+G_R.toUpperCase()+" \u00b7 Midnight S1 \u00b7 "+(gr?.summary||""))
+      ),
+      h("button",{class:"refresh",style:{marginRight:"8px"},onclick:showAdmin},"\u{1F4CA} Raid Logs"),
+      h("button",{class:"refresh",onclick:function(){S={status:"idle",progress:[0,0],guild:null,chars:[],tab:S.tab,error:null};render();loadAll();}},"\u21BB Refresh")
+    ),
+    h("div",{class:"h-stats"},
+      ...[{l:"RAIDERS",v:raidersN},{l:"ROSTER",v:S.chars.length},{l:"AVG R.IO",v:avgRio||"-"},{l:"TANKS",v:S.chars.filter(c=>c.active_spec_role==="TANK").length},{l:"HEALERS",v:S.chars.filter(c=>c.active_spec_role==="HEALING").length},{l:"DPS",v:S.chars.filter(c=>c.active_spec_role==="DPS").length}].map(s=>
+        h("div",{class:"h-stat"},h("div",{class:"v"},""+s.v),h("div",{class:"l"},s.l))
+      )
+    )
+  ));
+  const tabNames=["Power Rankings","Raid Logs","Keystone Progress","Gear Check"];
+  app.appendChild(h("div",{class:"tabs"},...tabNames.map((t,i)=>h("button",{class:"tab "+(S.tab===i?"active":""),onclick:()=>set({tab:i})},t))));
+  const content=h("div",{class:"content"});
+  if(S.tab===0)content.appendChild(renderPower());
+  else if(S.tab===1){
+    try{
+      content.appendChild(renderRaidLogs());
+    }catch(e){
+      console.error('renderRaidLogs error:', e);
+      content.appendChild(h("div",{class:"empty"},
+        h("div",{style:{marginBottom:"12px"}},"Error loading raid logs"),
+        h("div",{style:{fontSize:"13px",color:"var(--faint)"}},e.toString())
+      ));
+    }
+  }
+  else if(S.tab===2)content.appendChild(renderKeys());
+  else content.appendChild(renderGear());
+  app.appendChild(content);
+  app.appendChild(h("div",{class:"footer"},"RFB HUB \u00b7 LIVE VIA RAIDER.IO"));
+}
+render();loadAll();
+</script>
+</body>
+</html>
