@@ -253,6 +253,7 @@ function getBestKey(c,shortName){const match=getDungeonRuns(c).find(r=>r.short_n
 let S={status:"idle",progress:[0,0],guild:null,chars:[],tab:0,error:null,insights:null};
 let raidParseCache = null; // Stores parsed raid data for sharing between tabs
 let wclDataCache = null; // Stores pre-fetched WCL data from wcl-data.json
+let selectedDifficulty = 4; // Default to Heroic, updated when cache loads
 function set(p){Object.assign(S,p);render();}
 
 async function loadRaidData(){
@@ -2003,15 +2004,23 @@ async function loadAll(){
     fetch('wcl-data.json')
       .then(r => r.ok ? r.json() : null)
       .then(data => {
-        if(data){
+        if(data && data.difficulties){
           wclDataCache = data;
-          raidParseCache = data.raiders; // Also populate raidParseCache for Insights tab
-          console.log('Loaded WCL cache:', data.raiders?.length, 'raiders, updated', data.updated);
+          selectedDifficulty = data.defaultDifficulty || 4;
+          
+          // Set raidParseCache for Insights tab (use default difficulty)
+          const defaultDiff = data.difficulties[selectedDifficulty];
+          if(defaultDiff){
+            raidParseCache = defaultDiff.raiders;
+          }
+          
+          console.log('Loaded WCL cache:', Object.keys(data.difficulties).length, 'difficulties, default:', selectedDifficulty, 'updated', data.updated);
+          
           // Update header avg parse if already rendered
           const headerParse = document.getElementById("header-avg-parse");
-          if(headerParse && data.stats){
-            headerParse.textContent = data.stats.guildAvg + "%";
-            headerParse.style.color = parseColor(data.stats.guildAvg);
+          if(headerParse && defaultDiff && defaultDiff.stats){
+            headerParse.textContent = defaultDiff.stats.guildAvg + "%";
+            headerParse.style.color = parseColor(defaultDiff.stats.guildAvg);
           }
         }
       })
@@ -3049,12 +3058,16 @@ function renderRaidLogsNew(){
   const container = h("div", {class: "raid-logs-container"});
   
   // Difficulty selector
-  const difficultyState = {current: 4}; // Default Heroic
+  const difficultyState = {current: selectedDifficulty}; // Use global default
+  
+  const DIFF_NAMES = {3: 'Normal', 4: 'Heroic', 5: 'Mythic'};
+  const DIFF_COLORS = {3: '#1eff00', 4: '#a335ee', 5: '#ff8000'};
   
   let diffSelector;
   let loadingEl;
   let dataEl;
   let statsEl;
+  let titleEl;
   
   function rebuildUI(){
     container.innerHTML = "";
@@ -3062,8 +3075,9 @@ function renderRaidLogsNew(){
     // Determine cache status
     const isCached = wclDataCache && wclDataCache.updated;
     const lastUpdated = isCached ? new Date(wclDataCache.updated).toLocaleString() : null;
+    const currentDiffName = DIFF_NAMES[difficultyState.current] || 'Heroic';
     
-    // Header with title
+    // Header with title and difficulty buttons
     const header = h("div", {style: {
       padding: "20px",
       background: "var(--card)",
@@ -3074,34 +3088,65 @@ function renderRaidLogsNew(){
       h("div", {style: {
         display: "flex",
         alignItems: "center",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        flexWrap: "wrap",
+        gap: "12px"
       }},
         h("div", {},
-          h("div", {style: {fontSize: "18px", fontWeight: "700", marginBottom: "4px"}}, "Heroic Raid Parses"),
+          titleEl = h("div", {style: {fontSize: "18px", fontWeight: "700", marginBottom: "4px"}}, currentDiffName + " Raid Parses"),
           h("div", {style: {fontSize: "12px", color: "var(--muted)"}}, 
             isCached 
               ? "Midnight Falls • Updated " + lastUpdated
               : "Midnight Falls • Loading from Warcraft Logs..."
           )
         ),
-        h("div", {style: {display: "flex", alignItems: "center", gap: "12px"}},
+        h("div", {style: {display: "flex", alignItems: "center", gap: "8px"}},
+          // Difficulty toggle buttons
+          ...[3, 4, 5].map(diffId => {
+            const isActive = difficultyState.current === diffId;
+            const hasData = wclDataCache?.difficulties?.[diffId]?.raiders?.length > 0;
+            return h("button", {
+              onclick: () => {
+                if(hasData && difficultyState.current !== diffId){
+                  difficultyState.current = diffId;
+                  selectedDifficulty = diffId;
+                  // Update raidParseCache for Insights tab
+                  raidParseCache = wclDataCache.difficulties[diffId].raiders;
+                  // Update header avg parse
+                  const headerParse = document.getElementById("header-avg-parse");
+                  const newStats = wclDataCache.difficulties[diffId].stats;
+                  if(headerParse && newStats){
+                    headerParse.textContent = newStats.guildAvg + "%";
+                    headerParse.style.color = parseColor(newStats.guildAvg);
+                  }
+                  rebuildUI();
+                  loadRaidData();
+                }
+              },
+              style: {
+                padding: "6px 12px",
+                borderRadius: "6px",
+                border: "none",
+                background: isActive ? DIFF_COLORS[diffId] : "rgba(255,255,255,0.1)",
+                color: isActive ? "#000" : (hasData ? "var(--text)" : "var(--muted)"),
+                fontSize: "11px",
+                fontWeight: "700",
+                cursor: hasData ? "pointer" : "not-allowed",
+                opacity: hasData ? 1 : 0.5,
+                transition: "all 0.2s"
+              }
+            }, DIFF_NAMES[diffId].toUpperCase());
+          }),
           h("a", {
             href: "https://github.com/rfbhub/rfbhub/actions/workflows/update-wcl-data.yml",
             target: "_blank",
             style: {
               fontSize: "11px",
               color: "var(--muted)",
-              textDecoration: "none"
+              textDecoration: "none",
+              marginLeft: "8px"
             }
-          }, "↻ Refresh Data"),
-          h("div", {style: {
-            padding: "6px 12px",
-            borderRadius: "6px",
-            background: "rgba(255,153,0,0.1)",
-            color: "var(--accent)",
-            fontSize: "11px",
-            fontWeight: "700"
-          }}, "HEROIC")
+          }, "↻ Refresh")
         )
       )
     );
@@ -3127,8 +3172,16 @@ function renderRaidLogsNew(){
   
   // Render from cached data
   function renderRaidersFromCache(cache){
-    const raidersWithParses = cache.raiders;
-    const stats = cache.stats;
+    // Get data for selected difficulty
+    const diffData = cache.difficulties?.[difficultyState.current];
+    
+    if(!diffData || !diffData.raiders || diffData.raiders.length === 0){
+      dataEl.innerHTML = "<div style='padding:40px;text-align:center;color:var(--muted)'>No raid data found for this difficulty</div>";
+      return;
+    }
+    
+    const raidersWithParses = diffData.raiders;
+    const stats = diffData.stats;
     
     // Update header avg parse
     const headerParse = document.getElementById("header-avg-parse");
@@ -3265,7 +3318,7 @@ function renderRaidLogsNew(){
             h("div", {style: {
               fontSize: "13px",
               color: "var(--muted)"
-            }}, `${raider.bossCount}/9 H`)
+            }}, `${raider.bossCount}/9 ${DIFF_NAMES[difficultyState.current]?.charAt(0) || 'H'}`)
           )
         ),
         h("div", {style: {
@@ -3357,16 +3410,17 @@ function renderRaidLogsNew(){
     loadingEl.style.display = "block";
     dataEl.innerHTML = "";
     
-    // Check if we have cached WCL data
-    if(wclDataCache && wclDataCache.raiders && wclDataCache.raiders.length > 0){
-      console.log('Using cached WCL data:', wclDataCache.raiders.length, 'raiders');
+    // Check if we have cached WCL data for this difficulty
+    const diffData = wclDataCache?.difficulties?.[difficultyState.current];
+    if(diffData && diffData.raiders && diffData.raiders.length > 0){
+      console.log('Using cached WCL data:', diffData.raiders.length, 'raiders for difficulty', difficultyState.current);
       loadingEl.style.display = "none";
       renderRaidersFromCache(wclDataCache);
       return;
     }
     
     // Fallback to live fetching if no cache
-    console.log('No WCL cache, fetching live...');
+    console.log('No WCL cache for difficulty', difficultyState.current, ', fetching live...');
     
     if(!S.chars || S.chars.length === 0){
       loadingEl.innerHTML = "No guild roster loaded";
@@ -3622,7 +3676,7 @@ function renderRaidLogsNew(){
             h("div", {style: {
               fontSize: "13px",
               color: "var(--muted)"
-            }}, `${raider.bossCount}/9 H`)
+            }}, `${raider.bossCount}/9 ${DIFF_NAMES[difficultyState.current]?.charAt(0) || 'H'}`)
           )
         ),
         
