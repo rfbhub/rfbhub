@@ -1,0 +1,36 @@
+name: Update WCL Data
+
+on:
+  # Daily at 6am and 6pm UTC (covers morning and post-raid)
+  schedule:
+    - cron: '0 6,18 * * *'
+  
+  # Manual trigger from GitHub Actions page
+  workflow_dispatch:
+
+jobs:
+  update-wcl-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Fetch WCL data
+        run: node fetch-wcl-data.js
+        env:
+          WCL_CLIENT: ${{ secrets.WCL_CLIENT }}
+          WCL_SECRET: ${{ secrets.WCL_SECRET }}
+      
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update WCL data"
+          file_pattern: wcl-data.json
+          commit_user_name: "RFB Hub Bot"
+          commit_user_email: "bot@rfbhub.github.io"
