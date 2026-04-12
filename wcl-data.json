@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12T08:34:29.123Z",
+  "updated": "2026-04-12T19:57:04.109Z",
   "zoneID": 46,
   "zoneName": "Midnight Falls",
   "bosses": [
@@ -47,12 +47,12 @@
       "name": "Normal",
       "stats": {
         "guildAvg": 62,
-        "raidersLogged": 43,
+        "raidersLogged": 44,
         "parseBreakdown": {
           "pink": 14,
           "purple": 33,
           "blue": 121,
-          "green": 75,
+          "green": 76,
           "gray": 77
         },
         "bestParse": {
@@ -423,10 +423,26 @@
           ]
         },
         {
+          "name": "Orouna",
+          "class": "Druid",
+          "realm": "sargeras",
+          "avgParse": 88,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 88,
+              "spec": "Feral",
+              "dps": 64988
+            }
+          ]
+        },
+        {
           "name": "Thinboi",
           "class": "Hunter",
           "realm": "sargeras",
-          "avgParse": 88,
+          "avgParse": 87,
           "bossCount": 9,
           "bosses": [
             {
@@ -488,25 +504,9 @@
             {
               "name": "Midnight Falls",
               "encounterID": 3183,
-              "parse": 39,
+              "parse": 38,
               "spec": "Survival",
               "dps": 61431
-            }
-          ]
-        },
-        {
-          "name": "Orouna",
-          "class": "Druid",
-          "realm": "sargeras",
-          "avgParse": 88,
-          "bossCount": 1,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 88,
-              "spec": "Feral",
-              "dps": 64988
             }
           ]
         },
@@ -799,6 +799,64 @@
           ]
         },
         {
+          "name": "Imblinkedup",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 85,
+          "bossCount": 7,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 90,
+              "spec": "Frost",
+              "dps": 91524
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 92,
+              "spec": "Frost",
+              "dps": 77993
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 88,
+              "spec": "Frost",
+              "dps": 78786
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 85,
+              "spec": "Frost",
+              "dps": 76877
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 85,
+              "spec": "Frost",
+              "dps": 110652
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 79,
+              "spec": "Frost",
+              "dps": 70925
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 80,
+              "spec": "Frost",
+              "dps": 59591
+            }
+          ]
+        },
+        {
           "name": "Eksdra",
           "class": "Shaman",
           "realm": "illidan",
@@ -860,64 +918,6 @@
               "parse": 97,
               "spec": "Restoration",
               "dps": 8988
-            }
-          ]
-        },
-        {
-          "name": "Imblinkedup",
-          "class": "Mage",
-          "realm": "sargeras",
-          "avgParse": 83,
-          "bossCount": 7,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 90,
-              "spec": "Frost",
-              "dps": 85999
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 80,
-              "spec": "Frost",
-              "dps": 67039
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 80,
-              "spec": "Frost",
-              "dps": 70711
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 85,
-              "spec": "Frost",
-              "dps": 72665
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 85,
-              "spec": "Frost",
-              "dps": 110652
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 79,
-              "spec": "Frost",
-              "dps": 70925
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 80,
-              "spec": "Frost",
-              "dps": 59591
             }
           ]
         },
@@ -1199,6 +1199,50 @@
               "parse": 81,
               "spec": "Preservation",
               "dps": 5887
+            }
+          ]
+        },
+        {
+          "name": "Blinktwo",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 77,
+          "bossCount": 5,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 90,
+              "spec": "Frost",
+              "dps": 79516
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 78,
+              "spec": "Frost",
+              "dps": 66516
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 78,
+              "spec": "Frost",
+              "dps": 69780
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 89,
+              "spec": "Frost",
+              "dps": 118833
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 51,
+              "spec": "Frost",
+              "dps": 52913
             }
           ]
         },
@@ -1545,50 +1589,6 @@
               "parse": 52,
               "spec": "Devourer",
               "dps": 60887
-            }
-          ]
-        },
-        {
-          "name": "Blinktwo",
-          "class": "Mage",
-          "realm": "sargeras",
-          "avgParse": 70,
-          "bossCount": 5,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 90,
-              "spec": "Frost",
-              "dps": 79516
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 78,
-              "spec": "Frost",
-              "dps": 66516
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 78,
-              "spec": "Frost",
-              "dps": 69780
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 89,
-              "spec": "Frost",
-              "dps": 118833
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 13,
-              "spec": "Frost",
-              "dps": 34405
             }
           ]
         },
@@ -2218,6 +2218,22 @@
               "parse": 49,
               "spec": "Devourer",
               "dps": 48395
+            }
+          ]
+        },
+        {
+          "name": "Kÿle",
+          "class": "Monk",
+          "realm": "mal'ganis",
+          "avgParse": 36,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 36,
+              "spec": "Brewmaster",
+              "dps": 35695
             }
           ]
         },
