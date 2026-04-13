@@ -3,7 +3,7 @@ name: Update WCL Data
 on:
   # Daily at 6am and 6pm UTC (covers morning and post-raid)
   schedule:
-    - cron: '0 6,18 * * *'
+    - cron: '0 */2 * * *'
   
   # Manual trigger from GitHub Actions page
   workflow_dispatch:
