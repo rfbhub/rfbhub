@@ -1,0 +1,34 @@
+name: Weekly Snapshot
+
+on:
+  # Sundays at 11pm UTC (roughly post-raid-week for US guilds).
+  # Picks up Sunday's state before Tuesday reset shakes things up.
+  schedule:
+    - cron: '0 23 * * 0'
+
+  # Manual trigger for testing and backfills.
+  workflow_dispatch:
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run weekly snapshot
+        run: node snapshot-week.js
+
+      - name: Commit snapshot if new
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Weekly snapshot"
+          file_pattern: "history/*.json"
+          commit_user_name: "Guild Hub Bot"
+          commit_user_email: "bot@guild-hub.github.io"
