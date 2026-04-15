@@ -41,7 +41,7 @@ const CONFIG = {
     needs: "2 DPS",           // Short list of roles being recruited
     notes: "Mythic experience preferred",
     contactName: "Hashmaker",           // Who to reach out to
-    contactDiscord: "@hmaker100 on discord"         // Discord username (no # suffix needed)
+    contactDiscord: "hmaker100 on discord"         // Discord username (no # suffix needed)
   },
 
   // Raid Bosses (update each tier)
