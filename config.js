@@ -29,19 +29,19 @@ const CONFIG = {
 
   // Raid Schedule - drives the "next raid" countdown widget
   raidSchedule: {
-    days: ["Wednesday", "Thursday"],    // Raid nights (full day names)
-    startTime: "20:00",                 // 24-hour local-to-timezone start
-    endTime: "23:00",                   // 24-hour local-to-timezone end
+    days: ["Wednesday", "Friday"],    // Raid nights (full day names)
+    startTime: "8:00 PM",                 // 24-hour local-to-timezone start
+    endTime: "11:00 PM",                   // 24-hour local-to-timezone end
     timezone: "America/New_York"        // IANA timezone, affects the countdown math
   },
 
   // Recruitment block - edit to reflect current needs. Set status to "closed" to hide.
   recruitment: {
     status: "open",                     // "open" | "selective" | "closed"
-    needs: "2 DPS, 1 Healer",           // Short list of roles being recruited
-    notes: "Heroic+ experience preferred. Casual friendly vibe.",
+    needs: "2 DPS"           // Short list of roles being recruited
+    notes: "Mythic raiding experience preferred.",
     contactName: "Hashmaker",           // Who to reach out to
-    contactDiscord: "hashmaker"         // Discord username (no # suffix needed)
+    contactDiscord: "@hmaker100"         // Discord username (no # suffix needed)
   },
 
   // Raid Bosses (update each tier)
