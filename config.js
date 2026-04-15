@@ -30,8 +30,8 @@ const CONFIG = {
   // Raid Schedule - drives the "next raid" countdown widget
   raidSchedule: {
     days: ["Wednesday", "Friday"],    // Raid nights (full day names)
-    startTime: "8:00 PM",                 // 24-hour local-to-timezone start
-    endTime: "11:00 PM",                   // 24-hour local-to-timezone end
+    startTime: "20:00",                 // 24-hour local-to-timezone start
+    endTime: "23:00",                   // 24-hour local-to-timezone end
     timezone: "America/New_York"        // IANA timezone, affects the countdown math
   },
 
