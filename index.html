@@ -2481,6 +2481,17 @@ function showProfile(c){
     ),
     h("div",{class:"modal-spec"},c.active_spec_name+" "+c.class+" \u00b7 "+c.realm),
 
+    // External profile links
+    (function(){
+      const realmSlug=(c.realm||CONFIG.realm).toLowerCase().replace(/\s+/g,'-').replace(/'/g,'');
+      const rioUrl="https://raider.io/characters/"+CONFIG.region+"/"+encodeURIComponent(realmSlug)+"/"+encodeURIComponent(c.name);
+      const wclUrl="https://www.warcraftlogs.com/character/"+CONFIG.region+"/"+encodeURIComponent(realmSlug)+"/"+encodeURIComponent(c.name);
+      return h("div",{style:{display:"flex",gap:"8px",marginBottom:"12px",flexWrap:"wrap"}},
+        h("a",{class:"share-btn",href:rioUrl,target:"_blank",rel:"noopener",style:{textDecoration:"none"}},h("span",{class:"icon"},"\ud83d\udcca"),h("span",null,"Raider.IO")),
+        h("a",{class:"share-btn",href:wclUrl,target:"_blank",rel:"noopener",style:{textDecoration:"none"}},h("span",{class:"icon"},"\ud83d\udcdc"),h("span",null,"WarcraftLogs"))
+      );
+    })(),
+
     // Overview
     h("div",{class:"modal-section"},"OVERVIEW"),
     h("div",{class:"modal-row"},h("span",{class:"lbl"},"Item Level"),h("span",{class:"val",style:{color:ilvlColor(ilvl)}},""+ilvl)),
@@ -2629,6 +2640,139 @@ function renderActivityTicker(){
   return ticker;
 }
 
+// ═══════════════════════════════════════
+// RAID SCHEDULE + RECRUITMENT
+// Two side-by-side cards driven from config.js. Edit config to update.
+// ═══════════════════════════════════════
+
+// Compute the next raid start datetime in the configured timezone.
+// Returns { date: Date, dayName: string } or null if schedule disabled.
+function nextRaidStart(){
+  const s = CONFIG.raidSchedule;
+  if(!s || !s.days || s.days.length === 0) return null;
+
+  const dayMap = {Sunday:0,Monday:1,Tuesday:2,Wednesday:3,Thursday:4,Friday:5,Saturday:6};
+  const targetDays = s.days.map(d => dayMap[d]).filter(d => d !== undefined).sort((a,b)=>a-b);
+  if(targetDays.length === 0) return null;
+
+  const [hh, mm] = (s.startTime || "20:00").split(":").map(n => parseInt(n, 10));
+
+  // Work in the configured timezone. We use Intl to get parts and reconstruct a UTC timestamp.
+  const tz = s.timezone || "America/New_York";
+  const now = new Date();
+
+  // Search forward up to 8 days for the next scheduled raid that hasn't started yet.
+  for(let offset = 0; offset < 8; offset++){
+    const candidate = new Date(now.getTime() + offset * 86400000);
+    // Get the weekday in the guild timezone
+    const wkFmt = new Intl.DateTimeFormat('en-US', {timeZone: tz, weekday: 'long'});
+    const weekday = wkFmt.format(candidate);
+    const weekdayNum = dayMap[weekday];
+    if(!targetDays.includes(weekdayNum)) continue;
+
+    // Get the Y/M/D for this candidate in the guild timezone
+    const dFmt = new Intl.DateTimeFormat('en-CA', {timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit'});
+    const [y, m, d] = dFmt.format(candidate).split('-').map(n => parseInt(n, 10));
+
+    // Build the target moment "y-m-d hh:mm" as if it were in the guild tz, and figure out the UTC instant.
+    // Trick: construct a UTC date then find the offset by comparing what that UTC instant looks like in the guild tz.
+    const utcGuess = Date.UTC(y, m - 1, d, hh, mm);
+    // What does that UTC guess display as in the guild tz?
+    const parts = new Intl.DateTimeFormat('en-US', {timeZone: tz, hour12: false, year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit'}).formatToParts(new Date(utcGuess));
+    const p = Object.fromEntries(parts.filter(x => x.type !== 'literal').map(x => [x.type, x.value]));
+    const guessHour = parseInt(p.hour, 10) % 24;
+    const guessMin = parseInt(p.minute, 10);
+    // Offset (minutes) = what we wanted minus what we got
+    const wantedMinutes = hh * 60 + mm;
+    const gotMinutes = guessHour * 60 + guessMin;
+    let deltaMin = wantedMinutes - gotMinutes;
+    // Handle day boundary wrap
+    if(parseInt(p.day,10) !== d) deltaMin -= 24 * 60 * (parseInt(p.day,10) > d ? 1 : -1);
+    const targetUtc = new Date(utcGuess + deltaMin * 60000);
+
+    if(targetUtc.getTime() > now.getTime()){
+      return {date: targetUtc, dayName: weekday};
+    }
+  }
+  return null;
+}
+
+function formatCountdown(ms){
+  if(ms <= 0) return "starting now";
+  const totalSec = Math.floor(ms / 1000);
+  const days = Math.floor(totalSec / 86400);
+  const hours = Math.floor((totalSec % 86400) / 3600);
+  const mins = Math.floor((totalSec % 3600) / 60);
+  if(days >= 1) return `${days}d ${hours}h ${mins}m`;
+  if(hours >= 1) return `${hours}h ${mins}m`;
+  return `${mins}m`;
+}
+
+function renderScheduleAndRecruitment(){
+  const hasSchedule = CONFIG.raidSchedule && CONFIG.raidSchedule.days && CONFIG.raidSchedule.days.length > 0;
+  const hasRecruit = CONFIG.recruitment && CONFIG.recruitment.status && CONFIG.recruitment.status !== "closed";
+
+  if(!hasSchedule && !hasRecruit) return null;
+
+  const cards = [];
+
+  // Raid schedule card
+  if(hasSchedule){
+    const next = nextRaidStart();
+    const sched = CONFIG.raidSchedule;
+    const timeRange = sched.startTime + (sched.endTime ? ` – ${sched.endTime}` : '');
+    const daysText = sched.days.join(" / ");
+
+    const countdownEl = h("div",{style:{fontSize:"22px",fontWeight:"700",color:"var(--accent)",fontFamily:"monospace"}},
+      next ? formatCountdown(next.date.getTime() - Date.now()) : "TBD"
+    );
+
+    const scheduleCard = h("div",{style:{padding:"16px 20px",background:"var(--card)",border:"1px solid var(--border)",borderRadius:"10px",flex:"1 1 260px",minWidth:"260px"}},
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",fontWeight:"700",marginBottom:"10px"}},"NEXT RAID"),
+      countdownEl,
+      h("div",{style:{fontSize:"13px",color:"var(--muted)",marginTop:"8px"}},
+        next ? `${next.dayName}, ${timeRange}` : `${daysText}, ${timeRange}`
+      ),
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",marginTop:"4px"}},daysText+" ("+(sched.timezone||'local')+")")
+    );
+
+    // Live countdown tick (updates the text node every minute)
+    if(next){
+      const interval = setInterval(()=>{
+        if(!document.body.contains(countdownEl)){ clearInterval(interval); return; }
+        countdownEl.textContent = formatCountdown(next.date.getTime() - Date.now());
+      }, 60000);
+    }
+
+    cards.push(scheduleCard);
+  }
+
+  // Recruitment card
+  if(hasRecruit){
+    const r = CONFIG.recruitment;
+    const statusColor = r.status === "open" ? "#4ade80" : "#fde68a";
+    const statusText = r.status === "open" ? "RECRUITING" : "SELECTIVE";
+
+    const recruitCard = h("div",{style:{padding:"16px 20px",background:"var(--card)",border:"1px solid var(--border)",borderRadius:"10px",flex:"1 1 260px",minWidth:"260px"}},
+      h("div",{style:{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"10px"}},
+        h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",fontWeight:"700"}},"RECRUITMENT"),
+        h("div",{style:{fontSize:"10px",color:statusColor,fontWeight:"700",padding:"2px 8px",border:"1px solid "+statusColor,borderRadius:"4px"}},statusText)
+      ),
+      h("div",{style:{fontSize:"16px",fontWeight:"700",color:"var(--text)"}},r.needs || "See Discord for details"),
+      r.notes ? h("div",{style:{fontSize:"12px",color:"var(--muted)",marginTop:"6px",lineHeight:"1.4"}},r.notes) : null,
+      r.contactName ? h("div",{style:{fontSize:"12px",color:"var(--muted)",marginTop:"8px"}},
+        "Contact: ",
+        h("span",{style:{color:"var(--accent)",fontWeight:"600"}},r.contactName),
+        r.contactDiscord ? h("span",{style:{color:"var(--faint)"}}," \u00b7 @"+r.contactDiscord) : null
+      ) : null
+    );
+
+    cards.push(recruitCard);
+  }
+
+  return h("div",{style:{display:"flex",gap:"12px",flexWrap:"wrap",marginBottom:"24px"}},...cards);
+}
+
 function renderGuildPulse(){
   const el=h("div",null);
 
@@ -2676,6 +2820,10 @@ function renderGuildPulse(){
   );
 
   el.appendChild(statsSection);
+
+  // Raid schedule + recruitment (edit in config.js)
+  const scheduleAndRecruit = renderScheduleAndRecruitment();
+  if(scheduleAndRecruit) el.appendChild(scheduleAndRecruit);
 
   // Activity ticker (between stats and milestones)
   const ticker = renderActivityTicker();
