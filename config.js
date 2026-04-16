@@ -38,8 +38,8 @@ const CONFIG = {
   // Recruitment block - edit to reflect current needs. Set status to "closed" to hide.
   recruitment: {
     status: "open",                     // "open" | "selective" | "closed"
-    needs: "2 DPS",           // Short list of roles being recruited
-    notes: "Mythic experience preferred",
+    needs: "Exceptional Players",           // Short list of roles being recruited
+    notes: "Mythic experience required",
     contactName: "Hashmaker",           // Who to reach out to
     contactDiscord: "hmaker100",        // Discord username (no # suffix needed)
     applyUrl: "https://apply.wowaudit.com/us/stormrage/rolling-for-blame/rolling-for-blame?preview"
