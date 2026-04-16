@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T22:13:42.904Z",
+  "updated": "2026-04-16T03:07:56.263Z",
   "zoneID": 46,
   "zoneName": "Midnight Falls",
   "bosses": [
@@ -47,11 +47,11 @@
       "name": "Normal",
       "stats": {
         "guildAvg": 60,
-        "raidersLogged": 41,
+        "raidersLogged": 42,
         "parseBreakdown": {
           "pink": 11,
           "purple": 32,
-          "blue": 104,
+          "blue": 105,
           "green": 71,
           "gray": 83
         },
@@ -405,6 +405,22 @@
               "parse": 99,
               "spec": "Unholy",
               "dps": 96464
+            }
+          ]
+        },
+        {
+          "name": "Oulir",
+          "class": "Druid",
+          "realm": "sargeras",
+          "avgParse": 88,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 88,
+              "spec": "Feral",
+              "dps": 64988
             }
           ]
         },
@@ -2544,14 +2560,14 @@
       "id": 4,
       "name": "Heroic",
       "stats": {
-        "guildAvg": 63,
-        "raidersLogged": 32,
+        "guildAvg": 68,
+        "raidersLogged": 35,
         "parseBreakdown": {
-          "pink": 6,
-          "purple": 27,
-          "blue": 69,
-          "green": 54,
-          "gray": 59
+          "pink": 11,
+          "purple": 37,
+          "blue": 95,
+          "green": 45,
+          "gray": 47
         },
         "bestParse": {
           "parse": 100,
@@ -2564,7 +2580,7 @@
           "name": "Envenumb",
           "class": "Rogue",
           "realm": "stormrage",
-          "avgParse": 94,
+          "avgParse": 98,
           "bossCount": 8,
           "bosses": [
             {
@@ -2577,37 +2593,37 @@
             {
               "name": "Vorasius",
               "encounterID": 3177,
-              "parse": 97,
+              "parse": 99,
               "spec": "Assassination",
-              "dps": 98578
+              "dps": 106862
             },
             {
               "name": "Fallen-King Salhadaar",
               "encounterID": 3179,
               "parse": 97,
               "spec": "Assassination",
-              "dps": 94059
+              "dps": 101471
             },
             {
               "name": "Vaelgor & Ezzorak",
               "encounterID": 3178,
               "parse": 96,
               "spec": "Assassination",
-              "dps": 104293
+              "dps": 108136
             },
             {
               "name": "Lightblinded Vanguard",
               "encounterID": 3180,
-              "parse": 90,
+              "parse": 97,
               "spec": "Assassination",
-              "dps": 128987
+              "dps": 148786
             },
             {
               "name": "Crown of the Cosmos",
               "encounterID": 3181,
-              "parse": 79,
+              "parse": 95,
               "spec": "Assassination",
-              "dps": 94281
+              "dps": 105412
             },
             {
               "name": "Chimaerus, the Undreamt God",
@@ -2626,10 +2642,140 @@
           ]
         },
         {
+          "name": "Blinkforlife",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 93,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 99,
+              "spec": "Frost",
+              "dps": 109300
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 96,
+              "spec": "Frost",
+              "dps": 88794
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 98,
+              "spec": "Frost",
+              "dps": 102107
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 93,
+              "spec": "Frost",
+              "dps": 107112
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 97,
+              "spec": "Frost",
+              "dps": 162046
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 87,
+              "spec": "Frost",
+              "dps": 112474
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 95,
+              "spec": "Frost",
+              "dps": 89957
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 75,
+              "spec": "Frost",
+              "dps": 90407
+            }
+          ]
+        },
+        {
+          "name": "Erther",
+          "class": "Hunter",
+          "realm": "jaedenar",
+          "avgParse": 93,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 91,
+              "spec": "BeastMastery",
+              "dps": 88808
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 97,
+              "spec": "BeastMastery",
+              "dps": 95310
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 99,
+              "spec": "BeastMastery",
+              "dps": 98305
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 91,
+              "spec": "BeastMastery",
+              "dps": 90209
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 99,
+              "spec": "BeastMastery",
+              "dps": 145797
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 80,
+              "spec": "BeastMastery",
+              "dps": 97193
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 93,
+              "spec": "BeastMastery",
+              "dps": 79711
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 93,
+              "spec": "BeastMastery",
+              "dps": 85927
+            }
+          ]
+        },
+        {
           "name": "Torchfist",
           "class": "Monk",
           "realm": "dalaran",
-          "avgParse": 89,
+          "avgParse": 91,
           "bossCount": 8,
           "bosses": [
             {
@@ -2637,7 +2783,7 @@
               "encounterID": 3176,
               "parse": 97,
               "spec": "Mistweaver",
-              "dps": 121328
+              "dps": 131944
             },
             {
               "name": "Vorasius",
@@ -2658,21 +2804,21 @@
               "encounterID": 3178,
               "parse": 91,
               "spec": "Mistweaver",
-              "dps": 117768
+              "dps": 119706
             },
             {
               "name": "Lightblinded Vanguard",
               "encounterID": 3180,
-              "parse": 95,
+              "parse": 96,
               "spec": "Mistweaver",
-              "dps": 132843
+              "dps": 136593
             },
             {
               "name": "Crown of the Cosmos",
               "encounterID": 3181,
-              "parse": 72,
+              "parse": 82,
               "spec": "Mistweaver",
-              "dps": 121481
+              "dps": 129523
             },
             {
               "name": "Chimaerus, the Undreamt God",
@@ -2684,9 +2830,204 @@
             {
               "name": "Belo'ren, Child of Al'ar",
               "encounterID": 3182,
-              "parse": 72,
+              "parse": 82,
               "spec": "Mistweaver",
-              "dps": 130704
+              "dps": 142786
+            }
+          ]
+        },
+        {
+          "name": "Radaamac",
+          "class": "Shaman",
+          "realm": "stormrage",
+          "avgParse": 90,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 97,
+              "spec": "Elemental",
+              "dps": 109105
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 93,
+              "spec": "Elemental",
+              "dps": 86767
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 92,
+              "spec": "Elemental",
+              "dps": 88654
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 87,
+              "spec": "Elemental",
+              "dps": 84033
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 95,
+              "spec": "Elemental",
+              "dps": 123264
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 85,
+              "spec": "Elemental",
+              "dps": 96704
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 86,
+              "spec": "Elemental",
+              "dps": 72518
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 85,
+              "spec": "Elemental",
+              "dps": 83537
+            }
+          ]
+        },
+        {
+          "name": "Hashmaker",
+          "class": "Paladin",
+          "realm": "illidan",
+          "avgParse": 90,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 93,
+              "spec": "Retribution",
+              "dps": 99174
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 99,
+              "spec": "Retribution",
+              "dps": 101170
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 98,
+              "spec": "Retribution",
+              "dps": 95841
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 99,
+              "spec": "Retribution",
+              "dps": 107742
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 99,
+              "spec": "Retribution",
+              "dps": 149494
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 75,
+              "spec": "Retribution",
+              "dps": 89465
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 98,
+              "spec": "Retribution",
+              "dps": 81881
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 63,
+              "spec": "Retribution",
+              "dps": 77909
+            }
+          ]
+        },
+        {
+          "name": "Thinboi",
+          "class": "Hunter",
+          "realm": "sargeras",
+          "avgParse": 89,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 98,
+              "spec": "Survival",
+              "dps": 103631
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 96,
+              "spec": "Survival",
+              "dps": 94007
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 96,
+              "spec": "Survival",
+              "dps": 91056
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 96,
+              "spec": "Survival",
+              "dps": 108598
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 97,
+              "spec": "Survival",
+              "dps": 161412
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 83,
+              "spec": "Survival",
+              "dps": 93936
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 83,
+              "spec": "Survival",
+              "dps": 78156
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 64,
+              "spec": "Survival",
+              "dps": 80061
             }
           ]
         },
@@ -2756,8 +3097,73 @@
           ]
         },
         {
-          "name": "Blinkforlife",
+          "name": "Mangoseltzer",
           "class": "Mage",
+          "realm": "illidan",
+          "avgParse": 88,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 97,
+              "spec": "Frost",
+              "dps": 106954
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 95,
+              "spec": "Frost",
+              "dps": 88530
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 98,
+              "spec": "Frost",
+              "dps": 103745
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 98,
+              "spec": "Frost",
+              "dps": 118871
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 99,
+              "spec": "Frost",
+              "dps": 173580
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 66,
+              "spec": "Frost",
+              "dps": 102971
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 88,
+              "spec": "Frost",
+              "dps": 73968
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 65,
+              "spec": "Frost",
+              "dps": 85983
+            }
+          ]
+        },
+        {
+          "name": "Lykra",
+          "class": "Druid",
           "realm": "sargeras",
           "avgParse": 87,
           "bossCount": 8,
@@ -2765,123 +3171,58 @@
             {
               "name": "Imperator Averzian",
               "encounterID": 3176,
-              "parse": 99,
-              "spec": "Frost",
-              "dps": 109300
+              "parse": 90,
+              "spec": "Restoration",
+              "dps": 101724
             },
             {
               "name": "Vorasius",
               "encounterID": 3177,
-              "parse": 96,
-              "spec": "Frost",
-              "dps": 88794
+              "parse": 84,
+              "spec": "Restoration",
+              "dps": 96477
             },
             {
               "name": "Fallen-King Salhadaar",
               "encounterID": 3179,
-              "parse": 98,
-              "spec": "Frost",
-              "dps": 102107
+              "parse": 88,
+              "spec": "Restoration",
+              "dps": 115994
             },
             {
               "name": "Vaelgor & Ezzorak",
               "encounterID": 3178,
-              "parse": 93,
-              "spec": "Frost",
-              "dps": 107112
+              "parse": 94,
+              "spec": "Restoration",
+              "dps": 106423
             },
             {
               "name": "Lightblinded Vanguard",
               "encounterID": 3180,
-              "parse": 92,
-              "spec": "Frost",
-              "dps": 143905
+              "parse": 98,
+              "spec": "Restoration",
+              "dps": 126780
             },
             {
               "name": "Crown of the Cosmos",
               "encounterID": 3181,
-              "parse": 66,
-              "spec": "Frost",
-              "dps": 102599
+              "parse": 82,
+              "spec": "Restoration",
+              "dps": 111890
             },
             {
               "name": "Chimaerus, the Undreamt God",
               "encounterID": 3306,
-              "parse": 95,
-              "spec": "Frost",
-              "dps": 89393
+              "parse": 85,
+              "spec": "Restoration",
+              "dps": 99770
             },
             {
               "name": "Belo'ren, Child of Al'ar",
               "encounterID": 3182,
-              "parse": 54,
-              "spec": "Frost",
-              "dps": 82478
-            }
-          ]
-        },
-        {
-          "name": "Hashmaker",
-          "class": "Paladin",
-          "realm": "illidan",
-          "avgParse": 87,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 92,
-              "spec": "Retribution",
-              "dps": 93588
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 99,
-              "spec": "Retribution",
-              "dps": 101170
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 98,
-              "spec": "Retribution",
-              "dps": 95841
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 99,
-              "spec": "Retribution",
-              "dps": 107742
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 99,
-              "spec": "Retribution",
-              "dps": 149494
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 52,
-              "spec": "Retribution",
-              "dps": 80124
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 98,
-              "spec": "Retribution",
-              "dps": 79843
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 59,
-              "spec": "Retribution",
-              "dps": 76975
+              "parse": 77,
+              "spec": "Restoration",
+              "dps": 115757
             }
           ]
         },
@@ -2944,6 +3285,201 @@
           ]
         },
         {
+          "name": "Crackle",
+          "class": "Evoker",
+          "realm": "illidan",
+          "avgParse": 84,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 94,
+              "spec": "Augmentation",
+              "dps": 109943
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 86,
+              "spec": "Augmentation",
+              "dps": 88050
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 93,
+              "spec": "Augmentation",
+              "dps": 100858
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 95,
+              "spec": "Augmentation",
+              "dps": 98146
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 96,
+              "spec": "Augmentation",
+              "dps": 185782
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 88,
+              "spec": "Augmentation",
+              "dps": 103187
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 85,
+              "spec": "Augmentation",
+              "dps": 77118
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 32,
+              "spec": "Augmentation",
+              "dps": 66243
+            }
+          ]
+        },
+        {
+          "name": "Noxris",
+          "class": "Demon Hunter",
+          "realm": "sargeras",
+          "avgParse": 82,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 96,
+              "spec": "Devourer",
+              "dps": 103204
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 79,
+              "spec": "Devourer",
+              "dps": 79218
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 76,
+              "spec": "Devourer",
+              "dps": 78979
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 78,
+              "spec": "Devourer",
+              "dps": 99689
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 93,
+              "spec": "Devourer",
+              "dps": 163837
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 77,
+              "spec": "Devourer",
+              "dps": 96843
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 74,
+              "spec": "Devourer",
+              "dps": 71357
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 80,
+              "spec": "Devourer",
+              "dps": 83750
+            }
+          ]
+        },
+        {
+          "name": "Mjolnirfear",
+          "class": "Warlock",
+          "realm": "zul'jin",
+          "avgParse": 81,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 97,
+              "spec": "Demonology",
+              "dps": 109328
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 92,
+              "spec": "Demonology",
+              "dps": 84731
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 90,
+              "spec": "Demonology",
+              "dps": 91594
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 79,
+              "spec": "Destruction",
+              "dps": 105877
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 96,
+              "spec": "Demonology",
+              "dps": 157722
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 71,
+              "spec": "Demonology",
+              "dps": 100579
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 90,
+              "spec": "Demonology",
+              "dps": 80404
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 35,
+              "spec": "Demonology",
+              "dps": 71105
+            }
+          ]
+        },
+        {
           "name": "Fractle",
           "class": "Paladin",
           "realm": "area-52",
@@ -2960,67 +3496,357 @@
           ]
         },
         {
-          "name": "Mangoseltzer",
-          "class": "Mage",
-          "realm": "illidan",
-          "avgParse": 80,
+          "name": "Blinkvoker",
+          "class": "Evoker",
+          "realm": "sargeras",
+          "avgParse": 77,
+          "bossCount": 4,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 80,
+              "spec": "Devastation",
+              "dps": 90216
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 79,
+              "spec": "Augmentation",
+              "dps": 82250
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 82,
+              "spec": "Augmentation",
+              "dps": 88494
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 69,
+              "spec": "Augmentation",
+              "dps": 82136
+            }
+          ]
+        },
+        {
+          "name": "Enhance",
+          "class": "Shaman",
+          "realm": "sargeras",
+          "avgParse": 76,
           "bossCount": 8,
           "bosses": [
             {
               "name": "Imperator Averzian",
               "encounterID": 3176,
-              "parse": 97,
-              "spec": "Frost",
-              "dps": 106954
+              "parse": 99,
+              "spec": "Enhancement",
+              "dps": 106623
             },
             {
               "name": "Vorasius",
               "encounterID": 3177,
-              "parse": 95,
-              "spec": "Frost",
-              "dps": 88319
+              "parse": 89,
+              "spec": "Enhancement",
+              "dps": 85682
             },
             {
               "name": "Fallen-King Salhadaar",
               "encounterID": 3179,
-              "parse": 94,
-              "spec": "Frost",
-              "dps": 85787
+              "parse": 98,
+              "spec": "Enhancement",
+              "dps": 91876
             },
             {
               "name": "Vaelgor & Ezzorak",
               "encounterID": 3178,
-              "parse": 98,
-              "spec": "Frost",
-              "dps": 118871
+              "parse": 60,
+              "spec": "Enhancement",
+              "dps": 81742
             },
             {
               "name": "Lightblinded Vanguard",
               "encounterID": 3180,
-              "parse": 96,
-              "spec": "Frost",
-              "dps": 152276
+              "parse": 79,
+              "spec": "Enhancement",
+              "dps": 118176
             },
             {
               "name": "Crown of the Cosmos",
               "encounterID": 3181,
-              "parse": 23,
-              "spec": "Frost",
-              "dps": 87248
+              "parse": 68,
+              "spec": "Enhancement",
+              "dps": 81012
             },
             {
               "name": "Chimaerus, the Undreamt God",
               "encounterID": 3306,
-              "parse": 88,
-              "spec": "Frost",
-              "dps": 73968
+              "parse": 80,
+              "spec": "Enhancement",
+              "dps": 69746
             },
             {
               "name": "Belo'ren, Child of Al'ar",
               "encounterID": 3182,
+              "parse": 36,
+              "spec": "Enhancement",
+              "dps": 66435
+            }
+          ]
+        },
+        {
+          "name": "Deadstrikes",
+          "class": "Warrior",
+          "realm": "sargeras",
+          "avgParse": 76,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 82,
+              "spec": "Protection",
+              "dps": 45837
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 78,
+              "spec": "Protection",
+              "dps": 44953
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 80,
+              "spec": "Protection",
+              "dps": 43412
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 88,
+              "spec": "Protection",
+              "dps": 53668
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 88,
+              "spec": "Protection",
+              "dps": 72973
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 46,
+              "spec": "Protection",
+              "dps": 42954
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 75,
+              "spec": "Protection",
+              "dps": 39708
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 71,
+              "spec": "Protection",
+              "dps": 45252
+            }
+          ]
+        },
+        {
+          "name": "Kÿle",
+          "class": "Monk",
+          "realm": "mal'ganis",
+          "avgParse": 73,
+          "bossCount": 7,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 75,
+              "spec": "Brewmaster",
+              "dps": 47465
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 68,
+              "spec": "Brewmaster",
+              "dps": 40316
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 86,
+              "spec": "Brewmaster",
+              "dps": 47023
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 58,
+              "spec": "Brewmaster",
+              "dps": 43395
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 76,
+              "spec": "Brewmaster",
+              "dps": 65293
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 64,
+              "spec": "Brewmaster",
+              "dps": 49483
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 82,
+              "spec": "Brewmaster",
+              "dps": 41405
+            }
+          ]
+        },
+        {
+          "name": "Gazmira",
+          "class": "Evoker",
+          "realm": "sargeras",
+          "avgParse": 72,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 55,
+              "spec": "Preservation",
+              "dps": 87839
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 84,
+              "spec": "Preservation",
+              "dps": 123644
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 56,
+              "spec": "Preservation",
+              "dps": 105233
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 83,
+              "spec": "Preservation",
+              "dps": 106450
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 69,
+              "spec": "Preservation",
+              "dps": 108609
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 89,
+              "spec": "Preservation",
+              "dps": 135078
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 72,
+              "spec": "Preservation",
+              "dps": 101682
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 69,
+              "spec": "Preservation",
+              "dps": 127714
+            }
+          ]
+        },
+        {
+          "name": "Nofingies",
+          "class": "Hunter",
+          "realm": "kil'jaeden",
+          "avgParse": 71,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 90,
+              "spec": "Marksmanship",
+              "dps": 94586
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 89,
+              "spec": "Marksmanship",
+              "dps": 83573
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 76,
+              "spec": "Marksmanship",
+              "dps": 77070
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 55,
+              "spec": "Marksmanship",
+              "dps": 80567
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 91,
+              "spec": "Marksmanship",
+              "dps": 169542
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
               "parse": 49,
-              "spec": "Frost",
-              "dps": 80958
+              "spec": "Marksmanship",
+              "dps": 83028
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 79,
+              "spec": "Marksmanship",
+              "dps": 73886
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 35,
+              "spec": "Marksmanship",
+              "dps": 66998
             }
           ]
         },
@@ -3028,8 +3854,8 @@
           "name": "Rukenji",
           "class": "Priest",
           "realm": "mannoroth",
-          "avgParse": 76,
-          "bossCount": 7,
+          "avgParse": 70,
+          "bossCount": 8,
           "bosses": [
             {
               "name": "Imperator Averzian",
@@ -3079,744 +3905,273 @@
               "parse": 90,
               "spec": "Holy",
               "dps": 94890
-            }
-          ]
-        },
-        {
-          "name": "Thinboi",
-          "class": "Hunter",
-          "realm": "sargeras",
-          "avgParse": 74,
-          "bossCount": 7,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 98,
-              "spec": "Survival",
-              "dps": 92815
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 95,
-              "spec": "Survival",
-              "dps": 75590
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 96,
-              "spec": "Survival",
-              "dps": 74849
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 31,
-              "spec": "Survival",
-              "dps": 60838
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 87,
-              "spec": "Survival",
-              "dps": 108085
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 83,
-              "spec": "Survival",
-              "dps": 69182
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 26,
-              "spec": "Survival",
-              "dps": 67412
-            }
-          ]
-        },
-        {
-          "name": "Radaamac",
-          "class": "Shaman",
-          "realm": "stormrage",
-          "avgParse": 74,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 97,
-              "spec": "Elemental",
-              "dps": 109105
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 93,
-              "spec": "Elemental",
-              "dps": 79809
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 92,
-              "spec": "Elemental",
-              "dps": 84444
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 87,
-              "spec": "Elemental",
-              "dps": 78788
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 60,
-              "spec": "Elemental",
-              "dps": 88410
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 50,
-              "spec": "Elemental",
-              "dps": 80066
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 86,
-              "spec": "Elemental",
-              "dps": 72518
             },
             {
               "name": "Belo'ren, Child of Al'ar",
               "encounterID": 3182,
               "parse": 28,
-              "spec": "Elemental",
-              "dps": 60281
+              "spec": "Discipline",
+              "dps": 101987
             }
           ]
         },
         {
-          "name": "Erther",
-          "class": "Hunter",
-          "realm": "jaedenar",
-          "avgParse": 74,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 91,
-              "spec": "BeastMastery",
-              "dps": 80678
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 76,
-              "spec": "BeastMastery",
-              "dps": 77377
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 93,
-              "spec": "BeastMastery",
-              "dps": 83191
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 91,
-              "spec": "BeastMastery",
-              "dps": 90209
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 90,
-              "spec": "BeastMastery",
-              "dps": 118717
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 64,
-              "spec": "BeastMastery",
-              "dps": 89079
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 85,
-              "spec": "BeastMastery",
-              "dps": 70312
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 1,
-              "spec": "BeastMastery",
-              "dps": 5783
-            }
-          ]
-        },
-        {
-          "name": "Mjolnirfear",
-          "class": "Warlock",
-          "realm": "zul'jin",
-          "avgParse": 73,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 97,
-              "spec": "Demonology",
-              "dps": 108303
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 67,
-              "spec": "Destruction",
-              "dps": 64290
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 90,
-              "spec": "Demonology",
-              "dps": 90145
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 79,
-              "spec": "Destruction",
-              "dps": 105877
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 89,
-              "spec": "Demonology",
-              "dps": 139228
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 57,
-              "spec": "Demonology",
-              "dps": 94629
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 90,
-              "spec": "Demonology",
-              "dps": 80404
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 18,
-              "spec": "Demonology",
-              "dps": 63048
-            }
-          ]
-        },
-        {
-          "name": "Lykra",
-          "class": "Druid",
-          "realm": "sargeras",
-          "avgParse": 72,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 85,
-              "spec": "Restoration",
-              "dps": 85642
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 77,
-              "spec": "Restoration",
-              "dps": 89262
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 79,
-              "spec": "Restoration",
-              "dps": 99833
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 71,
-              "spec": "Restoration",
-              "dps": 81341
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 78,
-              "spec": "Restoration",
-              "dps": 92590
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 55,
-              "spec": "Restoration",
-              "dps": 96558
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 67,
-              "spec": "Restoration",
-              "dps": 82050
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 63,
-              "spec": "Restoration",
-              "dps": 105779
-            }
-          ]
-        },
-        {
-          "name": "Nofingies",
-          "class": "Hunter",
-          "realm": "kil'jaeden",
-          "avgParse": 71,
-          "bossCount": 7,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 90,
-              "spec": "Marksmanship",
-              "dps": 94586
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 78,
-              "spec": "Marksmanship",
-              "dps": 74658
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 58,
-              "spec": "Marksmanship",
-              "dps": 65834
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 55,
-              "spec": "Marksmanship",
-              "dps": 80567
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 85,
-              "spec": "Marksmanship",
-              "dps": 155304
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 49,
-              "spec": "Marksmanship",
-              "dps": 83028
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 79,
-              "spec": "Marksmanship",
-              "dps": 73886
-            }
-          ]
-        },
-        {
-          "name": "Crackle",
-          "class": "Evoker",
-          "realm": "illidan",
-          "avgParse": 68,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 94,
-              "spec": "Augmentation",
-              "dps": 109943
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 81,
-              "spec": "Augmentation",
-              "dps": 78764
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 79,
-              "spec": "Augmentation",
-              "dps": 85440
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 81,
-              "spec": "Augmentation",
-              "dps": 87505
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 71,
-              "spec": "Augmentation",
-              "dps": 139692
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 45,
-              "spec": "Augmentation",
-              "dps": 85177
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 85,
-              "spec": "Augmentation",
-              "dps": 77118
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 6,
-              "spec": "Augmentation",
-              "dps": 48723
-            }
-          ]
-        },
-        {
-          "name": "Blinkvoker",
-          "class": "Evoker",
-          "realm": "sargeras",
-          "avgParse": 66,
-          "bossCount": 4,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 80,
-              "spec": "Devastation",
-              "dps": 90216
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 67,
-              "spec": "Devastation",
-              "dps": 69079
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 80,
-              "spec": "Devastation",
-              "dps": 76113
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 36,
-              "spec": "Devastation",
-              "dps": 85860
-            }
-          ]
-        },
-        {
-          "name": "Gazmira",
-          "class": "Evoker",
-          "realm": "sargeras",
-          "avgParse": 65,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 55,
-              "spec": "Preservation",
-              "dps": 87839
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 84,
-              "spec": "Preservation",
-              "dps": 123644
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 56,
-              "spec": "Preservation",
-              "dps": 105233
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 83,
-              "spec": "Preservation",
-              "dps": 106450
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 67,
-              "spec": "Preservation",
-              "dps": 105488
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 48,
-              "spec": "Preservation",
-              "dps": 112612
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 66,
-              "spec": "Preservation",
-              "dps": 96002
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 60,
-              "spec": "Preservation",
-              "dps": 122405
-            }
-          ]
-        },
-        {
-          "name": "Enhance",
-          "class": "Shaman",
-          "realm": "sargeras",
-          "avgParse": 64,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 95,
-              "spec": "Enhancement",
-              "dps": 93360
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 80,
-              "spec": "Enhancement",
-              "dps": 76906
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 89,
-              "spec": "Enhancement",
-              "dps": 78319
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 60,
-              "spec": "Enhancement",
-              "dps": 80297
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 68,
-              "spec": "Enhancement",
-              "dps": 107499
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 36,
-              "spec": "Enhancement",
-              "dps": 71251
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 62,
-              "spec": "Enhancement",
-              "dps": 61279
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 23,
-              "spec": "Enhancement",
-              "dps": 61461
-            }
-          ]
-        },
-        {
-          "name": "Deadstrikes",
-          "class": "Warrior",
-          "realm": "sargeras",
-          "avgParse": 64,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 82,
-              "spec": "Protection",
-              "dps": 45837
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 78,
-              "spec": "Protection",
-              "dps": 44953
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 76,
-              "spec": "Protection",
-              "dps": 40209
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 82,
-              "spec": "Protection",
-              "dps": 50302
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 65,
-              "spec": "Protection",
-              "dps": 54210
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 33,
-              "spec": "Protection",
-              "dps": 40136
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 53,
-              "spec": "Protection",
-              "dps": 32821
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 41,
-              "spec": "Protection",
-              "dps": 38799
-            }
-          ]
-        },
-        {
-          "name": "Noxris",
+          "name": "Felramor",
           "class": "Demon Hunter",
-          "realm": "sargeras",
+          "realm": "zul'jin",
+          "avgParse": 64,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 75,
+              "spec": "Devourer",
+              "dps": 87250
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 80,
+              "spec": "Devourer",
+              "dps": 79727
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 66,
+              "spec": "Devourer",
+              "dps": 73703
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 49,
+              "spec": "Devourer",
+              "dps": 83526
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 90,
+              "spec": "Devourer",
+              "dps": 156583
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 24,
+              "spec": "Devourer",
+              "dps": 73309
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 65,
+              "spec": "Devourer",
+              "dps": 70296
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 61,
+              "spec": "Devourer",
+              "dps": 74708
+            }
+          ]
+        },
+        {
+          "name": "Renyuwu",
+          "class": "Demon Hunter",
+          "realm": "stormrage",
+          "avgParse": 61,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 67,
+              "spec": "Devourer",
+              "dps": 91581
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 81,
+              "spec": "Devourer",
+              "dps": 80499
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 84,
+              "spec": "Devourer",
+              "dps": 84924
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 47,
+              "spec": "Devourer",
+              "dps": 82635
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 35,
+              "spec": "Devourer",
+              "dps": 106099
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 36,
+              "spec": "Devourer",
+              "dps": 79046
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 82,
+              "spec": "Devourer",
+              "dps": 79441
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 53,
+              "spec": "Devourer",
+              "dps": 71243
+            }
+          ]
+        },
+        {
+          "name": "Searingchi",
+          "class": "Monk",
+          "realm": "illidan",
           "avgParse": 59,
           "bossCount": 8,
           "bosses": [
             {
               "name": "Imperator Averzian",
               "encounterID": 3176,
-              "parse": 96,
-              "spec": "Devourer",
-              "dps": 96838
+              "parse": 77,
+              "spec": "Brewmaster",
+              "dps": 39046
             },
             {
               "name": "Vorasius",
               "encounterID": 3177,
-              "parse": 70,
-              "spec": "Devourer",
-              "dps": 72189
+              "parse": 74,
+              "spec": "Windwalker",
+              "dps": 75308
             },
             {
               "name": "Fallen-King Salhadaar",
               "encounterID": 3179,
-              "parse": 43,
-              "spec": "Devourer",
-              "dps": 55594
+              "parse": 75,
+              "spec": "Windwalker",
+              "dps": 73382
             },
             {
               "name": "Vaelgor & Ezzorak",
               "encounterID": 3178,
-              "parse": 65,
-              "spec": "Devourer",
-              "dps": 93340
+              "parse": 56,
+              "spec": "Brewmaster",
+              "dps": 38612
             },
             {
               "name": "Lightblinded Vanguard",
               "encounterID": 3180,
-              "parse": 59,
-              "spec": "Devourer",
-              "dps": 123938
+              "parse": 63,
+              "spec": "Windwalker",
+              "dps": 108200
             },
             {
               "name": "Crown of the Cosmos",
               "encounterID": 3181,
-              "parse": 22,
-              "spec": "Devourer",
-              "dps": 72069
+              "parse": 34,
+              "spec": "Windwalker",
+              "dps": 70379
             },
             {
               "name": "Chimaerus, the Undreamt God",
               "encounterID": 3306,
-              "parse": 74,
-              "spec": "Devourer",
-              "dps": 64468
+              "parse": 52,
+              "spec": "Windwalker",
+              "dps": 60825
             },
             {
               "name": "Belo'ren, Child of Al'ar",
               "encounterID": 3182,
-              "parse": 41,
-              "spec": "Devourer",
-              "dps": 67729
+              "parse": 44,
+              "spec": "Windwalker",
+              "dps": 70509
+            }
+          ]
+        },
+        {
+          "name": "Blimpi",
+          "class": "Warlock",
+          "realm": "stormrage",
+          "avgParse": 57,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 72,
+              "spec": "Demonology",
+              "dps": 93285
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 65,
+              "spec": "Demonology",
+              "dps": 67625
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 67,
+              "spec": "Demonology",
+              "dps": 76417
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 14,
+              "spec": "Destruction",
+              "dps": 59104
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 72,
+              "spec": "Demonology",
+              "dps": 127177
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 47,
+              "spec": "Demonology",
+              "dps": 91818
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 72,
+              "spec": "Demonology",
+              "dps": 76778
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 48,
+              "spec": "Demonology",
+              "dps": 76853
             }
           ]
         },
@@ -3916,64 +4271,6 @@
           ]
         },
         {
-          "name": "Searingchi",
-          "class": "Monk",
-          "realm": "illidan",
-          "avgParse": 51,
-          "bossCount": 7,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 77,
-              "spec": "Brewmaster",
-              "dps": 39046
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 62,
-              "spec": "Brewmaster",
-              "dps": 35187
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 65,
-              "spec": "Brewmaster",
-              "dps": 33717
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 56,
-              "spec": "Brewmaster",
-              "dps": 38612
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 28,
-              "spec": "Brewmaster",
-              "dps": 43059
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 33,
-              "spec": "Brewmaster",
-              "dps": 40223
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 32,
-              "spec": "Brewmaster",
-              "dps": 27938
-            }
-          ]
-        },
-        {
           "name": "Blinktwo",
           "class": "Mage",
           "realm": "sargeras",
@@ -3993,71 +4290,6 @@
               "parse": 21,
               "spec": "Frost",
               "dps": 53430
-            }
-          ]
-        },
-        {
-          "name": "Felramor",
-          "class": "Demon Hunter",
-          "realm": "zul'jin",
-          "avgParse": 47,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 75,
-              "spec": "Devourer",
-              "dps": 81479
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 79,
-              "spec": "Devourer",
-              "dps": 76867
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 58,
-              "spec": "Devourer",
-              "dps": 66982
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 49,
-              "spec": "Devourer",
-              "dps": 83526
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 52,
-              "spec": "Devourer",
-              "dps": 118896
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 24,
-              "spec": "Devourer",
-              "dps": 73309
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 32,
-              "spec": "Devourer",
-              "dps": 55876
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 4,
-              "spec": "Devourer",
-              "dps": 37943
             }
           ]
         },
@@ -4157,132 +4389,83 @@
           ]
         },
         {
-          "name": "Blimpi",
-          "class": "Warlock",
+          "name": "Banehate",
+          "class": "Death Knight",
           "realm": "stormrage",
-          "avgParse": 40,
+          "avgParse": 33,
           "bossCount": 8,
           "bosses": [
             {
               "name": "Imperator Averzian",
               "encounterID": 3176,
-              "parse": 65,
-              "spec": "Demonology",
-              "dps": 86456
+              "parse": 40,
+              "spec": "Unholy",
+              "dps": 75508
             },
             {
               "name": "Vorasius",
               "encounterID": 3177,
-              "parse": 65,
-              "spec": "Demonology",
-              "dps": 67625
+              "parse": 48,
+              "spec": "Unholy",
+              "dps": 74924
             },
             {
               "name": "Fallen-King Salhadaar",
               "encounterID": 3179,
-              "parse": 49,
-              "spec": "Demonology",
-              "dps": 66233
+              "parse": 62,
+              "spec": "Unholy",
+              "dps": 79971
             },
             {
               "name": "Vaelgor & Ezzorak",
               "encounterID": 3178,
-              "parse": 14,
-              "spec": "Destruction",
-              "dps": 59104
+              "parse": 28,
+              "spec": "Unholy",
+              "dps": 69004
             },
             {
               "name": "Lightblinded Vanguard",
               "encounterID": 3180,
-              "parse": 58,
-              "spec": "Demonology",
-              "dps": 112636
+              "parse": 37,
+              "spec": "Unholy",
+              "dps": 101193
             },
             {
               "name": "Crown of the Cosmos",
               "encounterID": 3181,
-              "parse": 9,
-              "spec": "Demonology",
-              "dps": 71235
+              "parse": 5,
+              "spec": "Unholy",
+              "dps": 56421
             },
             {
               "name": "Chimaerus, the Undreamt God",
               "encounterID": 3306,
-              "parse": 45,
-              "spec": "Demonology",
-              "dps": 64317
+              "parse": 29,
+              "spec": "Unholy",
+              "dps": 51930
             },
             {
               "name": "Belo'ren, Child of Al'ar",
               "encounterID": 3182,
-              "parse": 12,
-              "spec": "Demonology",
-              "dps": 58194
+              "parse": 16,
+              "spec": "Unholy",
+              "dps": 59429
             }
           ]
         },
         {
-          "name": "Renyuwu",
-          "class": "Demon Hunter",
+          "name": "Mormonn",
+          "class": "Warlock",
           "realm": "stormrage",
-          "avgParse": 36,
-          "bossCount": 8,
+          "avgParse": 31,
+          "bossCount": 1,
           "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 36,
-              "spec": "Devourer",
-              "dps": 72445
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 56,
-              "spec": "Devourer",
-              "dps": 65728
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 57,
-              "spec": "Devourer",
-              "dps": 66674
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 47,
-              "spec": "Devourer",
-              "dps": 82635
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 35,
-              "spec": "Devourer",
-              "dps": 106099
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 9,
-              "spec": "Devourer",
-              "dps": 60476
-            },
             {
               "name": "Chimaerus, the Undreamt God",
               "encounterID": 3306,
-              "parse": 19,
-              "spec": "Devourer",
-              "dps": 49949
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 26,
-              "spec": "Devourer",
-              "dps": 59843
+              "parse": 31,
+              "spec": "Demonology",
+              "dps": 60240
             }
           ]
         },
@@ -4888,7 +5071,7 @@
     },
     {
       "name": "Banehate",
-      "rio": 1708.1
+      "rio": 1772.3
     },
     {
       "name": "Vynaegia",
@@ -4988,7 +5171,7 @@
     },
     {
       "name": "Kÿle",
-      "rio": 2817.6
+      "rio": 2887.7
     },
     {
       "name": "Kylepàlly",
@@ -5188,7 +5371,7 @@
     },
     {
       "name": "Deadstrikes",
-      "rio": 2748.5
+      "rio": 2815.7
     },
     {
       "name": "Hashmaker",
@@ -5512,7 +5695,7 @@
     },
     {
       "name": "Mormonn",
-      "rio": 2804.4
+      "rio": 2854.9
     },
     {
       "name": "Mjolnirfear",
@@ -5524,7 +5707,7 @@
     },
     {
       "name": "Oulir",
-      "rio": 3130
+      "rio": 3175.4
     }
   ],
   "kshSnapshot": [
@@ -5540,6 +5723,7 @@
     "Kÿle",
     "Noxris",
     "Enhance",
+    "Deadstrikes",
     "Hashmaker",
     "Searingchi",
     "Erther",
