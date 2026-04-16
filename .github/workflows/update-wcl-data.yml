@@ -1,7 +1,7 @@
 name: Update WCL Data
 
 on:
-  # Daily at 6am and 6pm UTC (covers morning and post-raid)
+  # Runs at 0 mins past the hour, every 2 hours
   schedule:
     - cron: '0 */2 * * *'
   
