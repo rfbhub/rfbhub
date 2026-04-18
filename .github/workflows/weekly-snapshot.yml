@@ -25,10 +25,13 @@ jobs:
       - name: Run weekly snapshot
         run: node snapshot-week.js
 
-      - name: Commit snapshot if new
+      - name: Generate weekly recap
+        run: node generate-recap.js
+
+      - name: Commit snapshot and recap
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Weekly snapshot"
-          file_pattern: "history/*.json"
+          commit_message: "Weekly snapshot + recap"
+          file_pattern: "history/*.json recap.json"
           commit_user_name: "Guild Hub Bot"
           commit_user_email: "bot@guild-hub.github.io"
