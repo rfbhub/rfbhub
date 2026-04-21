@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-21T11:46:03.313Z",
+  "updated": "2026-04-21T16:01:58.221Z",
   "zoneID": 46,
   "zoneName": "Midnight Falls",
   "bosses": [
@@ -46,14 +46,14 @@
       "id": 3,
       "name": "Normal",
       "stats": {
-        "guildAvg": 63,
-        "raidersLogged": 44,
+        "guildAvg": 64,
+        "raidersLogged": 45,
         "parseBreakdown": {
-          "pink": 11,
-          "purple": 41,
-          "blue": 119,
+          "pink": 13,
+          "purple": 44,
+          "blue": 121,
           "green": 65,
-          "gray": 91
+          "gray": 88
         },
         "bestParse": {
           "parse": 99,
@@ -911,6 +911,71 @@
               "parse": 80,
               "spec": "Frost",
               "dps": 59591
+            }
+          ]
+        },
+        {
+          "name": "Eksdra",
+          "class": "Shaman",
+          "realm": "illidan",
+          "avgParse": 84,
+          "bossCount": 8,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 37,
+              "spec": "Restoration",
+              "dps": 984
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 75,
+              "spec": "Restoration",
+              "dps": 4504
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 96,
+              "spec": "Restoration",
+              "dps": 11770
+            },
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 99,
+              "spec": "Restoration",
+              "dps": 14014
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 98,
+              "spec": "Restoration",
+              "dps": 12770
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 99,
+              "spec": "Restoration",
+              "dps": 10889
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 75,
+              "spec": "Restoration",
+              "dps": 3878
+            },
+            {
+              "name": "Belo'ren, Child of Al'ar",
+              "encounterID": 3182,
+              "parse": 97,
+              "spec": "Restoration",
+              "dps": 8988
             }
           ]
         },
@@ -2071,6 +2136,43 @@
           ]
         },
         {
+          "name": "Derty",
+          "class": "Rogue",
+          "realm": "wildhammer",
+          "avgParse": 46,
+          "bossCount": 4,
+          "bosses": [
+            {
+              "name": "Vaelgor & Ezzorak",
+              "encounterID": 3178,
+              "parse": 68,
+              "spec": "Outlaw",
+              "dps": 55766
+            },
+            {
+              "name": "Lightblinded Vanguard",
+              "encounterID": 3180,
+              "parse": 47,
+              "spec": "Outlaw",
+              "dps": 55996
+            },
+            {
+              "name": "Crown of the Cosmos",
+              "encounterID": 3181,
+              "parse": 29,
+              "spec": "Outlaw",
+              "dps": 37698
+            },
+            {
+              "name": "Chimaerus, the Undreamt God",
+              "encounterID": 3306,
+              "parse": 40,
+              "spec": "Outlaw",
+              "dps": 38334
+            }
+          ]
+        },
+        {
           "name": "Blinkbeam",
           "class": "Demon Hunter",
           "realm": "sargeras",
@@ -2530,71 +2632,6 @@
           ]
         },
         {
-          "name": "Eksdra",
-          "class": "Shaman",
-          "realm": "illidan",
-          "avgParse": 22,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Imperator Averzian",
-              "encounterID": 3176,
-              "parse": 27,
-              "spec": "Restoration",
-              "dps": 42537
-            },
-            {
-              "name": "Vorasius",
-              "encounterID": 3177,
-              "parse": 2,
-              "spec": "Restoration",
-              "dps": 17838
-            },
-            {
-              "name": "Fallen-King Salhadaar",
-              "encounterID": 3179,
-              "parse": 2,
-              "spec": "Restoration",
-              "dps": 19499
-            },
-            {
-              "name": "Vaelgor & Ezzorak",
-              "encounterID": 3178,
-              "parse": 17,
-              "spec": "Restoration",
-              "dps": 40301
-            },
-            {
-              "name": "Lightblinded Vanguard",
-              "encounterID": 3180,
-              "parse": 21,
-              "spec": "Restoration",
-              "dps": 44682
-            },
-            {
-              "name": "Crown of the Cosmos",
-              "encounterID": 3181,
-              "parse": 8,
-              "spec": "Restoration",
-              "dps": 39894
-            },
-            {
-              "name": "Chimaerus, the Undreamt God",
-              "encounterID": 3306,
-              "parse": 66,
-              "spec": "Restoration",
-              "dps": 60796
-            },
-            {
-              "name": "Belo'ren, Child of Al'ar",
-              "encounterID": 3182,
-              "parse": 30,
-              "spec": "Restoration",
-              "dps": 51618
-            }
-          ]
-        },
-        {
           "name": "Kaanwa",
           "class": "Monk",
           "realm": "sargeras",
@@ -2754,13 +2791,13 @@
       "name": "Heroic",
       "stats": {
         "guildAvg": 68,
-        "raidersLogged": 37,
+        "raidersLogged": 38,
         "parseBreakdown": {
           "pink": 11,
           "purple": 41,
           "blue": 100,
-          "green": 57,
-          "gray": 48
+          "green": 58,
+          "gray": 50
         },
         "bestParse": {
           "parse": 100,
@@ -4636,6 +4673,36 @@
           ]
         },
         {
+          "name": "Derty",
+          "class": "Rogue",
+          "realm": "wildhammer",
+          "avgParse": 51,
+          "bossCount": 3,
+          "bosses": [
+            {
+              "name": "Imperator Averzian",
+              "encounterID": 3176,
+              "parse": 58,
+              "spec": "Outlaw",
+              "dps": 74868
+            },
+            {
+              "name": "Vorasius",
+              "encounterID": 3177,
+              "parse": 47,
+              "spec": "Outlaw",
+              "dps": 63454
+            },
+            {
+              "name": "Fallen-King Salhadaar",
+              "encounterID": 3179,
+              "parse": 48,
+              "spec": "Outlaw",
+              "dps": 63105
+            }
+          ]
+        },
+        {
           "name": "Blinktwo",
           "class": "Mage",
           "realm": "sargeras",
@@ -5708,10 +5775,6 @@
       "rio": 0
     },
     {
-      "name": "Ensetraz",
-      "rio": 0
-    },
-    {
       "name": "Vynlanaz",
       "rio": 0
     },
@@ -6094,6 +6157,10 @@
     {
       "name": "Gazmira",
       "rio": 887.1
+    },
+    {
+      "name": "Derty",
+      "rio": 2377.4
     },
     {
       "name": "Saian",
