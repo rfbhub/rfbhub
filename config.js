@@ -38,7 +38,7 @@ const CONFIG = {
 
   // Recruitment block - edit to reflect current needs. Set status to "closed" to hide.
   recruitment: {
-    status: "closed",                     // "open" | "selective" | "closed"
+    status: "open",                     // "open" | "selective" | "closed"
     needs: "Exceptional Players",           // Short list of roles being recruited
     notes: "Mythic experience required",
     contactName: "Hashmaker",           // Who to reach out to
