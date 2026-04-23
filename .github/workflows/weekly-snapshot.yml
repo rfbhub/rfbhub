@@ -1,10 +1,11 @@
-name: Weekly Snapshot
+name: Daily Snapshot
 
 on:
-  # Sundays at 11pm UTC (roughly post-raid-week for US guilds).
-  # Picks up Sunday's state before Tuesday reset shakes things up.
+  # Daily at 11pm UTC (~7pm ET). Captures each day's state so post-raid
+  # recaps have a tight diff window. History files are small and GitHub
+  # storage is generous, so daily is fine long-term.
   schedule:
-    - cron: '0 23 * * 0'
+    - cron: '0 23 * * *'
 
   # Manual trigger for testing and backfills.
   workflow_dispatch:
@@ -22,16 +23,16 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run weekly snapshot
+      - name: Run daily snapshot
         run: node snapshot-week.js
 
-      - name: Generate weekly recap
+      - name: Generate recap
         run: node generate-recap.js
 
       - name: Commit snapshot and recap
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Weekly snapshot + recap"
+          commit_message: "Daily snapshot + recap"
           file_pattern: "history/*.json recap.json"
           commit_user_name: "Guild Hub Bot"
           commit_user_email: "bot@guild-hub.github.io"
