@@ -533,7 +533,7 @@ async function main() {
   const probeHasData = probeResult && probeResult.rankings && probeResult.rankings.filter(r => r.rankPercent).length > 0;
 
   if (probeHasData) {
-    activePartition = null; // Default partition has data, use it
+    activePartition = WCL_PARTITION; // Force config partition until tier transition is complete
     console.log(`Default partition has data for ${probeChar.name}, using latest partition`);
   } else if (WCL_PARTITION) {
     activePartition = WCL_PARTITION;
