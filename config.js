@@ -5,7 +5,6 @@
  * Loaded in the browser by index.html via <script src="config.js">,
  * and in Node by fetch-wcl-data.js via require('./config.js').
  *
- * Edit these values to customize for your guild or to flip to a new tier.
  */
 
 const CONFIG = {
