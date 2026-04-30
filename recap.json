@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T07:41:39.406Z",
+  "generated": "2026-04-30T23:54:33.413Z",
   "weekStart": "2026-04-29",
   "weekEnd": "2026-04-30",
   "seasonName": "Midnight S1",
@@ -18,33 +18,40 @@
         "name": "Blinkvoker",
         "class": "Evoker",
         "previous": 3242,
-        "current": 3290,
-        "gain": 48
+        "current": 3309,
+        "gain": 67
       },
       {
         "name": "Devrak",
         "class": "Rogue",
         "previous": 3346,
-        "current": 3376,
-        "gain": 30
+        "current": 3380,
+        "gain": 34
+      },
+      {
+        "name": "Hashmaker",
+        "class": "Paladin",
+        "previous": 3428,
+        "current": 3457,
+        "gain": 29
       }
     ],
     "parseSpotlight": [
-      {
-        "name": "Crackle",
-        "class": "Evoker",
-        "difficulty": "Normal",
-        "previous": 25,
-        "current": 85,
-        "gain": 60
-      },
       {
         "name": "Rukenji",
         "class": "Priest",
         "difficulty": "Mythic",
         "previous": 13,
-        "current": 54,
-        "gain": 41
+        "current": 52,
+        "gain": 39
+      },
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "difficulty": "Heroic",
+        "previous": 60,
+        "current": 85,
+        "gain": 25
       },
       {
         "name": "Ashamane",
@@ -59,8 +66,8 @@
         "class": "Warlock",
         "difficulty": "Mythic",
         "previous": 17,
-        "current": 35,
-        "gain": 18
+        "current": 34,
+        "gain": 17
       },
       {
         "name": "Poenoodle",
@@ -134,47 +141,55 @@
     ],
     "gearMovers": [
       {
-        "name": "Enhance",
-        "class": "Shaman",
-        "previous": 277,
-        "current": 280.8,
-        "gain": 3.8
-      },
-      {
         "name": "Crackle",
         "class": "Evoker",
         "previous": 277,
-        "current": 280.7,
-        "gain": 3.7
+        "current": 280,
+        "gain": 3
+      },
+      {
+        "name": "Enhance",
+        "class": "Shaman",
+        "previous": 277,
+        "current": 280,
+        "gain": 3
       },
       {
         "name": "Gazmira",
         "class": "Evoker",
         "previous": 272,
-        "current": 274.5,
-        "gain": 2.5
+        "current": 274,
+        "gain": 2
       },
       {
         "name": "Torchfist",
         "class": "Monk",
         "previous": 281,
-        "current": 283.3,
-        "gain": 2.3
+        "current": 283,
+        "gain": 2
       },
       {
-        "name": "Fartblaster",
-        "class": "Shaman",
+        "name": "Rukenji",
+        "class": "Priest",
         "previous": 280,
-        "current": 282.3,
-        "gain": 2.3
+        "current": 282,
+        "gain": 2
+      }
+    ],
+    "highKeyPushers": [
+      {
+        "name": "Hashmaker",
+        "class": "Paladin",
+        "previousKey": 16,
+        "currentKey": 17
       }
     ]
   },
   "summary": {
     "totalRaiders": 48,
-    "avgRio": 2413,
-    "avgIlvl": 273,
-    "totalCategories": 6,
-    "totalHighlights": 22
+    "avgRio": 2414,
+    "avgIlvl": 272.8,
+    "totalCategories": 7,
+    "totalHighlights": 24
   }
 }
