@@ -1,0 +1,2398 @@
+<!DOCTYPE html>
+<!-- ═══════════════════════════════════════════════════════════════
+     THEMES:
+       - Default, Neon, Horde, Alliance, Void, Fel - user selectable via palette picker
+       - Halloween auto-loads on Oct 31
+       - 4th of July auto-loads on July 4
+     ═══════════════════════════════════════════════════════════════ -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guild Hub</title>
+<meta name="description" content="RFB Hub - Rolling For Blame guild dashboard.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rfbhub.io">
+<meta property="og:title" content="RFB Hub">
+<meta property="og:description" content="Rolling For Blame guild dashboard.">
+<meta property="og:image" content="https://rfbhub.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RFB Hub">
+<meta name="twitter:description" content="Rolling For Blame guild dashboard.">
+<meta name="twitter:image" content="https://rfbhub.io/og-image.png">
+<link rel="icon" type="image/svg+xml" href="favicon-default.svg" id="favicon-link">
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7QD6NV977"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Y7QD6NV977');
+</script>
+<script>
+const STORAGE_PREFIX = 'guild-hub';
+
+// All available themes
+const THEMES = [
+  {id:'default', label:'Default',  color:'#FF9900'},
+  {id:'neon',    label:'Neon',     color:'#ff00ff'},
+  {id:'horde',   label:'Horde',    color:'#b41e1e'},
+  {id:'alliance',label:'Alliance', color:'#2860b8'},
+  {id:'void',    label:'Void',     color:'#8b5cf6'},
+  {id:'fel',     label:'Fel',      color:'#00c850'}
+];
+
+// Swap favicon to match the active theme. Called on init and on theme toggle.
+function setFavicon(){
+  const cls = document.documentElement.className;
+  let f = 'favicon-default.svg';
+  if(cls.indexOf('theme-neon') !== -1) f = 'favicon-neon.svg';
+  else if(cls.indexOf('theme-halloween') !== -1) f = 'favicon-halloween.svg';
+  else if(cls.indexOf('theme-usa') !== -1) f = 'favicon-usa.svg';
+  const link = document.getElementById('favicon-link');
+  if(link) link.href = f;
+}
+
+function applyTheme(id){
+  const root = document.documentElement;
+  // Remove all theme classes
+  THEMES.forEach(t => root.classList.remove('theme-' + t.id));
+  root.classList.remove('theme-halloween','theme-usa');
+  // Apply new theme (default has no class)
+  if(id !== 'default') root.classList.add('theme-' + id);
+  localStorage.setItem(STORAGE_PREFIX + '-theme', id);
+  setFavicon();
+}
+
+function getActiveTheme(){
+  const cls = document.documentElement.className;
+  for(const t of THEMES){
+    if(t.id !== 'default' && cls.indexOf('theme-' + t.id) !== -1) return t.id;
+  }
+  if(cls.indexOf('theme-halloween') !== -1) return 'halloween';
+  if(cls.indexOf('theme-usa') !== -1) return 'usa';
+  return 'default';
+}
+
+// Theme system - runs immediately to prevent flash
+(function(){
+  const today = new Date();
+  const month = today.getMonth() + 1;
+  const day = today.getDate();
+
+  // Holiday overrides
+  if(month === 10 && day === 31){
+    document.documentElement.classList.add('theme-halloween');
+  } else if(month === 7 && day === 4){
+    document.documentElement.classList.add('theme-usa');
+  } else {
+    const saved = localStorage.getItem(STORAGE_PREFIX + '-theme');
+    if(saved && saved !== 'default'){
+      document.documentElement.classList.add('theme-' + saved);
+    }
+  }
+  setFavicon();
+})();
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+/* ══════════════════════════════════════════════════════════════
+   THEME SYSTEM - Change the class on <html> to switch themes:
+   - (no class) = Default orange
+   - theme-neon = 80s Arcade Neon
+   - theme-horde = Horde Red
+   - theme-alliance = Alliance Blue
+   - theme-void = Void Purple
+   - theme-fel = Fel Green
+   - theme-halloween = Halloween (auto Oct 31)
+   - theme-usa = Independence Day (auto Jul 4)
+   ══════════════════════════════════════════════════════════════ */
+
+/* DEFAULT THEME (Orange/Black) */
+:root{--bg:#0a0a0a;--card:rgba(255,255,255,0.028);--border:rgba(255,255,255,0.07);--accent:#FF9900;--accent-dim:rgba(255,153,0,0.12);--accent-bg:rgba(255,153,0,0.06);--text:#f1f1f1;--muted:rgba(255,255,255,0.35);--faint:rgba(255,255,255,0.15);--glow:none;--header-gradient:linear-gradient(180deg,rgba(255,153,0,0.04) 0%,transparent 100%)}
+
+/* 80s ARCADE NEON */
+:root.theme-neon{--bg:#0d0221;--card:rgba(255,0,255,0.05);--border:rgba(255,0,255,0.2);--accent:#ff00ff;--accent-dim:rgba(255,0,255,0.15);--accent-bg:rgba(255,0,255,0.08);--text:#fff;--muted:rgba(255,255,255,0.5);--faint:rgba(255,255,255,0.2);--glow:0 0 10px rgba(255,0,255,0.5);--header-gradient:linear-gradient(180deg,rgba(255,0,255,0.08) 0%,rgba(0,255,255,0.04) 100%)}
+.theme-neon .brand-r{background:linear-gradient(135deg,#ff00ff,#00ffff);box-shadow:0 0 20px rgba(255,0,255,0.6)}
+.theme-neon .brand-h{background:#120630;border-color:rgba(0,255,255,0.3)}
+.theme-neon .tab.active{background:linear-gradient(135deg,#ff00ff,#00ffff);box-shadow:0 0 15px rgba(255,0,255,0.5)}
+.theme-neon .card{box-shadow:0 0 15px rgba(255,0,255,0.1)}
+.theme-neon .s-box.gold .n{color:#ff00ff}
+.theme-neon .refresh{border-color:rgba(255,0,255,0.4);text-shadow:0 0 8px rgba(255,0,255,0.6)}
+.theme-neon .h-stat .v{text-shadow:0 0 10px rgba(0,255,255,0.5)}
+
+/* HALLOWEEN */
+:root.theme-halloween{--bg:#0f0a0a;--card:rgba(255,100,0,0.04);--border:rgba(255,100,0,0.15);--accent:#ff6600;--accent-dim:rgba(255,100,0,0.15);--accent-bg:rgba(255,100,0,0.08);--text:#f5e6d3;--muted:rgba(255,230,200,0.4);--faint:rgba(255,230,200,0.15);--glow:none;--header-gradient:linear-gradient(180deg,rgba(139,0,255,0.06) 0%,rgba(255,100,0,0.04) 100%)}
+.theme-halloween .brand-r{background:linear-gradient(135deg,#ff6600,#ff3300)}
+.theme-halloween .brand-h{background:#1a0a1a;border-color:rgba(139,0,255,0.3)}
+.theme-halloween .tab.active{background:linear-gradient(135deg,#ff6600,#8b00ff)}
+.theme-halloween .card{border-color:rgba(139,0,255,0.12)}
+.theme-halloween .s-box.gold .n{color:#ff6600}
+.theme-halloween .refresh{border-color:rgba(139,0,255,0.4);color:#8b00ff}
+.theme-halloween .h-stat .v{color:#ff6600}
+.theme-halloween::before{content:'🎃';position:fixed;top:20px;right:20px;font-size:24px;opacity:0.6;pointer-events:none}
+
+/* INDEPENDENCE DAY (4th of July) */
+:root.theme-usa{--bg:#0a0a14;--card:rgba(255,255,255,0.03);--border:rgba(255,255,255,0.1);--accent:#ff3c3c;--accent-dim:rgba(255,60,60,0.15);--accent-bg:rgba(255,60,60,0.08);--text:#ffffff;--muted:rgba(255,255,255,0.45);--faint:rgba(255,255,255,0.2);--glow:none;--header-gradient:linear-gradient(180deg,rgba(60,60,255,0.08) 0%,rgba(255,60,60,0.04) 100%)}
+.theme-usa .brand-r{background:linear-gradient(135deg,#ff3c3c,#ffffff,#3c3cff);background-size:300% 100%;color:#000}
+.theme-usa .brand-h{background:#0f0f20;border-color:rgba(60,60,255,0.3)}
+.theme-usa .tab.active{background:linear-gradient(135deg,#ff3c3c,#3c3cff)}
+.theme-usa .card{border-left:3px solid transparent;background-image:linear-gradient(var(--card),var(--card)),linear-gradient(180deg,#ff3c3c,#3c3cff);background-origin:border-box;background-clip:padding-box,border-box}
+.theme-usa .s-box.gold .n{color:#ff3c3c}
+.theme-usa .s-box.blue .n{color:#3c3cff}
+.theme-usa .refresh{border-color:rgba(60,60,255,0.4);color:#3c3cff}
+.theme-usa .h-stat .v{background:linear-gradient(180deg,#ff3c3c,#fff,#3c3cff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.theme-usa::before{content:'🇺🇸';position:fixed;top:20px;right:20px;font-size:24px;opacity:0.7;pointer-events:none}
+
+/* HORDE */
+:root.theme-horde{--bg:#0d0808;--card:rgba(180,30,30,0.06);--border:rgba(180,30,30,0.18);--accent:#b41e1e;--accent-dim:rgba(180,30,30,0.15);--accent-bg:rgba(180,30,30,0.08);--text:#f0e6e0;--muted:rgba(240,200,180,0.4);--faint:rgba(240,200,180,0.18);--glow:none;--header-gradient:linear-gradient(180deg,rgba(180,30,30,0.08) 0%,transparent 100%)}
+.theme-horde .brand-r{background:linear-gradient(135deg,#b41e1e,#8b1a1a);box-shadow:0 0 12px rgba(180,30,30,0.4)}
+.theme-horde .brand-h{background:#1a0e0e;border-color:rgba(180,30,30,0.25)}
+.theme-horde .tab.active{background:linear-gradient(135deg,#b41e1e,#d4382c)}
+.theme-horde .card{box-shadow:inset 0 0 20px rgba(180,30,30,0.03)}
+.theme-horde .s-box.gold .n{color:#d4382c}
+.theme-horde .refresh{border-color:rgba(180,30,30,0.3);color:#d4382c}
+.theme-horde .h-stat .v{color:#e84c3d}
+
+/* ALLIANCE */
+:root.theme-alliance{--bg:#080c14;--card:rgba(40,80,180,0.05);--border:rgba(40,80,180,0.18);--accent:#2860b8;--accent-dim:rgba(40,96,184,0.15);--accent-bg:rgba(40,96,184,0.08);--text:#e0e8f5;--muted:rgba(180,200,240,0.4);--faint:rgba(180,200,240,0.18);--glow:none;--header-gradient:linear-gradient(180deg,rgba(40,80,180,0.08) 0%,rgba(200,170,80,0.03) 100%)}
+.theme-alliance .brand-r{background:linear-gradient(135deg,#2860b8,#c8a832);color:#fff;box-shadow:0 0 12px rgba(40,96,184,0.4)}
+.theme-alliance .brand-h{background:#0e1220;border-color:rgba(200,170,80,0.2)}
+.theme-alliance .tab.active{background:linear-gradient(135deg,#2860b8,#3a7cd6)}
+.theme-alliance .s-box.gold .n{color:#c8a832}
+.theme-alliance .refresh{border-color:rgba(200,170,80,0.3);color:#c8a832}
+.theme-alliance .h-stat .v{color:#5a9cf5}
+
+/* VOID */
+:root.theme-void{--bg:#0a0812;--card:rgba(120,60,200,0.05);--border:rgba(120,60,200,0.16);--accent:#8b5cf6;--accent-dim:rgba(139,92,246,0.15);--accent-bg:rgba(139,92,246,0.08);--text:#e8e0f8;--muted:rgba(200,180,240,0.4);--faint:rgba(200,180,240,0.18);--glow:0 0 8px rgba(139,92,246,0.3);--header-gradient:linear-gradient(180deg,rgba(120,60,200,0.08) 0%,rgba(180,120,255,0.03) 100%)}
+.theme-void .brand-r{background:linear-gradient(135deg,#8b5cf6,#a78bfa);box-shadow:0 0 15px rgba(139,92,246,0.5)}
+.theme-void .brand-h{background:#120e20;border-color:rgba(139,92,246,0.25)}
+.theme-void .tab.active{background:linear-gradient(135deg,#8b5cf6,#a78bfa);box-shadow:0 0 10px rgba(139,92,246,0.4)}
+.theme-void .card{box-shadow:0 0 12px rgba(139,92,246,0.06)}
+.theme-void .s-box.gold .n{color:#a78bfa}
+.theme-void .refresh{border-color:rgba(139,92,246,0.3);color:#a78bfa;text-shadow:0 0 6px rgba(139,92,246,0.4)}
+.theme-void .h-stat .v{text-shadow:0 0 8px rgba(139,92,246,0.4)}
+
+/* FEL */
+:root.theme-fel{--bg:#060d08;--card:rgba(0,200,80,0.04);--border:rgba(0,200,80,0.14);--accent:#00c850;--accent-dim:rgba(0,200,80,0.15);--accent-bg:rgba(0,200,80,0.06);--text:#d8f0e0;--muted:rgba(160,230,180,0.4);--faint:rgba(160,230,180,0.16);--glow:0 0 8px rgba(0,200,80,0.3);--header-gradient:linear-gradient(180deg,rgba(0,200,80,0.06) 0%,rgba(0,255,100,0.02) 100%)}
+.theme-fel .brand-r{background:linear-gradient(135deg,#00c850,#00ff64);color:#000;box-shadow:0 0 15px rgba(0,200,80,0.5)}
+.theme-fel .brand-h{background:#0a1a0e;border-color:rgba(0,200,80,0.25)}
+.theme-fel .tab.active{background:linear-gradient(135deg,#00c850,#00e85a);box-shadow:0 0 10px rgba(0,200,80,0.4)}
+.theme-fel .card{box-shadow:0 0 12px rgba(0,200,80,0.05)}
+.theme-fel .s-box.gold .n{color:#00e85a}
+.theme-fel .refresh{border-color:rgba(0,200,80,0.3);color:#00e85a;text-shadow:0 0 6px rgba(0,200,80,0.4)}
+.theme-fel .h-stat .v{text-shadow:0 0 8px rgba(0,200,80,0.4)}
+
+body{background:var(--bg);color:var(--text);font-family:'Outfit',sans-serif;min-height:100vh}
+
+/* ── HEADER ── */
+.header{background:var(--header-gradient);border-bottom:1px solid var(--border);padding:24px 36px 20px}
+.h-row{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.brand{display:flex;align-items:center;gap:0;user-select:none}
+.brand-r{background:var(--accent);color:#000;font-size:22px;font-weight:900;padding:4px 10px 4px 12px;border-radius:8px 0 0 8px;line-height:1.1}
+.brand-h{background:#1a1a1a;color:#fff;font-size:22px;font-weight:700;padding:4px 12px 4px 10px;border-radius:0 8px 8px 0;line-height:1.1;border:1px solid rgba(255,255,255,0.1);border-left:none}
+.g-info{margin-left:12px}
+.g-name{font-size:18px;font-weight:600;color:var(--text)}
+.g-sub{font-size:12px;color:var(--muted);font-weight:400}
+.refresh{padding:7px 16px;border-radius:8px;border:1px solid var(--accent-dim);background:transparent;color:var(--accent);font-size:13px;font-weight:600;cursor:pointer;font-family:inherit;margin-left:auto;transition:all .15s}
+.refresh:hover{background:var(--accent-dim)}
+.theme-picker{position:relative;margin-left:8px}
+.theme-picker-btn{width:32px;height:32px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--muted);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .15s;font-size:15px}
+.theme-picker-btn:hover{border-color:var(--accent);color:var(--accent)}
+.theme-picker-dropdown{display:none;position:absolute;top:calc(100% + 8px);right:0;background:#1a1a1a;border:1px solid var(--border);border-radius:10px;padding:10px 12px;z-index:100;min-width:180px;box-shadow:0 8px 30px rgba(0,0,0,0.5)}
+.theme-picker.open .theme-picker-dropdown{display:block}
+.theme-picker-grid{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.theme-dot{width:28px;height:28px;border-radius:50%;cursor:pointer;border:2px solid transparent;transition:all .15s;position:relative}
+.theme-dot:hover{transform:scale(1.15)}
+.theme-dot.active{border-color:#fff;box-shadow:0 0 8px rgba(255,255,255,0.3)}
+.theme-dot-label{font-size:10px;color:var(--muted);text-align:center;margin-top:8px;font-weight:500;letter-spacing:.5px}
+.h-stats{display:flex;gap:28px;flex-wrap:wrap}
+.h-stat .v{font-size:22px;font-weight:800}
+.h-stat .l{font-size:9px;color:var(--faint);letter-spacing:1.5px;margin-top:1px;font-weight:600}
+
+/* ── TABS ── */
+.tabs{display:flex;gap:6px;padding:18px 36px 0;border-bottom:1px solid var(--border);padding-bottom:12px}
+.tab{padding:8px 20px;border-radius:20px;border:none;cursor:pointer;font-size:14px;font-weight:600;background:transparent;color:rgba(255,255,255,0.3);transition:all .15s;font-family:inherit}
+.tab:hover{color:rgba(255,255,255,0.5)}
+.tab.active{background:var(--accent);color:#000}
+.tab .tab-full{display:inline}
+.tab .tab-short{display:none}
+
+.content{padding:24px 36px 60px;max-width:1200px}
+
+/* ── CARDS ── */
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin-bottom:10px;transition:border-color .15s}
+.card:hover{border-color:rgba(255,255,255,0.12)}
+
+/* ── SUMMARY ── */
+.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.s-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center}
+.s-box .n{font-size:36px;font-weight:900;line-height:1}
+.s-box .l{font-size:11px;color:var(--muted);margin-top:5px;letter-spacing:.5px;font-weight:500}
+.s-box.green .n{color:#4ade80} .s-box.red .n{color:#f87171} .s-box.gold .n{color:var(--accent)} .s-box.blue .n{color:#60a5fa}
+
+/* ── SECTION ── */
+.sec{font-size:12px;font-weight:700;color:var(--faint);letter-spacing:1.5px;margin:24px 0 12px 2px}
+
+/* ── TAGS ── */
+.tg{font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px;white-space:nowrap;display:inline-block}
+.tg.bad{background:rgba(248,113,113,0.12);color:#fca5a5}
+.tg.good{background:rgba(74,222,128,0.1);color:#86efac}
+.tg.warn{background:rgba(251,191,36,0.1);color:#fde68a}
+.tg.tier{background:rgba(255,153,0,0.1);color:#ffb84d;font-weight:700}
+.tg.io{border-radius:6px;font-weight:700;padding:3px 10px}
+
+/* ── KEY SQUARES ── */
+.ksq{box-sizing:border-box;width:26px;min-width:26px;height:20px;border-radius:4px;font-size:10px;font-weight:700;cursor:default;position:relative;display:flex;align-items:center;justify-content:center;flex:0 0 26px}
+.ksq.empty{background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.08)}
+.ksq .tt{position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#1a1a2e;border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:5px 10px;font-size:11px;white-space:nowrap;pointer-events:none;z-index:10;opacity:0;transition:opacity .12s;font-weight:500}
+.ksq:hover .tt{opacity:1}
+
+/* ── M+ GRID ── */
+.grid-wrap{overflow-x:auto;margin-bottom:16px}
+.grid-wrap table{width:100%;border-collapse:collapse;font-size:13px}
+.grid-wrap th{padding:10px 6px;text-align:center;font-size:11px;color:var(--muted);font-weight:700;letter-spacing:.5px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg)}
+.grid-wrap th:first-child{text-align:left;min-width:140px}
+.grid-wrap td{padding:7px 6px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.025)}
+.grid-wrap td:first-child{text-align:left;font-weight:600;font-size:14px}
+.grid-wrap tr:hover{background:rgba(255,255,255,0.02)}
+.grid-cell{width:36px;height:26px;border-radius:5px;display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;margin:0 auto}
+.grid-cell.empty{background:rgba(255,255,255,0.03);color:rgba(255,255,255,0.08)}
+
+/* ── FILTER ── */
+.frow{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}
+.fbtn{padding:6px 16px;border-radius:20px;border:none;cursor:pointer;font-size:12px;font-weight:600;background:rgba(255,255,255,0.04);color:rgba(255,255,255,0.3);font-family:inherit;transition:all .15s}
+.fbtn:hover{color:rgba(255,255,255,0.5)}
+.fbtn.active{background:var(--accent);color:#000}
+
+/* ── LOADING ── */
+.loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:80vh;gap:14px}
+.loading .msg{font-size:16px;font-weight:600}
+.loading .sub{font-size:13px;color:var(--muted)}
+.pbar{width:260px;height:5px;border-radius:3px;background:rgba(255,255,255,0.06);margin-top:8px;overflow:hidden}
+.pfill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),#cc7a00);transition:width .3s}
+
+.err{text-align:center;padding:60px 20px}
+.err .msg{font-size:20px;font-weight:700;margin-bottom:8px}
+.err .detail{font-size:13px;color:var(--muted);margin-bottom:20px}
+.err button{padding:10px 24px;border-radius:8px;border:1px solid var(--accent-dim);background:transparent;color:var(--accent);cursor:pointer;font-size:14px;font-family:inherit;font-weight:600}
+
+.footer{text-align:center;padding:20px;font-size:10px;color:rgba(255,255,255,0.06);letter-spacing:1.5px}
+.empty{text-align:center;padding:48px 20px;color:var(--muted);font-size:15px}
+
+/* ── MODAL ── */
+.modal-bg{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:100;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.modal{background:#111;border:1px solid var(--border);border-radius:16px;padding:28px 32px;max-width:560px;width:90%;max-height:85vh;overflow-y:auto;position:relative}
+.modal-close{position:absolute;top:12px;right:16px;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;font-family:inherit;padding:4px 8px;border-radius:6px}
+.modal-close:hover{color:var(--text);background:rgba(255,255,255,0.05)}
+.modal-name{font-size:22px;font-weight:800;margin-bottom:2px}
+.modal-spec{font-size:14px;color:var(--muted);margin-bottom:16px}
+.modal-section{font-size:11px;font-weight:700;color:var(--faint);letter-spacing:1px;margin:18px 0 8px}
+.modal-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.03);font-size:13px}
+.modal-row:last-child{border:none}
+.modal-row .lbl{color:var(--muted)}
+.modal-row .val{font-weight:600}
+.modal-gear{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.modal-slot{display:flex;justify-content:space-between;padding:5px 10px;border-radius:6px;background:rgba(255,255,255,0.02);font-size:12px}
+.modal-slot .sl{color:var(--muted)}
+.modal-slot .sv{font-weight:600}
+.modal-slot.ok .sv{color:#4ade80}
+.modal-slot.miss .sv{color:#f87171}
+.modal-drow{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:13px;border-bottom:1px solid rgba(255,255,255,0.025)}
+.modal-drow:last-child{border:none}
+
+/* ── SPOTLIGHT ── */
+.spotlight{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+.spot-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 16px;text-align:center}
+.spot-card .emoji{font-size:24px;margin-bottom:6px}
+.spot-card .title{font-size:10px;color:var(--accent);font-weight:700;letter-spacing:1px;margin-bottom:6px}
+.spot-card .name{font-size:16px;font-weight:700;margin-bottom:2px}
+.spot-card .detail{font-size:12px;color:var(--muted)}
+
+/* ── CLICKABLE NAMES ── */
+.clickable{cursor:pointer;transition:opacity .15s}
+.clickable:hover{opacity:0.8;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.2);text-underline-offset:2px}
+
+/* ── ACTIVITY TICKER ── */
+.ticker-wrap{background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:18px;position:relative}
+.ticker-header{display:flex;align-items:center;justify-content:space-between;padding:8px 14px;border-bottom:1px solid var(--border);background:rgba(255,255,255,0.02)}
+.ticker-title{font-size:10px;color:var(--faint);letter-spacing:1px;font-weight:700}
+.ticker-content{height:108px;overflow:hidden;position:relative}
+.ticker-scroll{transition:transform .3s linear}
+.ticker-wrap:hover .ticker-scroll{animation-play-state:paused}
+@keyframes tickerScroll{0%{transform:translateY(0)}100%{transform:translateY(-50%)}}
+.ticker-item{display:flex;align-items:center;gap:10px;padding:10px 14px;height:36px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.ticker-item:last-child{border-bottom:none}
+.ticker-icon{font-size:14px;flex-shrink:0}
+.ticker-text{font-size:13px;color:var(--text);flex:1;white-space:nowrap}
+.ticker-time{font-size:10px;color:var(--faint);flex-shrink:0}
+.ticker-empty{padding:20px;text-align:center;color:var(--muted);font-size:13px}
+
+/* ── WEEKLY RECAP (Newsletter) ── */
+.recap-container{max-width:880px;margin:0 auto 24px}
+.recap-masthead{text-align:center;padding:28px 20px 24px;border-bottom:1px solid var(--border);margin-bottom:28px}
+.recap-masthead-label{font-size:10px;letter-spacing:2px;color:var(--faint);font-weight:700;text-transform:uppercase;margin-bottom:6px}
+.recap-masthead-date{font-size:22px;font-weight:900;color:var(--text);letter-spacing:-0.5px;margin-bottom:4px}
+.recap-masthead-meta{font-size:12px;color:var(--muted);font-weight:500}
+.recap-hero{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px 28px;margin-bottom:28px;text-align:center}
+.recap-hero-label{font-size:10px;letter-spacing:2px;color:var(--faint);font-weight:700;margin-bottom:10px}
+.recap-hero-prog{display:flex;align-items:center;justify-content:center;gap:14px;font-size:22px;font-weight:900}
+.recap-hero-bar{height:6px;border-radius:3px;background:rgba(255,255,255,0.06);margin-top:14px;overflow:hidden}
+.recap-hero-fill{height:100%;border-radius:3px;background:var(--accent);transition:width .6s ease-out}
+.recap-section{margin-bottom:28px}
+.recap-section-head{display:flex;align-items:center;gap:10px;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.recap-section-accent{width:3px;height:16px;border-radius:2px;flex-shrink:0}
+.recap-section-title{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+.recap-section-count{font-size:10px;color:var(--faint);font-weight:500;margin-left:auto}
+.recap-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.03)}
+.recap-row:last-child{border-bottom:none}
+.recap-row-name{font-weight:600;font-size:13px;min-width:100px}
+.recap-row-detail{flex:1;display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.recap-row-stat{font-weight:700;font-size:13px;white-space:nowrap;text-align:right;min-width:60px}
+.recap-bar-wrap{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,0.06);min-width:60px;max-width:140px}
+.recap-bar-fill{height:100%;border-radius:2px;transition:width .4s ease-out}
+.recap-badge-inline{font-size:10px;font-weight:700;padding:2px 8px;border-radius:4px;display:inline-block;letter-spacing:0.3px}
+.recap-empty{text-align:center;padding:24px;color:var(--muted);font-size:13px}
+.recap-divider{height:1px;background:var(--border);margin:28px 0}
+.recap-footer{text-align:center;padding:16px 0;font-size:11px;color:var(--faint);letter-spacing:0.5px}
+.recap-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px}
+.recap-stat-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 14px;text-align:center}
+.recap-stat-label{font-size:9px;letter-spacing:1.5px;color:var(--faint);font-weight:700;text-transform:uppercase;margin-bottom:6px}
+.recap-stat-value{font-size:20px;font-weight:900;color:var(--text);line-height:1.2}
+.recap-stat-delta{font-size:11px;font-weight:600;margin-top:4px}
+.recap-stat-delta.up{color:#1eff00}
+.recap-stat-delta.down{color:#ff4444}
+.recap-stat-delta.neutral{color:var(--faint)}
+.recap-stat-sub{font-size:10px;color:var(--muted);margin-top:3px;font-weight:500}
+.recap-parse-dist{display:flex;align-items:flex-end;justify-content:center;gap:4px;height:32px;margin-top:6px}
+.recap-parse-dist-bar{width:14px;border-radius:3px 3px 0 0;min-height:3px;transition:height .4s ease-out}
+.recap-parse-dist-labels{display:flex;justify-content:center;gap:4px;margin-top:2px}
+.recap-parse-dist-label{width:14px;text-align:center;font-size:8px;color:var(--faint);font-weight:600}
+
+/* ── MOBILE ── */
+@media(max-width:600px){
+  .header{padding:16px 14px 14px}
+  .h-row{flex-wrap:wrap;gap:10px}
+  .brand-r{font-size:18px;padding:3px 8px 3px 10px}
+  .brand-h{font-size:18px;padding:3px 10px 3px 8px}
+  .g-info{margin-left:4px}
+  .g-name{font-size:15px}
+  .g-sub{font-size:11px}
+  .refresh{padding:5px 10px;font-size:11px}
+  .h-stats{gap:14px}
+  .h-stat .v{font-size:18px}
+  .h-stat .l{font-size:8px}
+  .tabs{padding:12px 14px 0;gap:4px;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{padding:6px 10px;font-size:11px;white-space:nowrap;flex-shrink:0}
+  .tab .tab-full{display:none}
+  .tab .tab-short{display:inline}
+  .content{padding:16px 14px 40px}
+  .summary{grid-template-columns:repeat(2,1fr);gap:8px}
+  .s-box{padding:14px 10px}
+  .s-box .n{font-size:28px}
+  .s-box .l{font-size:9px}
+  .card{padding:12px 14px;margin-bottom:8px}
+  .sec{font-size:10px;margin:16px 0 8px 2px}
+  .tg{font-size:9px;padding:2px 6px}
+  .spotlight{grid-template-columns:repeat(2,1fr);gap:8px}
+  .spot-card{padding:10px 12px}
+  .spot-card .emoji{font-size:20px}
+  .spot-card .name{font-size:14px}
+  .spot-card .detail{font-size:11px}
+  .modal{padding:20px 16px;width:95%;border-radius:12px}
+  .modal-name{font-size:18px}
+  .modal-gear{grid-template-columns:1fr}
+  .grid-wrap{font-size:11px;position:relative}
+  .grid-wrap::after{content:'';position:absolute;top:0;right:0;width:24px;height:100%;background:linear-gradient(90deg,transparent,var(--bg));pointer-events:none;z-index:1}
+  .grid-wrap.scrolled-end::after{display:none}
+  .grid-wrap th{font-size:9px;padding:6px 2px}
+  .grid-wrap td{padding:5px 2px}
+  .grid-wrap td:first-child{font-size:11px;max-width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;position:sticky;left:0;background:var(--bg);z-index:2}
+  .grid-wrap th:first-child{position:sticky;left:0;background:var(--bg);z-index:2}
+  .grid-cell{width:26px;height:22px;font-size:10px}
+  .ksq{width:22px;min-width:22px;height:18px;font-size:9px}
+  .recap-stats{grid-template-columns:repeat(2,1fr);gap:8px}
+  .recap-stat-card{padding:12px 10px}
+  .recap-stat-value{font-size:16px}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="config.js"></script>
+<script>
+// CONFIG is loaded from config.js (above). Single source of truth shared with fetch-wcl-data.js.
+// To customize for your guild or flip tiers, edit config.js, not this file.
+
+// ═══════════════════════════════════════════════════════════════════════════
+// Internal setup (don't edit below unless you know what you're doing)
+// ═══════════════════════════════════════════════════════════════════════════
+
+const API="https://raider.io/api/v1";
+const G_R=CONFIG.region, G_S=CONFIG.realm, G_N=CONFIG.guildName;
+const RAID_TIER=CONFIG.raidTier;
+const RAID_BOSSES=CONFIG.bosses;
+document.title = CONFIG.siteName;
+const CC={Paladin:"#F58CBA",Warrior:"#C79C6E",Mage:"#69CCF0",Priest:"#FFFFFF",Warlock:"#9482C9",Hunter:"#ABD473",Rogue:"#FFF569",Shaman:"#0070DE",Druid:"#FF7D0A","Death Knight":"#C41E3A",DeathKnight:"#C41E3A",Monk:"#00FF96","Demon Hunter":"#A330C9",DemonHunter:"#A330C9",Evoker:"#33937F"};
+const ENCHANT_SLOTS=[{key:"head",label:"Head"},{key:"shoulder",label:"Shoulders"},{key:"chest",label:"Chest"},{key:"legs",label:"Legs"},{key:"feet",label:"Boots"},{key:"finger1",label:"Ring 1"},{key:"finger2",label:"Ring 2"},{key:"mainhand",label:"Weapon"}];
+const TIER_SLOTS=["head","shoulder","chest","hands","legs"];
+
+function rioColor(s){if(s>=3000)return"#ff8000";if(s>=2500)return"#a335ee";if(s>=2000)return"#0070dd";if(s>=1500)return"#1eff00";if(s>=1000)return"#fff";return"rgba(255,255,255,0.3)";}
+function ilvlColor(i){if(i>=265)return"#ff8000";if(i>=258)return"#a335ee";if(i>=250)return"#0070dd";if(i>=240)return"#1eff00";if(i>=230)return"#fff";return"#9d9d9d";}
+function keyColor(lvl,timed){
+  if(!timed)return{bg:"rgba(255,255,255,0.08)",fg:"rgba(255,255,255,0.4)"};
+  // Gradient: green(2) -> teal(5) -> blue(7) -> indigo(9) -> purple(11) -> orange(13) -> pink(15) -> magenta(17) -> red(19-20)
+  const stops=[
+    {l:2,  fg:"#86efac",bg:"rgba(134,239,172,0.18)"},  // green
+    {l:4,  fg:"#5eead4",bg:"rgba(94,234,212,0.18)"},   // teal
+    {l:6,  fg:"#60a5fa",bg:"rgba(96,165,250,0.20)"},   // blue
+    {l:8,  fg:"#818cf8",bg:"rgba(129,140,248,0.22)"},   // indigo
+    {l:10, fg:"#c084fc",bg:"rgba(192,132,252,0.22)"},   // purple
+    {l:12, fg:"#f59e0b",bg:"rgba(245,158,11,0.22)"},    // amber
+    {l:14, fg:"#f472b6",bg:"rgba(244,114,182,0.22)"},   // pink
+    {l:16, fg:"#e8405c",bg:"rgba(232,64,92,0.28)"},     // hot rose - noticeable step up from pink
+    {l:18, fg:"#dc2626",bg:"rgba(220,38,38,0.30)"},     // red
+    {l:20, fg:"#b91c1c",bg:"rgba(185,28,28,0.35)"}      // deep red
+  ];
+  for(let i=stops.length-1;i>=0;i--){
+    if(lvl>=stops[i].l) return stops[i];
+  }
+  return stops[0];
+}
+function raidScore(r){if(!r)return 0;return(r.mythic_bosses_killed||0)*300+(r.heroic_bosses_killed||0)*30+(r.normal_bosses_killed||0)*3;}
+
+function auditGear(c){
+  const issues=[];const gear=c.gear?.items;
+  if(!gear)return[{text:"No gear data",type:"warn"}];
+  for(const slot of ENCHANT_SLOTS){const item=gear[slot.key];if(!item||!item.item_id)continue;if(!item.enchants||item.enchants.length===0)issues.push({text:slot.label,type:"bad"});}
+  for(const sk of["neck","finger1","finger2"]){const item=gear[sk];if(!item||!item.item_id)continue;if(item.gems&&item.gems.length>0)continue;if(item.bonuses&&(item.bonuses.includes(13668)||item.bonuses.includes(6652)))issues.push({text:(sk==="neck"?"Neck":sk==="finger1"?"Ring 1":"Ring 2")+" gem",type:"bad"});}
+  return issues;
+}
+
+function countTier(c){
+  const gear=c.gear?.items;if(!gear)return 0;
+  let count=0;
+  for(const slot of TIER_SLOTS){
+    const item=gear[slot];
+    if(!item||!item.item_id)continue;
+    // Tier pieces have tier-specific bonus IDs and come from raid drops
+    // Check for the tier bonus flag in the item data
+    if(item.tier){count++;continue;}
+    // Fallback: check if item has set bonus indicators
+    if(item.bonuses){
+      // Tier set bonus IDs are typically in specific ranges per season
+      // Only count if we see actual tier-identifying bonuses (10299-10302 range for Midnight S1)
+      const tierBonuses=[10299,10300,10301,10302,10303,10304,10305,10306,10307,10308];
+      if(item.bonuses.some(b=>tierBonuses.includes(b)))count++;
+    }
+  }
+  return Math.min(count,5);
+}
+
+function getDungeonRuns(c){return c.mythic_plus_best_runs||[];}
+function getAllDungeons(chars){
+  const set=new Map();
+  for(const c of chars)for(const run of getDungeonRuns(c))if(!set.has(run.short_name))set.set(run.short_name,run.dungeon);
+  return Array.from(set.entries()).sort((a,b)=>a[1].localeCompare(b[1]));
+}
+function getBestKey(c,shortName){const match=getDungeonRuns(c).find(r=>r.short_name===shortName);if(!match)return null;return{level:match.mythic_level,timed:match.num_keystone_upgrades>0,score:match.score};}
+
+let S={status:"idle",progress:[0,0],guild:null,chars:[],tab:0,error:null};
+let raidParseCache = null; // Stores parsed raid data for sharing between tabs
+let wclDataCache = null; // Stores pre-fetched WCL data from wcl-data.json
+let activityCache = null; // Stores activity feed from activity.json
+let recapCache = null; // Stores weekly recap from recap.json
+let selectedDifficulty = 4; // Default to Heroic, updated when cache loads
+let selectedPartition = null; // Active partition label for Raid Logs tab, set when cache loads
+function set(p){Object.assign(S,p);render();}
+
+async function fetchGuild(){const r=await fetch(`${API}/guilds/profile?region=${G_R}&realm=${encodeURIComponent(G_S)}&name=${encodeURIComponent(G_N)}&fields=raid_progression,members`);if(!r.ok)throw new Error("Guild fetch failed: "+r.status);return r.json();}
+async function fetchChar(realm,name){
+  try{const r=await fetch(`${API}/characters/profile?region=${G_R}&realm=${encodeURIComponent(realm)}&name=${encodeURIComponent(name)}&fields=mythic_plus_scores_by_season:current,mythic_plus_best_runs:all,mythic_plus_alternate_runs:all,raid_progression,gear`);
+  if(!r.ok)return null;return r.json();}catch(e){return null;}
+}
+function sleep(ms){return new Promise(r=>setTimeout(r,ms));}
+
+async function loadAll(){
+  try{
+    set({status:"guild",error:null});
+
+    // Load cached WCL data (non-blocking, runs in parallel)
+    fetch('wcl-data.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if(data && data.difficulties){
+          wclDataCache = data;
+          selectedDifficulty = data.defaultDifficulty || 4;
+          selectedPartition = data.defaultPartition || null;
+
+          // Cache raid parse data (use default difficulty)
+          const defaultDiff = data.difficulties[selectedDifficulty];
+          if(defaultDiff){
+            raidParseCache = defaultDiff.raiders;
+          }
+
+          console.log('Loaded WCL cache:', Object.keys(data.difficulties).length, 'difficulties, default:', selectedDifficulty, 'partition:', selectedPartition, 'updated', data.updated);
+          if(data.partitions) console.log('Partitions available:', Object.keys(data.partitions).join(', '));
+        }
+      })
+      .catch(e => console.log('No WCL cache available:', e.message));
+
+    // Load activity feed (non-blocking)
+    fetch('activity.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if(data && data.events){
+          activityCache = data;
+          console.log('Loaded activity feed:', data.events.length, 'events');
+          render(); // Re-render to show ticker
+        }
+      })
+      .catch(e => console.log('No activity feed available:', e.message));
+
+    // Load weekly recap (non-blocking)
+    fetch('recap.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if(data && !data.empty && data.categories){
+          recapCache = data;
+          console.log('Loaded weekly recap:', data.weekStart, 'to', data.weekEnd, Object.keys(data.categories).length, 'categories');
+          render(); // Re-render to show recap
+        }
+      })
+      .catch(e => console.log('No recap available:', e.message));
+
+    const guild=await fetchGuild();set({guild});
+    const cutoff=new Date();cutoff.setDate(cutoff.getDate()-60);
+    const recent=guild.members.filter(m=>{const d=new Date(m.character.last_crawled_at);return d>cutoff&&m.character.active_spec_name;});
+    set({status:"chars"});
+    const chars=[];
+    for(let i=0;i<recent.length;i+=8){
+      const chunk=recent.slice(i,i+8);
+      const res=await Promise.all(chunk.map(m=>fetchChar(m.character.realm,m.character.name)));
+      res.forEach(r=>{if(r){const il=r.gear?.item_level_equipped||0;if(il>=CONFIG.ilvlBaseline&&il<300)chars.push(r);}});
+      set({progress:[Math.min(recent.length,i+8),recent.length],chars:[...chars]});
+      if(i+8<recent.length)await sleep(200);
+    }
+    set({status:"done",chars});
+  }catch(e){set({status:"error",error:e.message});}
+}
+
+function h(t,a,...c){const el=document.createElement(t);if(a)Object.entries(a).forEach(([k,v])=>{if(k==="style"&&typeof v==="object")Object.assign(el.style,v);else if(k.startsWith("on"))el.addEventListener(k.slice(2).toLowerCase(),v);else el.setAttribute(k,v);});c.flat(9).forEach(x=>{if(x!=null)el.appendChild(typeof x==="string"?document.createTextNode(x):x);});return el;}
+
+function rankBadge(i){
+  if(i<3){const cols=["#FF9900","#C0C0C0","#CD7F32"];
+    return h("div",{style:{width:"32px",height:"32px",borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:"900",fontSize:"14px",flexShrink:"0",background:cols[i],color:"#000",fontFamily:"inherit"}},""+(i+1));}
+  return h("div",{style:{width:"32px",height:"32px",borderRadius:"50%",display:"flex",alignItems:"center",justifyContent:"center",fontWeight:"700",fontSize:"13px",flexShrink:"0",background:"rgba(255,255,255,0.04)",color:"var(--faint)",border:"1px solid var(--border)"}},""+(i+1));
+}
+
+// ═══════════════════════════════════════
+// PLAYER PROFILE MODAL
+// ═══════════════════════════════════════
+function showProfile(c){
+  const existing=document.querySelector('.modal-bg');if(existing)existing.remove();
+  const ilvl=Math.round(c.gear?.item_level_equipped||0);
+  const rio=Math.round(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0);
+  const r=c.raid_progression?.[RAID_TIER];
+  const issues=auditGear(c);
+  const tier=countTier(c);
+  const runs=getDungeonRuns(c);
+  const gear=c.gear?.items||{};
+
+  // Calculate GPS for player modal (best-per-boss parse across all partitions + mythic kill bonus)
+  let raidParse=0;
+  let modalParseDiff=null;
+  let modalMythicBossCount=0;
+  if(wclDataCache){
+    const modalDiffSets = [];
+    if(wclDataCache.partitions){
+      for(const pData of Object.values(wclDataCache.partitions)){
+        if(pData.difficulties) modalDiffSets.push(pData.difficulties);
+      }
+    } else if(wclDataCache.difficulties){
+      modalDiffSets.push(wclDataCache.difficulties);
+    }
+    for(const [diffId, diffLabel] of [[5,'M'],[4,'H'],[3,'N']]){
+      const bossParsesMap = {};
+      for(const diffs of modalDiffSets){
+        const diffData = diffs[diffId];
+        if(!diffData || !diffData.raiders) continue;
+        const raider = diffData.raiders.find(rd => rd.name.toLowerCase() === c.name.toLowerCase());
+        if(!raider || !raider.bosses) continue;
+        for(const b of raider.bosses){
+          const p = b.bestParse || b.parse || 0;
+          if(!bossParsesMap[b.name] || p > (bossParsesMap[b.name].bestParse || bossParsesMap[b.name].parse || 0)){
+            bossParsesMap[b.name] = b;
+          }
+        }
+      }
+      const mergedBosses = Object.values(bossParsesMap);
+      if(mergedBosses.length >= 1){
+        const bestParses = mergedBosses.map(b => b.bestParse || b.parse || 0);
+        raidParse = bestParses.length ? Math.round(bestParses.reduce((a,b)=>a+b,0) / bestParses.length) : 0;
+        modalParseDiff = diffLabel;
+        break;
+      }
+    }
+    for(const diffs of modalDiffSets){
+      const mythicDiff = diffs[5];
+      if(mythicDiff && mythicDiff.raiders){
+        const mRaider = mythicDiff.raiders.find(rd => rd.name.toLowerCase() === c.name.toLowerCase());
+        if(mRaider && mRaider.bosses && mRaider.bosses.length > modalMythicBossCount){
+          modalMythicBossCount = mRaider.bosses.length;
+        }
+      }
+    }
+  }
+  if(modalMythicBossCount === 0) modalMythicBossCount = r?.mythic_bosses_killed || 0;
+  const timedCount=runs.filter(rd=>rd.num_keystone_upgrades>0).length;
+  const highestKey=runs.length?Math.max(...runs.map(rd=>rd.mythic_level)):0;
+  let parsePts=0;
+  if(modalParseDiff === 'M') parsePts = Math.round(raidParse*2.5);
+  else if(modalParseDiff === 'H') parsePts = Math.round(raidParse*2.5*0.30);
+  const progPts=modalMythicBossCount*20;
+  const rioPts=Math.round(rio*0.15);
+  const ilvlPts=Math.round(Math.max(0,ilvl-CONFIG.ilvlBaseline)*2);
+  const enchantPts=issues.length===0?50:Math.max(0,50-issues.length*7);
+  const tierPts=tier>=4?40:0;
+  const keyPts=timedCount*8+Math.max(0,highestKey-5)*5;
+  const gps=parsePts+progPts+rioPts+ilvlPts+enchantPts+tierPts+keyPts;
+
+  const bg=h("div",{class:"modal-bg",onclick:function(e){if(e.target===bg)bg.remove();}});
+  const modal=h("div",{class:"modal"},
+    h("button",{class:"modal-close",onclick:()=>bg.remove()},"\u2715"),
+    h("div",{style:{display:"flex",alignItems:"center",marginBottom:"4px"}},
+      h("div",{class:"modal-name",style:{color:CC[c.class]||"#fff",marginBottom:"0"}},cleanName(c.name))
+    ),
+    h("div",{class:"modal-spec"},c.active_spec_name+" "+c.class+" \u00b7 "+c.realm),
+
+    // Overview
+    h("div",{class:"modal-section"},"OVERVIEW"),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Item Level"),h("span",{class:"val",style:{color:ilvlColor(ilvl)}},""+ilvl)),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"M+ Score"),h("span",{class:"val",style:{color:rioColor(rio)}},rio>0?""+rio:"None")),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Raid Progress"),h("span",{class:"val",style:{color:"#a335ee"}},r?.summary||"None")),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Tier Set"),h("span",{class:"val",style:{color:tier>=4?"var(--accent)":tier>=2?"#fde68a":"var(--muted)"}},tier>=4?"4-piece":tier>=2?"2-piece":"None")),
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"Enchants"),h("span",{class:"val",style:{color:issues.length===0?"#4ade80":"#f87171"}},issues.length===0?"All enchanted":issues.length+" missing")),
+    raidParse>0?h("div",{class:"modal-row"},h("span",{class:"lbl"},"Raid Parse"),h("span",{class:"val"},
+      h("span",{style:{color:parseColor(raidParse),fontWeight:"700"}},raidParse+"%"),
+      h("span",{style:{color:"var(--muted)",fontSize:"11px",marginLeft:"6px"}},modalParseDiff==='M'?"Mythic (full weight)":"Heroic (30% weight)")
+    )):null,
+    h("div",{class:"modal-row"},h("span",{class:"lbl"},"GPS"),h("span",{class:"val",style:{color:"var(--accent)",fontWeight:"700"}},""+gps)),
+
+    // Enchant Details
+    h("div",{class:"modal-section"},"ENCHANT AUDIT"),
+    h("div",{class:"modal-gear"},
+      ...ENCHANT_SLOTS.map(slot=>{
+        const item=gear[slot.key];
+        const hasEnchant=item&&item.enchants&&item.enchants.length>0;
+        const hasItem=item&&item.item_id;
+        return h("div",{class:"modal-slot "+(hasItem?(hasEnchant?"ok":"miss"):"")},
+          h("span",{class:"sl"},slot.label),
+          h("span",{class:"sv"},!hasItem?"No item":hasEnchant?"\u2713":"Missing")
+        );
+      })
+    )
+  );
+
+  // Dungeon Runs
+  if(runs.length){
+    modal.appendChild(h("div",{class:"modal-section"},"MYTHIC+ BEST RUNS"));
+    const sorted=[...runs].sort((a,b)=>b.mythic_level-a.mythic_level);
+    for(const run of sorted){
+      const kc=keyColor(run.mythic_level,run.num_keystone_upgrades>0);
+      modal.appendChild(h("div",{class:"modal-drow"},
+        h("span",{style:{color:"var(--text)",fontWeight:"500"}},run.dungeon),
+        h("div",{style:{display:"flex",alignItems:"center",gap:"10px"}},
+          h("span",{style:{fontSize:"11px",color:"var(--muted)"}},run.num_keystone_upgrades>0?"Timed":"Depleted"),
+          h("span",{style:{fontWeight:"700",color:kc.fg,fontSize:"15px"}},"+"+run.mythic_level),
+          h("span",{style:{fontSize:"12px",color:"var(--muted)"}},Math.round(run.score)+" pts")
+        )
+      ));
+    }
+  }
+
+  // External profile links
+  (function(){
+    const realmSlug=(c.realm||CONFIG.realm).toLowerCase().replace(/\s+/g,'-').replace(/'/g,'');
+    const rioUrl="https://raider.io/characters/"+G_R+"/"+encodeURIComponent(realmSlug)+"/"+encodeURIComponent(c.name);
+    const wclUrl="https://www.warcraftlogs.com/character/"+G_R+"/"+encodeURIComponent(realmSlug)+"/"+encodeURIComponent(c.name);
+    modal.appendChild(h("div",{style:{marginTop:"18px",textAlign:"center",display:"flex",justifyContent:"center",gap:"18px",flexWrap:"wrap"}},
+      h("a",{href:rioUrl,target:"_blank",rel:"noopener",style:{color:"var(--accent)",fontSize:"12px",fontWeight:"600",textDecoration:"none"}},"View on Raider.IO \u2197"),
+      h("a",{href:wclUrl,target:"_blank",rel:"noopener",style:{color:"var(--accent)",fontSize:"12px",fontWeight:"600",textDecoration:"none"}},"View on Warcraft Logs \u2197")
+    ));
+  })();
+
+  bg.appendChild(modal);
+  document.body.appendChild(bg);
+}
+
+// Helper to make clickable names
+function clickName(c,style){
+  return h("span",{class:"clickable",style:style||{},onclick:function(e){e.stopPropagation();showProfile(c);}},cleanName(c.name));
+}
+
+// ═══════════════════════════════════════
+// WEEKLY SPOTLIGHT
+// ═══════════════════════════════════════
+// getActiveDifficulty now uses wclDataCache instead of dead RAID_DATA
+function getActiveDifficulty(){
+  if(!wclDataCache||!wclDataCache.difficulties) return null;
+  // Return highest difficulty with data, matching old behavior
+  if(wclDataCache.difficulties[5]?.raiders?.length>0) return 5;
+  if(wclDataCache.difficulties[4]?.raiders?.length>0) return 4;
+  if(wclDataCache.difficulties[3]?.raiders?.length>0) return 3;
+  return null;
+}
+
+// ═══════════════════════════════════════
+// ACTIVITY TICKER
+// ═══════════════════════════════════════
+
+function formatTimeAgo(timestamp){
+  const now = new Date();
+  const then = new Date(timestamp);
+  const diff = Math.floor((now - then) / 1000);
+
+  if(diff < 60) return 'just now';
+  if(diff < 3600) return Math.floor(diff / 60) + 'm ago';
+  if(diff < 86400) return Math.floor(diff / 3600) + 'h ago';
+  if(diff < 604800) return Math.floor(diff / 86400) + 'd ago';
+  return then.toLocaleDateString('en-US', {month: 'short', day: 'numeric'});
+}
+
+function renderActivityTicker(){
+  if(!activityCache || !activityCache.events || activityCache.events.length === 0){
+    return null;
+  }
+
+  // Filter out Normal/Heroic raid events
+  const raidEventTypes = new Set(['first_kill', 'pink_parse', 'orange_parse', 'purple_parse']);
+  const filtered = activityCache.events.filter(e => {
+    if(!raidEventTypes.has(e.type)) return true; // non-raid events always show
+    // Only show Mythic raid events
+    const combined = (e.text || '') + ' ' + (e.detail || '');
+    return combined.includes('Mythic');
+  });
+  const events = filtered.slice(0, 20);
+  if(events.length === 0) return null;
+  const scrollContainer = h("div", {class: "ticker-scroll"});
+
+  // Render events twice for seamless loop
+  const renderEvents = () => {
+    for(const event of events){
+      scrollContainer.appendChild(h("div", {class: "ticker-item"},
+        h("span", {class: "ticker-icon"}, event.icon),
+        h("span", {class: "ticker-text"}, event.text),
+        h("span", {class: "ticker-time"}, formatTimeAgo(event.timestamp))
+      ));
+    }
+  };
+  renderEvents();
+  renderEvents(); // duplicate for seamless loop
+
+  // Auto-scroll: duration scales with event count so speed stays consistent
+  const duration = events.length * 6; // ~6 seconds per item (slower scroll)
+  scrollContainer.style.animation = `tickerScroll ${duration}s linear infinite`;
+
+  const ticker = h("div", {class: "ticker-wrap"},
+    h("div", {class: "ticker-header"},
+      h("span", {class: "ticker-title"}, "RECENT ACTIVITY")
+    ),
+    h("div", {class: "ticker-content"}, scrollContainer)
+  );
+
+  return ticker;
+}
+
+// ═══════════════════════════════════════
+// RAID SCHEDULE + RECRUITMENT
+// Two side-by-side cards driven from config.js. Edit config to update.
+// ═══════════════════════════════════════
+
+// Parse a time string in either 24-hour ("20:00") or 12-hour ("8:00 PM") format.
+// Returns [hour, minute] in 24-hour form, or null if unparseable.
+function parseScheduleTime(str){
+  if(!str) return null;
+  const s = String(str).trim();
+  // 12-hour: "8:00 PM", "8 PM", "8:00pm"
+  const m12 = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM|am|pm)$/);
+  if(m12){
+    let h = parseInt(m12[1], 10);
+    const mm = m12[2] ? parseInt(m12[2], 10) : 0;
+    const pm = m12[3].toUpperCase() === 'PM';
+    if(h === 12) h = pm ? 12 : 0;
+    else if(pm) h += 12;
+    return [h, mm];
+  }
+  // 24-hour: "20:00"
+  const m24 = s.match(/^(\d{1,2}):(\d{2})$/);
+  if(m24) return [parseInt(m24[1],10), parseInt(m24[2],10)];
+  return null;
+}
+
+// Compute the next raid start datetime in the configured timezone.
+// Returns { date: Date, dayName: string } or null if schedule disabled.
+function nextRaidStart(){
+  const s = CONFIG.raidSchedule;
+  if(!s || !s.days || s.days.length === 0) return null;
+
+  const dayMap = {Sunday:0,Monday:1,Tuesday:2,Wednesday:3,Thursday:4,Friday:5,Saturday:6};
+  const targetDays = s.days.map(d => dayMap[d]).filter(d => d !== undefined).sort((a,b)=>a-b);
+  if(targetDays.length === 0) return null;
+
+  const [hh, mm] = parseScheduleTime(s.startTime) || [20, 0];
+
+  // Work in the configured timezone. We use Intl to get parts and reconstruct a UTC timestamp.
+  const tz = s.timezone || "America/New_York";
+  const now = new Date();
+
+  // Search forward up to 8 days for the next scheduled raid that hasn't started yet.
+  for(let offset = 0; offset < 8; offset++){
+    const candidate = new Date(now.getTime() + offset * 86400000);
+    // Get the weekday in the guild timezone
+    const wkFmt = new Intl.DateTimeFormat('en-US', {timeZone: tz, weekday: 'long'});
+    const weekday = wkFmt.format(candidate);
+    const weekdayNum = dayMap[weekday];
+    if(!targetDays.includes(weekdayNum)) continue;
+
+    // Get the Y/M/D for this candidate in the guild timezone
+    const dFmt = new Intl.DateTimeFormat('en-CA', {timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit'});
+    const [y, m, d] = dFmt.format(candidate).split('-').map(n => parseInt(n, 10));
+
+    // Build the target moment "y-m-d hh:mm" as if it were in the guild tz, and figure out the UTC instant.
+    // Trick: construct a UTC date then find the offset by comparing what that UTC instant looks like in the guild tz.
+    const utcGuess = Date.UTC(y, m - 1, d, hh, mm);
+    // What does that UTC guess display as in the guild tz?
+    const parts = new Intl.DateTimeFormat('en-US', {timeZone: tz, hour12: false, year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit'}).formatToParts(new Date(utcGuess));
+    const p = Object.fromEntries(parts.filter(x => x.type !== 'literal').map(x => [x.type, x.value]));
+    const guessHour = parseInt(p.hour, 10) % 24;
+    const guessMin = parseInt(p.minute, 10);
+    // Offset (minutes) = what we wanted minus what we got
+    const wantedMinutes = hh * 60 + mm;
+    const gotMinutes = guessHour * 60 + guessMin;
+    let deltaMin = wantedMinutes - gotMinutes;
+    // Handle day boundary wrap
+    if(parseInt(p.day,10) !== d) deltaMin -= 24 * 60 * (parseInt(p.day,10) > d ? 1 : -1);
+    const targetUtc = new Date(utcGuess + deltaMin * 60000);
+
+    if(targetUtc.getTime() > now.getTime()){
+      return {date: targetUtc, dayName: weekday};
+    }
+  }
+  return null;
+}
+
+function formatCountdown(ms){
+  if(ms <= 0) return "starting now";
+  const totalSec = Math.floor(ms / 1000);
+  const days = Math.floor(totalSec / 86400);
+  const hours = Math.floor((totalSec % 86400) / 3600);
+  const mins = Math.floor((totalSec % 3600) / 60);
+  if(days >= 1) return `${days}d ${hours}h ${mins}m`;
+  if(hours >= 1) return `${hours}h ${mins}m`;
+  return `${mins}m`;
+}
+
+function renderScheduleAndRecruitment(){
+  const hasSchedule = CONFIG.raidSchedule && CONFIG.raidSchedule.days && CONFIG.raidSchedule.days.length > 0;
+  const hasRecruit = CONFIG.recruitment && CONFIG.recruitment.status && CONFIG.recruitment.status !== "closed";
+
+  if(!hasSchedule && !hasRecruit) return null;
+
+  const cards = [];
+
+  // Raid schedule card
+  if(hasSchedule){
+    const next = nextRaidStart();
+    const sched = CONFIG.raidSchedule;
+    const timeRange = sched.startTime + (sched.endTime ? ` – ${sched.endTime}` : '');
+    const daysText = sched.days.join(" / ");
+
+    const countdownEl = h("div",{style:{fontSize:"22px",fontWeight:"700",color:"var(--accent)",fontFamily:"monospace"}},
+      next ? formatCountdown(next.date.getTime() - Date.now()) : "TBD"
+    );
+
+    const scheduleCard = h("div",{style:{padding:"16px 20px",background:"var(--card)",border:"1px solid var(--border)",borderRadius:"10px",flex:"1 1 260px",minWidth:"260px"}},
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",fontWeight:"700",marginBottom:"10px"}},"NEXT RAID"),
+      countdownEl,
+      h("div",{style:{fontSize:"13px",color:"var(--muted)",marginTop:"8px"}},
+        next ? `${next.dayName}, ${timeRange}` : `${daysText}, ${timeRange}`
+      ),
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",marginTop:"4px"}},daysText+" ("+(sched.timezone||'local')+")")
+    );
+
+    // Live countdown tick (updates the text node every minute)
+    if(next){
+      const interval = setInterval(()=>{
+        if(!document.body.contains(countdownEl)){ clearInterval(interval); return; }
+        countdownEl.textContent = formatCountdown(next.date.getTime() - Date.now());
+      }, 60000);
+    }
+
+    cards.push(scheduleCard);
+  }
+
+  // Recruitment card
+  if(hasRecruit){
+    const r = CONFIG.recruitment;
+    const statusColor = r.status === "open" ? "#4ade80" : "#fde68a";
+    const statusText = r.status === "open" ? "RECRUITING" : "SELECTIVE";
+
+    const recruitCard = h("div",{style:{padding:"16px 20px",background:"var(--card)",border:"1px solid var(--border)",borderRadius:"10px",flex:"1 1 260px",minWidth:"260px"}},
+      h("div",{style:{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"10px"}},
+        h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",fontWeight:"700"}},"RECRUITMENT"),
+        h("div",{style:{fontSize:"10px",color:statusColor,fontWeight:"700",padding:"2px 8px",border:"1px solid "+statusColor,borderRadius:"4px"}},statusText)
+      ),
+      h("div",{style:{fontSize:"16px",fontWeight:"700",color:"var(--text)"}},r.needs || "See Discord for details"),
+      r.notes ? h("div",{style:{fontSize:"12px",color:"var(--muted)",marginTop:"6px",lineHeight:"1.4"}},r.notes) : null,
+      r.contactDiscord ? h("div",{style:{fontSize:"12px",color:"var(--muted)",marginTop:"8px"}},
+        "Contact: ",
+        h("a",{href:"https://discord.com/users/"+r.contactDiscord,target:"_blank",rel:"noopener",style:{color:"#5865F2",fontWeight:"600",textDecoration:"none"}},"@"+r.contactDiscord),
+        " on Discord"
+      ) : null,
+      r.applyUrl ? h("div",{style:{marginTop:"12px"}},
+        h("a",{href:r.applyUrl,target:"_blank",rel:"noopener",style:{color:"var(--accent)",fontSize:"12px",fontWeight:"600",textDecoration:"none"}},"Apply on WoWAudit \u2197")
+      ) : null
+    );
+
+    cards.push(recruitCard);
+  }
+
+  return h("div",{style:{display:"flex",gap:"12px",flexWrap:"wrap",marginBottom:"24px"}},...cards);
+}
+
+// ═══════════════════════════════════════
+// WEEKLY RECAP (Newsletter Style)
+// ═══════════════════════════════════════
+
+
+function renderWeeklyRecap(){
+  if(!recapCache || !recapCache.categories) return null;
+
+  const cats = recapCache.categories;
+  if(Object.keys(cats).length === 0) return null;
+
+  const CC_RECAP = {
+    "Death Knight":"#C41E3A","Demon Hunter":"#A330C9","Druid":"#FF7C0A",
+    "Evoker":"#33937F","Hunter":"#AAD372","Mage":"#3FC7EB","Monk":"#00FF98",
+    "Paladin":"#F48CBA","Priest":"#FFFFFF","Rogue":"#FFF468",
+    "Shaman":"#0070DD","Warlock":"#8788EE","Warrior":"#C69B6D"
+  };
+
+  function ns(name, cls){
+    return h("span",{style:{color:CC_RECAP[cls]||"#fff",fontWeight:"600"}},name);
+  }
+
+  function pColor(p){
+    if(p>=100) return "#e5cc80";
+    if(p>=99) return "#e268a8";
+    if(p>=95) return "#ff8000";
+    if(p>=75) return "#a335ee";
+    if(p>=50) return "#0070dd";
+    if(p>=25) return "#1eff00";
+    return "#9d9d9d";
+  }
+
+  function fmtDate(d){
+    return new Date(d+'T00:00:00').toLocaleDateString('en-US',{month:'long',day:'numeric'});
+  }
+
+  // Section builder: accent bar + title + count
+  function sectionHead(title, color, count){
+    return h("div",{class:"recap-section-head"},
+      h("div",{class:"recap-section-accent",style:{background:color}}),
+      h("span",{class:"recap-section-title",style:{color:color}},title),
+      count > 0 ? h("span",{class:"recap-section-count"},count + (count===1?" player":" players")) : null
+    );
+  }
+
+  // Row with inline bar visualization
+  function barRow(nameEl, label, value, max, color, statText){
+    const pct = max > 0 ? Math.min((value/max)*100, 100) : 0;
+    return h("div",{class:"recap-row"},
+      h("div",{class:"recap-row-name"},nameEl),
+      h("div",{class:"recap-row-detail"},
+        h("span",{},label),
+        h("div",{class:"recap-bar-wrap"},
+          h("div",{class:"recap-bar-fill",style:{width:pct+"%",background:color}})
+        )
+      ),
+      h("div",{class:"recap-row-stat",style:{color:color}},statText)
+    );
+  }
+
+  const container = h("div",{class:"recap-container"});
+
+  // Masthead
+  const dateStr = fmtDate(recapCache.weekStart) + " — " + fmtDate(recapCache.weekEnd);
+  container.appendChild(h("div",{class:"recap-masthead"},
+    h("div",{class:"recap-masthead-label"},"WEEKLY REPORT"),
+    h("div",{class:"recap-masthead-date"},dateStr),
+    h("div",{class:"recap-masthead-meta"},
+      recapCache.guildName + " · " + recapCache.seasonName +
+      " · " + recapCache.summary.totalHighlights + " highlights"
+    )
+  ));
+
+  // Stat Block Header
+  if(recapCache.summary){
+    const s = recapCache.summary;
+    const statsGrid = h("div",{class:"recap-stats"});
+
+    // Roster
+    const rosterDelta = s.rosterDelta || 0;
+    const rosterDeltaCls = rosterDelta > 0 ? "up" : rosterDelta < 0 ? "down" : "neutral";
+    const rosterDeltaStr = rosterDelta > 0 ? "+"+rosterDelta : rosterDelta < 0 ? ""+rosterDelta : "---";
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"ROSTER"),
+      h("div",{class:"recap-stat-value"},""+s.totalRaiders),
+      h("div",{class:"recap-stat-delta "+rosterDeltaCls},rosterDeltaStr),
+      h("div",{class:"recap-stat-sub"},"active raiders")
+    ));
+
+    // Avg Item Level
+    const ilvlDelta = s.ilvlDelta || 0;
+    const ilvlDeltaCls = ilvlDelta > 0 ? "up" : ilvlDelta < 0 ? "down" : "neutral";
+    const ilvlDeltaStr = ilvlDelta > 0 ? "+"+ilvlDelta : ilvlDelta < 0 ? ""+ilvlDelta : "---";
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"AVG ILVL"),
+      h("div",{class:"recap-stat-value"},s.avgIlvl ? s.avgIlvl.toFixed(1) : "---"),
+      h("div",{class:"recap-stat-delta "+ilvlDeltaCls},ilvlDeltaStr),
+      h("div",{class:"recap-stat-sub"},"item level")
+    ));
+
+    // Avg R.IO
+    const rioDelta = s.rioDelta || 0;
+    const rioDeltaCls = rioDelta > 0 ? "up" : rioDelta < 0 ? "down" : "neutral";
+    const rioDeltaStr = rioDelta > 0 ? "+"+rioDelta : rioDelta < 0 ? ""+rioDelta : "---";
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"AVG R.IO"),
+      h("div",{class:"recap-stat-value"},s.avgRio ? ""+s.avgRio : "---"),
+      h("div",{class:"recap-stat-delta "+rioDeltaCls},rioDeltaStr),
+      h("div",{class:"recap-stat-sub"},"mythic+ rating")
+    ));
+
+    // Avg Mythic Parse
+    const parseDelta = s.parseDelta || 0;
+    const parseDeltaCls = parseDelta > 0 ? "up" : parseDelta < 0 ? "down" : "neutral";
+    const parseDeltaStr = parseDelta > 0 ? "+"+parseDelta : parseDelta < 0 ? ""+parseDelta : "---";
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"AVG PARSE"),
+      h("div",{class:"recap-stat-value",style:{color:pColor(s.avgMythicParse||0)}},s.avgMythicParse ? s.avgMythicParse+"%" : "---"),
+      h("div",{class:"recap-stat-delta "+parseDeltaCls},parseDeltaStr),
+      h("div",{class:"recap-stat-sub"},"mythic raid")
+    ));
+
+    // Highest Key
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"HIGHEST KEY"),
+      h("div",{class:"recap-stat-value",style:{color:s.highestKey>=15?"#ff8000":s.highestKey>=12?"#a335ee":"#0070dd"}},s.highestKey ? "+"+s.highestKey : "---"),
+      h("div",{class:"recap-stat-sub",style:{marginTop:"6px"}},s.highestKeyPlayer||"")
+    ));
+
+    // Enchant Compliance
+    const enchPct = s.enchantPct || 0;
+    const enchCol = enchPct >= 90 ? "#1eff00" : enchPct >= 70 ? "#fbbf24" : "#ff4444";
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"ENCHANTS"),
+      h("div",{class:"recap-stat-value",style:{color:enchCol}},enchPct+"%"),
+      h("div",{class:"recap-stat-sub",style:{marginTop:"6px"}},s.fullyEnchanted+"/"+s.totalRaiders+" fully enchanted")
+    ));
+
+    // Mythic Raiders
+    statsGrid.appendChild(h("div",{class:"recap-stat-card"},
+      h("div",{class:"recap-stat-label"},"MYTHIC RAIDERS"),
+      h("div",{class:"recap-stat-value"},""+( s.mythicRaidersCount || 0)),
+      h("div",{class:"recap-stat-sub",style:{marginTop:"6px"}},(s.totalMythicKills||0)+" boss kills")
+    ));
+
+    // Parse Distribution mini chart
+    if(s.parseDistribution){
+      const pd = s.parseDistribution;
+      const maxPd = Math.max(pd.pink||0, pd.orange||0, pd.purple||0, pd.blue||0, 1);
+      const distCard = h("div",{class:"recap-stat-card"},
+        h("div",{class:"recap-stat-label"},"PARSE SPREAD")
+      );
+      const barWrap = h("div",{class:"recap-parse-dist"});
+      const colors = [
+        {val:pd.pink||0, col:"#e268a8"},
+        {val:pd.orange||0, col:"#ff8000"},
+        {val:pd.purple||0, col:"#a335ee"},
+        {val:pd.blue||0, col:"#0070dd"}
+      ];
+      for(const c of colors){
+        const ht = Math.max((c.val/maxPd)*28, 3);
+        barWrap.appendChild(h("div",{class:"recap-parse-dist-bar",style:{height:ht+"px",background:c.col}}));
+      }
+      distCard.appendChild(barWrap);
+      const labels = h("div",{class:"recap-parse-dist-labels"});
+      labels.appendChild(h("span",{class:"recap-parse-dist-label",style:{color:"#e268a8"}},(pd.pink||0)+""));
+      labels.appendChild(h("span",{class:"recap-parse-dist-label",style:{color:"#ff8000"}},(pd.orange||0)+""));
+      labels.appendChild(h("span",{class:"recap-parse-dist-label",style:{color:"#a335ee"}},(pd.purple||0)+""));
+      labels.appendChild(h("span",{class:"recap-parse-dist-label",style:{color:"#0070dd"}},(pd.blue||0)+""));
+      distCard.appendChild(labels);
+      statsGrid.appendChild(distCard);
+    }
+
+    container.appendChild(statsGrid);
+  }
+
+  // Guild Progression Hero
+  if(cats.guildProgression){
+    const gp = cats.guildProgression;
+    const currMatch = gp.current.match(/(\d+)\/(\d+)\s*(\w)/);
+    const kills = currMatch ? parseInt(currMatch[1]) : 0;
+    const total = currMatch ? parseInt(currMatch[2]) : 9;
+    const barPct = total > 0 ? (kills/total)*100 : 0;
+
+    container.appendChild(h("div",{class:"recap-hero"},
+      h("div",{class:"recap-hero-label"},"RAID PROGRESSION"),
+      h("div",{class:"recap-hero-prog"},
+        h("span",{style:{color:"var(--muted)",fontWeight:"500"}},gp.previous),
+        h("span",{style:{color:"var(--faint)",fontSize:"16px"}},"→"),
+        h("span",{style:{color:"var(--accent)"}},gp.current)
+      ),
+      h("div",{class:"recap-hero-bar"},
+        h("div",{class:"recap-hero-fill",style:{width:barPct+"%"}})
+      )
+    ));
+  }
+
+  // New Pink Parses
+  if(cats.newPinkParses && cats.newPinkParses.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    sec.appendChild(sectionHead("Pink Parses","#e268a8",cats.newPinkParses.length));
+    for(const p of cats.newPinkParses){
+      sec.appendChild(h("div",{class:"recap-row"},
+        h("div",{class:"recap-row-name"},ns(p.name,p.class)),
+        h("div",{class:"recap-row-detail"},
+          h("span",{},p.boss),
+          h("span",{style:{color:"var(--faint)"}},p.difficulty)
+        ),
+        h("div",{class:"recap-row-stat",style:{color:"#e268a8"}},p.parse+"%")
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // Parse Spotlight
+  if(cats.parseSpotlight && cats.parseSpotlight.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    const maxGain = Math.max(...cats.parseSpotlight.map(p=>p.gain));
+    sec.appendChild(sectionHead("Parse Improvements","#a335ee",cats.parseSpotlight.length));
+    for(const p of cats.parseSpotlight){
+      sec.appendChild(barRow(
+        ns(p.name, p.class),
+        p.previous+"% → "+p.current+"%",
+        p.gain, maxGain, pColor(p.current),
+        "+"+p.gain+"%"
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // Raid Progression (Individual)
+  if(cats.progression && cats.progression.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    sec.appendChild(sectionHead("Raid Progress","#1eff00",cats.progression.length));
+    for(const p of cats.progression){
+      sec.appendChild(h("div",{class:"recap-row"},
+        h("div",{class:"recap-row-name"},ns(p.name,p.class)),
+        h("div",{class:"recap-row-detail"},
+          h("span",{style:{color:"var(--muted)"}},p.previous),
+          h("span",{style:{color:"var(--faint)"}},"→")
+        ),
+        h("div",{class:"recap-row-stat",style:{color:"#a335ee"}},p.current)
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // Top M+ Climbers
+  if(cats.topClimbers && cats.topClimbers.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    const maxGain = Math.max(...cats.topClimbers.map(c=>c.gain));
+    sec.appendChild(sectionHead("Mythic+ Climbers","#60a5fa",cats.topClimbers.length));
+    for(const c of cats.topClimbers){
+      sec.appendChild(barRow(
+        ns(c.name, c.class),
+        c.previous+" → "+c.current,
+        c.gain, maxGain, rioColor(c.current),
+        "+"+c.gain+" io"
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // High Key Pushers
+  if(cats.highKeyPushers && cats.highKeyPushers.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    sec.appendChild(sectionHead("Key Pushers","#c084fc",cats.highKeyPushers.length));
+    for(const k of cats.highKeyPushers){
+      const keyCol = k.currentKey >= 15 ? '#ff8000' : k.currentKey >= 12 ? '#a335ee' : '#0070dd';
+      sec.appendChild(h("div",{class:"recap-row"},
+        h("div",{class:"recap-row-name"},ns(k.name,k.class)),
+        h("div",{class:"recap-row-detail"},
+          h("span",{style:{color:"var(--muted)"}},"+"+k.previousKey),
+          h("span",{style:{color:"var(--faint)"}},"→")
+        ),
+        h("div",{class:"recap-row-stat",style:{color:keyCol}},"+"+k.currentKey)
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // M+ Milestones
+  if(cats.mplusMilestones && cats.mplusMilestones.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    sec.appendChild(sectionHead("Mythic+ Milestones","#ff8000",cats.mplusMilestones.length));
+    for(const m of cats.mplusMilestones){
+      const msColor = m.milestone === 'Keystone Myth' ? '#e268a8' : '#ff8000';
+      sec.appendChild(h("div",{class:"recap-row"},
+        h("div",{class:"recap-row-name"},ns(m.name,m.class)),
+        h("div",{class:"recap-row-detail"},
+          h("span",{},m.milestone)
+        ),
+        h("div",{class:"recap-row-stat"},
+          h("span",{class:"recap-badge-inline",style:{color:msColor,background:msColor+"15",border:"1px solid "+msColor+"33"}},m.score+" io")
+        )
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // Gear Movers
+  if(cats.gearMovers && cats.gearMovers.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    const maxGain = Math.max(...cats.gearMovers.map(g=>g.gain));
+    sec.appendChild(sectionHead("Gear Upgrades","#fbbf24",cats.gearMovers.length));
+    for(const g of cats.gearMovers){
+      sec.appendChild(barRow(
+        ns(g.name, g.class),
+        g.previous+" → "+g.current+" ilvl",
+        g.gain, maxGain, ilvlColor(g.current),
+        "+"+g.gain+" ilvl"
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // New Faces
+  if(cats.newFaces && cats.newFaces.length > 0){
+    const sec = h("div",{class:"recap-section"});
+    sec.appendChild(sectionHead("New Faces","#38bdf8",cats.newFaces.length));
+    for(const f of cats.newFaces){
+      const meta = [];
+      if(f.spec) meta.push(f.spec);
+      if(f.rio > 0) meta.push(f.rio+" io");
+      if(f.progression) meta.push(f.progression);
+      sec.appendChild(h("div",{class:"recap-row"},
+        h("div",{class:"recap-row-name"},ns(f.name,f.class)),
+        h("div",{class:"recap-row-detail"},
+          h("span",{},meta.join(" · "))
+        ),
+        h("div",{class:"recap-row-stat",style:{color:"#38bdf8",fontSize:"11px"}},"joined")
+      ));
+    }
+    container.appendChild(sec);
+  }
+
+  // Footer
+  container.appendChild(h("div",{class:"recap-footer"},
+    "Generated " + new Date(recapCache.generated).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})
+  ));
+
+  return container;
+}
+
+function renderGuildPulse(){
+  const el=h("div",null);
+
+  if(!S.chars || S.chars.length===0){
+    return el;
+  }
+
+  // Raid schedule + recruitment (edit in config.js)
+  const scheduleAndRecruit = renderScheduleAndRecruitment();
+  if(scheduleAndRecruit) el.appendChild(scheduleAndRecruit);
+
+  // Activity ticker (between stats and milestones)
+  const ticker = renderActivityTicker();
+  if(ticker){
+    el.appendChild(ticker);
+  }
+
+  // 90%+ parse milestone - combines heroic + mythic across ALL partitions
+  // Uses each player's best avgParse across H and M difficulties and all partitions
+  const parse90Players=(function(){
+    if(!wclDataCache) return [];
+    const allDiffSets = [];
+    if(wclDataCache.partitions){
+      for(const pData of Object.values(wclDataCache.partitions)){
+        if(pData.difficulties) allDiffSets.push(pData.difficulties);
+      }
+    } else if(wclDataCache.difficulties){
+      allDiffSets.push(wclDataCache.difficulties);
+    }
+    const playerBest=new Map();
+    for(const diffs of allDiffSets){
+      for(const diffId of [4, 5]){
+        const diffData=diffs[diffId];
+        if(!diffData||!diffData.raiders) continue;
+        for(const r of diffData.raiders){
+          const key=r.name.toLowerCase();
+          const existing=playerBest.get(key);
+          if(!existing||r.avgParse>existing) playerBest.set(key,r.avgParse);
+        }
+      }
+    }
+    const highParsers=[...playerBest.entries()].filter(([,avg])=>avg>=90).map(([name])=>name);
+    return S.chars.filter(c=>highParsers.includes(c.name.toLowerCase())).sort((a,b)=>a.name.localeCompare(b.name));
+  })();
+
+  // Build milestone cards
+  const milestoneCards=[];
+
+  if(parse90Players.length>0){
+    const namesList=h("div",{style:{fontSize:"14px"}});
+    for(let i=0;i<parse90Players.length;i++){
+      if(i>0)namesList.appendChild(document.createTextNode(", "));
+      namesList.appendChild(h("span",{style:{color:CC[parse90Players[i].class]||"#fff",fontWeight:"600"}},cleanName(parse90Players[i].name)));
+    }
+    milestoneCards.push(h("div",{style:{marginBottom:"12px",padding:"14px 18px",background:"var(--card)",border:"1px solid var(--border)",borderRadius:"8px"}},
+      h("div",{style:{fontSize:"11px",color:"#e268a8",fontWeight:"700",marginBottom:"6px"}},"90%+ PARSE AVERAGE"),
+      namesList
+    ));
+  }
+
+
+  if(milestoneCards.length>0){
+    const milestonesSection=h("div",null,
+      h("div",{style:{fontSize:"11px",color:"var(--faint)",letterSpacing:"1px",fontWeight:"700",marginBottom:"12px"}},"MILESTONES")
+    );
+    for(const card of milestoneCards){
+      milestonesSection.appendChild(card);
+    }
+    el.appendChild(milestonesSection);
+  }
+
+  return el;
+}
+
+function renderPower(){
+  const dungeons=getAllDungeons(S.chars);
+  const ranked=S.chars.map(c=>{
+    const rio=c.mythic_plus_scores_by_season?.[0]?.scores?.all||0;
+    const r=c.raid_progression?.[RAID_TIER];
+    const mk=r?.mythic_bosses_killed||0,hk=r?.heroic_bosses_killed||0,nk=r?.normal_bosses_killed||0;
+    const ilvl=c.gear?.item_level_equipped||0;
+    const issues=auditGear(c);
+    const tier=countTier(c);
+    const runs=getDungeonRuns(c);
+    const timedCount=runs.filter(r=>r.num_keystone_upgrades>0).length;
+    const highestKey=runs.length?Math.max(...runs.map(r=>r.mythic_level)):0;
+
+    // Get raid parse data from cached WCL data.
+    // Scans ALL partitions and picks the best parse per boss across them.
+    // Mythic-priority: mythic at full weight, heroic at reduced weight,
+    // with a hard cap ensuring heroic-only can never surpass any mythic raider on parse pts.
+    let raidParse=0;
+    let parseDifficulty=null; // 'M', 'H', or 'N' - which difficulty this parse came from
+    let bestParse=null;
+    let mythicBossCount=0;
+
+    if(wclDataCache){
+      // Collect all partition difficulty sets to scan
+      const allDiffSets = [];
+      if(wclDataCache.partitions){
+        for(const pData of Object.values(wclDataCache.partitions)){
+          if(pData.difficulties) allDiffSets.push(pData.difficulties);
+        }
+      } else if(wclDataCache.difficulties){
+        allDiffSets.push(wclDataCache.difficulties);
+      }
+
+      // For each difficulty tier (mythic first), merge best parses across all partitions
+      for(const [diffId, diffLabel] of [[5,'M'],[4,'H'],[3,'N']]){
+        // Collect all boss parses for this player across all partitions at this difficulty
+        const bossParsesMap = {}; // bossName -> {parse, dps, spec, ...}
+        for(const diffs of allDiffSets){
+          const diffData = diffs[diffId];
+          if(!diffData || !diffData.raiders) continue;
+          const raider = diffData.raiders.find(r => r.name.toLowerCase() === c.name.toLowerCase());
+          if(!raider || !raider.bosses) continue;
+          for(const b of raider.bosses){
+            const p = b.bestParse || b.parse || 0;
+            if(!bossParsesMap[b.name] || p > (bossParsesMap[b.name].bestParse || bossParsesMap[b.name].parse || 0)){
+              bossParsesMap[b.name] = b;
+            }
+          }
+        }
+
+        const mergedBosses = Object.values(bossParsesMap);
+        if(mergedBosses.length >= 1){
+          const bestParses = mergedBosses.map(b => b.bestParse || b.parse || 0);
+          raidParse = bestParses.length ? Math.round(bestParses.reduce((a,b)=>a+b,0) / bestParses.length) : 0;
+          parseDifficulty = diffLabel;
+          const best = mergedBosses.reduce((max, b) => {
+            const p = b.bestParse || b.parse || 0;
+            return p > max.parse ? {parse: p, name: b.name} : max;
+          }, {parse: 0, name: ''});
+          if(best.parse > 0){
+            bestParse = {parse: best.parse, boss: best.name, difficulty: diffLabel};
+          }
+          break; // Use highest difficulty with data
+        }
+      }
+
+      // Count mythic boss kills (best across all partitions)
+      for(const diffs of allDiffSets){
+        const mythicDiff = diffs[5];
+        if(mythicDiff && mythicDiff.raiders){
+          const mRaider = mythicDiff.raiders.find(r => r.name.toLowerCase() === c.name.toLowerCase());
+          if(mRaider && mRaider.bosses && mRaider.bosses.length > mythicBossCount){
+            mythicBossCount = mRaider.bosses.length;
+          }
+        }
+      }
+    }
+    // Also use raid_progression data as fallback for boss count
+    if(mythicBossCount === 0) mythicBossCount = mk;
+
+    // GPS calculation
+    // Parse: best-per-boss average, mythic full weight, heroic 30%
+    // Progression: 20 pts per mythic boss killed (rewards prog, not just parses)
+    let parsePts = 0;
+    if(parseDifficulty === 'M'){
+      parsePts = Math.round(raidParse * 2.5);
+    } else if(parseDifficulty === 'H'){
+      parsePts = Math.round(raidParse * 2.5 * 0.30);
+    }
+    const progPts = mythicBossCount * 20; // 20 pts per mythic boss kill
+    const rioPts=Math.round(rio*0.15); // M+ score (3000 rio = 450 pts)
+    const ilvlPts=Math.round(Math.max(0,ilvl-CONFIG.ilvlBaseline)*2); // baseline comes from config per tier
+    const enchantPts=issues.length===0?50:Math.max(0,50-issues.length*7);
+    const tierPts=tier>=4?40:0; // 4pc only, 2pc removed
+    const keyPts=timedCount*8+Math.max(0,highestKey-5)*5;
+    const pts=parsePts+progPts+rioPts+ilvlPts+enchantPts+tierPts+keyPts;
+    return{c,rio,r,ilvl,issues,tier,runs,timedCount,highestKey,pts,parsePts,progPts,raidParse,parseDifficulty,bestParse,mythicBossCount};
+  }).filter(x=>x.pts>0);
+
+  // Hard cap: heroic-only parse pts can never exceed the lowest mythic parser's parse pts.
+  // This guarantees mythic raiders always rank above heroic-only on the parse axis.
+  const mythicParsePts = ranked.filter(x => x.parseDifficulty === 'M').map(x => x.parsePts);
+  if(mythicParsePts.length > 0){
+    const lowestMythicParsePts = Math.min(...mythicParsePts);
+    const cap = Math.max(0, lowestMythicParsePts - 1); // always at least 1 below
+    for(const x of ranked){
+      if(x.parseDifficulty === 'H' && x.parsePts > cap){
+        x.pts -= (x.parsePts - cap); // adjust total GPS down
+        x.parsePts = cap;
+      }
+    }
+  }
+
+  ranked.sort((a,b)=>b.pts-a.pts);
+  const top30 = ranked.slice(0,30);
+  const maxPts=top30[0]?.pts||1;
+
+  // Check if WCL data is completely empty (outage)
+  const wclTotalRaiders = wclDataCache ? Object.values(wclDataCache.difficulties || {}).reduce((sum, d) => sum + (d.raiders?.length || 0), 0) : 0;
+  const wclOutage = wclDataCache && wclTotalRaiders === 0;
+
+  return h("div",null,
+    renderGuildPulse(),
+    wclOutage ? h("div",{style:{marginBottom:"14px",padding:"10px 16px",background:"rgba(248,113,113,0.06)",border:"1px solid rgba(248,113,113,0.15)",borderRadius:"10px",display:"flex",alignItems:"center",gap:"10px",fontSize:"12px",color:"var(--muted)"}},
+      h("span",{style:{color:"#f87171",fontWeight:"700",flexShrink:"0"}},"WCL Unavailable"),
+      h("span",null,"Parse data is temporarily unavailable. GPS scores may be lower than expected until Warcraft Logs comes back online.")
+    ) : null,
+    h("div",{style:{marginBottom:"18px",padding:"12px 18px",background:"var(--card)",borderRadius:"10px",border:"1px solid var(--border)",display:"flex",justifyContent:"space-between",alignItems:"center",flexWrap:"wrap",gap:"10px"}},
+      h("div",{style:{display:"flex",alignItems:"center",gap:"8px",fontSize:"12px"}},
+        h("span",{style:{color:"var(--text)",fontWeight:"700",letterSpacing:"1px"}},"GPS"),
+        h("span",{style:{color:"var(--muted)"}},"Raid performance, M+, gear, and prep rolled into one score")
+      ),
+      h("button",{style:{padding:"6px 14px",borderRadius:"6px",border:"1px solid var(--accent-dim)",background:"rgba(255,136,0,0.06)",color:"var(--accent)",fontSize:"12px",fontWeight:"600",cursor:"pointer",fontFamily:"inherit",display:"inline-flex",alignItems:"center",gap:"6px",transition:"all .15s"},onclick:function(){showGPSInfo();},title:"How GPS is calculated"},"\u2139 How it works")
+    ),
+    ...top30.map((x,i)=>{
+      const pct=Math.round((x.pts/maxPts)*100);
+      const barCol=CC[x.c.class]||"#555";
+      const keySquares=dungeons.map(([sn,name])=>{
+        const k=getBestKey(x.c,sn);
+        if(!k)return h("div",{class:"ksq",style:{background:"rgba(255,255,255,0.06)",color:"rgba(255,255,255,0.1)",width:"26px",minWidth:"26px",height:"20px"}},"-",h("div",{class:"tt"},name+" — Not run"));
+        const kc=keyColor(k.level,k.timed);
+        return h("div",{class:"ksq",style:{background:kc.bg,color:kc.fg}},""+k.level,h("div",{class:"tt"},name+" +"+k.level+(k.timed?" timed":" depleted")));
+      });
+
+      return h("div",{class:"card",style:{display:"flex",gap:"14px",alignItems:"flex-start",borderLeft:"3px solid "+(i<3?["#FF9900","#C0C0C0","#CD7F32"][i]:"transparent")}},
+        rankBadge(i),
+        h("div",{style:{flex:"1",minWidth:"0"}},
+          h("div",{style:{display:"flex",alignItems:"baseline",gap:"10px",marginBottom:"3px"}},
+            clickName(x.c,{fontSize:"17px",fontWeight:"700",color:CC[x.c.class]||"#fff"}),
+            h("span",{style:{fontSize:"22px",fontWeight:"900",color:i===0?"var(--accent)":i<3?"#fff":"rgba(255,255,255,0.75)"}},x.pts+""),
+            h("span",{style:{fontSize:"11px",color:"var(--faint)",marginLeft:"-6px",fontWeight:"600"}},"GPS")
+          ),
+          h("div",{style:{fontSize:"13px",color:"var(--muted)",marginBottom:"8px"}},x.c.active_spec_name+" "+x.c.class),
+          h("div",{style:{height:"5px",borderRadius:"3px",background:"rgba(255,255,255,0.04)",width:"100%",marginBottom:"8px"}},
+            h("div",{style:{height:"100%",borderRadius:"3px",background:barCol,width:pct+"%",transition:"width .5s ease-out"}})
+          ),
+          h("div",{style:{display:"flex",gap:"8px",alignItems:"center",fontSize:"12px",flexWrap:"wrap",marginBottom:keySquares.length?"8px":"0"}},
+            x.r?h("span",{style:{color:"#a335ee",fontWeight:"600"}},x.r.summary):null,
+            x.rio>0?h("span",{class:"tg io",style:{background:rioColor(x.rio)+"22",color:rioColor(x.rio)}},Math.round(x.rio)+" io"):null,
+            h("span",{style:{color:ilvlColor(Math.round(x.ilvl)),fontWeight:"700"}},Math.round(x.ilvl)+" ilvl"),
+            x.tier>=4?h("span",{class:"tg tier"},"4pc"):x.tier>=2?h("span",{class:"tg tier"},"2pc"):null,
+            x.issues.length===0?h("span",{class:"tg good"},"\u2713 Enchanted"):h("span",{class:"tg bad"},x.issues.length+" missing"),
+            x.highestKey>0?h("span",{style:{color:keyColor(x.highestKey,true).fg,fontWeight:"700"}},"+"+x.highestKey+" best"):null,
+            x.raidParse>0?h("span",{class:"tg",style:{background:parseColor(x.raidParse)+"22",color:parseColor(x.raidParse)}},x.raidParse+"% avg"):null,
+            x.bestParse&&x.bestParse.parse>0?h("span",{class:"tg",style:{background:parseColor(x.bestParse.parse)+"15",color:parseColor(x.bestParse.parse),border:"1px solid "+parseColor(x.bestParse.parse)+"44"}},x.bestParse.parse+"% "+x.bestParse.boss.split(',')[0]):null,
+          ),
+          keySquares.length?h("div",{style:{display:"flex",gap:"3px",alignItems:"center",height:"20px"}},
+            h("span",{style:{fontSize:"10px",color:"var(--faint)",marginRight:"3px",fontWeight:"600"}},"KEYS"),
+            ...keySquares
+          ):null
+        )
+      );
+    })
+  );
+}
+
+// ═══════════════════════════════════════
+// TAB 2: KEYSTONE PROGRESS
+// ═══════════════════════════════════════
+function renderKeys(){
+  const dungeons=getAllDungeons(S.chars);
+  if(!dungeons.length)return h("div",{class:"empty"},"No M+ data yet. Season just started — get in there and push some keys!");
+  const players=S.chars.filter(c=>getDungeonRuns(c).length>0).sort((a,b)=>(b.mythic_plus_scores_by_season?.[0]?.scores?.all||0)-(a.mythic_plus_scores_by_season?.[0]?.scores?.all||0)).slice(0,30);
+  if(!players.length)return h("div",{class:"empty"},"Nobody has run a key yet. Be the first!");
+
+  const keystoneMyth=players.filter(c=>(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0)>=3400);
+  const keystoneLegend=players.filter(c=>{const rio=(c.mythic_plus_scores_by_season?.[0]?.scores?.all||0);return rio>=3000&&rio<3400;});
+  const completionData=players.map(c=>{const done=dungeons.filter(([sn])=>getBestKey(c,sn)).length;return{c,done,total:dungeons.length,pct:Math.round((done/dungeons.length)*100)};}).filter(x=>x.done>0&&x.done<x.total).sort((a,b)=>b.pct-a.pct).slice(0,5);
+
+  const el=h("div",null);
+
+  // Milestones
+  const milestones=h("div",{style:{display:"flex",gap:"12px",marginBottom:"20px",flexWrap:"wrap"}});
+
+  // Keystone Myth (3400+ R.IO)
+  if(keystoneMyth.length)milestones.appendChild(h("div",{style:{padding:"14px 20px",borderRadius:"10px",background:"rgba(226,104,168,0.08)",border:"1px solid rgba(226,104,168,0.2)"}},
+    h("div",{style:{fontSize:"11px",color:"#e268a8",fontWeight:"700",letterSpacing:"1px",marginBottom:"5px"}},"KEYSTONE MYTH (3400+ R.IO)"),
+    h("div",{style:{fontSize:"15px",fontWeight:"600"}},
+      ...keystoneMyth.map((c,i)=>[
+        i>0?h("span",null,", "):null,
+        h("span",{style:{color:CC[c.class]||"#fff"}},cleanName(c.name))
+      ].filter(Boolean)).flat()
+    )
+  ));
+
+  // Resilient milestone - all 8 dungeons timed at each level, starting at 12
+  (function(){
+    if(dungeons.length===0) return;
+    const playerLevels=[];
+    for(const c of players){
+      let maxResilient=0;
+      for(let lvl=12;lvl<=20;lvl++){
+        const allTimed=dungeons.every(([sn])=>{
+          const k=getBestKey(c,sn);
+          return k&&k.timed&&k.level>=lvl;
+        });
+        if(allTimed) maxResilient=lvl; else break;
+      }
+      if(maxResilient>=12) playerLevels.push({c,level:maxResilient});
+    }
+    if(playerLevels.length===0) return;
+    const byLevel=new Map();
+    for(const p of playerLevels){
+      if(!byLevel.has(p.level)) byLevel.set(p.level,[]);
+      byLevel.get(p.level).push(p.c);
+    }
+    const sortedLevels=[...byLevel.keys()].sort((a,b)=>b-a);
+    const rows=h("div",{style:{display:"flex",flexDirection:"column",gap:"8px"}});
+    for(const lvl of sortedLevels){
+      const lvlPlayers=byLevel.get(lvl).sort((a,b)=>a.name.localeCompare(b.name));
+      const nameSpans=h("span",null);
+      for(let i=0;i<lvlPlayers.length;i++){
+        if(i>0) nameSpans.appendChild(document.createTextNode(", "));
+        nameSpans.appendChild(h("span",{style:{color:CC[lvlPlayers[i].class]||"#fff",fontWeight:"600"}},cleanName(lvlPlayers[i].name)));
+      }
+      const lvlColor=lvl>=15?"#ff8000":lvl>=13?"#a335ee":"#0070dd";
+      rows.appendChild(h("div",{style:{display:"flex",alignItems:"baseline",gap:"10px",fontSize:"13px"}},
+        h("span",{style:{color:lvlColor,fontWeight:"800",fontSize:"15px",minWidth:"28px"}},"+"+lvl),
+        nameSpans
+      ));
+    }
+    milestones.appendChild(h("div",{style:{padding:"14px 20px",borderRadius:"10px",background:"rgba(192,132,252,0.06)",border:"1px solid rgba(192,132,252,0.15)"}},
+      h("div",{style:{fontSize:"11px",color:"#c084fc",fontWeight:"700",letterSpacing:"1px",marginBottom:"8px"}},"RESILIENT"),
+      rows
+    ));
+  })();
+
+  // Keystone Legend (3000+ R.IO)
+  if(keystoneLegend.length)milestones.appendChild(h("div",{style:{padding:"14px 20px",borderRadius:"10px",background:"rgba(255,128,0,0.06)",border:"1px solid rgba(255,128,0,0.15)"}},
+    h("div",{style:{fontSize:"11px",color:"#ff8000",fontWeight:"700",letterSpacing:"1px",marginBottom:"5px"}},"KEYSTONE LEGEND (3000+ R.IO)"),
+    h("div",{style:{fontSize:"15px",fontWeight:"600"}},
+      ...keystoneLegend.map((c,i)=>[
+        i>0?h("span",null,", "):null,
+        h("span",{style:{color:CC[c.class]||"#fff"}},cleanName(c.name))
+      ].filter(Boolean)).flat()
+    )
+  ));
+
+  if(milestones.children.length)el.appendChild(milestones);
+
+  if(completionData.length){
+    el.appendChild(h("div",{class:"sec"},"ALMOST THERE"));
+    el.appendChild(h("div",{style:{display:"flex",gap:"10px",marginBottom:"20px",flexWrap:"wrap"}},
+      ...completionData.map(x=>h("div",{style:{padding:"10px 16px",borderRadius:"10px",background:"var(--card)",border:"1px solid var(--border)",minWidth:"130px"}},
+        h("div",null,clickName(x.c,{fontSize:"15px",fontWeight:"700",color:CC[x.c.class]||"#fff"})),
+        h("div",{style:{fontSize:"12px",color:"var(--muted)"}},x.done+"/"+x.total+" dungeons"),
+        h("div",{style:{height:"4px",borderRadius:"2px",background:"rgba(255,255,255,0.05)",marginTop:"6px"}},
+          h("div",{style:{height:"100%",borderRadius:"2px",background:"var(--accent)",width:x.pct+"%"}}))
+      ))
+    ));
+  }
+
+  el.appendChild(h("div",{class:"sec"},"DUNGEON GRID"));
+  const table=h("table",null);
+  const thead=h("tr",null,h("th",null,"PLAYER"));
+  dungeons.forEach(([sn,name])=>thead.appendChild(h("th",{title:name},sn||name.substring(0,4))));
+  thead.appendChild(h("th",null,"SCORE"));
+  table.appendChild(thead);
+  for(const c of players){
+    const tr=h("tr",null,h("td",null,clickName(c,{color:CC[c.class]||"#fff",fontWeight:"600"})));
+    for(const[sn,name]of dungeons){
+      const k=getBestKey(c,sn);const td=h("td",null);
+      if(!k){td.appendChild(h("div",{class:"grid-cell",style:{background:"rgba(255,255,255,0.06)",color:"rgba(255,255,255,0.1)",width:"36px",minWidth:"36px",height:"26px"}},"-"));}
+      else{const kc=keyColor(k.level,k.timed);td.appendChild(h("div",{class:"grid-cell",style:{background:kc.bg,color:kc.fg},title:name+" +"+k.level+(k.timed?" timed":" depleted")},""+k.level));}
+      tr.appendChild(td);
+    }
+    const score=c.mythic_plus_scores_by_season?.[0]?.scores?.all||0;
+    tr.appendChild(h("td",{style:{fontWeight:"700",color:rioColor(score),fontSize:"14px"}},score>0?""+Math.round(score):"-"));
+    table.appendChild(tr);
+  }
+  const gridWrap = h("div",{class:"grid-wrap"},table);
+  // Remove fade hint when scrolled to end
+  gridWrap.addEventListener('scroll',function(){
+    const atEnd = gridWrap.scrollLeft + gridWrap.clientWidth >= gridWrap.scrollWidth - 4;
+    gridWrap.classList.toggle('scrolled-end', atEnd);
+  });
+  el.appendChild(gridWrap);
+  el.appendChild(h("div",{style:{display:"flex",gap:"12px",fontSize:"11px",color:"var(--muted)",marginTop:"10px",flexWrap:"wrap",alignItems:"center"}},
+    h("span",{style:{color:"#86efac"}},"\u25A0 +2"),
+    h("span",{style:{color:"#5eead4"}},"\u25A0 +4"),
+    h("span",{style:{color:"#60a5fa"}},"\u25A0 +6"),
+    h("span",{style:{color:"#818cf8"}},"\u25A0 +8"),
+    h("span",{style:{color:"#c084fc"}},"\u25A0 +10"),
+    h("span",{style:{color:"#f59e0b"}},"\u25A0 +12"),
+    h("span",{style:{color:"#f472b6"}},"\u25A0 +14"),
+    h("span",{style:{color:"#e8405c"}},"\u25A0 +16"),
+    h("span",{style:{color:"#dc2626"}},"\u25A0 +18"),
+    h("span",{style:{color:"#b91c1c"}},"\u25A0 +20"),
+    h("span",{style:{color:"rgba(255,255,255,0.4)",marginLeft:"4px"}},"\u25A0 Depleted")
+  ));
+  return el;
+}
+
+// ═══════════════════════════════════════
+// TAB 3: GEAR CHECK
+// ═══════════════════════════════════════
+function renderGear(){
+  const raiders=S.chars.filter(c=>{const r=c.raid_progression?.[RAID_TIER];return r&&raidScore(r)>0;}).slice(0,40);
+  const audited=raiders.map(c=>({c,issues:auditGear(c),ilvl:Math.round(c.gear?.item_level_equipped||0),tier:countTier(c)})).sort((a,b)=>b.ilvl-a.ilvl);
+  const ready=audited.filter(a=>a.issues.length===0 && a.tier>=4);
+  const problems=audited.filter(a=>a.issues.length>0 || a.tier<4);
+  const totalIssues=audited.reduce((s,a)=>s+a.issues.length,0);
+  const with4pc=audited.filter(a=>a.tier>=4).length;
+
+  return h("div",null,
+    h("div",{class:"summary"},
+      h("div",{class:"s-box "+(ready.length===audited.length?"green":"gold")},h("div",{class:"n"},ready.length+"/"+audited.length),h("div",{class:"l"},"RAID READY")),
+      h("div",{class:"s-box "+(totalIssues>0?"red":"green")},h("div",{class:"n"},""+totalIssues),h("div",{class:"l"},"MISSING ENCHANTS")),
+      h("div",{class:"s-box "+(with4pc===audited.length?"green":"gold")},h("div",{class:"n"},with4pc+"/"+audited.length),h("div",{class:"l"},"4PC TIER")),
+      h("div",{class:"s-box blue"},h("div",{class:"n"},""+audited.length),h("div",{class:"l"},"RAIDERS AUDITED"))
+    ),
+    ready.length>0?h("div",{class:"sec"},"\u2728 RAID READY \u2014 "+ready.length):null,
+    ...ready.map(a=>h("div",{class:"card",style:{display:"flex",alignItems:"center",gap:"14px",borderLeft:"3px solid #4ade80"}},
+      h("div",{style:{flex:"1"}},
+        h("div",{style:{display:"flex",alignItems:"center",gap:"8px",flexWrap:"wrap"}},
+          clickName(a.c,{fontSize:"16px",fontWeight:"700",color:CC[a.c.class]||"#fff"}),
+          h("span",{class:"tg good"},"\u2713 Enchanted"),
+          a.tier>=4?h("span",{class:"tg tier"},"4pc"):a.tier>=2?h("span",{class:"tg tier"},"2pc"):null
+        ),
+        h("div",{style:{fontSize:"13px",color:"var(--muted)",marginTop:"3px"}},a.c.active_spec_name+" "+a.c.class+" \u00b7 "+a.c.realm)
+      ),
+      h("div",{style:{display:"flex",alignItems:"center",gap:"14px"}},
+        h("span",{style:{fontSize:"13px",color:"var(--muted)"}},a.c.raid_progression?.[RAID_TIER]?.summary||"-"),
+        h("span",{style:{fontSize:"16px",fontWeight:"700",color:ilvlColor(a.ilvl)}},""+a.ilvl)
+      )
+    )),
+    problems.length>0?h("div",{class:"sec"},"NEEDS ATTENTION \u2014 "+problems.length):null,
+    ...problems.map(a=>h("div",{class:"card",style:{display:"flex",alignItems:"flex-start",gap:"14px",borderLeft:"3px solid #f87171"}},
+      h("div",{style:{flex:"1"}},
+        h("div",{style:{display:"flex",alignItems:"center",gap:"8px",flexWrap:"wrap"}},
+          clickName(a.c,{fontSize:"16px",fontWeight:"700",color:CC[a.c.class]||"#fff"}),
+          a.tier>=4?h("span",{class:"tg tier"},"4pc"):a.tier>=2?h("span",{class:"tg tier"},"2pc"):null
+        ),
+        h("div",{style:{fontSize:"13px",color:"var(--muted)",marginTop:"3px"}},a.c.active_spec_name+" "+a.c.class+" \u00b7 "+a.c.realm),
+        h("div",{style:{display:"flex",gap:"5px",flexWrap:"wrap",marginTop:"8px"}},...a.issues.map(i=>h("span",{class:"tg "+i.type},i.text)))
+      ),
+      h("div",{style:{display:"flex",alignItems:"center",gap:"14px"}},
+        h("span",{style:{fontSize:"13px",color:"var(--muted)"}},a.c.raid_progression?.[RAID_TIER]?.summary||"-"),
+        h("span",{style:{fontSize:"16px",fontWeight:"700",color:ilvlColor(a.ilvl)}},""+a.ilvl)
+      )
+    ))
+  );
+}
+
+
+// NEW SIMPLIFIED RAID LOGS - Fetches directly from character profiles
+function renderRaidLogsNew(){
+  const container = h("div", {class: "raid-logs-container"});
+
+  // Difficulty selector
+  const difficultyState = {current: selectedDifficulty};
+  const partitionState = {current: selectedPartition};
+
+  const DIFF_NAMES = {3: 'Normal', 4: 'Heroic', 5: 'Mythic'};
+  const DIFF_COLORS = {3: '#1eff00', 4: '#a335ee', 5: '#ff8000'};
+
+  // Helper: get the difficulties object for the active partition
+  function getActiveDiffs(){
+    if(wclDataCache?.partitions && partitionState.current){
+      return wclDataCache.partitions[partitionState.current]?.difficulties || {};
+    }
+    return wclDataCache?.difficulties || {};
+  }
+
+  let diffSelector;
+  let loadingEl;
+  let dataEl;
+  let statsEl;
+  let titleEl;
+
+  function rebuildUI(){
+    container.innerHTML = "";
+
+    const activeDiffs = getActiveDiffs();
+    const isCached = wclDataCache && wclDataCache.updated;
+    const lastUpdated = isCached ? new Date(wclDataCache.updated).toLocaleString() : null;
+    const currentDiffName = DIFF_NAMES[difficultyState.current] || 'Heroic';
+    const partitionLabels = wclDataCache?.partitions ? Object.keys(wclDataCache.partitions) : [];
+    const hasMultiplePartitions = partitionLabels.length > 1;
+
+    // Header with title, partition toggle, and difficulty buttons
+    const header = h("div", {style: {
+      padding: "20px",
+      background: "var(--card)",
+      borderRadius: "12px",
+      marginBottom: "20px",
+      border: "1px solid var(--border)"
+    }},
+      h("div", {style: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        flexWrap: "wrap",
+        gap: "12px"
+      }},
+        h("div", {},
+          titleEl = h("div", {style: {fontSize: "18px", fontWeight: "700", marginBottom: "4px"}}, currentDiffName + " Raid Parses"),
+          h("div", {style: {fontSize: "12px", color: "var(--muted)"}},
+            isCached
+              ? "Midnight Falls • Updated " + lastUpdated
+              : "Midnight Falls • Loading from Warcraft Logs..."
+          )
+        ),
+        h("div", {style: {display: "flex", alignItems: "center", gap: "16px"}},
+          // Partition toggle (only if multiple partitions exist)
+          hasMultiplePartitions ? h("div", {style: {display: "flex", alignItems: "center", gap: "4px", background: "rgba(255,255,255,0.05)", borderRadius: "6px", padding: "2px"}},
+            ...partitionLabels.map(label => {
+              const isActive = partitionState.current === label;
+              const pData = wclDataCache.partitions[label];
+              const pTotal = Object.values(pData.difficulties || {}).reduce((s, d) => s + (d.raiders?.length || 0), 0);
+              return h("button", {
+                onclick: () => {
+                  if(partitionState.current !== label){
+                    partitionState.current = label;
+                    selectedPartition = label;
+                    // Reset difficulty to this partition's default
+                    difficultyState.current = pData.defaultDifficulty || 4;
+                    selectedDifficulty = difficultyState.current;
+                    rebuildUI();
+                    loadRaidData();
+                  }
+                },
+                style: {
+                  padding: "4px 10px",
+                  borderRadius: "4px",
+                  border: "none",
+                  background: isActive ? "var(--accent)" : "transparent",
+                  color: isActive ? "#000" : "var(--muted)",
+                  fontSize: "10px",
+                  fontWeight: "700",
+                  cursor: "pointer",
+                  transition: "all 0.2s",
+                  letterSpacing: "0.5px"
+                },
+                title: pTotal + " raiders logged"
+              }, label.toUpperCase());
+            })
+          ) : null,
+          // Difficulty toggle buttons
+          h("div", {style: {display: "flex", alignItems: "center", gap: "8px"}},
+            ...[3, 4, 5].map(diffId => {
+              const isActive = difficultyState.current === diffId;
+              const hasData = activeDiffs[diffId]?.raiders?.length > 0;
+              return h("button", {
+                onclick: () => {
+                  if(hasData && difficultyState.current !== diffId){
+                    difficultyState.current = diffId;
+                    selectedDifficulty = diffId;
+                    rebuildUI();
+                    loadRaidData();
+                  }
+                },
+                style: {
+                  padding: "6px 12px",
+                  borderRadius: "6px",
+                  border: "none",
+                  background: isActive ? DIFF_COLORS[diffId] : "rgba(255,255,255,0.1)",
+                  color: isActive ? "#000" : (hasData ? "var(--text)" : "var(--muted)"),
+                  fontSize: "11px",
+                  fontWeight: "700",
+                  cursor: hasData ? "pointer" : "not-allowed",
+                  opacity: hasData ? 1 : 0.5,
+                  transition: "all 0.2s"
+                }
+              }, DIFF_NAMES[diffId].toUpperCase());
+            })
+          )
+        )
+      )
+    );
+
+    // Stats summary (populated after data loads)
+    statsEl = h("div", {id: "raid-stats", style: {display: "none"}});
+
+    loadingEl = h("div", {id: "raid-loading", style: {
+      padding: "40px",
+      textAlign: "center",
+      color: "var(--muted)"
+    }}, "Loading raid rankings...");
+
+    dataEl = h("div", {id: "raid-data"});
+
+    container.appendChild(header);
+    container.appendChild(statsEl);
+    container.appendChild(loadingEl);
+    container.appendChild(dataEl);
+  }
+
+  rebuildUI();
+
+  // Render from cached data
+  function renderRaidersFromCache(cache){
+    // Get data for selected difficulty
+    const diffData = cache.difficulties?.[difficultyState.current];
+
+    if(!diffData || !diffData.raiders || diffData.raiders.length === 0){
+      dataEl.innerHTML = "<div style='padding:40px;text-align:center;color:var(--muted)'>No raid data found for this difficulty</div>";
+      return;
+    }
+
+    const raidersWithParses = diffData.raiders;
+    const stats = diffData.stats;
+
+    // Use pre-calculated stats from cache
+    const guildAvg = stats.guildAvg;
+    const pinkParses = stats.parseBreakdown.pink;
+    const orangeParses = stats.parseBreakdown.orange || 0;
+    const purpleParses = stats.parseBreakdown.purple;
+    const blueParses = stats.parseBreakdown.blue;
+    const greenParses = stats.parseBreakdown.green;
+    const grayParses = stats.parseBreakdown.gray;
+    const bestParse = stats.bestParse;
+
+    // Render stats
+    statsEl.style.display = "block";
+    statsEl.innerHTML = "";
+    statsEl.appendChild(h("div", {style: {
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+      gap: "12px",
+      marginBottom: "24px"
+    }},
+      h("div", {style: {
+        padding: "20px",
+        background: "var(--card)",
+        borderRadius: "12px",
+        border: "1px solid var(--border)",
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        minHeight: "90px"
+      }},
+        h("div", {style: {fontSize: "32px", fontWeight: "900", color: parseColor(guildAvg)}}, String(guildAvg) + "%"),
+        h("div", {style: {fontSize: "10px", color: "var(--muted)", letterSpacing: "1px"}}, "GUILD AVG PARSE")
+      ),
+      h("div", {style: {
+        padding: "20px",
+        background: "var(--card)",
+        borderRadius: "12px",
+        border: "1px solid var(--border)",
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        minHeight: "90px"
+      }},
+        h("div", {style: {fontSize: "32px", fontWeight: "900", color: "var(--accent)"}}, String(raidersWithParses.length)),
+        h("div", {style: {fontSize: "10px", color: "var(--muted)", letterSpacing: "1px"}}, "RAIDERS LOGGED")
+      ),
+      h("div", {style: {
+        padding: "20px",
+        background: "var(--card)",
+        borderRadius: "12px",
+        border: "1px solid var(--border)",
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        minHeight: "90px"
+      }},
+        h("div", {style: {display: "flex", justifyContent: "center", gap: "10px"}},
+          h("span", {style: {color: "#e268a8", fontWeight: "900", fontSize: "26px"}}, String(pinkParses)),
+          h("span", {style: {color: "#ff8000", fontWeight: "900", fontSize: "26px"}}, String(orangeParses)),
+          h("span", {style: {color: "#a335ee", fontWeight: "900", fontSize: "26px"}}, String(purpleParses)),
+          h("span", {style: {color: "#0070dd", fontWeight: "900", fontSize: "26px"}}, String(blueParses)),
+          h("span", {style: {color: "#1eff00", fontWeight: "900", fontSize: "26px"}}, String(greenParses)),
+          h("span", {style: {color: "#9d9d9d", fontWeight: "900", fontSize: "26px"}}, String(grayParses))
+        ),
+        h("div", {style: {fontSize: "10px", color: "var(--muted)", letterSpacing: "1px"}}, "TOTAL PARSES")
+      ),
+      h("div", {style: {
+        padding: "20px",
+        background: "var(--card)",
+        borderRadius: "12px",
+        border: "1px solid var(--border)",
+        textAlign: "center",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        minHeight: "90px"
+      }},
+        h("div", {},
+          h("div", {style: {fontSize: "32px", fontWeight: "900", color: parseColor(bestParse.parse)}}, String(bestParse.parse) + "%"),
+          h("div", {style: {fontSize: "11px", color: "var(--text)", marginTop: "2px"}}, bestParse.player)
+        ),
+        h("div", {style: {fontSize: "10px", color: "var(--muted)", letterSpacing: "1px"}}, "BEST PARSE")
+      )
+    ));
+
+    // Render player cards
+    for(const raider of raidersWithParses){
+      const card = h("div", {style: {
+        padding: "16px 20px",
+        background: "var(--card)",
+        borderRadius: "12px",
+        marginBottom: "14px",
+        border: "1px solid var(--border)",
+        borderLeft: `4px solid ${CC[raider.class] || "var(--accent)"}`
+      }},
+        h("div", {style: {
+          display: "flex",
+          alignItems: "center",
+          marginBottom: "14px",
+          gap: "12px"
+        }},
+          h("a", {
+            href: `https://www.warcraftlogs.com/character/us/${raider.realm}/${raider.name.toLowerCase()}?zone=46`,
+            target: "_blank",
+            style: {
+              fontSize: "18px",
+              fontWeight: "700",
+              color: CC[raider.class] || "var(--text)",
+              textDecoration: "none"
+            }
+          }, raider.name),
+          h("div", {style: {
+            display: "flex",
+            alignItems: "center",
+            gap: "12px",
+            marginLeft: "auto"
+          }},
+            h("div", {style: {
+              padding: "4px 12px",
+              borderRadius: "6px",
+              background: parseColor(raider.avgParse),
+              color: raider.avgParse >= 25 ? "#000" : "#fff",
+              fontSize: "14px",
+              fontWeight: "700"
+            }}, `${raider.avgParse}% avg`),
+            h("div", {style: {
+              fontSize: "13px",
+              color: "var(--muted)"
+            }}, `${raider.bossCount}/9 ${DIFF_NAMES[difficultyState.current]?.charAt(0) || 'H'}`)
+          )
+        ),
+        h("div", {style: {
+          display: "flex",
+          gap: "8px",
+          flexWrap: "wrap"
+        }},
+          ...RAID_BOSSES.map(raidBoss => {
+            const bossKill = raider.bosses.find(b =>
+              b.name.toLowerCase().includes(raidBoss.short.replace("…","").toLowerCase()) ||
+              raidBoss.name.toLowerCase().includes(b.name.toLowerCase().split(" ")[0])
+            );
+
+            if(bossKill){
+              return h("a", {
+                href: `https://www.warcraftlogs.com/character/us/${raider.realm}/${raider.name.toLowerCase()}?zone=46#boss=${bossKill.encounterID}&difficulty=4`,
+                target: "_blank",
+                style: {
+                  padding: "10px 12px",
+                  borderRadius: "8px",
+                  background: parseColor(bossKill.parse),
+                  color: bossKill.parse >= 25 ? "#000" : "#fff",
+                  textDecoration: "none",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  minWidth: "90px",
+                  gap: "2px"
+                }
+              },
+                h("div", {style: {
+                  fontSize: "10px",
+                  fontWeight: "600",
+                  opacity: "0.8",
+                  textAlign: "center"
+                }}, raidBoss.short),
+                h("div", {style: {
+                  fontSize: "22px",
+                  fontWeight: "900",
+                  lineHeight: "1"
+                }}, String(bossKill.parse)),
+                h("div", {style: {
+                  fontSize: "10px",
+                  fontWeight: "500",
+                  opacity: "0.7",
+                  textAlign: "center"
+                }}, `${shortSpec(bossKill.spec)} · ${formatDps(bossKill.dps)}`)
+              );
+            } else {
+              return h("div", {
+                style: {
+                  padding: "10px 12px",
+                  borderRadius: "8px",
+                  background: "rgba(255,255,255,0.05)",
+                  border: "1px solid rgba(255,255,255,0.1)",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  minWidth: "90px",
+                  minHeight: "62px",
+                  gap: "2px"
+                }
+              },
+                h("div", {style: {
+                  fontSize: "10px",
+                  fontWeight: "600",
+                  color: "rgba(255,255,255,0.3)",
+                  textAlign: "center"
+                }}, raidBoss.short),
+                h("div", {style: {
+                  fontSize: "11px",
+                  fontWeight: "500",
+                  color: "rgba(255,255,255,0.15)",
+                  textAlign: "center"
+                }}, "No kill")
+              );
+            }
+          })
+        )
+      );
+
+      dataEl.appendChild(card);
+    }
+  }
+
+  // Load data from cache
+  function loadRaidData(){
+    loadingEl.style.display = "block";
+    dataEl.innerHTML = "";
+
+    const activeDiffs = getActiveDiffs();
+    const diffData = activeDiffs[difficultyState.current];
+    if(diffData && diffData.raiders && diffData.raiders.length > 0){
+      loadingEl.style.display = "none";
+      renderRaidersFromCache({difficulties: activeDiffs, updated: wclDataCache?.updated});
+      return;
+    }
+
+    loadingEl.style.display = "none";
+
+    // Check if WCL data is stale or empty across ALL difficulties
+    const totalRaiders = wclDataCache ? Object.values(activeDiffs).reduce((sum, d) => sum + (d.raiders?.length || 0), 0) : 0;
+    const updated = wclDataCache?.updated ? new Date(wclDataCache.updated) : null;
+    const ageHours = updated ? Math.floor((Date.now() - updated.getTime()) / 3600000) : null;
+    const isStale = ageHours !== null && ageHours >= 6;
+
+    if(totalRaiders === 0 && wclDataCache){
+      // WCL data file exists but is completely empty - likely a WCL outage
+      const timeStr = updated ? updated.toLocaleString() : 'unknown';
+      dataEl.appendChild(h("div",{style:{padding:"30px 24px",background:"rgba(248,113,113,0.06)",border:"1px solid rgba(248,113,113,0.2)",borderRadius:"12px",textAlign:"center"}},
+        h("div",{style:{fontSize:"16px",fontWeight:"700",color:"#f87171",marginBottom:"8px"}},"Warcraft Logs Data Unavailable"),
+        h("div",{style:{fontSize:"13px",color:"var(--muted)",lineHeight:"1.6",maxWidth:"480px",margin:"0 auto"}},
+          "WCL returned no parse data on the last fetch. This usually means Warcraft Logs is experiencing an outage or maintenance. Data refreshes automatically every 2 hours."
+        ),
+        h("div",{style:{fontSize:"11px",color:"var(--faint)",marginTop:"12px"}},"Last checked: " + timeStr + (isStale ? " (" + ageHours + "h ago)" : ""))
+      ));
+    } else if(!wclDataCache){
+      dataEl.innerHTML = "<div style='padding:40px;text-align:center;color:var(--muted)'>Raid log data has not been loaded yet. Try refreshing.</div>";
+    } else {
+      dataEl.innerHTML = "<div style='padding:40px;text-align:center;color:var(--muted)'>No raid data found for this difficulty</div>";
+    }
+  }
+
+  // Auto-load on render
+  setTimeout(loadRaidData, 100);
+
+  return container;
+}
+
+function formatDps(n){
+  if(!n) return "";
+  if(n >= 1000000) return (n/1000000).toFixed(1) + "m";
+  if(n >= 1000) return (n/1000).toFixed(1) + "k";
+  return Math.floor(n).toString();
+}
+
+// Clean character names - removes server IDs like "Name-123456789"
+function cleanName(name){
+  if(!name) return "";
+  // If name has a hyphen followed by only numbers, strip it
+  return name.replace(/-\d+$/, "");
+}
+
+// ═══════════════════════════════════════
+// GPS METHODOLOGY MODAL
+// Transparent breakdown of how Guild Power Score is calculated.
+// Keep this in sync with the formula in renderPower().
+// ═══════════════════════════════════════
+function showGPSInfo(){
+  const existing=document.querySelector('.modal-bg');if(existing)existing.remove();
+  const bg=h("div",{class:"modal-bg",onclick:function(e){if(e.target===bg)bg.remove();}});
+
+  const row=(label,weight,desc,color)=>h("div",{style:{padding:"12px 0",borderBottom:"1px solid rgba(255,255,255,0.04)"}},
+    h("div",{style:{display:"flex",justifyContent:"space-between",alignItems:"baseline",marginBottom:"4px"}},
+      h("span",{style:{color:color||"var(--text)",fontWeight:"700",fontSize:"14px"}},label),
+      h("span",{style:{color:"var(--muted)",fontSize:"12px",fontFamily:"monospace"}},weight)
+    ),
+    h("div",{style:{color:"var(--muted)",fontSize:"12px",lineHeight:"1.5"}},desc)
+  );
+
+  const modal=h("div",{class:"modal",style:{maxWidth:"640px"}},
+    h("button",{class:"modal-close",onclick:()=>bg.remove()},"\u2715"),
+    h("div",{class:"modal-name"},"How GPS is Calculated"),
+    h("div",{class:"modal-spec"},"Guild Power Score combines seven signals into a single ranking number. Nothing secret, nothing weighted by role."),
+
+    h("div",{class:"modal-section"},"THE FORMULA"),
+    h("div",{style:{padding:"14px 16px",background:"rgba(255,136,0,0.06)",border:"1px solid rgba(255,136,0,0.2)",borderRadius:"8px",fontFamily:"monospace",fontSize:"13px",lineHeight:"1.7",color:"var(--text)"}},
+      "GPS = (BestParse \u00d7 weight) + (MythicKills \u00d7 20)",h("br",null),
+      h("span",{style:{paddingLeft:"40px"}},"+ (R.IO \u00d7 0.15) + ((iLvl \u2212 "+CONFIG.ilvlBaseline+") \u00d7 2)"),h("br",null),
+      h("span",{style:{paddingLeft:"40px"}},"+ Enchants + 4pc + Keys")
+    ),
+
+    h("div",{class:"modal-section"},"COMPONENTS"),
+    row("Raid Parse (Mythic)","\u00d7 2.5  (max ~250)","Uses your BEST parse on each boss, not the average of all pulls. This means a rough prog kill won't tank your score. As you improve on each fight, your GPS naturally goes up.","#ff8800"),
+    row("Raid Parse (Heroic)","\u00d7 2.5 \u00d7 0.30, hard-capped","If a raider has no Mythic kills, their Heroic best-per-boss parse is used at 30% weight. A hard cap ensures Heroic-only parse points can never exceed the lowest Mythic raider's parse points.","#a335ee"),
+    row("Mythic Progression","\u00d7 20 per boss  (max 180)","20 points per unique Mythic boss killed. Directly rewards progression. Going from 1/9M to 3/9M is worth 40 extra points, which offsets any parse dip from learning new fights.","#e84c3d"),
+    row("Mythic+ Score","\u00d7 0.15  (3000 rio = 450)","Current season Raider.IO score, all roles and dungeons combined. Rewards players who put keys in the bag.","#c084fc"),
+    row("Item Level","\u00d7 2 above "+CONFIG.ilvlBaseline,"Equipped ilvl minus the tier baseline. Proxy for gear investment. Moves up with every upgrade, stops counting below baseline.","rgba(255,255,255,0.7)"),
+    row("Enchants","50 clean, \u22127 per miss","Flat 50 if every gear slot has the right enchant / socket / embellishment. Each missing piece costs 7. Caps at 50.","#4ade80"),
+    row("Tier Set","40 if 4pc","Flat bonus for running the 4-piece tier set. Nothing for 2pc. Either you have the set bonus or you don't.","var(--accent)"),
+    row("Keystones","8 per timed, +5 per level over +5","Rewards both volume (timing keys) and ceiling (pushing higher). A timed +10 is worth 8 + 25 = 33.","#60a5fa"),
+
+    h("div",{class:"modal-section"},"WHY THESE WEIGHTS"),
+    h("div",{style:{fontSize:"13px",color:"var(--muted)",lineHeight:"1.6"}},
+      "Parses use your best kill per boss, not your average across all pulls. This means learning a new Mythic fight won't tank your score. The Mythic kill bonus rewards players who show up for progression. Going from 1/9M to 3/9M gives you 40 extra points, which more than offsets a rough first kill. R.IO rewards consistent M+ effort. iLvl, enchants, and tier set reward gear investment and prep. Keys reward push play."
+    ),
+
+    h("div",{class:"modal-section"},"FAIRNESS ACROSS ROLES"),
+    h("div",{style:{fontSize:"13px",color:"var(--muted)",lineHeight:"1.6"}},
+      h("div",{style:{marginBottom:"8px"}},h("strong",{style:{color:"var(--text)"}},"Healers:"),"\u00a0 ranked on hps, not dps. Full parity with DPS on the parse component."),
+      h("div",{style:{marginBottom:"8px"}},h("strong",{style:{color:"var(--text)"}},"Tanks:"),"\u00a0 ranked on dps, per WCL convention. There's no universal 'tanking skill' metric in the API, so this is the best signal available. Noisier than hps/dps for pure DPS, but consistent across all tanks."),
+      h("div",null,h("strong",{style:{color:"var(--text)"}},"All roles:"),"\u00a0 same weights, same formula. No role-based multipliers.")
+    ),
+
+    h("div",{class:"modal-section"},"KNOWN LIMITATIONS"),
+    h("div",{style:{fontSize:"13px",color:"var(--muted)",lineHeight:"1.6"}},
+      h("div",{style:{marginBottom:"6px"}},"\u2022 M+ queue times favor tanks and healers when queueing for pugs. Same weight applies, so dedicated DPS keypushers may score a touch lower here."),
+      h("div",{style:{marginBottom:"6px"}},"\u2022 Tank parse is based on damage done while tanking. It's a real number but doesn't capture survivability or mitigation skill."),
+      h("div",{style:{marginBottom:"6px"}},"\u2022 Parse uses best-per-boss, so a single great pull on each fight drives your score. This rewards improvement but means one lucky pull can inflate things."),
+      h("div",{style:{marginBottom:"6px"}},"\u2022 Heroic-only raiders are hard-capped below the lowest Mythic parser. If the guild's lowest Mythic parser has a rough week, that cap drops for everyone below them."),
+      h("div",null,"\u2022 GPS is a power proxy, not a replacement for raid leader judgment. It's a conversation starter, not the verdict.")
+    ),
+
+    h("div",{style:{marginTop:"20px",padding:"12px 14px",background:"rgba(255,255,255,0.03)",border:"1px solid var(--border)",borderRadius:"8px",fontSize:"12px",color:"var(--muted)",lineHeight:"1.5"}},
+      h("strong",{style:{color:"var(--text)"}},"Got feedback?"),"\u00a0 Ping Hash in Discord. The formula is tunable and the guild's input shapes where it goes next."
+    )
+  );
+
+  bg.appendChild(modal);
+  document.body.appendChild(bg);
+}
+
+function shortSpec(s){
+  if(!s) return "";
+  const abbrevs = {
+    "Retribution": "Ret", "Protection": "Prot", "Holy": "Holy",
+    "Frost": "Frost", "Fire": "Fire", "Arcane": "Arc",
+    "Arms": "Arms", "Fury": "Fury",
+    "Assassination": "Sin", "Outlaw": "Outlaw", "Subtlety": "Sub",
+    "Beast Mastery": "BM", "Marksmanship": "MM", "Survival": "Surv",
+    "Elemental": "Ele", "Enhancement": "Enh", "Restoration": "Resto",
+    "Balance": "Bal", "Feral": "Feral", "Guardian": "Guard",
+    "Shadow": "Shadow", "Discipline": "Disc",
+    "Affliction": "Aff", "Demonology": "Demo", "Destruction": "Destro",
+    "Blood": "Blood", "Unholy": "UH",
+    "Brewmaster": "Brew", "Windwalker": "WW", "Mistweaver": "MW",
+    "Havoc": "Havoc", "Vengeance": "Veng",
+    "Devastation": "Dev", "Preservation": "Pres", "Augmentation": "Aug"
+  };
+  return abbrevs[s] || s.substring(0, 4);
+}
+
+function shortBoss(name){
+  if(!name) return "";
+  const cleaned = name.replace(/^(The |Imperator |High |Lord |Lady |King |Queen |Prince |Princess |General |Commander |Archbishop )/i, "");
+  const firstWord = cleaned.split(" ")[0];
+  return firstWord.length > 10 ? firstWord.substring(0, 9) + "…" : firstWord;
+}
+
+function parseColor(p){
+  if(p >= 100) return "#e5cc80"; // Gold (artifact)
+  if(p >= 99) return "#e268a8";  // Pink
+  if(p >= 95) return "#ff8000";  // Orange (legendary)
+  if(p >= 75) return "#a335ee";  // Purple (epic)
+  if(p >= 50) return "#0070dd";  // Blue (rare)
+  if(p >= 25) return "#1eff00";  // Green (uncommon)
+  return "#9d9d9d";              // Gray (poor)
+}
+// ═══════════════════════════════════════
+// MAIN RENDER
+// ═══════════════════════════════════════
+function render(){
+  const app=document.getElementById("app");app.innerHTML="";
+  if(S.status==="error"){app.appendChild(h("div",{class:"err"},h("div",{class:"msg"},"Failed to load"),h("div",{class:"detail"},S.error),h("button",{onclick:()=>loadAll()},"Retry")));return;}
+  if(S.status!=="done"){
+    app.appendChild(h("div",{class:"loading"},
+      h("div",{class:"brand"},h("div",{class:"brand-r"},CONFIG.logoLeft),h("div",{class:"brand-h"},CONFIG.logoRight)),
+      h("div",{class:"sub",style:{marginTop:"12px"}},S.status==="guild"?"Fetching guild roster...":"Loading "+S.progress[0]+"/"+S.progress[1]),
+      S.progress[1]>0?h("div",{class:"pbar"},h("div",{class:"pfill",style:{width:(S.progress[0]/S.progress[1]*100)+"%"}})):null
+    ));return;
+  }
+  const gr=S.guild?.raid_progression?.[RAID_TIER];
+
+
+
+  app.appendChild(h("div",{class:"header"},
+    h("div",{class:"h-row"},
+      h("div",{class:"brand"},h("div",{class:"brand-r"},CONFIG.logoLeft),h("div",{class:"brand-h"},CONFIG.logoRight)),
+      h("div",{class:"g-info"},
+        h("div",{class:"g-name"},S.guild?.name||G_N),
+        h("div",{class:"g-sub"},G_S+"-"+G_R.toUpperCase()+" · "+CONFIG.seasonName+" · "+(gr?.summary||""))
+      ),
+      h("button",{class:"refresh",onclick:function(){S={status:"idle",progress:[0,0],guild:null,chars:[],tab:S.tab,error:null};render();loadAll();}},"↻ Refresh"),
+      (function(){
+        // Hide picker on holidays
+        const today = new Date();
+        const m = today.getMonth() + 1, d = today.getDate();
+        if((m===10&&d===31)||(m===7&&d===4)) return null;
+
+        const active = getActiveTheme();
+        const wrapper = h("div",{class:"theme-picker"});
+        const btn = h("button",{class:"theme-picker-btn",onclick:function(e){
+          e.stopPropagation();
+          wrapper.classList.toggle('open');
+        }},"🎨");
+        const dropdown = h("div",{class:"theme-picker-dropdown"});
+        const grid = h("div",{class:"theme-picker-grid"});
+        for(const t of THEMES){
+          const dot = h("div",{
+            class:"theme-dot" + (active===t.id?" active":""),
+            style:{background:t.id==='neon'?'linear-gradient(135deg,#ff00ff,#00ffff)':t.color},
+            title:t.label,
+            onclick:function(e){
+              e.stopPropagation();
+              applyTheme(t.id);
+              wrapper.classList.remove('open');
+              render();
+            }
+          });
+          grid.appendChild(dot);
+        }
+        dropdown.appendChild(grid);
+        wrapper.appendChild(btn);
+        wrapper.appendChild(dropdown);
+
+        // Close on outside click
+        document.addEventListener('click',function closeTheme(e){
+          if(!wrapper.contains(e.target)){
+            wrapper.classList.remove('open');
+            document.removeEventListener('click',closeTheme);
+          }
+        });
+
+        return wrapper;
+      })()
+    )
+  ));
+
+  const tabDefs=[
+    {full:"Power Rankings",short:"Rankings"},
+    {full:"Raid Logs",short:"Logs"},
+    {full:"Keystone Progress",short:"Keys"},
+    {full:"Gear Check",short:"Gear"},
+    {full:"Weekly Recap",short:"Recap"}
+  ];
+  app.appendChild(h("div",{class:"tabs"},...tabDefs.map((t,i)=>h("button",{class:"tab "+(S.tab===i?"active":""),onclick:()=>set({tab:i})},
+    h("span",{class:"tab-full"},t.full),
+    h("span",{class:"tab-short"},t.short)
+  ))));
+  const content=h("div",{class:"content"});
+  if(S.tab===0)content.appendChild(renderPower());
+  else if(S.tab===1){
+    try{
+      content.appendChild(renderRaidLogsNew());
+    }catch(e){
+      console.error('renderRaidLogs error:', e);
+      content.appendChild(h("div",{class:"empty"},
+        h("div",{style:{marginBottom:"12px"}},"Error loading raid logs"),
+        h("div",{style:{fontSize:"13px",color:"var(--faint)"}},e.toString())
+      ));
+    }
+  }
+  else if(S.tab===2)content.appendChild(renderKeys());
+  else if(S.tab===3)content.appendChild(renderGear());
+  else if(S.tab===4){
+    const recap = renderWeeklyRecap();
+    if(recap) content.appendChild(recap);
+    else content.appendChild(h("div",{class:"empty"},
+      h("div",{style:{marginBottom:"12px"}},"No recap available yet"),
+      h("div",{style:{fontSize:"13px",color:"var(--faint)"}},"The weekly recap is generated every Sunday after snapshots are taken. Check back after the next raid week!")
+    ));
+  }
+  app.appendChild(content);
+  app.appendChild(h("div",{class:"footer"},"RFB HUB \u00b7 LIVE VIA RAIDER.IO"));
+}
+render();loadAll();
+</script>
+</body>
+</html>
