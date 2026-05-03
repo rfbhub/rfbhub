@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T00:36:09.538Z",
+  "generated": "2026-05-03T00:49:31.522Z",
   "weekStart": "2026-04-26",
   "weekEnd": "2026-05-03",
   "seasonName": "Midnight S1",
@@ -29,6 +29,13 @@
         "gain": 272
       },
       {
+        "name": "Kampi",
+        "class": "Demon Hunter",
+        "previous": 1523,
+        "current": 1717,
+        "gain": 195
+      },
+      {
         "name": "Solackerr",
         "class": "Death Knight",
         "previous": 2871,
@@ -41,13 +48,6 @@
         "previous": 3293,
         "current": 3458,
         "gain": 165
-      },
-      {
-        "name": "Devrak",
-        "class": "Rogue",
-        "previous": 3315,
-        "current": 3452,
-        "gain": 138
       }
     ],
     "parseSpotlight": [
@@ -194,13 +194,20 @@
         "current": "4/9 M"
       },
       {
-        "name": "Deadstrikes",
-        "class": "Warrior",
-        "previous": "3/9 M",
+        "name": "Enhance",
+        "class": "Shaman",
+        "previous": "1/9 M",
         "current": "4/9 M"
       }
     ],
     "gearMovers": [
+      {
+        "name": "Kampi",
+        "class": "Demon Hunter",
+        "previous": 253,
+        "current": 260.2,
+        "gain": 7.2
+      },
       {
         "name": "Devrak",
         "class": "Rogue",
@@ -228,13 +235,6 @@
         "previous": 276.5,
         "current": 280,
         "gain": 3.5
-      },
-      {
-        "name": "Blimpi",
-        "class": "Warlock",
-        "previous": 277.7,
-        "current": 281,
-        "gain": 3.3
       }
     ],
     "highKeyPushers": [
@@ -285,32 +285,48 @@
         "ilvl": 283,
         "rio": 2956,
         "progression": "4/9 M"
+      },
+      {
+        "name": "Amadeus",
+        "class": "Mage",
+        "spec": "Frost",
+        "ilvl": 267,
+        "rio": 2031,
+        "progression": "4/9 H"
+      },
+      {
+        "name": "Vynanvile",
+        "class": "Druid",
+        "spec": "Guardian",
+        "ilvl": 248,
+        "rio": 0,
+        "progression": "4/9 H"
       }
     ]
   },
   "summary": {
-    "totalRaiders": 33,
-    "rosterDelta": -11,
-    "avgRio": 3004,
-    "rioDelta": 563,
-    "avgIlvl": 279.1,
-    "ilvlDelta": 7.1,
+    "totalRaiders": 48,
+    "rosterDelta": 4,
+    "avgRio": 2450,
+    "rioDelta": 9,
+    "avgIlvl": 271.7,
+    "ilvlDelta": -0.3,
     "avgMythicParse": 51,
     "parseDelta": -1,
-    "mythicRaidersCount": 27,
-    "totalMythicKills": 88,
+    "mythicRaidersCount": 29,
+    "totalMythicKills": 96,
     "highestKey": 17,
     "highestKeyPlayer": "Devrak",
     "highestKeyClass": "Rogue",
-    "enchantPct": 73,
-    "fullyEnchanted": 24,
+    "enchantPct": 54,
+    "fullyEnchanted": 26,
     "parseDistribution": {
       "pink": 1,
-      "orange": 2,
-      "purple": 23,
-      "blue": 23
+      "orange": 3,
+      "purple": 24,
+      "blue": 25
     },
     "totalCategories": 8,
-    "totalHighlights": 38
+    "totalHighlights": 40
   }
 }
