@@ -1,0 +1,39 @@
+name: Update Roster
+
+on:
+  # Hourly: keeps roster.json fresh so the site loads instantly.
+  # Each run fetches ~26 filtered raiders (not the full 170+ guild),
+  # takes about 5 seconds, and only commits if data actually changed.
+  schedule:
+    - cron: '15 * * * *'
+
+  # Manual trigger for on-demand refresh.
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch roster data
+        run: node update-roster.js
+
+      - name: Commit roster.json (only if changed)
+        run: |
+          if [ -f .roster-unchanged ]; then
+            echo "No meaningful changes, skipping commit"
+            rm -f .roster-unchanged
+            exit 0
+          fi
+          git config user.name "Guild Hub Bot"
+          git config user.email "bot@guild-hub.github.io"
+          git add roster.json
+          git diff --cached --quiet && echo "Nothing to commit" || git commit -m "Update roster data" && git push
