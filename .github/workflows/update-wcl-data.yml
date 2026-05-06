@@ -1,7 +1,7 @@
 name: Update WCL Data
 
 on:
-  # Runs at 0 mins past the hour, every 2 hours
+  # Every 2 hours (Platinum tier: 18,000 points/hour, plenty of headroom)
   schedule:
     - cron: '0 */2 * * *'
   
@@ -27,6 +27,9 @@ jobs:
           WCL_CLIENT: ${{ secrets.WCL_CLIENT }}
           WCL_SECRET: ${{ secrets.WCL_SECRET }}
       
+      - name: Pull latest (prevent race with other actions)
+        run: git pull --rebase origin main
+
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
