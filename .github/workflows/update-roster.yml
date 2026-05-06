@@ -26,6 +26,9 @@ jobs:
       - name: Fetch roster data
         run: node update-roster.js
 
+      - name: Pull latest (prevent race with other actions)
+        run: git pull --rebase origin main
+
       - name: Commit roster.json (only if changed)
         run: |
           if [ -f .roster-unchanged ]; then
@@ -36,4 +39,9 @@ jobs:
           git config user.name "Guild Hub Bot"
           git config user.email "bot@guild-hub.github.io"
           git add roster.json
-          git diff --cached --quiet && echo "Nothing to commit" || git commit -m "Update roster data" && git push
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Update roster data"
+            git push
+          fi
