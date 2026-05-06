@@ -29,6 +29,9 @@ jobs:
       - name: Generate recap
         run: node generate-recap.js
 
+      - name: Pull latest (prevent race with other actions)
+        run: git pull --rebase origin main
+
       - name: Commit snapshot and recap
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
