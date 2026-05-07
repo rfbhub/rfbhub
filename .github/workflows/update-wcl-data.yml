@@ -1,0 +1,41 @@
+name: Update WCL Data
+
+on:
+  # Every 2 hours (Platinum tier: 18,000 points/hour, plenty of headroom)
+  schedule:
+    - cron: '0 */2 * * *'
+  
+  # Manual trigger from GitHub Actions page
+  workflow_dispatch:
+
+jobs:
+  update-wcl-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Fetch WCL data
+        run: node fetch-wcl-data.js
+        env:
+          WCL_CLIENT: ${{ secrets.WCL_CLIENT }}
+          WCL_SECRET: ${{ secrets.WCL_SECRET }}
+      
+      - name: Commit and push if changed
+        run: |
+          git config user.name "RFB Hub Bot"
+          git config user.email "bot@rfbhub.github.io"
+          git add wcl-data.json activity.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Auto-update WCL data"
+            git pull --rebase origin main
+            git push
+          fi
