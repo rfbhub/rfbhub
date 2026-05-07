@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T03:42:52.795Z",
+  "timestamp": "2026-05-07T04:42:59.021Z",
   "date": "2026-05-07",
   "config": {
     "guildName": "Rolling For Blame",
@@ -6934,10 +6934,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-07T00:57:12.730Z",
-        "updated_at": "2026-05-07T00:57:12.730Z",
-        "source": "s3",
-        "item_level_equipped": 262,
+        "created_at": "2026-05-07T04:11:19.000Z",
+        "updated_at": "2026-05-07T04:11:19.000Z",
+        "source": "db",
+        "item_level_equipped": 262.688,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -7154,7 +7154,7 @@
             "item_level": 233,
             "icon": "inv_bracer_cloth_dungeonharronir_c_01",
             "name": "Sprawling Wristroots",
-            "item_quality": 3,
+            "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -7417,7 +7417,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8051
             ],
             "enchants_detail": [
               {
@@ -31977,30 +31978,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/3/193912835-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-05-06T02:12:46.000Z",
+      "last_crawled_at": "2026-05-07T04:34:54.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Onefingies",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2656.8,
-            "dps": 2656.8,
+            "all": 2760.2,
+            "dps": 2760.2,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 2656.8,
+            "spec_2": 2760.2,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2656.8,
-              "color": "#5ca6a4"
+              "score": 2760.2,
+              "color": "#5393b7"
             },
             "dps": {
-              "score": 2656.8,
-              "color": "#5ca6a4"
+              "score": 2760.2,
+              "color": "#5393b7"
             },
             "healer": {
               "score": 0,
@@ -32019,8 +32020,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 2656.8,
-              "color": "#5ca6a4"
+              "score": 2760.2,
+              "color": "#5393b7"
             },
             "spec_3": {
               "score": 0,
@@ -32030,6 +32031,114 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "mythic_level": 14,
+          "completed_at": "2026-05-07T02:23:50.000Z",
+          "clear_time_ms": 1887087,
+          "keystone_run_id": 22517071,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 557,
+          "zone_id": 15808,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
+          "score": 396.8,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22517071-14-windrunner-spire",
+          "spec": {
+            "id": 64,
+            "name": "Frost",
+            "slug": "frost",
+            "class_id": 8,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "mythic_level": 12,
+          "completed_at": "2026-05-07T01:47:55.000Z",
+          "clear_time_ms": 1391323,
+          "keystone_run_id": 22517057,
+          "par_time_ms": 1860999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 402,
+          "zone_id": 14032,
+          "zone_expansion_id": 9,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_dragonacademy.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/algethar-academy.jpg",
+          "score": 374.5,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22517057-12-algethar-academy",
+          "spec": {
+            "id": 64,
+            "name": "Frost",
+            "slug": "frost",
+            "class_id": 8,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
@@ -32072,60 +32181,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/22120858-12-seat-of-the-triumvirate",
-          "spec": {
-            "id": 64,
-            "name": "Frost",
-            "slug": "frost",
-            "class_id": 8,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "mythic_level": 12,
-          "completed_at": "2026-05-01T12:13:23.000Z",
-          "clear_time_ms": 1853114,
-          "keystone_run_id": 20087542,
-          "par_time_ms": 1860999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 402,
-          "zone_id": 14032,
-          "zone_expansion_id": 9,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_dragonacademy.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/algethar-academy.jpg",
-          "score": 365.2,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20087542-12-algethar-academy",
           "spec": {
             "id": 64,
             "name": "Frost",
@@ -32355,60 +32410,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "mythic_level": 10,
-          "completed_at": "2026-04-26T19:04:48.000Z",
-          "clear_time_ms": 2103087,
-          "keystone_run_id": 18176041,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 0,
-          "map_challenge_mode_id": 557,
-          "zone_id": 15808,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
-          "score": 302.7,
-          "affixes": [
-            {
-              "id": 148,
-              "name": "Xal'atath's Bargain: Ascendant",
-              "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-              "icon": "inv_nullstone_cosmicvoid",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_nullstone_cosmicvoid.jpg",
-              "wowhead_url": "https://wowhead.com/affix=148"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/18176041-10-windrunner-spire",
-          "spec": {
-            "id": 64,
-            "name": "Frost",
-            "slug": "frost",
-            "class_id": 8,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
           "mythic_level": 9,
@@ -32456,8 +32457,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-06T02:12:47.153Z",
-        "updated_at": "2026-05-06T02:12:47.153Z",
+        "created_at": "2026-05-07T04:34:55.072Z",
+        "updated_at": "2026-05-07T04:34:55.072Z",
         "source": "s3",
         "item_level_equipped": 265,
         "item_level_total": 0,
@@ -32851,6 +32852,7 @@
           "mainhand": {
             "item_id": 251201,
             "item_level": 272,
+            "enchant": 8052,
             "icon": "inv_staff_2h_domanaar_b_01",
             "name": "Corespark Multitool",
             "item_quality": 4,
@@ -32865,7 +32867,9 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
+            "enchants": [
+              8052
+            ],
             "enchants_detail": [],
             "bonuses": [
               12801,
@@ -35257,8 +35261,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-07T00:59:09.000Z",
-        "updated_at": "2026-05-07T00:59:09.000Z",
+        "created_at": "2026-05-07T03:44:26.000Z",
+        "updated_at": "2026-05-07T03:44:26.000Z",
         "source": "db",
         "item_level_equipped": 283.938,
         "item_level_total": 0,
@@ -43876,23 +43880,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3549.5,
-            "dps": 3549.5,
+            "all": 3566.3,
+            "dps": 3566.3,
             "healer": 1074,
             "tank": 0,
-            "spec_0": 3549.5,
+            "spec_0": 3566.3,
             "spec_1": 0,
             "spec_2": 1074,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3549.5,
-              "color": "#d850a2"
+              "score": 3566.3,
+              "color": "#db529c"
             },
             "dps": {
-              "score": 3549.5,
-              "color": "#d850a2"
+              "score": 3566.3,
+              "color": "#db529c"
             },
             "healer": {
               "score": 1074,
@@ -43903,8 +43907,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3549.5,
-              "color": "#d850a2"
+              "score": 3566.3,
+              "color": "#db529c"
             },
             "spec_1": {
               "score": 0,
@@ -44139,6 +44143,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "mythic_level": 17,
+          "completed_at": "2026-05-07T03:55:12.000Z",
+          "clear_time_ms": 1701419,
+          "keystone_run_id": 22509640,
+          "par_time_ms": 1860999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 402,
+          "zone_id": 14032,
+          "zone_expansion_id": 9,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_dragonacademy.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/algethar-academy.jpg",
+          "score": 443.2,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22509640-17-algethar-academy",
+          "spec": {
+            "id": 262,
+            "name": "Elemental",
+            "slug": "elemental",
+            "class_id": 7,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Windrunner Spire",
           "short_name": "WS",
           "mythic_level": 17,
@@ -44299,65 +44357,11 @@
             "ordinal": 0
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "mythic_level": 16,
-          "completed_at": "2026-05-03T00:07:01.000Z",
-          "clear_time_ms": 1786999,
-          "keystone_run_id": 20842550,
-          "par_time_ms": 1860999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 402,
-          "zone_id": 14032,
-          "zone_expansion_id": 9,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_dragonacademy.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/algethar-academy.jpg",
-          "score": 426.5,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20842550-16-algethar-academy",
-          "spec": {
-            "id": 262,
-            "name": "Elemental",
-            "slug": "elemental",
-            "class_id": 7,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-05-07T03:29:18.000Z",
-        "updated_at": "2026-05-07T03:29:18.000Z",
+        "created_at": "2026-05-07T03:55:12.000Z",
+        "updated_at": "2026-05-07T03:55:12.000Z",
         "source": "db",
         "item_level_equipped": 283.688,
         "item_level_total": 0,
@@ -44922,8 +44926,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
-              8052
+              8041
             ],
             "enchants_detail": [
               {
@@ -52544,7 +52547,7 @@
     }
   ],
   "wclData": {
-    "updated": "2026-05-07T03:34:32.534Z",
+    "updated": "2026-05-07T04:33:28.339Z",
     "zoneID": 46,
     "zoneName": "Midnight Falls",
     "bosses": [
@@ -74961,7 +74964,7 @@
       },
       {
         "name": "Fartblaster",
-        "rio": 3549.5
+        "rio": 3566.3
       },
       {
         "name": "Blinkvoker",
