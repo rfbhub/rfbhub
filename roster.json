@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T04:40:50.165Z",
+  "updated": "2026-05-07T07:26:10.763Z",
   "rosterCount": 53,
   "guild": {
     "name": "Rolling For Blame",
@@ -11,7 +11,53 @@
         "heroic_bosses_killed": 8,
         "mythic_bosses_killed": 5
       }
-    }
+    },
+    "raid_rankings": {
+      "tier-mn-1": {
+        "normal": {
+          "world": 7607,
+          "region": 3324,
+          "realm": 225
+        },
+        "heroic": {
+          "world": 7543,
+          "region": 3381,
+          "realm": 244
+        },
+        "mythic": {
+          "world": 2705,
+          "region": 845,
+          "realm": 54
+        }
+      }
+    },
+    "raid_encounters": [
+      {
+        "slug": "imperator-averzian",
+        "name": "Imperator Averzian",
+        "defeatedAt": "2026-04-11T01:51:39.000Z"
+      },
+      {
+        "slug": "vorasius",
+        "name": "Vorasius",
+        "defeatedAt": "2026-04-18T01:59:23.000Z"
+      },
+      {
+        "slug": "chimaerus-the-undreamt-god",
+        "name": "Chimaerus the Undreamt God",
+        "defeatedAt": "2026-04-25T01:52:00.000Z"
+      },
+      {
+        "slug": "fallenking-salhadaar",
+        "name": "Fallen-King Salhadaar",
+        "defeatedAt": "2026-04-30T02:39:45.000Z"
+      },
+      {
+        "slug": "vaelgor-ezzorak",
+        "name": "Vaelgor & Ezzorak",
+        "defeatedAt": "2026-05-07T02:49:41.000Z"
+      }
+    ]
   },
   "chars": [
     {
@@ -35902,34 +35948,34 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 11490,
+      "achievement_points": 11510,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/1/264199681-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-05-03T16:46:18.000Z",
+      "last_crawled_at": "2026-05-07T05:29:13.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Kampi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2147.3,
-            "dps": 2147.3,
+            "all": 2186.5,
+            "dps": 2186.5,
             "healer": 0,
             "tank": 165.7,
             "spec_0": 0,
             "spec_1": 165.7,
-            "spec_2": 2147.3,
+            "spec_2": 2186.5,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2147.3,
-              "color": "#39ff21"
+              "score": 2186.5,
+              "color": "#29ff0f"
             },
             "dps": {
-              "score": 2147.3,
-              "color": "#39ff21"
+              "score": 2186.5,
+              "color": "#29ff0f"
             },
             "healer": {
               "score": 0,
@@ -35948,8 +35994,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 2147.3,
-              "color": "#39ff21"
+              "score": 2186.5,
+              "color": "#29ff0f"
             },
             "spec_3": {
               "score": 0,
@@ -36192,29 +36238,37 @@
         {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
-          "mythic_level": 6,
-          "completed_at": "2026-05-01T17:32:55.000Z",
-          "clear_time_ms": 1445792,
-          "keystone_run_id": 20253205,
+          "mythic_level": 8,
+          "completed_at": "2026-05-07T02:21:27.000Z",
+          "clear_time_ms": 1759421,
+          "keystone_run_id": 22527275,
           "par_time_ms": 2040999,
-          "num_keystone_upgrades": 2,
+          "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 239,
           "zone_id": 8910,
           "zone_expansion_id": 6,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
-          "score": 240.9,
+          "score": 280.2,
           "affixes": [
             {
-              "id": 158,
-              "name": "Xal'atath's Bargain: Voidbound",
-              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
-              "icon": "inv_cosmicvoid_buff",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
-              "wowhead_url": "https://wowhead.com/affix=158"
+              "id": 160,
+              "name": "Xal'atath's Bargain: Devour",
+              "description": "While in combat, Xal'atath tears open rifts that devour the essence of players.",
+              "icon": "inv_ability_voidweaverpriest_entropicrift",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_ability_voidweaverpriest_entropicrift.jpg",
+              "wowhead_url": "https://wowhead.com/affix=160"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20253205-6-seat-of-the-triumvirate",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/22527275-8-seat-of-the-triumvirate",
           "spec": {
             "id": 1480,
             "name": "Devourer",
@@ -36305,10 +36359,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-03T10:58:44.754Z",
-        "updated_at": "2026-05-03T10:58:44.754Z",
+        "created_at": "2026-05-07T05:29:13.798Z",
+        "updated_at": "2026-05-07T05:29:13.798Z",
         "source": "s3",
-        "item_level_equipped": 260,
+        "item_level_equipped": 262,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -36476,7 +36530,7 @@
           },
           "chest": {
             "item_id": 250036,
-            "item_level": 263,
+            "item_level": 276,
             "icon": "inv_chest_leather_raiddemonhuntermidnight_d_01",
             "name": "Devouring Reaver's Engine",
             "item_quality": 4,
@@ -36495,11 +36549,11 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13336,
-              13439,
               6652,
+              13440,
+              13336,
               13575,
-              12790
+              12798
             ]
           },
           "waist": {
@@ -36559,7 +36613,7 @@
           },
           "hands": {
             "item_id": 250034,
-            "item_level": 266,
+            "item_level": 276,
             "icon": "inv_glove_leather_raiddemonhuntermidnight_d_01",
             "name": "Devouring Reaver's Essence Grips",
             "item_quality": 4,
@@ -36579,15 +36633,15 @@
             "enchants_detail": [],
             "bonuses": [
               13337,
-              12795,
               13440,
               6652,
-              13574
+              13574,
+              12798
             ]
           },
           "legs": {
             "item_id": 250032,
-            "item_level": 263,
+            "item_level": 272,
             "icon": "inv_pant_leather_raiddemonhuntermidnight_d_01",
             "name": "Devouring Reaver's Pistons",
             "item_quality": 4,
@@ -36607,11 +36661,10 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              12790,
               13440,
               13339,
               13575,
-              3148
+              12797
             ]
           },
           "feet": {
@@ -36744,6 +36797,7 @@
           "mainhand": {
             "item_id": 258050,
             "item_level": 266,
+            "enchant": 8052,
             "icon": "inv_hand_1h_draenordungeon_c_02",
             "name": "Arcanic of the High Sage",
             "item_quality": 4,
@@ -36758,7 +36812,9 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
+            "enchants": [
+              8052
+            ],
             "enchants_detail": [],
             "bonuses": [
               13440,
