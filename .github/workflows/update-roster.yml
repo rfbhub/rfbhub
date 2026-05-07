@@ -26,13 +26,7 @@ jobs:
       - name: Fetch roster data
         run: node update-roster.js
 
-      - name: Pull latest (prevent race with other actions)
-        run: |
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || true
-
-      - name: Commit roster.json (only if changed)
+      - name: Commit and push roster.json (only if changed)
         run: |
           if [ -f .roster-unchanged ]; then
             echo "No meaningful changes, skipping commit"
@@ -46,5 +40,6 @@ jobs:
             echo "Nothing to commit"
           else
             git commit -m "Update roster data"
+            git pull --rebase origin main
             git push
           fi
