@@ -35,7 +35,7 @@ jobs:
           fi
           git config user.name "Guild Hub Bot"
           git config user.email "bot@guild-hub.github.io"
-          git add roster.json
+          git add roster.json wowaudit-roster.json
           if git diff --cached --quiet; then
             echo "Nothing to commit"
           else
