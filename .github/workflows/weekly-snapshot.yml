@@ -29,16 +29,15 @@ jobs:
       - name: Generate recap
         run: node generate-recap.js
 
-      - name: Pull latest (prevent race with other actions)
+      - name: Commit and push snapshot and recap
         run: |
-          git stash --include-untracked
-          git pull --rebase origin main
-          git stash pop || true
-
-      - name: Commit snapshot and recap
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Daily snapshot + recap"
-          file_pattern: "history/*.json recap.json"
-          commit_user_name: "Guild Hub Bot"
-          commit_user_email: "bot@guild-hub.github.io"
+          git config user.name "Guild Hub Bot"
+          git config user.email "bot@guild-hub.github.io"
+          git add history/*.json recap.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "Daily snapshot + recap"
+            git pull --rebase origin main
+            git push
+          fi
