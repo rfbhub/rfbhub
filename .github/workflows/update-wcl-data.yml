@@ -28,7 +28,10 @@ jobs:
           WCL_SECRET: ${{ secrets.WCL_SECRET }}
       
       - name: Pull latest (prevent race with other actions)
-        run: git pull --rebase origin main
+        run: |
+          git stash --include-untracked
+          git pull --rebase origin main
+          git stash pop || true
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
