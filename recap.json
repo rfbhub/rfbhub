@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T00:04:32.080Z",
+  "generated": "2026-05-13T14:54:23.224Z",
   "weekStart": "2026-05-05",
   "weekEnd": "2026-05-13",
   "seasonName": "Midnight S1",
@@ -29,6 +29,13 @@
         "gain": 198
       },
       {
+        "name": "Oulir",
+        "class": "Druid",
+        "previous": 3380,
+        "current": 3484,
+        "gain": 104
+      },
+      {
         "name": "Torchfist",
         "class": "Monk",
         "previous": 3145,
@@ -41,13 +48,6 @@
         "previous": 3539,
         "current": 3637,
         "gain": 98
-      },
-      {
-        "name": "Blinkvoker",
-        "class": "Evoker",
-        "previous": 3371,
-        "current": 3451,
-        "gain": 80
       }
     ],
     "parseSpotlight": [
@@ -155,6 +155,14 @@
         "threshold": 3000,
         "score": 3038,
         "previousScore": 2816
+      },
+      {
+        "name": "Oulir",
+        "class": "Druid",
+        "milestone": "Keystone Myth",
+        "threshold": 3400,
+        "score": 3484,
+        "previousScore": 3380
       }
     ],
     "progression": [
@@ -186,32 +194,32 @@
         "gain": 36
       },
       {
+        "name": "Crackle",
+        "class": "Evoker",
+        "previous": 279,
+        "current": 282,
+        "gain": 3
+      },
+      {
+        "name": "Hashmaker",
+        "class": "Paladin",
+        "previous": 283,
+        "current": 286,
+        "gain": 3
+      },
+      {
         "name": "Blinkvoker",
         "class": "Evoker",
         "previous": 281,
-        "current": 283.4,
-        "gain": 2.4
+        "current": 284,
+        "gain": 3
       },
       {
-        "name": "Lykra",
-        "class": "Druid",
-        "previous": 280,
-        "current": 282,
-        "gain": 2
-      },
-      {
-        "name": "Banehate",
-        "class": "Death Knight",
-        "previous": 276,
-        "current": 278,
-        "gain": 2
-      },
-      {
-        "name": "Devrak",
-        "class": "Rogue",
+        "name": "Phokus",
+        "class": "Hunter",
         "previous": 279,
-        "current": 281,
-        "gain": 2
+        "current": 281.8,
+        "gain": 2.8
       }
     ],
     "highKeyPushers": [
@@ -228,6 +236,12 @@
         "currentKey": 17
       },
       {
+        "name": "Oulir",
+        "class": "Druid",
+        "previousKey": 16,
+        "currentKey": 17
+      },
+      {
         "name": "Torchfist",
         "class": "Monk",
         "previousKey": 14,
@@ -237,12 +251,6 @@
         "name": "Envenumb",
         "class": "Rogue",
         "previousKey": 13,
-        "currentKey": 16
-      },
-      {
-        "name": "Tinderhulk",
-        "class": "Death Knight",
-        "previousKey": 15,
         "currentKey": 16
       }
     ],
@@ -256,10 +264,18 @@
         "progression": "6/9 H"
       },
       {
+        "name": "Daloabeast",
+        "class": "Druid",
+        "spec": "Guardian",
+        "ilvl": 278,
+        "rio": 3405,
+        "progression": ""
+      },
+      {
         "name": "Corvexdk",
         "class": "Death Knight",
         "spec": "Unholy",
-        "ilvl": 282.8,
+        "ilvl": 282,
         "rio": 3352,
         "progression": "2/9 M"
       },
@@ -270,14 +286,22 @@
         "ilvl": 283.7,
         "rio": 3045,
         "progression": "3/9 M"
+      },
+      {
+        "name": "Taeyeonfine",
+        "class": "Priest",
+        "spec": "Discipline",
+        "ilvl": 275,
+        "rio": 3042,
+        "progression": "6/9 H"
       }
     ]
   },
   "summary": {
-    "totalRaiders": 30,
-    "rosterDelta": -7,
-    "avgRio": 3075,
-    "rioDelta": 56,
+    "totalRaiders": 37,
+    "rosterDelta": 0,
+    "avgRio": 3111,
+    "rioDelta": 92,
     "avgIlvl": 281.3,
     "ilvlDelta": 2.7,
     "avgMythicParse": 51,
@@ -287,8 +311,8 @@
     "highestKey": 18,
     "highestKeyPlayer": "Fartblaster",
     "highestKeyClass": "Shaman",
-    "enchantPct": 80,
-    "fullyEnchanted": 24,
+    "enchantPct": 84,
+    "fullyEnchanted": 31,
     "parseDistribution": {
       "pink": 2,
       "orange": 5,
@@ -296,6 +320,6 @@
       "blue": 28
     },
     "totalCategories": 10,
-    "totalHighlights": 34
+    "totalHighlights": 37
   }
 }
