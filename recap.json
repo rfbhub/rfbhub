@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-14T00:05:48.020Z",
-  "weekStart": "2026-05-07",
-  "weekEnd": "2026-05-14",
+  "generated": "2026-05-15T00:00:57.121Z",
+  "weekStart": "2026-05-08",
+  "weekEnd": "2026-05-15",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
@@ -17,30 +17,30 @@
       {
         "name": "Rukenji",
         "class": "Priest",
-        "previous": 3249,
+        "previous": 3278,
         "current": 3447,
-        "gain": 198
-      },
-      {
-        "name": "Fartblaster",
-        "class": "Shaman",
-        "previous": 3566,
-        "current": 3637,
-        "gain": 70
+        "gain": 169
       },
       {
         "name": "Torchfist",
         "class": "Monk",
         "previous": 3178,
-        "current": 3245,
-        "gain": 67
+        "current": 3260,
+        "gain": 82
+      },
+      {
+        "name": "Fartblaster",
+        "class": "Shaman",
+        "previous": 3580,
+        "current": 3655,
+        "gain": 74
       },
       {
         "name": "Blinkvoker",
         "class": "Evoker",
-        "previous": 3386,
-        "current": 3451,
-        "gain": 66
+        "previous": 3402,
+        "current": 3468,
+        "gain": 65
       }
     ],
     "parseSpotlight": [
@@ -49,7 +49,15 @@
         "class": "Death Knight",
         "difficulty": "Mythic",
         "previous": 13,
-        "current": 39,
+        "current": 46,
+        "gain": 33
+      },
+      {
+        "name": "Blimpi",
+        "class": "Warlock",
+        "difficulty": "Mythic",
+        "previous": 22,
+        "current": 48,
         "gain": 26
       },
       {
@@ -57,24 +65,44 @@
         "class": "Mage",
         "difficulty": "Mythic",
         "previous": 44,
+        "current": 63,
+        "gain": 19
+      },
+      {
+        "name": "Envenumb",
+        "class": "Rogue",
+        "difficulty": "Mythic",
+        "previous": 73,
+        "current": 89,
+        "gain": 16
+      },
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "difficulty": "Mythic",
+        "previous": 39,
         "current": 55,
-        "gain": 11
+        "gain": 16
+      }
+    ],
+    "newPinkParses": [
+      {
+        "name": "Fartblaster",
+        "class": "Shaman",
+        "boss": "Imperator Averzian",
+        "parse": 99,
+        "previousParse": 97,
+        "difficulty": "Mythic",
+        "dps": 139422
       },
       {
-        "name": "Felramor",
-        "class": "Demon Hunter",
+        "name": "Torchfist",
+        "class": "Monk",
+        "boss": "Imperator Averzian",
+        "parse": 99,
+        "previousParse": 98,
         "difficulty": "Mythic",
-        "previous": 22,
-        "current": 29,
-        "gain": 7
-      },
-      {
-        "name": "Blimpi",
-        "class": "Warlock",
-        "difficulty": "Mythic",
-        "previous": 22,
-        "current": 27,
-        "gain": 5
+        "dps": 195231
       }
     ],
     "newOrangeParses": [
@@ -95,6 +123,15 @@
         "previousParse": 93,
         "difficulty": "Mythic",
         "dps": 123190
+      },
+      {
+        "name": "Erther",
+        "class": "Hunter",
+        "boss": "Imperator Averzian",
+        "parse": 95,
+        "previousParse": 52,
+        "difficulty": "Mythic",
+        "dps": 118204
       }
     ],
     "mplusMilestones": [
@@ -104,23 +141,7 @@
         "milestone": "Keystone Myth",
         "threshold": 3400,
         "score": 3447,
-        "previousScore": 3249
-      },
-      {
-        "name": "Blinkvoker",
-        "class": "Evoker",
-        "milestone": "Keystone Myth",
-        "threshold": 3400,
-        "score": 3451,
-        "previousScore": 3386
-      },
-      {
-        "name": "Blimpi",
-        "class": "Warlock",
-        "milestone": "Keystone Legend",
-        "threshold": 3000,
-        "score": 3010,
-        "previousScore": 2970
+        "previousScore": 3278
       },
       {
         "name": "Envenumb",
@@ -136,56 +157,68 @@
         "name": "Nightboltz",
         "class": "Mage",
         "previous": "3/9 M",
+        "current": "5/9 M"
+      },
+      {
+        "name": "Blinkvoker",
+        "class": "Evoker",
+        "previous": "1/9 M",
+        "current": "5/9 M"
+      },
+      {
+        "name": "Corvexdk",
+        "class": "Death Knight",
+        "previous": "2/9 M",
         "current": "4/9 M"
       },
       {
         "name": "Banehate",
         "class": "Death Knight",
         "previous": "2/9 M",
-        "current": "3/9 M"
+        "current": "4/9 M"
       },
       {
-        "name": "Blinkvoker",
-        "class": "Evoker",
-        "previous": "1/9 M",
-        "current": "2/9 M"
+        "name": "Blimpi",
+        "class": "Warlock",
+        "previous": "3/9 M",
+        "current": "4/9 M"
       }
     ],
     "gearMovers": [
       {
+        "name": "Torchfist",
+        "class": "Monk",
+        "previous": 253,
+        "current": 287,
+        "gain": 34
+      },
+      {
+        "name": "Erther",
+        "class": "Hunter",
+        "previous": 282.6,
+        "current": 287,
+        "gain": 4.4
+      },
+      {
+        "name": "Nightboltz",
+        "class": "Mage",
+        "previous": 279,
+        "current": 283.3,
+        "gain": 4.3
+      },
+      {
         "name": "Devrak",
         "class": "Rogue",
-        "previous": 279,
-        "current": 283.2,
-        "gain": 4.2
+        "previous": 280,
+        "current": 284,
+        "gain": 4
       },
       {
         "name": "Blinkvoker",
         "class": "Evoker",
-        "previous": 282,
-        "current": 285.8,
-        "gain": 3.8
-      },
-      {
-        "name": "Kÿle",
-        "class": "Monk",
-        "previous": 283.1,
-        "current": 286.4,
-        "gain": 3.3
-      },
-      {
-        "name": "Torchfist",
-        "class": "Monk",
-        "previous": 283.9,
-        "current": 286.4,
-        "gain": 2.5
-      },
-      {
-        "name": "Lykra",
-        "class": "Druid",
-        "previous": 280.4,
-        "current": 282.8,
-        "gain": 2.4
+        "previous": 282.6,
+        "current": 286,
+        "gain": 3.4
       }
     ],
     "highKeyPushers": [
@@ -224,8 +257,8 @@
       {
         "name": "Neergoff",
         "class": "Monk",
-        "spec": "Mistweaver",
-        "ilvl": 282,
+        "spec": "Windwalker",
+        "ilvl": 280,
         "rio": 3564,
         "progression": "6/9 H"
       },
@@ -233,7 +266,7 @@
         "name": "Oulir",
         "class": "Druid",
         "spec": "Feral",
-        "ilvl": 282,
+        "ilvl": 283.2,
         "rio": 3484,
         "progression": "3/9 N"
       },
@@ -241,15 +274,15 @@
         "name": "Searingchi",
         "class": "Monk",
         "spec": "Brewmaster",
-        "ilvl": 283,
+        "ilvl": 285,
         "rio": 3443,
         "progression": "8/9 H"
       },
       {
         "name": "Daloabeast",
         "class": "Druid",
-        "spec": "Guardian",
-        "ilvl": 278.3,
+        "spec": "Feral",
+        "ilvl": 279,
         "rio": 3405,
         "progression": "5/9 H"
       },
@@ -265,7 +298,7 @@
         "name": "Radaamac",
         "class": "Shaman",
         "spec": "Elemental",
-        "ilvl": 281,
+        "ilvl": 281.5,
         "rio": 3102,
         "progression": "2/9 M"
       },
@@ -281,9 +314,9 @@
         "name": "Moiryn",
         "class": "Shaman",
         "spec": "Restoration",
-        "ilvl": 284.9,
-        "rio": 3045,
-        "progression": "3/9 M"
+        "ilvl": 285.2,
+        "rio": 3093,
+        "progression": "4/9 M"
       },
       {
         "name": "Taeyeonfine",
@@ -296,28 +329,28 @@
     ]
   },
   "summary": {
-    "totalRaiders": 36,
-    "rosterDelta": 8,
-    "avgRio": 3115,
-    "rioDelta": 88,
-    "avgIlvl": 282.1,
-    "ilvlDelta": 1.1,
-    "avgMythicParse": 51,
-    "parseDelta": 0,
+    "totalRaiders": 37,
+    "rosterDelta": 9,
+    "avgRio": 3114,
+    "rioDelta": 82,
+    "avgIlvl": 282.6,
+    "ilvlDelta": 2.7,
+    "avgMythicParse": 58,
+    "parseDelta": 7,
     "mythicRaidersCount": 28,
-    "totalMythicKills": 119,
+    "totalMythicKills": 128,
     "highestKey": 18,
     "highestKeyPlayer": "Fartblaster",
     "highestKeyClass": "Shaman",
-    "enchantPct": 86,
+    "enchantPct": 84,
     "fullyEnchanted": 31,
     "parseDistribution": {
-      "pink": 2,
-      "orange": 5,
-      "purple": 28,
-      "blue": 28
+      "pink": 4,
+      "orange": 4,
+      "purple": 39,
+      "blue": 32
     },
-    "totalCategories": 8,
-    "totalHighlights": 37
+    "totalCategories": 9,
+    "totalHighlights": 41
   }
 }
