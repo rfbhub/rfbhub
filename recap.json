@@ -1,46 +1,46 @@
 {
-  "generated": "2026-05-19T00:13:10.099Z",
-  "weekStart": "2026-05-12",
-  "weekEnd": "2026-05-19",
+  "generated": "2026-05-20T00:11:27.517Z",
+  "weekStart": "2026-05-13",
+  "weekEnd": "2026-05-20",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
   "categories": {
     "topClimbers": [
       {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "previous": 3045,
+        "current": 3461,
+        "gain": 416
+      },
+      {
         "name": "Neergoff",
         "class": "Monk",
         "previous": 3564,
-        "current": 3694,
-        "gain": 130
+        "current": 3713,
+        "gain": 149
       },
       {
         "name": "Hashmaker",
         "class": "Paladin",
         "previous": 3566,
-        "current": 3650,
-        "gain": 85
+        "current": 3678,
+        "gain": 112
       },
       {
-        "name": "Fartblaster",
+        "name": "Envenumb",
+        "class": "Rogue",
+        "previous": 3038,
+        "current": 3122,
+        "gain": 84
+      },
+      {
+        "name": "Radaamac",
         "class": "Shaman",
-        "previous": 3596,
-        "current": 3655,
-        "gain": 59
-      },
-      {
-        "name": "Erther",
-        "class": "Hunter",
-        "previous": 3015,
-        "current": 3049,
-        "gain": 35
-      },
-      {
-        "name": "Crackle",
-        "class": "Evoker",
-        "previous": 3011,
-        "current": 3043,
-        "gain": 32
+        "previous": 3102,
+        "current": 3185,
+        "gain": 84
       }
     ],
     "parseSpotlight": [
@@ -69,20 +69,20 @@
         "gain": 20
       },
       {
-        "name": "Corvexdk",
-        "class": "Death Knight",
-        "difficulty": "Mythic",
-        "previous": 26,
-        "current": 46,
-        "gain": 20
-      },
-      {
         "name": "Thinboi",
         "class": "Hunter",
         "difficulty": "Mythic",
         "previous": 56,
         "current": 74,
         "gain": 18
+      },
+      {
+        "name": "Envenumb",
+        "class": "Rogue",
+        "difficulty": "Mythic",
+        "previous": 73,
+        "current": 89,
+        "gain": 16
       }
     ],
     "newPinkParses": [
@@ -125,11 +125,27 @@
         "dps": 118204
       }
     ],
+    "mplusMilestones": [
+      {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "milestone": "Keystone Myth",
+        "threshold": 3400,
+        "score": 3461,
+        "previousScore": 3045
+      }
+    ],
     "progression": [
       {
         "name": "Nightboltz",
         "class": "Mage",
         "previous": "4/9 M",
+        "current": "5/9 M"
+      },
+      {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "previous": "3/9 M",
         "current": "5/9 M"
       },
       {
@@ -165,42 +181,48 @@
     ],
     "gearMovers": [
       {
-        "name": "Torchfist",
-        "class": "Monk",
-        "previous": 253,
-        "current": 287,
-        "gain": 34
-      },
-      {
         "name": "Nightboltz",
         "class": "Mage",
-        "previous": 279,
-        "current": 285,
+        "previous": 279.9,
+        "current": 285.9,
         "gain": 6
       },
       {
-        "name": "Crackle",
-        "class": "Evoker",
-        "previous": 279,
-        "current": 285,
-        "gain": 6
-      },
-      {
-        "name": "Erther",
-        "class": "Hunter",
-        "previous": 282,
-        "current": 287,
+        "name": "Devrak",
+        "class": "Rogue",
+        "previous": 281,
+        "current": 286,
         "gain": 5
       },
       {
-        "name": "Neergoff",
-        "class": "Monk",
-        "previous": 281.5,
-        "current": 285.8,
-        "gain": 4.3
+        "name": "Radaamac",
+        "class": "Shaman",
+        "previous": 281,
+        "current": 286,
+        "gain": 5
+      },
+      {
+        "name": "Envenumb",
+        "class": "Rogue",
+        "previous": 283.3,
+        "current": 288,
+        "gain": 4.7
+      },
+      {
+        "name": "Fartblaster",
+        "class": "Shaman",
+        "previous": 283,
+        "current": 287,
+        "gain": 4
       }
     ],
     "highKeyPushers": [
+      {
+        "name": "Hashmaker",
+        "class": "Paladin",
+        "previousKey": 18,
+        "currentKey": 19
+      },
       {
         "name": "Neergoff",
         "class": "Monk",
@@ -214,60 +236,36 @@
         "currentKey": 18
       },
       {
-        "name": "Crackle",
-        "class": "Evoker",
-        "previousKey": 13,
-        "currentKey": 14
+        "name": "Moiryn",
+        "class": "Shaman",
+        "previousKey": 14,
+        "currentKey": 17
       }
     ],
     "newFaces": [
       {
-        "name": "Oulir",
-        "class": "Druid",
-        "spec": "Feral",
-        "ilvl": 284,
-        "rio": 3510,
-        "progression": "3/9 N"
-      },
-      {
-        "name": "Moiryn",
-        "class": "Shaman",
-        "spec": "Restoration",
-        "ilvl": 285,
-        "rio": 3461,
+        "name": "Lovable",
+        "class": "Hunter",
+        "spec": "Beast Mastery",
+        "ilvl": 288.5,
+        "rio": 3524,
         "progression": "5/9 M"
       },
       {
-        "name": "Searingchi",
-        "class": "Monk",
-        "spec": "Brewmaster",
-        "ilvl": 285,
-        "rio": 3443,
-        "progression": "8/9 H"
-      },
-      {
-        "name": "Daloabeast",
+        "name": "Yildy",
         "class": "Druid",
-        "spec": "Guardian",
-        "ilvl": 279.6,
-        "rio": 3405,
-        "progression": "5/9 H"
+        "spec": "Balance",
+        "ilvl": 287,
+        "rio": 3387,
+        "progression": "5/9 M"
       },
       {
         "name": "Fatalockity",
         "class": "Warlock",
         "spec": "Demonology",
-        "ilvl": 286,
+        "ilvl": 286.7,
         "rio": 3291,
         "progression": "4/9 M"
-      },
-      {
-        "name": "Ziska",
-        "class": "Demon Hunter",
-        "spec": "Vengeance",
-        "ilvl": 280,
-        "rio": 3227,
-        "progression": "1/9 M"
       },
       {
         "name": "Onefingies",
@@ -278,62 +276,38 @@
         "progression": "1/9 H"
       },
       {
-        "name": "Radaamac",
-        "class": "Shaman",
-        "spec": "Elemental",
-        "ilvl": 285,
-        "rio": 3154,
-        "progression": "2/9 M"
-      },
-      {
-        "name": "Phokus",
-        "class": "Hunter",
-        "spec": "Survival",
-        "ilvl": 283,
-        "rio": 3103,
-        "progression": "7/9 H"
-      },
-      {
-        "name": "Taeyeonfine",
-        "class": "Priest",
-        "spec": "Discipline",
-        "ilvl": 275,
-        "rio": 3057,
-        "progression": "6/9 H"
-      },
-      {
         "name": "Cellt",
         "class": "Death Knight",
         "spec": "Unholy",
-        "ilvl": 274.9,
-        "rio": 3007,
+        "ilvl": 275.7,
+        "rio": 3067,
         "progression": "4/9 H"
       }
     ]
   },
   "summary": {
-    "totalRaiders": 28,
-    "rosterDelta": -1,
-    "avgRio": 3131,
-    "rioDelta": 59,
-    "avgIlvl": 282.9,
-    "ilvlDelta": 2.9,
+    "totalRaiders": 27,
+    "rosterDelta": -3,
+    "avgRio": 3115,
+    "rioDelta": 39,
+    "avgIlvl": 284.8,
+    "ilvlDelta": 3.3,
     "avgMythicParse": 60,
     "parseDelta": 9,
     "mythicRaidersCount": 26,
     "totalMythicKills": 124,
     "highestKey": 19,
-    "highestKeyPlayer": "Neergoff",
-    "highestKeyClass": "Monk",
-    "enchantPct": 82,
-    "fullyEnchanted": 23,
+    "highestKeyPlayer": "Hashmaker",
+    "highestKeyClass": "Paladin",
+    "enchantPct": 81,
+    "fullyEnchanted": 22,
     "parseDistribution": {
       "pink": 4,
       "orange": 5,
       "purple": 37,
       "blue": 35
     },
-    "totalCategories": 8,
-    "totalHighlights": 39
+    "totalCategories": 9,
+    "totalHighlights": 36
   }
 }
