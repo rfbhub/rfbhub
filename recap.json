@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-23T00:11:36.514Z",
+  "generated": "2026-05-24T00:01:25.299Z",
   "weekStart": "2026-05-16",
-  "weekEnd": "2026-05-23",
+  "weekEnd": "2026-05-24",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
@@ -29,18 +29,47 @@
         "gain": 372
       },
       {
+        "name": "Blimpi",
+        "class": "Warlock",
+        "previous": 3010,
+        "current": 3233,
+        "gain": 223
+      },
+      {
         "name": "Mangoseltzer",
         "class": "Mage",
         "previous": 3201,
         "current": 3313,
         "gain": 112
+      }
+    ],
+    "parseSpotlight": [
+      {
+        "name": "Envenumb",
+        "class": "Rogue",
+        "difficulty": "Mythic",
+        "previous": 89,
+        "current": 94,
+        "gain": 5
       },
       {
-        "name": "Neergoff",
-        "class": "Monk",
-        "previous": 3603,
-        "current": 3713,
-        "gain": 110
+        "name": "Gazmira",
+        "class": "Evoker",
+        "difficulty": "Mythic",
+        "previous": 54,
+        "current": 59,
+        "gain": 5
+      }
+    ],
+    "newPinkParses": [
+      {
+        "name": "Envenumb",
+        "class": "Rogue",
+        "boss": "Chimaerus, the Undreamt God",
+        "parse": 99,
+        "previousParse": 77,
+        "difficulty": "Mythic",
+        "dps": 130170
       }
     ],
     "mplusMilestones": [
@@ -63,6 +92,12 @@
     ],
     "progression": [
       {
+        "name": "Líthorian",
+        "class": "Death Knight",
+        "previous": "0/9 M",
+        "current": "1/9 M"
+      },
+      {
         "name": "Phokus",
         "class": "Hunter",
         "previous": "0/9 M",
@@ -78,6 +113,20 @@
         "gain": 5
       },
       {
+        "name": "Daloabeast",
+        "class": "Druid",
+        "previous": 279,
+        "current": 283.5,
+        "gain": 4.5
+      },
+      {
+        "name": "Líthorian",
+        "class": "Death Knight",
+        "previous": 280,
+        "current": 284,
+        "gain": 4
+      },
+      {
         "name": "Lykra",
         "class": "Druid",
         "previous": 282,
@@ -85,25 +134,11 @@
         "gain": 4
       },
       {
-        "name": "Daloabeast",
-        "class": "Druid",
-        "previous": 279,
-        "current": 283,
+        "name": "Blimpi",
+        "class": "Warlock",
+        "previous": 285,
+        "current": 289,
         "gain": 4
-      },
-      {
-        "name": "Hashmaker",
-        "class": "Paladin",
-        "previous": 287,
-        "current": 290.8,
-        "gain": 3.8
-      },
-      {
-        "name": "Gazmira",
-        "class": "Evoker",
-        "previous": 277,
-        "current": 280.8,
-        "gain": 3.8
       }
     ],
     "highKeyPushers": [
@@ -143,15 +178,15 @@
         "name": "Yildy",
         "class": "Druid",
         "spec": "Balance",
-        "ilvl": 288.3,
-        "rio": 3445,
+        "ilvl": 288,
+        "rio": 3565,
         "progression": "5/9 M"
       },
       {
         "name": "Fatalockity",
         "class": "Warlock",
         "spec": "Demonology",
-        "ilvl": 289.1,
+        "ilvl": 289,
         "rio": 3291,
         "progression": "4/9 M"
       },
@@ -174,28 +209,28 @@
     ]
   },
   "summary": {
-    "totalRaiders": 27,
-    "rosterDelta": -3,
-    "avgRio": 3186,
-    "rioDelta": 101,
-    "avgIlvl": 284.8,
-    "ilvlDelta": 1.1,
+    "totalRaiders": 26,
+    "rosterDelta": -4,
+    "avgRio": 3198,
+    "rioDelta": 113,
+    "avgIlvl": 286.1,
+    "ilvlDelta": 2.4,
     "avgMythicParse": 62,
     "parseDelta": 3,
-    "mythicRaidersCount": 26,
-    "totalMythicKills": 126,
+    "mythicRaidersCount": 27,
+    "totalMythicKills": 127,
     "highestKey": 19,
     "highestKeyPlayer": "Hashmaker",
     "highestKeyClass": "Paladin",
-    "enchantPct": 89,
+    "enchantPct": 92,
     "fullyEnchanted": 24,
     "parseDistribution": {
-      "pink": 4,
+      "pink": 5,
       "orange": 5,
       "purple": 41,
-      "blue": 36
+      "blue": 37
     },
-    "totalCategories": 6,
-    "totalHighlights": 22
+    "totalCategories": 8,
+    "totalHighlights": 26
   }
 }
