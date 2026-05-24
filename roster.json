@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24T01:28:05.609Z",
+  "updated": "2026-05-24T05:34:59.907Z",
   "rosterCount": 27,
   "mplusCount": 12,
   "guild": {
@@ -16,19 +16,19 @@
     "raid_rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 7608,
+          "world": 7609,
           "region": 3324,
           "realm": 225
         },
         "heroic": {
-          "world": 10277,
-          "region": 4744,
-          "realm": 341
+          "world": 10308,
+          "region": 4773,
+          "realm": 343
         },
         "mythic": {
-          "world": 2995,
-          "region": 976,
-          "realm": 68
+          "world": 3000,
+          "region": 978,
+          "realm": 69
         }
       }
     },
@@ -2451,7 +2451,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/emerald-dream/129/202727041-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Emerald Dream",
-      "last_crawled_at": "2026-05-22T23:27:47.000Z",
+      "last_crawled_at": "2026-05-24T05:12:14.000Z",
       "profile_url": "https://raider.io/characters/us/emerald-dream/Fartblaster",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -2938,10 +2938,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-22T05:50:16.890Z",
-        "updated_at": "2026-05-22T05:50:16.890Z",
-        "source": "s3",
-        "item_level_equipped": 287,
+        "created_at": "2026-05-24T05:28:31.000Z",
+        "updated_at": "2026-05-24T05:28:31.000Z",
+        "source": "db",
+        "item_level_equipped": 287.062,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3503,7 +3503,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              6498
             ],
             "enchants_detail": [
               {
@@ -5159,8 +5160,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-24T01:14:44.000Z",
-        "updated_at": "2026-05-24T01:14:44.000Z",
+        "created_at": "2026-05-24T01:00:27.000Z",
+        "updated_at": "2026-05-24T01:00:27.000Z",
         "source": "db",
         "item_level_equipped": 290.75,
         "item_level_total": 0,
@@ -8004,27 +8005,27 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3520.3,
+            "all": 3544.5,
             "dps": 2584.1,
-            "healer": 3520.3,
+            "healer": 3544.5,
             "tank": 0,
             "spec_0": 2584.1,
             "spec_1": 0,
-            "spec_2": 3520.3,
+            "spec_2": 3544.5,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3520.3,
-              "color": "#c442c6"
+              "score": 3544.5,
+              "color": "#c744c0"
             },
             "dps": {
               "score": 2584.1,
               "color": "#5dc97b"
             },
             "healer": {
-              "score": 3520.3,
-              "color": "#c442c6"
+              "score": 3544.5,
+              "color": "#c744c0"
             },
             "tank": {
               "score": 0,
@@ -8039,8 +8040,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3520.3,
-              "color": "#c442c6"
+              "score": 3544.5,
+              "color": "#c744c0"
             },
             "spec_3": {
               "score": 0,
@@ -8050,6 +8051,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "mythic_level": 18,
+          "completed_at": "2026-05-24T04:10:48.000Z",
+          "clear_time_ms": 1736331,
+          "keystone_run_id": 29353169,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 556,
+          "zone_id": 4813,
+          "zone_expansion_id": 2,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
+          "score": 456.3,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29353169-18-pit-of-saron",
+          "spec": {
+            "id": 264,
+            "name": "Restoration",
+            "slug": "restoration",
+            "class_id": 7,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "healer"
+        },
         {
           "dungeon": "Windrunner Spire",
           "short_name": "WS",
@@ -8375,60 +8430,6 @@
           "role": "healer"
         },
         {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "mythic_level": 16,
-          "completed_at": "2026-05-17T21:07:13.000Z",
-          "clear_time_ms": 1457498,
-          "keystone_run_id": 26975568,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 556,
-          "zone_id": 4813,
-          "zone_expansion_id": 2,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 432.2,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26975568-16-pit-of-saron",
-          "spec": {
-            "id": 264,
-            "name": "Restoration",
-            "slug": "restoration",
-            "class_id": 7,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "healer"
-        },
-        {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
           "mythic_level": 16,
@@ -8484,10 +8485,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-22T23:27:49.021Z",
-        "updated_at": "2026-05-22T23:27:49.021Z",
-        "source": "s3",
-        "item_level_equipped": 286,
+        "created_at": "2026-05-24T04:02:33.000Z",
+        "updated_at": "2026-05-24T04:02:33.000Z",
+        "source": "db",
+        "item_level_equipped": 286.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9008,7 +9009,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              6498
             ],
             "enchants_detail": [
               {
@@ -10141,7 +10143,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/malganis/24/237251096-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
       "region": "us",
       "realm": "Mal'Ganis",
-      "last_crawled_at": "2026-05-23T14:59:11.000Z",
+      "last_crawled_at": "2026-05-24T04:51:31.000Z",
       "profile_url": "https://raider.io/characters/us/malganis/Líthorian",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -10628,10 +10630,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-23T14:59:11.391Z",
-        "updated_at": "2026-05-23T14:59:11.391Z",
-        "source": "s3",
-        "item_level_equipped": 284,
+        "created_at": "2026-05-24T05:14:41.000Z",
+        "updated_at": "2026-05-24T05:14:41.000Z",
+        "source": "db",
+        "item_level_equipped": 284.625,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -10989,7 +10991,7 @@
           },
           "feet": {
             "item_id": 249381,
-            "item_level": 276,
+            "item_level": 279,
             "enchant": 8019,
             "icon": "inv_boot_plate_raidwarriormidnight_d_01",
             "name": "Greaves of the Unformed",
@@ -11019,7 +11021,7 @@
               6652,
               13577,
               13335,
-              12802
+              12803
             ]
           },
           "finger1": {
@@ -11136,7 +11138,7 @@
           },
           "trinket2": {
             "item_id": 193701,
-            "item_level": 285,
+            "item_level": 289,
             "icon": "inv_misc_enggizmos_18",
             "name": "Algeth'ar Puzzle Box",
             "item_quality": 4,
@@ -11157,7 +11159,7 @@
               13440,
               41,
               12699,
-              12805
+              12806
             ]
           },
           "mainhand": {
@@ -11179,7 +11181,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245
+              6245,
+              8052
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -21049,7 +21052,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/254/257766654-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-05-23T23:30:36.000Z",
+      "last_crawled_at": "2026-05-24T05:20:56.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Blimpi",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -21536,10 +21539,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-24T01:12:34.000Z",
-        "updated_at": "2026-05-24T01:12:34.000Z",
-        "source": "db",
-        "item_level_equipped": 289.125,
+        "created_at": "2026-05-23T04:25:31.794Z",
+        "updated_at": "2026-05-23T04:25:31.794Z",
+        "source": "s3",
+        "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22174,29 +22177,29 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/213/247038165-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-05-23T21:21:13.000Z",
+      "last_crawled_at": "2026-05-24T05:20:56.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Devrak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3568,
-            "dps": 3568,
+            "all": 3577.4,
+            "dps": 3577.4,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 3568,
+            "spec_1": 3577.4,
             "spec_2": 244.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3568,
+              "score": 3577.4,
               "color": "#cb47bb"
             },
             "dps": {
-              "score": 3568,
+              "score": 3577.4,
               "color": "#cb47bb"
             },
             "healer": {
@@ -22212,7 +22215,7 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3568,
+              "score": 3577.4,
               "color": "#cb47bb"
             },
             "spec_2": {
@@ -22284,10 +22287,10 @@
         {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
-          "mythic_level": 17,
-          "completed_at": "2026-05-16T18:32:12.000Z",
-          "clear_time_ms": 1467685,
-          "keystone_run_id": 26471828,
+          "mythic_level": 18,
+          "completed_at": "2026-05-24T04:10:48.000Z",
+          "clear_time_ms": 1736331,
+          "keystone_run_id": 29353169,
           "par_time_ms": 1800999,
           "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 556,
@@ -22295,16 +22298,8 @@
           "zone_expansion_id": 2,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 446.9,
+          "score": 456.3,
           "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
             {
               "id": 10,
               "name": "Fortified",
@@ -22312,6 +22307,14 @@
               "icon": "ability_toughness",
               "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
               "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
             },
             {
               "id": 147,
@@ -22322,7 +22325,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/26471828-17-pit-of-saron",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29353169-18-pit-of-saron",
           "spec": {
             "id": 260,
             "name": "Outlaw",
@@ -22661,8 +22664,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-24T00:29:22.000Z",
-        "updated_at": "2026-05-24T00:29:22.000Z",
+        "created_at": "2026-05-24T05:28:31.000Z",
+        "updated_at": "2026-05-24T05:28:31.000Z",
         "source": "db",
         "item_level_equipped": 289.125,
         "item_level_total": 0,
@@ -23048,11 +23051,11 @@
             ]
           },
           "feet": {
-            "item_id": 249334,
+            "item_id": 250008,
             "item_level": 289,
             "enchant": 7993,
-            "icon": "inv_boot_leather_raiddemonhuntermidnight_d_01",
-            "name": "Void-Claimed Shinkickers",
+            "icon": "inv_boot_leather_raidroguemidnight_d_01",
+            "name": "Balancing Boots of the Grim Jest",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -23076,10 +23079,10 @@
               }
             ],
             "bonuses": [
+              12806,
               6652,
-              13577,
               13335,
-              12806
+              3174
             ]
           },
           "finger1": {
@@ -33250,30 +33253,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/185/260003769-avatar.jpg?alt=/wow/static/images/2d/avatar/25-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-05-22T23:27:48.000Z",
+      "last_crawled_at": "2026-05-24T01:57:43.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellt",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3197.7,
-            "dps": 3197.7,
+            "all": 3289,
+            "dps": 3289,
             "healer": 0,
             "tank": 561.5,
             "spec_0": 561.5,
             "spec_1": 512.3,
-            "spec_2": 3197.7,
+            "spec_2": 3289,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3197.7,
-              "color": "#715be5"
+              "score": 3289,
+              "color": "#8c4bea"
             },
             "dps": {
-              "score": 3197.7,
-              "color": "#715be5"
+              "score": 3289,
+              "color": "#8c4bea"
             },
             "healer": {
               "score": 0,
@@ -33292,8 +33295,8 @@
               "color": "#ebffe3"
             },
             "spec_2": {
-              "score": 3197.7,
-              "color": "#715be5"
+              "score": 3289,
+              "color": "#8c4bea"
             },
             "spec_3": {
               "score": 0,
@@ -33303,6 +33306,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "mythic_level": 18,
+          "completed_at": "2026-05-24T04:10:48.000Z",
+          "clear_time_ms": 1736331,
+          "keystone_run_id": 29353169,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 556,
+          "zone_id": 4813,
+          "zone_expansion_id": 2,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
+          "score": 456.3,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29353169-18-pit-of-saron",
+          "spec": {
+            "id": 252,
+            "name": "Unholy",
+            "slug": "unholy",
+            "class_id": 6,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "3.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
@@ -33412,6 +33469,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "mythic_level": 15,
+          "completed_at": "2026-05-24T01:49:45.000Z",
+          "clear_time_ms": 1629883,
+          "keystone_run_id": 29330575,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 239,
+          "zone_id": 8910,
+          "zone_expansion_id": 6,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
+          "score": 417.6,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29330575-15-seat-of-the-triumvirate",
+          "spec": {
+            "id": 252,
+            "name": "Unholy",
+            "slug": "unholy",
+            "class_id": 6,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "3.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Windrunner Spire",
           "short_name": "WS",
           "mythic_level": 14,
@@ -33507,114 +33618,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/28093845-14-skyreach",
-          "spec": {
-            "id": 252,
-            "name": "Unholy",
-            "slug": "unholy",
-            "class_id": 6,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "3.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "mythic_level": 14,
-          "completed_at": "2026-05-22T19:53:20.000Z",
-          "clear_time_ms": 1934137,
-          "keystone_run_id": 28801788,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 239,
-          "zone_id": 8910,
-          "zone_expansion_id": 6,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
-          "score": 397,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/28801788-14-seat-of-the-triumvirate",
-          "spec": {
-            "id": 252,
-            "name": "Unholy",
-            "slug": "unholy",
-            "class_id": 6,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "3.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "mythic_level": 13,
-          "completed_at": "2026-05-14T04:25:12.000Z",
-          "clear_time_ms": 1531975,
-          "keystone_run_id": 25347901,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 556,
-          "zone_id": 4813,
-          "zone_expansion_id": 2,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 385.6,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25347901-13-pit-of-saron",
           "spec": {
             "id": 252,
             "name": "Unholy",
@@ -33737,10 +33740,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-24T01:12:34.000Z",
-        "updated_at": "2026-05-24T01:12:34.000Z",
+        "created_at": "2026-05-24T03:44:08.000Z",
+        "updated_at": "2026-05-24T03:44:08.000Z",
         "source": "db",
-        "item_level_equipped": 279.938,
+        "item_level_equipped": 281.375,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -33873,7 +33876,7 @@
           },
           "shoulder": {
             "item_id": 249968,
-            "item_level": 276,
+            "item_level": 279,
             "enchant": 8001,
             "icon": "inv_plate_raiddeathknightmidnight_d_01_shoulder",
             "name": "Relentless Rider's Dreadthorns",
@@ -33905,7 +33908,7 @@
               13440,
               6652,
               13574,
-              12802
+              12803
             ]
           },
           "back": {
@@ -34274,7 +34277,7 @@
           },
           "mainhand": {
             "item_id": 237846,
-            "item_level": 285,
+            "item_level": 295,
             "enchant": 6245,
             "icon": "inv_sword_2h_questbloodelf_b_01",
             "name": "Blood Knight's Warblade",
@@ -34297,7 +34300,7 @@
             "enchants_detail": [],
             "bonuses": [
               12214,
-              13667,
+              13655,
               12497,
               12066,
               12693,
@@ -36402,7 +36405,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/248/246818552-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-05-23T19:35:06.000Z",
+      "last_crawled_at": "2026-05-24T05:20:58.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Daloabeast",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -36889,10 +36892,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-24T01:08:41.000Z",
-        "updated_at": "2026-05-24T01:08:41.000Z",
-        "source": "db",
-        "item_level_equipped": 284.75,
+        "created_at": "2026-05-24T05:20:58.266Z",
+        "updated_at": "2026-05-24T05:20:58.266Z",
+        "source": "s3",
+        "item_level_equipped": 284,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -42011,30 +42014,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/188/245843388-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-05-22T23:27:47.000Z",
+      "last_crawled_at": "2026-05-24T05:28:36.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Billybeamin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3160.4,
-            "dps": 3160.4,
+            "all": 3184,
+            "dps": 3184,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3160.4,
+            "spec_2": 3184,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3160.4,
-              "color": "#5c63e3"
+              "score": 3184,
+              "color": "#675fe4"
             },
             "dps": {
-              "score": 3160.4,
-              "color": "#5c63e3"
+              "score": 3184,
+              "color": "#675fe4"
             },
             "healer": {
               "score": 0,
@@ -42053,8 +42056,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3160.4,
-              "color": "#5c63e3"
+              "score": 3184,
+              "color": "#675fe4"
             },
             "spec_3": {
               "score": 0,
@@ -42067,18 +42070,18 @@
         {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
-          "mythic_level": 16,
-          "completed_at": "2026-05-22T03:53:44.000Z",
-          "clear_time_ms": 1425991,
-          "keystone_run_id": 28621779,
+          "mythic_level": 18,
+          "completed_at": "2026-05-24T04:10:48.000Z",
+          "clear_time_ms": 1736331,
+          "keystone_run_id": 29353169,
           "par_time_ms": 1800999,
-          "num_keystone_upgrades": 2,
+          "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 556,
           "zone_id": 4813,
           "zone_expansion_id": 2,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 432.8,
+          "score": 456.3,
           "affixes": [
             {
               "id": 10,
@@ -42105,7 +42108,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/28621779-16-pit-of-saron",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/29353169-18-pit-of-saron",
           "spec": {
             "id": 1480,
             "name": "Devourer",
@@ -42498,10 +42501,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-22T10:53:52.382Z",
-        "updated_at": "2026-05-22T10:53:52.382Z",
+        "created_at": "2026-05-24T05:28:36.576Z",
+        "updated_at": "2026-05-24T05:28:36.576Z",
         "source": "s3",
-        "item_level_equipped": 279,
+        "item_level_equipped": 280,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -42514,7 +42517,7 @@
         "items": {
           "head": {
             "item_id": 250033,
-            "item_level": 276,
+            "item_level": 285,
             "enchant": 8017,
             "icon": "inv_helm_leather_raiddemonhuntermidnight_d_01",
             "name": "Devouring Reaver's Intake",
@@ -42593,7 +42596,7 @@
               13440,
               13338,
               13575,
-              12802
+              12805
             ]
           },
           "neck": {
@@ -43052,7 +43055,7 @@
           },
           "trinket2": {
             "item_id": 250257,
-            "item_level": 282,
+            "item_level": 298,
             "icon": "inv_misc_eye_03",
             "name": "Eye of the Drowning Void",
             "item_quality": 4,
@@ -43073,7 +43076,7 @@
               13440,
               6652,
               12699,
-              12804
+              13654
             ]
           },
           "mainhand": {
