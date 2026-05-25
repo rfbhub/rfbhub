@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-24T00:01:25.299Z",
-  "weekStart": "2026-05-16",
-  "weekEnd": "2026-05-24",
+  "generated": "2026-05-25T00:04:39.215Z",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-25",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
@@ -15,13 +15,6 @@
         "gain": 1203
       },
       {
-        "name": "Moiryn",
-        "class": "Shaman",
-        "previous": 3103,
-        "current": 3520,
-        "gain": 417
-      },
-      {
         "name": "Envenumb",
         "class": "Rogue",
         "previous": 3038,
@@ -32,8 +25,8 @@
         "name": "Blimpi",
         "class": "Warlock",
         "previous": 3010,
-        "current": 3233,
-        "gain": 223
+        "current": 3260,
+        "gain": 250
       },
       {
         "name": "Mangoseltzer",
@@ -41,6 +34,13 @@
         "previous": 3201,
         "current": 3313,
         "gain": 112
+      },
+      {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "previous": 3461,
+        "current": 3545,
+        "gain": 84
       }
     ],
     "parseSpotlight": [
@@ -74,14 +74,6 @@
     ],
     "mplusMilestones": [
       {
-        "name": "Moiryn",
-        "class": "Shaman",
-        "milestone": "Keystone Myth",
-        "threshold": 3400,
-        "score": 3520,
-        "previousScore": 3103
-      },
-      {
         "name": "Envenumb",
         "class": "Rogue",
         "milestone": "Keystone Myth",
@@ -102,29 +94,28 @@
         "class": "Hunter",
         "previous": "0/9 M",
         "current": "1/9 M"
-      }
-    ],
-    "gearMovers": [
-      {
-        "name": "Radaamac",
-        "class": "Shaman",
-        "previous": 283,
-        "current": 288,
-        "gain": 5
       },
       {
         "name": "Daloabeast",
         "class": "Druid",
-        "previous": 279,
-        "current": 283.5,
-        "gain": 4.5
-      },
+        "previous": "0/9 M",
+        "current": "1/9 M"
+      }
+    ],
+    "gearMovers": [
       {
         "name": "Líthorian",
         "class": "Death Knight",
         "previous": 280,
-        "current": 284,
-        "gain": 4
+        "current": 288,
+        "gain": 8
+      },
+      {
+        "name": "Daloabeast",
+        "class": "Druid",
+        "previous": 279.6,
+        "current": 285,
+        "gain": 5.4
       },
       {
         "name": "Lykra",
@@ -139,6 +130,13 @@
         "previous": 285,
         "current": 289,
         "gain": 4
+      },
+      {
+        "name": "Radaamac",
+        "class": "Shaman",
+        "previous": 284.8,
+        "current": 288,
+        "gain": 3.3
       }
     ],
     "highKeyPushers": [
@@ -155,15 +153,15 @@
         "currentKey": 19
       },
       {
-        "name": "Devrak",
-        "class": "Rogue",
+        "name": "Moiryn",
+        "class": "Shaman",
         "previousKey": 17,
         "currentKey": 18
       },
       {
-        "name": "Moiryn",
-        "class": "Shaman",
-        "previousKey": 15,
+        "name": "Torchfist",
+        "class": "Monk",
+        "previousKey": 16,
         "currentKey": 17
       },
       {
@@ -179,8 +177,16 @@
         "class": "Druid",
         "spec": "Balance",
         "ilvl": 288,
-        "rio": 3565,
+        "rio": 3599,
         "progression": "5/9 M"
+      },
+      {
+        "name": "Billybeamin",
+        "class": "Demon Hunter",
+        "spec": "Devourer",
+        "ilvl": 282,
+        "rio": 3293,
+        "progression": ""
       },
       {
         "name": "Fatalockity",
@@ -194,27 +200,27 @@
         "name": "Cellt",
         "class": "Death Knight",
         "spec": "Unholy",
-        "ilvl": 279,
-        "rio": 3163,
+        "ilvl": 281,
+        "rio": 3289,
         "progression": "5/9 H"
       },
       {
-        "name": "Billybeamin",
-        "class": "Demon Hunter",
-        "spec": "Devourer",
+        "name": "Hashmakr",
+        "class": "Paladin",
+        "spec": "Retribution",
         "ilvl": 279,
-        "rio": 3160,
+        "rio": 3220,
         "progression": ""
       }
     ]
   },
   "summary": {
-    "totalRaiders": 26,
-    "rosterDelta": -4,
-    "avgRio": 3198,
-    "rioDelta": 113,
-    "avgIlvl": 286.1,
-    "ilvlDelta": 2.4,
+    "totalRaiders": 27,
+    "rosterDelta": -3,
+    "avgRio": 3210,
+    "rioDelta": 109,
+    "avgIlvl": 283.4,
+    "ilvlDelta": -0.4,
     "avgMythicParse": 62,
     "parseDelta": 3,
     "mythicRaidersCount": 27,
@@ -222,8 +228,8 @@
     "highestKey": 19,
     "highestKeyPlayer": "Hashmaker",
     "highestKeyClass": "Paladin",
-    "enchantPct": 92,
-    "fullyEnchanted": 24,
+    "enchantPct": 93,
+    "fullyEnchanted": 25,
     "parseDistribution": {
       "pink": 5,
       "orange": 5,
@@ -231,6 +237,6 @@
       "blue": 37
     },
     "totalCategories": 8,
-    "totalHighlights": 26
+    "totalHighlights": 27
   }
 }
