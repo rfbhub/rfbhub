@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T22:15:12.807Z",
+  "updated": "2026-05-27T23:42:07.484Z",
   "rosterCount": 27,
   "mplusCount": 13,
   "guild": {
@@ -21,12 +21,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 10654,
-          "region": 4915,
+          "world": 10655,
+          "region": 4916,
           "realm": 359
         },
         "mythic": {
-          "world": 3225,
+          "world": 3226,
           "region": 1018,
           "realm": 72
         }
@@ -5788,11 +5788,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 3000,
+      "achievement_points": 3005,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/164/237076132-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-05-27T20:17:05.000Z",
+      "last_crawled_at": "2026-05-27T22:30:55.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Mangoseltzer",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -22633,10 +22633,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-27T00:53:59.284Z",
-        "updated_at": "2026-05-27T00:53:59.284Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-05-27T23:34:43.000Z",
+        "updated_at": "2026-05-27T23:34:43.000Z",
+        "source": "db",
+        "item_level_equipped": 289.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22867,10 +22867,10 @@
             ]
           },
           "waist": {
-            "item_id": 249374,
+            "item_id": 49806,
             "item_level": 289,
-            "icon": "inv_belt_leather_raidmonkmidnight_d_01",
-            "name": "Scorn-Scarred Shul'ka's Belt",
+            "icon": "inv_belt_65",
+            "name": "Flayer's Black Belt",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -22881,15 +22881,24 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240916
+            ],
+            "gems_detail": [
+              {
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
+              }
+            ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              12667,
+              13440,
+              43,
+              13534,
               13577,
-              13335,
+              12699,
               12806
             ]
           },
@@ -23137,6 +23146,31 @@
             ]
           },
           "trinket1": {
+            "item_id": 249343,
+            "item_level": 298,
+            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
+            "name": "Gaze of the Alnseer",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              6652,
+              13335,
+              13654
+            ]
+          },
+          "trinket2": {
             "item_id": 252420,
             "item_level": 285,
             "icon": "inv_enchant_shardbrilliantlarge",
@@ -23162,31 +23196,6 @@
               13653
             ]
           },
-          "trinket2": {
-            "item_id": 249343,
-            "item_level": 298,
-            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
-            "name": "Gaze of the Alnseer",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13335,
-              13654
-            ]
-          },
           "mainhand": {
             "item_id": 249287,
             "item_level": 298,
@@ -23206,7 +23215,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8051
             ],
             "enchants_detail": [
               {
@@ -23240,7 +23250,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8051
             ],
             "enchants_detail": [
               {
@@ -33721,10 +33732,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-27T02:43:50.908Z",
-        "updated_at": "2026-05-27T02:43:50.908Z",
-        "source": "s3",
-        "item_level_equipped": 284,
+        "created_at": "2026-05-27T23:34:43.000Z",
+        "updated_at": "2026-05-27T23:34:43.000Z",
+        "source": "db",
+        "item_level_equipped": 284.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -34266,7 +34277,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245
+              6245,
+              8051
             ],
             "enchants_detail": [],
             "bonuses": [
