@@ -66,7 +66,7 @@ const CONFIG = {
   // "open" = green RECRUITING, "selective" = yellow SELECTIVE, "closed" = red CLOSED
   // The card always shows regardless of status so visitors can see current state.
   recruitment: {
-    status: "open",                     // "open" | "selective" | "closed"
+    status: "closed",                     // "open" | "selective" | "closed"
     needs: "Exceptional Players",           // Short list of roles being recruited
     notes: "Mythic experience required",
     closedMessage: "Exceptional players are always welcome to apply",  // Shown when status is "closed"
