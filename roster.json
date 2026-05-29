@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-29T21:19:49.187Z",
+  "updated": "2026-05-29T22:47:39.844Z",
   "rosterCount": 27,
   "mplusCount": 14,
   "guild": {
@@ -21,7 +21,7 @@
           "realm": 225
         },
         "heroic": {
-          "world": 10846,
+          "world": 10847,
           "region": 5029,
           "realm": 367
         },
@@ -3574,15 +3574,15 @@
       "name": "Crackle",
       "race": "Dracthyr",
       "class": "Evoker",
-      "active_spec_name": "Augmentation",
-      "active_spec_role": "DPS",
+      "active_spec_name": "Preservation",
+      "active_spec_role": "HEALING",
       "gender": "female",
       "faction": "horde",
       "achievement_points": 29040,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/121/224562809-avatar.jpg?alt=/wow/static/images/2d/avatar/70-1.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-05-28T22:17:24.000Z",
+      "last_crawled_at": "2026-05-29T22:24:59.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Crackle",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -4069,10 +4069,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-29T02:46:58.000Z",
-        "updated_at": "2026-05-29T02:46:58.000Z",
+        "created_at": "2026-05-29T22:46:04.000Z",
+        "updated_at": "2026-05-29T22:46:04.000Z",
         "source": "db",
-        "item_level_equipped": 283.312,
+        "item_level_equipped": 283.875,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -4443,11 +4443,11 @@
             ]
           },
           "feet": {
-            "item_id": 193715,
-            "item_level": 276,
+            "item_id": 249999,
+            "item_level": 285,
             "enchant": 8019,
-            "icon": "inv_mail_dragondungeon_c_01_boot",
-            "name": "Boots of Explosive Growth",
+            "icon": "inv_boot_mail_raidevokermidnight_d_01",
+            "name": "Spelltreads of the Black Talon",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -4471,11 +4471,9 @@
               }
             ],
             "bonuses": [
-              13440,
               6652,
-              13577,
-              12699,
-              12798
+              13335,
+              12805
             ]
           },
           "finger1": {
@@ -4631,7 +4629,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -9583,8 +9582,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-29T21:19:25.000Z",
-        "updated_at": "2026-05-29T21:19:25.000Z",
+        "created_at": "2026-05-29T22:01:31.000Z",
+        "updated_at": "2026-05-29T22:01:31.000Z",
         "source": "db",
         "item_level_equipped": 289,
         "item_level_total": 0,
@@ -22200,22 +22199,22 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3646.6,
-            "dps": 3646.6,
+            "all": 3660.6,
+            "dps": 3660.6,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 3646.6,
+            "spec_1": 3660.6,
             "spec_2": 244.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3646.6,
+              "score": 3660.6,
               "color": "#cf49b3"
             },
             "dps": {
-              "score": 3646.6,
+              "score": 3660.6,
               "color": "#cf49b3"
             },
             "healer": {
@@ -22231,7 +22230,7 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3646.6,
+              "score": 3660.6,
               "color": "#cf49b3"
             },
             "spec_2": {
@@ -22342,6 +22341,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/26658275-18-seat-of-the-triumvirate",
+          "spec": {
+            "id": 260,
+            "name": "Outlaw",
+            "slug": "outlaw",
+            "class_id": 4,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "mythic_level": 18,
+          "completed_at": "2026-05-29T22:03:41.000Z",
+          "clear_time_ms": 1549556,
+          "keystone_run_id": 31324723,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 161,
+          "zone_id": 6988,
+          "zone_expansion_id": 5,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
+          "score": 457.9,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31324723-18-skyreach",
           "spec": {
             "id": 260,
             "name": "Outlaw",
@@ -22623,67 +22676,13 @@
             "ordinal": 1
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "mythic_level": 17,
-          "completed_at": "2026-05-26T22:54:48.000Z",
-          "clear_time_ms": 1506961,
-          "keystone_run_id": 30385695,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 161,
-          "zone_id": 6988,
-          "zone_expansion_id": 5,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
-          "score": 443.9,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30385695-17-skyreach",
-          "spec": {
-            "id": 260,
-            "name": "Outlaw",
-            "slug": "outlaw",
-            "class_id": 4,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-05-28T22:17:28.154Z",
-        "updated_at": "2026-05-28T22:17:28.154Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-05-29T21:51:18.000Z",
+        "updated_at": "2026-05-29T21:51:18.000Z",
+        "source": "db",
+        "item_level_equipped": 289.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -23262,7 +23261,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8051
             ],
             "enchants_detail": [
               {
@@ -23296,7 +23296,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8051
             ],
             "enchants_detail": [
               {
@@ -31571,8 +31572,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-29T17:38:55.000Z",
-        "updated_at": "2026-05-29T17:38:55.000Z",
+        "created_at": "2026-05-29T22:46:09.000Z",
+        "updated_at": "2026-05-29T22:46:09.000Z",
         "source": "db",
         "item_level_equipped": 289.125,
         "item_level_total": 0,
@@ -37055,8 +37056,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-29T21:19:25.000Z",
-        "updated_at": "2026-05-29T21:19:25.000Z",
+        "created_at": "2026-05-29T21:43:01.000Z",
+        "updated_at": "2026-05-29T21:43:01.000Z",
         "source": "db",
         "item_level_equipped": 288.875,
         "item_level_total": 0,
@@ -38682,23 +38683,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3056.5,
-            "dps": 3056.5,
+            "all": 3147.8,
+            "dps": 3147.8,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3056.5,
+            "spec_2": 3147.8,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3056.5,
-              "color": "#0070dd"
+              "score": 3147.8,
+              "color": "#5565e2"
             },
             "dps": {
-              "score": 3056.5,
-              "color": "#0070dd"
+              "score": 3147.8,
+              "color": "#5565e2"
             },
             "healer": {
               "score": 0,
@@ -38717,8 +38718,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3056.5,
-              "color": "#0070dd"
+              "score": 3147.8,
+              "color": "#5565e2"
             },
             "spec_3": {
               "score": 0,
@@ -38999,6 +39000,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "mythic_level": 12,
+          "completed_at": "2026-05-29T22:01:31.000Z",
+          "clear_time_ms": 1158304,
+          "keystone_run_id": 31324269,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 3,
+          "map_challenge_mode_id": 557,
+          "zone_id": 15808,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
+          "score": 380,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31324269-12-windrunner-spire",
+          "spec": {
+            "id": 64,
+            "name": "Frost",
+            "slug": "frost",
+            "class_id": 8,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
           "mythic_level": 12,
@@ -39053,66 +39108,12 @@
           "role": "dps"
         },
         {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "mythic_level": 10,
-          "completed_at": "2026-05-19T08:44:40.000Z",
-          "clear_time_ms": 1251173,
-          "keystone_run_id": 27496318,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 557,
-          "zone_id": 15808,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
-          "score": 333.8,
-          "affixes": [
-            {
-              "id": 148,
-              "name": "Xal'atath's Bargain: Ascendant",
-              "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-              "icon": "inv_nullstone_cosmicvoid",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_nullstone_cosmicvoid.jpg",
-              "wowhead_url": "https://wowhead.com/affix=148"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27496318-10-windrunner-spire",
-          "spec": {
-            "id": 64,
-            "name": "Frost",
-            "slug": "frost",
-            "class_id": 8,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Maisara Caverns",
           "short_name": "MC",
-          "mythic_level": 10,
-          "completed_at": "2026-05-19T01:10:01.000Z",
-          "clear_time_ms": 1403373,
-          "keystone_run_id": 27422658,
+          "mythic_level": 12,
+          "completed_at": "2026-05-29T21:32:35.000Z",
+          "clear_time_ms": 1395944,
+          "keystone_run_id": 31317423,
           "par_time_ms": 1980999,
           "num_keystone_upgrades": 2,
           "map_challenge_mode_id": 560,
@@ -39120,16 +39121,8 @@
           "zone_expansion_id": 11,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_maisarahills.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/maisara-caverns.jpg",
-          "score": 330.9,
+          "score": 376.1,
           "affixes": [
-            {
-              "id": 148,
-              "name": "Xal'atath's Bargain: Ascendant",
-              "description": "While in combat, Xal'atath rains down orbs of cosmic energy that empower enemies or players.",
-              "icon": "inv_nullstone_cosmicvoid",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_nullstone_cosmicvoid.jpg",
-              "wowhead_url": "https://wowhead.com/affix=148"
-            },
             {
               "id": 9,
               "name": "Tyrannical",
@@ -39145,9 +39138,17 @@
               "icon": "ability_toughness",
               "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
               "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/27422658-10-maisara-caverns",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31317423-12-maisara-caverns",
           "spec": {
             "id": 64,
             "name": "Frost",
@@ -39162,10 +39163,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-05-29T21:19:25.000Z",
-        "updated_at": "2026-05-29T21:19:25.000Z",
+        "created_at": "2026-05-29T22:36:30.000Z",
+        "updated_at": "2026-05-29T22:36:30.000Z",
         "source": "db",
-        "item_level_equipped": 276.75,
+        "item_level_equipped": 278.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -39389,7 +39390,7 @@
           },
           "waist": {
             "item_id": 260371,
-            "item_level": 269,
+            "item_level": 276,
             "icon": "inv_belt_cloth_raidwarlockmidnight_d_01",
             "name": "Infernal Greatlock Girdle",
             "item_quality": 4,
@@ -39412,7 +39413,7 @@
               13577,
               13334,
               10844,
-              12796
+              12798
             ]
           },
           "shirt": {
@@ -39497,8 +39498,8 @@
           },
           "legs": {
             "item_id": 250059,
-            "item_level": 263,
-            "enchant": 7934,
+            "item_level": 276,
+            "enchant": 7935,
             "icon": "inv_pant_cloth_raidmagemidnight_d_01",
             "name": "Voidbreaker's Britches",
             "item_quality": 4,
@@ -39515,21 +39516,21 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7934
+              7935
             ],
             "enchants_detail": [
               {
-                "id": 240094,
-                "name": "32 Int & 70 Sta",
+                "id": 240133,
+                "name": "41 Int & 115 Sta",
                 "icon": "inv_tailoring_spellthread_orange_spellthread"
               }
             ],
             "bonuses": [
-              13333,
-              13339,
               6652,
+              13440,
+              13339,
               13575,
-              12790
+              12802
             ]
           },
           "feet": {
@@ -39614,7 +39615,7 @@
           },
           "finger2": {
             "item_id": 193708,
-            "item_level": 276,
+            "item_level": 289,
             "enchant": 7967,
             "icon": "inv_10_dungeonjewelry_explorer_ring_1_color1",
             "name": "Platinum Star Band",
@@ -39653,7 +39654,7 @@
               6652,
               13668,
               12699,
-              12802
+              12806
             ]
           },
           "trinket1": {
