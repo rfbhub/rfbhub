@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-03T07:20:00.795Z",
+  "updated": "2026-06-03T12:17:37.368Z",
   "rosterCount": 27,
   "mplusCount": 17,
   "guild": {
@@ -23,18 +23,18 @@
     "raid_rankings": {
       "tier-mn-1": {
         "normal": {
-          "world": 7608,
+          "world": 7609,
           "region": 3323,
           "realm": 225
         },
         "heroic": {
-          "world": 11189,
-          "region": 5213,
+          "world": 11195,
+          "region": 5217,
           "realm": 380
         },
         "mythic": {
-          "world": 2829,
-          "region": 959,
+          "world": 2832,
+          "region": 960,
           "realm": 64
         }
       },
@@ -14707,7 +14707,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/49/200172081-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-06-02T17:04:38.000Z",
+      "last_crawled_at": "2026-06-03T09:21:04.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -15194,10 +15194,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-03T04:43:28.000Z",
-        "updated_at": "2026-06-03T04:43:28.000Z",
-        "source": "db",
-        "item_level_equipped": 289.812,
+        "created_at": "2026-06-03T09:21:04.962Z",
+        "updated_at": "2026-06-03T09:21:04.962Z",
+        "source": "s3",
+        "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15731,10 +15731,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 250144,
+            "item_id": 250256,
             "item_level": 298,
-            "icon": "inv_icon_feather06a",
-            "name": "Emberwing Feather",
+            "icon": "inv_10_jewelcrafting3_soulcage_air",
+            "name": "Heart of Wind",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15751,7 +15751,7 @@
             "enchants_detail": [],
             "bonuses": [
               13440,
-              42,
+              6652,
               12699,
               13654
             ]
@@ -15775,8 +15775,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              5401
+              8039
             ],
             "enchants_detail": [
               {
@@ -15811,8 +15810,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              5400
+              8039
             ],
             "enchants_detail": [
               {
@@ -42386,27 +42384,27 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3562.1,
+            "all": 3588.4,
             "dps": 2450.7,
-            "healer": 3562.1,
+            "healer": 3588.4,
             "tank": 1852.9,
             "spec_0": 1852.9,
-            "spec_1": 3562.1,
+            "spec_1": 3588.4,
             "spec_2": 2450.7,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3562.1,
-              "color": "#c040cc"
+              "score": 3588.4,
+              "color": "#c442c6"
             },
             "dps": {
               "score": 2450.7,
               "color": "#47eb4a"
             },
             "healer": {
-              "score": 3562.1,
-              "color": "#c040cc"
+              "score": 3588.4,
+              "color": "#c442c6"
             },
             "tank": {
               "score": 1852.9,
@@ -42417,8 +42415,8 @@
               "color": "#7cff60"
             },
             "spec_1": {
-              "score": 3562.1,
-              "color": "#c040cc"
+              "score": 3588.4,
+              "color": "#c442c6"
             },
             "spec_2": {
               "score": 2450.7,
@@ -42432,6 +42430,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "mythic_level": 18,
+          "completed_at": "2026-06-03T07:19:54.000Z",
+          "clear_time_ms": 1632745,
+          "keystone_run_id": 32696376,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 556,
+          "zone_id": 4813,
+          "zone_expansion_id": 2,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
+          "score": 458.5,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32696376-18-pit-of-saron",
+          "spec": {
+            "id": 270,
+            "name": "Mistweaver",
+            "slug": "mistweaver",
+            "class_id": 10,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "5.0.0",
+            "ordinal": 1
+          },
+          "role": "healer"
+        },
         {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
@@ -42809,65 +42861,11 @@
             "ordinal": 1
           },
           "role": "healer"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "mythic_level": 16,
-          "completed_at": "2026-05-14T04:04:18.000Z",
-          "clear_time_ms": 1459448,
-          "keystone_run_id": 25316094,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 556,
-          "zone_id": 4813,
-          "zone_expansion_id": 2,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 432.1,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/25316094-16-pit-of-saron",
-          "spec": {
-            "id": 270,
-            "name": "Mistweaver",
-            "slug": "mistweaver",
-            "class_id": 10,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "5.0.0",
-            "ordinal": 1
-          },
-          "role": "healer"
         }
       ],
       "gear": {
-        "created_at": "2026-06-03T06:54:10.000Z",
-        "updated_at": "2026-06-03T06:54:10.000Z",
+        "created_at": "2026-06-03T07:19:57.000Z",
+        "updated_at": "2026-06-03T07:19:57.000Z",
         "source": "db",
         "item_level_equipped": 287.312,
         "item_level_total": 0,
@@ -45715,7 +45713,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/188/245843388-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-03T04:20:57.000Z",
+      "last_crawled_at": "2026-06-03T09:02:10.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Billybeamin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -46202,9 +46200,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-03T04:23:15.000Z",
-        "updated_at": "2026-06-03T04:23:15.000Z",
-        "source": "db",
+        "created_at": "2026-06-03T04:20:57.970Z",
+        "updated_at": "2026-06-03T04:20:57.970Z",
+        "source": "s3",
         "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -46754,8 +46752,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -46790,8 +46787,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
-              8052
+              8041
             ],
             "enchants_detail": [
               {
