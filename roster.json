@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T21:58:52.213Z",
+  "updated": "2026-06-04T23:43:28.039Z",
   "rosterCount": 27,
   "mplusCount": 17,
   "guild": {
@@ -28,12 +28,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11311,
-          "region": 5251,
+          "world": 11316,
+          "region": 5252,
           "realm": 382
         },
         "mythic": {
-          "world": 2762,
+          "world": 2765,
           "region": 914,
           "realm": 62
         }
@@ -36972,7 +36972,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/87/233860951-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-06-03T19:08:56.000Z",
+      "last_crawled_at": "2026-06-04T23:27:12.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Searingchi",
       "profile_banner": "classbanner_monk1",
       "mythic_plus_scores_by_season": [
@@ -48050,7 +48050,7 @@
             "healer": 0,
             "tank": 0,
             "spec_0": 3113.3,
-            "spec_1": 952.9,
+            "spec_1": 963.1,
             "spec_2": 0,
             "spec_3": 0
           },
@@ -48076,7 +48076,7 @@
               "color": "#2a6dde"
             },
             "spec_1": {
-              "score": 952.9,
+              "score": 963.1,
               "color": "#cdffba"
             },
             "spec_2": {
@@ -48525,10 +48525,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-04T04:38:03.067Z",
-        "updated_at": "2026-06-04T04:38:03.067Z",
-        "source": "s3",
-        "item_level_equipped": 280,
+        "created_at": "2026-06-04T23:32:52.000Z",
+        "updated_at": "2026-06-04T23:32:52.000Z",
+        "source": "db",
+        "item_level_equipped": 282.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -48541,7 +48541,7 @@
         "items": {
           "head": {
             "item_id": 249952,
-            "item_level": 272,
+            "item_level": 282,
             "enchant": 8017,
             "icon": "inv_helm_plate_raidwarriormidnight_d_01",
             "name": "Night Ender's Tusks",
@@ -48549,7 +48549,17 @@
             "is_legendary": false,
             "is_azerite_armor": true,
             "azerite_powers": [
-              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
               {
                 "id": 580,
                 "spell": {
@@ -48607,11 +48617,10 @@
             "bonuses": [
               6652,
               12667,
-              12801,
               13440,
               13338,
               13575,
-              3157
+              12804
             ]
           },
           "neck": {
@@ -49076,10 +49085,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 252420,
-            "item_level": 285,
-            "icon": "inv_enchant_shardbrilliantlarge",
-            "name": "Solarflare Prism",
+            "item_id": 250258,
+            "item_level": 298,
+            "icon": "inv_misc_food_162_fish_90blue",
+            "name": "Vessel of Tortured Souls",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -49098,7 +49107,7 @@
               13440,
               6652,
               12699,
-              13653
+              13654
             ]
           },
           "mainhand": {
@@ -49120,12 +49129,49 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
                 "id": 243971,
                 "name": "Enchant Weapon - Jan'alai's Precision",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+              }
+            ],
+            "bonuses": [
+              13440,
+              6652,
+              12701,
+              13654
+            ]
+          },
+          "offhand": {
+            "item_id": 258046,
+            "item_level": 298,
+            "enchant": 7982,
+            "icon": "inv_sword_2h_draenordungeon_c_01",
+            "name": "Chakram-Breaker Greatsword",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              7982,
+              8052
+            ],
+            "enchants_detail": [
+              {
+                "id": 243972,
+                "name": "Enchant Weapon - Berserker's Rage",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
