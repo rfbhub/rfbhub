@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T04:53:46.779Z",
+  "updated": "2026-06-05T08:55:10.248Z",
   "rosterCount": 27,
   "mplusCount": 17,
   "guild": {
@@ -28,12 +28,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11355,
-          "region": 5285,
+          "world": 11360,
+          "region": 5289,
           "realm": 385
         },
         "mythic": {
-          "world": 2791,
+          "world": 2792,
           "region": 936,
           "realm": 64
         }
@@ -22432,7 +22432,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/213/247038165-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-05T02:40:34.000Z",
+      "last_crawled_at": "2026-06-05T06:43:40.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Devrak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -45764,29 +45764,29 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/188/245843388-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-05T00:52:41.000Z",
+      "last_crawled_at": "2026-06-05T06:43:40.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Billybeamin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3693.4,
-            "dps": 3693.4,
+            "all": 3705,
+            "dps": 3705,
             "healer": 0,
             "tank": 370.4,
             "spec_0": 0,
             "spec_1": 370.4,
-            "spec_2": 3693.4,
+            "spec_2": 3705,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3693.4,
+              "score": 3705,
               "color": "#d44daa"
             },
             "dps": {
-              "score": 3693.4,
+              "score": 3705,
               "color": "#d44daa"
             },
             "healer": {
@@ -45806,7 +45806,7 @@
               "color": "#f6fff1"
             },
             "spec_2": {
-              "score": 3693.4,
+              "score": 3705,
               "color": "#d44daa"
             },
             "spec_3": {
@@ -45872,6 +45872,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "mythic_level": 19,
+          "completed_at": "2026-06-05T05:37:43.000Z",
+          "clear_time_ms": 1727643,
+          "keystone_run_id": 33199117,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 556,
+          "zone_id": 4813,
+          "zone_expansion_id": 2,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
+          "score": 471.5,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33199117-19-pit-of-saron",
+          "spec": {
+            "id": 1480,
+            "name": "Devourer",
+            "slug": "devourer",
+            "class_id": 12,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "12.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Algeth'ar Academy",
           "short_name": "AA",
           "mythic_level": 19,
@@ -45913,60 +45967,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/32386273-19-algethar-academy",
-          "spec": {
-            "id": 1480,
-            "name": "Devourer",
-            "slug": "devourer",
-            "class_id": 12,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "12.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "mythic_level": 18,
-          "completed_at": "2026-06-01T05:43:42.000Z",
-          "clear_time_ms": 1561487,
-          "keystone_run_id": 32125537,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 556,
-          "zone_id": 4813,
-          "zone_expansion_id": 2,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 460,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32125537-18-pit-of-saron",
           "spec": {
             "id": 1480,
             "name": "Devourer",
@@ -46251,9 +46251,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-05T04:52:36.000Z",
-        "updated_at": "2026-06-05T04:52:36.000Z",
-        "source": "db",
+        "created_at": "2026-06-03T04:20:57.970Z",
+        "updated_at": "2026-06-03T04:20:57.970Z",
+        "source": "s3",
         "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -46803,8 +46803,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -46839,8 +46838,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
-              8052
+              8041
             ],
             "enchants_detail": [
               {
