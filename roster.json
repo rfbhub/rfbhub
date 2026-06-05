@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T21:53:54.371Z",
+  "updated": "2026-06-05T23:44:31.885Z",
   "rosterCount": 27,
   "mplusCount": 17,
   "guild": {
@@ -28,13 +28,13 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11391,
-          "region": 5300,
+          "world": 11392,
+          "region": 5301,
           "realm": 386
         },
         "mythic": {
-          "world": 2797,
-          "region": 936,
+          "world": 2798,
+          "region": 937,
           "realm": 64
         }
       },
@@ -5819,11 +5819,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 3015,
+      "achievement_points": 3020,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/164/237076132-avatar.jpg?alt=/wow/static/images/2d/avatar/26-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-06-03T19:09:03.000Z",
+      "last_crawled_at": "2026-06-05T22:23:31.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Mangoseltzer",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -6310,10 +6310,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-04T03:03:03.000Z",
-        "updated_at": "2026-06-04T03:03:03.000Z",
-        "source": "db",
-        "item_level_equipped": 289.688,
+        "created_at": "2026-06-02T01:30:51.328Z",
+        "updated_at": "2026-06-02T01:30:51.328Z",
+        "source": "s3",
+        "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -6904,8 +6904,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -11397,26 +11396,26 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3540.2,
+            "all": 3553.8,
             "dps": 2358,
-            "healer": 3525.2,
+            "healer": 3538.9,
             "tank": 0,
-            "spec_0": 3525.2,
+            "spec_0": 3538.9,
             "spec_1": 2801,
             "spec_2": 2358,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3540.2,
-              "color": "#bc3ed1"
+              "score": 3553.8,
+              "color": "#c040cc"
             },
             "dps": {
               "score": 2358,
               "color": "#28ff0e"
             },
             "healer": {
-              "score": 3525.2,
+              "score": 3538.9,
               "color": "#bc3ed1"
             },
             "tank": {
@@ -11424,7 +11423,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3525.2,
+              "score": 3538.9,
               "color": "#bc3ed1"
             },
             "spec_1": {
@@ -11660,6 +11659,60 @@
           "role": "healer"
         },
         {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "mythic_level": 17,
+          "completed_at": "2026-06-05T22:35:56.000Z",
+          "clear_time_ms": 1861397,
+          "keystone_run_id": 33399587,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 557,
+          "zone_id": 15808,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
+          "score": 442.3,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33399587-17-windrunner-spire",
+          "spec": {
+            "id": 256,
+            "name": "Discipline",
+            "slug": "discipline",
+            "class_id": 5,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "healer"
+        },
+        {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
           "mythic_level": 17,
@@ -11820,65 +11873,11 @@
             "ordinal": 0
           },
           "role": "healer"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "mythic_level": 16,
-          "completed_at": "2026-05-09T23:28:49.000Z",
-          "clear_time_ms": 1790124,
-          "keystone_run_id": 23728889,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 557,
-          "zone_id": 15808,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
-          "score": 428.6,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/23728889-16-windrunner-spire",
-          "spec": {
-            "id": 256,
-            "name": "Discipline",
-            "slug": "discipline",
-            "class_id": 5,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "healer"
         }
       ],
       "gear": {
-        "created_at": "2026-06-05T21:30:48.000Z",
-        "updated_at": "2026-06-05T21:30:48.000Z",
+        "created_at": "2026-06-05T22:24:42.000Z",
+        "updated_at": "2026-06-05T22:24:42.000Z",
         "source": "db",
         "item_level_equipped": 289.688,
         "item_level_total": 0,
@@ -14756,22 +14755,22 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3038.4,
-            "dps": 3038.4,
+            "all": 3041.9,
+            "dps": 3041.9,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 3038.4,
+            "spec_1": 3041.9,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3038.4,
+              "score": 3041.9,
               "color": "#2175d8"
             },
             "dps": {
-              "score": 3038.4,
+              "score": 3041.9,
               "color": "#2175d8"
             },
             "healer": {
@@ -14787,7 +14786,7 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3038.4,
+              "score": 3041.9,
               "color": "#2175d8"
             },
             "spec_2": {
@@ -15130,17 +15129,17 @@
           "dungeon": "Pit of Saron",
           "short_name": "POS",
           "mythic_level": 12,
-          "completed_at": "2026-06-03T22:30:10.000Z",
-          "clear_time_ms": 1483366,
-          "keystone_run_id": 32903494,
+          "completed_at": "2026-06-05T22:11:33.000Z",
+          "clear_time_ms": 1317510,
+          "keystone_run_id": 33394933,
           "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
+          "num_keystone_upgrades": 2,
           "map_challenge_mode_id": 556,
           "zone_id": 4813,
           "zone_expansion_id": 2,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 371.6,
+          "score": 375.1,
           "affixes": [
             {
               "id": 10,
@@ -15167,7 +15166,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/32903494-12-pit-of-saron",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33394933-12-pit-of-saron",
           "spec": {
             "id": 263,
             "name": "Enhancement",
@@ -15236,10 +15235,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-03T09:21:04.962Z",
-        "updated_at": "2026-06-03T09:21:04.962Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-06-05T22:11:33.000Z",
+        "updated_at": "2026-06-05T22:11:33.000Z",
+        "source": "db",
+        "item_level_equipped": 289.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15817,7 +15816,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              5401
             ],
             "enchants_detail": [
               {
@@ -15852,7 +15852,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              5400
             ],
             "enchants_detail": [
               {
@@ -38084,7 +38085,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/150/234002582-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-06-03T19:08:58.000Z",
+      "last_crawled_at": "2026-06-05T22:21:10.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmakr",
       "profile_banner": "",
       "use_animated_banner": false,
@@ -38092,23 +38093,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3557.4,
-            "dps": 3557.4,
+            "all": 3584.4,
+            "dps": 3584.4,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3557.4,
+            "spec_2": 3584.4,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3557.4,
-              "color": "#c040cc"
+              "score": 3584.4,
+              "color": "#c442c6"
             },
             "dps": {
-              "score": 3557.4,
-              "color": "#c040cc"
+              "score": 3584.4,
+              "color": "#c442c6"
             },
             "healer": {
               "score": 0,
@@ -38127,8 +38128,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3557.4,
-              "color": "#c040cc"
+              "score": 3584.4,
+              "color": "#c442c6"
             },
             "spec_3": {
               "score": 0,
@@ -38463,6 +38464,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Windrunner Spire",
+          "short_name": "WS",
+          "mythic_level": 17,
+          "completed_at": "2026-06-05T22:35:56.000Z",
+          "clear_time_ms": 1861397,
+          "keystone_run_id": 33399587,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 557,
+          "zone_id": 15808,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
+          "score": 442.3,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33399587-17-windrunner-spire",
+          "spec": {
+            "id": 70,
+            "name": "Retribution",
+            "slug": "retribution",
+            "class_id": 2,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
           "mythic_level": 16,
@@ -38515,67 +38570,13 @@
             "ordinal": 2
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Windrunner Spire",
-          "short_name": "WS",
-          "mythic_level": 15,
-          "completed_at": "2026-05-25T22:24:28.000Z",
-          "clear_time_ms": 1699668,
-          "keystone_run_id": 30060454,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 557,
-          "zone_id": 15808,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_windrunnerspire.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/windrunner-spire.jpg",
-          "score": 415.3,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/30060454-15-windrunner-spire",
-          "spec": {
-            "id": 70,
-            "name": "Retribution",
-            "slug": "retribution",
-            "class_id": 2,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-06-03T19:08:58.958Z",
-        "updated_at": "2026-06-03T19:08:58.958Z",
-        "source": "s3",
-        "item_level_equipped": 290,
+        "created_at": "2026-06-05T22:37:53.000Z",
+        "updated_at": "2026-06-05T22:37:53.000Z",
+        "source": "db",
+        "item_level_equipped": 290.5,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -39154,7 +39155,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -47406,8 +47408,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-05T21:50:52.000Z",
-        "updated_at": "2026-06-05T21:50:52.000Z",
+        "created_at": "2026-06-05T22:53:16.000Z",
+        "updated_at": "2026-06-05T22:53:16.000Z",
         "source": "db",
         "item_level_equipped": 289.438,
         "item_level_total": 0,
@@ -48043,7 +48045,7 @@
           "expansion_id": 11,
           "total_bosses": 9,
           "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 5,
+          "heroic_bosses_killed": 6,
           "mythic_bosses_killed": 1
         }
       },
@@ -48053,7 +48055,7 @@
       "name": "Cellte",
       "race": "Night Elf",
       "class": "Warrior",
-      "active_spec_name": "Fury",
+      "active_spec_name": "Arms",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
@@ -48061,7 +48063,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-05T02:40:36.000Z",
+      "last_crawled_at": "2026-06-05T22:45:30.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -48548,10 +48550,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-05T02:40:36.290Z",
-        "updated_at": "2026-06-05T02:40:36.290Z",
+        "created_at": "2026-06-05T22:45:30.583Z",
+        "updated_at": "2026-06-05T22:45:30.583Z",
         "source": "s3",
-        "item_level_equipped": 283,
+        "item_level_equipped": 282,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -48892,7 +48894,7 @@
           },
           "hands": {
             "item_id": 249953,
-            "item_level": 276,
+            "item_level": 279,
             "enchant": 2841,
             "icon": "inv_glove_plate_raidwarriormidnight_d_01",
             "name": "Night Ender's Fists",
@@ -48918,7 +48920,7 @@
               13440,
               13337,
               13574,
-              12802
+              12803
             ]
           },
           "legs": {
@@ -48959,10 +48961,11 @@
             ]
           },
           "feet": {
-            "item_id": 251169,
+            "item_id": 249954,
             "item_level": 276,
-            "icon": "inv_boot_plate_dungeonharronir_c_01",
-            "name": "Footwraps of Ill-Fate",
+            "enchant": 7963,
+            "icon": "inv_boot_plate_raidwarriormidnight_d_01",
+            "name": "Night Ender's Greatboots",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -48975,13 +48978,19 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              7963
+            ],
+            "enchants_detail": [
+              {
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
-              13440,
               6652,
-              13577,
-              12699,
+              13440,
               12798
             ]
           },
@@ -49031,11 +49040,11 @@
             ]
           },
           "finger2": {
-            "item_id": 251115,
+            "item_id": 49812,
             "item_level": 276,
             "enchant": 7967,
-            "icon": "inv_12_trinket_devouring_host_currency2_void",
-            "name": "Bifurcation Band",
+            "icon": "inv_jewelry_ring_42",
+            "name": "Purloined Wedding Ring",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -49047,13 +49056,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240900
+              240890
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
               }
             ],
             "enchants": [
@@ -49071,7 +49080,7 @@
               6652,
               13668,
               12699,
-              12798
+              12802
             ]
           },
           "trinket1": {
@@ -49100,10 +49109,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 250258,
-            "item_level": 298,
-            "icon": "inv_misc_food_162_fish_90blue",
-            "name": "Vessel of Tortured Souls",
+            "item_id": 252420,
+            "item_level": 285,
+            "icon": "inv_enchant_shardbrilliantlarge",
+            "name": "Solarflare Prism",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -49122,45 +49131,10 @@
               13440,
               6652,
               12699,
-              13654
+              13653
             ]
           },
           "mainhand": {
-            "item_id": 258046,
-            "item_level": 298,
-            "enchant": 7982,
-            "icon": "inv_sword_2h_draenordungeon_c_01",
-            "name": "Chakram-Breaker Greatsword",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              7982
-            ],
-            "enchants_detail": [
-              {
-                "id": 243972,
-                "name": "Enchant Weapon - Berserker's Rage",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              12701,
-              13654
-            ]
-          },
-          "offhand": {
             "item_id": 49802,
             "item_level": 298,
             "enchant": 7981,
