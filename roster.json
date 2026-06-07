@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07T16:49:43.728Z",
+  "updated": "2026-06-07T18:46:04.257Z",
   "rosterCount": 27,
   "mplusCount": 18,
   "guild": {
@@ -28,12 +28,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11483,
+          "world": 11492,
           "region": 5363,
           "realm": 390
         },
         "mythic": {
-          "world": 2838,
+          "world": 2846,
           "region": 948,
           "realm": 65
         }
@@ -9209,12 +9209,12 @@
           "season": "season-mn-1",
           "scores": {
             "all": 3684,
-            "dps": 3057.6,
+            "dps": 3063.2,
             "healer": 3203,
             "tank": 3684,
             "spec_0": 3684,
             "spec_1": 3203,
-            "spec_2": 3057.6,
+            "spec_2": 3063.2,
             "spec_3": 0
           },
           "segments": {
@@ -9223,7 +9223,7 @@
               "color": "#d14baf"
             },
             "dps": {
-              "score": 3057.6,
+              "score": 3063.2,
               "color": "#2175d8"
             },
             "healer": {
@@ -9243,7 +9243,7 @@
               "color": "#6361e4"
             },
             "spec_2": {
-              "score": 3057.6,
+              "score": 3063.2,
               "color": "#2175d8"
             },
             "spec_3": {
@@ -9688,10 +9688,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-05T02:40:40.662Z",
-        "updated_at": "2026-06-05T02:40:40.662Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-06-07T17:17:21.000Z",
+        "updated_at": "2026-06-07T17:17:21.000Z",
+        "source": "db",
+        "item_level_equipped": 288.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9862,10 +9862,10 @@
             ]
           },
           "back": {
-            "item_id": 249335,
+            "item_id": 260312,
             "item_level": 289,
-            "icon": "inv_plate_raiddeathknightmidnight_d_01_cape",
-            "name": "Imperator's Banner",
+            "icon": "inv_cape_plate_dungeonharronir_c_01",
+            "name": "Defiant Defender's Drape",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9881,9 +9881,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              13440,
               6652,
               13577,
-              13335,
+              12699,
               12806
             ]
           },
@@ -9925,10 +9926,10 @@
             ]
           },
           "waist": {
-            "item_id": 244573,
-            "item_level": 285,
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Utility Belt",
+            "item_id": 249374,
+            "item_level": 289,
+            "icon": "inv_belt_leather_raidmonkmidnight_d_01",
+            "name": "Scorn-Scarred Shul'ka's Belt",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9944,13 +9945,11 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8795,
-              13622,
-              12667
+              6652,
+              12667,
+              13577,
+              13335,
+              12806
             ]
           },
           "wrist": {
@@ -10008,48 +10007,11 @@
             ]
           },
           "legs": {
-            "item_id": 244574,
-            "item_level": 285,
-            "enchant": 8159,
-            "icon": "inv_pant_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Leggings",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8159
-            ],
-            "enchants_detail": [
-              {
-                "id": 244641,
-                "name": "41 Agi/Str & 115 Sta",
-                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
-              }
-            ],
-            "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8795,
-              13622
-            ]
-          },
-          "feet": {
-            "item_id": 151317,
+            "item_id": 250014,
             "item_level": 289,
-            "enchant": 7993,
-            "icon": "inv_boot_leather_legiondungeon_c_03",
-            "name": "Footpads of Seeping Dread",
+            "enchant": 7935,
+            "icon": "inv_pant_leather_raidmonkmidnight_d_01",
+            "name": "Swiftsweepers of Ra-den's Chosen",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10060,32 +10022,58 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7993
+              7935
             ],
             "enchants_detail": [
               {
-                "id": 243983,
-                "name": "Enchant Boots - Shaladrassil's Roots",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+                "id": 240133,
+                "name": "41 Int & 115 Sta",
+                "icon": "inv_tailoring_spellthread_orange_spellthread"
               }
             ],
             "bonuses": [
-              13440,
               6652,
-              13577,
-              12699,
+              13440,
+              13339,
+              13575,
               12806
             ]
           },
+          "feet": {
+            "item_id": 250017,
+            "item_level": 276,
+            "icon": "inv_boot_leather_raidmonkmidnight_d_01",
+            "name": "Storm Crashers of Ra-den's Chosen",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              6652,
+              13440,
+              12798
+            ]
+          },
           "finger1": {
-            "item_id": 249336,
-            "item_level": 289,
-            "enchant": 7967,
-            "icon": "inv_12_jewelry_devouringhost_ring_silver2",
-            "name": "Signet of the Starved Beast",
+            "item_id": 251115,
+            "item_level": 276,
+            "enchant": 8025,
+            "icon": "inv_12_trinket_devouring_host_currency2_void",
+            "name": "Bifurcation Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10097,30 +10085,31 @@
             },
             "domination_shards": [],
             "gems": [
-              240914
+              240891
             ],
             "gems_detail": [
               {
-                "id": 240914,
-                "name": "16 Vers & 7 Crit",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_blue"
+                "id": 240891,
+                "name": "14 Haste & 6 Mast",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
               }
             ],
             "enchants": [
-              7967
+              8025
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 244015,
+                "name": "Enchant Ring - Silvermoon's Alacrity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              41,
+              13440,
+              6652,
               13668,
-              13335,
-              12806
+              12699,
+              12798
             ]
           },
           "finger2": {
@@ -10194,10 +10183,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 249339,
+            "item_id": 193701,
             "item_level": 298,
-            "icon": "inv_12_trinket_raid_voidspire_tank1_smolderinggloomscale",
-            "name": "Gloom-Spattered Dreadscale",
+            "icon": "inv_misc_enggizmos_18",
+            "name": "Algeth'ar Puzzle Box",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10213,8 +10202,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              13440,
               6652,
-              13335,
+              12699,
               13654
             ]
           },
@@ -19666,8 +19656,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-06T02:59:40.000Z",
-        "updated_at": "2026-06-06T02:59:40.000Z",
+        "created_at": "2026-06-07T18:43:11.000Z",
+        "updated_at": "2026-06-07T18:43:11.000Z",
         "source": "db",
         "item_level_equipped": 290.562,
         "item_level_total": 0,
@@ -42992,10 +42982,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-07T06:54:11.876Z",
-        "updated_at": "2026-06-07T06:54:11.876Z",
-        "source": "s3",
-        "item_level_equipped": 281,
+        "created_at": "2026-06-07T18:05:14.000Z",
+        "updated_at": "2026-06-07T18:05:14.000Z",
+        "source": "db",
+        "item_level_equipped": 281.438,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -43346,6 +43336,7 @@
           "feet": {
             "item_id": 49805,
             "item_level": 266,
+            "enchant": 7963,
             "icon": "inv_boots_cloth_26",
             "name": "Ice-Steeped Sandals",
             "item_quality": 4,
@@ -43360,8 +43351,16 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              7963
+            ],
+            "enchants_detail": [
+              {
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
               12795,
               13440,
@@ -43373,7 +43372,7 @@
           "finger1": {
             "item_id": 251217,
             "item_level": 276,
-            "enchant": 8025,
+            "enchant": 7967,
             "icon": "inv_12_trinket_devouring_host_currency1_bronze",
             "name": "Occlusion of Void",
             "item_quality": 4,
@@ -43397,12 +43396,12 @@
               }
             ],
             "enchants": [
-              8025
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 244015,
-                "name": "Enchant Ring - Silvermoon's Alacrity",
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -43417,7 +43416,7 @@
           "finger2": {
             "item_id": 49812,
             "item_level": 276,
-            "enchant": 8025,
+            "enchant": 7967,
             "icon": "inv_jewelry_ring_42",
             "name": "Purloined Wedding Ring",
             "item_quality": 4,
@@ -43441,12 +43440,12 @@
               }
             ],
             "enchants": [
-              8025
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 244015,
-                "name": "Enchant Ring - Silvermoon's Alacrity",
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -43529,7 +43528,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -47401,10 +47401,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-07T16:48:20.000Z",
-        "updated_at": "2026-06-07T16:48:20.000Z",
+        "created_at": "2026-06-07T18:43:15.000Z",
+        "updated_at": "2026-06-07T18:43:15.000Z",
         "source": "db",
-        "item_level_equipped": 289,
+        "item_level_equipped": 288.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -47884,10 +47884,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 250144,
-            "item_level": 298,
-            "icon": "inv_icon_feather06a",
-            "name": "Emberwing Feather",
+            "item_id": 249346,
+            "item_level": 285,
+            "icon": "inv_12_trinket_raid_voidspire_int1_voiddragoneye",
+            "name": "Vaelgor's Final Stare",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -47903,10 +47903,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13440,
               6652,
-              12699,
-              13654
+              13334,
+              13653
             ]
           },
           "trinket2": {
@@ -48531,8 +48530,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-07T16:06:13.000Z",
-        "updated_at": "2026-06-07T16:06:13.000Z",
+        "created_at": "2026-06-07T17:21:08.000Z",
+        "updated_at": "2026-06-07T17:21:08.000Z",
         "source": "db",
         "item_level_equipped": 289.438,
         "item_level_total": 0,
@@ -49179,7 +49178,7 @@
       "name": "Cellte",
       "race": "Night Elf",
       "class": "Warrior",
-      "active_spec_name": "Arms",
+      "active_spec_name": "Fury",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
@@ -49187,7 +49186,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-05T22:45:30.000Z",
+      "last_crawled_at": "2026-06-07T17:52:03.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -49674,10 +49673,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-07T13:16:45.000Z",
-        "updated_at": "2026-06-07T13:16:45.000Z",
+        "created_at": "2026-06-07T18:02:08.000Z",
+        "updated_at": "2026-06-07T18:02:08.000Z",
         "source": "db",
-        "item_level_equipped": 282.625,
+        "item_level_equipped": 283.062,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -49809,60 +49808,14 @@
           },
           "shoulder": {
             "item_id": 249950,
-            "item_level": 272,
+            "item_level": 279,
             "enchant": 8001,
             "icon": "inv_shoulder_plate_raidwarriormidnight_d_01",
             "name": "Night Ender's Pauldrons",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
+            "is_azerite_armor": false,
+            "azerite_powers": [],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -49884,11 +49837,10 @@
             ],
             "bonuses": [
               6652,
-              12801,
               13440,
               13340,
               13574,
-              3157
+              12803
             ]
           },
           "back": {
