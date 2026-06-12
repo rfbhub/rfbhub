@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-11T23:01:58.604Z",
+  "updated": "2026-06-12T01:43:01.950Z",
   "rosterCount": 27,
   "mplusCount": 18,
   "guild": {
@@ -28,13 +28,13 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11711,
-          "region": 5466,
-          "realm": 396
+          "world": 11716,
+          "region": 5470,
+          "realm": 397
         },
         "mythic": {
-          "world": 2885,
-          "region": 939,
+          "world": 2890,
+          "region": 943,
           "realm": 64
         }
       },
@@ -589,10 +589,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-10T02:41:29.115Z",
-        "updated_at": "2026-06-10T02:41:29.115Z",
-        "source": "s3",
-        "item_level_equipped": 288,
+        "created_at": "2026-06-12T00:39:18.000Z",
+        "updated_at": "2026-06-12T00:39:18.000Z",
+        "source": "db",
+        "item_level_equipped": 288.75,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -1165,7 +1165,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8051
             ],
             "enchants_detail": [
               {
@@ -9253,15 +9254,15 @@
       "name": "Kÿle",
       "race": "Dwarf",
       "class": "Monk",
-      "active_spec_name": "Brewmaster",
-      "active_spec_role": "TANK",
+      "active_spec_name": "Mistweaver",
+      "active_spec_role": "HEALING",
       "gender": "male",
       "faction": "alliance",
       "achievement_points": 20320,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/malganis/57/241398585-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Mal'Ganis",
-      "last_crawled_at": "2026-06-11T22:40:07.000Z",
+      "last_crawled_at": "2026-06-12T00:31:58.000Z",
       "profile_url": "https://raider.io/characters/us/malganis/Kÿle",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -9748,10 +9749,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-11T22:49:25.000Z",
-        "updated_at": "2026-06-11T22:49:25.000Z",
-        "source": "db",
-        "item_level_equipped": 289.438,
+        "created_at": "2026-06-12T00:31:58.662Z",
+        "updated_at": "2026-06-12T00:31:58.662Z",
+        "source": "s3",
+        "item_level_equipped": 290,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9855,10 +9856,10 @@
             ]
           },
           "neck": {
-            "item_id": 240950,
-            "item_level": 285,
-            "icon": "inv_12_profession_jewelcrafting_necklace2_gold",
-            "name": "Masterwork Sin'dorei Amulet",
+            "item_id": 151309,
+            "item_level": 289,
+            "icon": "inv_7_0raid_necklace_06d",
+            "name": "Necklace of the Twisting Void",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9870,26 +9871,23 @@
             },
             "domination_shards": [],
             "gems": [
-              240910
+              240982
             ],
             "gems_detail": [
               {
-                "id": 240910,
-                "name": "16 Crit & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_red"
+                "id": 240982,
+                "name": "26 Primary",
+                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              13454,
-              8960,
-              8795,
-              13622
+              13440,
+              6652,
+              13668,
+              12699,
+              12806
             ]
           },
           "shoulder": {
@@ -9930,10 +9928,10 @@
             ]
           },
           "back": {
-            "item_id": 249335,
+            "item_id": 260312,
             "item_level": 289,
-            "icon": "inv_plate_raiddeathknightmidnight_d_01_cape",
-            "name": "Imperator's Banner",
+            "icon": "inv_cape_plate_dungeonharronir_c_01",
+            "name": "Defiant Defender's Drape",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9949,9 +9947,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              13440,
               6652,
               13577,
-              13335,
+              12699,
               12806
             ]
           },
@@ -9993,10 +9992,37 @@
             ]
           },
           "waist": {
-            "item_id": 244573,
+            "item_id": 249374,
+            "item_level": 289,
+            "icon": "inv_belt_leather_raidmonkmidnight_d_01",
+            "name": "Scorn-Scarred Shul'ka's Belt",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              6652,
+              12667,
+              13577,
+              13335,
+              12806
+            ]
+          },
+          "wrist": {
+            "item_id": 244576,
             "item_level": 285,
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Utility Belt",
+            "icon": "inv_bracer_leather_questbloodelf_b_01",
+            "name": "Silvermoon Agent's Deflectors",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10016,35 +10042,11 @@
               13667,
               12497,
               12066,
-              8795,
+              8960,
+              12384,
+              8790,
               13622,
               12667
-            ]
-          },
-          "wrist": {
-            "item_id": 250011,
-            "item_level": 276,
-            "icon": "inv_bracer_leather_raidmonkmidnight_d_01",
-            "name": "Strikeguards of Ra-den's Chosen",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              12667,
-              41,
-              13440,
-              12798
             ]
           },
           "hands": {
@@ -10076,11 +10078,11 @@
             ]
           },
           "legs": {
-            "item_id": 244574,
-            "item_level": 285,
-            "enchant": 8159,
-            "icon": "inv_pant_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Leggings",
+            "item_id": 250014,
+            "item_level": 289,
+            "enchant": 7935,
+            "icon": "inv_pant_leather_raidmonkmidnight_d_01",
+            "name": "Swiftsweepers of Ra-den's Chosen",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10091,25 +10093,25 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8159
+              7935
             ],
             "enchants_detail": [
               {
-                "id": 244641,
-                "name": "41 Agi/Str & 115 Sta",
-                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
+                "id": 240133,
+                "name": "41 Int & 115 Sta",
+                "icon": "inv_tailoring_spellthread_orange_spellthread"
               }
             ],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8795,
-              13622
+              6652,
+              13440,
+              13339,
+              13575,
+              12806
             ]
           },
           "feet": {
@@ -10149,11 +10151,11 @@
             ]
           },
           "finger1": {
-            "item_id": 249336,
+            "item_id": 151308,
             "item_level": 289,
-            "enchant": 7967,
-            "icon": "inv_12_jewelry_devouringhost_ring_silver2",
-            "name": "Signet of the Starved Beast",
+            "enchant": 8025,
+            "icon": "inv_70_dungeon_ring3c",
+            "name": "Eredath Seal of Nobility",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10165,38 +10167,39 @@
             },
             "domination_shards": [],
             "gems": [
-              240914
+              240890
             ],
             "gems_detail": [
               {
-                "id": 240914,
-                "name": "16 Vers & 7 Crit",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_blue"
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
               }
             ],
             "enchants": [
-              7967
+              8025
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 244015,
+                "name": "Enchant Ring - Silvermoon's Alacrity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              41,
+              13440,
+              6652,
               13668,
-              13335,
+              12699,
               12806
             ]
           },
           "finger2": {
-            "item_id": 251513,
-            "item_level": 285,
-            "enchant": 7967,
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "name": "Loa Worshiper's Band",
+            "item_id": 151311,
+            "item_level": 289,
+            "enchant": 8025,
+            "icon": "inv_70_dungeon_ring2b",
+            "name": "Band of the Triumvirate",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10208,32 +10211,31 @@
             },
             "domination_shards": [],
             "gems": [
-              240983
+              240890
             ],
             "gems_detail": [
               {
-                "id": 240983,
-                "name": "32 Primary",
-                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
               }
             ],
             "enchants": [
-              7967
+              8025
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 244015,
+                "name": "Enchant Ring - Silvermoon's Alacrity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12214,
-              8960,
-              13667,
-              12497,
-              12066,
-              13622
+              13440,
+              6652,
+              13668,
+              12699,
+              12806
             ]
           },
           "trinket1": {
@@ -10262,10 +10264,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 249339,
+            "item_id": 250246,
             "item_level": 298,
-            "icon": "inv_12_trinket_raid_voidspire_tank1_smolderinggloomscale",
-            "name": "Gloom-Spattered Dreadscale",
+            "icon": "inv_cosmicvoid_orb",
+            "name": "Refueling Orb",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10281,17 +10283,18 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              13440,
               6652,
-              13335,
+              12699,
               13654
             ]
           },
           "mainhand": {
-            "item_id": 249302,
-            "item_level": 298,
+            "item_id": 245770,
+            "item_level": 295,
             "enchant": 8039,
-            "icon": "inv_polearm_2h_raidmidnight_d_01",
-            "name": "Inescapable Reach",
+            "icon": "inv_staff_2h_dungeonharronir_c_02",
+            "name": "Aln'hara Cane",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -10315,9 +10318,14 @@
               }
             ],
             "bonuses": [
-              6652,
-              13335,
-              13654
+              12214,
+              13655,
+              12497,
+              12066,
+              12693,
+              8960,
+              8790,
+              13622
             ]
           }
         }
@@ -14827,7 +14835,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/49/200172081-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-06-10T22:00:18.000Z",
+      "last_crawled_at": "2026-06-12T01:34:04.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -15314,10 +15322,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-11T01:01:41.000Z",
-        "updated_at": "2026-06-11T01:01:41.000Z",
-        "source": "db",
-        "item_level_equipped": 289.812,
+        "created_at": "2026-06-09T21:47:16.135Z",
+        "updated_at": "2026-06-09T21:47:16.135Z",
+        "source": "s3",
+        "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15903,8 +15911,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              5401
+              8039
             ],
             "enchants_detail": [
               {
@@ -15939,8 +15946,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              5400
+              8039
             ],
             "enchants_detail": [
               {
@@ -23704,7 +23710,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/8/255143176-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-11T00:18:20.000Z",
+      "last_crawled_at": "2026-06-12T01:24:06.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Envenumb",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
@@ -24191,10 +24197,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-11T02:59:54.000Z",
-        "updated_at": "2026-06-11T02:59:54.000Z",
-        "source": "db",
-        "item_level_equipped": 290.562,
+        "created_at": "2026-06-11T00:18:20.665Z",
+        "updated_at": "2026-06-11T00:18:20.665Z",
+        "source": "s3",
+        "item_level_equipped": 290,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -24777,8 +24783,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -24813,8 +24818,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -42562,23 +42566,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3182,
-            "dps": 3182,
+            "all": 3221.4,
+            "dps": 3221.4,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 3182,
+            "spec_1": 3221.4,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3182,
-              "color": "#5864e2"
+              "score": 3221.4,
+              "color": "#6d5de5"
             },
             "dps": {
-              "score": 3182,
-              "color": "#5864e2"
+              "score": 3221.4,
+              "color": "#6d5de5"
             },
             "healer": {
               "score": 0,
@@ -42593,8 +42597,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3182,
-              "color": "#5864e2"
+              "score": 3221.4,
+              "color": "#6d5de5"
             },
             "spec_2": {
               "score": 0,
@@ -42704,6 +42708,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34001566-14-magisters-terrace",
+          "spec": {
+            "id": 266,
+            "name": "Demonology",
+            "slug": "demonology",
+            "class_id": 9,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "mythic_level": 14,
+          "completed_at": "2026-06-11T23:57:34.000Z",
+          "clear_time_ms": 1501411,
+          "keystone_run_id": 34903921,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 239,
+          "zone_id": 8910,
+          "zone_expansion_id": 6,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
+          "score": 404.9,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/34903921-14-seat-of-the-triumvirate",
           "spec": {
             "id": 266,
             "name": "Demonology",
@@ -42985,67 +43043,13 @@
             "ordinal": 1
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "mythic_level": 12,
-          "completed_at": "2026-06-06T21:37:05.000Z",
-          "clear_time_ms": 2010780,
-          "keystone_run_id": 33719776,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 239,
-          "zone_id": 8910,
-          "zone_expansion_id": 6,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
-          "score": 365.6,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33719776-12-seat-of-the-triumvirate",
-          "spec": {
-            "id": 266,
-            "name": "Demonology",
-            "slug": "demonology",
-            "class_id": 9,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-06-11T15:11:47.766Z",
-        "updated_at": "2026-06-11T15:11:47.766Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-06-11T23:33:50.000Z",
+        "updated_at": "2026-06-11T23:33:50.000Z",
+        "source": "db",
+        "item_level_equipped": 289.5,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -43595,7 +43599,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -44132,10 +44137,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-09T22:53:34.779Z",
-        "updated_at": "2026-06-09T22:53:34.779Z",
-        "source": "s3",
-        "item_level_equipped": 288,
+        "created_at": "2026-06-12T01:41:04.000Z",
+        "updated_at": "2026-06-12T01:41:04.000Z",
+        "source": "db",
+        "item_level_equipped": 288.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -44713,7 +44718,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -44772,7 +44778,7 @@
           "summary": "3/9 M",
           "expansion_id": 11,
           "total_bosses": 9,
-          "normal_bosses_killed": 7,
+          "normal_bosses_killed": 8,
           "heroic_bosses_killed": 9,
           "mythic_bosses_killed": 3
         }
@@ -47027,7 +47033,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/188/245843388-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-11T06:05:45.000Z",
+      "last_crawled_at": "2026-06-11T23:47:02.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Billybeamin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -48641,8 +48647,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-11T21:53:12.000Z",
-        "updated_at": "2026-06-11T21:53:12.000Z",
+        "created_at": "2026-06-12T01:13:36.000Z",
+        "updated_at": "2026-06-12T01:13:36.000Z",
         "source": "db",
         "item_level_equipped": 289.688,
         "item_level_total": 0,
