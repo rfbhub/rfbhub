@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T14:35:01.962Z",
+  "updated": "2026-06-13T16:54:12.232Z",
   "rosterCount": 27,
   "mplusCount": 19,
   "guild": {
@@ -28,13 +28,13 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11765,
+          "world": 11769,
           "region": 5495,
           "realm": 397
         },
         "mythic": {
-          "world": 2802,
-          "region": 919,
+          "world": 2807,
+          "region": 920,
           "realm": 63
         }
       },
@@ -33788,7 +33788,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/243/232868851-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-13T00:02:26.000Z",
+      "last_crawled_at": "2026-06-13T15:21:04.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Icydroob",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -34275,10 +34275,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T05:57:03.000Z",
-        "updated_at": "2026-06-13T05:57:03.000Z",
-        "source": "db",
-        "item_level_equipped": 284.188,
+        "created_at": "2026-06-13T15:21:04.771Z",
+        "updated_at": "2026-06-13T15:21:04.771Z",
+        "source": "s3",
+        "item_level_equipped": 284,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -34791,8 +34791,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245,
-              8051
+              6245
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -46955,30 +46954,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/142/169499790-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-06-13T06:35:33.000Z",
+      "last_crawled_at": "2026-06-13T16:08:18.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Oulir",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3528,
-            "dps": 3528,
+            "all": 3555.9,
+            "dps": 3555.9,
             "healer": 0,
             "tank": 168.6,
             "spec_0": 0,
-            "spec_1": 3528,
+            "spec_1": 3555.9,
             "spec_2": 168.6,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3528,
-              "color": "#b83dd6"
+              "score": 3555.9,
+              "color": "#bc3fd1"
             },
             "dps": {
-              "score": 3528,
-              "color": "#b83dd6"
+              "score": 3555.9,
+              "color": "#bc3fd1"
             },
             "healer": {
               "score": 0,
@@ -46993,8 +46992,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3528,
-              "color": "#b83dd6"
+              "score": 3555.9,
+              "color": "#bc3fd1"
             },
             "spec_2": {
               "score": 168.6,
@@ -47008,6 +47007,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Maisara Caverns",
+          "short_name": "MC",
+          "mythic_level": 18,
+          "completed_at": "2026-06-13T15:26:20.000Z",
+          "clear_time_ms": 1977114,
+          "keystone_run_id": 35300237,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 560,
+          "zone_id": 16395,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_maisarahills.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/maisara-caverns.jpg",
+          "score": 455.1,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35300237-18-maisara-caverns",
+          "spec": {
+            "id": 103,
+            "name": "Feral",
+            "slug": "feral",
+            "class_id": 11,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Seat of the Triumvirate",
           "short_name": "SEAT",
@@ -47385,65 +47438,11 @@
             "ordinal": 1
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Maisara Caverns",
-          "short_name": "MC",
-          "mythic_level": 16,
-          "completed_at": "2026-04-29T00:48:15.000Z",
-          "clear_time_ms": 1867947,
-          "keystone_run_id": 19083352,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 560,
-          "zone_id": 16395,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_maisarahills.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/maisara-caverns.jpg",
-          "score": 427.1,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/19083352-16-maisara-caverns",
-          "spec": {
-            "id": 103,
-            "name": "Feral",
-            "slug": "feral",
-            "class_id": 11,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-06-09T01:38:17.229Z",
-        "updated_at": "2026-06-09T01:38:17.229Z",
+        "created_at": "2026-06-13T16:08:18.479Z",
+        "updated_at": "2026-06-13T16:08:18.479Z",
         "source": "s3",
         "item_level_equipped": 288,
         "item_level_total": 0,
@@ -47648,7 +47647,7 @@
           },
           "chest": {
             "item_id": 250027,
-            "item_level": 282,
+            "item_level": 285,
             "enchant": 7987,
             "icon": "inv_chest_leather_raiddruidmidnight_d_01",
             "name": "Trunk of the Luminous Bloom",
@@ -47680,7 +47679,7 @@
               13440,
               13336,
               13575,
-              12804
+              12805
             ]
           },
           "waist": {
