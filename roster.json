@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T22:35:51.977Z",
+  "updated": "2026-06-14T01:41:04.056Z",
   "rosterCount": 27,
   "mplusCount": 19,
   "guild": {
@@ -28,9 +28,9 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11778,
-          "region": 5495,
-          "realm": 397
+          "world": 11786,
+          "region": 5502,
+          "realm": 398
         },
         "mythic": {
           "world": 2809,
@@ -11466,7 +11466,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/mannoroth/149/265888917-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Mannoroth",
-      "last_crawled_at": "2026-06-13T17:23:28.000Z",
+      "last_crawled_at": "2026-06-14T00:35:06.000Z",
       "profile_url": "https://raider.io/characters/us/mannoroth/Rukenji",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11953,10 +11953,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T17:42:56.000Z",
-        "updated_at": "2026-06-13T17:42:56.000Z",
-        "source": "db",
-        "item_level_equipped": 290.5,
+        "created_at": "2026-06-10T02:41:29.525Z",
+        "updated_at": "2026-06-10T02:41:29.525Z",
+        "source": "s3",
+        "item_level_equipped": 290,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -23032,8 +23032,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T04:57:16.000Z",
-        "updated_at": "2026-06-13T04:57:16.000Z",
+        "created_at": "2026-06-14T01:37:21.000Z",
+        "updated_at": "2026-06-14T01:37:21.000Z",
         "source": "db",
         "item_level_equipped": 290.75,
         "item_level_total": 0,
@@ -43609,23 +43609,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3221.4,
-            "dps": 3221.4,
+            "all": 3241.4,
+            "dps": 3241.4,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 3221.4,
+            "spec_1": 3241.4,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3221.4,
-              "color": "#695ee4"
+              "score": 3241.4,
+              "color": "#715be5"
             },
             "dps": {
-              "score": 3221.4,
-              "color": "#695ee4"
+              "score": 3241.4,
+              "color": "#715be5"
             },
             "healer": {
               "score": 0,
@@ -43640,8 +43640,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3221.4,
-              "color": "#695ee4"
+              "score": 3241.4,
+              "color": "#715be5"
             },
             "spec_2": {
               "score": 0,
@@ -43655,6 +43655,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "mythic_level": 15,
+          "completed_at": "2026-06-14T00:34:34.000Z",
+          "clear_time_ms": 1113893,
+          "keystone_run_id": 35422397,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 161,
+          "zone_id": 6988,
+          "zone_expansion_id": 5,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
+          "score": 422.7,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35422397-15-skyreach",
+          "spec": {
+            "id": 266,
+            "name": "Demonology",
+            "slug": "demonology",
+            "class_id": 9,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Pit of Saron",
           "short_name": "POS",
@@ -43805,60 +43859,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/34903921-14-seat-of-the-triumvirate",
-          "spec": {
-            "id": 266,
-            "name": "Demonology",
-            "slug": "demonology",
-            "class_id": 9,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "mythic_level": 14,
-          "completed_at": "2026-06-07T20:13:54.000Z",
-          "clear_time_ms": 1339282,
-          "keystone_run_id": 33944457,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 161,
-          "zone_id": 6988,
-          "zone_expansion_id": 5,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
-          "score": 402.6,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/33944457-14-skyreach",
           "spec": {
             "id": 266,
             "name": "Demonology",
@@ -44089,10 +44089,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T20:57:06.907Z",
-        "updated_at": "2026-06-13T20:57:06.907Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-06-14T01:07:48.000Z",
+        "updated_at": "2026-06-14T01:07:48.000Z",
+        "source": "db",
+        "item_level_equipped": 289.938,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -44642,7 +44642,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -49204,7 +49205,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/56/249915448-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-12T03:29:22.000Z",
+      "last_crawled_at": "2026-06-14T00:36:25.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Naturebeast",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -49691,10 +49692,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T17:43:30.000Z",
-        "updated_at": "2026-06-13T17:43:30.000Z",
-        "source": "db",
-        "item_level_equipped": 289.688,
+        "created_at": "2026-06-10T02:41:30.154Z",
+        "updated_at": "2026-06-10T02:41:30.154Z",
+        "source": "s3",
+        "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -50250,8 +50251,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -50788,10 +50788,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T19:35:19.000Z",
-        "updated_at": "2026-06-13T19:35:19.000Z",
+        "created_at": "2026-06-14T01:37:21.000Z",
+        "updated_at": "2026-06-14T01:37:21.000Z",
         "source": "db",
-        "item_level_equipped": 286.062,
+        "item_level_equipped": 285.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -50887,10 +50887,10 @@
             ]
           },
           "neck": {
-            "item_id": 240950,
+            "item_id": 50228,
             "item_level": 285,
-            "icon": "inv_12_profession_jewelcrafting_necklace2_gold",
-            "name": "Masterwork Sin'dorei Amulet",
+            "icon": "inv_jewelry_necklace_22",
+            "name": "Barbed Ymirheim Choker",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -50914,12 +50914,11 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8793,
-              13622
+              13440,
+              6652,
+              13668,
+              12699,
+              12805
             ]
           },
           "shoulder": {
@@ -50960,10 +50959,10 @@
             ]
           },
           "back": {
-            "item_id": 249947,
-            "item_level": 289,
-            "icon": "inv_cape_plate_raidwarriormidnight_d_01",
-            "name": "Night Ender's Greatmantle",
+            "item_id": 239656,
+            "item_level": 285,
+            "icon": "inv_cape_cloth_questbloodelf_b_01",
+            "name": "Adherent's Silken Shroud",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -50979,10 +50978,14 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12806,
-              6652,
-              13440,
-              3174
+              12214,
+              13667,
+              12497,
+              12066,
+              8960,
+              12384,
+              8790,
+              13622
             ]
           },
           "chest": {
@@ -51144,11 +51147,11 @@
             ]
           },
           "feet": {
-            "item_id": 249381,
+            "item_id": 249954,
             "item_level": 276,
             "enchant": 7963,
             "icon": "inv_boot_plate_raidwarriormidnight_d_01",
-            "name": "Greaves of the Unformed",
+            "name": "Night Ender's Greatboots",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -51173,12 +51176,55 @@
             ],
             "bonuses": [
               6652,
-              13577,
-              13334,
+              13440,
               12798
             ]
           },
           "finger1": {
+            "item_id": 49812,
+            "item_level": 276,
+            "enchant": 7967,
+            "icon": "inv_jewelry_ring_42",
+            "name": "Purloined Wedding Ring",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240890
+            ],
+            "gems_detail": [
+              {
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
+              }
+            ],
+            "enchants": [
+              7967
+            ],
+            "enchants_detail": [
+              {
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              13440,
+              6652,
+              13668,
+              12699,
+              12802
+            ]
+          },
+          "finger2": {
             "item_id": 251217,
             "item_level": 282,
             "enchant": 7967,
@@ -51222,50 +51268,6 @@
               12804
             ]
           },
-          "finger2": {
-            "item_id": 251093,
-            "item_level": 276,
-            "enchant": 7967,
-            "icon": "inv_12_trinket_devouring_host_currency1_silver",
-            "name": "Omission of Light",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240900
-            ],
-            "gems_detail": [
-              {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              13668,
-              12699,
-              12798
-            ]
-          },
           "trinket1": {
             "item_id": 249342,
             "item_level": 285,
@@ -51292,10 +51294,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 250258,
-            "item_level": 298,
-            "icon": "inv_misc_food_162_fish_90blue",
-            "name": "Vessel of Tortured Souls",
+            "item_id": 252420,
+            "item_level": 285,
+            "icon": "inv_enchant_shardbrilliantlarge",
+            "name": "Solarflare Prism",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -51314,15 +51316,15 @@
               13440,
               6652,
               12699,
-              13654
+              13653
             ]
           },
           "mainhand": {
-            "item_id": 258046,
+            "item_id": 49802,
             "item_level": 298,
-            "enchant": 8041,
-            "icon": "inv_sword_2h_draenordungeon_c_01",
-            "name": "Chakram-Breaker Greatsword",
+            "enchant": 7981,
+            "icon": "inv_mace_83",
+            "name": "Garfrost's Two-Ton Hammer",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -51336,13 +51338,13 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
+              7981,
               8051
             ],
             "enchants_detail": [
               {
-                "id": 244031,
-                "name": "Enchant Weapon - Arcane Mast",
+                "id": 243971,
+                "name": "Enchant Weapon - Jan'alai's Precision",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
@@ -51351,46 +51353,6 @@
               6652,
               12701,
               13654
-            ]
-          },
-          "offhand": {
-            "item_id": 237846,
-            "item_level": 295,
-            "enchant": 8041,
-            "icon": "inv_sword_2h_questbloodelf_b_01",
-            "name": "Blood Knight's Warblade",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8041,
-              8051
-            ],
-            "enchants_detail": [
-              {
-                "id": 244031,
-                "name": "Enchant Weapon - Arcane Mast",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
-            "bonuses": [
-              12214,
-              13655,
-              12497,
-              12066,
-              12693,
-              8960,
-              8793,
-              13622
             ]
           }
         }
