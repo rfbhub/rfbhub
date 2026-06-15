@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T01:44:27.985Z",
+  "updated": "2026-06-15T07:43:24.071Z",
   "rosterCount": 27,
   "mplusCount": 19,
   "guild": {
@@ -28,13 +28,13 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11823,
-          "region": 5524,
+          "world": 11832,
+          "region": 5530,
           "realm": 400
         },
         "mythic": {
-          "world": 2848,
-          "region": 924,
+          "world": 2851,
+          "region": 927,
           "realm": 63
         }
       },
@@ -98,11 +98,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 26260,
+      "achievement_points": 26265,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/157/243394973-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-10T02:41:28.000Z",
+      "last_crawled_at": "2026-06-15T03:11:20.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Nightboltz",
       "profile_banner": "classbanner_mage1",
       "mythic_plus_scores_by_season": [
@@ -589,10 +589,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-12T00:39:18.000Z",
-        "updated_at": "2026-06-12T00:39:18.000Z",
-        "source": "db",
-        "item_level_equipped": 288.75,
+        "created_at": "2026-06-10T02:41:29.115Z",
+        "updated_at": "2026-06-10T02:41:29.115Z",
+        "source": "s3",
+        "item_level_equipped": 288,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -1165,8 +1165,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8051
+              7981
             ],
             "enchants_detail": [
               {
@@ -5239,8 +5238,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-14T23:42:48.000Z",
-        "updated_at": "2026-06-14T23:42:48.000Z",
+        "created_at": "2026-06-15T03:31:22.000Z",
+        "updated_at": "2026-06-15T03:31:22.000Z",
         "source": "db",
         "item_level_equipped": 290.75,
         "item_level_total": 0,
@@ -19221,33 +19220,33 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 22530,
+      "achievement_points": 22535,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/210/165347282-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-06-14T05:00:11.000Z",
+      "last_crawled_at": "2026-06-15T01:51:18.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thinboi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3388.5,
-            "dps": 3388.5,
+            "all": 3404.7,
+            "dps": 3404.7,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3388.5,
+            "spec_2": 3404.7,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3388.5,
+              "score": 3404.7,
               "color": "#9d3ded"
             },
             "dps": {
-              "score": 3388.5,
+              "score": 3404.7,
               "color": "#9d3ded"
             },
             "healer": {
@@ -19267,7 +19266,7 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3388.5,
+              "score": 3404.7,
               "color": "#9d3ded"
             },
             "spec_3": {
@@ -19374,6 +19373,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/29716789-16-pit-of-saron",
+          "spec": {
+            "id": 255,
+            "name": "Survival",
+            "slug": "survival",
+            "class_id": 3,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "mythic_level": 16,
+          "completed_at": "2026-06-15T02:11:54.000Z",
+          "clear_time_ms": 1389063,
+          "keystone_run_id": 35678923,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 161,
+          "zone_id": 6988,
+          "zone_expansion_id": 5,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
+          "score": 431.5,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35678923-16-skyreach",
           "spec": {
             "id": 255,
             "name": "Survival",
@@ -19549,60 +19602,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "mythic_level": 15,
-          "completed_at": "2026-05-02T18:57:51.000Z",
-          "clear_time_ms": 1442962,
-          "keystone_run_id": 20732584,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 161,
-          "zone_id": 6988,
-          "zone_expansion_id": 5,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
-          "score": 415.3,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/20732584-15-skyreach",
-          "spec": {
-            "id": 255,
-            "name": "Survival",
-            "slug": "survival",
-            "class_id": 3,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Algeth'ar Academy",
           "short_name": "AA",
           "mythic_level": 15,
@@ -19712,8 +19711,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-14T05:14:17.000Z",
-        "updated_at": "2026-06-14T05:14:17.000Z",
+        "created_at": "2026-06-15T02:11:01.000Z",
+        "updated_at": "2026-06-15T02:11:01.000Z",
         "source": "db",
         "item_level_equipped": 290.562,
         "item_level_total": 0,
@@ -48081,30 +48080,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/188/245843388-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-14T04:50:06.000Z",
+      "last_crawled_at": "2026-06-15T06:55:31.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Billybeamin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3842.2,
-            "dps": 3842.2,
+            "all": 3859.2,
+            "dps": 3859.2,
             "healer": 0,
             "tank": 716.4,
             "spec_0": 0,
             "spec_1": 716.4,
-            "spec_2": 3842.2,
+            "spec_2": 3859.2,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3842.2,
-              "color": "#e3598b"
+              "score": 3859.2,
+              "color": "#e55b85"
             },
             "dps": {
-              "score": 3842.2,
-              "color": "#e3598b"
+              "score": 3859.2,
+              "color": "#e55b85"
             },
             "healer": {
               "score": 0,
@@ -48123,8 +48122,8 @@
               "color": "#dfffd2"
             },
             "spec_2": {
-              "score": 3842.2,
-              "color": "#e3598b"
+              "score": 3859.2,
+              "color": "#e55b85"
             },
             "spec_3": {
               "score": 0,
@@ -48230,6 +48229,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/35444995-20-pit-of-saron",
+          "spec": {
+            "id": 1480,
+            "name": "Devourer",
+            "slug": "devourer",
+            "class_id": 12,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "12.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Seat of the Triumvirate",
+          "short_name": "SEAT",
+          "mythic_level": 20,
+          "completed_at": "2026-06-15T01:47:22.000Z",
+          "clear_time_ms": 1918423,
+          "keystone_run_id": 35676505,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 239,
+          "zone_id": 8910,
+          "zone_expansion_id": 6,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
+          "score": 487.3,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35676505-20-seat-of-the-triumvirate",
           "spec": {
             "id": 1480,
             "name": "Devourer",
@@ -48511,66 +48564,12 @@
             "ordinal": 2
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Seat of the Triumvirate",
-          "short_name": "SEAT",
-          "mythic_level": 19,
-          "completed_at": "2026-06-09T01:18:27.000Z",
-          "clear_time_ms": 2029019,
-          "keystone_run_id": 34237833,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 239,
-          "zone_id": 8910,
-          "zone_expansion_id": 6,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_triumvirate_darknaaru.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion6/base/seat-of-the-triumvirate.jpg",
-          "score": 470.2,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/34237833-19-seat-of-the-triumvirate",
-          "spec": {
-            "id": 1480,
-            "name": "Devourer",
-            "slug": "devourer",
-            "class_id": 12,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "12.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-06-14T22:51:32.000Z",
-        "updated_at": "2026-06-14T22:51:32.000Z",
-        "source": "db",
+        "created_at": "2026-06-14T04:50:06.692Z",
+        "updated_at": "2026-06-14T04:50:06.692Z",
+        "source": "s3",
         "item_level_equipped": 289,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -49119,8 +49118,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -49155,8 +49153,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
-              8052
+              8041
             ],
             "enchants_detail": [
               {
