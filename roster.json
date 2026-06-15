@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T19:11:10.332Z",
+  "updated": "2026-06-15T21:59:35.159Z",
   "rosterCount": 27,
   "mplusCount": 19,
   "guild": {
@@ -28,12 +28,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11844,
-          "region": 5533,
+          "world": 11858,
+          "region": 5535,
           "realm": 400
         },
         "mythic": {
-          "world": 2863,
+          "world": 2877,
           "region": 928,
           "realm": 63
         }
@@ -8162,7 +8162,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/maiev/208/245103312-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Maiev",
-      "last_crawled_at": "2026-06-12T23:43:20.000Z",
+      "last_crawled_at": "2026-06-15T21:34:47.000Z",
       "profile_url": "https://raider.io/characters/us/maiev/Moiryn",
       "profile_banner": "classbanner_shaman1",
       "mythic_plus_scores_by_season": [
@@ -8649,10 +8649,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-13T04:32:40.000Z",
-        "updated_at": "2026-06-13T04:32:40.000Z",
-        "source": "db",
-        "item_level_equipped": 288.375,
+        "created_at": "2026-06-15T21:34:47.683Z",
+        "updated_at": "2026-06-15T21:34:47.683Z",
+        "source": "s3",
+        "item_level_equipped": 288,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9174,8 +9174,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              6498
+              8039
             ],
             "enchants_detail": [
               {
@@ -10373,23 +10372,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3986,
-            "dps": 3986,
+            "all": 4017.4,
+            "dps": 4017.4,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3986,
+            "spec_2": 4017.4,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3986,
-              "color": "#ef6767"
+              "score": 4017.4,
+              "color": "#f16961"
             },
             "dps": {
-              "score": 3986,
-              "color": "#ef6767"
+              "score": 4017.4,
+              "color": "#f16961"
             },
             "healer": {
               "score": 0,
@@ -10408,8 +10407,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3986,
-              "color": "#ef6767"
+              "score": 4017.4,
+              "color": "#f16961"
             },
             "spec_3": {
               "score": 0,
@@ -10419,6 +10418,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "mythic_level": 21,
+          "completed_at": "2026-06-15T20:49:15.000Z",
+          "clear_time_ms": 1498043,
+          "keystone_run_id": 35853432,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 556,
+          "zone_id": 4813,
+          "zone_expansion_id": 2,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
+          "score": 506.3,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/35853432-21-pit-of-saron",
+          "spec": {
+            "id": 252,
+            "name": "Unholy",
+            "slug": "unholy",
+            "class_id": 6,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "3.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
@@ -10796,65 +10849,11 @@
             "ordinal": 2
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "mythic_level": 19,
-          "completed_at": "2026-05-29T05:57:15.000Z",
-          "clear_time_ms": 1567918,
-          "keystone_run_id": 31084829,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 556,
-          "zone_id": 4813,
-          "zone_expansion_id": 2,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 474.9,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31084829-19-pit-of-saron",
-          "spec": {
-            "id": 252,
-            "name": "Unholy",
-            "slug": "unholy",
-            "class_id": 6,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "3.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-06-14T21:44:14.000Z",
-        "updated_at": "2026-06-14T21:44:14.000Z",
+        "created_at": "2026-06-15T20:07:30.000Z",
+        "updated_at": "2026-06-15T20:07:30.000Z",
         "source": "db",
         "item_level_equipped": 290.25,
         "item_level_total": 0,
@@ -14834,7 +14833,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/49/200172081-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-06-14T19:59:31.000Z",
+      "last_crawled_at": "2026-06-15T19:46:45.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -23037,8 +23036,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-15T18:18:17.000Z",
-        "updated_at": "2026-06-15T18:18:17.000Z",
+        "created_at": "2026-06-15T20:09:44.000Z",
+        "updated_at": "2026-06-15T20:09:44.000Z",
         "source": "db",
         "item_level_equipped": 290.75,
         "item_level_total": 0,
@@ -24197,10 +24196,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-11T00:18:20.665Z",
-        "updated_at": "2026-06-11T00:18:20.665Z",
-        "source": "s3",
-        "item_level_equipped": 290,
+        "created_at": "2026-06-15T21:55:55.000Z",
+        "updated_at": "2026-06-15T21:55:55.000Z",
+        "source": "db",
+        "item_level_equipped": 290.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -49696,10 +49695,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-14T21:47:12.625Z",
-        "updated_at": "2026-06-14T21:47:12.625Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-06-15T20:22:30.000Z",
+        "updated_at": "2026-06-15T20:22:30.000Z",
+        "source": "db",
+        "item_level_equipped": 289.688,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -50255,7 +50254,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
