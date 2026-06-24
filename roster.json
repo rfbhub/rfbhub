@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:14:55.907Z",
+  "updated": "2026-06-24T08:38:39.631Z",
   "rosterCount": 26,
   "mplusCount": 24,
   "guild": {
@@ -35,12 +35,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 12072,
-          "region": 5657,
+          "world": 12073,
+          "region": 5658,
           "realm": 405
         },
         "mythic": {
-          "world": 2872,
+          "world": 2873,
           "region": 920,
           "realm": 62
         }
@@ -3592,7 +3592,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-06-24T01:49:26.000Z",
+      "last_crawled_at": "2026-06-24T05:41:35.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -4079,10 +4079,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-24T02:40:00.000Z",
-        "updated_at": "2026-06-24T02:40:00.000Z",
-        "source": "db",
-        "item_level_equipped": 291.875,
+        "created_at": "2026-06-20T20:46:36.029Z",
+        "updated_at": "2026-06-20T20:46:36.029Z",
+        "source": "s3",
+        "item_level_equipped": 291,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -4721,8 +4721,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -21572,30 +21571,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-24T01:49:20.000Z",
+      "last_crawled_at": "2026-06-24T05:41:35.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3546.1,
-            "dps": 3546.1,
+            "all": 3574.5,
+            "dps": 3574.5,
             "healer": 0,
             "tank": 0,
-            "spec_0": 3452.1,
+            "spec_0": 3544.3,
             "spec_1": 3393.4,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3546.1,
-              "color": "#bc3fd1"
+              "score": 3574.5,
+              "color": "#c141cb"
             },
             "dps": {
-              "score": 3546.1,
-              "color": "#bc3fd1"
+              "score": 3574.5,
+              "color": "#c141cb"
             },
             "healer": {
               "score": 0,
@@ -21606,8 +21605,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3452.1,
-              "color": "#a937e8"
+              "score": 3544.3,
+              "color": "#b83dd6"
             },
             "spec_1": {
               "score": 3393.4,
@@ -21625,6 +21624,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "mythic_level": 19,
+          "completed_at": "2026-06-24T00:01:29.000Z",
+          "clear_time_ms": 1610936,
+          "keystone_run_id": 37274296,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 161,
+          "zone_id": 6988,
+          "zone_expansion_id": 5,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
+          "score": 471.6,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/37274296-19-skyreach",
+          "spec": {
+            "id": 71,
+            "name": "Arms",
+            "slug": "arms",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Maisara Caverns",
           "short_name": "MC",
@@ -21896,60 +21949,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "mythic_level": 17,
-          "completed_at": "2026-06-12T02:01:18.000Z",
-          "clear_time_ms": 1537450,
-          "keystone_run_id": 34920859,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 161,
-          "zone_id": 6988,
-          "zone_expansion_id": 5,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
-          "score": 443.2,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/34920859-17-skyreach",
-          "spec": {
-            "id": 72,
-            "name": "Fury",
-            "slug": "fury",
-            "class_id": 1,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Windrunner Spire",
           "short_name": "WS",
           "mythic_level": 16,
@@ -22059,10 +22058,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-24T02:59:19.000Z",
-        "updated_at": "2026-06-24T02:59:19.000Z",
-        "source": "db",
-        "item_level_equipped": 288.312,
+        "created_at": "2026-06-24T05:41:35.655Z",
+        "updated_at": "2026-06-24T05:41:35.655Z",
+        "source": "s3",
+        "item_level_equipped": 288,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22612,8 +22611,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8051
+              7981
             ],
             "enchants_detail": [
               {
@@ -22676,29 +22674,29 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/213/247038165-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-06-24T01:49:26.000Z",
+      "last_crawled_at": "2026-06-24T05:41:28.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Devrak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3828.8,
-            "dps": 3828.8,
+            "all": 3828.9,
+            "dps": 3828.9,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 3828.8,
+            "spec_1": 3828.9,
             "spec_2": 622.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3828.8,
+              "score": 3828.9,
               "color": "#e05790"
             },
             "dps": {
-              "score": 3828.8,
+              "score": 3828.9,
               "color": "#e05790"
             },
             "healer": {
@@ -22714,7 +22712,7 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3828.8,
+              "score": 3828.9,
               "color": "#e05790"
             },
             "spec_2": {
@@ -23111,9 +23109,9 @@
           "dungeon": "Algeth'ar Academy",
           "short_name": "AA",
           "mythic_level": 19,
-          "completed_at": "2026-05-30T18:04:25.000Z",
-          "clear_time_ms": 1788713,
-          "keystone_run_id": 31662408,
+          "completed_at": "2026-06-24T05:34:22.000Z",
+          "clear_time_ms": 1785307,
+          "keystone_run_id": 37274289,
           "par_time_ms": 1860999,
           "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 402,
@@ -23148,7 +23146,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/31662408-19-algethar-academy",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/37274289-19-algethar-academy",
           "spec": {
             "id": 260,
             "name": "Outlaw",
@@ -23163,10 +23161,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-24T02:59:19.000Z",
-        "updated_at": "2026-06-24T02:59:19.000Z",
-        "source": "db",
-        "item_level_equipped": 291.312,
+        "created_at": "2026-06-24T01:49:26.869Z",
+        "updated_at": "2026-06-24T01:49:26.869Z",
+        "source": "s3",
+        "item_level_equipped": 291,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -23697,8 +23695,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8051
+              7981
             ],
             "enchants_detail": [
               {
@@ -23732,8 +23729,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8051
+              7983
             ],
             "enchants_detail": [
               {
@@ -53990,7 +53986,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/188/245843388-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-06-24T01:49:28.000Z",
+      "last_crawled_at": "2026-06-24T05:41:31.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Billybeamin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
