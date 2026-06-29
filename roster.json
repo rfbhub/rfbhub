@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T20:20:37.242Z",
+  "updated": "2026-06-29T21:50:07.837Z",
   "rosterCount": 25,
   "mplusCount": 26,
   "guild": {
@@ -35,12 +35,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 12190,
-          "region": 5720,
+          "world": 12192,
+          "region": 5722,
           "realm": 410
         },
         "mythic": {
-          "world": 2619,
+          "world": 2620,
           "region": 860,
           "realm": 57
         }
@@ -6388,8 +6388,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-29T00:04:37.000Z",
-        "updated_at": "2026-06-29T00:04:37.000Z",
+        "created_at": "2026-06-29T21:42:21.000Z",
+        "updated_at": "2026-06-29T21:42:21.000Z",
         "source": "db",
         "item_level_equipped": 291.312,
         "item_level_total": 0,
@@ -27834,8 +27834,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-29T20:09:52.000Z",
-        "updated_at": "2026-06-29T20:09:52.000Z",
+        "created_at": "2026-06-29T20:56:37.000Z",
+        "updated_at": "2026-06-29T20:56:37.000Z",
         "source": "db",
         "item_level_equipped": 288.688,
         "item_level_total": 0,
@@ -28464,12 +28464,12 @@
           "mythic_bosses_killed": 1
         },
         "tier-mn-1": {
-          "summary": "5/9 H",
+          "summary": "1/9 M",
           "expansion_id": 11,
           "total_bosses": 9,
           "normal_bosses_killed": 0,
           "heroic_bosses_killed": 5,
-          "mythic_bosses_killed": 0
+          "mythic_bosses_killed": 1
         }
       },
       "_wowAudit": {
@@ -49826,18 +49826,18 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3718.3,
+            "all": 3732.3,
             "dps": 2459.3,
-            "healer": 3718.3,
+            "healer": 3732.3,
             "tank": 1852.9,
             "spec_0": 1852.9,
-            "spec_1": 3718.3,
+            "spec_1": 3732.3,
             "spec_2": 2459.3,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3718.3,
+              "score": 3732.3,
               "color": "#d44daa"
             },
             "dps": {
@@ -49845,7 +49845,7 @@
               "color": "#2ff924"
             },
             "healer": {
-              "score": 3718.3,
+              "score": 3732.3,
               "color": "#d44daa"
             },
             "tank": {
@@ -49857,7 +49857,7 @@
               "color": "#82ff66"
             },
             "spec_1": {
-              "score": 3718.3,
+              "score": 3732.3,
               "color": "#d44daa"
             },
             "spec_2": {
@@ -49968,6 +49968,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/37883232-19-pit-of-saron",
+          "spec": {
+            "id": 270,
+            "name": "Mistweaver",
+            "slug": "mistweaver",
+            "class_id": 10,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "5.0.0",
+            "ordinal": 1
+          },
+          "role": "healer"
+        },
+        {
+          "dungeon": "Skyreach",
+          "short_name": "SR",
+          "mythic_level": 19,
+          "completed_at": "2026-06-29T21:11:44.000Z",
+          "clear_time_ms": 1588331,
+          "keystone_run_id": 38179488,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 161,
+          "zone_id": 6988,
+          "zone_expansion_id": 5,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
+          "score": 472.1,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/38179488-19-skyreach",
           "spec": {
             "id": 270,
             "name": "Mistweaver",
@@ -50143,60 +50197,6 @@
           "role": "healer"
         },
         {
-          "dungeon": "Skyreach",
-          "short_name": "SR",
-          "mythic_level": 18,
-          "completed_at": "2026-06-11T02:57:26.000Z",
-          "clear_time_ms": 1543396,
-          "keystone_run_id": 34687459,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 161,
-          "zone_id": 6988,
-          "zone_expansion_id": 5,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_arakkoaspires.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion5/base/skyreach.jpg",
-          "score": 458.1,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/34687459-18-skyreach",
-          "spec": {
-            "id": 270,
-            "name": "Mistweaver",
-            "slug": "mistweaver",
-            "class_id": 10,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "5.0.0",
-            "ordinal": 1
-          },
-          "role": "healer"
-        },
-        {
           "dungeon": "Algeth'ar Academy",
           "short_name": "AA",
           "mythic_level": 18,
@@ -50306,10 +50306,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-06-29T20:05:13.000Z",
-        "updated_at": "2026-06-29T20:05:13.000Z",
+        "created_at": "2026-06-29T21:36:16.000Z",
+        "updated_at": "2026-06-29T21:36:16.000Z",
         "source": "db",
-        "item_level_equipped": 289.5,
+        "item_level_equipped": 290.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -50852,10 +50852,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 249808,
-            "item_level": 285,
-            "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath",
-            "name": "Litany of Lightblind Wrath",
+            "item_id": 268292,
+            "item_level": 298,
+            "icon": "inv_1207_fungarianraid_trinket",
+            "name": "Sporelord's Mycelial Insignia",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -50871,9 +50871,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              13653
+              41,
+              13335,
+              13786
             ]
           },
           "mainhand": {
@@ -50895,8 +50895,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
