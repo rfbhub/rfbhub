@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T04:40:43.866Z",
+  "updated": "2026-07-08T15:39:53.998Z",
   "rosterCount": 23,
   "mplusCount": 27,
   "guild": {
@@ -35,12 +35,12 @@
           "realm": 225
         },
         "heroic": {
-          "world": 12344,
-          "region": 5795,
-          "realm": 419
+          "world": 12348,
+          "region": 5798,
+          "realm": 420
         },
         "mythic": {
-          "world": 2776,
+          "world": 2779,
           "region": 907,
           "realm": 59
         }
@@ -2898,10 +2898,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-04T00:09:50.306Z",
-        "updated_at": "2026-07-04T00:09:50.306Z",
-        "source": "s3",
-        "item_level_equipped": 292,
+        "created_at": "2026-07-08T15:05:10.000Z",
+        "updated_at": "2026-07-08T15:05:10.000Z",
+        "source": "db",
+        "item_level_equipped": 292.438,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3516,7 +3516,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -3604,25 +3605,25 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/124/194401916-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-07-08T00:58:20.000Z",
+      "last_crawled_at": "2026-07-08T14:46:18.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Deadstrikes",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 2954.8,
+            "all": 2965.5,
             "dps": 1482.8,
             "healer": 0,
-            "tank": 2547.9,
+            "tank": 2558.6,
             "spec_0": 1482.8,
             "spec_1": 0,
-            "spec_2": 2547.9,
+            "spec_2": 2558.6,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2954.8,
+              "score": 2965.5,
               "color": "#4888c3"
             },
             "dps": {
@@ -3634,7 +3635,7 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 2547.9,
+              "score": 2558.6,
               "color": "#52df5d"
             },
             "spec_0": {
@@ -3646,7 +3647,7 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 2547.9,
+              "score": 2558.6,
               "color": "#52df5d"
             },
             "spec_3": {
@@ -3753,6 +3754,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/14585400-13-algethar-academy",
+          "spec": {
+            "id": 73,
+            "name": "Protection",
+            "slug": "protection",
+            "class_id": 1,
+            "role": "tank",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "tank"
+        },
+        {
+          "dungeon": "Pit of Saron",
+          "short_name": "POS",
+          "mythic_level": 12,
+          "completed_at": "2026-07-08T15:05:08.000Z",
+          "clear_time_ms": 1275348,
+          "keystone_run_id": 39274222,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 556,
+          "zone_id": 4813,
+          "zone_expansion_id": 2,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
+          "score": 375.9,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/39274222-12-pit-of-saron",
           "spec": {
             "id": 73,
             "name": "Protection",
@@ -3982,60 +4037,6 @@
           "role": "tank"
         },
         {
-          "dungeon": "Pit of Saron",
-          "short_name": "POS",
-          "mythic_level": 12,
-          "completed_at": "2026-04-11T22:41:54.000Z",
-          "clear_time_ms": 1789895,
-          "keystone_run_id": 10853402,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 556,
-          "zone_id": 4813,
-          "zone_expansion_id": 2,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_icecrown_pitofsaron.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion2/base/pit-of-saron.jpg",
-          "score": 365.2,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/10853402-12-pit-of-saron",
-          "spec": {
-            "id": 73,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 1,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "tank"
-        },
-        {
           "dungeon": "Magisters' Terrace",
           "short_name": "MT",
           "mythic_level": 11,
@@ -4091,10 +4092,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-03T10:44:53.787Z",
-        "updated_at": "2026-07-03T10:44:53.787Z",
-        "source": "s3",
-        "item_level_equipped": 291,
+        "created_at": "2026-07-08T15:05:10.000Z",
+        "updated_at": "2026-07-08T15:05:10.000Z",
+        "source": "db",
+        "item_level_equipped": 291.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -18467,7 +18468,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/139/249592971-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-07-05T00:27:54.000Z",
+      "last_crawled_at": "2026-07-08T15:15:21.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Banehate",
       "profile_banner": "alliancebanner2",
       "mythic_plus_scores_by_season": [
@@ -19537,11 +19538,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 11610,
+      "achievement_points": 11710,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/51/170856499-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-07-05T00:26:55.000Z",
+      "last_crawled_at": "2026-07-08T14:46:15.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Solackerr",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -20028,10 +20029,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-04T00:00:47.197Z",
-        "updated_at": "2026-07-04T00:00:47.197Z",
-        "source": "s3",
-        "item_level_equipped": 290,
+        "created_at": "2026-07-08T14:45:57.000Z",
+        "updated_at": "2026-07-08T14:45:57.000Z",
+        "source": "db",
+        "item_level_equipped": 290.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -20519,7 +20520,7 @@
           },
           "trinket1": {
             "item_id": 249344,
-            "item_level": 276,
+            "item_level": 285,
             "icon": "inv_12_trinket_raid_voidspire_physdps1_armyoflightbanner",
             "name": "Light Company Guidon",
             "item_quality": 4,
@@ -20539,7 +20540,7 @@
             "bonuses": [
               6652,
               13334,
-              12798
+              13653
             ]
           },
           "trinket2": {
@@ -20586,7 +20587,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245
+              6245,
+              8052
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -25150,15 +25152,15 @@
       "name": "Cellte",
       "race": "Night Elf",
       "class": "Warrior",
-      "active_spec_name": "Arms",
+      "active_spec_name": "Fury",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 5695,
+      "achievement_points": 5705,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-07-06T18:30:14.000Z",
+      "last_crawled_at": "2026-07-08T15:36:28.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -25645,10 +25647,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-06T21:04:40.000Z",
-        "updated_at": "2026-07-06T21:04:40.000Z",
-        "source": "db",
-        "item_level_equipped": 290.562,
+        "created_at": "2026-07-08T15:36:29.263Z",
+        "updated_at": "2026-07-08T15:36:29.263Z",
+        "source": "s3",
+        "item_level_equipped": 291,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -25849,11 +25851,11 @@
             ]
           },
           "chest": {
-            "item_id": 249955,
-            "item_level": 289,
+            "item_id": 268285,
+            "item_level": 298,
             "enchant": 7987,
-            "icon": "inv_chest_plate_raidwarriormidnight_d_01",
-            "name": "Night Ender's Breastplate",
+            "icon": "inv_plate_raiddeathknightmidnight_d_01_chest",
+            "name": "Putrid Tender's Battleplate",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -25864,7 +25866,6 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -25878,11 +25879,10 @@
               }
             ],
             "bonuses": [
-              6652,
-              13440,
-              13336,
-              13575,
-              12806
+              42,
+              13577,
+              13335,
+              13786
             ]
           },
           "waist": {
@@ -26013,6 +26013,7 @@
           "feet": {
             "item_id": 249332,
             "item_level": 289,
+            "enchant": 7963,
             "icon": "inv_boot_plate_raidpaladinmidnight_d_01",
             "name": "Parasite Stompers",
             "item_quality": 4,
@@ -26027,8 +26028,16 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              7963
+            ],
+            "enchants_detail": [
+              {
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
               6652,
               13577,
@@ -26037,11 +26046,11 @@
             ]
           },
           "finger1": {
-            "item_id": 251093,
+            "item_id": 251217,
             "item_level": 289,
             "enchant": 7967,
-            "icon": "inv_12_trinket_devouring_host_currency1_silver",
-            "name": "Omission of Light",
+            "icon": "inv_12_trinket_devouring_host_currency1_bronze",
+            "name": "Occlusion of Void",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -26081,11 +26090,11 @@
             ]
           },
           "finger2": {
-            "item_id": 251115,
+            "item_id": 251093,
             "item_level": 289,
             "enchant": 7967,
-            "icon": "inv_12_trinket_devouring_host_currency2_void",
-            "name": "Bifurcation Band",
+            "icon": "inv_12_trinket_devouring_host_currency1_silver",
+            "name": "Omission of Light",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -26193,8 +26202,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8051
+              7983
             ],
             "enchants_detail": [
               {
@@ -26229,8 +26237,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
-              8051
+              8041
             ],
             "enchants_detail": [
               {
@@ -43972,7 +43979,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/emerald-dream/114/169623922-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Emerald Dream",
-      "last_crawled_at": "2026-07-05T00:26:57.000Z",
+      "last_crawled_at": "2026-07-08T10:39:17.000Z",
       "profile_url": "https://raider.io/characters/us/emerald-dream/Whiskeymyers",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
