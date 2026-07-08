@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T17:56:02.420Z",
+  "updated": "2026-07-08T20:00:01.369Z",
   "rosterCount": 23,
   "mplusCount": 27,
   "guild": {
@@ -35,13 +35,13 @@
           "realm": 225
         },
         "heroic": {
-          "world": 12350,
+          "world": 12352,
           "region": 5798,
           "realm": 420
         },
         "mythic": {
-          "world": 2782,
-          "region": 907,
+          "world": 2791,
+          "region": 908,
           "realm": 59
         }
       },
@@ -7107,7 +7107,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/jaedenar/38/118410278-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
       "region": "us",
       "realm": "Jaedenar",
-      "last_crawled_at": "2026-07-07T07:36:05.000Z",
+      "last_crawled_at": "2026-07-08T18:52:31.000Z",
       "profile_url": "https://raider.io/characters/us/jaedenar/Erther",
       "profile_banner": "classbanner_hunter1",
       "mythic_plus_scores_by_season": [
@@ -7594,8 +7594,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-07T13:50:53.000Z",
-        "updated_at": "2026-07-07T13:50:53.000Z",
+        "created_at": "2026-07-08T19:46:53.000Z",
+        "updated_at": "2026-07-08T19:46:53.000Z",
         "source": "db",
         "item_level_equipped": 293,
         "item_level_total": 0,
@@ -7671,8 +7671,16 @@
             },
             "domination_shards": [],
             "tier": "35",
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240898
+            ],
+            "gems_detail": [
+              {
+                "id": 240898,
+                "name": "16 Mast & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
+              }
+            ],
             "enchants": [
               8017
             ],
@@ -7686,10 +7694,10 @@
             "bonuses": [
               6652,
               13335,
-              12667,
               13338,
               13575,
-              12806
+              12806,
+              13534
             ]
           },
           "neck": {
@@ -10592,7 +10600,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/mannoroth/149/265888917-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Mannoroth",
-      "last_crawled_at": "2026-07-07T16:40:23.000Z",
+      "last_crawled_at": "2026-07-08T18:41:21.000Z",
       "profile_url": "https://raider.io/characters/us/mannoroth/Rukenji",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11079,10 +11087,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-07T17:03:10.000Z",
-        "updated_at": "2026-07-07T17:03:10.000Z",
-        "source": "db",
-        "item_level_equipped": 292.438,
+        "created_at": "2026-07-08T18:41:21.892Z",
+        "updated_at": "2026-07-08T18:41:21.892Z",
+        "source": "s3",
+        "item_level_equipped": 293,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -11287,14 +11295,60 @@
           },
           "chest": {
             "item_id": 250054,
-            "item_level": 289,
+            "item_level": 298,
             "enchant": 8013,
             "icon": "inv_robe_cloth_raidpriestmidnight_d_01",
             "name": "Blind Oath's Raiment",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -11315,11 +11369,12 @@
               }
             ],
             "bonuses": [
-              13335,
-              13336,
               6652,
+              13335,
+              13786,
+              13336,
               13575,
-              12806
+              3183
             ]
           },
           "waist": {
@@ -11337,17 +11392,25 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240900
+            ],
+            "gems_detail": [
+              {
+                "id": 240900,
+                "name": "16 Mast & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+              }
+            ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
               13440,
               6652,
-              12667,
               13577,
               12699,
-              12806
+              12806,
+              13534
             ]
           },
           "shirt": {
@@ -11441,7 +11504,7 @@
           "legs": {
             "item_id": 250050,
             "item_level": 289,
-            "enchant": 7935,
+            "enchant": 7937,
             "icon": "inv_pant_cloth_raidpriestmidnight_d_01",
             "name": "Blind Oath's Leggings",
             "item_quality": 4,
@@ -11458,13 +11521,13 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7935
+              7937
             ],
             "enchants_detail": [
               {
-                "id": 240133,
-                "name": "41 Int & 115 Sta",
-                "icon": "inv_tailoring_spellthread_orange_spellthread"
+                "id": 240155,
+                "name": "41 Int & +% Mana",
+                "icon": "inv_12_tailoring_spellthread_violet_spellthread"
               }
             ],
             "bonuses": [
@@ -11666,8 +11729,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -14033,7 +14095,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/malganis/24/237251096-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
       "region": "us",
       "realm": "Mal'Ganis",
-      "last_crawled_at": "2026-07-07T23:29:21.000Z",
+      "last_crawled_at": "2026-07-08T19:06:37.000Z",
       "profile_url": "https://raider.io/characters/us/malganis/Líthorian",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -14520,10 +14582,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-08T02:53:32.000Z",
-        "updated_at": "2026-07-08T02:53:32.000Z",
-        "source": "db",
-        "item_level_equipped": 291.875,
+        "created_at": "2026-07-04T01:21:56.750Z",
+        "updated_at": "2026-07-04T01:21:56.750Z",
+        "source": "s3",
+        "item_level_equipped": 291,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15086,8 +15148,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245,
-              8052
+              6245
             ],
             "enchants_detail": [],
             "bonuses": [
