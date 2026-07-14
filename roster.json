@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T20:36:18.665Z",
+  "updated": "2026-07-14T22:27:55.046Z",
   "rosterCount": 23,
   "mplusCount": 28,
   "guild": {
@@ -35,7 +35,7 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11186,
+          "world": 11187,
           "region": 5277,
           "realm": 369
         },
@@ -6402,9 +6402,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-14T14:03:57.594Z",
-        "updated_at": "2026-07-14T14:03:57.594Z",
-        "source": "s3",
+        "created_at": "2026-07-14T22:20:43.000Z",
+        "updated_at": "2026-07-14T22:20:43.000Z",
+        "source": "db",
         "item_level_equipped": 293,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -7043,7 +7043,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
@@ -55341,23 +55342,23 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3396.4,
-            "dps": 2793.7,
+            "all": 3398.8,
+            "dps": 2895.5,
             "healer": 3320.5,
             "tank": 3097.8,
             "spec_0": 3097.8,
             "spec_1": 3320.5,
-            "spec_2": 2793.7,
+            "spec_2": 2895.5,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3396.4,
+              "score": 3398.8,
               "color": "#9c3ded"
             },
             "dps": {
-              "score": 2793.7,
-              "color": "#5eac9d"
+              "score": 2895.5,
+              "color": "#5597b3"
             },
             "healer": {
               "score": 3320.5,
@@ -55376,8 +55377,8 @@
               "color": "#864fe9"
             },
             "spec_2": {
-              "score": 2793.7,
-              "color": "#5eac9d"
+              "score": 2895.5,
+              "color": "#5597b3"
             },
             "spec_3": {
               "score": 0,
@@ -55440,6 +55441,60 @@
             "ordinal": 1
           },
           "role": "healer"
+        },
+        {
+          "dungeon": "Magisters' Terrace",
+          "short_name": "MT",
+          "mythic_level": 16,
+          "completed_at": "2026-07-14T20:47:54.000Z",
+          "clear_time_ms": 1797087,
+          "keystone_run_id": 40064583,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 558,
+          "zone_id": 15829,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_magistersterrace.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/magisters-terrace.jpg",
+          "score": 429.5,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/40064583-16-magisters-terrace",
+          "spec": {
+            "id": 269,
+            "name": "Windwalker",
+            "slug": "windwalker",
+            "class_id": 10,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "5.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
         },
         {
           "dungeon": "Windrunner Spire",
@@ -55645,60 +55700,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/37878193-16-nexuspoint-xenas",
-          "spec": {
-            "id": 270,
-            "name": "Mistweaver",
-            "slug": "mistweaver",
-            "class_id": 10,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "5.0.0",
-            "ordinal": 1
-          },
-          "role": "healer"
-        },
-        {
-          "dungeon": "Magisters' Terrace",
-          "short_name": "MT",
-          "mythic_level": 16,
-          "completed_at": "2026-06-17T18:41:45.000Z",
-          "clear_time_ms": 1927197,
-          "keystone_run_id": 36195524,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 558,
-          "zone_id": 15829,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_magistersterrace.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/magisters-terrace.jpg",
-          "score": 427.1,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/36195524-16-magisters-terrace",
           "spec": {
             "id": 270,
             "name": "Mistweaver",
@@ -56972,10 +56973,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-13T13:56:58.090Z",
-        "updated_at": "2026-07-13T13:56:58.090Z",
-        "source": "s3",
-        "item_level_equipped": 290,
+        "created_at": "2026-07-14T21:39:06.000Z",
+        "updated_at": "2026-07-14T21:39:06.000Z",
+        "source": "db",
+        "item_level_equipped": 290.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
