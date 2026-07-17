@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T23:25:49.953Z",
+  "updated": "2026-07-17T00:57:26.083Z",
   "rosterCount": 23,
   "mplusCount": 29,
   "guild": {
@@ -40,8 +40,8 @@
           "realm": 369
         },
         "mythic": {
-          "world": 2389,
-          "region": 869,
+          "world": 2390,
+          "region": 870,
           "realm": 57
         }
       },
@@ -5270,10 +5270,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-16T05:16:23.124Z",
-        "updated_at": "2026-07-16T05:16:23.124Z",
-        "source": "s3",
-        "item_level_equipped": 252,
+        "created_at": "2026-07-17T00:48:31.000Z",
+        "updated_at": "2026-07-17T00:48:31.000Z",
+        "source": "db",
+        "item_level_equipped": 292.5,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -5285,93 +5285,11 @@
         },
         "items": {
           "head": {
-            "item_id": 250006,
-            "item_level": 289,
-            "enchant": 7991,
-            "icon": "inv_helm_leather_raidroguemidnight_d_01",
-            "name": "Masquerade of the Grim Jest",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              null,
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "tier": "35",
-            "gems": [
-              240918
-            ],
-            "gems_detail": [
-              {
-                "id": 240918,
-                "name": "16 Vers & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_blue"
-              }
-            ],
-            "enchants": [
-              7991
-            ],
-            "enchants_detail": [
-              {
-                "id": 243981,
-                "name": "Enchant Helm - Empowered Blessing of Speed",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              12806,
-              41,
-              13440,
-              13338,
-              3174,
-              13534,
-              13448
-            ]
-          },
-          "neck": {
-            "item_id": 240952,
-            "item_level": 242,
-            "icon": "inv_12_profession_jewelcrafting_necklace2_silver",
-            "name": "Thalassian Competitor's Amulet",
+            "item_id": 268283,
+            "item_level": 298,
+            "enchant": 8017,
+            "icon": "inv_helm_leather_raiddruidmidnight_d_01",
+            "name": "Festerbloom Crown",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5383,30 +5301,72 @@
             },
             "domination_shards": [],
             "gems": [
-              241144
+              240906
             ],
             "gems_detail": [
               {
-                "id": 241144,
-                "name": "23 Primary / +5% Damage Reduction when affected by Crowd Control",
-                "icon": "inv_misc_cutgemsuperior6"
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+              }
+            ],
+            "enchants": [
+              8017
+            ],
+            "enchants_detail": [
+              {
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              6652,
+              13577,
+              13335,
+              13786,
+              13534
+            ]
+          },
+          "neck": {
+            "item_id": 50228,
+            "item_level": 289,
+            "icon": "inv_jewelry_necklace_22",
+            "name": "Barbed Ymirheim Choker",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240906
+            ],
+            "gems_detail": [
+              {
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12245,
-              13760,
-              12496,
-              13571,
-              13448,
-              8794
+              13440,
+              6652,
+              13668,
+              12699,
+              12806
             ]
           },
           "shoulder": {
             "item_id": 250004,
-            "item_level": 263,
-            "enchant": 7973,
+            "item_level": 289,
+            "enchant": 8001,
             "icon": "inv_shoulder_leather_raidroguemidnight_d_01",
             "name": "Venom Casks of the Grim Jest",
             "item_quality": 4,
@@ -5423,28 +5383,28 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7973
+              8001
             ],
             "enchants_detail": [
               {
-                "id": 243963,
-                "name": "Enchant Shoulders - Akil'zon's Swiftness",
+                "id": 243991,
+                "name": "Enchant Shoulders - Amirdrassil's Grace",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              13448,
-              13452,
+              6652,
+              13440,
               13340,
-              13574,
-              12790
+              12806,
+              13448
             ]
           },
           "back": {
-            "item_id": 250001,
-            "item_level": 263,
-            "icon": "inv_cape_leather_raidroguemidnight_d_01",
-            "name": "Disappearing Cloth of the Grim Jest",
+            "item_id": 260312,
+            "item_level": 289,
+            "icon": "inv_cape_plate_dungeonharronir_c_01",
+            "name": "Defiant Defender's Drape",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5460,73 +5420,30 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13448,
-              13452,
-              12790
+              13440,
+              6652,
+              13577,
+              12699,
+              12806
             ]
           },
           "chest": {
-            "item_id": 244554,
-            "item_level": 242,
+            "item_id": 250009,
+            "item_level": 289,
             "enchant": 7987,
-            "icon": "inv_chest_leather_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Leather Chestpiece",
+            "icon": "inv_chest_leather_raidroguemidnight_d_01",
+            "name": "Fantastic Finery of the Grim Jest",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
+            "is_azerite_armor": false,
+            "azerite_powers": [],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -5540,19 +5457,18 @@
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12496,
-              13571,
-              13448,
-              8794
+              13335,
+              13336,
+              6652,
+              13575,
+              12806
             ]
           },
           "waist": {
-            "item_id": 244557,
-            "item_level": 242,
-            "icon": "inv_belt_leather_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Leather Belt",
+            "item_id": 268286,
+            "item_level": 298,
+            "icon": "inv_belt_leather_raidroguemidnight_d_01",
+            "name": "Sash of the Putrid Giant",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5564,27 +5480,23 @@
             },
             "domination_shards": [],
             "gems": [
-              240918
+              240906
             ],
             "gems_detail": [
               {
-                "id": 240918,
-                "name": "16 Vers & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_blue"
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12245,
-              13576,
-              13760,
-              12496,
-              13571,
-              13448,
-              8960,
-              12384,
-              8794
+              6652,
+              13577,
+              13335,
+              13786,
+              13534
             ]
           },
           "shirt": {
@@ -5609,10 +5521,10 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 244560,
-            "item_level": 239,
+            "item_id": 244576,
+            "item_level": 285,
             "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Leather Wristwraps",
+            "name": "Silvermoon Agent's Deflectors",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5624,32 +5536,34 @@
             },
             "domination_shards": [],
             "gems": [
-              240918
+              240906
             ],
             "gems_detail": [
               {
-                "id": 240918,
-                "name": "16 Vers & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_blue"
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12245,
-              13760,
-              13576,
-              12495,
-              13571,
-              13448,
-              8794
+              12214,
+              13667,
+              12497,
+              12066,
+              8960,
+              12384,
+              8790,
+              13622,
+              12666
             ]
           },
           "hands": {
-            "item_id": 255477,
-            "item_level": 263,
+            "item_id": 250007,
+            "item_level": 289,
             "icon": "inv_glove_leather_raidroguemidnight_d_01",
-            "name": "Galactic Gladiator's Leather Gloves",
+            "name": "Sleight of Hand of the Grim Jest",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5660,23 +5574,25 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13448,
-              13577,
-              13452,
-              12790
+              13337,
+              13440,
+              6652,
+              13574,
+              12806
             ]
           },
           "legs": {
-            "item_id": 255482,
-            "item_level": 263,
+            "item_id": 250005,
+            "item_level": 289,
             "enchant": 8159,
             "icon": "inv_pant_leather_raidroguemidnight_d_01",
-            "name": "Galactic Gladiator's Leather Legwraps",
+            "name": "Blade Holsters of the Grim Jest",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5687,6 +5603,7 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -5700,18 +5617,20 @@
               }
             ],
             "bonuses": [
-              13448,
-              13577,
-              13452,
-              12790
+              12806,
+              42,
+              13440,
+              13339,
+              13575,
+              3174
             ]
           },
           "feet": {
-            "item_id": 244553,
-            "item_level": 242,
-            "enchant": 8019,
-            "icon": "inv_boot_leather_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Leather Boots",
+            "item_id": 250008,
+            "item_level": 289,
+            "enchant": 7963,
+            "icon": "inv_boot_leather_raidroguemidnight_d_01",
+            "name": "Balancing Boots of the Grim Jest",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5725,32 +5644,27 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8019
+              7963
             ],
             "enchants_detail": [
               {
-                "id": 244009,
-                "name": "Enchant Boots - Farstrider's Hunt",
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12496,
-              13571,
-              13448,
-              8960,
-              12384,
-              8794
+              6652,
+              13440,
+              12806
             ]
           },
           "finger1": {
-            "item_id": 240951,
-            "item_level": 242,
-            "enchant": 7969,
-            "icon": "inv_12_profession_jewelcrafting_ring1_silver",
-            "name": "Thalassian Competitor's Signet",
+            "item_id": 268290,
+            "item_level": 298,
+            "enchant": 7967,
+            "icon": "inv_12_jewelry_rutaani_ring_blue",
+            "name": "Sporecaller's Blooming Loop",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5762,40 +5676,38 @@
             },
             "domination_shards": [],
             "gems": [
-              240918
+              240906
             ],
             "gems_detail": [
               {
-                "id": 240918,
-                "name": "16 Vers & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_blue"
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
               }
             ],
             "enchants": [
-              7969
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12496,
-              13571,
-              13448,
-              8794
+              6652,
+              13668,
+              13335,
+              13786
             ]
           },
           "finger2": {
-            "item_id": 240951,
-            "item_level": 242,
-            "enchant": 7969,
-            "icon": "inv_12_profession_jewelcrafting_ring1_silver",
-            "name": "Thalassian Competitor's Signet",
+            "item_id": 49812,
+            "item_level": 289,
+            "enchant": 7967,
+            "icon": "inv_jewelry_ring_42",
+            "name": "Purloined Wedding Ring",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5807,39 +5719,38 @@
             },
             "domination_shards": [],
             "gems": [
-              240918
+              240983
             ],
             "gems_detail": [
               {
-                "id": 240918,
-                "name": "16 Vers & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_blue"
+                "id": 240983,
+                "name": "32 Primary",
+                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
               }
             ],
             "enchants": [
-              7969
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12496,
-              13571,
-              13448,
-              8794
+              13440,
+              6652,
+              13668,
+              12699,
+              12806
             ]
           },
           "trinket1": {
-            "item_id": 255616,
-            "item_level": 263,
-            "icon": "ability_pvp_gladiatormedallion",
-            "name": "Galactic Gladiator's Medallion",
+            "item_id": 193701,
+            "item_level": 298,
+            "icon": "inv_misc_enggizmos_18",
+            "name": "Algeth'ar Puzzle Box",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5855,16 +5766,17 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13452,
-              13656,
-              12790
+              13440,
+              6652,
+              12699,
+              13654
             ]
           },
           "trinket2": {
-            "item_id": 255613,
-            "item_level": 263,
-            "icon": "spell_holy_championsbond",
-            "name": "Galactic Gladiator's Badge of Ferocity",
+            "item_id": 249343,
+            "item_level": 298,
+            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
+            "name": "Gaze of the Alnseer",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5880,17 +5792,17 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13452,
-              12790,
-              13656
+              6652,
+              13335,
+              13654
             ]
           },
           "mainhand": {
-            "item_id": 237910,
-            "item_level": 242,
-            "enchant": 8039,
-            "icon": "inv_knife_1h_questbloodelf_b_02",
-            "name": "Thalassian Competitor's Knife",
+            "item_id": 49807,
+            "item_level": 298,
+            "enchant": 7983,
+            "icon": "inv_weapon_shortblade_80",
+            "name": "Krick's Beetle Stabber",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5904,31 +5816,29 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
-                "id": 244029,
-                "name": "Enchant Weapon - Acuity of the Ren'dorei",
+                "id": 243973,
+                "name": "Enchant Weapon - Berserker's Rage",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
-              12245,
-              13656,
-              12496,
-              13571,
-              13448,
-              12715,
-              8794
+              13440,
+              6652,
+              12701,
+              13654
             ]
           },
           "offhand": {
-            "item_id": 237910,
-            "item_level": 242,
-            "enchant": 8039,
+            "item_id": 237837,
+            "item_level": 295,
+            "enchant": 7983,
             "icon": "inv_knife_1h_questbloodelf_b_02",
-            "name": "Thalassian Competitor's Knife",
+            "name": "Farstrider's Mercy",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5942,22 +5852,25 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
-                "id": 244029,
-                "name": "Enchant Weapon - Acuity of the Ren'dorei",
+                "id": 243973,
+                "name": "Enchant Weapon - Berserker's Rage",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
-              12245,
-              13656,
-              12496,
-              13571,
-              13448,
-              8794
+              12214,
+              13655,
+              12497,
+              12066,
+              12693,
+              8960,
+              8790,
+              13622
             ]
           }
         }
@@ -13493,10 +13406,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-16T18:47:18.293Z",
-        "updated_at": "2026-07-16T18:47:18.293Z",
-        "source": "s3",
-        "item_level_equipped": 292,
+        "created_at": "2026-07-16T23:32:16.000Z",
+        "updated_at": "2026-07-16T23:32:16.000Z",
+        "source": "db",
+        "item_level_equipped": 292.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14087,7 +14000,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              5401
             ],
             "enchants_detail": [
               {
@@ -14122,7 +14036,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              5400
             ],
             "enchants_detail": [
               {
@@ -17978,10 +17893,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-15T04:26:56.356Z",
-        "updated_at": "2026-07-15T04:26:56.356Z",
-        "source": "s3",
-        "item_level_equipped": 291,
+        "created_at": "2026-07-17T00:48:31.000Z",
+        "updated_at": "2026-07-17T00:48:31.000Z",
+        "source": "db",
+        "item_level_equipped": 291.875,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -18519,7 +18434,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
@@ -18553,7 +18469,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
@@ -25800,8 +25717,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-16T23:13:23.000Z",
-        "updated_at": "2026-07-16T23:13:23.000Z",
+        "created_at": "2026-07-16T23:40:52.000Z",
+        "updated_at": "2026-07-16T23:40:52.000Z",
         "source": "db",
         "item_level_equipped": 291.125,
         "item_level_total": 0,
