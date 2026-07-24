@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-23T00:03:29.152Z",
-  "weekStart": "2026-07-16",
-  "weekEnd": "2026-07-23",
+  "generated": "2026-07-24T00:04:29.771Z",
+  "weekStart": "2026-07-17",
+  "weekEnd": "2026-07-24",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
@@ -10,86 +10,209 @@
       {
         "name": "Enhance",
         "class": "Shaman",
-        "previous": 3262,
+        "previous": 3286,
         "current": 3363,
-        "gain": 101
+        "gain": 77
       },
       {
         "name": "Hashmaker",
         "class": "Paladin",
-        "previous": 3933,
+        "previous": 3945,
         "current": 4013,
-        "gain": 80
-      },
-      {
-        "name": "Naturebeast",
-        "class": "Druid",
-        "previous": 3907,
-        "current": 3936,
-        "gain": 29
+        "gain": 68
       }
     ],
     "parseSpotlight": [
       {
-        "name": "Enhance",
+        "name": "Líthorian",
+        "class": "Death Knight",
+        "difficulty": "Mythic",
+        "previous": 49,
+        "current": 59,
+        "gain": 10
+      },
+      {
+        "name": "Deadstrikes",
+        "class": "Warrior",
+        "difficulty": "Mythic",
+        "previous": 62,
+        "current": 71,
+        "gain": 9
+      },
+      {
+        "name": "Thinboi",
+        "class": "Hunter",
+        "difficulty": "Mythic",
+        "previous": 72,
+        "current": 79,
+        "gain": 7
+      },
+      {
+        "name": "Moiryn",
         "class": "Shaman",
         "difficulty": "Mythic",
         "previous": 42,
-        "current": 47,
+        "current": 48,
+        "gain": 6
+      },
+      {
+        "name": "Lykra",
+        "class": "Druid",
+        "difficulty": "Mythic",
+        "previous": 47,
+        "current": 52,
         "gain": 5
       }
     ],
-    "gearMovers": [
+    "newPinkParses": [
       {
-        "name": "Demonblood",
-        "class": "Demon Hunter",
-        "previous": 289,
-        "current": 291,
-        "gain": 2
+        "name": "Solacker",
+        "class": "Death Knight",
+        "boss": "Chimaerus, the Undreamt God",
+        "parse": 99,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 112952
+      },
+      {
+        "name": "Líthorian",
+        "class": "Death Knight",
+        "boss": "Imperator Averzian",
+        "parse": 99,
+        "previousParse": 52,
+        "difficulty": "Mythic",
+        "dps": 160550
+      }
+    ],
+    "newOrangeParses": [
+      {
+        "name": "Thinboi",
+        "class": "Hunter",
+        "boss": "Fallen-King Salhadaar",
+        "parse": 97,
+        "previousParse": 61,
+        "difficulty": "Mythic",
+        "dps": 161692
+      },
+      {
+        "name": "Devrak",
+        "class": "Rogue",
+        "boss": "Vaelgor & Ezzorak",
+        "parse": 96,
+        "previousParse": 90,
+        "difficulty": "Mythic",
+        "dps": 212383
+      },
+      {
+        "name": "Solacker",
+        "class": "Death Knight",
+        "boss": "Imperator Averzian",
+        "parse": 95,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 145217
+      }
+    ],
+    "progression": [
+      {
+        "name": "Blimpi",
+        "class": "Warlock",
+        "previous": "6/9 M",
+        "current": "7/9 M"
+      },
+      {
+        "name": "Líthorian",
+        "class": "Death Knight",
+        "previous": "4/9 M",
+        "current": "7/9 M"
+      },
+      {
+        "name": "Cellte",
+        "class": "Warrior",
+        "previous": "4/9 M",
+        "current": "6/9 M"
+      },
+      {
+        "name": "Mangobrew",
+        "class": "Monk",
+        "previous": "0/9 M",
+        "current": "4/9 M"
       }
     ],
     "newFaces": [
       {
+        "name": "Veldak",
+        "class": "Shaman",
+        "spec": "Elemental",
+        "ilvl": 291,
+        "rio": 3525,
+        "progression": "4/9 M"
+      },
+      {
         "name": "Lionroar",
         "class": "Druid",
         "spec": "Restoration",
-        "ilvl": 292,
+        "ilvl": 292.3,
         "rio": 3407,
         "progression": "7/9 M"
+      },
+      {
+        "name": "Solacker",
+        "class": "Death Knight",
+        "spec": "Unholy",
+        "ilvl": 292,
+        "rio": 3406,
+        "progression": "6/9 M"
       },
       {
         "name": "Anjaleena",
         "class": "Paladin",
         "spec": "Holy",
         "ilvl": 289,
-        "rio": 3145,
+        "rio": 3161,
         "progression": "5/9 M"
+      },
+      {
+        "name": "Thebigkahuna",
+        "class": "Hunter",
+        "spec": "Beast Mastery",
+        "ilvl": 285.3,
+        "rio": 2645,
+        "progression": "4/9 M"
+      },
+      {
+        "name": "Yanshots",
+        "class": "Hunter",
+        "spec": "Beast Mastery",
+        "ilvl": 270.4,
+        "rio": 1420,
+        "progression": "4/9 M"
       }
     ]
   },
   "summary": {
-    "totalRaiders": 25,
-    "rosterDelta": 2,
-    "avgRio": 3409,
-    "rioDelta": 29,
-    "avgIlvl": 289.7,
-    "ilvlDelta": -1.4,
-    "avgMythicParse": 55,
-    "parseDelta": 1,
-    "mythicRaidersCount": 24,
-    "totalMythicKills": 187,
+    "totalRaiders": 28,
+    "rosterDelta": 6,
+    "avgRio": 3333,
+    "rioDelta": -54,
+    "avgIlvl": 290.7,
+    "ilvlDelta": -0.3,
+    "avgMythicParse": 56,
+    "parseDelta": 2,
+    "mythicRaidersCount": 28,
+    "totalMythicKills": 209,
     "highestKey": 22,
     "highestKeyPlayer": "Líthorian",
     "highestKeyClass": "Death Knight",
-    "enchantPct": 92,
-    "fullyEnchanted": 23,
+    "enchantPct": 86,
+    "fullyEnchanted": 24,
     "parseDistribution": {
-      "pink": 3,
-      "orange": 5,
-      "purple": 49,
-      "blue": 45
+      "pink": 5,
+      "orange": 8,
+      "purple": 62,
+      "blue": 46
     },
-    "totalCategories": 4,
-    "totalHighlights": 7
+    "totalCategories": 6,
+    "totalHighlights": 22
   }
 }
