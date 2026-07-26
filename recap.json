@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-25T00:08:01.505Z",
+  "generated": "2026-07-26T00:02:54.336Z",
   "weekStart": "2026-07-18",
-  "weekEnd": "2026-07-25",
+  "weekEnd": "2026-07-26",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
@@ -20,6 +20,13 @@
         "previous": 3958,
         "current": 4013,
         "gain": 55
+      },
+      {
+        "name": "Naturebeast",
+        "class": "Druid",
+        "previous": 3925,
+        "current": 3951,
+        "gain": 26
       }
     ],
     "parseSpotlight": [
@@ -127,13 +134,19 @@
         "name": "Blimpi",
         "class": "Warlock",
         "previous": "6/9 M",
-        "current": "7/9 M"
+        "current": "8/9 M"
       },
       {
         "name": "Líthorian",
         "class": "Death Knight",
         "previous": "4/9 M",
-        "current": "7/9 M"
+        "current": "8/9 M"
+      },
+      {
+        "name": "Devrak",
+        "class": "Rogue",
+        "previous": "7/9 M",
+        "current": "8/9 M"
       },
       {
         "name": "Cellte",
@@ -145,10 +158,16 @@
         "name": "Mangobrew",
         "class": "Monk",
         "previous": "0/9 M",
-        "current": "4/9 M"
+        "current": "5/9 M"
       }
     ],
     "highKeyPushers": [
+      {
+        "name": "Naturebeast",
+        "class": "Druid",
+        "previousKey": 21,
+        "currentKey": 22
+      },
       {
         "name": "Demonblood",
         "class": "Demon Hunter",
@@ -161,17 +180,25 @@
         "name": "Mistgf",
         "class": "Monk",
         "spec": "Mistweaver",
-        "ilvl": 290,
+        "ilvl": 291,
         "rio": 4014,
         "progression": "3/9 M"
       },
       {
         "name": "Veldak",
         "class": "Shaman",
-        "spec": "Restoration",
+        "spec": "Elemental",
         "ilvl": 291,
         "rio": 3525,
-        "progression": "4/9 M"
+        "progression": "5/9 M"
+      },
+      {
+        "name": "Solacker",
+        "class": "Death Knight",
+        "spec": "Unholy",
+        "ilvl": 292.2,
+        "rio": 3418,
+        "progression": "6/9 M"
       },
       {
         "name": "Lionroar",
@@ -182,34 +209,26 @@
         "progression": "7/9 M"
       },
       {
-        "name": "Solacker",
-        "class": "Death Knight",
-        "spec": "Unholy",
-        "ilvl": 292,
-        "rio": 3406,
-        "progression": "6/9 M"
-      },
-      {
         "name": "Wigglytiggly",
         "class": "Mage",
         "spec": "Frost",
         "ilvl": 282,
         "rio": 3261,
-        "progression": "1/9 M"
+        "progression": "2/9 M"
       },
       {
         "name": "Anjaleena",
         "class": "Paladin",
         "spec": "Holy",
-        "ilvl": 289,
-        "rio": 3161,
-        "progression": "5/9 M"
+        "ilvl": 289.7,
+        "rio": 3187,
+        "progression": "6/9 M"
       },
       {
         "name": "Thebigkahuna",
         "class": "Hunter",
         "spec": "Beast Mastery",
-        "ilvl": 287,
+        "ilvl": 288.2,
         "rio": 2647,
         "progression": "5/9 M"
       },
@@ -226,26 +245,26 @@
   "summary": {
     "totalRaiders": 30,
     "rosterDelta": 7,
-    "avgRio": 3354,
-    "rioDelta": -32,
-    "avgIlvl": 289,
-    "ilvlDelta": -2.4,
+    "avgRio": 3355,
+    "rioDelta": -31,
+    "avgIlvl": 290.6,
+    "ilvlDelta": -0.8,
     "avgMythicParse": 56,
     "parseDelta": 2,
-    "mythicRaidersCount": 28,
-    "totalMythicKills": 210,
+    "mythicRaidersCount": 30,
+    "totalMythicKills": 222,
     "highestKey": 22,
     "highestKeyPlayer": "Líthorian",
     "highestKeyClass": "Death Knight",
-    "enchantPct": 83,
-    "fullyEnchanted": 25,
+    "enchantPct": 87,
+    "fullyEnchanted": 26,
     "parseDistribution": {
       "pink": 5,
       "orange": 9,
-      "purple": 62,
-      "blue": 46
+      "purple": 65,
+      "blue": 54
     },
     "totalCategories": 7,
-    "totalHighlights": 26
+    "totalHighlights": 29
   }
 }
