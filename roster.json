@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T18:33:09.430Z",
+  "updated": "2026-07-26T20:28:06.500Z",
   "rosterCount": 28,
   "mplusCount": 28,
   "guild": {
@@ -5329,8 +5329,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-26T16:08:12.000Z",
-        "updated_at": "2026-07-26T16:08:12.000Z",
+        "created_at": "2026-07-26T20:05:27.000Z",
+        "updated_at": "2026-07-26T20:05:27.000Z",
         "source": "db",
         "item_level_equipped": 293,
         "item_level_total": 0,
@@ -15662,10 +15662,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-22T20:22:06.407Z",
-        "updated_at": "2026-07-22T20:22:06.407Z",
-        "source": "s3",
-        "item_level_equipped": 291,
+        "created_at": "2026-07-26T19:37:23.000Z",
+        "updated_at": "2026-07-26T19:37:23.000Z",
+        "source": "db",
+        "item_level_equipped": 291.875,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -16211,7 +16211,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
@@ -16245,7 +16246,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
@@ -29782,22 +29784,22 @@
         {
           "season": "season-mn-1",
           "scores": {
-            "all": 3023.7,
-            "dps": 3023.7,
+            "all": 3025.1,
+            "dps": 3025.1,
             "healer": 0,
             "tank": 0,
-            "spec_0": 3016.5,
+            "spec_0": 3017.9,
             "spec_1": 1844.4,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3023.7,
+              "score": 3025.1,
               "color": "#2f79d3"
             },
             "dps": {
-              "score": 3023.7,
+              "score": 3025.1,
               "color": "#2f79d3"
             },
             "healer": {
@@ -29809,7 +29811,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3016.5,
+              "score": 3017.9,
               "color": "#397ece"
             },
             "spec_1": {
@@ -30099,6 +30101,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Algeth'ar Academy",
+          "short_name": "AA",
+          "mythic_level": 12,
+          "completed_at": "2026-07-26T20:16:32.000Z",
+          "clear_time_ms": 1256343,
+          "keystone_run_id": 41434414,
+          "par_time_ms": 1860999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 402,
+          "zone_id": 14032,
+          "zone_expansion_id": 9,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_dragonacademy.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/algethar-academy.jpg",
+          "score": 377.2,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-1/41434414-12-algethar-academy",
+          "spec": {
+            "id": 253,
+            "name": "Beast Mastery",
+            "slug": "beast-mastery",
+            "class_id": 3,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Maisara Caverns",
           "short_name": "MC",
           "mythic_level": 12,
@@ -30140,60 +30196,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-1/41401003-12-maisara-caverns",
-          "spec": {
-            "id": 253,
-            "name": "Beast Mastery",
-            "slug": "beast-mastery",
-            "class_id": 3,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Algeth'ar Academy",
-          "short_name": "AA",
-          "mythic_level": 12,
-          "completed_at": "2026-07-24T19:30:22.000Z",
-          "clear_time_ms": 1326481,
-          "keystone_run_id": 41177481,
-          "par_time_ms": 1860999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 402,
-          "zone_id": 14032,
-          "zone_expansion_id": 9,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_dragonacademy.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/algethar-academy.jpg",
-          "score": 375.8,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-1/41177481-12-algethar-academy",
           "spec": {
             "id": 253,
             "name": "Beast Mastery",
@@ -30262,8 +30264,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-26T15:52:22.000Z",
-        "updated_at": "2026-07-26T15:52:22.000Z",
+        "created_at": "2026-07-26T19:57:43.000Z",
+        "updated_at": "2026-07-26T19:57:43.000Z",
         "source": "db",
         "item_level_equipped": 288.188,
         "item_level_total": 0,
