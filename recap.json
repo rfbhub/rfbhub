@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-27T00:03:18.355Z",
-  "weekStart": "2026-07-20",
-  "weekEnd": "2026-07-27",
+  "generated": "2026-07-28T00:05:10.940Z",
+  "weekStart": "2026-07-21",
+  "weekEnd": "2026-07-28",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
@@ -15,21 +15,37 @@
         "gain": 104
       },
       {
+        "name": "Anjaleena",
+        "class": "Paladin",
+        "previous": 3145,
+        "current": 3224,
+        "gain": 78
+      },
+      {
         "name": "Hashmaker",
         "class": "Paladin",
         "previous": 3981,
         "current": 4013,
         "gain": 32
-      },
-      {
-        "name": "Naturebeast",
-        "class": "Druid",
-        "previous": 3925,
-        "current": 3951,
-        "gain": 26
       }
     ],
     "parseSpotlight": [
+      {
+        "name": "Rukenji",
+        "class": "Priest",
+        "difficulty": "Mythic",
+        "previous": 22,
+        "current": 56,
+        "gain": 34
+      },
+      {
+        "name": "Anjaleena",
+        "class": "Paladin",
+        "difficulty": "Mythic",
+        "previous": 46,
+        "current": 59,
+        "gain": 13
+      },
       {
         "name": "Líthorian",
         "class": "Death Knight",
@@ -53,25 +69,18 @@
         "previous": 72,
         "current": 79,
         "gain": 7
-      },
-      {
-        "name": "Moiryn",
-        "class": "Shaman",
-        "difficulty": "Mythic",
-        "previous": 42,
-        "current": 48,
-        "gain": 6
-      },
-      {
-        "name": "Lykra",
-        "class": "Druid",
-        "difficulty": "Mythic",
-        "previous": 47,
-        "current": 52,
-        "gain": 5
       }
     ],
     "newPinkParses": [
+      {
+        "name": "Solacker",
+        "class": "Death Knight",
+        "boss": "Chimaerus, the Undreamt God",
+        "parse": 99,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 112952
+      },
       {
         "name": "Líthorian",
         "class": "Death Knight",
@@ -91,6 +100,24 @@
         "previousParse": 61,
         "difficulty": "Mythic",
         "dps": 161692
+      },
+      {
+        "name": "Devrak",
+        "class": "Rogue",
+        "boss": "Vaelgor & Ezzorak",
+        "parse": 96,
+        "previousParse": 90,
+        "difficulty": "Mythic",
+        "dps": 212383
+      },
+      {
+        "name": "Solacker",
+        "class": "Death Knight",
+        "boss": "Imperator Averzian",
+        "parse": 95,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 145217
       },
       {
         "name": "Thebigkahuna",
@@ -128,6 +155,12 @@
         "current": "6/9 M"
       },
       {
+        "name": "Anjaleena",
+        "class": "Paladin",
+        "previous": "5/9 M",
+        "current": "6/9 M"
+      },
+      {
         "name": "Mangobrew",
         "class": "Monk",
         "previous": "0/9 M",
@@ -152,6 +185,12 @@
         "class": "Demon Hunter",
         "previousKey": 16,
         "currentKey": 17
+      },
+      {
+        "name": "Anjaleena",
+        "class": "Paladin",
+        "previousKey": 14,
+        "currentKey": 15
       }
     ],
     "newFaces": [
@@ -172,62 +211,38 @@
         "progression": "6/9 M"
       },
       {
-        "name": "Lionroar",
-        "class": "Druid",
-        "spec": "Balance",
-        "ilvl": 292,
-        "rio": 3407,
-        "progression": "7/9 M"
-      },
-      {
-        "name": "Anjaleena",
-        "class": "Paladin",
-        "spec": "Holy",
-        "ilvl": 289,
-        "rio": 3210,
-        "progression": "6/9 M"
-      },
-      {
         "name": "Thebigkahuna",
         "class": "Hunter",
         "spec": "Beast Mastery",
         "ilvl": 288,
         "rio": 3025,
         "progression": "5/9 M"
-      },
-      {
-        "name": "Yanshots",
-        "class": "Hunter",
-        "spec": "Beast Mastery",
-        "ilvl": 271,
-        "rio": 1420,
-        "progression": "4/9 M"
       }
     ]
   },
   "summary": {
-    "totalRaiders": 24,
-    "rosterDelta": 0,
-    "avgRio": 3357,
-    "rioDelta": -39,
-    "avgIlvl": 289.1,
-    "ilvlDelta": -0.4,
-    "avgMythicParse": 58,
-    "parseDelta": 3,
-    "mythicRaidersCount": 22,
-    "totalMythicKills": 171,
+    "totalRaiders": 28,
+    "rosterDelta": 2,
+    "avgRio": 3351,
+    "rioDelta": -62,
+    "avgIlvl": 289.2,
+    "ilvlDelta": -0.5,
+    "avgMythicParse": 57,
+    "parseDelta": 2,
+    "mythicRaidersCount": 28,
+    "totalMythicKills": 217,
     "highestKey": 22,
     "highestKeyPlayer": "Líthorian",
     "highestKeyClass": "Death Knight",
-    "enchantPct": 83,
-    "fullyEnchanted": 20,
+    "enchantPct": 82,
+    "fullyEnchanted": 23,
     "parseDistribution": {
-      "pink": 1,
-      "orange": 7,
-      "purple": 48,
-      "blue": 47
+      "pink": 5,
+      "orange": 9,
+      "purple": 65,
+      "blue": 53
     },
     "totalCategories": 7,
-    "totalHighlights": 25
+    "totalHighlights": 27
   }
 }
