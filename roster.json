@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T07:07:06.881Z",
+  "updated": "2026-08-04T19:03:19.561Z",
   "rosterCount": 29,
   "mplusCount": 29,
   "guild": {
@@ -47,7 +47,7 @@
           "realm": 369
         },
         "mythic": {
-          "world": 2554,
+          "world": 2556,
           "region": 894,
           "realm": 59
         }
@@ -24863,10 +24863,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-25T21:14:10.009Z",
-        "updated_at": "2026-07-25T21:14:10.009Z",
-        "source": "s3",
-        "item_level_equipped": 291,
+        "created_at": "2026-08-04T18:24:16.000Z",
+        "updated_at": "2026-08-04T18:24:16.000Z",
+        "source": "db",
+        "item_level_equipped": 289.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -24970,10 +24970,10 @@
             ]
           },
           "neck": {
-            "item_id": 268291,
-            "item_level": 298,
-            "icon": "inv_12_jewelry_rutaani_necklace_blue",
-            "name": "Rotmire's Sporeheart",
+            "item_id": 50228,
+            "item_level": 289,
+            "icon": "inv_jewelry_necklace_22",
+            "name": "Barbed Ymirheim Choker",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -24985,22 +24985,23 @@
             },
             "domination_shards": [],
             "gems": [
-              240983
+              240967
             ],
             "gems_detail": [
               {
-                "id": 240983,
-                "name": "32 Primary",
-                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
+                "id": 240967,
+                "name": "23 Primary / +0.15% critical strike effectiveness per unique Midnight gem color",
+                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_orange"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              13440,
               6652,
               13668,
-              13335,
-              13786
+              12699,
+              12806
             ]
           },
           "shoulder": {
@@ -25041,10 +25042,10 @@
             ]
           },
           "back": {
-            "item_id": 249947,
-            "item_level": 289,
-            "icon": "inv_cape_plate_raidwarriormidnight_d_01",
-            "name": "Night Ender's Greatmantle",
+            "item_id": 239656,
+            "item_level": 285,
+            "icon": "inv_cape_cloth_questbloodelf_b_01",
+            "name": "Adherent's Silken Shroud",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -25060,18 +25061,22 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12806,
-              6652,
-              13440,
-              3174
+              12214,
+              13667,
+              12497,
+              12066,
+              8960,
+              12384,
+              8790,
+              13622
             ]
           },
           "chest": {
-            "item_id": 268285,
-            "item_level": 298,
+            "item_id": 249955,
+            "item_level": 289,
             "enchant": 7987,
-            "icon": "inv_plate_raiddeathknightmidnight_d_01_chest",
-            "name": "Putrid Tender's Battleplate",
+            "icon": "inv_chest_plate_raidwarriormidnight_d_01",
+            "name": "Night Ender's Breastplate",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -25082,6 +25087,7 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -25095,10 +25101,11 @@
               }
             ],
             "bonuses": [
-              42,
-              13577,
-              13335,
-              13786
+              6652,
+              13440,
+              13336,
+              13575,
+              12806
             ]
           },
           "waist": {
@@ -25134,6 +25141,27 @@
               12806,
               13534
             ]
+          },
+          "shirt": {
+            "item_id": 268274,
+            "item_level": 1,
+            "icon": "inv_jewelry_necklace_22",
+            "name": "Blinky's Collar",
+            "item_quality": 2,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": []
           },
           "wrist": {
             "item_id": 237834,
@@ -25175,11 +25203,10 @@
             ]
           },
           "hands": {
-            "item_id": 249953,
-            "item_level": 289,
-            "enchant": 2841,
-            "icon": "inv_glove_plate_raidwarriormidnight_d_01",
-            "name": "Night Ender's Fists",
+            "item_id": 151332,
+            "item_level": 276,
+            "icon": "inv_glove_plate_legiondungeon_c_03",
+            "name": "Voidclaw Gauntlets",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -25190,19 +25217,16 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              2841
-            ],
+            "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
               13440,
-              13337,
-              13574,
-              12806
+              6652,
+              13577,
+              12699,
+              12798
             ]
           },
           "legs": {
@@ -25278,11 +25302,11 @@
             ]
           },
           "finger1": {
-            "item_id": 251217,
+            "item_id": 251093,
             "item_level": 289,
             "enchant": 7967,
-            "icon": "inv_12_trinket_devouring_host_currency1_bronze",
-            "name": "Occlusion of Void",
+            "icon": "inv_12_trinket_devouring_host_currency1_silver",
+            "name": "Omission of Light",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -25322,11 +25346,11 @@
             ]
           },
           "finger2": {
-            "item_id": 268290,
-            "item_level": 298,
+            "item_id": 49812,
+            "item_level": 289,
             "enchant": 7967,
-            "icon": "inv_12_jewelry_rutaani_ring_blue",
-            "name": "Sporecaller's Blooming Loop",
+            "icon": "inv_jewelry_ring_42",
+            "name": "Purloined Wedding Ring",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -25338,13 +25362,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240892
+              240890
             ],
             "gems_detail": [
               {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
               }
             ],
             "enchants": [
@@ -25358,10 +25382,11 @@
               }
             ],
             "bonuses": [
+              13440,
               6652,
               13668,
-              13335,
-              13786
+              12699,
+              12806
             ]
           },
           "trinket1": {
@@ -25433,7 +25458,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
@@ -25447,45 +25473,6 @@
               6652,
               12701,
               13654
-            ]
-          },
-          "offhand": {
-            "item_id": 237846,
-            "item_level": 295,
-            "enchant": 8041,
-            "icon": "inv_sword_2h_questbloodelf_b_01",
-            "name": "Blood Knight's Warblade",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8041
-            ],
-            "enchants_detail": [
-              {
-                "id": 244031,
-                "name": "Enchant Weapon - Arcane Mast",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
-            "bonuses": [
-              12214,
-              13655,
-              12497,
-              12066,
-              12693,
-              8960,
-              8793,
-              13622
             ]
           }
         }
