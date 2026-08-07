@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T10:24:05.582Z",
+  "updated": "2026-08-07T18:08:58.136Z",
   "rosterCount": 30,
   "mplusCount": 29,
   "guild": {
@@ -47,7 +47,7 @@
           "realm": 369
         },
         "mythic": {
-          "world": 2573,
+          "world": 2576,
           "region": 896,
           "realm": 59
         }
@@ -1736,10 +1736,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-09T20:24:55.764Z",
-        "updated_at": "2026-07-09T20:24:55.764Z",
-        "source": "s3",
-        "item_level_equipped": 289,
+        "created_at": "2026-08-07T17:49:57.000Z",
+        "updated_at": "2026-08-07T17:49:57.000Z",
+        "source": "db",
+        "item_level_equipped": 290.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -1938,7 +1938,7 @@
               12066,
               8960,
               12384,
-              8793,
+              8791,
               13622
             ]
           },
@@ -2171,14 +2171,14 @@
               12066,
               8960,
               12384,
-              8793,
+              8791,
               13622
             ]
           },
           "finger1": {
             "item_id": 193708,
             "item_level": 289,
-            "enchant": 7995,
+            "enchant": 7967,
             "icon": "inv_10_dungeonjewelry_explorer_ring_1_color1",
             "name": "Platinum Star Band",
             "item_quality": 4,
@@ -2202,13 +2202,13 @@
               }
             ],
             "enchants": [
-              7995
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 243985,
-                "name": "Enchant Ring - Nature's Wrath",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
@@ -2220,11 +2220,11 @@
             ]
           },
           "finger2": {
-            "item_id": 249919,
-            "item_level": 276,
-            "enchant": 7995,
-            "icon": "inv_12_jewelry_silvermoonelf_ring_red1",
-            "name": "Sin'dorei Band of Hope",
+            "item_id": 240949,
+            "item_level": 285,
+            "enchant": 7967,
+            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
+            "name": "Masterwork Sin'dorei Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -2246,20 +2246,22 @@
               }
             ],
             "enchants": [
-              7995
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 243985,
-                "name": "Enchant Ring - Nature's Wrath",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              6652,
-              13668,
-              13334,
-              12798
+              12214,
+              13667,
+              12497,
+              12066,
+              8791,
+              13622
             ]
           },
           "trinket1": {
@@ -2331,7 +2333,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8051
             ],
             "enchants_detail": [
               {
@@ -5055,10 +5058,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-07T05:02:39.734Z",
-        "updated_at": "2026-08-07T05:02:39.734Z",
-        "source": "s3",
-        "item_level_equipped": 210,
+        "created_at": "2026-08-07T18:02:24.000Z",
+        "updated_at": "2026-08-07T18:02:24.000Z",
+        "source": "db",
+        "item_level_equipped": 231,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -5070,14 +5073,60 @@
         },
         "items": {
           "head": {
-            "item_id": 18325,
-            "item_level": 151,
-            "icon": "inv_helmet_31",
-            "name": "Felhide Cap",
-            "item_quality": 3,
+            "item_id": 251177,
+            "item_level": 246,
+            "icon": "inv_helm_leather_dungeonharronir_c_01",
+            "name": "Fetid Vilecrown",
+            "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -5089,10 +5138,12 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              12785,
+              13439,
               6652,
-              8811,
-              13609,
-              7756
+              12667,
+              13577,
+              12699
             ]
           },
           "neck": {
@@ -5177,69 +5228,30 @@
             ]
           },
           "chest": {
-            "item_id": 237694,
-            "item_level": 141,
-            "icon": "inv_chest_leather_raiddemonhunterethereal_d_01",
-            "name": "Charhound's Vicious Bindings",
+            "item_id": 151313,
+            "item_level": 246,
+            "icon": "inv_chest_leather_legiondungeon_c_03",
+            "name": "Vest of the Void's Embrace",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              null,
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
+            "is_azerite_armor": false,
+            "azerite_powers": [],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "tier": "34",
             "gems": [],
             "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12352,
-              10355,
-              12229,
+              12785,
+              13439,
               6652,
-              12676,
-              1511,
-              10255
+              13577,
+              12699
             ]
           },
           "waist": {
@@ -5292,10 +5304,10 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 258580,
+            "item_id": 251103,
             "item_level": 266,
-            "icon": "inv_cloth_draenordungeon_c_01bracer",
-            "name": "Bracers of Blazing Light",
+            "icon": "inv_bracer_leather_dungeonharronir_c_01",
+            "name": "Custodial Cuffs",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5400,11 +5412,10 @@
             ]
           },
           "finger1": {
-            "item_id": 246281,
-            "item_level": 144,
-            "enchant": 7340,
-            "icon": "inv_misc_60raid_ring_1b",
-            "name": "Ring of the Panoply",
+            "item_id": 274825,
+            "item_level": 256,
+            "icon": "inv_70_quest_ring10d",
+            "name": "Hal'hadar Assassin's Signet",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5415,41 +5426,15 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              213479,
-              213479
-            ],
-            "gems_detail": [
-              {
-                "id": 213479,
-                "name": "10 Haste / 3 Crit",
-                "icon": "inv_jewelcrafting_cutstandartgemhybrid_color1_2"
-              },
-              {
-                "id": 213479,
-                "name": "10 Haste / 3 Crit",
-                "icon": "inv_jewelcrafting_cutstandartgemhybrid_color1_2"
-              }
-            ],
-            "enchants": [
-              7340
-            ],
-            "enchants_detail": [
-              {
-                "id": 223674,
-                "name": "21 Haste",
-                "icon": "inv_misc_enchantedscroll"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              10390,
+              12788,
               6652,
-              10383,
-              12353,
-              10016,
-              10255,
-              10879,
-              10396
+              13668,
+              11311
             ]
           },
           "finger2": {
@@ -5584,10 +5569,10 @@
             ]
           },
           "offhand": {
-            "item_id": 258524,
-            "item_level": 246,
-            "icon": "inv_hand_1h_draenorhonor_c_01",
-            "name": "Grips of the Dark Viceroy",
+            "item_id": 275220,
+            "item_level": 259,
+            "icon": "inv_sword_1h_outdoorvoidelf_c_01",
+            "name": "Imperator's Voidedged Cutlass",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5603,10 +5588,8 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12785,
-              13439,
-              6652,
-              12701
+              12793,
+              8902
             ]
           }
         }
@@ -8093,11 +8076,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 20840,
+      "achievement_points": 20850,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-07-31T14:10:38.000Z",
+      "last_crawled_at": "2026-08-07T17:35:42.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -8584,9 +8567,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-07T02:54:41.000Z",
-        "updated_at": "2026-08-07T02:54:41.000Z",
-        "source": "db",
+        "created_at": "2026-07-29T11:06:33.146Z",
+        "updated_at": "2026-07-29T11:06:33.146Z",
+        "source": "s3",
         "item_level_equipped": 293,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -9225,8 +9208,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8052
+              7981
             ],
             "enchants_detail": [
               {
@@ -17498,7 +17480,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/malganis/24/237251096-avatar.jpg?alt=/wow/static/images/2d/avatar/8-1.jpg",
       "region": "us",
       "realm": "Mal'Ganis",
-      "last_crawled_at": "2026-08-06T10:41:35.000Z",
+      "last_crawled_at": "2026-08-07T17:58:40.000Z",
       "profile_url": "https://raider.io/characters/us/malganis/Líthorian",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -47921,7 +47903,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/150/234002582-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-07-31T14:10:38.000Z",
+      "last_crawled_at": "2026-08-07T17:35:46.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmakr",
       "profile_banner": "",
       "use_animated_banner": false,
@@ -55656,7 +55638,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/6/236403974-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-07-31T14:10:39.000Z",
+      "last_crawled_at": "2026-08-07T17:35:42.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Crumbl",
       "profile_banner": "",
       "use_animated_banner": false,
