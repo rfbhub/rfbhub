@@ -1,12 +1,26 @@
 {
-  "generated": "2026-08-06T00:03:00.715Z",
-  "weekStart": "2026-07-30",
-  "weekEnd": "2026-08-06",
+  "generated": "2026-08-07T01:42:43.031Z",
+  "weekStart": "2026-07-31",
+  "weekEnd": "2026-08-07",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
   "categories": {
     "topClimbers": [
+      {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "previous": 3712,
+        "current": 3754,
+        "gain": 42
+      },
+      {
+        "name": "Devrak",
+        "class": "Rogue",
+        "previous": 4027,
+        "current": 4066,
+        "gain": 39
+      },
       {
         "name": "Vampiral",
         "class": "Hunter",
@@ -20,22 +34,25 @@
         "previous": 3224,
         "current": 3251,
         "gain": 27
-      },
+      }
+    ],
+    "parseSpotlight": [
       {
-        "name": "Devrak",
-        "class": "Rogue",
-        "previous": 4027,
-        "current": 4052,
-        "gain": 25
+        "name": "Moiryn",
+        "class": "Shaman",
+        "difficulty": "Mythic",
+        "previous": 42,
+        "current": 48,
+        "gain": 6
       }
     ],
     "gearMovers": [
       {
         "name": "Tinderhulk",
         "class": "Death Knight",
-        "previous": 284.4,
+        "previous": 284,
         "current": 287.4,
-        "gain": 3
+        "gain": 3.4
       },
       {
         "name": "Phokus",
@@ -45,12 +62,20 @@
         "gain": 2.3
       }
     ],
+    "highKeyPushers": [
+      {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "previousKey": 19,
+        "currentKey": 21
+      }
+    ],
     "newFaces": [
       {
         "name": "Xylaris",
         "class": "Hunter",
         "spec": "Beast Mastery",
-        "ilvl": 247,
+        "ilvl": 291.9,
         "rio": 3845,
         "progression": "1/9 M"
       },
@@ -67,12 +92,12 @@
   "summary": {
     "totalRaiders": 29,
     "rosterDelta": 1,
-    "avgRio": 3366,
-    "rioDelta": 2,
-    "avgIlvl": 287.7,
-    "ilvlDelta": -3,
-    "avgMythicParse": 58,
-    "parseDelta": 1,
+    "avgRio": 3368,
+    "rioDelta": 4,
+    "avgIlvl": 290.9,
+    "ilvlDelta": 0.2,
+    "avgMythicParse": 59,
+    "parseDelta": 2,
     "mythicRaidersCount": 29,
     "totalMythicKills": 217,
     "highestKey": 22,
@@ -83,10 +108,10 @@
     "parseDistribution": {
       "pink": 5,
       "orange": 13,
-      "purple": 61,
-      "blue": 54
+      "purple": 63,
+      "blue": 52
     },
-    "totalCategories": 3,
-    "totalHighlights": 7
+    "totalCategories": 5,
+    "totalHighlights": 10
   }
 }
