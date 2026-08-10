@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T21:09:30.272Z",
+  "updated": "2026-08-10T23:57:42.796Z",
   "rosterCount": 30,
   "mplusCount": 32,
   "guild": {
@@ -47,7 +47,7 @@
           "realm": 369
         },
         "mythic": {
-          "world": 2608,
+          "world": 2609,
           "region": 897,
           "realm": 59
         }
@@ -9386,7 +9386,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/90/267302234-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-10T09:09:43.000Z",
+      "last_crawled_at": "2026-08-10T23:30:40.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Vampiral",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -9873,10 +9873,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-17T03:17:07.557Z",
-        "updated_at": "2026-07-17T03:17:07.557Z",
-        "source": "s3",
-        "item_level_equipped": 292,
+        "created_at": "2026-08-10T23:40:02.000Z",
+        "updated_at": "2026-08-10T23:40:02.000Z",
+        "source": "db",
+        "item_level_equipped": 292.75,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -10470,7 +10470,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8052
             ],
             "enchants_detail": [
               {
@@ -65235,9 +65236,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-09T01:56:44.250Z",
-        "updated_at": "2026-08-09T01:56:44.250Z",
-        "source": "s3",
+        "created_at": "2026-08-10T23:46:01.000Z",
+        "updated_at": "2026-08-10T23:46:01.000Z",
+        "source": "db",
         "item_level_equipped": 293,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -65617,10 +65618,10 @@
             ]
           },
           "hands": {
-            "item_id": 151332,
+            "item_id": 249953,
             "item_level": 289,
-            "icon": "inv_glove_plate_legiondungeon_c_03",
-            "name": "Voidclaw Gauntlets",
+            "icon": "inv_glove_plate_raidwarriormidnight_d_01",
+            "name": "Night Ender's Fists",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -65631,15 +65632,16 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13440,
+              13335,
+              13337,
               6652,
-              13577,
-              12699,
+              13574,
               12806
             ]
           },
@@ -65857,11 +65859,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 258525,
+            "item_id": 251168,
             "item_level": 298,
-            "enchant": 8039,
-            "icon": "inv_mace_1h_cataclysm_c_01",
-            "name": "Scepter of the Endless Night",
+            "enchant": 7981,
+            "icon": "inv_sword_2h_dungeonharronir_c_01",
+            "name": "Liferipper's Cutlass",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -65875,12 +65877,13 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
-                "id": 244029,
-                "name": "Enchant Weapon - Acuity of the Ren'dorei",
+                "id": 243971,
+                "name": "Enchant Weapon - Jan'alai's Precision",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
@@ -65892,10 +65895,11 @@
             ]
           },
           "offhand": {
-            "item_id": 249275,
+            "item_id": 251117,
             "item_level": 298,
-            "icon": "inv_shield_1h_raidmidnight_d_01",
-            "name": "Bulwark of Noble Resolve",
+            "enchant": 7981,
+            "icon": "inv_axe_2h_domanaar_b_01",
+            "name": "Whirling Voidcleaver",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -65908,11 +65912,21 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              7981,
+              8052
+            ],
+            "enchants_detail": [
+              {
+                "id": 243971,
+                "name": "Enchant Weapon - Jan'alai's Precision",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+              }
+            ],
             "bonuses": [
+              13440,
               6652,
-              13335,
+              12701,
               13654
             ]
           }
