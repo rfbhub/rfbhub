@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T13:54:38.708Z",
+  "updated": "2026-08-12T16:24:51.004Z",
   "rosterCount": 30,
   "mplusCount": 32,
   "guild": {
@@ -121,11 +121,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 36745,
+      "achievement_points": 36715,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/81/200771409-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-11T14:55:42.000Z",
+      "last_crawled_at": "2026-08-12T15:52:42.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Xylaris",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -612,10 +612,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-07-26T02:01:11.338Z",
-        "updated_at": "2026-07-26T02:01:11.338Z",
+        "created_at": "2026-08-12T15:52:42.940Z",
+        "updated_at": "2026-08-12T15:52:42.940Z",
         "source": "s3",
-        "item_level_equipped": 247,
+        "item_level_equipped": 291,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -627,54 +627,94 @@
         },
         "items": {
           "head": {
-            "item_id": 255517,
-            "item_level": 246,
-            "enchant": 7991,
+            "item_id": 249988,
+            "item_level": 289,
+            "enchant": 8017,
             "icon": "inv_helm_mail_raidhuntermidnight_d_01",
-            "name": "Galactic Gladiator's Chain Helm",
+            "name": "Primal Sentry's Maw",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240902
-            ],
-            "gems_detail": [
-              {
-                "id": 240902,
-                "name": "16 Mast & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
-              }
-            ],
+            "tier": "35",
+            "gems": [],
+            "gems_detail": [],
             "enchants": [
-              7991
+              8017
             ],
             "enchants_detail": [
               {
-                "id": 243981,
-                "name": "Enchant Helm - Empowered Blessing of Speed",
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12785,
-              13448,
-              13577,
-              13452,
-              13576
+              6652,
+              12667,
+              13440,
+              13338,
+              13575,
+              12806
             ]
           },
           "neck": {
-            "item_id": 240952,
-            "item_level": 239,
-            "icon": "inv_12_profession_jewelcrafting_necklace2_silver",
-            "name": "Thalassian Competitor's Amulet",
+            "item_id": 240950,
+            "item_level": 285,
+            "icon": "inv_12_profession_jewelcrafting_necklace2_gold",
+            "name": "Masterwork Sin'dorei Amulet",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -686,32 +726,95 @@
             },
             "domination_shards": [],
             "gems": [
-              241144
+              240898
             ],
             "gems_detail": [
               {
-                "id": 241144,
-                "name": "23 Primary / +5% Damage Reduction when affected by Crowd Control",
-                "icon": "inv_misc_cutgemsuperior6"
+                "id": 240898,
+                "name": "16 Mast & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12245,
-              13760,
-              12495,
-              13571,
-              13448,
-              8794
+              12214,
+              13667,
+              12497,
+              12066,
+              8791,
+              13622
             ]
           },
           "shoulder": {
-            "item_id": 249986,
-            "item_level": 263,
-            "enchant": 7973,
-            "icon": "inv_shoulder_mail_raidhuntermidnight_d_01",
-            "name": "Primal Sentry's Trophies",
+            "item_id": 193704,
+            "item_level": 289,
+            "enchant": 8001,
+            "icon": "inv_mail_dragondungeon_c_01_shoulder",
+            "name": "Scaled Commencement Spaulders",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              8001
+            ],
+            "enchants_detail": [
+              {
+                "id": 243991,
+                "name": "Enchant Shoulders - Amirdrassil's Grace",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              13440,
+              6652,
+              13577,
+              12699,
+              12806
+            ]
+          },
+          "back": {
+            "item_id": 258575,
+            "item_level": 289,
+            "icon": "inv_cape_draenordungeon_c_02_plate",
+            "name": "Rigid Scale Greatcloak",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              13440,
+              6652,
+              13577,
+              12699,
+              12806
+            ]
+          },
+          "chest": {
+            "item_id": 249991,
+            "item_level": 289,
+            "enchant": 7987,
+            "icon": "inv_chest_mail_raidhuntermidnight_d_01",
+            "name": "Primal Sentry's Scaleplate",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -726,70 +829,6 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7973
-            ],
-            "enchants_detail": [
-              {
-                "id": 243963,
-                "name": "Enchant Shoulders - Akil'zon's Swiftness",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13448,
-              13452,
-              13340,
-              13574,
-              12790
-            ]
-          },
-          "back": {
-            "item_id": 239678,
-            "item_level": 242,
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Cloth Cloak",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              12245,
-              13760,
-              12496,
-              13571,
-              13448,
-              8794
-            ]
-          },
-          "chest": {
-            "item_id": 255512,
-            "item_level": 263,
-            "enchant": 7987,
-            "icon": "inv_chest_mail_raidhuntermidnight_d_01",
-            "name": "Galactic Gladiator's Chain Tunic",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
               7987
             ],
             "enchants_detail": [
@@ -800,17 +839,18 @@
               }
             ],
             "bonuses": [
-              13448,
-              13577,
-              13452,
-              12790
+              6652,
+              13440,
+              13336,
+              13575,
+              12806
             ]
           },
           "waist": {
-            "item_id": 244565,
-            "item_level": 236,
-            "icon": "inv_belt_mail_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Chain Girdle",
+            "item_id": 249985,
+            "item_level": 289,
+            "icon": "inv_belt_mail_raidhuntermidnight_d_01",
+            "name": "Primal Sentry's Cinch",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -821,28 +861,16 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240902
-            ],
-            "gems_detail": [
-              {
-                "id": 240902,
-                "name": "16 Mast & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12245,
-              13760,
-              13576,
-              12494,
-              13571,
-              13448,
-              8960,
-              12384,
-              8794
+              12806,
+              13335,
+              40,
+              12667,
+              3174
             ]
           },
           "shirt": {
@@ -867,10 +895,10 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 255525,
-            "item_level": 263,
+            "item_id": 249984,
+            "item_level": 289,
             "icon": "inv_bracer_mail_raidhuntermidnight_d_01",
-            "name": "Galactic Gladiator's Chain Wristguards",
+            "name": "Primal Sentry's Wound Stanchers",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -881,29 +909,20 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240902
-            ],
-            "gems_detail": [
-              {
-                "id": 240902,
-                "name": "16 Mast & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13448,
-              13577,
-              13452,
-              12790,
-              13576
+              6652,
+              12667,
+              13440,
+              12806
             ]
           },
           "hands": {
             "item_id": 249989,
-            "item_level": 263,
+            "item_level": 276,
             "icon": "inv_glove_mail_raidhuntermidnight_d_01",
             "name": "Primal Sentry's Talonguards",
             "item_quality": 4,
@@ -922,19 +941,19 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13448,
-              13452,
+              6652,
+              13440,
               13337,
               13574,
-              12790
+              12798
             ]
           },
           "legs": {
-            "item_id": 244566,
-            "item_level": 239,
+            "item_id": 249987,
+            "item_level": 298,
             "enchant": 8159,
-            "icon": "inv_pant_mail_questbloodelf_b_01",
-            "name": "Thalassian Competitor's Chain Leggings",
+            "icon": "inv_pant_mail_raidhuntermidnight_d_01",
+            "name": "Primal Sentry's Legguards",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -945,6 +964,7 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -958,22 +978,20 @@
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12495,
-              13571,
-              13448,
-              8960,
-              12384,
-              8794
+              6652,
+              13335,
+              13786,
+              13339,
+              13575,
+              3183
             ]
           },
           "feet": {
-            "item_id": 255514,
-            "item_level": 246,
-            "enchant": 8019,
+            "item_id": 249990,
+            "item_level": 298,
+            "enchant": 7963,
             "icon": "inv_boot_mail_raidhuntermidnight_d_01",
-            "name": "Galactic Gladiator's Chain Boots",
+            "name": "Primal Sentry's Swiftsteps",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -987,28 +1005,28 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8019
+              7963
             ],
             "enchants_detail": [
               {
-                "id": 244009,
-                "name": "Enchant Boots - Farstrider's Hunt",
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12785,
-              13448,
-              13577,
-              13452
+              6652,
+              13335,
+              13786,
+              3183
             ]
           },
           "finger1": {
-            "item_id": 240951,
-            "item_level": 239,
-            "enchant": 7969,
-            "icon": "inv_12_profession_jewelcrafting_ring1_silver",
-            "name": "Thalassian Competitor's Signet",
+            "item_id": 193708,
+            "item_level": 289,
+            "enchant": 7967,
+            "icon": "inv_10_dungeonjewelry_explorer_ring_1_color1",
+            "name": "Platinum Star Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1020,40 +1038,39 @@
             },
             "domination_shards": [],
             "gems": [
-              240902
+              240983
             ],
             "gems_detail": [
               {
-                "id": 240902,
-                "name": "16 Mast & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
+                "id": 240983,
+                "name": "32 Primary",
+                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
               }
             ],
             "enchants": [
-              7969
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12495,
-              13571,
-              13448,
-              8794
+              13440,
+              6652,
+              13668,
+              12699,
+              12806
             ]
           },
           "finger2": {
-            "item_id": 240951,
-            "item_level": 239,
-            "enchant": 7969,
-            "icon": "inv_12_profession_jewelcrafting_ring1_silver",
-            "name": "Thalassian Competitor's Signet",
+            "item_id": 268290,
+            "item_level": 298,
+            "enchant": 7967,
+            "icon": "inv_12_jewelry_rutaani_ring_blue",
+            "name": "Sporecaller's Blooming Loop",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1065,39 +1082,37 @@
             },
             "domination_shards": [],
             "gems": [
-              240902
+              240898
             ],
             "gems_detail": [
               {
-                "id": 240902,
-                "name": "16 Mast & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
+                "id": 240898,
+                "name": "16 Mast & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
               }
             ],
             "enchants": [
-              7969
+              7967
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12245,
-              13760,
-              12495,
-              13571,
-              13448,
-              8794
+              6652,
+              13668,
+              13335,
+              13786
             ]
           },
           "trinket1": {
-            "item_id": 255616,
-            "item_level": 246,
-            "icon": "ability_pvp_gladiatormedallion",
-            "name": "Galactic Gladiator's Medallion",
+            "item_id": 249343,
+            "item_level": 298,
+            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
+            "name": "Gaze of the Alnseer",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1113,16 +1128,16 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12785,
-              13452,
-              13656
+              6652,
+              13335,
+              13654
             ]
           },
           "trinket2": {
-            "item_id": 255614,
-            "item_level": 246,
-            "icon": "inv_misc_token_argentdawn3",
-            "name": "Galactic Gladiator's Insignia of Alacrity",
+            "item_id": 193701,
+            "item_level": 298,
+            "icon": "inv_misc_enggizmos_18",
+            "name": "Algeth'ar Puzzle Box",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1138,17 +1153,18 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12785,
-              13452,
-              13656
+              13440,
+              42,
+              12699,
+              13654
             ]
           },
           "mainhand": {
-            "item_id": 255630,
-            "item_level": 246,
+            "item_id": 251095,
+            "item_level": 298,
             "enchant": 8039,
-            "icon": "inv_firearm_2h_raidmidnight_d_01",
-            "name": "Galactic Gladiator's Blaster",
+            "icon": "inv_bow_1h_dungeonharronir_c_01",
+            "name": "Hurricane's Heart",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1172,9 +1188,10 @@
               }
             ],
             "bonuses": [
-              12785,
-              13452,
-              13656
+              13440,
+              6652,
+              12701,
+              13654
             ]
           }
         }
@@ -20873,11 +20890,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 11950,
+      "achievement_points": 11960,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/51/170856499-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-07-31T14:09:37.000Z",
+      "last_crawled_at": "2026-08-12T14:59:40.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Solackerr",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
