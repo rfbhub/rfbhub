@@ -1,19 +1,12 @@
 {
-  "generated": "2026-08-13T23:45:35.057Z",
-  "weekStart": "2026-08-06",
-  "weekEnd": "2026-08-13",
+  "generated": "2026-08-14T23:25:34.909Z",
+  "weekStart": "2026-08-07",
+  "weekEnd": "2026-08-14",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
   "categories": {
     "topClimbers": [
-      {
-        "name": "Moiryn",
-        "class": "Shaman",
-        "previous": 3712,
-        "current": 3754,
-        "gain": 42
-      },
       {
         "name": "Anjaleena",
         "class": "Paladin",
@@ -32,36 +25,78 @@
         "gain": 11
       },
       {
+        "name": "Moiryn",
+        "class": "Shaman",
+        "difficulty": "Mythic",
+        "previous": 42,
+        "current": 51,
+        "gain": 9
+      },
+      {
         "name": "Devrak",
         "class": "Rogue",
         "difficulty": "Mythic",
         "previous": 79,
         "current": 87,
         "gain": 8
+      }
+    ],
+    "newPinkParses": [
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Imperator Averzian",
+        "parse": 100,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 79622
       },
       {
-        "name": "Moiryn",
-        "class": "Shaman",
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Fallen-King Salhadaar",
+        "parse": 99,
+        "previousParse": null,
         "difficulty": "Mythic",
-        "previous": 42,
-        "current": 50,
-        "gain": 8
+        "dps": 83470
       },
       {
-        "name": "Lykra",
-        "class": "Druid",
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Vaelgor & Ezzorak",
+        "parse": 99,
+        "previousParse": null,
         "difficulty": "Mythic",
-        "previous": 52,
-        "current": 58,
-        "gain": 6
+        "dps": 121315
       },
       {
-        "name": "Noxris",
-        "class": "Demon Hunter",
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Chimaerus, the Undreamt God",
+        "parse": 99,
+        "previousParse": null,
         "difficulty": "Mythic",
-        "previous": 43,
-        "current": 48,
-        "gain": 5
+        "dps": 87214
+      }
+    ],
+    "newOrangeParses": [
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Vorasius",
+        "parse": 97,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 74572
+      },
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Crown of the Cosmos",
+        "parse": 98,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 84860
       }
     ],
     "progression": [
@@ -90,14 +125,14 @@
         "current": "6/9 M"
       },
       {
-        "name": "Blinkforlife",
-        "class": "Mage",
+        "name": "Vampiral",
+        "class": "Hunter",
         "previous": "4/9 M",
         "current": "5/9 M"
       },
       {
-        "name": "Vampiral",
-        "class": "Hunter",
+        "name": "Blinkforlife",
+        "class": "Mage",
         "previous": "4/9 M",
         "current": "5/9 M"
       },
@@ -110,47 +145,39 @@
     ],
     "gearMovers": [
       {
-        "name": "Xylaris",
-        "class": "Hunter",
-        "previous": 247,
-        "current": 291,
-        "gain": 44
-      },
-      {
         "name": "Envenumb",
         "class": "Rogue",
         "previous": 250,
-        "current": 292,
-        "gain": 42
+        "current": 294,
+        "gain": 44
       },
       {
         "name": "Phokus",
         "class": "Hunter",
-        "previous": 287.3,
+        "previous": 286,
         "current": 291,
-        "gain": 3.8
+        "gain": 5
       },
       {
-        "name": "Hashmaker",
-        "class": "Paladin",
-        "previous": 293,
-        "current": 295,
-        "gain": 2
+        "name": "Oulir",
+        "class": "Druid",
+        "previous": 289,
+        "current": 293,
+        "gain": 4
       },
       {
-        "name": "Vampiral",
-        "class": "Hunter",
-        "previous": 292,
-        "current": 294,
-        "gain": 2
-      }
-    ],
-    "highKeyPushers": [
-      {
-        "name": "Moiryn",
+        "name": "Radaamac",
         "class": "Shaman",
-        "previousKey": 19,
-        "currentKey": 21
+        "previous": 289,
+        "current": 292,
+        "gain": 3
+      },
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "previous": 291,
+        "current": 293,
+        "gain": 2
       }
     ],
     "newFaces": [
@@ -158,7 +185,7 @@
         "name": "Hersin",
         "class": "Warrior",
         "spec": "Protection",
-        "ilvl": 293,
+        "ilvl": 294,
         "rio": 4088,
         "progression": "7/9 M"
       },
@@ -171,46 +198,70 @@
         "progression": "3/9 M"
       },
       {
-        "name": "Laillaida",
-        "class": "Death Knight",
-        "spec": "Unholy",
-        "ilvl": 288,
+        "name": "Dìscørd",
+        "class": "Demon Hunter",
+        "spec": "Vengeance",
+        "ilvl": 286,
         "rio": 3019,
+        "progression": "1/9 H"
+      },
+      {
+        "name": "How",
+        "class": "Death Knight",
+        "spec": "Blood",
+        "ilvl": 291,
+        "rio": 3002,
+        "progression": "3/9 M"
+      },
+      {
+        "name": "Taskadin",
+        "class": "Paladin",
+        "spec": "Protection",
+        "ilvl": 291,
+        "rio": 2846,
+        "progression": "5/9 M"
+      },
+      {
+        "name": "Fynmongozug",
+        "class": "Warrior",
+        "spec": "Arms",
+        "ilvl": 286,
+        "rio": 2652,
         "progression": ""
       },
       {
-        "name": "Dìscørd",
-        "class": "Demon Hunter",
-        "spec": "Devourer",
-        "ilvl": 282,
-        "rio": 3019,
-        "progression": "1/9 H"
+        "name": "Gazfrosty",
+        "class": "Mage",
+        "spec": "Frost",
+        "ilvl": 289,
+        "rio": 366,
+        "progression": ""
       }
     ]
   },
   "summary": {
-    "totalRaiders": 30,
-    "rosterDelta": 1,
-    "avgRio": 3323,
-    "rioDelta": -43,
-    "avgIlvl": 290.5,
-    "ilvlDelta": 2.8,
-    "avgMythicParse": 59,
-    "parseDelta": 1,
-    "mythicRaidersCount": 29,
-    "totalMythicKills": 197,
+    "totalRaiders": 28,
+    "rosterDelta": -1,
+    "avgRio": 3317,
+    "rioDelta": -51,
+    "avgIlvl": 291.4,
+    "ilvlDelta": 2.1,
+    "avgMythicParse": 63,
+    "parseDelta": 5,
+    "mythicRaidersCount": 25,
+    "totalMythicKills": 160,
     "highestKey": 22,
     "highestKeyPlayer": "Líthorian",
     "highestKeyClass": "Death Knight",
-    "enchantPct": 77,
-    "fullyEnchanted": 23,
+    "enchantPct": 79,
+    "fullyEnchanted": 22,
     "parseDistribution": {
-      "pink": 5,
-      "orange": 12,
-      "purple": 61,
-      "blue": 46
+      "pink": 9,
+      "orange": 14,
+      "purple": 48,
+      "blue": 36
     },
-    "totalCategories": 6,
-    "totalHighlights": 24
+    "totalCategories": 7,
+    "totalHighlights": 29
   }
 }
