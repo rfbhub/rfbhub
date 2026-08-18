@@ -1,19 +1,19 @@
 {
-  "generated": "2026-08-17T23:26:50.121Z",
-  "weekStart": "2026-08-10",
-  "weekEnd": "2026-08-17",
+  "generated": "2026-08-18T23:25:46.874Z",
+  "weekStart": "2026-08-11",
+  "weekEnd": "2026-08-18",
   "seasonName": "Midnight S1",
   "raidName": "Midnight Falls",
   "guildName": "Rolling For Blame",
   "categories": {
     "parseSpotlight": [
       {
-        "name": "Blinkforlife",
-        "class": "Mage",
+        "name": "Xylaris",
+        "class": "Hunter",
         "difficulty": "Mythic",
-        "previous": 58,
-        "current": 64,
-        "gain": 6
+        "previous": 52,
+        "current": 62,
+        "gain": 10
       }
     ],
     "newPinkParses": [
@@ -72,28 +72,46 @@
         "previousParse": null,
         "difficulty": "Mythic",
         "dps": 84860
+      },
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Rotmire",
+        "parse": 97,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 99995
+      },
+      {
+        "name": "Vampiral",
+        "class": "Hunter",
+        "boss": "Rotmire",
+        "parse": 97,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 165030
       }
     ],
     "gearMovers": [
       {
+        "name": "Xylaris",
+        "class": "Hunter",
+        "previous": 247,
+        "current": 292,
+        "gain": 45
+      },
+      {
         "name": "Envenumb",
         "class": "Rogue",
         "previous": 250,
-        "current": 294,
-        "gain": 44
+        "current": 266,
+        "gain": 16
       },
       {
-        "name": "Dìscørd",
-        "class": "Demon Hunter",
-        "previous": 280,
-        "current": 286,
-        "gain": 6
-      },
-      {
-        "name": "Oulir",
-        "class": "Druid",
-        "previous": 289,
-        "current": 293,
+        "name": "Erther",
+        "class": "Hunter",
+        "previous": 293,
+        "current": 297,
         "gain": 4
       },
       {
@@ -104,79 +122,71 @@
         "gain": 3
       },
       {
-        "name": "Phokus",
-        "class": "Hunter",
-        "previous": 287.6,
-        "current": 290,
-        "gain": 2.4
+        "name": "Hashmaker",
+        "class": "Paladin",
+        "previous": 293,
+        "current": 295,
+        "gain": 2
       }
     ],
     "newFaces": [
       {
-        "name": "Quit",
-        "class": "Shaman",
-        "spec": "Enhancement",
-        "ilvl": 293,
-        "rio": 3266,
-        "progression": "3/9 M"
+        "name": "Fynmongozug",
+        "class": "Warrior",
+        "spec": "Arms",
+        "ilvl": 293.3,
+        "rio": 1672,
+        "progression": ""
       },
       {
-        "name": "How",
+        "name": "Gazfrosty",
+        "class": "Mage",
+        "spec": "Arcane",
+        "ilvl": 292,
+        "rio": 1075,
+        "progression": ""
+      },
+      {
+        "name": "Banehate",
         "class": "Death Knight",
-        "spec": "Frost",
-        "ilvl": 293,
-        "rio": 3002,
-        "progression": "3/9 M"
+        "spec": "Blood",
+        "ilvl": 286,
+        "rio": 400,
+        "progression": "4/9 M"
       },
       {
         "name": "Taskadin",
         "class": "Paladin",
         "spec": "Protection",
         "ilvl": 291,
-        "rio": 2846,
+        "rio": 0,
         "progression": "5/9 M"
-      },
-      {
-        "name": "Fynmongozug",
-        "class": "Warrior",
-        "spec": "Arms",
-        "ilvl": 286,
-        "rio": 2652,
-        "progression": ""
-      },
-      {
-        "name": "Gazfrosty",
-        "class": "Mage",
-        "spec": "Frost",
-        "ilvl": 289,
-        "rio": 366,
-        "progression": ""
       }
     ]
   },
   "summary": {
-    "totalRaiders": 27,
-    "rosterDelta": -2,
-    "avgRio": 3289,
-    "rioDelta": -79,
-    "avgIlvl": 289.9,
-    "ilvlDelta": 2.1,
-    "avgMythicParse": 63,
-    "parseDelta": 4,
-    "mythicRaidersCount": 24,
-    "totalMythicKills": 152,
-    "highestKey": 22,
-    "highestKeyPlayer": "Devrak",
-    "highestKeyClass": "Rogue",
-    "enchantPct": 67,
-    "fullyEnchanted": 18,
+    "totalRaiders": 26,
+    "rosterDelta": -3,
+    "avgRio": 427,
+    "rioDelta": -2942,
+    "avgIlvl": 290.1,
+    "ilvlDelta": 2.4,
+    "avgMythicParse": 62,
+    "parseDelta": 3,
+    "mythicRaidersCount": 23,
+    "totalMythicKills": 164,
+    "highestKey": 12,
+    "highestKeyPlayer": "Hersin",
+    "highestKeyClass": "Warrior",
+    "enchantPct": 50,
+    "fullyEnchanted": 13,
     "parseDistribution": {
       "pink": 8,
       "orange": 14,
-      "purple": 47,
-      "blue": 33
+      "purple": 49,
+      "blue": 38
     },
     "totalCategories": 5,
-    "totalHighlights": 17
+    "totalHighlights": 18
   }
 }
