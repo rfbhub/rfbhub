@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18T19:05:12.642Z",
+  "updated": "2026-08-18T19:46:38.278Z",
   "rosterCount": 26,
   "mplusCount": 0,
   "guild": {
@@ -8870,10 +8870,10 @@
       ],
       "mythic_plus_best_runs": [],
       "gear": {
-        "created_at": "2026-08-18T07:53:58.255Z",
-        "updated_at": "2026-08-18T07:53:58.255Z",
-        "source": "s3",
-        "item_level_equipped": 291,
+        "created_at": "2026-08-18T19:31:13.000Z",
+        "updated_at": "2026-08-18T19:31:13.000Z",
+        "source": "db",
+        "item_level_equipped": 291.938,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9257,11 +9257,10 @@
             ]
           },
           "finger1": {
-            "item_id": 240949,
-            "item_level": 285,
-            "enchant": 7967,
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "name": "Masterwork Sin'dorei Band",
+            "item_id": 251148,
+            "item_level": 292,
+            "icon": "inv_12_jewelry_zulaman_troll_ring_green2",
+            "name": "Pilfered Precious Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9272,33 +9271,16 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240898
-            ],
-            "gems_detail": [
-              {
-                "id": 240898,
-                "name": "16 Mast & 7 Crit",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8795,
-              13622
+              12833,
+              13439,
+              6652,
+              13668,
+              12699
             ]
           },
           "finger2": {
@@ -9345,10 +9327,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 249808,
-            "item_level": 298,
-            "icon": "inv_12_trinket_raid_voidspire_healer2_litanyoflightblindwrath",
-            "name": "Litany of Lightblind Wrath",
+            "item_id": 264507,
+            "item_level": 295,
+            "icon": "inv_112_raidtrinkets_etherealenergystoragebattery_gold",
+            "name": "Crucible of Erratic Energies",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9364,9 +9346,7 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13335,
-              13654
+              12830
             ]
           },
           "trinket2": {
@@ -9413,7 +9393,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              6498
             ],
             "enchants_detail": [
               {
@@ -10227,18 +10208,18 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 448.1,
+            "all": 678.1,
             "dps": 0,
             "healer": 0,
-            "tank": 448.1,
+            "tank": 678.1,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 448.1,
+            "spec_2": 678.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 448.1,
+              "score": 678.1,
               "color": "#ff8000"
             },
             "dps": {
@@ -10250,7 +10231,7 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 448.1,
+              "score": 678.1,
               "color": "#ff8000"
             },
             "spec_0": {
@@ -10262,7 +10243,7 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 448.1,
+              "score": 678.1,
               "color": "#ff8000"
             },
             "spec_3": {
@@ -10322,10 +10303,10 @@
         {
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
-          "mythic_level": 2,
-          "completed_at": "2026-08-18T17:58:18.000Z",
-          "clear_time_ms": 776812,
-          "keystone_run_id": 4021,
+          "mythic_level": 5,
+          "completed_at": "2026-08-18T19:31:24.000Z",
+          "clear_time_ms": 732623,
+          "keystone_run_id": 9657,
           "par_time_ms": 1680999,
           "num_keystone_upgrades": 3,
           "map_challenge_mode_id": 399,
@@ -10333,9 +10314,47 @@
           "zone_expansion_id": 9,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
+          "score": 230,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/9657-5-ruby-life-pools",
+          "spec": {
+            "id": 73,
+            "name": "Protection",
+            "slug": "protection",
+            "class_id": 1,
+            "role": "tank",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "tank"
+        },
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 2,
+          "completed_at": "2026-08-18T19:15:11.000Z",
+          "clear_time_ms": 943231,
+          "keystone_run_id": 8298,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 3,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
           "score": 170,
           "affixes": [],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/4021-2-ruby-life-pools",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8298-2-murder-row",
           "spec": {
             "id": 73,
             "name": "Protection",
@@ -10350,8 +10369,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-18T19:03:38.000Z",
-        "updated_at": "2026-08-18T19:03:38.000Z",
+        "created_at": "2026-08-18T19:44:49.000Z",
+        "updated_at": "2026-08-18T19:44:49.000Z",
         "source": "db",
         "item_level_equipped": 294.062,
         "item_level_total": 0,
@@ -12469,22 +12488,22 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 369.5,
-            "dps": 369.5,
+            "all": 641.5,
+            "dps": 641.5,
             "healer": 0,
             "tank": 0,
-            "spec_0": 369.5,
+            "spec_0": 641.5,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 369.5,
+              "score": 641.5,
               "color": "#ff8000"
             },
             "dps": {
-              "score": 369.5,
+              "score": 641.5,
               "color": "#ff8000"
             },
             "healer": {
@@ -12496,7 +12515,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 369.5,
+              "score": 641.5,
               "color": "#ff8000"
             },
             "spec_1": {
@@ -12515,6 +12534,52 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "mythic_level": 7,
+          "completed_at": "2026-08-18T19:25:23.000Z",
+          "clear_time_ms": 1145794,
+          "keystone_run_id": 9197,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 399,
+          "zone_id": 14063,
+          "zone_expansion_id": 9,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
+          "score": 271.9,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/9197-7-ruby-life-pools",
+          "spec": {
+            "id": 71,
+            "name": "Arms",
+            "slug": "arms",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Kings' Rest",
           "short_name": "KR",
@@ -12575,10 +12640,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-18T18:48:20.000Z",
-        "updated_at": "2026-08-18T18:48:20.000Z",
+        "created_at": "2026-08-18T19:31:54.000Z",
+        "updated_at": "2026-08-18T19:31:54.000Z",
         "source": "db",
-        "item_level_equipped": 288.375,
+        "item_level_equipped": 289.625,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -12906,11 +12971,10 @@
             ]
           },
           "feet": {
-            "item_id": 237828,
-            "item_level": 285,
-            "enchant": 7963,
-            "icon": "inv_plate_questbloodelf_b_01_boot",
-            "name": "Spellbreaker's March",
+            "item_id": 193728,
+            "item_level": 305,
+            "icon": "inv_plate_dragondungeon_c_01_boot",
+            "name": "Scaleguard's Stalwart Greatboots",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -12923,25 +12987,14 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              7963
-            ],
-            "enchants_detail": [
-              {
-                "id": 243953,
-                "name": "Enchant Boots - Lynx's Dexterity",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8960,
-              12384,
-              8790,
-              13622
+              12841,
+              13440,
+              6652,
+              13662,
+              12699
             ]
           },
           "finger1": {
