@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T11:50:15.054Z",
+  "updated": "2026-08-20T14:55:30.415Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -88,8 +88,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2053,
-          "region": 1094,
+          "world": 2133,
+          "region": 1132,
           "realm": 67
         },
         "heroic": {
@@ -138,11 +138,11 @@
           "segments": {
             "all": {
               "score": 2196.7,
-              "color": "#7957e7"
+              "color": "#6f5ce5"
             },
             "dps": {
               "score": 2196.7,
-              "color": "#7957e7"
+              "color": "#6f5ce5"
             },
             "healer": {
               "score": 0,
@@ -154,7 +154,7 @@
             },
             "spec_0": {
               "score": 2196.7,
-              "color": "#7957e7"
+              "color": "#6f5ce5"
             },
             "spec_1": {
               "score": 0,
@@ -1139,7 +1139,7 @@
           "segments": {
             "all": {
               "score": 2393.7,
-              "color": "#9b3eed"
+              "color": "#9346eb"
             },
             "dps": {
               "score": 584.1,
@@ -1151,11 +1151,11 @@
             },
             "tank": {
               "score": 2393.7,
-              "color": "#9b3eed"
+              "color": "#9346eb"
             },
             "spec_0": {
               "score": 2393.7,
-              "color": "#9b3eed"
+              "color": "#9346eb"
             },
             "spec_1": {
               "score": 584.1,
@@ -2187,7 +2187,7 @@
           "segments": {
             "all": {
               "score": 1355.5,
-              "color": "#367cd0"
+              "color": "#5fb099"
             },
             "dps": {
               "score": 0,
@@ -2195,7 +2195,7 @@
             },
             "healer": {
               "score": 1355.5,
-              "color": "#367cd0"
+              "color": "#5fb099"
             },
             "tank": {
               "score": 0,
@@ -2207,7 +2207,7 @@
             },
             "spec_1": {
               "score": 1355.5,
-              "color": "#367cd0"
+              "color": "#5fb099"
             },
             "spec_2": {
               "score": 0,
@@ -3169,11 +3169,11 @@
           "segments": {
             "all": {
               "score": 955.5,
-              "color": "#50e258"
+              "color": "#4fe356"
             },
             "dps": {
               "score": 955.5,
-              "color": "#50e258"
+              "color": "#4fe356"
             },
             "healer": {
               "score": 0,
@@ -3189,7 +3189,7 @@
             },
             "spec_1": {
               "score": 955.5,
-              "color": "#50e258"
+              "color": "#4fe356"
             },
             "spec_2": {
               "score": 0,
@@ -5337,10 +5337,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T06:25:18.059Z",
-        "updated_at": "2026-08-20T06:25:18.059Z",
-        "source": "s3",
-        "item_level_equipped": 306,
+        "created_at": "2026-08-20T14:28:02.000Z",
+        "updated_at": "2026-08-20T14:28:02.000Z",
+        "source": "db",
+        "item_level_equipped": 305.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -5635,10 +5635,10 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 272262,
-            "item_level": 305,
-            "icon": "inv_bracer_plate_outdooramaniloa_c_01",
-            "name": "Pledgebearer's Splints",
+            "item_id": 237834,
+            "item_level": 285,
+            "icon": "inv_plate_questbloodelf_b_01_bracer",
+            "name": "Spellbreaker's Bracers",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -5649,15 +5649,28 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240908
+            ],
+            "gems_detail": [
+              {
+                "id": 240908,
+                "name": "16 Crit & 7 Mast",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+              }
+            ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12841,
-              6652,
-              13696,
-              13662
+              12214,
+              13667,
+              12497,
+              12066,
+              8960,
+              12384,
+              8791,
+              13622,
+              12666
             ]
           },
           "hands": {
@@ -5690,7 +5703,6 @@
           "legs": {
             "item_id": 271464,
             "item_level": 308,
-            "enchant": 8159,
             "icon": "inv_pant_plate_raidpaladinulatek_d_01",
             "name": "Greaves of the Consecrated Flame",
             "item_quality": 4,
@@ -5706,16 +5718,8 @@
             "tier": "36",
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              8159
-            ],
-            "enchants_detail": [
-              {
-                "id": 244641,
-                "name": "41 Agi/Str & 115 Sta",
-                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
               13333,
               13693,
@@ -5916,7 +5920,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8052
             ],
             "enchants_detail": [
               {
@@ -9147,8 +9152,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T10:52:21.000Z",
-        "updated_at": "2026-08-20T10:52:21.000Z",
+        "created_at": "2026-08-20T10:21:45.000Z",
+        "updated_at": "2026-08-20T10:21:45.000Z",
         "source": "db",
         "item_level_equipped": 299.938,
         "item_level_total": 0,
@@ -9893,11 +9898,11 @@
           "segments": {
             "all": {
               "score": 1879.5,
-              "color": "#0070dd"
+              "color": "#1873da"
             },
             "dps": {
               "score": 1879.5,
-              "color": "#0070dd"
+              "color": "#1873da"
             },
             "healer": {
               "score": 0,
@@ -9913,7 +9918,7 @@
             },
             "spec_1": {
               "score": 1879.5,
-              "color": "#0070dd"
+              "color": "#1873da"
             },
             "spec_2": {
               "score": 0,
@@ -10925,11 +10930,11 @@
           "segments": {
             "all": {
               "score": 2563.2,
-              "color": "#b83dd6"
+              "color": "#af39e1"
             },
             "dps": {
               "score": 2563.2,
-              "color": "#b83dd6"
+              "color": "#af39e1"
             },
             "healer": {
               "score": 0,
@@ -10945,7 +10950,7 @@
             },
             "spec_1": {
               "score": 2563.2,
-              "color": "#b83dd6"
+              "color": "#af39e1"
             },
             "spec_2": {
               "score": 0,
@@ -12074,7 +12079,7 @@
           "segments": {
             "all": {
               "score": 2706.7,
-              "color": "#d04ab2"
+              "color": "#cb47ba"
             },
             "dps": {
               "score": 0,
@@ -12082,7 +12087,7 @@
             },
             "healer": {
               "score": 2706.7,
-              "color": "#d04ab2"
+              "color": "#cb47ba"
             },
             "tank": {
               "score": 0,
@@ -12098,7 +12103,7 @@
             },
             "spec_2": {
               "score": 2706.7,
-              "color": "#d04ab2"
+              "color": "#cb47ba"
             },
             "spec_3": {
               "score": 0,
@@ -13229,11 +13234,11 @@
           "segments": {
             "all": {
               "score": 1483.4,
-              "color": "#599dad"
+              "color": "#5aa1a9"
             },
             "dps": {
               "score": 1483.4,
-              "color": "#599dad"
+              "color": "#5aa1a9"
             },
             "healer": {
               "score": 0,
@@ -13245,7 +13250,7 @@
             },
             "spec_0": {
               "score": 1483.4,
-              "color": "#599dad"
+              "color": "#5aa1a9"
             },
             "spec_1": {
               "score": 0,
@@ -14685,8 +14690,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T11:39:30.000Z",
-        "updated_at": "2026-08-20T11:39:30.000Z",
+        "created_at": "2026-08-20T13:50:57.000Z",
+        "updated_at": "2026-08-20T13:50:57.000Z",
         "source": "db",
         "item_level_equipped": 295.188,
         "item_level_total": 0,
@@ -17566,11 +17571,11 @@
           "segments": {
             "all": {
               "score": 2090.6,
-              "color": "#a039ed"
+              "color": "#6460e4"
             },
             "dps": {
               "score": 2090.6,
-              "color": "#a039ed"
+              "color": "#6460e4"
             },
             "healer": {
               "score": 0,
@@ -17582,7 +17587,7 @@
             },
             "spec_0": {
               "score": 2090.6,
-              "color": "#a039ed"
+              "color": "#6460e4"
             },
             "spec_1": {
               "score": 0,
@@ -17590,7 +17595,7 @@
             },
             "spec_2": {
               "score": 259.6,
-              "color": "#efffe8"
+              "color": "#f2ffec"
             },
             "spec_3": {
               "score": 0,
@@ -19678,11 +19683,11 @@
           "segments": {
             "all": {
               "score": 1605.9,
-              "color": "#4e8ebd"
+              "color": "#5292b9"
             },
             "dps": {
               "score": 1605.9,
-              "color": "#4e8ebd"
+              "color": "#5292b9"
             },
             "healer": {
               "score": 0,
@@ -19694,7 +19699,7 @@
             },
             "spec_0": {
               "score": 1592.4,
-              "color": "#4e8ebd"
+              "color": "#5292b9"
             },
             "spec_1": {
               "score": 0,
