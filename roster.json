@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T20:53:29.921Z",
+  "updated": "2026-08-20T21:51:19.354Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -88,8 +88,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2803,
-          "region": 1156,
+          "world": 2915,
+          "region": 1159,
           "realm": 68
         },
         "heroic": {
@@ -1112,15 +1112,15 @@
       "name": "Banehate",
       "race": "Void Elf",
       "class": "Death Knight",
-      "active_spec_name": "Frost",
-      "active_spec_role": "DPS",
+      "active_spec_name": "Blood",
+      "active_spec_role": "TANK",
       "gender": "male",
       "faction": "alliance",
       "achievement_points": 25770,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/139/249592971-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-20T09:11:47.000Z",
+      "last_crawled_at": "2026-08-20T21:24:33.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Banehate",
       "profile_banner": "alliancebanner2",
       "mythic_plus_scores_by_season": [
@@ -1575,10 +1575,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T09:11:47.713Z",
-        "updated_at": "2026-08-20T09:11:47.713Z",
+        "created_at": "2026-08-20T21:24:34.155Z",
+        "updated_at": "2026-08-20T21:24:34.155Z",
         "source": "s3",
-        "item_level_equipped": 297,
+        "item_level_equipped": 301,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -1929,11 +1929,11 @@
             ]
           },
           "finger1": {
-            "item_id": 251513,
-            "item_level": 285,
-            "enchant": 7967,
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "name": "Loa Worshiper's Band",
+            "item_id": 240949,
+            "item_level": 331,
+            "enchant": 7997,
+            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
+            "name": "Masterwork Sin'dorei Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1945,38 +1945,40 @@
             },
             "domination_shards": [],
             "gems": [
-              240898
+              240890
             ],
             "gems_detail": [
               {
-                "id": 240898,
-                "name": "16 Mast & 7 Crit",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
               }
             ],
             "enchants": [
-              7967
+              7997
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 243987,
+                "name": "Enchant Ring - Nature's Fury",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
               12214,
-              8960,
               13667,
               12497,
-              12066,
-              13622
+              13751,
+              13453,
+              8960,
+              8790,
+              13836
             ]
           },
           "finger2": {
             "item_id": 251148,
             "item_level": 311,
-            "enchant": 7967,
+            "enchant": 7997,
             "icon": "inv_12_jewelry_zulaman_troll_ring_green2",
             "name": "Pilfered Precious Band",
             "item_quality": 4,
@@ -1989,15 +1991,23 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240890
+            ],
+            "gems_detail": [
+              {
+                "id": 240890,
+                "name": "16 Haste & 7 Crit",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_green"
+              }
+            ],
             "enchants": [
-              7967
+              7997
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 243987,
+                "name": "Enchant Ring - Nature's Fury",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -2060,12 +2070,12 @@
             ]
           },
           "mainhand": {
-            "item_id": 258952,
-            "item_level": 282,
-            "enchant": 3368,
-            "icon": "inv_sword_1h_questbloodelf_b_01",
-            "name": "Tarnished Dawnlit Longsword",
-            "item_quality": 3,
+            "item_id": 268198,
+            "item_level": 295,
+            "enchant": 6241,
+            "icon": "inv_mace_2h_ulatek_d_01",
+            "name": "Caustic Keeper-Crusher",
+            "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -2078,39 +2088,13 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              3368
+              6241
             ],
             "enchants_detail": [],
             "bonuses": [
               6652,
-              12822
-            ]
-          },
-          "offhand": {
-            "item_id": 258952,
-            "item_level": 282,
-            "enchant": 3368,
-            "icon": "inv_sword_1h_questbloodelf_b_01",
-            "name": "Tarnished Dawnlit Longsword",
-            "item_quality": 3,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              3368
-            ],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              12822
+              13333,
+              12834
             ]
           }
         }
@@ -14203,30 +14187,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-08-20T10:03:27.000Z",
+      "last_crawled_at": "2026-08-20T21:27:46.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3020.9,
-            "dps": 3020.9,
+            "all": 3078.1,
+            "dps": 3078.1,
             "healer": 0,
             "tank": 2663.9,
             "spec_0": 0,
-            "spec_1": 3020.9,
+            "spec_1": 3078.1,
             "spec_2": 2663.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3020.9,
-              "color": "#ee656b"
+              "score": 3078.1,
+              "color": "#f46d55"
             },
             "dps": {
-              "score": 3020.9,
-              "color": "#ee656b"
+              "score": 3078.1,
+              "color": "#f46d55"
             },
             "healer": {
               "score": 0,
@@ -14241,8 +14225,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 3020.9,
-              "color": "#ee656b"
+              "score": 3078.1,
+              "color": "#f46d55"
             },
             "spec_2": {
               "score": 2663.9,
@@ -14298,6 +14282,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/587507-14-murder-row",
+          "spec": {
+            "id": 72,
+            "name": "Fury",
+            "slug": "fury",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "mythic_level": 14,
+          "completed_at": "2026-08-20T20:42:34.000Z",
+          "clear_time_ms": 1810965,
+          "keystone_run_id": 785031,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 250,
+          "zone_id": 9527,
+          "zone_expansion_id": 7,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
+          "score": 397.1,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/785031-14-temple-of-sethraliss",
           "spec": {
             "id": 72,
             "name": "Fury",
@@ -14633,67 +14671,13 @@
             "ordinal": 1
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Temple of Sethraliss",
-          "short_name": "TOS",
-          "mythic_level": 11,
-          "completed_at": "2026-08-19T04:09:24.000Z",
-          "clear_time_ms": 1671307,
-          "keystone_run_id": 84798,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 250,
-          "zone_id": 9527,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
-          "score": 339.9,
-          "affixes": [
-            {
-              "id": 162,
-              "name": "Xal'atath's Bargain: Pulsar",
-              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-              "icon": "inv_cosmicvoid_nova",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-              "wowhead_url": "https://wowhead.com/affix=162"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/84798-11-temple-of-sethraliss",
-          "spec": {
-            "id": 72,
-            "name": "Fury",
-            "slug": "fury",
-            "class_id": 1,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T11:39:30.000Z",
-        "updated_at": "2026-08-20T11:39:30.000Z",
-        "source": "db",
-        "item_level_equipped": 295.188,
+        "created_at": "2026-08-20T10:03:29.094Z",
+        "updated_at": "2026-08-20T10:03:29.094Z",
+        "source": "s3",
+        "item_level_equipped": 296,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15324,8 +15308,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -15342,11 +15325,11 @@
             ]
           },
           "offhand": {
-            "item_id": 251117,
+            "item_id": 251168,
             "item_level": 298,
             "enchant": 7981,
-            "icon": "inv_axe_2h_domanaar_b_01",
-            "name": "Whirling Voidcleaver",
+            "icon": "inv_sword_2h_dungeonharronir_c_01",
+            "name": "Liferipper's Cutlass",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15360,8 +15343,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8052
+              7981
             ],
             "enchants_detail": [
               {
