@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T14:55:30.415Z",
+  "updated": "2026-08-20T15:56:19.930Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -88,8 +88,8 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2133,
-          "region": 1132,
+          "world": 2171,
+          "region": 1137,
           "realm": 67
         },
         "heroic": {
@@ -4877,11 +4877,11 @@
           "segments": {
             "all": {
               "score": 2555.6,
-              "color": "#b83dd6"
+              "color": "#af39e1"
             },
             "dps": {
               "score": 2555.6,
-              "color": "#b83dd6"
+              "color": "#af39e1"
             },
             "healer": {
               "score": 0,
@@ -4901,7 +4901,7 @@
             },
             "spec_2": {
               "score": 2555.6,
-              "color": "#b83dd6"
+              "color": "#af39e1"
             },
             "spec_3": {
               "score": 0,
@@ -5988,7 +5988,7 @@
       "name": "Vampiral",
       "race": "Orc",
       "class": "Hunter",
-      "active_spec_name": "Beast Mastery",
+      "active_spec_name": "Marksmanship",
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
@@ -5996,30 +5996,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/90/267302234-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-20T09:13:39.000Z",
+      "last_crawled_at": "2026-08-20T15:37:02.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Vampiral",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 1736.3,
-            "dps": 1736.3,
+            "all": 1757.2,
+            "dps": 1757.2,
             "healer": 0,
             "tank": 0,
             "spec_0": 1451.4,
-            "spec_1": 284.9,
+            "spec_1": 874.9,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 1736.3,
-              "color": "#347cd0"
+              "score": 1757.2,
+              "color": "#397ece"
             },
             "dps": {
-              "score": 1736.3,
-              "color": "#347cd0"
+              "score": 1757.2,
+              "color": "#397ece"
             },
             "healer": {
               "score": 0,
@@ -6031,11 +6031,11 @@
             },
             "spec_0": {
               "score": 1451.4,
-              "color": "#5aa0aa"
+              "color": "#5ca4a6"
             },
             "spec_1": {
-              "score": 284.9,
-              "color": "#ebffe3"
+              "score": 874.9,
+              "color": "#45ec46"
             },
             "spec_2": {
               "score": 0,
@@ -6049,6 +6049,52 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "mythic_level": 9,
+          "completed_at": "2026-08-20T13:40:01.000Z",
+          "clear_time_ms": 1104755,
+          "keystone_run_id": 674366,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 399,
+          "zone_id": 14063,
+          "zone_expansion_id": 9,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
+          "score": 302.9,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/674366-9-ruby-life-pools",
+          "spec": {
+            "id": 254,
+            "name": "Marksmanship",
+            "slug": "marksmanship",
+            "class_id": 3,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Altar of Fangs",
           "short_name": "AOF",
@@ -6294,59 +6340,13 @@
             "ordinal": 1
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "mythic_level": 8,
-          "completed_at": "2026-08-19T21:29:09.000Z",
-          "clear_time_ms": 1367511,
-          "keystone_run_id": 408759,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 399,
-          "zone_id": 14063,
-          "zone_expansion_id": 9,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
-          "score": 282,
-          "affixes": [
-            {
-              "id": 162,
-              "name": "Xal'atath's Bargain: Pulsar",
-              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-              "icon": "inv_cosmicvoid_nova",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-              "wowhead_url": "https://wowhead.com/affix=162"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/408759-8-ruby-life-pools",
-          "spec": {
-            "id": 253,
-            "name": "Beast Mastery",
-            "slug": "beast-mastery",
-            "class_id": 3,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-18T20:34:13.616Z",
-        "updated_at": "2026-08-18T20:34:13.616Z",
+        "created_at": "2026-08-20T15:37:03.329Z",
+        "updated_at": "2026-08-20T15:37:03.329Z",
         "source": "s3",
-        "item_level_equipped": 294,
+        "item_level_equipped": 295,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -6869,10 +6869,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 193701,
-            "item_level": 298,
-            "icon": "inv_misc_enggizmos_18",
-            "name": "Algeth'ar Puzzle Box",
+            "item_id": 274493,
+            "item_level": 295,
+            "icon": "ability_fomor_boss_rune_green",
+            "name": "Effigy of Ula'tek's Faithful",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -6888,10 +6888,8 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13440,
-              6652,
-              12699,
-              13654
+              12834,
+              42
             ]
           },
           "trinket2": {
@@ -6920,11 +6918,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 251174,
-            "item_level": 298,
-            "enchant": 8041,
-            "icon": "inv_bow_1h_amani_c_01",
-            "name": "Deceiver's Rotbow",
+            "item_id": 272278,
+            "item_level": 305,
+            "enchant": 8615,
+            "icon": "inv_bow_1h_outdooramaniloa_c_01",
+            "name": "Recurve Wisp-Shooter",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -6938,20 +6936,18 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8615
             ],
             "enchants_detail": [
               {
-                "id": 244031,
-                "name": "Enchant Weapon - Arcane Mast",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+                "id": 257746,
+                "name": "Farstrider's Hawkeye",
+                "icon": "inv_10_engineering_scope_color4"
               }
             ],
             "bonuses": [
-              13440,
-              6652,
-              12701,
-              13654
+              12841,
+              6652
             ]
           }
         }
@@ -7665,11 +7661,11 @@
           "segments": {
             "all": {
               "score": 1703.7,
-              "color": "#3f82ca"
+              "color": "#4687c5"
             },
             "dps": {
               "score": 1703.7,
-              "color": "#3f82ca"
+              "color": "#4687c5"
             },
             "healer": {
               "score": 0,
@@ -7689,7 +7685,7 @@
             },
             "spec_2": {
               "score": 1703.7,
-              "color": "#3f82ca"
+              "color": "#4687c5"
             },
             "spec_3": {
               "score": 0,
@@ -8692,7 +8688,7 @@
           "segments": {
             "all": {
               "score": 2640.4,
-              "color": "#c945be"
+              "color": "#be40ce"
             },
             "dps": {
               "score": 0,
@@ -8700,7 +8696,7 @@
             },
             "healer": {
               "score": 2640.4,
-              "color": "#c945be"
+              "color": "#be40ce"
             },
             "tank": {
               "score": 0,
@@ -8708,7 +8704,7 @@
             },
             "spec_0": {
               "score": 2640.4,
-              "color": "#c945be"
+              "color": "#be40ce"
             },
             "spec_1": {
               "score": 0,
@@ -14222,11 +14218,11 @@
           "segments": {
             "all": {
               "score": 3020.9,
-              "color": "#f06862"
+              "color": "#ef6767"
             },
             "dps": {
               "score": 3020.9,
-              "color": "#f06862"
+              "color": "#ef6767"
             },
             "healer": {
               "score": 0,
@@ -14234,7 +14230,7 @@
             },
             "tank": {
               "score": 2663.9,
-              "color": "#c945be"
+              "color": "#c342c7"
             },
             "spec_0": {
               "score": 0,
@@ -14242,11 +14238,11 @@
             },
             "spec_1": {
               "score": 3020.9,
-              "color": "#f06862"
+              "color": "#ef6767"
             },
             "spec_2": {
               "score": 2663.9,
-              "color": "#c945be"
+              "color": "#c342c7"
             },
             "spec_3": {
               "score": 0,
@@ -15451,7 +15447,7 @@
           "segments": {
             "all": {
               "score": 2381.5,
-              "color": "#9b3eed"
+              "color": "#9346eb"
             },
             "dps": {
               "score": 0,
@@ -15463,7 +15459,7 @@
             },
             "tank": {
               "score": 2381.5,
-              "color": "#9b3eed"
+              "color": "#9346eb"
             },
             "spec_0": {
               "score": 0,
@@ -15471,7 +15467,7 @@
             },
             "spec_1": {
               "score": 2381.5,
-              "color": "#9b3eed"
+              "color": "#9346eb"
             },
             "spec_2": {
               "score": 0,
@@ -16591,7 +16587,7 @@
           "segments": {
             "all": {
               "score": 1252.5,
-              "color": "#5fb98e"
+              "color": "#5fbc8b"
             },
             "dps": {
               "score": 0,
@@ -16603,7 +16599,7 @@
             },
             "tank": {
               "score": 1252.5,
-              "color": "#5fb98e"
+              "color": "#5fbc8b"
             },
             "spec_0": {
               "score": 0,
@@ -16611,7 +16607,7 @@
             },
             "spec_1": {
               "score": 1252.5,
-              "color": "#5fb98e"
+              "color": "#5fbc8b"
             },
             "spec_2": {
               "score": 0,
@@ -17571,11 +17567,11 @@
           "segments": {
             "all": {
               "score": 2090.6,
-              "color": "#6460e4"
+              "color": "#5864e2"
             },
             "dps": {
               "score": 2090.6,
-              "color": "#6460e4"
+              "color": "#5864e2"
             },
             "healer": {
               "score": 0,
@@ -17587,7 +17583,7 @@
             },
             "spec_0": {
               "score": 2090.6,
-              "color": "#6460e4"
+              "color": "#5864e2"
             },
             "spec_1": {
               "score": 0,
@@ -18629,11 +18625,11 @@
           "segments": {
             "all": {
               "score": 2154.7,
-              "color": "#6f5ce5"
+              "color": "#6460e4"
             },
             "dps": {
               "score": 2154.7,
-              "color": "#6f5ce5"
+              "color": "#6460e4"
             },
             "healer": {
               "score": 0,
@@ -18645,7 +18641,7 @@
             },
             "spec_0": {
               "score": 2154.7,
-              "color": "#6f5ce5"
+              "color": "#6460e4"
             },
             "spec_1": {
               "score": 0,
@@ -21185,15 +21181,15 @@
       "name": "Lionroar",
       "race": "Night Elf",
       "class": "Druid",
-      "active_spec_name": "Balance",
-      "active_spec_role": "DPS",
+      "active_spec_name": "Restoration",
+      "active_spec_role": "HEALING",
       "gender": "male",
       "faction": "alliance",
       "achievement_points": 48965,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-08-20T09:08:50.000Z",
+      "last_crawled_at": "2026-08-20T15:38:11.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -21348,10 +21344,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T09:08:51.239Z",
-        "updated_at": "2026-08-20T09:08:51.239Z",
+        "created_at": "2026-08-20T15:38:12.452Z",
+        "updated_at": "2026-08-20T15:38:12.452Z",
         "source": "s3",
-        "item_level_equipped": 293,
+        "item_level_equipped": 266,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -21363,86 +21359,28 @@
         },
         "items": {
           "head": {
-            "item_id": 250024,
-            "item_level": 298,
-            "enchant": 7961,
-            "icon": "inv_helm_leather_raiddruidmidnight_d_01",
-            "name": "Branches of the Luminous Bloom",
-            "item_quality": 4,
+            "item_id": 270509,
+            "item_level": 263,
+            "icon": "inv_helm_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Helm",
+            "item_quality": 3,
             "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              null,
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
+            "is_azerite_armor": false,
+            "azerite_powers": [],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
-            "gems": [
-              240892
-            ],
-            "gems_detail": [
-              {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
-              }
-            ],
-            "enchants": [
-              7961
-            ],
-            "enchants_detail": [
-              {
-                "id": 243951,
-                "name": "Enchant Helm - Empowered Hex of Leeching",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              6652,
-              13335,
-              13786,
-              13338,
-              13575,
-              3183,
-              13534
+              13650,
+              13657,
+              13554
             ]
           },
           "neck": {
@@ -21480,11 +21418,10 @@
             ]
           },
           "shoulder": {
-            "item_id": 250022,
-            "item_level": 289,
-            "enchant": 8031,
-            "icon": "inv_shoulder_leather_raiddruidmidnight_d_01",
-            "name": "Seedpods of the Luminous Bloom",
+            "item_id": 270688,
+            "item_level": 292,
+            "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
+            "name": "Venomous Gladiator's Leather Shoulderpads",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -21495,33 +21432,23 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              8031
-            ],
-            "enchants_detail": [
-              {
-                "id": 244021,
-                "name": "Enchant Shoulders - Silvermoon's Mending",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              40,
-              13440,
-              13340,
-              13574,
-              12806
+              12833,
+              13658,
+              13662,
+              13452
             ]
           },
           "back": {
-            "item_id": 279217,
-            "item_level": 295,
+            "item_id": 270540,
+            "item_level": 263,
             "icon": "inv_cape_cloth_outdooramaniloa_c_01",
-            "name": "Venom-Cursed Dragonhawk's Shroud",
-            "item_quality": 4,
+            "name": "Venomous Aspirant's Cloak",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21536,18 +21463,16 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13662,
-              12830
+              13650,
+              13657
             ]
           },
           "chest": {
-            "item_id": 251159,
-            "item_level": 308,
-            "enchant": 7987,
-            "icon": "inv_chest_leather_dungeonharronir_c_01",
-            "name": "War Trial Vestments",
-            "item_quality": 4,
+            "item_id": 270515,
+            "item_level": 263,
+            "icon": "inv_chest_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Vest",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21559,30 +21484,19 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              7987
-            ],
-            "enchants_detail": [
-              {
-                "id": 243977,
-                "name": "Enchant Chest - Mark of the Worldsoul",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              13439,
-              6652,
-              13662,
-              12699,
-              12838
+              13650,
+              13657
             ]
           },
           "waist": {
-            "item_id": 249374,
-            "item_level": 289,
-            "icon": "inv_belt_leather_raidmonkmidnight_d_01",
-            "name": "Scorn-Scarred Shul'ka's Belt",
-            "item_quality": 4,
+            "item_id": 270502,
+            "item_level": 263,
+            "icon": "inv_belt_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Cord",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21592,24 +21506,14 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240892
-            ],
-            "gems_detail": [
-              {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13534,
-              13577,
-              13335,
-              12806
+              13650,
+              13657,
+              13554
             ]
           },
           "shirt": {
@@ -21634,11 +21538,11 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 244576,
-            "item_level": 285,
-            "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Deflectors",
-            "item_quality": 4,
+            "item_id": 270501,
+            "item_level": 263,
+            "icon": "inv_bracer_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Wristwraps",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21653,23 +21557,17 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8960,
-              12384,
-              8793,
-              13622,
-              12667
+              13650,
+              13657,
+              13554
             ]
           },
           "hands": {
-            "item_id": 250025,
-            "item_level": 289,
-            "icon": "inv_glove_leather_raiddruidmidnight_d_01",
-            "name": "Arbortenders of the Luminous Bloom",
-            "item_quality": 4,
+            "item_id": 270511,
+            "item_level": 263,
+            "icon": "inv_glove_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Gloves",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21679,26 +21577,21 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13440,
-              13337,
-              13574,
-              12806
+              13650,
+              13657
             ]
           },
           "legs": {
-            "item_id": 250023,
-            "item_level": 289,
-            "enchant": 7937,
-            "icon": "inv_pant_leather_raiddruidmidnight_d_01",
-            "name": "Phloemwraps of the Luminous Bloom",
-            "item_quality": 4,
+            "item_id": 270506,
+            "item_level": 263,
+            "icon": "inv_pant_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Leggings",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21708,34 +21601,21 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              7937
-            ],
-            "enchants_detail": [
-              {
-                "id": 240155,
-                "name": "41 Int & +% Mana",
-                "icon": "inv_12_tailoring_spellthread_violet_spellthread"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              6652,
-              13440,
-              13339,
-              13575,
-              12806
+              13650,
+              13657
             ]
           },
           "feet": {
-            "item_id": 250026,
-            "item_level": 289,
-            "enchant": 7993,
-            "icon": "inv_boot_leather_raiddruidmidnight_d_01",
-            "name": "Rootslippers of the Luminous Bloom",
-            "item_quality": 4,
+            "item_id": 270512,
+            "item_level": 263,
+            "icon": "inv_boot_leather_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Leather Footpads",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21747,30 +21627,19 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              7993
-            ],
-            "enchants_detail": [
-              {
-                "id": 243983,
-                "name": "Enchant Boots - Shaladrassil's Roots",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              12806,
-              6652,
-              13440,
-              3174
+              13650,
+              13657
             ]
           },
           "finger1": {
-            "item_id": 268290,
-            "item_level": 298,
-            "enchant": 8025,
-            "icon": "inv_12_jewelry_rutaani_ring_blue",
-            "name": "Sporecaller's Blooming Loop",
-            "item_quality": 4,
+            "item_id": 270535,
+            "item_level": 263,
+            "icon": "inv_121_jewelry_ring01_orange",
+            "name": "Venomous Aspirant's Signet",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21780,40 +21649,21 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240892
-            ],
-            "gems_detail": [
-              {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
-              }
-            ],
-            "enchants": [
-              8025
-            ],
-            "enchants_detail": [
-              {
-                "id": 244015,
-                "name": "Enchant Ring - Silvermoon's Alacrity",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              6652,
-              13668,
-              13335,
-              13786
+              13650,
+              13657
             ]
           },
           "finger2": {
-            "item_id": 251093,
-            "item_level": 289,
-            "enchant": 8025,
-            "icon": "inv_12_trinket_devouring_host_currency1_silver",
-            "name": "Omission of Light",
-            "item_quality": 4,
+            "item_id": 270537,
+            "item_level": 263,
+            "icon": "inv_121_jewelry_ring03_teal",
+            "name": "Venomous Aspirant's Ring",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21823,40 +21673,21 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240892
-            ],
-            "gems_detail": [
-              {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
-              }
-            ],
-            "enchants": [
-              8025
-            ],
-            "enchants_detail": [
-              {
-                "id": 244015,
-                "name": "Enchant Ring - Silvermoon's Alacrity",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              13440,
-              6652,
-              13668,
-              12699,
-              12806
+              13650,
+              13657
             ]
           },
           "trinket1": {
-            "item_id": 268292,
-            "item_level": 298,
-            "icon": "inv_1207_fungarianraid_trinket",
-            "name": "Sporelord's Mycelial Insignia",
-            "item_quality": 4,
+            "item_id": 280118,
+            "item_level": 259,
+            "icon": "ability_pvp_gladiatormedallion",
+            "name": "Venomous Aspirant's Medallion",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21871,17 +21702,15 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13335,
-              13786
+              13657
             ]
           },
           "trinket2": {
-            "item_id": 249343,
-            "item_level": 298,
-            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
-            "name": "Gaze of the Alnseer",
-            "item_quality": 4,
+            "item_id": 280097,
+            "item_level": 259,
+            "icon": "inv_misc_token_argentdawn3",
+            "name": "Venomous Aspirant's Insignia of Alacrity",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21896,18 +21725,15 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13335,
-              13654
+              13657
             ]
           },
           "mainhand": {
-            "item_id": 237849,
-            "item_level": 295,
-            "enchant": 8039,
-            "icon": "mace_2h_blacksmithing_d_04_icon",
-            "name": "Magister's Valediction",
-            "item_quality": 4,
+            "item_id": 270450,
+            "item_level": 263,
+            "icon": "inv_staff_2h_outdooramaniloa_c_01",
+            "name": "Venomous Aspirant's Stave",
+            "item_quality": 3,
             "is_legendary": false,
             "is_azerite_armor": false,
             "azerite_powers": [],
@@ -21919,25 +21745,11 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              8039
-            ],
-            "enchants_detail": [
-              {
-                "id": 244029,
-                "name": "Enchant Weapon - Acuity of the Ren'dorei",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              12214,
-              13655,
-              12497,
-              12066,
-              12693,
-              8960,
-              8793,
-              13622
+              13650,
+              13657
             ]
           }
         }
@@ -22014,7 +21826,7 @@
           "segments": {
             "all": {
               "score": 1477.2,
-              "color": "#599dad"
+              "color": "#5aa1a9"
             },
             "dps": {
               "score": 198,
@@ -22022,7 +21834,7 @@
             },
             "healer": {
               "score": 1279.2,
-              "color": "#5fb692"
+              "color": "#5fb98f"
             },
             "tank": {
               "score": 0,
@@ -22030,7 +21842,7 @@
             },
             "spec_0": {
               "score": 1279.2,
-              "color": "#5fb692"
+              "color": "#5fb98f"
             },
             "spec_1": {
               "score": 0,
@@ -22977,11 +22789,11 @@
           "segments": {
             "all": {
               "score": 1079.9,
-              "color": "#5ad26f"
+              "color": "#59d46d"
             },
             "dps": {
               "score": 1079.9,
-              "color": "#5ad26f"
+              "color": "#59d46d"
             },
             "healer": {
               "score": 0,
@@ -22993,7 +22805,7 @@
             },
             "spec_0": {
               "score": 1079.9,
-              "color": "#5ad26f"
+              "color": "#59d46d"
             },
             "spec_1": {
               "score": 0,
@@ -23886,11 +23698,11 @@
           "segments": {
             "all": {
               "score": 1770.5,
-              "color": "#2e79d4"
+              "color": "#397ece"
             },
             "dps": {
               "score": 1770.5,
-              "color": "#2e79d4"
+              "color": "#397ece"
             },
             "healer": {
               "score": 0,
@@ -23910,7 +23722,7 @@
             },
             "spec_2": {
               "score": 1770.5,
-              "color": "#2e79d4"
+              "color": "#397ece"
             },
             "spec_3": {
               "score": 0,
