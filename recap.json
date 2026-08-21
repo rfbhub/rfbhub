@@ -1,19 +1,26 @@
 {
-  "generated": "2026-08-20T23:29:08.803Z",
-  "weekStart": "2026-08-13",
-  "weekEnd": "2026-08-20",
+  "generated": "2026-08-21T23:27:50.029Z",
+  "weekStart": "2026-08-14",
+  "weekEnd": "2026-08-21",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
   "categories": {
     "guildProgression": {
       "previous": "0/8 N",
-      "current": "6/8 N",
+      "current": "1/8 H",
       "newMythicKills": 0,
-      "newHeroicKills": 0,
-      "newNormalKills": 6
+      "newHeroicKills": 1,
+      "newNormalKills": 8
     },
     "topClimbers": [
+      {
+        "name": "Gazfrosty",
+        "class": "Mage",
+        "previous": 366,
+        "current": 2076,
+        "gain": 1710
+      },
       {
         "name": "Deadscythe",
         "class": "Demon Hunter",
@@ -26,37 +33,45 @@
       {
         "name": "Deadscythe",
         "class": "Demon Hunter",
-        "previous": 279,
-        "current": 304,
-        "gain": 25
+        "previous": 286,
+        "current": 304.8,
+        "gain": 18.8
       },
       {
         "name": "Hashmaker",
         "class": "Paladin",
         "previous": 295,
-        "current": 306,
-        "gain": 11
-      },
-      {
-        "name": "Blinkforlife",
-        "class": "Mage",
-        "previous": 290,
-        "current": 301,
-        "gain": 11
+        "current": 307.1,
+        "gain": 12.1
       },
       {
         "name": "Enhance",
         "class": "Shaman",
         "previous": 292,
-        "current": 302,
-        "gain": 10
+        "current": 303.8,
+        "gain": 11.8
       },
       {
-        "name": "Cellte",
-        "class": "Warrior",
+        "name": "Blinkforlife",
+        "class": "Mage",
+        "previous": 290,
+        "current": 301.5,
+        "gain": 11.5
+      },
+      {
+        "name": "Gazfrosty",
+        "class": "Mage",
         "previous": 289,
-        "current": 298,
-        "gain": 9
+        "current": 299.9,
+        "gain": 10.9
+      }
+    ],
+    "highKeyPushers": [
+      {
+        "name": "Gazfrosty",
+        "class": "Mage",
+        "previousKey": 4,
+        "currentKey": 10
       }
     ],
     "newFaces": [
@@ -64,51 +79,35 @@
         "name": "Banehate",
         "class": "Death Knight",
         "spec": "Blood",
-        "ilvl": 301,
-        "rio": 2394,
-        "progression": "6/8 N"
-      },
-      {
-        "name": "Gazfrosty",
-        "class": "Mage",
-        "spec": "Arcane",
-        "ilvl": 300,
-        "rio": 2076,
-        "progression": "6/8 N"
-      },
-      {
-        "name": "Taskadin",
-        "class": "Paladin",
-        "spec": "Protection",
-        "ilvl": 296.6,
-        "rio": 1253,
-        "progression": "6/8 N"
+        "ilvl": 307.8,
+        "rio": 2617,
+        "progression": "1/8 H"
       }
     ]
   },
   "summary": {
-    "totalRaiders": 24,
-    "rosterDelta": -6,
-    "avgRio": 1805,
-    "rioDelta": -1518,
-    "avgIlvl": 297.8,
-    "ilvlDelta": 7.3,
+    "totalRaiders": 25,
+    "rosterDelta": -3,
+    "avgRio": 1901,
+    "rioDelta": -1416,
+    "avgIlvl": 299.2,
+    "ilvlDelta": 7.8,
     "avgMythicParse": 0,
-    "parseDelta": -59,
+    "parseDelta": -63,
     "mythicRaidersCount": 0,
     "totalMythicKills": 0,
     "highestKey": 14,
-    "highestKeyPlayer": "Hersin",
-    "highestKeyClass": "Warrior",
-    "enchantPct": 50,
-    "fullyEnchanted": 12,
+    "highestKeyPlayer": "Devrak",
+    "highestKeyClass": "Rogue",
+    "enchantPct": 64,
+    "fullyEnchanted": 16,
     "parseDistribution": {
       "pink": 0,
       "orange": 0,
       "purple": 0,
       "blue": 0
     },
-    "totalCategories": 4,
+    "totalCategories": 5,
     "totalHighlights": 10
   }
 }
