@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T01:25:23.497Z",
+  "updated": "2026-08-21T03:05:22.245Z",
   "zoneID": 53,
   "zoneName": "The Venomous Abyss",
   "bosses": [
@@ -53,8 +53,8 @@
             "parseBreakdown": {
               "pink": 9,
               "orange": 22,
-              "purple": 70,
-              "blue": 55,
+              "purple": 68,
+              "blue": 54,
               "green": 39,
               "gray": 11
             },
@@ -336,8 +336,8 @@
               "name": "Vampiral",
               "class": "Hunter",
               "realm": "stormrage",
-              "avgParse": 86,
-              "bossCount": 8,
+              "avgParse": 87,
+              "bossCount": 7,
               "bosses": [
                 {
                   "name": "Nek'zali the Soulcoiler",
@@ -387,13 +387,6 @@
                   "parse": 45,
                   "spec": "Marksmanship",
                   "dps": 126372
-                },
-                {
-                  "name": "Nymrissa Wavecaller",
-                  "encounterID": 3379,
-                  "parse": 83,
-                  "spec": "BeastMastery",
-                  "dps": 122616
                 }
               ]
             },
@@ -545,8 +538,8 @@
               "name": "Thinboi",
               "class": "Hunter",
               "realm": "sargeras",
-              "avgParse": 82,
-              "bossCount": 9,
+              "avgParse": 83,
+              "bossCount": 8,
               "bosses": [
                 {
                   "name": "Nek'zali the Soulcoiler",
@@ -603,13 +596,6 @@
                   "parse": 68,
                   "spec": "Survival",
                   "dps": 120049
-                },
-                {
-                  "name": "Nymrissa Wavecaller",
-                  "encounterID": 3379,
-                  "parse": 72,
-                  "spec": "Survival",
-                  "dps": 103338
                 }
               ]
             },
@@ -761,8 +747,8 @@
               "name": "Xylaris",
               "class": "Hunter",
               "realm": "stormrage",
-              "avgParse": 72,
-              "bossCount": 9,
+              "avgParse": 71,
+              "bossCount": 8,
               "bosses": [
                 {
                   "name": "Nek'zali the Soulcoiler",
@@ -819,13 +805,6 @@
                   "parse": 50,
                   "spec": "BeastMastery",
                   "dps": 113378
-                },
-                {
-                  "name": "Nymrissa Wavecaller",
-                  "encounterID": 3379,
-                  "parse": 77,
-                  "spec": "BeastMastery",
-                  "dps": 116289
                 }
               ]
             },
@@ -1738,23 +1717,546 @@
           "id": 4,
           "name": "Heroic",
           "stats": {
-            "guildAvg": 0,
-            "raidersLogged": 0,
+            "guildAvg": 48,
+            "raidersLogged": 23,
             "parseBreakdown": {
               "pink": 0,
-              "orange": 0,
-              "purple": 0,
-              "blue": 0,
-              "green": 0,
-              "gray": 0
+              "orange": 2,
+              "purple": 8,
+              "blue": 13,
+              "green": 8,
+              "gray": 14
             },
             "bestParse": {
-              "parse": 0,
-              "player": "",
-              "boss": ""
+              "parse": 98,
+              "player": "Hashmaker",
+              "boss": "Nymrissa Wavecaller"
             }
           },
-          "raiders": []
+          "raiders": [
+            {
+              "name": "Hersin",
+              "class": "Warrior",
+              "realm": "bleeding-hollow",
+              "avgParse": 96,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 96,
+                  "spec": "Protection",
+                  "dps": 78048
+                }
+              ]
+            },
+            {
+              "name": "Hashmaker",
+              "class": "Paladin",
+              "realm": "illidan",
+              "avgParse": 82,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 66,
+                  "spec": "Retribution",
+                  "dps": 115814
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 98,
+                  "spec": "Retribution",
+                  "dps": 151561
+                }
+              ]
+            },
+            {
+              "name": "Radaamac",
+              "class": "Shaman",
+              "realm": "stormrage",
+              "avgParse": 80,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 89,
+                  "spec": "Elemental",
+                  "dps": 150056
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 72,
+                  "spec": "Elemental",
+                  "dps": 158826
+                }
+              ]
+            },
+            {
+              "name": "Devrak",
+              "class": "Rogue",
+              "realm": "stormrage",
+              "avgParse": 79,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 88,
+                  "spec": "Outlaw",
+                  "dps": 145620
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 70,
+                  "spec": "Outlaw",
+                  "dps": 144030
+                }
+              ]
+            },
+            {
+              "name": "Vampiral",
+              "class": "Hunter",
+              "realm": "stormrage",
+              "avgParse": 78,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 63,
+                  "spec": "BeastMastery",
+                  "dps": 127152
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 93,
+                  "spec": "BeastMastery",
+                  "dps": 149395
+                }
+              ]
+            },
+            {
+              "name": "Rukenji",
+              "class": "Priest",
+              "realm": "mannoroth",
+              "avgParse": 78,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 77,
+                  "spec": "Discipline",
+                  "dps": 160939
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 80,
+                  "spec": "Discipline",
+                  "dps": 154036
+                }
+              ]
+            },
+            {
+              "name": "Lionroar",
+              "class": "Druid",
+              "realm": "mok'nathal",
+              "avgParse": 74,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 67,
+                  "spec": "Restoration",
+                  "dps": 170486
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 82,
+                  "spec": "Restoration",
+                  "dps": 170179
+                }
+              ]
+            },
+            {
+              "name": "Gazfrosty",
+              "class": "Mage",
+              "realm": "sargeras",
+              "avgParse": 63,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 58,
+                  "spec": "Arcane",
+                  "dps": 128305
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 68,
+                  "spec": "Arcane",
+                  "dps": 147759
+                }
+              ]
+            },
+            {
+              "name": "Anjaleena",
+              "class": "Paladin",
+              "realm": "area-52",
+              "avgParse": 61,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 69,
+                  "spec": "Holy",
+                  "dps": 186270
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 53,
+                  "spec": "Holy",
+                  "dps": 177749
+                }
+              ]
+            },
+            {
+              "name": "Crackle",
+              "class": "Evoker",
+              "realm": "illidan",
+              "avgParse": 59,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 69,
+                  "spec": "Preservation",
+                  "dps": 171305
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 48,
+                  "spec": "Preservation",
+                  "dps": 148268
+                }
+              ]
+            },
+            {
+              "name": "Thinboi",
+              "class": "Hunter",
+              "realm": "sargeras",
+              "avgParse": 54,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 27,
+                  "spec": "Survival",
+                  "dps": 95130
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 80,
+                  "spec": "Survival",
+                  "dps": 132496
+                }
+              ]
+            },
+            {
+              "name": "Enhance",
+              "class": "Shaman",
+              "realm": "sargeras",
+              "avgParse": 48,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 49,
+                  "spec": "Enhancement",
+                  "dps": 114757
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 48,
+                  "spec": "Enhancement",
+                  "dps": 124054
+                }
+              ]
+            },
+            {
+              "name": "Envenumb",
+              "class": "Rogue",
+              "realm": "stormrage",
+              "avgParse": 43,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 9,
+                  "spec": "Assassination",
+                  "dps": 84932
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 77,
+                  "spec": "Assassination",
+                  "dps": 137306
+                }
+              ]
+            },
+            {
+              "name": "Deadscythe",
+              "class": "Demon Hunter",
+              "realm": "sargeras",
+              "avgParse": 35,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 50,
+                  "spec": "Vengeance",
+                  "dps": 49052
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 20,
+                  "spec": "Vengeance",
+                  "dps": 51672
+                }
+              ]
+            },
+            {
+              "name": "Xylaris",
+              "class": "Hunter",
+              "realm": "stormrage",
+              "avgParse": 34,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 28,
+                  "spec": "BeastMastery",
+                  "dps": 112850
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 39,
+                  "spec": "BeastMastery",
+                  "dps": 119777
+                }
+              ]
+            },
+            {
+              "name": "Cellte",
+              "class": "Warrior",
+              "realm": "stormrage",
+              "avgParse": 31,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 3,
+                  "spec": "Arms",
+                  "dps": 35211
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 59,
+                  "spec": "Arms",
+                  "dps": 130809
+                }
+              ]
+            },
+            {
+              "name": "Solacker",
+              "class": "Death Knight",
+              "realm": "stormrage",
+              "avgParse": 26,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 0,
+                  "spec": "Unholy",
+                  "dps": 34604
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 52,
+                  "spec": "Unholy",
+                  "dps": 114558
+                }
+              ]
+            },
+            {
+              "name": "Veldak",
+              "class": "Shaman",
+              "realm": "zul'jin",
+              "avgParse": 25,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 34,
+                  "spec": "Elemental",
+                  "dps": 117363
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 15,
+                  "spec": "Elemental",
+                  "dps": 113451
+                }
+              ]
+            },
+            {
+              "name": "Mangobrew",
+              "class": "Monk",
+              "realm": "moon-guard",
+              "avgParse": 17,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 3,
+                  "spec": "Windwalker",
+                  "dps": 35754
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 31,
+                  "spec": "Windwalker",
+                  "dps": 101949
+                }
+              ]
+            },
+            {
+              "name": "Blimpi",
+              "class": "Warlock",
+              "realm": "stormrage",
+              "avgParse": 14,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 16,
+                  "spec": "Destruction",
+                  "dps": 97372
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 12,
+                  "spec": "Destruction",
+                  "dps": 86190
+                }
+              ]
+            },
+            {
+              "name": "Taskadin",
+              "class": "Paladin",
+              "realm": "illidan",
+              "avgParse": 14,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 9,
+                  "spec": "Retribution",
+                  "dps": 78651
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 18,
+                  "spec": "Protection",
+                  "dps": 46033
+                }
+              ]
+            },
+            {
+              "name": "Blinkforlife",
+              "class": "Mage",
+              "realm": "sargeras",
+              "avgParse": 13,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 5,
+                  "spec": "Arcane",
+                  "dps": 88741
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 22,
+                  "spec": "Arcane",
+                  "dps": 120804
+                }
+              ]
+            },
+            {
+              "name": "Banehate",
+              "class": "Death Knight",
+              "realm": "stormrage",
+              "avgParse": 3,
+              "bossCount": 2,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 2,
+                  "spec": "Unholy",
+                  "dps": 58163
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 4,
+                  "spec": "Unholy",
+                  "dps": 76120
+                }
+              ]
+            }
+          ]
         },
         "5": {
           "id": 5,
@@ -1791,8 +2293,8 @@
         "parseBreakdown": {
           "pink": 9,
           "orange": 22,
-          "purple": 70,
-          "blue": 55,
+          "purple": 68,
+          "blue": 54,
           "green": 39,
           "gray": 11
         },
@@ -2074,8 +2576,8 @@
           "name": "Vampiral",
           "class": "Hunter",
           "realm": "stormrage",
-          "avgParse": 86,
-          "bossCount": 8,
+          "avgParse": 87,
+          "bossCount": 7,
           "bosses": [
             {
               "name": "Nek'zali the Soulcoiler",
@@ -2125,13 +2627,6 @@
               "parse": 45,
               "spec": "Marksmanship",
               "dps": 126372
-            },
-            {
-              "name": "Nymrissa Wavecaller",
-              "encounterID": 3379,
-              "parse": 83,
-              "spec": "BeastMastery",
-              "dps": 122616
             }
           ]
         },
@@ -2283,8 +2778,8 @@
           "name": "Thinboi",
           "class": "Hunter",
           "realm": "sargeras",
-          "avgParse": 82,
-          "bossCount": 9,
+          "avgParse": 83,
+          "bossCount": 8,
           "bosses": [
             {
               "name": "Nek'zali the Soulcoiler",
@@ -2341,13 +2836,6 @@
               "parse": 68,
               "spec": "Survival",
               "dps": 120049
-            },
-            {
-              "name": "Nymrissa Wavecaller",
-              "encounterID": 3379,
-              "parse": 72,
-              "spec": "Survival",
-              "dps": 103338
             }
           ]
         },
@@ -2499,8 +2987,8 @@
           "name": "Xylaris",
           "class": "Hunter",
           "realm": "stormrage",
-          "avgParse": 72,
-          "bossCount": 9,
+          "avgParse": 71,
+          "bossCount": 8,
           "bosses": [
             {
               "name": "Nek'zali the Soulcoiler",
@@ -2557,13 +3045,6 @@
               "parse": 50,
               "spec": "BeastMastery",
               "dps": 113378
-            },
-            {
-              "name": "Nymrissa Wavecaller",
-              "encounterID": 3379,
-              "parse": 77,
-              "spec": "BeastMastery",
-              "dps": 116289
             }
           ]
         },
@@ -3476,23 +3957,546 @@
       "id": 4,
       "name": "Heroic",
       "stats": {
-        "guildAvg": 0,
-        "raidersLogged": 0,
+        "guildAvg": 48,
+        "raidersLogged": 23,
         "parseBreakdown": {
           "pink": 0,
-          "orange": 0,
-          "purple": 0,
-          "blue": 0,
-          "green": 0,
-          "gray": 0
+          "orange": 2,
+          "purple": 8,
+          "blue": 13,
+          "green": 8,
+          "gray": 14
         },
         "bestParse": {
-          "parse": 0,
-          "player": "",
-          "boss": ""
+          "parse": 98,
+          "player": "Hashmaker",
+          "boss": "Nymrissa Wavecaller"
         }
       },
-      "raiders": []
+      "raiders": [
+        {
+          "name": "Hersin",
+          "class": "Warrior",
+          "realm": "bleeding-hollow",
+          "avgParse": 96,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 96,
+              "spec": "Protection",
+              "dps": 78048
+            }
+          ]
+        },
+        {
+          "name": "Hashmaker",
+          "class": "Paladin",
+          "realm": "illidan",
+          "avgParse": 82,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 66,
+              "spec": "Retribution",
+              "dps": 115814
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 98,
+              "spec": "Retribution",
+              "dps": 151561
+            }
+          ]
+        },
+        {
+          "name": "Radaamac",
+          "class": "Shaman",
+          "realm": "stormrage",
+          "avgParse": 80,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 89,
+              "spec": "Elemental",
+              "dps": 150056
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 72,
+              "spec": "Elemental",
+              "dps": 158826
+            }
+          ]
+        },
+        {
+          "name": "Devrak",
+          "class": "Rogue",
+          "realm": "stormrage",
+          "avgParse": 79,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 88,
+              "spec": "Outlaw",
+              "dps": 145620
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 70,
+              "spec": "Outlaw",
+              "dps": 144030
+            }
+          ]
+        },
+        {
+          "name": "Vampiral",
+          "class": "Hunter",
+          "realm": "stormrage",
+          "avgParse": 78,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 63,
+              "spec": "BeastMastery",
+              "dps": 127152
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 93,
+              "spec": "BeastMastery",
+              "dps": 149395
+            }
+          ]
+        },
+        {
+          "name": "Rukenji",
+          "class": "Priest",
+          "realm": "mannoroth",
+          "avgParse": 78,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 77,
+              "spec": "Discipline",
+              "dps": 160939
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 80,
+              "spec": "Discipline",
+              "dps": 154036
+            }
+          ]
+        },
+        {
+          "name": "Lionroar",
+          "class": "Druid",
+          "realm": "mok'nathal",
+          "avgParse": 74,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 67,
+              "spec": "Restoration",
+              "dps": 170486
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 82,
+              "spec": "Restoration",
+              "dps": 170179
+            }
+          ]
+        },
+        {
+          "name": "Gazfrosty",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 63,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 58,
+              "spec": "Arcane",
+              "dps": 128305
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 68,
+              "spec": "Arcane",
+              "dps": 147759
+            }
+          ]
+        },
+        {
+          "name": "Anjaleena",
+          "class": "Paladin",
+          "realm": "area-52",
+          "avgParse": 61,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 69,
+              "spec": "Holy",
+              "dps": 186270
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 53,
+              "spec": "Holy",
+              "dps": 177749
+            }
+          ]
+        },
+        {
+          "name": "Crackle",
+          "class": "Evoker",
+          "realm": "illidan",
+          "avgParse": 59,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 69,
+              "spec": "Preservation",
+              "dps": 171305
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 48,
+              "spec": "Preservation",
+              "dps": 148268
+            }
+          ]
+        },
+        {
+          "name": "Thinboi",
+          "class": "Hunter",
+          "realm": "sargeras",
+          "avgParse": 54,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 27,
+              "spec": "Survival",
+              "dps": 95130
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 80,
+              "spec": "Survival",
+              "dps": 132496
+            }
+          ]
+        },
+        {
+          "name": "Enhance",
+          "class": "Shaman",
+          "realm": "sargeras",
+          "avgParse": 48,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 49,
+              "spec": "Enhancement",
+              "dps": 114757
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 48,
+              "spec": "Enhancement",
+              "dps": 124054
+            }
+          ]
+        },
+        {
+          "name": "Envenumb",
+          "class": "Rogue",
+          "realm": "stormrage",
+          "avgParse": 43,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 9,
+              "spec": "Assassination",
+              "dps": 84932
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 77,
+              "spec": "Assassination",
+              "dps": 137306
+            }
+          ]
+        },
+        {
+          "name": "Deadscythe",
+          "class": "Demon Hunter",
+          "realm": "sargeras",
+          "avgParse": 35,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 50,
+              "spec": "Vengeance",
+              "dps": 49052
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 20,
+              "spec": "Vengeance",
+              "dps": 51672
+            }
+          ]
+        },
+        {
+          "name": "Xylaris",
+          "class": "Hunter",
+          "realm": "stormrage",
+          "avgParse": 34,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 28,
+              "spec": "BeastMastery",
+              "dps": 112850
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 39,
+              "spec": "BeastMastery",
+              "dps": 119777
+            }
+          ]
+        },
+        {
+          "name": "Cellte",
+          "class": "Warrior",
+          "realm": "stormrage",
+          "avgParse": 31,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 3,
+              "spec": "Arms",
+              "dps": 35211
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 59,
+              "spec": "Arms",
+              "dps": 130809
+            }
+          ]
+        },
+        {
+          "name": "Solacker",
+          "class": "Death Knight",
+          "realm": "stormrage",
+          "avgParse": 26,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 0,
+              "spec": "Unholy",
+              "dps": 34604
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 52,
+              "spec": "Unholy",
+              "dps": 114558
+            }
+          ]
+        },
+        {
+          "name": "Veldak",
+          "class": "Shaman",
+          "realm": "zul'jin",
+          "avgParse": 25,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 34,
+              "spec": "Elemental",
+              "dps": 117363
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 15,
+              "spec": "Elemental",
+              "dps": 113451
+            }
+          ]
+        },
+        {
+          "name": "Mangobrew",
+          "class": "Monk",
+          "realm": "moon-guard",
+          "avgParse": 17,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 3,
+              "spec": "Windwalker",
+              "dps": 35754
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 31,
+              "spec": "Windwalker",
+              "dps": 101949
+            }
+          ]
+        },
+        {
+          "name": "Blimpi",
+          "class": "Warlock",
+          "realm": "stormrage",
+          "avgParse": 14,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 16,
+              "spec": "Destruction",
+              "dps": 97372
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 12,
+              "spec": "Destruction",
+              "dps": 86190
+            }
+          ]
+        },
+        {
+          "name": "Taskadin",
+          "class": "Paladin",
+          "realm": "illidan",
+          "avgParse": 14,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 9,
+              "spec": "Retribution",
+              "dps": 78651
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 18,
+              "spec": "Protection",
+              "dps": 46033
+            }
+          ]
+        },
+        {
+          "name": "Blinkforlife",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 13,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 5,
+              "spec": "Arcane",
+              "dps": 88741
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 22,
+              "spec": "Arcane",
+              "dps": 120804
+            }
+          ]
+        },
+        {
+          "name": "Banehate",
+          "class": "Death Knight",
+          "realm": "stormrage",
+          "avgParse": 3,
+          "bossCount": 2,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 2,
+              "spec": "Unholy",
+              "dps": 58163
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 4,
+              "spec": "Unholy",
+              "dps": 76120
+            }
+          ]
+        }
+      ]
     },
     "5": {
       "id": 5,
@@ -3536,7 +4540,7 @@
     },
     {
       "name": "Envenumb",
-      "rio": 539.5
+      "rio": 707.9
     },
     {
       "name": "Hashmaker",
@@ -3576,7 +4580,7 @@
     },
     {
       "name": "Hersin",
-      "rio": 3109
+      "rio": 3111.9
     },
     {
       "name": "Deadscythe",
