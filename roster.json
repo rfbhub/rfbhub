@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T02:05:11.510Z",
+  "updated": "2026-08-21T03:28:12.404Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -20,17 +20,17 @@
         "mythic_bosses_killed": 1
       },
       "the-tidebound-grotto": {
-        "summary": "1/1 N",
+        "summary": "1/1 H",
         "total_bosses": 1,
         "normal_bosses_killed": 1,
-        "heroic_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
-        "summary": "8/8 N",
+        "summary": "1/8 H",
         "total_bosses": 8,
         "normal_bosses_killed": 8,
-        "heroic_bosses_killed": 0,
+        "heroic_bosses_killed": 1,
         "mythic_bosses_killed": 0
       }
     },
@@ -71,14 +71,14 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3256,
-          "region": 1807,
+          "world": 3270,
+          "region": 1812,
           "realm": 119
         },
         "heroic": {
-          "world": 1226,
-          "region": 593,
-          "realm": 38
+          "world": 1242,
+          "region": 610,
+          "realm": 39
         },
         "mythic": {
           "world": 0,
@@ -88,14 +88,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2025,
-          "region": 788,
+          "world": 2045,
+          "region": 789,
           "realm": 46
         },
         "heroic": {
-          "world": 0,
-          "region": 0,
-          "realm": 0
+          "world": 2138,
+          "region": 1020,
+          "realm": 65
         },
         "mythic": {
           "world": 0,
@@ -138,11 +138,11 @@
           "segments": {
             "all": {
               "score": 2196.7,
-              "color": "#5c63e3"
+              "color": "#5565e2"
             },
             "dps": {
               "score": 2196.7,
-              "color": "#5c63e3"
+              "color": "#5565e2"
             },
             "healer": {
               "score": 0,
@@ -154,7 +154,7 @@
             },
             "spec_0": {
               "score": 2196.7,
-              "color": "#5c63e3"
+              "color": "#5565e2"
             },
             "spec_1": {
               "score": 0,
@@ -541,8 +541,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 298.438,
         "item_level_total": 0,
@@ -1125,19 +1125,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -1195,7 +1195,7 @@
           "segments": {
             "all": {
               "score": 2393.7,
-              "color": "#884ee9"
+              "color": "#8351e8"
             },
             "dps": {
               "score": 584.1,
@@ -1207,11 +1207,11 @@
             },
             "tank": {
               "score": 2393.7,
-              "color": "#884ee9"
+              "color": "#8351e8"
             },
             "spec_0": {
               "score": 2393.7,
-              "color": "#884ee9"
+              "color": "#8351e8"
             },
             "spec_1": {
               "score": 584.1,
@@ -1631,10 +1631,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
-        "item_level_equipped": 302.125,
+        "item_level_equipped": 302.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -2076,10 +2076,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 250229,
-            "item_level": 311,
-            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod",
-            "name": "Idol of the War Loa",
+            "item_id": 249343,
+            "item_level": 298,
+            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
+            "name": "Gaze of the Alnseer",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -2095,10 +2095,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12843,
-              13440,
               6652,
-              12699
+              13335,
+              13654
             ]
           },
           "trinket2": {
@@ -2127,11 +2126,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 237846,
-            "item_level": 285,
-            "enchant": 6245,
-            "icon": "inv_sword_2h_questbloodelf_b_01",
-            "name": "Blood Knight's Warblade",
+            "item_id": 268198,
+            "item_level": 295,
+            "enchant": 6241,
+            "icon": "inv_mace_2h_ulatek_d_01",
+            "name": "Caustic Keeper-Crusher",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -2145,36 +2144,33 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245,
+              6241,
               8052
             ],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8790,
-              13622
+              6652,
+              13333,
+              12834
             ]
           }
         }
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -2232,7 +2228,7 @@
           "segments": {
             "all": {
               "score": 1355.5,
-              "color": "#5fb790"
+              "color": "#5fb98f"
             },
             "dps": {
               "score": 0,
@@ -2240,7 +2236,7 @@
             },
             "healer": {
               "score": 1355.5,
-              "color": "#5fb790"
+              "color": "#5fb98f"
             },
             "tank": {
               "score": 0,
@@ -2252,7 +2248,7 @@
             },
             "spec_1": {
               "score": 1355.5,
-              "color": "#5fb790"
+              "color": "#5fb98f"
             },
             "spec_2": {
               "score": 0,
@@ -2497,8 +2493,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T00:31:38.000Z",
+        "updated_at": "2026-08-21T00:31:38.000Z",
         "source": "db",
         "item_level_equipped": 300.562,
         "item_level_total": 0,
@@ -3144,19 +3140,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -3214,11 +3210,11 @@
           "segments": {
             "all": {
               "score": 985.9,
-              "color": "#4de554"
+              "color": "#4de553"
             },
             "dps": {
               "score": 985.9,
-              "color": "#4de554"
+              "color": "#4de553"
             },
             "healer": {
               "score": 0,
@@ -3234,7 +3230,7 @@
             },
             "spec_1": {
               "score": 985.9,
-              "color": "#4de554"
+              "color": "#4de553"
             },
             "spec_2": {
               "score": 0,
@@ -3401,8 +3397,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 298.062,
         "item_level_total": 0,
@@ -4001,19 +3997,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -4052,30 +4048,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/8/255143176-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-20T09:12:40.000Z",
+      "last_crawled_at": "2026-08-21T03:01:46.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Envenumb",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 539.5,
-            "dps": 539.5,
+            "all": 707.9,
+            "dps": 707.9,
             "healer": 0,
             "tank": 0,
-            "spec_0": 539.5,
+            "spec_0": 707.9,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 539.5,
-              "color": "#a2ff87"
+              "score": 707.9,
+              "color": "#52ff37"
             },
             "dps": {
-              "score": 539.5,
-              "color": "#a2ff87"
+              "score": 707.9,
+              "color": "#52ff37"
             },
             "healer": {
               "score": 0,
@@ -4086,8 +4082,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 539.5,
-              "color": "#a2ff87"
+              "score": 707.9,
+              "color": "#52ff37"
             },
             "spec_1": {
               "score": 0,
@@ -4188,13 +4184,42 @@
             "ordinal": 0
           },
           "role": "dps"
+        },
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 2,
+          "completed_at": "2026-08-20T21:31:36.000Z",
+          "clear_time_ms": 1307629,
+          "keystone_run_id": 884782,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+          "score": 168.5,
+          "affixes": [],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/884782-2-murder-row",
+          "spec": {
+            "id": 259,
+            "name": "Assassination",
+            "slug": "assassination",
+            "class_id": 4,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
-        "source": "db",
-        "item_level_equipped": 300.125,
+        "created_at": "2026-08-21T03:01:47.092Z",
+        "updated_at": "2026-08-21T03:01:47.092Z",
+        "source": "s3",
+        "item_level_equipped": 300,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -4734,8 +4759,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -4768,8 +4792,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -4793,19 +4816,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -4863,11 +4886,11 @@
           "segments": {
             "all": {
               "score": 2913.1,
-              "color": "#e45a87"
+              "color": "#e3598b"
             },
             "dps": {
               "score": 2913.1,
-              "color": "#e45a87"
+              "color": "#e3598b"
             },
             "healer": {
               "score": 0,
@@ -4887,7 +4910,7 @@
             },
             "spec_2": {
               "score": 2913.1,
-              "color": "#e45a87"
+              "color": "#e3598b"
             },
             "spec_3": {
               "score": 0,
@@ -5331,8 +5354,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 307.062,
         "item_level_total": 0,
@@ -5934,19 +5957,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -6004,11 +6027,11 @@
           "segments": {
             "all": {
               "score": 1757.2,
-              "color": "#4888c3"
+              "color": "#4a8ac1"
             },
             "dps": {
               "score": 1757.2,
-              "color": "#4888c3"
+              "color": "#4a8ac1"
             },
             "healer": {
               "score": 0,
@@ -6020,11 +6043,11 @@
             },
             "spec_0": {
               "score": 1451.4,
-              "color": "#5eac9d"
+              "color": "#5eae9b"
             },
             "spec_1": {
               "score": 874.9,
-              "color": "#40f03d"
+              "color": "#3ff13d"
             },
             "spec_2": {
               "score": 0,
@@ -6332,8 +6355,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 294.625,
         "item_level_total": 0,
@@ -6948,19 +6971,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "7/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 7,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -7655,11 +7678,11 @@
           "segments": {
             "all": {
               "score": 1703.7,
-              "color": "#5090bb"
+              "color": "#5292b9"
             },
             "dps": {
               "score": 1703.7,
-              "color": "#5090bb"
+              "color": "#5292b9"
             },
             "healer": {
               "score": 0,
@@ -7679,7 +7702,7 @@
             },
             "spec_2": {
               "score": 1703.7,
-              "color": "#5090bb"
+              "color": "#5292b9"
             },
             "spec_3": {
               "score": 0,
@@ -7966,8 +7989,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 295.312,
         "item_level_total": 0,
@@ -8554,7 +8577,7 @@
             "gems_detail": [],
             "enchants": [
               8041,
-              8051
+              8052
             ],
             "enchants_detail": [
               {
@@ -8588,7 +8611,7 @@
             "gems_detail": [],
             "enchants": [
               8041,
-              8051
+              8052
             ],
             "enchants_detail": [
               {
@@ -8612,19 +8635,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -8682,7 +8705,7 @@
           "segments": {
             "all": {
               "score": 2640.4,
-              "color": "#b63cd9"
+              "color": "#b03ae0"
             },
             "dps": {
               "score": 0,
@@ -8690,7 +8713,7 @@
             },
             "healer": {
               "score": 2640.4,
-              "color": "#b63cd9"
+              "color": "#b03ae0"
             },
             "tank": {
               "score": 0,
@@ -8698,7 +8721,7 @@
             },
             "spec_0": {
               "score": 2640.4,
-              "color": "#b63cd9"
+              "color": "#b03ae0"
             },
             "spec_1": {
               "score": 0,
@@ -9142,10 +9165,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
-        "item_level_equipped": 300.125,
+        "item_level_equipped": 301.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9707,10 +9730,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 268292,
-            "item_level": 298,
-            "icon": "inv_1207_fungarianraid_trinket",
-            "name": "Sporelord's Mycelial Insignia",
+            "item_id": 270167,
+            "item_level": 321,
+            "icon": "inv_tradeskillitem_sorcererswater",
+            "name": "Wavecaller's Seastone",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9727,8 +9750,8 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13335,
-              13786
+              13334,
+              12846
             ]
           },
           "trinket2": {
@@ -9775,8 +9798,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -9826,19 +9848,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -9896,11 +9918,11 @@
           "segments": {
             "all": {
               "score": 1915,
-              "color": "#2b78d5"
+              "color": "#317ad2"
             },
             "dps": {
               "score": 1915,
-              "color": "#2b78d5"
+              "color": "#317ad2"
             },
             "healer": {
               "score": 0,
@@ -9916,7 +9938,7 @@
             },
             "spec_1": {
               "score": 1915,
-              "color": "#2b78d5"
+              "color": "#317ad2"
             },
             "spec_2": {
               "score": 0,
@@ -10248,8 +10270,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 302.812,
         "item_level_total": 0,
@@ -10857,19 +10879,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -10927,11 +10949,11 @@
           "segments": {
             "all": {
               "score": 2611.1,
-              "color": "#b039e0"
+              "color": "#aa37e7"
             },
             "dps": {
               "score": 2611.1,
-              "color": "#b039e0"
+              "color": "#aa37e7"
             },
             "healer": {
               "score": 0,
@@ -10947,7 +10969,7 @@
             },
             "spec_1": {
               "score": 2611.1,
-              "color": "#b039e0"
+              "color": "#aa37e7"
             },
             "spec_2": {
               "score": 0,
@@ -11387,10 +11409,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
-        "item_level_equipped": 297.875,
+        "item_level_equipped": 298.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -11403,7 +11425,7 @@
         "items": {
           "head": {
             "item_id": 273791,
-            "item_level": 302,
+            "item_level": 308,
             "icon": "inv_helm_leather_outdooramaniloa_c_01",
             "name": "Spare Speaker's Hood",
             "item_quality": 4,
@@ -11472,7 +11494,7 @@
               13696,
               13662,
               12699,
-              12836
+              12838
             ]
           },
           "neck": {
@@ -12014,19 +12036,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -12084,7 +12106,7 @@
           "segments": {
             "all": {
               "score": 2706.7,
-              "color": "#c543c5"
+              "color": "#c141ca"
             },
             "dps": {
               "score": 0,
@@ -12092,7 +12114,7 @@
             },
             "healer": {
               "score": 2706.7,
-              "color": "#c543c5"
+              "color": "#c141ca"
             },
             "tank": {
               "score": 0,
@@ -12108,7 +12130,7 @@
             },
             "spec_2": {
               "score": 2706.7,
-              "color": "#c543c5"
+              "color": "#c141ca"
             },
             "spec_3": {
               "score": 0,
@@ -13239,11 +13261,11 @@
           "segments": {
             "all": {
               "score": 1483.4,
-              "color": "#5da9a0"
+              "color": "#5eab9e"
             },
             "dps": {
               "score": 1483.4,
-              "color": "#5da9a0"
+              "color": "#5eab9e"
             },
             "healer": {
               "score": 0,
@@ -13255,7 +13277,7 @@
             },
             "spec_0": {
               "score": 1483.4,
-              "color": "#5da9a0"
+              "color": "#5eab9e"
             },
             "spec_1": {
               "score": 0,
@@ -13521,8 +13543,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 297,
         "item_level_total": 0,
@@ -14132,19 +14154,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -14183,7 +14205,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-08-21T01:05:38.000Z",
+      "last_crawled_at": "2026-08-21T03:16:56.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -14202,11 +14224,11 @@
           "segments": {
             "all": {
               "score": 3111.9,
-              "color": "#f6704d"
+              "color": "#f56f4f"
             },
             "dps": {
               "score": 3111.9,
-              "color": "#f6704d"
+              "color": "#f56f4f"
             },
             "healer": {
               "score": 0,
@@ -14214,7 +14236,7 @@
             },
             "tank": {
               "score": 2663.9,
-              "color": "#bb3ed2"
+              "color": "#b63cd8"
             },
             "spec_0": {
               "score": 0,
@@ -14222,11 +14244,11 @@
             },
             "spec_1": {
               "score": 3111.9,
-              "color": "#f6704d"
+              "color": "#f56f4f"
             },
             "spec_2": {
               "score": 2663.9,
-              "color": "#bb3ed2"
+              "color": "#b63cd8"
             },
             "spec_3": {
               "score": 0,
@@ -14670,10 +14692,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:42:11.000Z",
-        "updated_at": "2026-08-21T01:42:11.000Z",
-        "source": "db",
-        "item_level_equipped": 295.188,
+        "created_at": "2026-08-20T10:03:29.094Z",
+        "updated_at": "2026-08-20T10:03:29.094Z",
+        "source": "s3",
+        "item_level_equipped": 296,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15304,8 +15326,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -15340,8 +15361,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8052
+              7981
             ],
             "enchants_detail": [
               {
@@ -15369,11 +15389,11 @@
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "6/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 6,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -15431,7 +15451,7 @@
           "segments": {
             "all": {
               "score": 2381.5,
-              "color": "#8351e8"
+              "color": "#7e54e7"
             },
             "dps": {
               "score": 0,
@@ -15443,7 +15463,7 @@
             },
             "tank": {
               "score": 2381.5,
-              "color": "#8351e8"
+              "color": "#7e54e7"
             },
             "spec_0": {
               "score": 0,
@@ -15451,7 +15471,7 @@
             },
             "spec_1": {
               "score": 2381.5,
-              "color": "#8351e8"
+              "color": "#7e54e7"
             },
             "spec_2": {
               "score": 0,
@@ -15867,8 +15887,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 304.75,
         "item_level_total": 0,
@@ -16503,19 +16523,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -16573,7 +16593,7 @@
           "segments": {
             "all": {
               "score": 1252.5,
-              "color": "#5ec580"
+              "color": "#5ec67e"
             },
             "dps": {
               "score": 0,
@@ -16585,7 +16605,7 @@
             },
             "tank": {
               "score": 1252.5,
-              "color": "#5ec580"
+              "color": "#5ec67e"
             },
             "spec_0": {
               "score": 0,
@@ -16593,7 +16613,7 @@
             },
             "spec_1": {
               "score": 1252.5,
-              "color": "#5ec580"
+              "color": "#5ec67e"
             },
             "spec_2": {
               "score": 0,
@@ -16813,10 +16833,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
-        "item_level_equipped": 296.625,
+        "item_level_equipped": 294.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -17412,11 +17432,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 237839,
-            "item_level": 318,
-            "enchant": 7983,
-            "icon": "inv_sword_1h_questbloodelf_b_01",
-            "name": "Spellbreaker's Blade",
+            "item_id": 193755,
+            "item_level": 292,
+            "enchant": 8041,
+            "icon": "inv_axe_2h_drakonoid_c_01",
+            "name": "Backdraft Cleaver",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -17430,72 +17450,40 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
+              8041,
               8052
             ],
             "enchants_detail": [
               {
-                "id": 243973,
-                "name": "Enchant Weapon - Berserker's Rage",
+                "id": 244031,
+                "name": "Enchant Weapon - Arcane Mast",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
-              12214,
-              12497,
-              13751,
-              12693,
-              8960,
-              8790,
-              13835
-            ]
-          },
-          "offhand": {
-            "item_id": 237831,
-            "item_level": 305,
-            "icon": "inv_shield_1h_questbloodelf_b_01",
-            "name": "Spellbreaker's Rebuke",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              8960,
-              12384,
-              8790
+              12833,
+              13439,
+              6652,
+              12701
             ]
           }
         }
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -17553,11 +17541,11 @@
           "segments": {
             "all": {
               "score": 2557.4,
-              "color": "#a335ee"
+              "color": "#9f3aed"
             },
             "dps": {
               "score": 2557.4,
-              "color": "#a335ee"
+              "color": "#9f3aed"
             },
             "healer": {
               "score": 0,
@@ -17569,7 +17557,7 @@
             },
             "spec_0": {
               "score": 2557.4,
-              "color": "#a335ee"
+              "color": "#9f3aed"
             },
             "spec_1": {
               "score": 0,
@@ -17997,8 +17985,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 301.5,
         "item_level_total": 0,
@@ -18587,19 +18575,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -18657,11 +18645,11 @@
           "segments": {
             "all": {
               "score": 2185.8,
-              "color": "#5565e2"
+              "color": "#4d67e1"
             },
             "dps": {
               "score": 2185.8,
-              "color": "#5565e2"
+              "color": "#4d67e1"
             },
             "healer": {
               "score": 0,
@@ -18673,7 +18661,7 @@
             },
             "spec_0": {
               "score": 2185.8,
-              "color": "#5565e2"
+              "color": "#4d67e1"
             },
             "spec_1": {
               "score": 0,
@@ -19051,8 +19039,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 299.438,
         "item_level_total": 0,
@@ -19701,19 +19689,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -19771,11 +19759,11 @@
           "segments": {
             "all": {
               "score": 2075.8,
-              "color": "#306ddf"
+              "color": "#206ede"
             },
             "dps": {
               "score": 2075.8,
-              "color": "#306ddf"
+              "color": "#206ede"
             },
             "healer": {
               "score": 0,
@@ -19787,7 +19775,7 @@
             },
             "spec_0": {
               "score": 2062.4,
-              "color": "#206ede"
+              "color": "#0070dd"
             },
             "spec_1": {
               "score": 0,
@@ -20149,10 +20137,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
-        "item_level_equipped": 302.188,
+        "item_level_equipped": 302.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -20334,10 +20322,10 @@
             ]
           },
           "waist": {
-            "item_id": 193691,
-            "item_level": 295,
-            "icon": "inv_belt_dragondungeon_c_01",
-            "name": "Sky Saddle Cord",
+            "item_id": 268232,
+            "item_level": 305,
+            "icon": "inv_belt_cloth_raidmageulatek_d_01",
+            "name": "Cincture of the Abyssal Grotto",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -20353,12 +20341,11 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12834,
-              13440,
-              6652,
+              43,
               13696,
               13662,
-              12699
+              13334,
+              12841
             ]
           },
           "wrist": {
@@ -20603,19 +20590,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -20755,8 +20742,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 294.812,
         "item_level_total": 0,
@@ -21342,19 +21329,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -21548,8 +21535,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 296.875,
         "item_level_total": 0,
@@ -22146,19 +22133,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -22216,7 +22203,7 @@
           "segments": {
             "all": {
               "score": 1477.2,
-              "color": "#5da9a0"
+              "color": "#5eab9e"
             },
             "dps": {
               "score": 198,
@@ -22224,7 +22211,7 @@
             },
             "healer": {
               "score": 1279.2,
-              "color": "#5fc086"
+              "color": "#5fc185"
             },
             "tank": {
               "score": 0,
@@ -22232,7 +22219,7 @@
             },
             "spec_0": {
               "score": 1279.2,
-              "color": "#5fc086"
+              "color": "#5fc185"
             },
             "spec_1": {
               "score": 0,
@@ -22489,8 +22476,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T00:31:38.000Z",
+        "updated_at": "2026-08-21T00:31:38.000Z",
         "source": "db",
         "item_level_equipped": 295.375,
         "item_level_total": 0,
@@ -23102,19 +23089,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -23172,11 +23159,11 @@
           "segments": {
             "all": {
               "score": 1079.9,
-              "color": "#56d965"
+              "color": "#56da64"
             },
             "dps": {
               "score": 1079.9,
-              "color": "#56d965"
+              "color": "#56da64"
             },
             "healer": {
               "score": 0,
@@ -23188,7 +23175,7 @@
             },
             "spec_0": {
               "score": 1079.9,
-              "color": "#56d965"
+              "color": "#56da64"
             },
             "spec_1": {
               "score": 0,
@@ -23387,10 +23374,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:37:22.000Z",
-        "updated_at": "2026-08-21T01:37:22.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
-        "item_level_equipped": 296.688,
+        "item_level_equipped": 297.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -23983,10 +23970,10 @@
             ]
           },
           "offhand": {
-            "item_id": 258049,
-            "item_level": 298,
-            "icon": "inv_shield_draenordungeon_c_03",
-            "name": "Viryx's Indomitable Bulwark",
+            "item_id": 268262,
+            "item_level": 305,
+            "icon": "inv_shield_1h_ulatek_d_01",
+            "name": "Bubblefin Splash Guard",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -24002,29 +23989,28 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13440,
               6652,
-              12699,
-              13654
+              13334,
+              12841
             ]
           }
         }
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -24082,11 +24068,11 @@
           "segments": {
             "all": {
               "score": 1770.5,
-              "color": "#4888c3"
+              "color": "#4a8ac1"
             },
             "dps": {
               "score": 1770.5,
-              "color": "#4888c3"
+              "color": "#4a8ac1"
             },
             "healer": {
               "score": 0,
@@ -24106,7 +24092,7 @@
             },
             "spec_2": {
               "score": 1770.5,
-              "color": "#4888c3"
+              "color": "#4a8ac1"
             },
             "spec_3": {
               "score": 0,
@@ -24410,8 +24396,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T01:59:34.000Z",
-        "updated_at": "2026-08-21T01:59:34.000Z",
+        "created_at": "2026-08-21T02:49:30.000Z",
+        "updated_at": "2026-08-21T02:49:30.000Z",
         "source": "db",
         "item_level_equipped": 293,
         "item_level_total": 0,
@@ -25039,19 +25025,19 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "1/1 N",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "8/8 N",
+          "summary": "1/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
