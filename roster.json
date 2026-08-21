@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T03:28:12.404Z",
+  "updated": "2026-08-21T04:08:33.484Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -71,12 +71,12 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3270,
-          "region": 1812,
+          "world": 3272,
+          "region": 1813,
           "realm": 119
         },
         "heroic": {
-          "world": 1242,
+          "world": 1243,
           "region": 610,
           "realm": 39
         },
@@ -88,14 +88,14 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2045,
+          "world": 2050,
           "region": 789,
           "realm": 46
         },
         "heroic": {
-          "world": 2138,
-          "region": 1020,
-          "realm": 65
+          "world": 2169,
+          "region": 1049,
+          "realm": 67
         },
         "mythic": {
           "world": 0,
@@ -1631,8 +1631,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T03:46:34.000Z",
+        "updated_at": "2026-08-21T03:46:34.000Z",
         "source": "db",
         "item_level_equipped": 302.562,
         "item_level_total": 0,
@@ -3198,23 +3198,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 985.9,
-            "dps": 985.9,
+            "all": 1047.7,
+            "dps": 1047.7,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 985.9,
+            "spec_1": 1047.7,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 985.9,
-              "color": "#4de553"
+              "score": 1047.7,
+              "color": "#54dd60"
             },
             "dps": {
-              "score": 985.9,
-              "color": "#4de553"
+              "score": 1047.7,
+              "color": "#54dd60"
             },
             "healer": {
               "score": 0,
@@ -3229,8 +3229,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 985.9,
-              "color": "#4de553"
+              "score": 1047.7,
+              "color": "#54dd60"
             },
             "spec_2": {
               "score": 0,
@@ -3291,6 +3291,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 11,
+          "completed_at": "2026-08-20T22:58:57.000Z",
+          "clear_time_ms": 2118277,
+          "keystone_run_id": 898710,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 0,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 301.1,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/898710-11-den-of-nalorakk",
+          "spec": {
+            "id": 266,
+            "name": "Demonology",
+            "slug": "demonology",
+            "class_id": 9,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
           "mythic_level": 6,
@@ -3316,44 +3370,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/105126-6-ruby-life-pools",
-          "spec": {
-            "id": 266,
-            "name": "Demonology",
-            "slug": "demonology",
-            "class_id": 9,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Den of Nalorakk",
-          "short_name": "DON",
-          "mythic_level": 6,
-          "completed_at": "2026-08-19T01:00:51.000Z",
-          "clear_time_ms": 1440762,
-          "keystone_run_id": 66366,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 586,
-          "zone_id": 16368,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
-          "score": 239.4,
-          "affixes": [
-            {
-              "id": 162,
-              "name": "Xal'atath's Bargain: Pulsar",
-              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-              "icon": "inv_cosmicvoid_nova",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-              "wowhead_url": "https://wowhead.com/affix=162"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/66366-6-den-of-nalorakk",
           "spec": {
             "id": 266,
             "name": "Demonology",
@@ -3397,10 +3413,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T04:01:58.000Z",
+        "updated_at": "2026-08-21T04:01:58.000Z",
         "source": "db",
-        "item_level_equipped": 298.062,
+        "item_level_equipped": 296.062,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3412,10 +3428,11 @@
         },
         "items": {
           "head": {
-            "item_id": 271546,
-            "item_level": 298,
-            "icon": "inv_helm_cloth_raidwarlockulatek_d_01",
-            "name": "Skull of the Damned Necrolyte",
+            "item_id": 250042,
+            "item_level": 289,
+            "enchant": 8017,
+            "icon": "inv_helm_cloth_raidwarlockmidnight_d_01",
+            "name": "Abyssal Immolator's Smoldering Flames",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": true,
@@ -3472,18 +3489,34 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "36",
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "tier": "35",
+            "gems": [
+              240906
+            ],
+            "gems_detail": [
+              {
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+              }
+            ],
+            "enchants": [
+              8017
+            ],
+            "enchants_detail": [
+              {
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
-              12835,
-              13333,
-              13692,
+              13338,
+              13440,
               6652,
-              13696,
-              13698
+              13575,
+              12806,
+              13534
             ]
           },
           "neck": {
@@ -3766,10 +3799,11 @@
             ]
           },
           "feet": {
-            "item_id": 251219,
-            "item_level": 308,
-            "icon": "inv_boot_cloth_dungeonharronir_c_01",
-            "name": "Riftworn Stompers",
+            "item_id": 268282,
+            "item_level": 298,
+            "enchant": 7963,
+            "icon": "inv_boot_cloth_raidpriestmidnight_d_01",
+            "name": "Luxurious Loamstriders",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -3782,14 +3816,21 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              7963
+            ],
+            "enchants_detail": [
+              {
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
-              12842,
-              13440,
               6652,
-              13662,
-              12699
+              13577,
+              13335,
+              13786
             ]
           },
           "finger1": {
@@ -3968,10 +4009,10 @@
             ]
           },
           "offhand": {
-            "item_id": 271681,
-            "item_level": 311,
-            "icon": "inv_offhand_1h_dungeonharronir_c_01",
-            "name": "Perennial Frostbound Charm",
+            "item_id": 249276,
+            "item_level": 298,
+            "icon": "inv_offhand_1h_raidmidnight_d_01",
+            "name": "Grimoire of the Eternal Light",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -3987,10 +4028,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12843,
-              13440,
               6652,
-              12699
+              13335,
+              13654
             ]
           }
         }
@@ -9165,10 +9205,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T04:01:58.000Z",
+        "updated_at": "2026-08-21T04:01:58.000Z",
         "source": "db",
-        "item_level_equipped": 301.562,
+        "item_level_equipped": 299.938,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9286,16 +9326,8 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240892
-            ],
-            "gems_detail": [
-              {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
@@ -9608,7 +9640,7 @@
           },
           "feet": {
             "item_id": 251137,
-            "item_level": 308,
+            "item_level": 305,
             "enchant": 7993,
             "icon": "inv_boot_cloth_dungeonharronir_c_01",
             "name": "Tempestuous Sandals",
@@ -9639,7 +9671,7 @@
               6652,
               13662,
               12699,
-              12838
+              12837
             ]
           },
           "finger1": {
@@ -9730,10 +9762,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270167,
-            "item_level": 321,
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "name": "Wavecaller's Seastone",
+            "item_id": 268292,
+            "item_level": 298,
+            "icon": "inv_1207_fungarianraid_trinket",
+            "name": "Sporelord's Mycelial Insignia",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9750,8 +9782,8 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13334,
-              12846
+              13335,
+              13786
             ]
           },
           "trinket2": {
@@ -9798,7 +9830,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
@@ -9906,23 +9939,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 1915,
-            "dps": 1915,
+            "all": 2216.2,
+            "dps": 2216.2,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
-            "spec_1": 1915,
+            "spec_1": 2216.2,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 1915,
-              "color": "#317ad2"
+              "score": 2216.2,
+              "color": "#5c63e3"
             },
             "dps": {
-              "score": 1915,
-              "color": "#317ad2"
+              "score": 2216.2,
+              "color": "#5c63e3"
             },
             "healer": {
               "score": 0,
@@ -9937,8 +9970,8 @@
               "color": "#ffffff"
             },
             "spec_1": {
-              "score": 1915,
-              "color": "#317ad2"
+              "score": 2216.2,
+              "color": "#5c63e3"
             },
             "spec_2": {
               "score": 0,
@@ -10223,6 +10256,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 11,
+          "completed_at": "2026-08-20T22:58:57.000Z",
+          "clear_time_ms": 2118277,
+          "keystone_run_id": 898710,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 0,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 301.1,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/898710-11-den-of-nalorakk",
+          "spec": {
+            "id": 263,
+            "name": "Enhancement",
+            "slug": "enhancement",
+            "class_id": 7,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
           "mythic_level": 8,
@@ -10270,8 +10357,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T04:01:58.000Z",
+        "updated_at": "2026-08-21T04:01:58.000Z",
         "source": "db",
         "item_level_equipped": 302.812,
         "item_level_total": 0,
@@ -11409,10 +11496,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T03:46:34.000Z",
+        "updated_at": "2026-08-21T03:46:34.000Z",
         "source": "db",
-        "item_level_equipped": 298.25,
+        "item_level_equipped": 297.688,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -11425,7 +11512,7 @@
         "items": {
           "head": {
             "item_id": 273791,
-            "item_level": 308,
+            "item_level": 302,
             "icon": "inv_helm_leather_outdooramaniloa_c_01",
             "name": "Spare Speaker's Hood",
             "item_quality": 4,
@@ -11494,7 +11581,7 @@
               13696,
               13662,
               12699,
-              12838
+              12836
             ]
           },
           "neck": {
@@ -11569,7 +11656,7 @@
           },
           "back": {
             "item_id": 159288,
-            "item_level": 311,
+            "item_level": 308,
             "icon": "inv_cape_mail_zandalardungeon_c_01",
             "name": "Cloak of the Restless Tribes",
             "item_quality": 4,
@@ -11587,9 +11674,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12843,
+              12842,
               13440,
-              6652,
+              40,
               13662,
               12699
             ]
@@ -11980,7 +12067,7 @@
             "gems_detail": [],
             "enchants": [
               7981,
-              8052
+              8051
             ],
             "enchants_detail": [
               {
@@ -12016,7 +12103,7 @@
             "gems_detail": [],
             "enchants": [
               7983,
-              8052
+              8051
             ],
             "enchants_detail": [
               {
@@ -14692,10 +14779,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-20T10:03:29.094Z",
-        "updated_at": "2026-08-20T10:03:29.094Z",
-        "source": "s3",
-        "item_level_equipped": 296,
+        "created_at": "2026-08-21T03:59:34.000Z",
+        "updated_at": "2026-08-21T03:59:34.000Z",
+        "source": "db",
+        "item_level_equipped": 300.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14870,10 +14957,10 @@
             ]
           },
           "back": {
-            "item_id": 239656,
-            "item_level": 285,
-            "icon": "inv_cape_cloth_questbloodelf_b_01",
-            "name": "Adherent's Silken Shroud",
+            "item_id": 193763,
+            "item_level": 311,
+            "icon": "inv_mail_dragondungeon_c_01_cape",
+            "name": "Fireproof Drape",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -14889,14 +14976,11 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              12066,
-              8960,
-              12384,
-              8790,
-              13622
+              12843,
+              13440,
+              6652,
+              13662,
+              12699
             ]
           },
           "chest": {
@@ -15214,11 +15298,11 @@
             ]
           },
           "finger2": {
-            "item_id": 251093,
-            "item_level": 289,
+            "item_id": 251194,
+            "item_level": 311,
             "enchant": 7967,
-            "icon": "inv_12_trinket_devouring_host_currency1_silver",
-            "name": "Omission of Light",
+            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow",
+            "name": "Lightwarden's Bind",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15250,11 +15334,11 @@
               }
             ],
             "bonuses": [
+              12843,
               13440,
               6652,
               13668,
-              12699,
-              12806
+              12699
             ]
           },
           "trinket1": {
@@ -15309,7 +15393,7 @@
           },
           "mainhand": {
             "item_id": 193755,
-            "item_level": 311,
+            "item_level": 321,
             "enchant": 7983,
             "icon": "inv_axe_2h_drakonoid_c_01",
             "name": "Backdraft Cleaver",
@@ -15326,7 +15410,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
@@ -15336,18 +15421,18 @@
               }
             ],
             "bonuses": [
-              12843,
               13440,
               6652,
-              12701
+              12701,
+              12846
             ]
           },
           "offhand": {
-            "item_id": 251168,
-            "item_level": 298,
-            "enchant": 7981,
-            "icon": "inv_sword_2h_dungeonharronir_c_01",
-            "name": "Liferipper's Cutlass",
+            "item_id": 251181,
+            "item_level": 321,
+            "enchant": 7983,
+            "icon": "inv_polearm_2h_rutaani_b_01",
+            "name": "Pruning Lance",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15361,12 +15446,13 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
-                "id": 243971,
-                "name": "Enchant Weapon - Jan'alai's Precision",
+                "id": 243973,
+                "name": "Enchant Weapon - Berserker's Rage",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
@@ -15374,7 +15460,7 @@
               13440,
               6652,
               12701,
-              13654
+              12846
             ]
           }
         }
@@ -17985,10 +18071,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T04:04:27.000Z",
+        "updated_at": "2026-08-21T04:04:27.000Z",
         "source": "db",
-        "item_level_equipped": 301.5,
+        "item_level_equipped": 299.875,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -18536,11 +18622,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 251123,
-            "item_level": 311,
+            "item_id": 251201,
+            "item_level": 298,
             "enchant": 8039,
-            "icon": "inv_staff_2h_dungeonharronir_c_02",
-            "name": "Nibbles' Training Rod",
+            "icon": "inv_staff_2h_domanaar_b_01",
+            "name": "Corespark Multitool",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -18565,10 +18651,10 @@
               }
             ],
             "bonuses": [
-              12843,
               13440,
               6652,
-              12701
+              12701,
+              13654
             ]
           }
         }
@@ -18622,34 +18708,34 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 21805,
+      "achievement_points": 21845,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/91/246363483-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-20T23:01:08.000Z",
+      "last_crawled_at": "2026-08-21T03:42:54.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Radaamac",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2185.8,
-            "dps": 2185.8,
+            "all": 2312.2,
+            "dps": 2312.2,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2185.8,
+            "spec_0": 2312.2,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2185.8,
-              "color": "#4d67e1"
+              "score": 2312.2,
+              "color": "#6e5ce5"
             },
             "dps": {
-              "score": 2185.8,
-              "color": "#4d67e1"
+              "score": 2312.2,
+              "color": "#6e5ce5"
             },
             "healer": {
               "score": 0,
@@ -18660,8 +18746,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2185.8,
-              "color": "#4d67e1"
+              "score": 2312.2,
+              "color": "#6e5ce5"
             },
             "spec_1": {
               "score": 0,
@@ -18721,6 +18807,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/817545-10-ruby-life-pools",
+          "spec": {
+            "id": 262,
+            "name": "Elemental",
+            "slug": "elemental",
+            "class_id": 7,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 10,
+          "completed_at": "2026-08-20T23:34:38.000Z",
+          "clear_time_ms": 1738616,
+          "keystone_run_id": 893605,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 323.6,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/893605-10-den-of-nalorakk",
           "spec": {
             "id": 262,
             "name": "Elemental",
@@ -18980,35 +19120,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Den of Nalorakk",
-          "short_name": "DON",
-          "mythic_level": 4,
-          "completed_at": "2026-08-18T21:34:26.000Z",
-          "clear_time_ms": 1295567,
-          "keystone_run_id": 59435,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 586,
-          "zone_id": 16368,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
-          "score": 197.2,
-          "affixes": [],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/59435-4-den-of-nalorakk",
-          "spec": {
-            "id": 262,
-            "name": "Elemental",
-            "slug": "elemental",
-            "class_id": 7,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "The Blinding Vale",
           "short_name": "BV",
           "mythic_level": 2,
@@ -19039,10 +19150,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
+        "created_at": "2026-08-21T04:06:10.000Z",
+        "updated_at": "2026-08-21T04:06:10.000Z",
         "source": "db",
-        "item_level_equipped": 299.438,
+        "item_level_equipped": 299.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -19535,11 +19646,11 @@
             ]
           },
           "finger2": {
-            "item_id": 279010,
-            "item_level": 292,
-            "enchant": 7967,
-            "icon": "inv_121_jewelry_ring02_green",
-            "name": "Ula'tek's Bind",
+            "item_id": 193708,
+            "item_level": 289,
+            "enchant": 7969,
+            "icon": "inv_10_dungeonjewelry_explorer_ring_1_color1",
+            "name": "Platinum Star Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -19551,29 +19662,31 @@
             },
             "domination_shards": [],
             "gems": [
-              240892
+              240908
             ],
             "gems_detail": [
               {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
+                "id": 240908,
+                "name": "16 Crit & 7 Mast",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
               }
             ],
             "enchants": [
-              7967
+              7969
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 243959,
+                "name": "Enchant Ring - Zul'jin's Mast",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              12833,
-              6652,
-              13668
+              13440,
+              41,
+              13668,
+              12699,
+              12806
             ]
           },
           "trinket1": {
@@ -23136,34 +23249,34 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 30635,
+      "achievement_points": 30655,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/35/264810531-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-08-20T09:12:54.000Z",
+      "last_crawled_at": "2026-08-21T03:56:46.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Veldak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 1079.9,
-            "dps": 1079.9,
+            "all": 1377.4,
+            "dps": 1377.4,
             "healer": 0,
             "tank": 0,
-            "spec_0": 1079.9,
+            "spec_0": 1377.4,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 1079.9,
-              "color": "#56da64"
+              "score": 1377.4,
+              "color": "#5fb692"
             },
             "dps": {
-              "score": 1079.9,
-              "color": "#56da64"
+              "score": 1377.4,
+              "color": "#5fb692"
             },
             "healer": {
               "score": 0,
@@ -23174,8 +23287,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 1079.9,
-              "color": "#56da64"
+              "score": 1377.4,
+              "color": "#5fb692"
             },
             "spec_1": {
               "score": 0,
@@ -23193,6 +23306,52 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 9,
+          "completed_at": "2026-08-21T03:27:56.000Z",
+          "clear_time_ms": 1537874,
+          "keystone_run_id": 895442,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 297.5,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/895442-9-den-of-nalorakk",
+          "spec": {
+            "id": 262,
+            "name": "Elemental",
+            "slug": "elemental",
+            "class_id": 7,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Kings' Rest",
           "short_name": "KR",
@@ -23374,10 +23533,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-21T02:49:30.000Z",
-        "updated_at": "2026-08-21T02:49:30.000Z",
-        "source": "db",
-        "item_level_equipped": 297.125,
+        "created_at": "2026-08-20T05:53:35.091Z",
+        "updated_at": "2026-08-20T05:53:35.091Z",
+        "source": "s3",
+        "item_level_equipped": 296,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -23953,8 +24112,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              5400
+              7981
             ],
             "enchants_detail": [
               {
@@ -23970,10 +24128,10 @@
             ]
           },
           "offhand": {
-            "item_id": 268262,
-            "item_level": 305,
-            "icon": "inv_shield_1h_ulatek_d_01",
-            "name": "Bubblefin Splash Guard",
+            "item_id": 258049,
+            "item_level": 298,
+            "icon": "inv_shield_draenordungeon_c_03",
+            "name": "Viryx's Indomitable Bulwark",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -23989,9 +24147,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              13440,
               6652,
-              13334,
-              12841
+              12699,
+              13654
             ]
           }
         }
