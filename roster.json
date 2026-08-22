@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T21:43:31.863Z",
+  "updated": "2026-08-22T22:44:50.317Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -71,13 +71,13 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3696,
+          "world": 3698,
           "region": 1920,
           "realm": 125
         },
         "heroic": {
-          "world": 1331,
-          "region": 621,
+          "world": 1333,
+          "region": 622,
           "realm": 39
         },
         "mythic": {
@@ -88,13 +88,13 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2378,
+          "world": 2379,
           "region": 792,
           "realm": 46
         },
         "heroic": {
-          "world": 1077,
-          "region": 523,
+          "world": 1086,
+          "region": 525,
           "realm": 35
         },
         "mythic": {
@@ -3588,10 +3588,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-22T17:44:45.000Z",
-        "updated_at": "2026-08-22T17:44:45.000Z",
+        "created_at": "2026-08-22T22:43:22.000Z",
+        "updated_at": "2026-08-22T22:43:22.000Z",
         "source": "db",
-        "item_level_equipped": 298.062,
+        "item_level_equipped": 299.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3713,11 +3713,10 @@
             ]
           },
           "shoulder": {
-            "item_id": 251213,
-            "item_level": 289,
-            "enchant": 7973,
-            "icon": "inv_shoulder_cloth_dungeonharronir_c_01",
-            "name": "Nysarra's Mantle",
+            "item_id": 239045,
+            "item_level": 308,
+            "icon": "inv_shoulder_cloth_zandalardungeon_c_01",
+            "name": "Mantle of Ceremonial Ascension",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -3730,22 +3729,14 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              7973
-            ],
-            "enchants_detail": [
-              {
-                "id": 243963,
-                "name": "Enchant Shoulders - Akil'zon's Swiftness",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
+              12842,
               13440,
               42,
-              13577,
-              12699,
-              12806
+              13662,
+              12699
             ]
           },
           "back": {
@@ -4141,7 +4132,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -5158,30 +5150,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-08-22T21:06:04.000Z",
+      "last_crawled_at": "2026-08-22T21:53:05.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3070.5,
-            "dps": 3070.5,
+            "all": 3086.7,
+            "dps": 3086.7,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3070.5,
+            "spec_2": 3086.7,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3070.5,
-              "color": "#df5693"
+              "score": 3086.7,
+              "color": "#e2588d"
             },
             "dps": {
-              "score": 3070.5,
-              "color": "#df5693"
+              "score": 3086.7,
+              "color": "#e2588d"
             },
             "healer": {
               "score": 0,
@@ -5200,8 +5192,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3070.5,
-              "color": "#df5693"
+              "score": 3086.7,
+              "color": "#e2588d"
             },
             "spec_3": {
               "score": 0,
@@ -5253,6 +5245,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/2189636-14-temple-of-sethraliss",
+          "spec": {
+            "id": 70,
+            "name": "Retribution",
+            "slug": "retribution",
+            "class_id": 2,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "mythic_level": 14,
+          "completed_at": "2026-08-22T21:48:53.000Z",
+          "clear_time_ms": 1881166,
+          "keystone_run_id": 2287799,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 249,
+          "zone_id": 9526,
+          "zone_expansion_id": 7,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+          "score": 396.9,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2287799-14-kings-rest",
           "spec": {
             "id": 70,
             "name": "Retribution",
@@ -5536,60 +5582,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Kings' Rest",
-          "short_name": "KR",
-          "mythic_level": 13,
-          "completed_at": "2026-08-22T18:44:21.000Z",
-          "clear_time_ms": 1944352,
-          "keystone_run_id": 2195752,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 249,
-          "zone_id": 9526,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-          "score": 380.7,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2195752-13-kings-rest",
-          "spec": {
-            "id": 70,
-            "name": "Retribution",
-            "slug": "retribution",
-            "class_id": 2,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Altar of Fangs",
           "short_name": "AOF",
           "mythic_level": 12,
@@ -5645,8 +5637,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-22T21:38:08.000Z",
-        "updated_at": "2026-08-22T21:38:08.000Z",
+        "created_at": "2026-08-22T22:14:51.000Z",
+        "updated_at": "2026-08-22T22:14:51.000Z",
         "source": "db",
         "item_level_equipped": 306.438,
         "item_level_total": 0,
@@ -11454,7 +11446,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/213/247038165-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-22T21:21:13.000Z",
+      "last_crawled_at": "2026-08-22T22:25:53.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Devrak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -13781,23 +13773,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 1483.4,
-            "dps": 1483.4,
+            "all": 1651.6,
+            "dps": 1651.6,
             "healer": 0,
             "tank": 0,
-            "spec_0": 1483.4,
+            "spec_0": 1651.6,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 1483.4,
-              "color": "#5ec67e"
+              "score": 1651.6,
+              "color": "#5fb395"
             },
             "dps": {
-              "score": 1483.4,
-              "color": "#5ec67e"
+              "score": 1651.6,
+              "color": "#5fb395"
             },
             "healer": {
               "score": 0,
@@ -13808,8 +13800,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 1483.4,
-              "color": "#5ec67e"
+              "score": 1651.6,
+              "color": "#5fb395"
             },
             "spec_1": {
               "score": 0,
@@ -14072,13 +14064,42 @@
             "ordinal": 0
           },
           "role": "dps"
+        },
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 2,
+          "completed_at": "2026-08-22T22:17:12.000Z",
+          "clear_time_ms": 1322340,
+          "keystone_run_id": 2298445,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+          "score": 168.2,
+          "affixes": [],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2298445-2-murder-row",
+          "spec": {
+            "id": 71,
+            "name": "Arms",
+            "slug": "arms",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-22T03:06:20.000Z",
-        "updated_at": "2026-08-22T03:06:20.000Z",
+        "created_at": "2026-08-22T21:55:34.000Z",
+        "updated_at": "2026-08-22T21:55:34.000Z",
         "source": "db",
-        "item_level_equipped": 298.125,
+        "item_level_equipped": 296,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14285,60 +14306,14 @@
           },
           "chest": {
             "item_id": 249955,
-            "item_level": 298,
+            "item_level": 289,
             "enchant": 7987,
             "icon": "inv_chest_plate_raidwarriormidnight_d_01",
             "name": "Night Ender's Breastplate",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
+            "is_azerite_armor": false,
+            "azerite_powers": [],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -14359,12 +14334,11 @@
               }
             ],
             "bonuses": [
-              13335,
-              13786,
-              42,
+              6652,
+              13440,
               13336,
               13575,
-              3183
+              12806
             ]
           },
           "waist": {
@@ -14528,11 +14502,11 @@
             ]
           },
           "feet": {
-            "item_id": 193728,
-            "item_level": 308,
+            "item_id": 249954,
+            "item_level": 289,
             "enchant": 7963,
-            "icon": "inv_plate_dragondungeon_c_01_boot",
-            "name": "Scaleguard's Stalwart Greatboots",
+            "icon": "inv_boot_plate_raidwarriormidnight_d_01",
+            "name": "Night Ender's Greatboots",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -14556,11 +14530,10 @@
               }
             ],
             "bonuses": [
-              12842,
-              13440,
+              12806,
               6652,
-              13662,
-              12699
+              13440,
+              3174
             ]
           },
           "finger1": {
@@ -14607,11 +14580,11 @@
             ]
           },
           "finger2": {
-            "item_id": 256971,
-            "item_level": 295,
+            "item_id": 251217,
+            "item_level": 289,
             "enchant": 7967,
-            "icon": "inv_ring_revendreth_01_silver",
-            "name": "Radiant Phoenix Band",
+            "icon": "inv_12_trinket_devouring_host_currency1_bronze",
+            "name": "Occlusion of Void",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -14623,13 +14596,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240906
+              240900
             ],
             "gems_detail": [
               {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+                "id": 240900,
+                "name": "16 Mast & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
               }
             ],
             "enchants": [
@@ -14643,9 +14616,11 @@
               }
             ],
             "bonuses": [
-              41,
+              13440,
+              6652,
               13668,
-              12830
+              12699,
+              12806
             ]
           },
           "trinket1": {
@@ -14796,22 +14771,22 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3211.5,
-            "dps": 3211.5,
+            "all": 3224.6,
+            "dps": 3224.6,
             "healer": 0,
             "tank": 2663.9,
             "spec_0": 1153.3,
-            "spec_1": 3198,
+            "spec_1": 3212.1,
             "spec_2": 2663.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3211.5,
+              "score": 3224.6,
               "color": "#ec6272"
             },
             "dps": {
-              "score": 3211.5,
+              "score": 3224.6,
               "color": "#ec6272"
             },
             "healer": {
@@ -14827,8 +14802,8 @@
               "color": "#43ee43"
             },
             "spec_1": {
-              "score": 3198,
-              "color": "#ea6078"
+              "score": 3212.1,
+              "color": "#ec6272"
             },
             "spec_2": {
               "score": 2663.9,
@@ -14951,6 +14926,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Temple of Sethraliss",
+          "short_name": "TOS",
+          "mythic_level": 15,
+          "completed_at": "2026-08-22T22:36:09.000Z",
+          "clear_time_ms": 1900983,
+          "keystone_run_id": 2303278,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 250,
+          "zone_id": 9527,
+          "zone_expansion_id": 7,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
+          "score": 410.4,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2303278-15-temple-of-sethraliss",
+          "spec": {
+            "id": 72,
+            "name": "Fury",
+            "slug": "fury",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "The Blinding Vale",
           "short_name": "BV",
           "mythic_level": 14,
@@ -14992,6 +15021,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/842331-14-the-blinding-vale",
+          "spec": {
+            "id": 72,
+            "name": "Fury",
+            "slug": "fury",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 14,
+          "completed_at": "2026-08-22T21:50:11.000Z",
+          "clear_time_ms": 1707194,
+          "keystone_run_id": 2286919,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 399.2,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2286919-14-den-of-nalorakk",
           "spec": {
             "id": 72,
             "name": "Fury",
@@ -15055,114 +15138,6 @@
             "is_melee": true,
             "patch": "1.0.0",
             "ordinal": 1
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Den of Nalorakk",
-          "short_name": "DON",
-          "mythic_level": 14,
-          "completed_at": "2026-08-22T13:49:36.000Z",
-          "clear_time_ms": 1747172,
-          "keystone_run_id": 1973451,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 586,
-          "zone_id": 16368,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
-          "score": 398.4,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/1973451-14-den-of-nalorakk",
-          "spec": {
-            "id": 72,
-            "name": "Fury",
-            "slug": "fury",
-            "class_id": 1,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Temple of Sethraliss",
-          "short_name": "TOS",
-          "mythic_level": 14,
-          "completed_at": "2026-08-22T18:57:28.000Z",
-          "clear_time_ms": 1762041,
-          "keystone_run_id": 2240799,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 250,
-          "zone_id": 9527,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
-          "score": 398.1,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2240799-14-temple-of-sethraliss",
-          "spec": {
-            "id": 71,
-            "name": "Arms",
-            "slug": "arms",
-            "class_id": 1,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 0
           },
           "role": "dps"
         },
@@ -15276,8 +15251,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-22T21:24:15.000Z",
-        "updated_at": "2026-08-22T21:24:15.000Z",
+        "created_at": "2026-08-22T22:22:35.000Z",
+        "updated_at": "2026-08-22T22:22:35.000Z",
         "source": "db",
         "item_level_equipped": 302.438,
         "item_level_total": 0,
@@ -17117,7 +17092,7 @@
         }
       },
       "_wowAudit": {
-        "role": "Tank",
+        "role": "Melee",
         "rank": "Main",
         "class": "Demon Hunter",
         "blizzardId": "76-151523209"
@@ -18220,7 +18195,7 @@
         }
       },
       "_wowAudit": {
-        "role": "Tank",
+        "role": "Melee",
         "rank": "Main",
         "class": "Paladin",
         "blizzardId": "57-225778286"
@@ -19341,7 +19316,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/91/246363483-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-22T20:31:08.000Z",
+      "last_crawled_at": "2026-08-22T22:42:54.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Radaamac",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -19828,10 +19803,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-22T20:31:09.605Z",
-        "updated_at": "2026-08-22T20:31:09.605Z",
+        "created_at": "2026-08-22T22:42:56.256Z",
+        "updated_at": "2026-08-22T22:42:56.256Z",
         "source": "s3",
-        "item_level_equipped": 301,
+        "item_level_equipped": 302,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -20175,10 +20150,10 @@
             ]
           },
           "hands": {
-            "item_id": 249980,
-            "item_level": 289,
-            "icon": "inv_glove_mail_raidshamanmidnight_d_01",
-            "name": "Earthgrips of the Primal Core",
+            "item_id": 193752,
+            "item_level": 292,
+            "icon": "inv_mail_dragondungeon_c_01_glove",
+            "name": "Galerattle Gauntlets",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -20189,17 +20164,16 @@
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
             "gems": [],
             "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              43,
-              13440,
-              13337,
-              13574,
-              12806
+              12833,
+              13439,
+              6652,
+              13662,
+              12699
             ]
           },
           "legs": {
@@ -20415,11 +20389,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268203,
+            "item_id": 273778,
             "item_level": 321,
             "enchant": 7981,
-            "icon": "inv_knife_1h_ulatek_d_02",
-            "name": "Hexing Spiritrender",
+            "icon": "inv_knife_1h_zuljin_d_01",
+            "name": "Polished Lightwood Channeler",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -20443,8 +20417,9 @@
               }
             ],
             "bonuses": [
+              13440,
               6652,
-              13334,
+              12701,
               12846
             ]
           },
