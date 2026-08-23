@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T07:09:31.874Z",
+  "updated": "2026-08-23T07:55:09.224Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -71,12 +71,12 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3712,
-          "region": 1928,
+          "world": 3713,
+          "region": 1929,
           "realm": 125
         },
         "heroic": {
-          "world": 1333,
+          "world": 1334,
           "region": 622,
           "realm": 39
         },
@@ -88,12 +88,12 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2383,
+          "world": 2384,
           "region": 792,
           "realm": 46
         },
         "heroic": {
-          "world": 1170,
+          "world": 1172,
           "region": 582,
           "realm": 41
         },
@@ -12207,10 +12207,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-23T06:27:12.481Z",
-        "updated_at": "2026-08-23T06:27:12.481Z",
-        "source": "s3",
-        "item_level_equipped": 301,
+        "created_at": "2026-08-23T07:52:30.000Z",
+        "updated_at": "2026-08-23T07:52:30.000Z",
+        "source": "db",
+        "item_level_equipped": 303.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -12331,40 +12331,78 @@
             ]
           },
           "shoulder": {
-            "item_id": 250004,
-            "item_level": 289,
-            "enchant": 8031,
-            "icon": "inv_shoulder_leather_raidroguemidnight_d_01",
-            "name": "Venom Casks of the Grim Jest",
+            "item_id": 271508,
+            "item_level": 311,
+            "icon": "inv_shoulder_leather_raidrogueulatek_d_01",
+            "name": "Chosen Bloodslayer's Voodoo Guards",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
+            "tier": "36",
             "gems": [],
             "gems_detail": [],
-            "enchants": [
-              8031
-            ],
-            "enchants_detail": [
-              {
-                "id": 244021,
-                "name": "Enchant Shoulders - Silvermoon's Mending",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              13340,
-              13440,
               6652,
-              13574,
-              12806
+              12843,
+              13440,
+              13694,
+              13697,
+              1564
             ]
           },
           "back": {
@@ -12395,22 +12433,68 @@
             ]
           },
           "chest": {
-            "item_id": 250009,
-            "item_level": 289,
+            "item_id": 271513,
+            "item_level": 311,
             "enchant": 7987,
-            "icon": "inv_chest_leather_raidroguemidnight_d_01",
-            "name": "Fantastic Finery of the Grim Jest",
+            "icon": "inv_chest_leather_raidrogueulatek_d_01",
+            "name": "Chosen Bloodslayer's Banded Poncho",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "tier": "35",
+            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -12424,11 +12508,12 @@
               }
             ],
             "bonuses": [
-              13336,
-              13440,
               6652,
-              13575,
-              12806
+              12843,
+              13440,
+              13690,
+              13698,
+              1564
             ]
           },
           "waist": {
@@ -12772,7 +12857,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8051
             ],
             "enchants_detail": [
               {
@@ -12807,7 +12893,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8051
             ],
             "enchants_detail": [
               {
@@ -15518,8 +15605,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-23T06:16:18.000Z",
-        "updated_at": "2026-08-23T06:16:18.000Z",
+        "created_at": "2026-08-23T07:33:13.000Z",
+        "updated_at": "2026-08-23T07:33:13.000Z",
         "source": "db",
         "item_level_equipped": 302.438,
         "item_level_total": 0,
