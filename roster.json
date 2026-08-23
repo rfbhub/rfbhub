@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T21:44:04.914Z",
+  "updated": "2026-08-23T22:45:30.253Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -71,12 +71,12 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3736,
+          "world": 3738,
           "region": 1939,
           "realm": 127
         },
         "heroic": {
-          "world": 1335,
+          "world": 1337,
           "region": 622,
           "realm": 39
         },
@@ -88,12 +88,12 @@
       },
       "the-venomous-abyss": {
         "normal": {
-          "world": 2384,
+          "world": 2385,
           "region": 792,
           "realm": 46
         },
         "heroic": {
-          "world": 1858,
+          "world": 1891,
           "region": 634,
           "realm": 41
         },
@@ -5447,7 +5447,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-08-23T18:17:46.000Z",
+      "last_crawled_at": "2026-08-23T22:04:01.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -5934,8 +5934,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-23T21:35:14.000Z",
-        "updated_at": "2026-08-23T21:35:14.000Z",
+        "created_at": "2026-08-23T22:17:38.000Z",
+        "updated_at": "2026-08-23T22:17:38.000Z",
         "source": "db",
         "item_level_equipped": 311.812,
         "item_level_total": 0,
@@ -8362,23 +8362,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2400.3,
-            "dps": 2400.3,
+            "all": 2526.4,
+            "dps": 2526.4,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 2400.3,
+            "spec_2": 2526.4,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2400.3,
-              "color": "#0070dd"
+              "score": 2526.4,
+              "color": "#6c5de5"
             },
             "dps": {
-              "score": 2400.3,
-              "color": "#0070dd"
+              "score": 2526.4,
+              "color": "#6c5de5"
             },
             "healer": {
               "score": 0,
@@ -8397,8 +8397,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 2400.3,
-              "color": "#0070dd"
+              "score": 2526.4,
+              "color": "#6c5de5"
             },
             "spec_3": {
               "score": 0,
@@ -8558,6 +8558,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/2466034-11-voidscar-arena",
+          "spec": {
+            "id": 255,
+            "name": "Survival",
+            "slug": "survival",
+            "class_id": 3,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Ruby Life Pools",
+          "short_name": "RLP",
+          "mythic_level": 10,
+          "completed_at": "2026-08-23T21:32:10.000Z",
+          "clear_time_ms": 1409893,
+          "keystone_run_id": 2911965,
+          "par_time_ms": 1680999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 399,
+          "zone_id": 14063,
+          "zone_expansion_id": 9,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
+          "score": 326,
+          "affixes": [
+            {
+              "id": 162,
+              "name": "Xal'atath's Bargain: Pulsar",
+              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
+              "icon": "inv_cosmicvoid_nova",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
+              "wowhead_url": "https://wowhead.com/affix=162"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/2911965-10-ruby-life-pools",
           "spec": {
             "id": 255,
             "name": "Survival",
@@ -8769,42 +8823,13 @@
             "ordinal": 2
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "mythic_level": 4,
-          "completed_at": "2026-08-19T01:50:42.000Z",
-          "clear_time_ms": 867452,
-          "keystone_run_id": 68789,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 3,
-          "map_challenge_mode_id": 399,
-          "zone_id": 14063,
-          "zone_expansion_id": 9,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
-          "score": 200,
-          "affixes": [],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/68789-4-ruby-life-pools",
-          "spec": {
-            "id": 255,
-            "name": "Survival",
-            "slug": "survival",
-            "class_id": 3,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-23T10:41:24.515Z",
-        "updated_at": "2026-08-23T10:41:24.515Z",
-        "source": "s3",
-        "item_level_equipped": 297,
+        "created_at": "2026-08-23T22:07:48.000Z",
+        "updated_at": "2026-08-23T22:07:48.000Z",
+        "source": "db",
+        "item_level_equipped": 298.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9196,11 +9221,11 @@
             ]
           },
           "feet": {
-            "item_id": 268287,
-            "item_level": 298,
+            "item_id": 251145,
+            "item_level": 311,
             "enchant": 7963,
-            "icon": "inv_boot_mail_raidshamanmidnight_d_01",
-            "name": "Grudgefiend Stompers",
+            "icon": "inv_boot_mail_dungeonharronir_c_01",
+            "name": "Forgotten Tribe Footguards",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9224,10 +9249,11 @@
               }
             ],
             "bonuses": [
+              12843,
+              13440,
               6652,
-              13577,
-              13335,
-              13786
+              13662,
+              12699
             ]
           },
           "finger1": {
@@ -9386,7 +9412,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8051
             ],
             "enchants_detail": [
               {
@@ -9419,7 +9446,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8051
             ],
             "enchants_detail": [
               {
@@ -12348,10 +12376,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-23T20:50:46.000Z",
-        "updated_at": "2026-08-23T20:50:46.000Z",
+        "created_at": "2026-08-23T22:41:28.000Z",
+        "updated_at": "2026-08-23T22:41:28.000Z",
         "source": "db",
-        "item_level_equipped": 303.812,
+        "item_level_equipped": 304.625,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -12980,6 +13008,42 @@
             ]
           },
           "mainhand": {
+            "item_id": 193767,
+            "item_level": 311,
+            "enchant": 7981,
+            "icon": "inv_mace_1h_dragondungeon_c_02",
+            "name": "Havoc Crusher",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              7981,
+              8051
+            ],
+            "enchants_detail": [
+              {
+                "id": 243971,
+                "name": "Enchant Weapon - Jan'alai's Precision",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+              }
+            ],
+            "bonuses": [
+              12843,
+              13440,
+              6652,
+              12701
+            ]
+          },
+          "offhand": {
             "item_id": 251186,
             "item_level": 311,
             "enchant": 7981,
@@ -13013,42 +13077,6 @@
               13440,
               6652,
               12701
-            ]
-          },
-          "offhand": {
-            "item_id": 49807,
-            "item_level": 298,
-            "enchant": 7983,
-            "icon": "inv_weapon_shortblade_80",
-            "name": "Krick's Beetle Stabber",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              7983,
-              8051
-            ],
-            "enchants_detail": [
-              {
-                "id": 243973,
-                "name": "Enchant Weapon - Berserker's Rage",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              12701,
-              13654
             ]
           }
         }
@@ -26147,7 +26175,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/77/268162637-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-23T18:20:26.000Z",
+      "last_crawled_at": "2026-08-23T21:43:18.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Solacker",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
