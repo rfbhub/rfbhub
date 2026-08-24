@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T19:08:39.584Z",
+  "updated": "2026-08-24T19:51:48.299Z",
   "rosterCount": 25,
   "mplusCount": 0,
   "guild": {
@@ -93,7 +93,7 @@
           "realm": 46
         },
         "heroic": {
-          "world": 2407,
+          "world": 2547,
           "region": 755,
           "realm": 48
         },
@@ -12465,8 +12465,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-24T18:56:38.000Z",
-        "updated_at": "2026-08-24T18:56:38.000Z",
+        "created_at": "2026-08-24T19:50:14.000Z",
+        "updated_at": "2026-08-24T19:50:14.000Z",
         "source": "db",
         "item_level_equipped": 301.875,
         "item_level_total": 0,
@@ -14293,30 +14293,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-08-24T00:17:41.000Z",
+      "last_crawled_at": "2026-08-24T19:36:54.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2140,
-            "dps": 2140,
+            "all": 2325,
+            "dps": 2325,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2140,
+            "spec_0": 2325,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2140,
-              "color": "#4d8dbe"
+              "score": 2325,
+              "color": "#317ad2"
             },
             "dps": {
-              "score": 2140,
-              "color": "#4d8dbe"
+              "score": 2325,
+              "color": "#317ad2"
             },
             "healer": {
               "score": 0,
@@ -14327,8 +14327,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2140,
-              "color": "#4d8dbe"
+              "score": 2325,
+              "color": "#317ad2"
             },
             "spec_1": {
               "score": 0,
@@ -14699,13 +14699,42 @@
             "ordinal": 0
           },
           "role": "dps"
+        },
+        {
+          "dungeon": "Voidscar Arena",
+          "short_name": "VSA",
+          "mythic_level": 3,
+          "completed_at": "2026-08-24T18:20:50.000Z",
+          "clear_time_ms": 1046960,
+          "keystone_run_id": 3339203,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 3,
+          "map_challenge_mode_id": 585,
+          "zone_id": 16425,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+          "score": 185,
+          "affixes": [],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/3339203-3-voidscar-arena",
+          "spec": {
+            "id": 71,
+            "name": "Arms",
+            "slug": "arms",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-24T00:17:41.996Z",
-        "updated_at": "2026-08-24T00:17:41.996Z",
+        "created_at": "2026-08-24T19:36:54.772Z",
+        "updated_at": "2026-08-24T19:36:54.772Z",
         "source": "s3",
-        "item_level_equipped": 300,
+        "item_level_equipped": 301,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14800,10 +14829,10 @@
             ]
           },
           "neck": {
-            "item_id": 251173,
-            "item_level": 298,
-            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1",
-            "name": "Yoke of the Charging Bear",
+            "item_id": 50228,
+            "item_level": 289,
+            "icon": "inv_jewelry_necklace_22",
+            "name": "Barbed Ymirheim Choker",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -14827,16 +14856,17 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13439,
+              13440,
               6652,
               13668,
               12699,
-              12835
+              12806
             ]
           },
           "shoulder": {
             "item_id": 271454,
             "item_level": 308,
+            "enchant": 8001,
             "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
             "name": "Raging Pauldrons of the Jade Warlord",
             "item_quality": 4,
@@ -14852,8 +14882,16 @@
             "tier": "36",
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              8001
+            ],
+            "enchants_detail": [
+              {
+                "id": 243991,
+                "name": "Enchant Shoulders - Amirdrassil's Grace",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
               13694,
               6652,
@@ -15168,11 +15206,11 @@
             ]
           },
           "finger1": {
-            "item_id": 268290,
-            "item_level": 298,
+            "item_id": 251136,
+            "item_level": 311,
             "enchant": 7967,
-            "icon": "inv_12_jewelry_rutaani_ring_blue",
-            "name": "Sporecaller's Blooming Loop",
+            "icon": "inv_12_jewelry_voidelf_ring_teal",
+            "name": "Signet of Snarling Servitude",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15204,18 +15242,19 @@
               }
             ],
             "bonuses": [
+              12843,
+              13440,
               6652,
               13668,
-              13335,
-              13786
+              12699
             ]
           },
           "finger2": {
-            "item_id": 49812,
+            "item_id": 251217,
             "item_level": 289,
             "enchant": 7967,
-            "icon": "inv_jewelry_ring_42",
-            "name": "Purloined Wedding Ring",
+            "icon": "inv_12_trinket_devouring_host_currency1_bronze",
+            "name": "Occlusion of Void",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15227,13 +15266,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240906
+              240900
             ],
             "gems_detail": [
               {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+                "id": 240900,
+                "name": "16 Mast & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
               }
             ],
             "enchants": [
