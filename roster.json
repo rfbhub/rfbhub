@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T18:43:41.488Z",
+  "updated": "2026-08-29T21:50:13.755Z",
   "rosterCount": 24,
   "mplusCount": 0,
   "guild": {
@@ -93,7 +93,7 @@
           "realm": 46
         },
         "heroic": {
-          "world": 1419,
+          "world": 1425,
           "region": 533,
           "realm": 33
         },
@@ -4763,7 +4763,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-08-29T04:35:45.000Z",
+      "last_crawled_at": "2026-08-29T21:48:44.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -5250,10 +5250,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-29T18:05:59.000Z",
-        "updated_at": "2026-08-29T18:05:59.000Z",
-        "source": "db",
-        "item_level_equipped": 315.5,
+        "created_at": "2026-08-29T21:48:45.158Z",
+        "updated_at": "2026-08-29T21:48:45.158Z",
+        "source": "s3",
+        "item_level_equipped": 315,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -5816,8 +5816,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -5844,11 +5843,11 @@
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "6/8 H",
+          "summary": "7/8 H",
           "expansion_id": 11,
           "total_bosses": 8,
           "normal_bosses_killed": 8,
-          "heroic_bosses_killed": 6,
+          "heroic_bosses_killed": 7,
           "mythic_bosses_killed": 0
         },
         "sporefall": {
@@ -7848,22 +7847,22 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2591.3,
-            "dps": 2591.3,
+            "all": 2620.9,
+            "dps": 2620.9,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 2591.3,
+            "spec_2": 2620.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2591.3,
+              "score": 2620.9,
               "color": "#1673da"
             },
             "dps": {
-              "score": 2591.3,
+              "score": 2620.9,
               "color": "#1673da"
             },
             "healer": {
@@ -7883,7 +7882,7 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 2591.3,
+              "score": 2620.9,
               "color": "#1673da"
             },
             "spec_3": {
@@ -8044,6 +8043,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/2361839-11-temple-of-sethraliss",
+          "spec": {
+            "id": 255,
+            "name": "Survival",
+            "slug": "survival",
+            "class_id": 3,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "The Blinding Vale",
+          "short_name": "BV",
+          "mythic_level": 10,
+          "completed_at": "2026-08-29T21:10:25.000Z",
+          "clear_time_ms": 1242576,
+          "keystone_run_id": 5594862,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 584,
+          "zone_id": 16359,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_lightbloom.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/the-blinding-vale.jpg",
+          "score": 331.6,
+          "affixes": [
+            {
+              "id": 158,
+              "name": "Xal'atath's Bargain: Voidbound",
+              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
+              "icon": "inv_cosmicvoid_buff",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
+              "wowhead_url": "https://wowhead.com/affix=158"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5594862-10-the-blinding-vale",
           "spec": {
             "id": 255,
             "name": "Survival",
@@ -8219,60 +8272,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "The Blinding Vale",
-          "short_name": "BV",
-          "mythic_level": 11,
-          "completed_at": "2026-08-29T06:20:12.000Z",
-          "clear_time_ms": 1947315,
-          "keystone_run_id": 5312885,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 0,
-          "map_challenge_mode_id": 584,
-          "zone_id": 16359,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_lightbloom.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/the-blinding-vale.jpg",
-          "score": 302,
-          "affixes": [
-            {
-              "id": 158,
-              "name": "Xal'atath's Bargain: Voidbound",
-              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
-              "icon": "inv_cosmicvoid_buff",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
-              "wowhead_url": "https://wowhead.com/affix=158"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5312885-11-the-blinding-vale",
-          "spec": {
-            "id": 255,
-            "name": "Survival",
-            "slug": "survival",
-            "class_id": 3,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Altar of Fangs",
           "short_name": "AOF",
           "mythic_level": 9,
@@ -8320,10 +8319,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-29T11:09:32.566Z",
-        "updated_at": "2026-08-29T11:09:32.566Z",
-        "source": "s3",
-        "item_level_equipped": 308,
+        "created_at": "2026-08-29T21:10:26.000Z",
+        "updated_at": "2026-08-29T21:10:26.000Z",
+        "source": "db",
+        "item_level_equipped": 308.625,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -8952,7 +8951,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8051
             ],
             "enchants_detail": [
               {
@@ -8985,7 +8985,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8051
             ],
             "enchants_detail": [
               {
@@ -11915,8 +11916,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-29T17:09:32.000Z",
-        "updated_at": "2026-08-29T17:09:32.000Z",
+        "created_at": "2026-08-29T21:43:34.000Z",
+        "updated_at": "2026-08-29T21:43:34.000Z",
         "source": "db",
         "item_level_equipped": 315.438,
         "item_level_total": 0,
@@ -21808,30 +21809,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moon-guard/108/184824428-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Moon Guard",
-      "last_crawled_at": "2026-08-29T04:27:50.000Z",
+      "last_crawled_at": "2026-08-29T21:14:32.000Z",
       "profile_url": "https://raider.io/characters/us/moon-guard/Mangobrew",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2645.4,
-            "dps": 2645.4,
+            "all": 2707.2,
+            "dps": 2707.2,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 2645.4,
+            "spec_2": 2707.2,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2645.4,
-              "color": "#0070dd"
+              "score": 2707.2,
+              "color": "#5c63e3"
             },
             "dps": {
-              "score": 2645.4,
-              "color": "#0070dd"
+              "score": 2707.2,
+              "color": "#5c63e3"
             },
             "healer": {
               "score": 0,
@@ -21850,8 +21851,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 2645.4,
-              "color": "#0070dd"
+              "score": 2707.2,
+              "color": "#5c63e3"
             },
             "spec_3": {
               "score": 0,
@@ -21861,6 +21862,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Voidscar Arena",
+          "short_name": "VSA",
+          "mythic_level": 11,
+          "completed_at": "2026-08-29T19:15:05.000Z",
+          "clear_time_ms": 1237585,
+          "keystone_run_id": 5597208,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 585,
+          "zone_id": 16425,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+          "score": 346.7,
+          "affixes": [
+            {
+              "id": 158,
+              "name": "Xal'atath's Bargain: Voidbound",
+              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
+              "icon": "inv_cosmicvoid_buff",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
+              "wowhead_url": "https://wowhead.com/affix=158"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5597208-11-voidscar-arena",
+          "spec": {
+            "id": 269,
+            "name": "Windwalker",
+            "slug": "windwalker",
+            "class_id": 10,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "5.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
@@ -21903,6 +21958,114 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/3936600-11-ruby-life-pools",
+          "spec": {
+            "id": 269,
+            "name": "Windwalker",
+            "slug": "windwalker",
+            "class_id": 10,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "5.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "mythic_level": 11,
+          "completed_at": "2026-08-29T18:15:32.000Z",
+          "clear_time_ms": 1640059,
+          "keystone_run_id": 5597234,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 249,
+          "zone_id": 9526,
+          "zone_expansion_id": 7,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+          "score": 341.5,
+          "affixes": [
+            {
+              "id": 158,
+              "name": "Xal'atath's Bargain: Voidbound",
+              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
+              "icon": "inv_cosmicvoid_buff",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
+              "wowhead_url": "https://wowhead.com/affix=158"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5597234-11-kings-rest",
+          "spec": {
+            "id": 269,
+            "name": "Windwalker",
+            "slug": "windwalker",
+            "class_id": 10,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "5.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 11,
+          "completed_at": "2026-08-29T17:01:41.000Z",
+          "clear_time_ms": 1701238,
+          "keystone_run_id": 5596696,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+          "score": 341.2,
+          "affixes": [
+            {
+              "id": 158,
+              "name": "Xal'atath's Bargain: Voidbound",
+              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
+              "icon": "inv_cosmicvoid_buff",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
+              "wowhead_url": "https://wowhead.com/affix=158"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5596696-11-murder-row",
           "spec": {
             "id": 269,
             "name": "Windwalker",
@@ -22078,114 +22241,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Kings' Rest",
-          "short_name": "KR",
-          "mythic_level": 10,
-          "completed_at": "2026-08-29T15:06:29.000Z",
-          "clear_time_ms": 1390919,
-          "keystone_run_id": 5510466,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 249,
-          "zone_id": 9526,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-          "score": 331.2,
-          "affixes": [
-            {
-              "id": 158,
-              "name": "Xal'atath's Bargain: Voidbound",
-              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
-              "icon": "inv_cosmicvoid_buff",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
-              "wowhead_url": "https://wowhead.com/affix=158"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5510466-10-kings-rest",
-          "spec": {
-            "id": 269,
-            "name": "Windwalker",
-            "slug": "windwalker",
-            "class_id": 10,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "5.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Murder Row",
-          "short_name": "MR",
-          "mythic_level": 10,
-          "completed_at": "2026-08-29T14:34:34.000Z",
-          "clear_time_ms": 1527378,
-          "keystone_run_id": 5510514,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 587,
-          "zone_id": 16091,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-          "score": 329.4,
-          "affixes": [
-            {
-              "id": 158,
-              "name": "Xal'atath's Bargain: Voidbound",
-              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
-              "icon": "inv_cosmicvoid_buff",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
-              "wowhead_url": "https://wowhead.com/affix=158"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5510514-10-murder-row",
-          "spec": {
-            "id": 269,
-            "name": "Windwalker",
-            "slug": "windwalker",
-            "class_id": 10,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "5.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Temple of Sethraliss",
           "short_name": "TOS",
           "mythic_level": 10,
@@ -22238,67 +22293,13 @@
             "ordinal": 2
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Voidscar Arena",
-          "short_name": "VSA",
-          "mythic_level": 12,
-          "completed_at": "2026-08-26T23:00:44.000Z",
-          "clear_time_ms": 2426240,
-          "keystone_run_id": 4307040,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 0,
-          "map_challenge_mode_id": 585,
-          "zone_id": 16425,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-          "score": 307,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/4307040-12-voidscar-arena",
-          "spec": {
-            "id": 269,
-            "name": "Windwalker",
-            "slug": "windwalker",
-            "class_id": 10,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "5.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-08-29T04:27:50.510Z",
-        "updated_at": "2026-08-29T04:27:50.510Z",
+        "created_at": "2026-08-29T21:14:32.900Z",
+        "updated_at": "2026-08-29T21:14:32.900Z",
         "source": "s3",
-        "item_level_equipped": 310,
+        "item_level_equipped": 312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22402,10 +22403,10 @@
             ]
           },
           "neck": {
-            "item_id": 268251,
-            "item_level": 308,
-            "icon": "inv_121_jewelry_neck01_red",
-            "name": "Amulet of the Twin Fangs",
+            "item_id": 251234,
+            "item_level": 311,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2",
+            "name": "Graft of the Domanaar",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -22429,10 +22430,11 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              12843,
+              13440,
               6652,
               13668,
-              13333,
-              12838
+              12699
             ]
           },
           "shoulder": {
@@ -22548,14 +22550,60 @@
           },
           "chest": {
             "item_id": 271522,
-            "item_level": 308,
+            "item_level": 311,
             "enchant": 7987,
             "icon": "inv_chest_leather_raidmonkulatek_d_01",
             "name": "Battle Gi of the Monkey King",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -22577,10 +22625,11 @@
             ],
             "bonuses": [
               6652,
-              13439,
+              12843,
+              13440,
               13690,
               13698,
-              12838
+              1564
             ]
           },
           "waist": {
@@ -22639,7 +22688,7 @@
           },
           "hands": {
             "item_id": 271520,
-            "item_level": 308,
+            "item_level": 321,
             "icon": "inv_glove_leather_raidmonkulatek_d_01",
             "name": "Monkey King's Fighting Fists",
             "item_quality": 4,
@@ -22658,11 +22707,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13333,
+              12846,
               13691,
-              6652,
               13697,
-              12838
+              1574
             ]
           },
           "legs": {
@@ -22739,11 +22787,11 @@
             ]
           },
           "finger1": {
-            "item_id": 251513,
-            "item_level": 285,
+            "item_id": 158366,
+            "item_level": 305,
             "enchant": 7967,
-            "icon": "inv_12_profession_jewelcrafting_ring3_silver",
-            "name": "Loa Worshiper's Band",
+            "icon": "inv_ring_80_03d",
+            "name": "Charged Sandstone Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -22775,12 +22823,11 @@
               }
             ],
             "bonuses": [
-              12214,
-              13667,
-              8960,
-              12497,
-              12066,
-              13622
+              12841,
+              13440,
+              6652,
+              13668,
+              12699
             ]
           },
           "finger2": {
