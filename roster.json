@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T06:23:33.724Z",
+  "updated": "2026-09-01T11:51:27.690Z",
   "rosterCount": 24,
   "mplusCount": 1,
   "guild": {
@@ -93,8 +93,8 @@
           "realm": 46
         },
         "heroic": {
-          "world": 1947,
-          "region": 663,
+          "world": 1951,
+          "region": 664,
           "realm": 44
         },
         "mythic": {
@@ -7011,23 +7011,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2010.2,
-            "dps": 2010.2,
+            "all": 2350.1,
+            "dps": 2350.1,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2010.2,
+            "spec_0": 2350.1,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2010.2,
-              "color": "#5fb98f"
+              "score": 2350.1,
+              "color": "#4f8fbc"
             },
             "dps": {
-              "score": 2010.2,
-              "color": "#5fb98f"
+              "score": 2350.1,
+              "color": "#4f8fbc"
             },
             "healer": {
               "score": 0,
@@ -7038,8 +7038,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2010.2,
-              "color": "#5fb98f"
+              "score": 2350.1,
+              "color": "#4f8fbc"
             },
             "spec_1": {
               "score": 0,
@@ -7153,6 +7153,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/6523081-11-the-blinding-vale",
+          "spec": {
+            "id": 253,
+            "name": "Beast Mastery",
+            "slug": "beast-mastery",
+            "class_id": 3,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 11,
+          "completed_at": "2026-09-01T07:02:45.000Z",
+          "clear_time_ms": 1669214,
+          "keystone_run_id": 6702921,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 339.9,
+          "affixes": [
+            {
+              "id": 158,
+              "name": "Xal'atath's Bargain: Voidbound",
+              "description": "While in combat, Xal'atath summons a Voidbound Emissary that empowers nearby enemies.",
+              "icon": "inv_cosmicvoid_buff",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_buff.jpg",
+              "wowhead_url": "https://wowhead.com/affix=158"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6702921-11-den-of-nalorakk",
           "spec": {
             "id": 253,
             "name": "Beast Mastery",
@@ -13264,10 +13318,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-08-28T23:14:52.841Z",
-        "updated_at": "2026-08-28T23:14:52.841Z",
-        "source": "s3",
-        "item_level_equipped": 298,
+        "created_at": "2026-09-01T10:03:34.000Z",
+        "updated_at": "2026-09-01T10:03:34.000Z",
+        "source": "db",
+        "item_level_equipped": 298.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -13846,7 +13900,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              6498
             ],
             "enchants_detail": [
               {
@@ -13898,10 +13953,10 @@
       },
       "raid_progression": {
         "the-tidebound-grotto": {
-          "summary": "",
+          "summary": "1/1 N",
           "expansion_id": 11,
           "total_bosses": 1,
-          "normal_bosses_killed": 0,
+          "normal_bosses_killed": 1,
           "heroic_bosses_killed": 0,
           "mythic_bosses_killed": 0
         },
