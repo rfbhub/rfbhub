@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T20:00:32.174Z",
+  "updated": "2026-09-01T22:42:07.419Z",
   "rosterCount": 24,
   "mplusCount": 1,
   "guild": {
@@ -93,7 +93,7 @@
           "realm": 46
         },
         "heroic": {
-          "world": 2027,
+          "world": 2053,
           "region": 667,
           "realm": 44
         },
@@ -4773,11 +4773,11 @@
           "segments": {
             "all": {
               "score": 3315.3,
-              "color": "#e1588e"
+              "color": "#df5693"
             },
             "dps": {
               "score": 3315.3,
-              "color": "#e1588e"
+              "color": "#df5693"
             },
             "healer": {
               "score": 0,
@@ -4797,7 +4797,7 @@
             },
             "spec_2": {
               "score": 3315.3,
-              "color": "#e1588e"
+              "color": "#df5693"
             },
             "spec_3": {
               "score": 0,
@@ -5897,11 +5897,11 @@
           "segments": {
             "all": {
               "score": 3037.6,
-              "color": "#b83dd6"
+              "color": "#b73cd7"
             },
             "dps": {
               "score": 3037.6,
-              "color": "#b83dd6"
+              "color": "#b73cd7"
             },
             "healer": {
               "score": 0,
@@ -9301,34 +9301,34 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/mannoroth/149/265888917-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Mannoroth",
-      "last_crawled_at": "2026-09-01T13:40:03.000Z",
+      "last_crawled_at": "2026-09-01T21:52:10.000Z",
       "profile_url": "https://raider.io/characters/us/mannoroth/Rukenji",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2991.5,
+            "all": 3006.3,
             "dps": 647.1,
-            "healer": 2991.5,
+            "healer": 3006.3,
             "tank": 0,
             "spec_0": 2730.4,
-            "spec_1": 2954.5,
+            "spec_1": 2969.3,
             "spec_2": 647.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2991.5,
-              "color": "#ae39e2"
+              "score": 3006.3,
+              "color": "#b33add"
             },
             "dps": {
               "score": 647.1,
               "color": "#ceffbb"
             },
             "healer": {
-              "score": 2991.5,
-              "color": "#ae39e2"
+              "score": 3006.3,
+              "color": "#b33add"
             },
             "tank": {
               "score": 0,
@@ -9339,7 +9339,7 @@
               "color": "#5366e2"
             },
             "spec_1": {
-              "score": 2954.5,
+              "score": 2969.3,
               "color": "#a937e8"
             },
             "spec_2": {
@@ -9354,6 +9354,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "The Blinding Vale",
+          "short_name": "BV",
+          "mythic_level": 13,
+          "completed_at": "2026-09-01T18:19:09.000Z",
+          "clear_time_ms": 1620411,
+          "keystone_run_id": 6925708,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 584,
+          "zone_id": 16359,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_lightbloom.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/the-blinding-vale.jpg",
+          "score": 383.8,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6925708-13-the-blinding-vale",
+          "spec": {
+            "id": 257,
+            "name": "Holy",
+            "slug": "holy",
+            "class_id": 5,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 1
+          },
+          "role": "healer"
+        },
         {
           "dungeon": "Den of Nalorakk",
           "short_name": "DON",
@@ -9731,67 +9785,13 @@
             "ordinal": 1
           },
           "role": "healer"
-        },
-        {
-          "dungeon": "The Blinding Vale",
-          "short_name": "BV",
-          "mythic_level": 12,
-          "completed_at": "2026-08-28T23:19:34.000Z",
-          "clear_time_ms": 1610224,
-          "keystone_run_id": 5140839,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 584,
-          "zone_id": 16359,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_lightbloom.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/the-blinding-vale.jpg",
-          "score": 369,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/5140839-12-the-blinding-vale",
-          "spec": {
-            "id": 257,
-            "name": "Holy",
-            "slug": "holy",
-            "class_id": 5,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "healer"
         }
       ],
       "gear": {
-        "created_at": "2026-09-01T15:50:45.000Z",
-        "updated_at": "2026-09-01T15:50:45.000Z",
-        "source": "db",
-        "item_level_equipped": 311.062,
+        "created_at": "2026-09-01T21:52:12.147Z",
+        "updated_at": "2026-09-01T21:52:12.147Z",
+        "source": "s3",
+        "item_level_equipped": 313,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9803,21 +9803,68 @@
         },
         "items": {
           "head": {
-            "item_id": 277792,
+            "item_id": 271555,
             "item_level": 295,
             "enchant": 7961,
-            "icon": "inv_helm_cloth_outdooramaniloa_c_01",
-            "name": "Venom-Cursed Dragonhawk's Plumage",
+            "icon": "inv_helm_cloth_raidpriestulatek_d_01",
+            "name": "Cosmic Penitent's Truesight",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
+            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -9833,8 +9880,10 @@
             "bonuses": [
               6652,
               13696,
-              13662,
-              12834
+              12834,
+              13692,
+              13698,
+              1548
             ]
           },
           "neck": {
@@ -9982,22 +10031,67 @@
             ]
           },
           "chest": {
-            "item_id": 271558,
-            "item_level": 302,
+            "item_id": 239655,
+            "item_level": 331,
             "enchant": 7987,
-            "icon": "inv_robe_cloth_raidpriestulatek_d_01",
-            "name": "Cosmic Penitent's Eclipsing Robes",
+            "icon": "inv_robe_cloth_questbloodelf_b_01",
+            "name": "Martyr's Vestments",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -10011,15 +10105,17 @@
               }
             ],
             "bonuses": [
-              6652,
-              13690,
-              13698,
-              12836
+              12214,
+              13667,
+              12497,
+              13751,
+              8795,
+              13836
             ]
           },
           "waist": {
             "item_id": 193691,
-            "item_level": 308,
+            "item_level": 311,
             "icon": "inv_belt_dragondungeon_c_01",
             "name": "Sky Saddle Cord",
             "item_quality": 4,
@@ -10037,7 +10133,7 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12842,
+              12843,
               13440,
               6652,
               13696,
@@ -10362,8 +10458,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -11674,11 +11769,11 @@
           "segments": {
             "all": {
               "score": 3418.7,
-              "color": "#ea6175"
+              "color": "#e85f7c"
             },
             "dps": {
               "score": 3418.7,
-              "color": "#ea6175"
+              "color": "#e85f7c"
             },
             "healer": {
               "score": 0,
@@ -11694,7 +11789,7 @@
             },
             "spec_1": {
               "score": 3418.7,
-              "color": "#ea6175"
+              "color": "#e85f7c"
             },
             "spec_2": {
               "score": 0,
@@ -13990,29 +14085,29 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-09-01T19:13:36.000Z",
+      "last_crawled_at": "2026-09-01T21:54:46.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2957.9,
-            "dps": 2957.9,
+            "all": 2962.3,
+            "dps": 2962.3,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2957.9,
+            "spec_0": 2962.3,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2957.9,
+              "score": 2962.3,
               "color": "#a937e8"
             },
             "dps": {
-              "score": 2957.9,
+              "score": 2962.3,
               "color": "#a937e8"
             },
             "healer": {
@@ -14024,7 +14119,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2957.9,
+              "score": 2962.3,
               "color": "#a937e8"
             },
             "spec_1": {
@@ -14043,6 +14138,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Voidscar Arena",
+          "short_name": "VSA",
+          "mythic_level": 12,
+          "completed_at": "2026-09-01T21:09:17.000Z",
+          "clear_time_ms": 1261057,
+          "keystone_run_id": 6926675,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 585,
+          "zone_id": 16425,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+          "score": 376.2,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6926675-12-voidscar-arena",
+          "spec": {
+            "id": 71,
+            "name": "Arms",
+            "slug": "arms",
+            "class_id": 1,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Kings' Rest",
           "short_name": "KR",
@@ -14085,60 +14234,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/6528808-12-kings-rest",
-          "spec": {
-            "id": 71,
-            "name": "Arms",
-            "slug": "arms",
-            "class_id": 1,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Voidscar Arena",
-          "short_name": "VSA",
-          "mythic_level": 12,
-          "completed_at": "2026-08-30T23:06:32.000Z",
-          "clear_time_ms": 1472168,
-          "keystone_run_id": 6220488,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 585,
-          "zone_id": 16425,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-          "score": 371.8,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/6220488-12-voidscar-arena",
           "spec": {
             "id": 71,
             "name": "Arms",
@@ -14477,10 +14572,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-01T19:57:34.000Z",
-        "updated_at": "2026-09-01T19:57:34.000Z",
-        "source": "db",
-        "item_level_equipped": 312.688,
+        "created_at": "2026-09-01T21:54:46.492Z",
+        "updated_at": "2026-09-01T21:54:46.492Z",
+        "source": "s3",
+        "item_level_equipped": 313,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14875,11 +14970,11 @@
             ]
           },
           "legs": {
-            "item_id": 268224,
-            "item_level": 302,
-            "enchant": 8163,
+            "item_id": 271455,
+            "item_level": 311,
+            "enchant": 8159,
             "icon": "inv_pant_plate_raidwarriorulatek_d_01",
-            "name": "Venom Warden's Greaves",
+            "name": "Greaves of the Jade Warlord",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -14890,24 +14985,26 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8163
+              8159
             ],
             "enchants_detail": [
               {
-                "id": 244643,
-                "name": "41 Agi/Str & 27 Armor",
-                "icon": "inv_12_profession_leatherworking_thalassian_amor_kit"
+                "id": 244641,
+                "name": "41 Agi/Str & 115 Sta",
+                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
               }
             ],
             "bonuses": [
-              6652,
-              13662,
-              13333,
-              11215,
-              12836
+              40,
+              12843,
+              13440,
+              13693,
+              13698,
+              1564
             ]
           },
           "feet": {
@@ -15102,8 +15199,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8051
+              7981
             ],
             "enchants_detail": [
               {
@@ -15193,11 +15289,11 @@
           "segments": {
             "all": {
               "score": 3532.9,
-              "color": "#f46d55"
+              "color": "#f16a5f"
             },
             "dps": {
               "score": 3518.9,
-              "color": "#f26b5c"
+              "color": "#f06765"
             },
             "healer": {
               "score": 0,
@@ -15209,11 +15305,11 @@
             },
             "spec_0": {
               "score": 3518.9,
-              "color": "#f26b5c"
+              "color": "#f06765"
             },
             "spec_1": {
               "score": 3239.1,
-              "color": "#d951a0"
+              "color": "#d74fa4"
             },
             "spec_2": {
               "score": 2844.4,
@@ -19102,8 +19198,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-01T19:51:34.000Z",
-        "updated_at": "2026-09-01T19:51:34.000Z",
+        "created_at": "2026-09-01T20:29:25.000Z",
+        "updated_at": "2026-09-01T20:29:25.000Z",
         "source": "db",
         "item_level_equipped": 314.312,
         "item_level_total": 0,
@@ -22074,8 +22170,8 @@
             "all": 2754,
             "dps": 2754,
             "healer": 0,
-            "tank": 0,
-            "spec_0": 0,
+            "tank": 335,
+            "spec_0": 335,
             "spec_1": 0,
             "spec_2": 2754,
             "spec_3": 0
@@ -22094,12 +22190,12 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 0,
-              "color": "#ffffff"
+              "score": 335,
+              "color": "#f1ffeb"
             },
             "spec_0": {
-              "score": 0,
-              "color": "#ffffff"
+              "score": 335,
+              "color": "#f1ffeb"
             },
             "spec_1": {
               "score": 0,
@@ -22551,10 +22647,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-01T19:39:10.000Z",
-        "updated_at": "2026-09-01T19:39:10.000Z",
+        "created_at": "2026-09-01T21:54:23.000Z",
+        "updated_at": "2026-09-01T21:54:23.000Z",
         "source": "db",
-        "item_level_equipped": 314.438,
+        "item_level_equipped": 315.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22694,60 +22790,14 @@
           },
           "shoulder": {
             "item_id": 271517,
-            "item_level": 318,
+            "item_level": 331,
             "enchant": 8031,
             "icon": "inv_shoulder_leather_raidmonkulatek_d_01",
             "name": "Tassels of the Monkey King",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
+            "is_azerite_armor": false,
+            "azerite_powers": [],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -22769,11 +22819,10 @@
             ],
             "bonuses": [
               6652,
-              12849,
               13440,
               13694,
               13697,
-              1571
+              12853
             ]
           },
           "back": {
@@ -27786,11 +27835,11 @@
           "segments": {
             "all": {
               "score": 3002.7,
-              "color": "#b43bdc"
+              "color": "#b33add"
             },
             "dps": {
               "score": 3002.7,
-              "color": "#b43bdc"
+              "color": "#b33add"
             },
             "healer": {
               "score": 0,
@@ -27806,7 +27855,7 @@
             },
             "spec_1": {
               "score": 3002.7,
-              "color": "#b43bdc"
+              "color": "#b33add"
             },
             "spec_2": {
               "score": 0,
