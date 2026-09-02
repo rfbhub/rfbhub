@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T16:43:52.499Z",
+  "updated": "2026-09-02T19:55:53.765Z",
   "rosterCount": 25,
   "mplusCount": 1,
   "guild": {
@@ -93,8 +93,8 @@
           "realm": 46
         },
         "heroic": {
-          "world": 2121,
-          "region": 708,
+          "world": 2134,
+          "region": 710,
           "realm": 48
         },
         "mythic": {
@@ -16299,7 +16299,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-09-02T03:19:57.000Z",
+      "last_crawled_at": "2026-09-02T16:44:53.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -16786,10 +16786,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-02T15:48:57.000Z",
-        "updated_at": "2026-09-02T15:48:57.000Z",
+        "created_at": "2026-09-02T17:48:50.000Z",
+        "updated_at": "2026-09-02T17:48:50.000Z",
         "source": "db",
-        "item_level_equipped": 315.438,
+        "item_level_equipped": 318.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -16802,7 +16802,7 @@
         "items": {
           "head": {
             "item_id": 271456,
-            "item_level": 311,
+            "item_level": 318,
             "enchant": 8017,
             "icon": "inv_helm_plate_raidwarriorulatek_d_01",
             "name": "Tempered Horns of the Jade Warlord",
@@ -16810,7 +16810,17 @@
             "is_legendary": false,
             "is_azerite_armor": true,
             "azerite_powers": [
-              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
               {
                 "id": 580,
                 "spell": {
@@ -16866,13 +16876,12 @@
               }
             ],
             "bonuses": [
-              12843,
               41,
               13696,
               13440,
               13692,
               13698,
-              1564
+              12845
             ]
           },
           "neck": {
@@ -16911,22 +16920,37 @@
             ]
           },
           "shoulder": {
-            "item_id": 271454,
-            "item_level": 308,
+            "item_id": 237835,
+            "item_level": 331,
             "enchant": 8001,
-            "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
-            "name": "Raging Pauldrons of the Jade Warlord",
+            "icon": "inv_plate_questbloodelf_b_01_shoulder",
+            "name": "Spellbreaker's Mantle",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              null,
+              null,
+              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
               "total": 0
             },
             "domination_shards": [],
-            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -16940,10 +16964,15 @@
               }
             ],
             "bonuses": [
-              13694,
-              6652,
-              13697,
-              12838
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              13767,
+              8960,
+              8791,
+              13836
             ]
           },
           "back": {
@@ -16974,11 +17003,11 @@
             ]
           },
           "chest": {
-            "item_id": 239036,
-            "item_level": 311,
+            "item_id": 271459,
+            "item_level": 321,
             "enchant": 7987,
-            "icon": "inv_chest_plate_zandalardungeon_c_01",
-            "name": "Desert Guardian's Breastplate",
+            "icon": "inv_chest_plate_raidwarriorulatek_d_01",
+            "name": "Cuirass of the Jade Warlord",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -16989,6 +17018,7 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -17002,16 +17032,16 @@
               }
             ],
             "bonuses": [
-              12843,
-              13440,
               6652,
-              13662,
-              12699
+              13440,
+              13690,
+              13698,
+              12846
             ]
           },
           "waist": {
             "item_id": 268259,
-            "item_level": 318,
+            "item_level": 324,
             "icon": "inv_belt_plate_raidpaladinulatek_d_01",
             "name": "Girdle of Toxic Regret",
             "item_quality": 4,
@@ -17033,7 +17063,7 @@
               13696,
               13662,
               13334,
-              12849
+              12851
             ]
           },
           "shirt": {
@@ -17349,7 +17379,7 @@
             "gems_detail": [],
             "enchants": [
               7981,
-              8051
+              8052
             ],
             "enchants_detail": [
               {
@@ -17420,7 +17450,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-09-01T23:33:47.000Z",
+      "last_crawled_at": "2026-09-02T19:09:24.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -17430,10 +17460,10 @@
             "all": 3547.4,
             "dps": 3533.3,
             "healer": 0,
-            "tank": 2888.4,
+            "tank": 2933.9,
             "spec_0": 3533.3,
             "spec_1": 3239.1,
-            "spec_2": 2888.4,
+            "spec_2": 2933.9,
             "spec_3": 0
           },
           "segments": {
@@ -17450,8 +17480,8 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 2888.4,
-              "color": "#8a4de9"
+              "score": 2933.9,
+              "color": "#9b3eec"
             },
             "spec_0": {
               "score": 3533.3,
@@ -17462,8 +17492,8 @@
               "color": "#d54ea8"
             },
             "spec_2": {
-              "score": 2888.4,
-              "color": "#8a4de9"
+              "score": 2933.9,
+              "color": "#9b3eec"
             },
             "spec_3": {
               "score": 0,
@@ -17907,10 +17937,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-02T13:31:45.000Z",
-        "updated_at": "2026-09-02T13:31:45.000Z",
+        "created_at": "2026-09-02T19:28:29.000Z",
+        "updated_at": "2026-09-02T19:28:29.000Z",
         "source": "db",
-        "item_level_equipped": 313.875,
+        "item_level_equipped": 316.5,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -18006,10 +18036,10 @@
             ]
           },
           "neck": {
-            "item_id": 251173,
+            "item_id": 273781,
             "item_level": 321,
-            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1",
-            "name": "Yoke of the Charging Bear",
+            "icon": "inv_121_jewelry_neck03_teal",
+            "name": "Strand of Warding Fangs",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -18034,7 +18064,7 @@
             "enchants_detail": [],
             "bonuses": [
               13440,
-              6652,
+              40,
               13668,
               12699,
               12846
@@ -18141,10 +18171,10 @@
             ]
           },
           "waist": {
-            "item_id": 249949,
-            "item_level": 298,
-            "icon": "inv_belt_plate_raidwarriormidnight_d_01",
-            "name": "Night Ender's Girdle",
+            "item_id": 277765,
+            "item_level": 308,
+            "icon": "inv_belt_plate_outdooramaniloa_c_01",
+            "name": "Venom-Cursed Bear's Warbelt",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -18155,24 +18185,15 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13335,
-              13786,
-              3183,
-              13534
+              13696,
+              13662,
+              12838
             ]
           },
           "shirt": {
@@ -18197,10 +18218,10 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 159409,
-            "item_level": 318,
-            "icon": "inv_bracer_plate_zandalardungeon_c_01",
-            "name": "Embalmer's Steadying Bracers",
+            "item_id": 237834,
+            "item_level": 331,
+            "icon": "inv_plate_questbloodelf_b_01_bracer",
+            "name": "Spellbreaker's Bracers",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -18211,30 +18232,26 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13440,
-              6652,
-              13695,
-              13662,
-              12699,
-              12845
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              8960,
+              12384,
+              8790,
+              13836,
+              13696
             ]
           },
           "hands": {
             "item_id": 159413,
-            "item_level": 315,
+            "item_level": 318,
             "icon": "inv_glove_plate_zandalardungeon_c_01",
             "name": "Gauntlets of the Avian Sentinel",
             "item_quality": 4,
@@ -18256,7 +18273,7 @@
               6652,
               13662,
               12699,
-              12844
+              12845
             ]
           },
           "legs": {
@@ -18425,10 +18442,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 249343,
+            "item_id": 249342,
             "item_level": 298,
-            "icon": "inv_12_trinket_raid_dreamrift_gazeofthealnseer",
-            "name": "Gaze of the Alnseer",
+            "icon": "inv_12_trinket_raid_voidspire_strdps_hearthofancienthunger",
+            "name": "Heart of Ancient Hunger",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -18444,7 +18461,7 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
+              42,
               13335,
               13654
             ]
@@ -18476,11 +18493,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 251218,
-            "item_level": 321,
-            "enchant": 8039,
-            "icon": "inv_sword_1h_domanaar_b_01",
-            "name": "Taz'Rah's Cosmic Edge",
+            "item_id": 268213,
+            "item_level": 334,
+            "enchant": 8689,
+            "icon": "inv_axe_2h_ulatek_d_01",
+            "name": "Maze-roa, Warlord's Fury",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -18494,54 +18511,20 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
+              8689,
               8052
             ],
             "enchants_detail": [
               {
-                "id": 244029,
-                "name": "Enchant Weapon - Acuity of the Ren'dorei",
+                "id": 273072,
+                "name": "Rite of the Hash'ey",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
-              13440,
               6652,
-              12701,
-              12846
-            ]
-          },
-          "offhand": {
-            "item_id": 237831,
-            "item_level": 331,
-            "enchant": 1704,
-            "icon": "inv_shield_1h_questbloodelf_b_01",
-            "name": "Spellbreaker's Rebuke",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              1704
-            ],
-            "enchants_detail": [],
-            "bonuses": [
-              12214,
-              12497,
-              13751,
-              14001,
-              8960,
-              12384,
-              8790,
-              13836
+              13334,
+              12854
             ]
           }
         }
