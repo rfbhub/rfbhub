@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T10:47:20.406Z",
+  "updated": "2026-09-05T16:53:35.404Z",
   "rosterCount": 26,
   "mplusCount": 2,
   "guild": {
@@ -93,7 +93,7 @@
           "realm": 46
         },
         "heroic": {
-          "world": 1668,
+          "world": 1673,
           "region": 557,
           "realm": 39
         },
@@ -138,11 +138,11 @@
           "segments": {
             "all": {
               "score": 2842,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "dps": {
               "score": 584,
-              "color": "#d8ffc9"
+              "color": "#d9ffca"
             },
             "healer": {
               "score": 0,
@@ -150,15 +150,15 @@
             },
             "tank": {
               "score": 2842,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "spec_0": {
               "score": 2842,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "spec_1": {
               "score": 584,
-              "color": "#d8ffc9"
+              "color": "#d9ffca"
             },
             "spec_2": {
               "score": 0,
@@ -1298,39 +1298,39 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2635.3,
-            "dps": 2004.2,
+            "all": 2719.7,
+            "dps": 2387.4,
             "healer": 2221.1,
             "tank": 0,
-            "spec_0": 2004.2,
+            "spec_0": 2387.4,
             "spec_1": 2221.1,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2635.3,
+              "score": 2719.7,
               "color": "#1973da"
             },
             "dps": {
-              "score": 2004.2,
-              "color": "#5ec77d"
+              "score": 2387.4,
+              "color": "#5698b3"
             },
             "healer": {
               "score": 2221.1,
-              "color": "#5da8a2"
+              "color": "#5eae9b"
             },
             "tank": {
               "score": 0,
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2004.2,
-              "color": "#5ec77d"
+              "score": 2387.4,
+              "color": "#5698b3"
             },
             "spec_1": {
               "score": 2221.1,
-              "color": "#5da8a2"
+              "color": "#5eae9b"
             },
             "spec_2": {
               "score": 0,
@@ -1344,6 +1344,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Kings' Rest",
+          "short_name": "KR",
+          "mythic_level": 13,
+          "completed_at": "2026-09-05T16:27:08.000Z",
+          "clear_time_ms": 1811818,
+          "keystone_run_id": 8453133,
+          "par_time_ms": 1980999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 249,
+          "zone_id": 9526,
+          "zone_expansion_id": 7,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
+          "score": 383.2,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8453133-13-kings-rest",
+          "spec": {
+            "id": 1467,
+            "name": "Devastation",
+            "slug": "devastation",
+            "class_id": 13,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "10.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Voidscar Arena",
           "short_name": "VSA",
@@ -1713,59 +1767,13 @@
             "ordinal": 0
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Kings' Rest",
-          "short_name": "KR",
-          "mythic_level": 9,
-          "completed_at": "2026-08-19T01:46:32.000Z",
-          "clear_time_ms": 1516060,
-          "keystone_run_id": 123413,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 249,
-          "zone_id": 9526,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-          "score": 298.8,
-          "affixes": [
-            {
-              "id": 162,
-              "name": "Xal'atath's Bargain: Pulsar",
-              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-              "icon": "inv_cosmicvoid_nova",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-              "wowhead_url": "https://wowhead.com/affix=162"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/123413-9-kings-rest",
-          "spec": {
-            "id": 1468,
-            "name": "Preservation",
-            "slug": "preservation",
-            "class_id": 13,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "10.0.0",
-            "ordinal": 1
-          },
-          "role": "healer"
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T04:29:04.197Z",
-        "updated_at": "2026-09-05T04:29:04.197Z",
-        "source": "s3",
-        "item_level_equipped": 315,
+        "created_at": "2026-09-05T16:06:44.000Z",
+        "updated_at": "2026-09-05T16:06:44.000Z",
+        "source": "db",
+        "item_level_equipped": 313.875,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -1860,10 +1868,10 @@
             ]
           },
           "neck": {
-            "item_id": 273781,
-            "item_level": 308,
-            "icon": "inv_121_jewelry_neck03_teal",
-            "name": "Strand of Warding Fangs",
+            "item_id": 251234,
+            "item_level": 311,
+            "icon": "inv_12_jewelry_devouringhost_necklace_silver2",
+            "name": "Graft of the Domanaar",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1875,28 +1883,29 @@
             },
             "domination_shards": [],
             "gems": [
-              240898
+              240906
             ],
             "gems_detail": [
               {
-                "id": 240898,
-                "name": "16 Mast & 7 Crit",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_fire_purple"
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              12843,
               13440,
               6652,
               13668,
-              12699,
-              12838
+              12699
             ]
           },
           "shoulder": {
             "item_id": 271499,
             "item_level": 321,
+            "enchant": 8031,
             "icon": "inv_shoulder_mail_raidevokerulatek_d_01",
             "name": "Calamitous Echo's Sundered Peaks",
             "item_quality": 4,
@@ -1912,8 +1921,16 @@
             "tier": "36",
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              8031
+            ],
+            "enchants_detail": [
+              {
+                "id": 244021,
+                "name": "Enchant Shoulders - Silvermoon's Mending",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
               13334,
               13694,
@@ -2068,10 +2085,10 @@
             ]
           },
           "wrist": {
-            "item_id": 244584,
-            "item_level": 331,
-            "icon": "inv_bracer_mail_questbloodelf_b_01",
-            "name": "Farstrider's Plated Bracers",
+            "item_id": 272254,
+            "item_level": 305,
+            "icon": "inv_bracer_mail_outdooramaniloa_c_01",
+            "name": "Galerider's Mesh Wraps",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -2087,16 +2104,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              14001,
-              8960,
-              12384,
-              8791,
-              13836,
-              13696
+              12841,
+              6652,
+              13696,
+              13662
             ]
           },
           "hands": {
@@ -2198,11 +2209,11 @@
             ]
           },
           "finger1": {
-            "item_id": 251194,
+            "item_id": 273792,
             "item_level": 311,
             "enchant": 7969,
-            "icon": "inv12_jewelrytrinkets_rutaani_ring_yellow",
-            "name": "Lightwarden's Bind",
+            "icon": "inv_121_jewelry_ring02_green",
+            "name": "Band of the Amani Warlord",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -2284,31 +2295,6 @@
             ]
           },
           "trinket1": {
-            "item_id": 270162,
-            "item_level": 308,
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "name": "Soulcoiler Ritual Vessel",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13333,
-              12838
-            ]
-          },
-          "trinket2": {
             "item_id": 264507,
             "item_level": 295,
             "icon": "inv_112_raidtrinkets_etherealenergystoragebattery_gold",
@@ -2331,6 +2317,32 @@
               12830
             ]
           },
+          "trinket2": {
+            "item_id": 250256,
+            "item_level": 298,
+            "icon": "inv_10_jewelcrafting3_soulcage_air",
+            "name": "Heart of Wind",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              13654
+            ]
+          },
           "mainhand": {
             "item_id": 273778,
             "item_level": 321,
@@ -2350,7 +2362,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8052
             ],
             "enchants_detail": [
               {
@@ -2470,11 +2483,11 @@
           "segments": {
             "all": {
               "score": 2974.6,
-              "color": "#9c3eed"
+              "color": "#9b3eec"
             },
             "dps": {
               "score": 2974.6,
-              "color": "#9c3eed"
+              "color": "#9b3eec"
             },
             "healer": {
               "score": 0,
@@ -2490,7 +2503,7 @@
             },
             "spec_1": {
               "score": 2974.6,
-              "color": "#9c3eed"
+              "color": "#9b3eec"
             },
             "spec_2": {
               "score": 0,
@@ -3616,11 +3629,11 @@
           "segments": {
             "all": {
               "score": 2886.9,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "dps": {
               "score": 2886.9,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "healer": {
               "score": 0,
@@ -3628,11 +3641,11 @@
             },
             "tank": {
               "score": 1960.9,
-              "color": "#5dcb79"
+              "color": "#5cce75"
             },
             "spec_0": {
               "score": 2886.9,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "spec_1": {
               "score": 0,
@@ -3640,7 +3653,7 @@
             },
             "spec_2": {
               "score": 1960.9,
-              "color": "#5dcb79"
+              "color": "#5cce75"
             },
             "spec_3": {
               "score": 0,
@@ -4741,11 +4754,11 @@
           "segments": {
             "all": {
               "score": 2884.3,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "dps": {
               "score": 2884.3,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "healer": {
               "score": 0,
@@ -4757,7 +4770,7 @@
             },
             "spec_0": {
               "score": 2884.3,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "spec_1": {
               "score": 0,
@@ -6374,10 +6387,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-04T11:07:07.005Z",
-        "updated_at": "2026-09-04T11:07:07.005Z",
-        "source": "s3",
-        "item_level_equipped": 319,
+        "created_at": "2026-09-05T15:17:19.000Z",
+        "updated_at": "2026-09-05T15:17:19.000Z",
+        "source": "db",
+        "item_level_equipped": 319.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -6990,7 +7003,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -7096,11 +7110,11 @@
             },
             "spec_0": {
               "score": 1836.6,
-              "color": "#53de5e"
+              "color": "#50e159"
             },
             "spec_1": {
               "score": 2987.1,
-              "color": "#9c3eed"
+              "color": "#9b3eec"
             },
             "spec_2": {
               "score": 0,
@@ -8209,11 +8223,11 @@
           "segments": {
             "all": {
               "score": 2493.3,
-              "color": "#4485c7"
+              "color": "#4888c3"
             },
             "dps": {
               "score": 2493.3,
-              "color": "#4485c7"
+              "color": "#4888c3"
             },
             "healer": {
               "score": 0,
@@ -8233,7 +8247,7 @@
             },
             "spec_2": {
               "score": 2493.3,
-              "color": "#4485c7"
+              "color": "#4888c3"
             },
             "spec_3": {
               "score": 0,
@@ -9259,11 +9273,11 @@
             },
             "dps": {
               "score": 1206.4,
-              "color": "#86ff69"
+              "color": "#89ff6c"
             },
             "healer": {
               "score": 2614.2,
-              "color": "#2576d7"
+              "color": "#2e79d3"
             },
             "tank": {
               "score": 0,
@@ -9271,7 +9285,7 @@
             },
             "spec_0": {
               "score": 1206.4,
-              "color": "#86ff69"
+              "color": "#89ff6c"
             },
             "spec_1": {
               "score": 0,
@@ -9279,7 +9293,7 @@
             },
             "spec_2": {
               "score": 2614.2,
-              "color": "#2576d7"
+              "color": "#2e79d3"
             },
             "spec_3": {
               "score": 0,
@@ -11384,11 +11398,11 @@
           "segments": {
             "all": {
               "score": 2719.5,
-              "color": "#0070dd"
+              "color": "#1973da"
             },
             "dps": {
               "score": 2719.5,
-              "color": "#0070dd"
+              "color": "#1973da"
             },
             "healer": {
               "score": 0,
@@ -11408,7 +11422,7 @@
             },
             "spec_2": {
               "score": 2719.5,
-              "color": "#0070dd"
+              "color": "#1973da"
             },
             "spec_3": {
               "score": 0,
@@ -12632,7 +12646,7 @@
             },
             "dps": {
               "score": 647,
-              "color": "#d2ffc1"
+              "color": "#d3ffc2"
             },
             "healer": {
               "score": 3025.5,
@@ -12644,15 +12658,15 @@
             },
             "spec_0": {
               "score": 2730.3,
-              "color": "#2c6dde"
+              "color": "#0070dd"
             },
             "spec_1": {
               "score": 2988.5,
-              "color": "#9c3eed"
+              "color": "#9b3eec"
             },
             "spec_2": {
               "score": 647,
-              "color": "#d2ffc1"
+              "color": "#d3ffc2"
             },
             "spec_3": {
               "score": 0,
@@ -16255,15 +16269,15 @@
           "segments": {
             "all": {
               "score": 2706.6,
-              "color": "#0070dd"
+              "color": "#1973da"
             },
             "dps": {
               "score": 1174,
-              "color": "#8eff72"
+              "color": "#90ff74"
             },
             "healer": {
               "score": 2706.6,
-              "color": "#0070dd"
+              "color": "#1973da"
             },
             "tank": {
               "score": 0,
@@ -16271,7 +16285,7 @@
             },
             "spec_0": {
               "score": 1174,
-              "color": "#8eff72"
+              "color": "#90ff74"
             },
             "spec_1": {
               "score": 0,
@@ -16279,7 +16293,7 @@
             },
             "spec_2": {
               "score": 2706.6,
-              "color": "#0070dd"
+              "color": "#1973da"
             },
             "spec_3": {
               "score": 0,
@@ -18552,10 +18566,10 @@
             "all": 3652.5,
             "dps": 3652.5,
             "healer": 0,
-            "tank": 2933.8,
+            "tank": 2978.1,
             "spec_0": 3652.5,
             "spec_1": 3239,
-            "spec_2": 2933.8,
+            "spec_2": 2978.1,
             "spec_3": 0
           },
           "segments": {
@@ -18572,8 +18586,8 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 2933.8,
-              "color": "#8c4bea"
+              "score": 2978.1,
+              "color": "#9b3eec"
             },
             "spec_0": {
               "score": 3652.5,
@@ -18584,8 +18598,8 @@
               "color": "#cc47b9"
             },
             "spec_2": {
-              "score": 2933.8,
-              "color": "#8c4bea"
+              "score": 2978.1,
+              "color": "#9b3eec"
             },
             "spec_3": {
               "score": 0,
@@ -19029,10 +19043,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T04:39:29.076Z",
-        "updated_at": "2026-09-05T04:39:29.076Z",
-        "source": "s3",
-        "item_level_equipped": 318,
+        "created_at": "2026-09-05T16:51:43.000Z",
+        "updated_at": "2026-09-05T16:51:43.000Z",
+        "source": "db",
+        "item_level_equipped": 316.938,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -19128,10 +19142,10 @@
             ]
           },
           "neck": {
-            "item_id": 273781,
+            "item_id": 251173,
             "item_level": 321,
-            "icon": "inv_121_jewelry_neck03_teal",
-            "name": "Strand of Warding Fangs",
+            "icon": "inv_12_jewelry_zulaman_troll_necklace_green1",
+            "name": "Yoke of the Charging Bear",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -19156,7 +19170,7 @@
             "enchants_detail": [],
             "bonuses": [
               13440,
-              40,
+              6652,
               13668,
               12699,
               12846
@@ -19534,10 +19548,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270173,
-            "item_level": 321,
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "name": "Zul'jin's Guillotine Technique",
+            "item_id": 250229,
+            "item_level": 311,
+            "icon": "inv12_jewelrytrinkets_dungeon_idolofthewargod",
+            "name": "Idol of the War Loa",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -19553,9 +19567,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
+              12843,
+              13440,
               6652,
-              13334,
-              12850
+              12699
             ]
           },
           "trinket2": {
@@ -19584,11 +19599,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268213,
-            "item_level": 334,
-            "enchant": 8689,
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "name": "Maze-roa, Warlord's Fury",
+            "item_id": 251218,
+            "item_level": 321,
+            "enchant": 8039,
+            "icon": "inv_sword_1h_domanaar_b_01",
+            "name": "Taz'Rah's Cosmic Edge",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -19602,20 +19617,53 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
-                "id": 273072,
-                "name": "Rite of the Hash'ey",
+                "id": 244029,
+                "name": "Enchant Weapon - Acuity of the Ren'dorei",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
+              13440,
               6652,
-              13334,
-              12854,
-              13696
+              12701,
+              12846
+            ]
+          },
+          "offhand": {
+            "item_id": 237831,
+            "item_level": 331,
+            "enchant": 1704,
+            "icon": "inv_shield_1h_questbloodelf_b_01",
+            "name": "Spellbreaker's Rebuke",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              1704
+            ],
+            "enchants_detail": [],
+            "bonuses": [
+              12214,
+              12497,
+              13751,
+              14001,
+              12715,
+              8790,
+              13836
             ]
           }
         }
@@ -19680,23 +19728,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2995,
-            "dps": 2215.7,
+            "all": 2995.1,
+            "dps": 2215.8,
             "healer": 0,
             "tank": 2890,
-            "spec_0": 2215.7,
+            "spec_0": 2215.8,
             "spec_1": 2890,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2995,
-              "color": "#9c3eed"
+              "score": 2995.1,
+              "color": "#9b3eec"
             },
             "dps": {
-              "score": 2215.7,
-              "color": "#5eab9e"
+              "score": 2215.8,
+              "color": "#5eae9b"
             },
             "healer": {
               "score": 0,
@@ -19704,15 +19752,15 @@
             },
             "tank": {
               "score": 2890,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "spec_0": {
-              "score": 2215.7,
-              "color": "#5eab9e"
+              "score": 2215.8,
+              "color": "#5eae9b"
             },
             "spec_1": {
               "score": 2890,
-              "color": "#7b56e7"
+              "color": "#7658e6"
             },
             "spec_2": {
               "score": 0,
@@ -19838,9 +19886,9 @@
           "dungeon": "Kings' Rest",
           "short_name": "KR",
           "mythic_level": 13,
-          "completed_at": "2026-09-02T22:38:21.000Z",
-          "clear_time_ms": 1818619,
-          "keystone_run_id": 7361364,
+          "completed_at": "2026-09-05T16:27:08.000Z",
+          "clear_time_ms": 1811818,
+          "keystone_run_id": 8453133,
           "par_time_ms": 1980999,
           "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 249,
@@ -19848,7 +19896,7 @@
           "zone_expansion_id": 7,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-          "score": 383.1,
+          "score": 383.2,
           "affixes": [
             {
               "id": 10,
@@ -19875,7 +19923,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/7361364-13-kings-rest",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8453133-13-kings-rest",
           "spec": {
             "id": 577,
             "name": "Havoc",
@@ -20160,10 +20208,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T04:24:53.504Z",
-        "updated_at": "2026-09-05T04:24:53.504Z",
-        "source": "s3",
-        "item_level_equipped": 318,
+        "created_at": "2026-09-05T16:51:43.000Z",
+        "updated_at": "2026-09-05T16:51:43.000Z",
+        "source": "db",
+        "item_level_equipped": 318.438,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -20332,7 +20380,7 @@
           },
           "back": {
             "item_id": 268253,
-            "item_level": 328,
+            "item_level": 331,
             "icon": "inv_cape_leather_raidrogueulatek_d_01",
             "name": "Silken Voodoo Drape",
             "item_quality": 4,
@@ -20353,8 +20401,8 @@
               6652,
               13662,
               13334,
-              12852,
-              13696
+              13696,
+              12853
             ]
           },
           "chest": {
@@ -20739,7 +20787,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
@@ -20774,7 +20823,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              8052
             ],
             "enchants_detail": [
               {
@@ -20849,30 +20899,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/187/187477179-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-05T04:25:37.000Z",
+      "last_crawled_at": "2026-09-05T16:29:15.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Blinkforlife",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 2812.7,
-            "dps": 2812.7,
+            "all": 2840.1,
+            "dps": 2840.1,
             "healer": 0,
             "tank": 0,
-            "spec_0": 2812.7,
+            "spec_0": 2840.1,
             "spec_1": 0,
             "spec_2": 259.6,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 2812.7,
-              "color": "#5c63e3"
+              "score": 2840.1,
+              "color": "#6062e3"
             },
             "dps": {
-              "score": 2812.7,
-              "color": "#5c63e3"
+              "score": 2840.1,
+              "color": "#6062e3"
             },
             "healer": {
               "score": 0,
@@ -20883,8 +20933,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2812.7,
-              "color": "#5c63e3"
+              "score": 2840.1,
+              "color": "#6062e3"
             },
             "spec_1": {
               "score": 0,
@@ -21011,6 +21061,60 @@
           "role": "dps"
         },
         {
+          "dungeon": "Altar of Fangs",
+          "short_name": "AOF",
+          "mythic_level": 12,
+          "completed_at": "2026-09-05T16:38:41.000Z",
+          "clear_time_ms": 1526222,
+          "keystone_run_id": 8458128,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 588,
+          "zone_id": 16865,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
+          "score": 370.7,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/8458128-12-altar-of-fangs",
+          "spec": {
+            "id": 62,
+            "name": "Arcane",
+            "slug": "arcane",
+            "class_id": 8,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
+        {
           "dungeon": "The Blinding Vale",
           "short_name": "BV",
           "mythic_level": 12,
@@ -21106,60 +21210,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/4398525-11-voidscar-arena",
-          "spec": {
-            "id": 62,
-            "name": "Arcane",
-            "slug": "arcane",
-            "class_id": 8,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Altar of Fangs",
-          "short_name": "AOF",
-          "mythic_level": 11,
-          "completed_at": "2026-08-20T17:14:30.000Z",
-          "clear_time_ms": 1402003,
-          "keystone_run_id": 767710,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 588,
-          "zone_id": 16865,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
-          "score": 343.3,
-          "affixes": [
-            {
-              "id": 162,
-              "name": "Xal'atath's Bargain: Pulsar",
-              "description": "While in combat, Xal'atath summons pulsars that orbit players.",
-              "icon": "inv_cosmicvoid_nova",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_cosmicvoid_nova.jpg",
-              "wowhead_url": "https://wowhead.com/affix=162"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/767710-11-altar-of-fangs",
           "spec": {
             "id": 62,
             "name": "Arcane",
@@ -21336,10 +21386,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T04:25:37.406Z",
-        "updated_at": "2026-09-05T04:25:37.406Z",
-        "source": "s3",
-        "item_level_equipped": 317,
+        "created_at": "2026-09-05T16:38:06.000Z",
+        "updated_at": "2026-09-05T16:38:06.000Z",
+        "source": "db",
+        "item_level_equipped": 317.75,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -21436,7 +21486,7 @@
           },
           "neck": {
             "item_id": 268265,
-            "item_level": 328,
+            "item_level": 331,
             "icon": "inv_121_jewelry_neck03_green",
             "name": "Aqirbane Reliquary",
             "item_quality": 4,
@@ -21449,8 +21499,22 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240983,
+              240916
+            ],
+            "gems_detail": [
+              {
+                "id": 240983,
+                "name": "32 Primary",
+                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
+              },
+              {
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
+              }
+            ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
@@ -21458,7 +21522,7 @@
               13668,
               13334,
               13987,
-              12852
+              12853
             ]
           },
           "shoulder": {
@@ -21946,7 +22010,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8051
             ],
             "enchants_detail": [
               {
@@ -22041,11 +22106,11 @@
           "segments": {
             "all": {
               "score": 2831.6,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "dps": {
               "score": 2831.6,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "healer": {
               "score": 0,
@@ -22057,7 +22122,7 @@
             },
             "spec_0": {
               "score": 2831.6,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "spec_1": {
               "score": 0,
@@ -22509,10 +22574,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T04:34:15.803Z",
-        "updated_at": "2026-09-05T04:34:15.803Z",
-        "source": "s3",
-        "item_level_equipped": 315,
+        "created_at": "2026-09-05T16:46:33.000Z",
+        "updated_at": "2026-09-05T16:46:33.000Z",
+        "source": "db",
+        "item_level_equipped": 315.938,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22687,7 +22752,7 @@
           },
           "back": {
             "item_id": 251190,
-            "item_level": 302,
+            "item_level": 308,
             "icon": "inv_cape_mail_dungeonharronir_c_01",
             "name": "Bloodthorn Burnous",
             "item_quality": 4,
@@ -22709,7 +22774,7 @@
               40,
               13662,
               12699,
-              12836
+              12838
             ]
           },
           "chest": {
@@ -23067,7 +23132,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981
+              7981,
+              5400
             ],
             "enchants_detail": [
               {
@@ -23181,11 +23247,11 @@
           "segments": {
             "all": {
               "score": 2759.7,
-              "color": "#406ae0"
+              "color": "#2e6ddf"
             },
             "dps": {
               "score": 2759.7,
-              "color": "#406ae0"
+              "color": "#2e6ddf"
             },
             "healer": {
               "score": 0,
@@ -23197,7 +23263,7 @@
             },
             "spec_0": {
               "score": 2759.7,
-              "color": "#406ae0"
+              "color": "#2e6ddf"
             },
             "spec_1": {
               "score": 0,
@@ -24272,11 +24338,11 @@
           "segments": {
             "all": {
               "score": 2824.8,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "dps": {
               "score": 2824.8,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "healer": {
               "score": 0,
@@ -24296,7 +24362,7 @@
             },
             "spec_2": {
               "score": 2824.8,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "spec_3": {
               "score": 0,
@@ -25373,10 +25439,10 @@
           "season": "season-mn-2",
           "scores": {
             "all": 3010.3,
-            "dps": 2689.1,
+            "dps": 2735.8,
             "healer": 3010.3,
             "tank": 0,
-            "spec_0": 2689.1,
+            "spec_0": 2735.8,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 3010.3
@@ -25387,8 +25453,8 @@
               "color": "#a335ee"
             },
             "dps": {
-              "score": 2689.1,
-              "color": "#1973da"
+              "score": 2735.8,
+              "color": "#0070dd"
             },
             "healer": {
               "score": 3010.3,
@@ -25399,8 +25465,8 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 2689.1,
-              "color": "#1973da"
+              "score": 2735.8,
+              "color": "#0070dd"
             },
             "spec_1": {
               "score": 0,
@@ -25852,10 +25918,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T04:24:30.256Z",
-        "updated_at": "2026-09-05T04:24:30.256Z",
-        "source": "s3",
-        "item_level_equipped": 320,
+        "created_at": "2026-09-05T16:51:10.000Z",
+        "updated_at": "2026-09-05T16:51:10.000Z",
+        "source": "db",
+        "item_level_equipped": 318.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -26401,10 +26467,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 270162,
-            "item_level": 334,
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "name": "Soulcoiler Ritual Vessel",
+            "item_id": 273796,
+            "item_level": 311,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile",
+            "name": "Vile Vial of Volatile Venom",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -26420,10 +26486,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              13696,
-              12854
+              12843,
+              13440,
+              41,
+              12699
             ]
           },
           "mainhand": {
@@ -26445,7 +26511,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8051
             ],
             "enchants_detail": [
               {
@@ -26534,7 +26601,7 @@
           "segments": {
             "all": {
               "score": 2763.9,
-              "color": "#406ae0"
+              "color": "#2e6ddf"
             },
             "dps": {
               "score": 198,
@@ -26542,7 +26609,7 @@
             },
             "healer": {
               "score": 2763.9,
-              "color": "#406ae0"
+              "color": "#2e6ddf"
             },
             "tank": {
               "score": 0,
@@ -26550,7 +26617,7 @@
             },
             "spec_0": {
               "score": 2763.9,
-              "color": "#406ae0"
+              "color": "#2e6ddf"
             },
             "spec_1": {
               "score": 0,
@@ -27660,7 +27727,7 @@
           "segments": {
             "all": {
               "score": 2821.9,
-              "color": "#675fe4"
+              "color": "#6062e3"
             },
             "dps": {
               "score": 2689.3,
@@ -27668,7 +27735,7 @@
             },
             "healer": {
               "score": 1567.7,
-              "color": "#2dff14"
+              "color": "#38ff20"
             },
             "tank": {
               "score": 0,
@@ -27684,7 +27751,7 @@
             },
             "spec_2": {
               "score": 1567.7,
-              "color": "#2dff14"
+              "color": "#38ff20"
             },
             "spec_3": {
               "score": 0,
@@ -28851,11 +28918,11 @@
           "segments": {
             "all": {
               "score": 2616.9,
-              "color": "#2576d7"
+              "color": "#2e79d3"
             },
             "dps": {
               "score": 2606,
-              "color": "#2576d7"
+              "color": "#2e79d3"
             },
             "healer": {
               "score": 0,
@@ -28863,11 +28930,11 @@
             },
             "tank": {
               "score": 1875.6,
-              "color": "#57d868"
+              "color": "#55db63"
             },
             "spec_0": {
               "score": 1875.6,
-              "color": "#57d868"
+              "color": "#55db63"
             },
             "spec_1": {
               "score": 0,
@@ -28875,7 +28942,7 @@
             },
             "spec_2": {
               "score": 2606,
-              "color": "#2576d7"
+              "color": "#2e79d3"
             },
             "spec_3": {
               "score": 0,
@@ -31654,10 +31721,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-05T01:41:33.846Z",
-        "updated_at": "2026-09-05T01:41:33.846Z",
-        "source": "s3",
-        "item_level_equipped": 313,
+        "created_at": "2026-09-05T16:03:48.000Z",
+        "updated_at": "2026-09-05T16:03:48.000Z",
+        "source": "db",
+        "item_level_equipped": 314.5,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -31969,7 +32036,7 @@
           },
           "feet": {
             "item_id": 271435,
-            "item_level": 305,
+            "item_level": 308,
             "enchant": 7993,
             "icon": "inv_boot_cloth_raidwarlockulatek_d_01",
             "name": "Slippers of the Hissing Cult",
@@ -32000,12 +32067,12 @@
               13662,
               13333,
               10844,
-              12837
+              12838
             ]
           },
           "finger1": {
             "item_id": 159459,
-            "item_level": 298,
+            "item_level": 308,
             "enchant": 7967,
             "icon": "inv_ring_80_03e",
             "name": "Ritual Binder's Ring",
@@ -32044,7 +32111,7 @@
               6652,
               13668,
               12699,
-              12835
+              12838
             ]
           },
           "finger2": {
@@ -32162,7 +32229,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -32224,10 +32292,10 @@
           "mythic_bosses_killed": 0
         },
         "the-venomous-abyss": {
-          "summary": "",
+          "summary": "6/8 N",
           "expansion_id": 11,
           "total_bosses": 8,
-          "normal_bosses_killed": 0,
+          "normal_bosses_killed": 6,
           "heroic_bosses_killed": 0,
           "mythic_bosses_killed": 0
         },
