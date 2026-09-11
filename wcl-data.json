@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T22:20:50.561Z",
+  "updated": "2026-09-11T03:40:57.869Z",
   "zoneID": 53,
   "zoneName": "The Venomous Abyss",
   "bosses": [
@@ -3665,36 +3665,324 @@
           "id": 5,
           "name": "Mythic",
           "stats": {
-            "guildAvg": 17,
-            "raidersLogged": 1,
+            "guildAvg": 42,
+            "raidersLogged": 19,
             "parseBreakdown": {
               "pink": 0,
-              "orange": 0,
-              "purple": 0,
-              "blue": 0,
-              "green": 0,
-              "gray": 1
+              "orange": 1,
+              "purple": 2,
+              "blue": 5,
+              "green": 6,
+              "gray": 5
             },
             "bestParse": {
-              "parse": 17,
-              "player": "Hashmaker",
+              "parse": 98,
+              "player": "Hersin",
               "boss": "Nek'zali the Soulcoiler"
             }
           },
           "raiders": [
             {
-              "name": "Hashmaker",
-              "class": "Paladin",
-              "realm": "illidan",
-              "avgParse": 17,
+              "name": "Hersin",
+              "class": "Warrior",
+              "realm": "bleeding-hollow",
+              "avgParse": 98,
               "bossCount": 1,
               "bosses": [
                 {
                   "name": "Nek'zali the Soulcoiler",
                   "encounterID": 3470,
-                  "parse": 17,
+                  "parse": 98,
+                  "spec": "Protection",
+                  "dps": 109641
+                }
+              ]
+            },
+            {
+              "name": "Rukenji",
+              "class": "Priest",
+              "realm": "mannoroth",
+              "avgParse": 85,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 85,
+                  "spec": "Holy",
+                  "dps": 320379
+                }
+              ]
+            },
+            {
+              "name": "Devrak",
+              "class": "Rogue",
+              "realm": "stormrage",
+              "avgParse": 85,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 85,
+                  "spec": "Outlaw",
+                  "dps": 187502
+                }
+              ]
+            },
+            {
+              "name": "Anjaleena",
+              "class": "Paladin",
+              "realm": "area-52",
+              "avgParse": 70,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 70,
+                  "spec": "Holy",
+                  "dps": 258352
+                }
+              ]
+            },
+            {
+              "name": "Hashmaker",
+              "class": "Paladin",
+              "realm": "illidan",
+              "avgParse": 69,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 69,
                   "spec": "Retribution",
-                  "dps": 133108
+                  "dps": 164076
+                }
+              ]
+            },
+            {
+              "name": "Deadscythe",
+              "class": "Demon Hunter",
+              "realm": "sargeras",
+              "avgParse": 66,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 66,
+                  "spec": "Havoc",
+                  "dps": 165166
+                }
+              ]
+            },
+            {
+              "name": "Magespheere",
+              "class": "Mage",
+              "realm": "stormrage",
+              "avgParse": 51,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 51,
+                  "spec": "Arcane",
+                  "dps": 175839
+                }
+              ]
+            },
+            {
+              "name": "Lionroar",
+              "class": "Druid",
+              "realm": "mok'nathal",
+              "avgParse": 50,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 50,
+                  "spec": "Restoration",
+                  "dps": 274693
+                }
+              ]
+            },
+            {
+              "name": "Blimpi",
+              "class": "Warlock",
+              "realm": "stormrage",
+              "avgParse": 42,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 42,
+                  "spec": "Demonology",
+                  "dps": 173536
+                }
+              ]
+            },
+            {
+              "name": "Envenumb",
+              "class": "Rogue",
+              "realm": "stormrage",
+              "avgParse": 32,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 32,
+                  "spec": "Assassination",
+                  "dps": 147234
+                }
+              ]
+            },
+            {
+              "name": "Banehate",
+              "class": "Death Knight",
+              "realm": "stormrage",
+              "avgParse": 28,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 28,
+                  "spec": "Blood",
+                  "dps": 56591
+                }
+              ]
+            },
+            {
+              "name": "Gazfrosty",
+              "class": "Mage",
+              "realm": "sargeras",
+              "avgParse": 26,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 26,
+                  "spec": "Arcane",
+                  "dps": 160008
+                }
+              ]
+            },
+            {
+              "name": "Enhance",
+              "class": "Shaman",
+              "realm": "sargeras",
+              "avgParse": 25,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 25,
+                  "spec": "Enhancement",
+                  "dps": 141022
+                }
+              ]
+            },
+            {
+              "name": "Solacker",
+              "class": "Death Knight",
+              "realm": "stormrage",
+              "avgParse": 25,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 25,
+                  "spec": "Frost",
+                  "dps": 132020
+                }
+              ]
+            },
+            {
+              "name": "Thinboi",
+              "class": "Hunter",
+              "realm": "sargeras",
+              "avgParse": 18,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 18,
+                  "spec": "Survival",
+                  "dps": 135403
+                }
+              ]
+            },
+            {
+              "name": "Veldak",
+              "class": "Shaman",
+              "realm": "zul'jin",
+              "avgParse": 18,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 18,
+                  "spec": "Elemental",
+                  "dps": 143347
+                }
+              ]
+            },
+            {
+              "name": "Crackle",
+              "class": "Evoker",
+              "realm": "illidan",
+              "avgParse": 11,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 11,
+                  "spec": "Preservation",
+                  "dps": 233645
+                }
+              ]
+            },
+            {
+              "name": "Mangobrew",
+              "class": "Monk",
+              "realm": "moon-guard",
+              "avgParse": 11,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 11,
+                  "spec": "Windwalker",
+                  "dps": 116766
+                }
+              ]
+            },
+            {
+              "name": "Cellte",
+              "class": "Warrior",
+              "realm": "stormrage",
+              "avgParse": 6,
+              "bossCount": 1,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 6,
+                  "spec": "Arms",
+                  "dps": 115350
                 }
               ]
             }
@@ -7321,36 +7609,324 @@
       "id": 5,
       "name": "Mythic",
       "stats": {
-        "guildAvg": 17,
-        "raidersLogged": 1,
+        "guildAvg": 42,
+        "raidersLogged": 19,
         "parseBreakdown": {
           "pink": 0,
-          "orange": 0,
-          "purple": 0,
-          "blue": 0,
-          "green": 0,
-          "gray": 1
+          "orange": 1,
+          "purple": 2,
+          "blue": 5,
+          "green": 6,
+          "gray": 5
         },
         "bestParse": {
-          "parse": 17,
-          "player": "Hashmaker",
+          "parse": 98,
+          "player": "Hersin",
           "boss": "Nek'zali the Soulcoiler"
         }
       },
       "raiders": [
         {
-          "name": "Hashmaker",
-          "class": "Paladin",
-          "realm": "illidan",
-          "avgParse": 17,
+          "name": "Hersin",
+          "class": "Warrior",
+          "realm": "bleeding-hollow",
+          "avgParse": 98,
           "bossCount": 1,
           "bosses": [
             {
               "name": "Nek'zali the Soulcoiler",
               "encounterID": 3470,
-              "parse": 17,
+              "parse": 98,
+              "spec": "Protection",
+              "dps": 109641
+            }
+          ]
+        },
+        {
+          "name": "Rukenji",
+          "class": "Priest",
+          "realm": "mannoroth",
+          "avgParse": 85,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 85,
+              "spec": "Holy",
+              "dps": 320379
+            }
+          ]
+        },
+        {
+          "name": "Devrak",
+          "class": "Rogue",
+          "realm": "stormrage",
+          "avgParse": 85,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 85,
+              "spec": "Outlaw",
+              "dps": 187502
+            }
+          ]
+        },
+        {
+          "name": "Anjaleena",
+          "class": "Paladin",
+          "realm": "area-52",
+          "avgParse": 70,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 70,
+              "spec": "Holy",
+              "dps": 258352
+            }
+          ]
+        },
+        {
+          "name": "Hashmaker",
+          "class": "Paladin",
+          "realm": "illidan",
+          "avgParse": 69,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 69,
               "spec": "Retribution",
-              "dps": 133108
+              "dps": 164076
+            }
+          ]
+        },
+        {
+          "name": "Deadscythe",
+          "class": "Demon Hunter",
+          "realm": "sargeras",
+          "avgParse": 66,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 66,
+              "spec": "Havoc",
+              "dps": 165166
+            }
+          ]
+        },
+        {
+          "name": "Magespheere",
+          "class": "Mage",
+          "realm": "stormrage",
+          "avgParse": 51,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 51,
+              "spec": "Arcane",
+              "dps": 175839
+            }
+          ]
+        },
+        {
+          "name": "Lionroar",
+          "class": "Druid",
+          "realm": "mok'nathal",
+          "avgParse": 50,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 50,
+              "spec": "Restoration",
+              "dps": 274693
+            }
+          ]
+        },
+        {
+          "name": "Blimpi",
+          "class": "Warlock",
+          "realm": "stormrage",
+          "avgParse": 42,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 42,
+              "spec": "Demonology",
+              "dps": 173536
+            }
+          ]
+        },
+        {
+          "name": "Envenumb",
+          "class": "Rogue",
+          "realm": "stormrage",
+          "avgParse": 32,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 32,
+              "spec": "Assassination",
+              "dps": 147234
+            }
+          ]
+        },
+        {
+          "name": "Banehate",
+          "class": "Death Knight",
+          "realm": "stormrage",
+          "avgParse": 28,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 28,
+              "spec": "Blood",
+              "dps": 56591
+            }
+          ]
+        },
+        {
+          "name": "Gazfrosty",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 26,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 26,
+              "spec": "Arcane",
+              "dps": 160008
+            }
+          ]
+        },
+        {
+          "name": "Enhance",
+          "class": "Shaman",
+          "realm": "sargeras",
+          "avgParse": 25,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 25,
+              "spec": "Enhancement",
+              "dps": 141022
+            }
+          ]
+        },
+        {
+          "name": "Solacker",
+          "class": "Death Knight",
+          "realm": "stormrage",
+          "avgParse": 25,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 25,
+              "spec": "Frost",
+              "dps": 132020
+            }
+          ]
+        },
+        {
+          "name": "Thinboi",
+          "class": "Hunter",
+          "realm": "sargeras",
+          "avgParse": 18,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 18,
+              "spec": "Survival",
+              "dps": 135403
+            }
+          ]
+        },
+        {
+          "name": "Veldak",
+          "class": "Shaman",
+          "realm": "zul'jin",
+          "avgParse": 18,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 18,
+              "spec": "Elemental",
+              "dps": 143347
+            }
+          ]
+        },
+        {
+          "name": "Crackle",
+          "class": "Evoker",
+          "realm": "illidan",
+          "avgParse": 11,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 11,
+              "spec": "Preservation",
+              "dps": 233645
+            }
+          ]
+        },
+        {
+          "name": "Mangobrew",
+          "class": "Monk",
+          "realm": "moon-guard",
+          "avgParse": 11,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 11,
+              "spec": "Windwalker",
+              "dps": 116766
+            }
+          ]
+        },
+        {
+          "name": "Cellte",
+          "class": "Warrior",
+          "realm": "stormrage",
+          "avgParse": 6,
+          "bossCount": 1,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 6,
+              "spec": "Arms",
+              "dps": 115350
             }
           ]
         }
@@ -7372,7 +7948,7 @@
     },
     {
       "name": "Blimpi",
-      "rio": 3056.5
+      "rio": 3061.6
     },
     {
       "name": "Envenumb",
@@ -7400,7 +7976,7 @@
     },
     {
       "name": "Vampiral",
-      "rio": 3081.5
+      "rio": 3142.5
     },
     {
       "name": "Rukenji",
