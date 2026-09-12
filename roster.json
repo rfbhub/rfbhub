@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T11:04:19.575Z",
+  "updated": "2026-09-12T14:22:21.378Z",
   "rosterCount": 26,
   "mplusCount": 2,
   "guild": {
@@ -98,7 +98,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1320,
+          "world": 1322,
           "region": 476,
           "realm": 30
         }
@@ -2429,11 +2429,11 @@
       "active_spec_role": "HEALING",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 29630,
+      "achievement_points": 29640,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/121/224562809-avatar.jpg?alt=/wow/static/images/2d/avatar/70-1.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-09-11T03:24:45.000Z",
+      "last_crawled_at": "2026-09-12T11:24:38.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Crackle",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -2920,10 +2920,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 319.75,
+        "created_at": "2026-09-11T03:24:46.278Z",
+        "updated_at": "2026-09-11T03:24:46.278Z",
+        "source": "s3",
+        "item_level_equipped": 319,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3476,8 +3476,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -10259,11 +10258,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 23040,
+      "achievement_points": 23050,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/210/165347282-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-11T06:30:51.000Z",
+      "last_crawled_at": "2026-09-12T11:27:36.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thinboi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10750,10 +10749,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 317.938,
+        "created_at": "2026-09-12T11:27:38.273Z",
+        "updated_at": "2026-09-12T11:27:38.273Z",
+        "source": "s3",
+        "item_level_equipped": 317,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -11391,8 +11390,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8051
+              7983
             ],
             "enchants_detail": [
               {
@@ -11426,8 +11424,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8051
+              7983
             ],
             "enchants_detail": [
               {
@@ -13833,11 +13830,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 26330,
+      "achievement_points": 26345,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/232/203548648-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-11T03:24:44.000Z",
+      "last_crawled_at": "2026-09-12T11:24:38.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -14324,10 +14321,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 322.188,
+        "created_at": "2026-09-12T11:24:41.293Z",
+        "updated_at": "2026-09-12T11:24:41.293Z",
+        "source": "s3",
+        "item_level_equipped": 322,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14770,6 +14767,7 @@
           "feet": {
             "item_id": 268258,
             "item_level": 321,
+            "enchant": 7963,
             "icon": "inv_boot_mail_raidevokerulatek_d_01",
             "name": "Boots of the Reckless Wayfarer",
             "item_quality": 4,
@@ -14784,8 +14782,16 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              7963
+            ],
+            "enchants_detail": [
+              {
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
               6652,
               13662,
@@ -14951,8 +14957,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5401
+              8689
             ],
             "enchants_detail": [
               {
@@ -14987,8 +14992,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5400
+              8689
             ],
             "enchants_detail": [
               {
@@ -19683,11 +19687,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 24535,
+      "achievement_points": 24545,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/137/151523209-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-11T03:24:44.000Z",
+      "last_crawled_at": "2026-09-12T11:24:37.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Deadscythe",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -20174,10 +20178,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 321.25,
+        "created_at": "2026-09-11T03:24:44.219Z",
+        "updated_at": "2026-09-11T03:24:44.219Z",
+        "source": "s3",
+        "item_level_equipped": 321,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -20798,8 +20802,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8052
+              7981
             ],
             "enchants_detail": [
               {
@@ -20834,8 +20837,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              8052
+              7981
             ],
             "enchants_detail": [
               {
@@ -20906,11 +20908,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 17575,
+      "achievement_points": 17585,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/187/187477179-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-11T03:24:43.000Z",
+      "last_crawled_at": "2026-09-12T11:24:38.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Blinkforlife",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -21397,9 +21399,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
+        "created_at": "2026-09-12T11:24:39.684Z",
+        "updated_at": "2026-09-12T11:24:39.684Z",
+        "source": "s3",
         "item_level_equipped": 320,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -22018,8 +22020,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8051
+              8689
             ],
             "enchants_detail": [
               {
@@ -22116,11 +22117,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 21965,
+      "achievement_points": 22000,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/91/246363483-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-09-11T03:24:44.000Z",
+      "last_crawled_at": "2026-09-12T12:04:43.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Radaamac",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -22607,10 +22608,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 315.938,
+        "created_at": "2026-09-06T06:50:12.838Z",
+        "updated_at": "2026-09-06T06:50:12.838Z",
+        "source": "s3",
+        "item_level_equipped": 315,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -23165,8 +23166,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              5400
+              7981
             ],
             "enchants_detail": [
               {
@@ -23257,11 +23257,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 15235,
+      "achievement_points": 15245,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/140/200908428-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-11T03:24:43.000Z",
+      "last_crawled_at": "2026-09-12T11:24:37.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Gazfrosty",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -23748,10 +23748,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T03:31:44.000Z",
-        "updated_at": "2026-09-12T03:31:44.000Z",
-        "source": "db",
-        "item_level_equipped": 319.875,
+        "created_at": "2026-09-11T03:24:45.442Z",
+        "updated_at": "2026-09-11T03:24:45.442Z",
+        "source": "s3",
+        "item_level_equipped": 319,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -24273,8 +24273,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -25454,15 +25453,15 @@
       "name": "Lionroar",
       "race": "Night Elf",
       "class": "Druid",
-      "active_spec_name": "Restoration",
-      "active_spec_role": "HEALING",
+      "active_spec_name": "Balance",
+      "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 49565,
+      "achievement_points": 49595,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-09-11T03:24:43.000Z",
+      "last_crawled_at": "2026-09-12T11:24:38.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -25949,10 +25948,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 322.875,
+        "created_at": "2026-09-12T11:24:40.674Z",
+        "updated_at": "2026-09-12T11:24:40.674Z",
+        "source": "s3",
+        "item_level_equipped": 321,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -26493,10 +26492,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 270162,
-            "item_level": 334,
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "name": "Soulcoiler Ritual Vessel",
+            "item_id": 273796,
+            "item_level": 311,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile",
+            "name": "Vile Vial of Volatile Venom",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -26512,10 +26511,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              13696,
-              12854
+              12843,
+              13440,
+              41,
+              12699
             ]
           },
           "mainhand": {
@@ -26537,8 +26536,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -28949,11 +28947,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 12150,
+      "achievement_points": 12170,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/77/268162637-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-09-11T03:24:45.000Z",
+      "last_crawled_at": "2026-09-12T11:27:36.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Solacker",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -29440,10 +29438,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T02:58:52.000Z",
-        "updated_at": "2026-09-12T02:58:52.000Z",
-        "source": "db",
-        "item_level_equipped": 321.688,
+        "created_at": "2026-09-12T11:27:38.387Z",
+        "updated_at": "2026-09-12T11:27:38.387Z",
+        "source": "s3",
+        "item_level_equipped": 321,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -29540,7 +29538,7 @@
           },
           "neck": {
             "item_id": 268265,
-            "item_level": 328,
+            "item_level": 331,
             "icon": "inv_121_jewelry_neck03_green",
             "name": "Aqirbane Reliquary",
             "item_quality": 4,
@@ -29576,7 +29574,7 @@
               13668,
               13334,
               13987,
-              12852
+              12853
             ]
           },
           "shoulder": {
@@ -30067,8 +30065,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245,
-              8052
+              6245
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -31303,11 +31300,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 21985,
+      "achievement_points": 22000,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/195/255651267-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-09-11T03:24:45.000Z",
+      "last_crawled_at": "2026-09-12T11:24:37.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Radamagic",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -31794,10 +31791,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-12T01:06:37.000Z",
-        "updated_at": "2026-09-12T01:06:37.000Z",
-        "source": "db",
-        "item_level_equipped": 320.438,
+        "created_at": "2026-09-11T00:38:45.650Z",
+        "updated_at": "2026-09-11T00:38:45.650Z",
+        "source": "s3",
+        "item_level_equipped": 320,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -32333,8 +32330,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
