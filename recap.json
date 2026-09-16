@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16T01:11:13.109Z",
+  "generated": "2026-09-16T16:09:08.665Z",
   "weekStart": "2026-09-09",
   "weekEnd": "2026-09-16",
   "seasonName": "Midnight S2",
@@ -18,8 +18,15 @@
         "name": "Enhance",
         "class": "Shaman",
         "previous": 3115,
-        "current": 3376,
-        "gain": 262
+        "current": 3414,
+        "gain": 299
+      },
+      {
+        "name": "Deadscythe",
+        "class": "Demon Hunter",
+        "previous": 3140,
+        "current": 3414,
+        "gain": 274
       },
       {
         "name": "Vampiral",
@@ -29,25 +36,18 @@
         "gain": 261
       },
       {
+        "name": "Rukenji",
+        "class": "Priest",
+        "previous": 3043,
+        "current": 3287,
+        "gain": 245
+      },
+      {
         "name": "Lionroar",
         "class": "Druid",
         "previous": 3133,
         "current": 3374,
         "gain": 241
-      },
-      {
-        "name": "Deadscythe",
-        "class": "Demon Hunter",
-        "previous": 3140,
-        "current": 3376,
-        "gain": 237
-      },
-      {
-        "name": "Veldak",
-        "class": "Shaman",
-        "previous": 2881,
-        "current": 3074,
-        "gain": 193
       }
     ],
     "parseSpotlight": [
@@ -86,8 +86,24 @@
         "class": "Rogue",
         "milestone": "Keystone Legend",
         "threshold": 3000,
-        "score": 3068,
+        "score": 3074,
         "previousScore": 2884
+      },
+      {
+        "name": "Enhance",
+        "class": "Shaman",
+        "milestone": "Keystone Myth",
+        "threshold": 3400,
+        "score": 3414,
+        "previousScore": 3115
+      },
+      {
+        "name": "Deadscythe",
+        "class": "Demon Hunter",
+        "milestone": "Keystone Myth",
+        "threshold": 3400,
+        "score": 3414,
+        "previousScore": 3140
       },
       {
         "name": "Gazfrosty",
@@ -131,15 +147,15 @@
         "name": "Moiryn",
         "class": "Shaman",
         "previous": 298,
-        "current": 309,
-        "gain": 11
+        "current": 314,
+        "gain": 16
       },
       {
         "name": "Vampiral",
         "class": "Hunter",
         "previous": 313.9,
-        "current": 320,
-        "gain": 6.1
+        "current": 320.6,
+        "gain": 6.7
       },
       {
         "name": "Mangobrew",
@@ -149,18 +165,18 @@
         "gain": 5
       },
       {
+        "name": "Veldak",
+        "class": "Shaman",
+        "previous": 314,
+        "current": 319,
+        "gain": 5
+      },
+      {
         "name": "Saian",
         "class": "Priest",
         "previous": 312.5,
         "current": 317.4,
         "gain": 4.9
-      },
-      {
-        "name": "Blimpi",
-        "class": "Warlock",
-        "previous": 317,
-        "current": 321.6,
-        "gain": 4.6
       }
     ],
     "highKeyPushers": [
@@ -177,6 +193,12 @@
         "currentKey": 19
       },
       {
+        "name": "Rukenji",
+        "class": "Priest",
+        "previousKey": 13,
+        "currentKey": 17
+      },
+      {
         "name": "Enhance",
         "class": "Shaman",
         "previousKey": 15,
@@ -185,12 +207,6 @@
       {
         "name": "Deadscythe",
         "class": "Demon Hunter",
-        "previousKey": 15,
-        "currentKey": 17
-      },
-      {
-        "name": "Lionroar",
-        "class": "Druid",
         "previousKey": 15,
         "currentKey": 17
       }
@@ -205,10 +221,18 @@
         "progression": "2/8 M"
       },
       {
+        "name": "Fauxtraut",
+        "class": "Druid",
+        "spec": "Guardian",
+        "ilvl": 322,
+        "rio": 3486,
+        "progression": "3/8 N"
+      },
+      {
         "name": "Soreihd",
         "class": "Druid",
         "spec": "Balance",
-        "ilvl": 322,
+        "ilvl": 323,
         "rio": 3365,
         "progression": "8/8 H"
       },
@@ -216,8 +240,8 @@
         "name": "Enut",
         "class": "Hunter",
         "spec": "Beast Mastery",
-        "ilvl": 314.6,
-        "rio": 2362,
+        "ilvl": 315,
+        "rio": 2389,
         "progression": ""
       }
     ]
@@ -225,10 +249,10 @@
   "summary": {
     "totalRaiders": 28,
     "rosterDelta": 3,
-    "avgRio": 3119,
-    "rioDelta": 113,
-    "avgIlvl": 319.5,
-    "ilvlDelta": 3.1,
+    "avgRio": 3128,
+    "rioDelta": 122,
+    "avgIlvl": 319.8,
+    "ilvlDelta": 3.4,
     "avgMythicParse": 41,
     "parseDelta": 24,
     "mythicRaidersCount": 20,
@@ -245,6 +269,6 @@
       "blue": 8
     },
     "totalCategories": 9,
-    "totalHighlights": 28
+    "totalHighlights": 31
   }
 }
