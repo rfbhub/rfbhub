@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T07:52:32.955Z",
+  "updated": "2026-09-17T13:39:23.700Z",
   "rosterCount": 27,
   "mplusCount": 3,
   "guild": {
@@ -98,8 +98,8 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1800,
-          "region": 568,
+          "world": 1829,
+          "region": 579,
           "realm": 37
         }
       }
@@ -7130,7 +7130,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/144/195745936-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-09-14T00:06:01.000Z",
+      "last_crawled_at": "2026-09-17T07:52:04.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Saian",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -7617,10 +7617,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-14T00:07:28.000Z",
-        "updated_at": "2026-09-14T00:07:28.000Z",
-        "source": "db",
-        "item_level_equipped": 317.438,
+        "created_at": "2026-09-14T00:06:02.787Z",
+        "updated_at": "2026-09-14T00:06:02.787Z",
+        "source": "s3",
+        "item_level_equipped": 317,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -7988,11 +7988,10 @@
             ]
           },
           "finger1": {
-            "item_id": 252258,
-            "item_level": 315,
-            "enchant": 7965,
-            "icon": "inv_12_jewelry_devouringhost_ring_bronze2",
-            "name": "Sickening Signet of Atroxus",
+            "item_id": 268249,
+            "item_level": 311,
+            "icon": "inv_121_jewelry_ring01_purple",
+            "name": "Vile Alchemist's Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -8003,32 +8002,15 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240900
-            ],
-            "gems_detail": [
-              {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
-              }
-            ],
-            "enchants": [
-              7965
-            ],
-            "enchants_detail": [
-              {
-                "id": 243955,
-                "name": "Enchant Ring - Amani Mast",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
-              13440,
               6652,
               13668,
-              12699,
-              12844
+              13334,
+              12843
             ]
           },
           "finger2": {
@@ -8146,8 +8128,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041,
-              8052
+              8041
             ],
             "enchants_detail": [
               {
@@ -21504,8 +21485,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-17T07:27:06.000Z",
-        "updated_at": "2026-09-17T07:27:06.000Z",
+        "created_at": "2026-09-17T08:27:30.000Z",
+        "updated_at": "2026-09-17T08:27:30.000Z",
         "source": "db",
         "item_level_equipped": 322.938,
         "item_level_total": 0,
@@ -27288,10 +27269,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-16T11:58:22.310Z",
-        "updated_at": "2026-09-16T11:58:22.310Z",
-        "source": "s3",
-        "item_level_equipped": 324,
+        "created_at": "2026-09-17T02:59:41.000Z",
+        "updated_at": "2026-09-17T02:59:41.000Z",
+        "source": "db",
+        "item_level_equipped": 324.75,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -27858,11 +27839,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268205,
-            "item_level": 321,
+            "item_id": 271092,
+            "item_level": 328,
             "enchant": 7983,
-            "icon": "inv_staff_2h_ulatek_d_02",
-            "name": "Venomancer's Winged Channeler",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
+            "name": "Jan'thrazet, the Soul Fang",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -27876,7 +27857,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983
+              7983,
+              8052
             ],
             "enchants_detail": [
               {
@@ -27885,6 +27867,31 @@
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
+            "bonuses": [
+              6652,
+              13334,
+              12852
+            ]
+          },
+          "offhand": {
+            "item_id": 268197,
+            "item_level": 321,
+            "icon": "inv_offhand_1h_ulatek_d_01",
+            "name": "Spine of the Hissing Abyss",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
             "bonuses": [
               6652,
               13334,
@@ -29099,7 +29106,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/35/264810531-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-09-16T23:07:30.000Z",
+      "last_crawled_at": "2026-09-17T12:43:24.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Veldak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -29586,10 +29593,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-09-17T02:43:52.000Z",
-        "updated_at": "2026-09-17T02:43:52.000Z",
-        "source": "db",
-        "item_level_equipped": 319.188,
+        "created_at": "2026-09-16T09:53:42.894Z",
+        "updated_at": "2026-09-16T09:53:42.894Z",
+        "source": "s3",
+        "item_level_equipped": 319,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -30199,8 +30206,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7981,
-              5400
+              7981
             ],
             "enchants_detail": [
               {
