@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T12:46:54.019Z",
+  "updated": "2026-09-26T17:40:44.153Z",
   "zoneID": 53,
   "zoneName": "The Venomous Abyss",
   "bosses": [
@@ -56,11 +56,11 @@
             "raidersLogged": 27,
             "parseBreakdown": {
               "pink": 15,
-              "orange": 55,
-              "purple": 96,
-              "blue": 41,
-              "green": 10,
-              "gray": 5
+              "orange": 60,
+              "purple": 97,
+              "blue": 43,
+              "green": 11,
+              "gray": 7
             },
             "bestParse": {
               "parse": 99,
@@ -563,36 +563,6 @@
                   "parse": 80,
                   "spec": "BeastMastery",
                   "dps": 122616
-                }
-              ]
-            },
-            {
-              "name": "Zobreezy",
-              "class": "Hunter",
-              "realm": "moon-guard",
-              "avgParse": 90,
-              "bossCount": 3,
-              "bosses": [
-                {
-                  "name": "Entombed Sentinels",
-                  "encounterID": 3445,
-                  "parse": 97,
-                  "spec": "BeastMastery",
-                  "dps": 155129
-                },
-                {
-                  "name": "The Lost Explorers",
-                  "encounterID": 3497,
-                  "parse": 84,
-                  "spec": "BeastMastery",
-                  "dps": 204905
-                },
-                {
-                  "name": "Sszorak",
-                  "encounterID": 3420,
-                  "parse": 89,
-                  "spec": "BeastMastery",
-                  "dps": 157968
                 }
               ]
             },
@@ -1169,6 +1139,78 @@
                   "parse": 83,
                   "spec": "Elemental",
                   "dps": 137864
+                }
+              ]
+            },
+            {
+              "name": "Mangobrew",
+              "class": "Monk",
+              "realm": "moon-guard",
+              "avgParse": 80,
+              "bossCount": 9,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 97,
+                  "spec": "Windwalker",
+                  "dps": 138907
+                },
+                {
+                  "name": "Entombed Sentinels",
+                  "encounterID": 3445,
+                  "parse": 97,
+                  "spec": "Windwalker",
+                  "dps": 135770
+                },
+                {
+                  "name": "Vashnik the Malignant",
+                  "encounterID": 3455,
+                  "parse": 97,
+                  "spec": "Windwalker",
+                  "dps": 162975
+                },
+                {
+                  "name": "The Lost Explorers",
+                  "encounterID": 3497,
+                  "parse": 97,
+                  "spec": "Windwalker",
+                  "dps": 242029
+                },
+                {
+                  "name": "Sszorak",
+                  "encounterID": 3420,
+                  "parse": 97,
+                  "spec": "Windwalker",
+                  "dps": 144778
+                },
+                {
+                  "name": "The Twin Fangs",
+                  "encounterID": 3421,
+                  "parse": 96,
+                  "spec": "Windwalker",
+                  "dps": 192571
+                },
+                {
+                  "name": "The Coiled Altar",
+                  "encounterID": 3429,
+                  "parse": 8,
+                  "spec": "Windwalker",
+                  "dps": 64744
+                },
+                {
+                  "name": "Ula'tek",
+                  "encounterID": 3492,
+                  "parse": 71,
+                  "spec": "Windwalker",
+                  "dps": 127017
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 58,
+                  "spec": "Windwalker",
+                  "dps": 94990
                 }
               ]
             },
@@ -1779,6 +1821,57 @@
               ]
             },
             {
+              "name": "Faiwydwagon",
+              "class": "Evoker",
+              "realm": "stormrage",
+              "avgParse": 55,
+              "bossCount": 6,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 41,
+                  "spec": "Preservation",
+                  "dps": 80813
+                },
+                {
+                  "name": "Entombed Sentinels",
+                  "encounterID": 3445,
+                  "parse": 39,
+                  "spec": "Preservation",
+                  "dps": 124466
+                },
+                {
+                  "name": "Vashnik the Malignant",
+                  "encounterID": 3455,
+                  "parse": 79,
+                  "spec": "Preservation",
+                  "dps": 124163
+                },
+                {
+                  "name": "The Lost Explorers",
+                  "encounterID": 3497,
+                  "parse": 4,
+                  "spec": "Preservation",
+                  "dps": 54370
+                },
+                {
+                  "name": "Sszorak",
+                  "encounterID": 3420,
+                  "parse": 88,
+                  "spec": "Preservation",
+                  "dps": 209344
+                },
+                {
+                  "name": "The Twin Fangs",
+                  "encounterID": 3421,
+                  "parse": 78,
+                  "spec": "Preservation",
+                  "dps": 195312
+                }
+              ]
+            },
+            {
               "name": "Gogi",
               "class": "Warlock",
               "realm": "tichondrius",
@@ -1849,22 +1942,6 @@
                   "dps": 106002
                 }
               ]
-            },
-            {
-              "name": "Caratea",
-              "class": "Monk",
-              "realm": "illidan",
-              "avgParse": 42,
-              "bossCount": 1,
-              "bosses": [
-                {
-                  "name": "Nymrissa Wavecaller",
-                  "encounterID": 3379,
-                  "parse": 42,
-                  "spec": "Mistweaver",
-                  "dps": 75643
-                }
-              ]
             }
           ]
         },
@@ -1876,11 +1953,11 @@
             "raidersLogged": 28,
             "parseBreakdown": {
               "pink": 10,
-              "orange": 51,
-              "purple": 116,
-              "blue": 45,
-              "green": 15,
-              "gray": 8
+              "orange": 52,
+              "purple": 117,
+              "blue": 41,
+              "green": 19,
+              "gray": 9
             },
             "bestParse": {
               "parse": 99,
@@ -2538,6 +2615,78 @@
               ]
             },
             {
+              "name": "Blinkforlife",
+              "class": "Mage",
+              "realm": "sargeras",
+              "avgParse": 87,
+              "bossCount": 9,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 99,
+                  "spec": "Arcane",
+                  "dps": 222054
+                },
+                {
+                  "name": "Entombed Sentinels",
+                  "encounterID": 3445,
+                  "parse": 94,
+                  "spec": "Arcane",
+                  "dps": 177731
+                },
+                {
+                  "name": "Vashnik the Malignant",
+                  "encounterID": 3455,
+                  "parse": 83,
+                  "spec": "Arcane",
+                  "dps": 238704
+                },
+                {
+                  "name": "The Lost Explorers",
+                  "encounterID": 3497,
+                  "parse": 95,
+                  "spec": "Arcane",
+                  "dps": 237078
+                },
+                {
+                  "name": "Sszorak",
+                  "encounterID": 3420,
+                  "parse": 93,
+                  "spec": "Arcane",
+                  "dps": 183324
+                },
+                {
+                  "name": "The Twin Fangs",
+                  "encounterID": 3421,
+                  "parse": 90,
+                  "spec": "Arcane",
+                  "dps": 246954
+                },
+                {
+                  "name": "The Coiled Altar",
+                  "encounterID": 3429,
+                  "parse": 73,
+                  "spec": "Arcane",
+                  "dps": 210937
+                },
+                {
+                  "name": "Ula'tek",
+                  "encounterID": 3492,
+                  "parse": 63,
+                  "spec": "Arcane",
+                  "dps": 226405
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 97,
+                  "spec": "Arcane",
+                  "dps": 222725
+                }
+              ]
+            },
+            {
               "name": "Thinboi",
               "class": "Hunter",
               "realm": "sargeras",
@@ -2826,78 +2975,6 @@
               ]
             },
             {
-              "name": "Blinkforlife",
-              "class": "Mage",
-              "realm": "sargeras",
-              "avgParse": 84,
-              "bossCount": 9,
-              "bosses": [
-                {
-                  "name": "Nek'zali the Soulcoiler",
-                  "encounterID": 3470,
-                  "parse": 99,
-                  "spec": "Arcane",
-                  "dps": 222054
-                },
-                {
-                  "name": "Entombed Sentinels",
-                  "encounterID": 3445,
-                  "parse": 94,
-                  "spec": "Arcane",
-                  "dps": 177731
-                },
-                {
-                  "name": "Vashnik the Malignant",
-                  "encounterID": 3455,
-                  "parse": 83,
-                  "spec": "Arcane",
-                  "dps": 238704
-                },
-                {
-                  "name": "The Lost Explorers",
-                  "encounterID": 3497,
-                  "parse": 95,
-                  "spec": "Arcane",
-                  "dps": 237078
-                },
-                {
-                  "name": "Sszorak",
-                  "encounterID": 3420,
-                  "parse": 93,
-                  "spec": "Arcane",
-                  "dps": 183324
-                },
-                {
-                  "name": "The Twin Fangs",
-                  "encounterID": 3421,
-                  "parse": 62,
-                  "spec": "Arcane",
-                  "dps": 210183
-                },
-                {
-                  "name": "The Coiled Altar",
-                  "encounterID": 3429,
-                  "parse": 73,
-                  "spec": "Arcane",
-                  "dps": 210937
-                },
-                {
-                  "name": "Ula'tek",
-                  "encounterID": 3492,
-                  "parse": 63,
-                  "spec": "Arcane",
-                  "dps": 226405
-                },
-                {
-                  "name": "Nymrissa Wavecaller",
-                  "encounterID": 3379,
-                  "parse": 97,
-                  "spec": "Arcane",
-                  "dps": 222725
-                }
-              ]
-            },
-            {
               "name": "Magespheere",
               "class": "Mage",
               "realm": "stormrage",
@@ -3114,6 +3191,78 @@
               ]
             },
             {
+              "name": "Mangobrew",
+              "class": "Monk",
+              "realm": "moon-guard",
+              "avgParse": 79,
+              "bossCount": 9,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 91,
+                  "spec": "Windwalker",
+                  "dps": 163619
+                },
+                {
+                  "name": "Entombed Sentinels",
+                  "encounterID": 3445,
+                  "parse": 96,
+                  "spec": "Windwalker",
+                  "dps": 154251
+                },
+                {
+                  "name": "Vashnik the Malignant",
+                  "encounterID": 3455,
+                  "parse": 78,
+                  "spec": "Windwalker",
+                  "dps": 180776
+                },
+                {
+                  "name": "The Lost Explorers",
+                  "encounterID": 3497,
+                  "parse": 86,
+                  "spec": "Windwalker",
+                  "dps": 173677
+                },
+                {
+                  "name": "Sszorak",
+                  "encounterID": 3420,
+                  "parse": 90,
+                  "spec": "Windwalker",
+                  "dps": 159699
+                },
+                {
+                  "name": "The Twin Fangs",
+                  "encounterID": 3421,
+                  "parse": 71,
+                  "spec": "Windwalker",
+                  "dps": 193220
+                },
+                {
+                  "name": "The Coiled Altar",
+                  "encounterID": 3429,
+                  "parse": 63,
+                  "spec": "Windwalker",
+                  "dps": 169882
+                },
+                {
+                  "name": "Ula'tek",
+                  "encounterID": 3492,
+                  "parse": 44,
+                  "spec": "Windwalker",
+                  "dps": 187368
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 89,
+                  "spec": "Windwalker",
+                  "dps": 160717
+                }
+              ]
+            },
+            {
               "name": "Gazfrosty",
               "class": "Mage",
               "realm": "sargeras",
@@ -3254,64 +3403,6 @@
                   "parse": 14,
                   "spec": "Guardian",
                   "dps": 41049
-                }
-              ]
-            },
-            {
-              "name": "Caratea",
-              "class": "Monk",
-              "realm": "illidan",
-              "avgParse": 70,
-              "bossCount": 7,
-              "bosses": [
-                {
-                  "name": "Nek'zali the Soulcoiler",
-                  "encounterID": 3470,
-                  "parse": 55,
-                  "spec": "Mistweaver",
-                  "dps": 168586
-                },
-                {
-                  "name": "Entombed Sentinels",
-                  "encounterID": 3445,
-                  "parse": 68,
-                  "spec": "Mistweaver",
-                  "dps": 202415
-                },
-                {
-                  "name": "Vashnik the Malignant",
-                  "encounterID": 3455,
-                  "parse": 86,
-                  "spec": "Mistweaver",
-                  "dps": 231826
-                },
-                {
-                  "name": "The Lost Explorers",
-                  "encounterID": 3497,
-                  "parse": 83,
-                  "spec": "Mistweaver",
-                  "dps": 218631
-                },
-                {
-                  "name": "The Coiled Altar",
-                  "encounterID": 3429,
-                  "parse": 50,
-                  "spec": "Mistweaver",
-                  "dps": 257171
-                },
-                {
-                  "name": "Ula'tek",
-                  "encounterID": 3492,
-                  "parse": 69,
-                  "spec": "Mistweaver",
-                  "dps": 292713
-                },
-                {
-                  "name": "Nymrissa Wavecaller",
-                  "encounterID": 3379,
-                  "parse": 78,
-                  "spec": "Mistweaver",
-                  "dps": 167257
                 }
               ]
             },
@@ -3604,71 +3695,6 @@
               ]
             },
             {
-              "name": "Zobreezy",
-              "class": "Hunter",
-              "realm": "moon-guard",
-              "avgParse": 60,
-              "bossCount": 8,
-              "bosses": [
-                {
-                  "name": "Nek'zali the Soulcoiler",
-                  "encounterID": 3470,
-                  "parse": 93,
-                  "spec": "BeastMastery",
-                  "dps": 183515
-                },
-                {
-                  "name": "Entombed Sentinels",
-                  "encounterID": 3445,
-                  "parse": 76,
-                  "spec": "BeastMastery",
-                  "dps": 141489
-                },
-                {
-                  "name": "Vashnik the Malignant",
-                  "encounterID": 3455,
-                  "parse": 65,
-                  "spec": "BeastMastery",
-                  "dps": 173284
-                },
-                {
-                  "name": "The Lost Explorers",
-                  "encounterID": 3497,
-                  "parse": 81,
-                  "spec": "BeastMastery",
-                  "dps": 174977
-                },
-                {
-                  "name": "Sszorak",
-                  "encounterID": 3420,
-                  "parse": 63,
-                  "spec": "BeastMastery",
-                  "dps": 159907
-                },
-                {
-                  "name": "The Twin Fangs",
-                  "encounterID": 3421,
-                  "parse": 37,
-                  "spec": "BeastMastery",
-                  "dps": 163211
-                },
-                {
-                  "name": "The Coiled Altar",
-                  "encounterID": 3429,
-                  "parse": 9,
-                  "spec": "BeastMastery",
-                  "dps": 42787
-                },
-                {
-                  "name": "Ula'tek",
-                  "encounterID": 3492,
-                  "parse": 57,
-                  "spec": "BeastMastery",
-                  "dps": 182134
-                }
-              ]
-            },
-            {
               "name": "Crackle",
               "class": "Evoker",
               "realm": "illidan",
@@ -3855,6 +3881,78 @@
                   "dps": 148960
                 }
               ]
+            },
+            {
+              "name": "Faiwydwagon",
+              "class": "Evoker",
+              "realm": "stormrage",
+              "avgParse": 39,
+              "bossCount": 9,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 56,
+                  "spec": "Preservation",
+                  "dps": 188831
+                },
+                {
+                  "name": "Entombed Sentinels",
+                  "encounterID": 3445,
+                  "parse": 61,
+                  "spec": "Preservation",
+                  "dps": 226082
+                },
+                {
+                  "name": "Vashnik the Malignant",
+                  "encounterID": 3455,
+                  "parse": 81,
+                  "spec": "Preservation",
+                  "dps": 245296
+                },
+                {
+                  "name": "The Lost Explorers",
+                  "encounterID": 3497,
+                  "parse": 33,
+                  "spec": "Preservation",
+                  "dps": 163011
+                },
+                {
+                  "name": "Sszorak",
+                  "encounterID": 3420,
+                  "parse": 35,
+                  "spec": "Preservation",
+                  "dps": 232606
+                },
+                {
+                  "name": "The Twin Fangs",
+                  "encounterID": 3421,
+                  "parse": 9,
+                  "spec": "Preservation",
+                  "dps": 191766
+                },
+                {
+                  "name": "The Coiled Altar",
+                  "encounterID": 3429,
+                  "parse": 31,
+                  "spec": "Preservation",
+                  "dps": 266980
+                },
+                {
+                  "name": "Ula'tek",
+                  "encounterID": 3492,
+                  "parse": 31,
+                  "spec": "Preservation",
+                  "dps": 285844
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
+                  "parse": 13,
+                  "spec": "Preservation",
+                  "dps": 106350
+                }
+              ]
             }
           ]
         },
@@ -3862,15 +3960,15 @@
           "id": 5,
           "name": "Mythic",
           "stats": {
-            "guildAvg": 52,
+            "guildAvg": 51,
             "raidersLogged": 27,
             "parseBreakdown": {
               "pink": 4,
               "orange": 2,
-              "purple": 20,
-              "blue": 32,
-              "green": 19,
-              "gray": 21
+              "purple": 19,
+              "blue": 30,
+              "green": 20,
+              "gray": 22
             },
             "bestParse": {
               "parse": 99,
@@ -4132,43 +4230,6 @@
               ]
             },
             {
-              "name": "Caratea",
-              "class": "Monk",
-              "realm": "illidan",
-              "avgParse": 64,
-              "bossCount": 4,
-              "bosses": [
-                {
-                  "name": "Nek'zali the Soulcoiler",
-                  "encounterID": 3470,
-                  "parse": 62,
-                  "spec": "Mistweaver",
-                  "dps": 254396
-                },
-                {
-                  "name": "Entombed Sentinels",
-                  "encounterID": 3445,
-                  "parse": 66,
-                  "spec": "Mistweaver",
-                  "dps": 302940
-                },
-                {
-                  "name": "Vashnik the Malignant",
-                  "encounterID": 3455,
-                  "parse": 84,
-                  "spec": "Mistweaver",
-                  "dps": 286480
-                },
-                {
-                  "name": "The Lost Explorers",
-                  "encounterID": 3497,
-                  "parse": 44,
-                  "spec": "Mistweaver",
-                  "dps": 289265
-                }
-              ]
-            },
-            {
               "name": "Gazfrosty",
               "class": "Mage",
               "realm": "sargeras",
@@ -4245,7 +4306,7 @@
                   "encounterID": 3379,
                   "parse": 86,
                   "spec": "Demonology",
-                  "dps": 229482
+                  "dps": 229487
                 }
               ]
             },
@@ -4569,32 +4630,32 @@
               ]
             },
             {
-              "name": "Zobreezy",
-              "class": "Hunter",
-              "realm": "moon-guard",
-              "avgParse": 40,
+              "name": "Faiwydwagon",
+              "class": "Evoker",
+              "realm": "stormrage",
+              "avgParse": 39,
               "bossCount": 3,
               "bosses": [
                 {
                   "name": "Nek'zali the Soulcoiler",
                   "encounterID": 3470,
-                  "parse": 64,
-                  "spec": "BeastMastery",
-                  "dps": 169625
-                },
-                {
-                  "name": "Entombed Sentinels",
-                  "encounterID": 3445,
-                  "parse": 51,
-                  "spec": "BeastMastery",
-                  "dps": 169447
+                  "parse": 60,
+                  "spec": "Preservation",
+                  "dps": 291867
                 },
                 {
                   "name": "The Lost Explorers",
                   "encounterID": 3497,
+                  "parse": 52,
+                  "spec": "Preservation",
+                  "dps": 328595
+                },
+                {
+                  "name": "Nymrissa Wavecaller",
+                  "encounterID": 3379,
                   "parse": 4,
-                  "spec": "BeastMastery",
-                  "dps": 146795
+                  "spec": "Preservation",
+                  "dps": 204049
                 }
               ]
             },
@@ -4632,6 +4693,36 @@
                   "parse": 20,
                   "spec": "Augmentation",
                   "dps": 181475
+                }
+              ]
+            },
+            {
+              "name": "Mangobrew",
+              "class": "Monk",
+              "realm": "moon-guard",
+              "avgParse": 38,
+              "bossCount": 3,
+              "bosses": [
+                {
+                  "name": "Nek'zali the Soulcoiler",
+                  "encounterID": 3470,
+                  "parse": 22,
+                  "spec": "Windwalker",
+                  "dps": 130458
+                },
+                {
+                  "name": "Entombed Sentinels",
+                  "encounterID": 3445,
+                  "parse": 44,
+                  "spec": "Windwalker",
+                  "dps": 163994
+                },
+                {
+                  "name": "The Lost Explorers",
+                  "encounterID": 3497,
+                  "parse": 48,
+                  "spec": "Windwalker",
+                  "dps": 197650
                 }
               ]
             },
@@ -4822,11 +4913,11 @@
         "raidersLogged": 27,
         "parseBreakdown": {
           "pink": 15,
-          "orange": 55,
-          "purple": 96,
-          "blue": 41,
-          "green": 10,
-          "gray": 5
+          "orange": 60,
+          "purple": 97,
+          "blue": 43,
+          "green": 11,
+          "gray": 7
         },
         "bestParse": {
           "parse": 99,
@@ -5329,36 +5420,6 @@
               "parse": 80,
               "spec": "BeastMastery",
               "dps": 122616
-            }
-          ]
-        },
-        {
-          "name": "Zobreezy",
-          "class": "Hunter",
-          "realm": "moon-guard",
-          "avgParse": 90,
-          "bossCount": 3,
-          "bosses": [
-            {
-              "name": "Entombed Sentinels",
-              "encounterID": 3445,
-              "parse": 97,
-              "spec": "BeastMastery",
-              "dps": 155129
-            },
-            {
-              "name": "The Lost Explorers",
-              "encounterID": 3497,
-              "parse": 84,
-              "spec": "BeastMastery",
-              "dps": 204905
-            },
-            {
-              "name": "Sszorak",
-              "encounterID": 3420,
-              "parse": 89,
-              "spec": "BeastMastery",
-              "dps": 157968
             }
           ]
         },
@@ -5935,6 +5996,78 @@
               "parse": 83,
               "spec": "Elemental",
               "dps": 137864
+            }
+          ]
+        },
+        {
+          "name": "Mangobrew",
+          "class": "Monk",
+          "realm": "moon-guard",
+          "avgParse": 80,
+          "bossCount": 9,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 97,
+              "spec": "Windwalker",
+              "dps": 138907
+            },
+            {
+              "name": "Entombed Sentinels",
+              "encounterID": 3445,
+              "parse": 97,
+              "spec": "Windwalker",
+              "dps": 135770
+            },
+            {
+              "name": "Vashnik the Malignant",
+              "encounterID": 3455,
+              "parse": 97,
+              "spec": "Windwalker",
+              "dps": 162975
+            },
+            {
+              "name": "The Lost Explorers",
+              "encounterID": 3497,
+              "parse": 97,
+              "spec": "Windwalker",
+              "dps": 242029
+            },
+            {
+              "name": "Sszorak",
+              "encounterID": 3420,
+              "parse": 97,
+              "spec": "Windwalker",
+              "dps": 144778
+            },
+            {
+              "name": "The Twin Fangs",
+              "encounterID": 3421,
+              "parse": 96,
+              "spec": "Windwalker",
+              "dps": 192571
+            },
+            {
+              "name": "The Coiled Altar",
+              "encounterID": 3429,
+              "parse": 8,
+              "spec": "Windwalker",
+              "dps": 64744
+            },
+            {
+              "name": "Ula'tek",
+              "encounterID": 3492,
+              "parse": 71,
+              "spec": "Windwalker",
+              "dps": 127017
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 58,
+              "spec": "Windwalker",
+              "dps": 94990
             }
           ]
         },
@@ -6545,6 +6678,57 @@
           ]
         },
         {
+          "name": "Faiwydwagon",
+          "class": "Evoker",
+          "realm": "stormrage",
+          "avgParse": 55,
+          "bossCount": 6,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 41,
+              "spec": "Preservation",
+              "dps": 80813
+            },
+            {
+              "name": "Entombed Sentinels",
+              "encounterID": 3445,
+              "parse": 39,
+              "spec": "Preservation",
+              "dps": 124466
+            },
+            {
+              "name": "Vashnik the Malignant",
+              "encounterID": 3455,
+              "parse": 79,
+              "spec": "Preservation",
+              "dps": 124163
+            },
+            {
+              "name": "The Lost Explorers",
+              "encounterID": 3497,
+              "parse": 4,
+              "spec": "Preservation",
+              "dps": 54370
+            },
+            {
+              "name": "Sszorak",
+              "encounterID": 3420,
+              "parse": 88,
+              "spec": "Preservation",
+              "dps": 209344
+            },
+            {
+              "name": "The Twin Fangs",
+              "encounterID": 3421,
+              "parse": 78,
+              "spec": "Preservation",
+              "dps": 195312
+            }
+          ]
+        },
+        {
           "name": "Gogi",
           "class": "Warlock",
           "realm": "tichondrius",
@@ -6615,22 +6799,6 @@
               "dps": 106002
             }
           ]
-        },
-        {
-          "name": "Caratea",
-          "class": "Monk",
-          "realm": "illidan",
-          "avgParse": 42,
-          "bossCount": 1,
-          "bosses": [
-            {
-              "name": "Nymrissa Wavecaller",
-              "encounterID": 3379,
-              "parse": 42,
-              "spec": "Mistweaver",
-              "dps": 75643
-            }
-          ]
         }
       ]
     },
@@ -6642,11 +6810,11 @@
         "raidersLogged": 28,
         "parseBreakdown": {
           "pink": 10,
-          "orange": 51,
-          "purple": 116,
-          "blue": 45,
-          "green": 15,
-          "gray": 8
+          "orange": 52,
+          "purple": 117,
+          "blue": 41,
+          "green": 19,
+          "gray": 9
         },
         "bestParse": {
           "parse": 99,
@@ -7304,6 +7472,78 @@
           ]
         },
         {
+          "name": "Blinkforlife",
+          "class": "Mage",
+          "realm": "sargeras",
+          "avgParse": 87,
+          "bossCount": 9,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 99,
+              "spec": "Arcane",
+              "dps": 222054
+            },
+            {
+              "name": "Entombed Sentinels",
+              "encounterID": 3445,
+              "parse": 94,
+              "spec": "Arcane",
+              "dps": 177731
+            },
+            {
+              "name": "Vashnik the Malignant",
+              "encounterID": 3455,
+              "parse": 83,
+              "spec": "Arcane",
+              "dps": 238704
+            },
+            {
+              "name": "The Lost Explorers",
+              "encounterID": 3497,
+              "parse": 95,
+              "spec": "Arcane",
+              "dps": 237078
+            },
+            {
+              "name": "Sszorak",
+              "encounterID": 3420,
+              "parse": 93,
+              "spec": "Arcane",
+              "dps": 183324
+            },
+            {
+              "name": "The Twin Fangs",
+              "encounterID": 3421,
+              "parse": 90,
+              "spec": "Arcane",
+              "dps": 246954
+            },
+            {
+              "name": "The Coiled Altar",
+              "encounterID": 3429,
+              "parse": 73,
+              "spec": "Arcane",
+              "dps": 210937
+            },
+            {
+              "name": "Ula'tek",
+              "encounterID": 3492,
+              "parse": 63,
+              "spec": "Arcane",
+              "dps": 226405
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 97,
+              "spec": "Arcane",
+              "dps": 222725
+            }
+          ]
+        },
+        {
           "name": "Thinboi",
           "class": "Hunter",
           "realm": "sargeras",
@@ -7592,78 +7832,6 @@
           ]
         },
         {
-          "name": "Blinkforlife",
-          "class": "Mage",
-          "realm": "sargeras",
-          "avgParse": 84,
-          "bossCount": 9,
-          "bosses": [
-            {
-              "name": "Nek'zali the Soulcoiler",
-              "encounterID": 3470,
-              "parse": 99,
-              "spec": "Arcane",
-              "dps": 222054
-            },
-            {
-              "name": "Entombed Sentinels",
-              "encounterID": 3445,
-              "parse": 94,
-              "spec": "Arcane",
-              "dps": 177731
-            },
-            {
-              "name": "Vashnik the Malignant",
-              "encounterID": 3455,
-              "parse": 83,
-              "spec": "Arcane",
-              "dps": 238704
-            },
-            {
-              "name": "The Lost Explorers",
-              "encounterID": 3497,
-              "parse": 95,
-              "spec": "Arcane",
-              "dps": 237078
-            },
-            {
-              "name": "Sszorak",
-              "encounterID": 3420,
-              "parse": 93,
-              "spec": "Arcane",
-              "dps": 183324
-            },
-            {
-              "name": "The Twin Fangs",
-              "encounterID": 3421,
-              "parse": 62,
-              "spec": "Arcane",
-              "dps": 210183
-            },
-            {
-              "name": "The Coiled Altar",
-              "encounterID": 3429,
-              "parse": 73,
-              "spec": "Arcane",
-              "dps": 210937
-            },
-            {
-              "name": "Ula'tek",
-              "encounterID": 3492,
-              "parse": 63,
-              "spec": "Arcane",
-              "dps": 226405
-            },
-            {
-              "name": "Nymrissa Wavecaller",
-              "encounterID": 3379,
-              "parse": 97,
-              "spec": "Arcane",
-              "dps": 222725
-            }
-          ]
-        },
-        {
           "name": "Magespheere",
           "class": "Mage",
           "realm": "stormrage",
@@ -7880,6 +8048,78 @@
           ]
         },
         {
+          "name": "Mangobrew",
+          "class": "Monk",
+          "realm": "moon-guard",
+          "avgParse": 79,
+          "bossCount": 9,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 91,
+              "spec": "Windwalker",
+              "dps": 163619
+            },
+            {
+              "name": "Entombed Sentinels",
+              "encounterID": 3445,
+              "parse": 96,
+              "spec": "Windwalker",
+              "dps": 154251
+            },
+            {
+              "name": "Vashnik the Malignant",
+              "encounterID": 3455,
+              "parse": 78,
+              "spec": "Windwalker",
+              "dps": 180776
+            },
+            {
+              "name": "The Lost Explorers",
+              "encounterID": 3497,
+              "parse": 86,
+              "spec": "Windwalker",
+              "dps": 173677
+            },
+            {
+              "name": "Sszorak",
+              "encounterID": 3420,
+              "parse": 90,
+              "spec": "Windwalker",
+              "dps": 159699
+            },
+            {
+              "name": "The Twin Fangs",
+              "encounterID": 3421,
+              "parse": 71,
+              "spec": "Windwalker",
+              "dps": 193220
+            },
+            {
+              "name": "The Coiled Altar",
+              "encounterID": 3429,
+              "parse": 63,
+              "spec": "Windwalker",
+              "dps": 169882
+            },
+            {
+              "name": "Ula'tek",
+              "encounterID": 3492,
+              "parse": 44,
+              "spec": "Windwalker",
+              "dps": 187368
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 89,
+              "spec": "Windwalker",
+              "dps": 160717
+            }
+          ]
+        },
+        {
           "name": "Gazfrosty",
           "class": "Mage",
           "realm": "sargeras",
@@ -8020,64 +8260,6 @@
               "parse": 14,
               "spec": "Guardian",
               "dps": 41049
-            }
-          ]
-        },
-        {
-          "name": "Caratea",
-          "class": "Monk",
-          "realm": "illidan",
-          "avgParse": 70,
-          "bossCount": 7,
-          "bosses": [
-            {
-              "name": "Nek'zali the Soulcoiler",
-              "encounterID": 3470,
-              "parse": 55,
-              "spec": "Mistweaver",
-              "dps": 168586
-            },
-            {
-              "name": "Entombed Sentinels",
-              "encounterID": 3445,
-              "parse": 68,
-              "spec": "Mistweaver",
-              "dps": 202415
-            },
-            {
-              "name": "Vashnik the Malignant",
-              "encounterID": 3455,
-              "parse": 86,
-              "spec": "Mistweaver",
-              "dps": 231826
-            },
-            {
-              "name": "The Lost Explorers",
-              "encounterID": 3497,
-              "parse": 83,
-              "spec": "Mistweaver",
-              "dps": 218631
-            },
-            {
-              "name": "The Coiled Altar",
-              "encounterID": 3429,
-              "parse": 50,
-              "spec": "Mistweaver",
-              "dps": 257171
-            },
-            {
-              "name": "Ula'tek",
-              "encounterID": 3492,
-              "parse": 69,
-              "spec": "Mistweaver",
-              "dps": 292713
-            },
-            {
-              "name": "Nymrissa Wavecaller",
-              "encounterID": 3379,
-              "parse": 78,
-              "spec": "Mistweaver",
-              "dps": 167257
             }
           ]
         },
@@ -8370,71 +8552,6 @@
           ]
         },
         {
-          "name": "Zobreezy",
-          "class": "Hunter",
-          "realm": "moon-guard",
-          "avgParse": 60,
-          "bossCount": 8,
-          "bosses": [
-            {
-              "name": "Nek'zali the Soulcoiler",
-              "encounterID": 3470,
-              "parse": 93,
-              "spec": "BeastMastery",
-              "dps": 183515
-            },
-            {
-              "name": "Entombed Sentinels",
-              "encounterID": 3445,
-              "parse": 76,
-              "spec": "BeastMastery",
-              "dps": 141489
-            },
-            {
-              "name": "Vashnik the Malignant",
-              "encounterID": 3455,
-              "parse": 65,
-              "spec": "BeastMastery",
-              "dps": 173284
-            },
-            {
-              "name": "The Lost Explorers",
-              "encounterID": 3497,
-              "parse": 81,
-              "spec": "BeastMastery",
-              "dps": 174977
-            },
-            {
-              "name": "Sszorak",
-              "encounterID": 3420,
-              "parse": 63,
-              "spec": "BeastMastery",
-              "dps": 159907
-            },
-            {
-              "name": "The Twin Fangs",
-              "encounterID": 3421,
-              "parse": 37,
-              "spec": "BeastMastery",
-              "dps": 163211
-            },
-            {
-              "name": "The Coiled Altar",
-              "encounterID": 3429,
-              "parse": 9,
-              "spec": "BeastMastery",
-              "dps": 42787
-            },
-            {
-              "name": "Ula'tek",
-              "encounterID": 3492,
-              "parse": 57,
-              "spec": "BeastMastery",
-              "dps": 182134
-            }
-          ]
-        },
-        {
           "name": "Crackle",
           "class": "Evoker",
           "realm": "illidan",
@@ -8621,6 +8738,78 @@
               "dps": 148960
             }
           ]
+        },
+        {
+          "name": "Faiwydwagon",
+          "class": "Evoker",
+          "realm": "stormrage",
+          "avgParse": 39,
+          "bossCount": 9,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 56,
+              "spec": "Preservation",
+              "dps": 188831
+            },
+            {
+              "name": "Entombed Sentinels",
+              "encounterID": 3445,
+              "parse": 61,
+              "spec": "Preservation",
+              "dps": 226082
+            },
+            {
+              "name": "Vashnik the Malignant",
+              "encounterID": 3455,
+              "parse": 81,
+              "spec": "Preservation",
+              "dps": 245296
+            },
+            {
+              "name": "The Lost Explorers",
+              "encounterID": 3497,
+              "parse": 33,
+              "spec": "Preservation",
+              "dps": 163011
+            },
+            {
+              "name": "Sszorak",
+              "encounterID": 3420,
+              "parse": 35,
+              "spec": "Preservation",
+              "dps": 232606
+            },
+            {
+              "name": "The Twin Fangs",
+              "encounterID": 3421,
+              "parse": 9,
+              "spec": "Preservation",
+              "dps": 191766
+            },
+            {
+              "name": "The Coiled Altar",
+              "encounterID": 3429,
+              "parse": 31,
+              "spec": "Preservation",
+              "dps": 266980
+            },
+            {
+              "name": "Ula'tek",
+              "encounterID": 3492,
+              "parse": 31,
+              "spec": "Preservation",
+              "dps": 285844
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
+              "parse": 13,
+              "spec": "Preservation",
+              "dps": 106350
+            }
+          ]
         }
       ]
     },
@@ -8628,15 +8817,15 @@
       "id": 5,
       "name": "Mythic",
       "stats": {
-        "guildAvg": 52,
+        "guildAvg": 51,
         "raidersLogged": 27,
         "parseBreakdown": {
           "pink": 4,
           "orange": 2,
-          "purple": 20,
-          "blue": 32,
-          "green": 19,
-          "gray": 21
+          "purple": 19,
+          "blue": 30,
+          "green": 20,
+          "gray": 22
         },
         "bestParse": {
           "parse": 99,
@@ -8898,43 +9087,6 @@
           ]
         },
         {
-          "name": "Caratea",
-          "class": "Monk",
-          "realm": "illidan",
-          "avgParse": 64,
-          "bossCount": 4,
-          "bosses": [
-            {
-              "name": "Nek'zali the Soulcoiler",
-              "encounterID": 3470,
-              "parse": 62,
-              "spec": "Mistweaver",
-              "dps": 254396
-            },
-            {
-              "name": "Entombed Sentinels",
-              "encounterID": 3445,
-              "parse": 66,
-              "spec": "Mistweaver",
-              "dps": 302940
-            },
-            {
-              "name": "Vashnik the Malignant",
-              "encounterID": 3455,
-              "parse": 84,
-              "spec": "Mistweaver",
-              "dps": 286480
-            },
-            {
-              "name": "The Lost Explorers",
-              "encounterID": 3497,
-              "parse": 44,
-              "spec": "Mistweaver",
-              "dps": 289265
-            }
-          ]
-        },
-        {
           "name": "Gazfrosty",
           "class": "Mage",
           "realm": "sargeras",
@@ -9011,7 +9163,7 @@
               "encounterID": 3379,
               "parse": 86,
               "spec": "Demonology",
-              "dps": 229482
+              "dps": 229487
             }
           ]
         },
@@ -9335,32 +9487,32 @@
           ]
         },
         {
-          "name": "Zobreezy",
-          "class": "Hunter",
-          "realm": "moon-guard",
-          "avgParse": 40,
+          "name": "Faiwydwagon",
+          "class": "Evoker",
+          "realm": "stormrage",
+          "avgParse": 39,
           "bossCount": 3,
           "bosses": [
             {
               "name": "Nek'zali the Soulcoiler",
               "encounterID": 3470,
-              "parse": 64,
-              "spec": "BeastMastery",
-              "dps": 169625
-            },
-            {
-              "name": "Entombed Sentinels",
-              "encounterID": 3445,
-              "parse": 51,
-              "spec": "BeastMastery",
-              "dps": 169447
+              "parse": 60,
+              "spec": "Preservation",
+              "dps": 291867
             },
             {
               "name": "The Lost Explorers",
               "encounterID": 3497,
+              "parse": 52,
+              "spec": "Preservation",
+              "dps": 328595
+            },
+            {
+              "name": "Nymrissa Wavecaller",
+              "encounterID": 3379,
               "parse": 4,
-              "spec": "BeastMastery",
-              "dps": 146795
+              "spec": "Preservation",
+              "dps": 204049
             }
           ]
         },
@@ -9398,6 +9550,36 @@
               "parse": 20,
               "spec": "Augmentation",
               "dps": 181475
+            }
+          ]
+        },
+        {
+          "name": "Mangobrew",
+          "class": "Monk",
+          "realm": "moon-guard",
+          "avgParse": 38,
+          "bossCount": 3,
+          "bosses": [
+            {
+              "name": "Nek'zali the Soulcoiler",
+              "encounterID": 3470,
+              "parse": 22,
+              "spec": "Windwalker",
+              "dps": 130458
+            },
+            {
+              "name": "Entombed Sentinels",
+              "encounterID": 3445,
+              "parse": 44,
+              "spec": "Windwalker",
+              "dps": 163994
+            },
+            {
+              "name": "The Lost Explorers",
+              "encounterID": 3497,
+              "parse": 48,
+              "spec": "Windwalker",
+              "dps": 197650
             }
           ]
         },
@@ -9655,16 +9837,8 @@
       "rio": 3298.1
     },
     {
-      "name": "Caratea",
-      "rio": 3101.9
-    },
-    {
-      "name": "Zobreezy",
-      "rio": 2877.4
-    },
-    {
       "name": "Gogi",
-      "rio": 3072.1
+      "rio": 3116.4
     },
     {
       "name": "Disanyy",
@@ -9673,6 +9847,14 @@
     {
       "name": "Blinkforlife",
       "rio": 2977.6
+    },
+    {
+      "name": "Mangobrew",
+      "rio": 2933.4
+    },
+    {
+      "name": "Faiwydwagon",
+      "rio": 3026.8
     },
     {
       "name": "Lionroar",
@@ -9711,11 +9893,11 @@
     "Gazfrosty",
     "Cellte",
     "Tolkie",
-    "Caratea",
-    "Zobreezy",
     "Gogi",
     "Disanyy",
     "Blinkforlife",
+    "Mangobrew",
+    "Faiwydwagon",
     "Lionroar",
     "Anjaleena",
     "Veldak"
