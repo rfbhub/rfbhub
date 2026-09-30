@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-29T02:32:18.942Z",
-  "weekStart": "2026-09-22",
-  "weekEnd": "2026-09-29",
+  "generated": "2026-09-30T01:54:36.616Z",
+  "weekStart": "2026-09-23",
+  "weekEnd": "2026-09-30",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
@@ -18,8 +18,8 @@
         "name": "Gogi",
         "class": "Warlock",
         "previous": 3072,
-        "current": 3186,
-        "gain": 114
+        "current": 3217,
+        "gain": 145
       },
       {
         "name": "Magespheere",
@@ -29,11 +29,18 @@
         "gain": 111
       },
       {
+        "name": "Blinkforlife",
+        "class": "Mage",
+        "previous": 2978,
+        "current": 3068,
+        "gain": 91
+      },
+      {
         "name": "Disanyy",
         "class": "Mage",
         "previous": 3441,
-        "current": 3518,
-        "gain": 77
+        "current": 3530,
+        "gain": 89
       },
       {
         "name": "Drob",
@@ -41,13 +48,6 @@
         "previous": 3546,
         "current": 3609,
         "gain": 63
-      },
-      {
-        "name": "Fauxtraut",
-        "class": "Druid",
-        "previous": 3547,
-        "current": 3607,
-        "gain": 60
       }
     ],
     "parseSpotlight": [
@@ -123,12 +123,20 @@
     ],
     "mplusMilestones": [
       {
-        "name": "Thebigkahuna",
+        "name": "Thinboi",
         "class": "Hunter",
         "milestone": "Keystone Legend",
         "threshold": 3000,
-        "score": 3001,
-        "previousScore": 2965
+        "score": 3004,
+        "previousScore": 2972
+      },
+      {
+        "name": "Blinkforlife",
+        "class": "Mage",
+        "milestone": "Keystone Legend",
+        "threshold": 3000,
+        "score": 3068,
+        "previousScore": 2978
       }
     ],
     "progression": [
@@ -149,6 +157,12 @@
         "class": "Mage",
         "previous": "2/9 M",
         "current": "4/9 M"
+      },
+      {
+        "name": "Blinkforlife",
+        "class": "Mage",
+        "previous": "1/9 M",
+        "current": "3/9 M"
       }
     ],
     "gearMovers": [
@@ -170,8 +184,8 @@
         "name": "Veldak",
         "class": "Shaman",
         "previous": 319,
-        "current": 323.9,
-        "gain": 4.9
+        "current": 323,
+        "gain": 4
       },
       {
         "name": "Gazfrosty",
@@ -181,11 +195,11 @@
         "gain": 3
       },
       {
-        "name": "Hersin",
-        "class": "Warrior",
-        "previous": 323.1,
-        "current": 326,
-        "gain": 2.9
+        "name": "Tolkie",
+        "class": "Shaman",
+        "previous": 323,
+        "current": 325,
+        "gain": 2
       }
     ],
     "highKeyPushers": [
@@ -214,10 +228,10 @@
         "currentKey": 15
       },
       {
-        "name": "Thebigkahuna",
-        "class": "Hunter",
-        "previousKey": 12,
-        "currentKey": 13
+        "name": "Blinkforlife",
+        "class": "Mage",
+        "previousKey": 13,
+        "currentKey": 14
       }
     ],
     "newFaces": [
@@ -225,7 +239,7 @@
         "name": "Nutbb",
         "class": "Warlock",
         "spec": "Demonology",
-        "ilvl": 325.1,
+        "ilvl": 325,
         "rio": 3148,
         "progression": "4/8 H"
       },
@@ -233,45 +247,45 @@
         "name": "Faiwydwagon",
         "class": "Evoker",
         "spec": "Preservation",
-        "ilvl": 324.9,
+        "ilvl": 326,
         "rio": 3090,
         "progression": "2/8 M"
-      },
-      {
-        "name": "Blinkforlife",
-        "class": "Mage",
-        "spec": "Arcane",
-        "ilvl": 324,
-        "rio": 3030,
-        "progression": "3/8 M"
-      },
-      {
-        "name": "Mangobrew",
-        "class": "Monk",
-        "spec": "Windwalker",
-        "ilvl": 325.3,
-        "rio": 3003,
-        "progression": "3/8 M"
       },
       {
         "name": "Xnut",
         "class": "Death Knight",
         "spec": "Blood",
-        "ilvl": 319,
-        "rio": 2861,
+        "ilvl": 322,
+        "rio": 3024,
         "progression": ""
+      },
+      {
+        "name": "Mangobrew",
+        "class": "Monk",
+        "spec": "Windwalker",
+        "ilvl": 325,
+        "rio": 3003,
+        "progression": "3/8 M"
+      },
+      {
+        "name": "Thebigkahuna",
+        "class": "Hunter",
+        "spec": "Beast Mastery",
+        "ilvl": 324,
+        "rio": 3001,
+        "progression": "3/8 M"
       }
     ]
   },
   "summary": {
     "totalRaiders": 27,
     "rosterDelta": -2,
-    "avgRio": 3295,
-    "rioDelta": 39,
+    "avgRio": 3306,
+    "rioDelta": 45,
     "avgIlvl": 323.5,
-    "ilvlDelta": 1.1,
+    "ilvlDelta": 0.4,
     "avgMythicParse": 51,
-    "parseDelta": -1,
+    "parseDelta": 0,
     "mythicRaidersCount": 25,
     "totalMythicKills": 89,
     "highestKey": 20,
@@ -286,6 +300,6 @@
       "blue": 27
     },
     "totalCategories": 9,
-    "totalHighlights": 33
+    "totalHighlights": 35
   }
 }
