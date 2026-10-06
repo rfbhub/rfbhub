@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T17:21:09.259Z",
+  "updated": "2026-10-06T21:47:00.271Z",
   "rosterCount": 26,
   "mplusCount": 10,
   "guild": {
@@ -24,6 +24,13 @@
         "total_bosses": 1,
         "normal_bosses_killed": 1,
         "heroic_bosses_killed": 1,
+        "mythic_bosses_killed": 0
+      },
+      "the-unbinding-of-kithix": {
+        "summary": "0/1 N",
+        "total_bosses": 1,
+        "normal_bosses_killed": 0,
+        "heroic_bosses_killed": 0,
         "mythic_bosses_killed": 0
       },
       "the-venomous-abyss": {
@@ -81,9 +88,26 @@
           "realm": 39
         },
         "mythic": {
-          "world": 3062,
+          "world": 3074,
           "region": 885,
           "realm": 54
+        }
+      },
+      "the-unbinding-of-kithix": {
+        "normal": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "heroic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
+        },
+        "mythic": {
+          "world": 0,
+          "region": 0,
+          "realm": 0
         }
       },
       "the-venomous-abyss": {
@@ -98,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1714,
+          "world": 1727,
           "region": 541,
           "realm": 35
         }
@@ -140,7 +164,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/63/264235583-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-04T12:57:12.000Z",
+      "last_crawled_at": "2026-10-06T19:06:08.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Magespheere",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -1193,6 +1217,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -1241,11 +1273,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 25830,
+      "achievement_points": 25930,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/232/116693992-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-10-05T00:44:18.000Z",
+      "last_crawled_at": "2026-10-06T19:05:54.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Shredomatic",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -2322,6 +2354,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 M",
           "expansion_id": 11,
@@ -2374,25 +2414,25 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/66/239347522-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-04T15:43:18.000Z",
+      "last_crawled_at": "2026-10-06T19:06:02.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Stoneius",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3637.9,
+            "all": 3654.3,
             "dps": 1507.8,
-            "healer": 3637.9,
+            "healer": 3654.3,
             "tank": 0,
-            "spec_0": 3637.9,
+            "spec_0": 3654.3,
             "spec_1": 0,
             "spec_2": 1507.8,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3637.9,
+              "score": 3654.3,
               "color": "#dd5399"
             },
             "dps": {
@@ -2400,7 +2440,7 @@
               "color": "#8dff71"
             },
             "healer": {
-              "score": 3637.9,
+              "score": 3654.3,
               "color": "#dd5399"
             },
             "tank": {
@@ -2408,7 +2448,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3637.9,
+              "score": 3654.3,
               "color": "#dd5399"
             },
             "spec_1": {
@@ -2469,6 +2509,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/15532747-18-murder-row",
+          "spec": {
+            "id": 65,
+            "name": "Holy",
+            "slug": "holy",
+            "class_id": 2,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "healer"
+        },
+        {
+          "dungeon": "Voidscar Arena",
+          "short_name": "VSA",
+          "mythic_level": 18,
+          "completed_at": "2026-10-06T18:18:27.000Z",
+          "clear_time_ms": 1698442,
+          "keystone_run_id": 18788807,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 585,
+          "zone_id": 16425,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+          "score": 457.1,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18788807-18-voidscar-arena",
           "spec": {
             "id": 65,
             "name": "Holy",
@@ -2804,67 +2898,13 @@
             "ordinal": 0
           },
           "role": "healer"
-        },
-        {
-          "dungeon": "Voidscar Arena",
-          "short_name": "VSA",
-          "mythic_level": 17,
-          "completed_at": "2026-09-03T18:53:12.000Z",
-          "clear_time_ms": 1766741,
-          "keystone_run_id": 7649639,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 585,
-          "zone_id": 16425,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-          "score": 440.7,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/7649639-17-voidscar-arena",
-          "spec": {
-            "id": 65,
-            "name": "Holy",
-            "slug": "holy",
-            "class_id": 2,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "healer"
         }
       ],
       "gear": {
-        "created_at": "2026-10-05T11:57:07.000Z",
-        "updated_at": "2026-10-05T11:57:07.000Z",
-        "source": "db",
-        "item_level_equipped": 327.312,
+        "created_at": "2026-10-06T19:06:04.611Z",
+        "updated_at": "2026-10-06T19:06:04.611Z",
+        "source": "s3",
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3481,8 +3521,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              7143
+              8039
             ],
             "enchants_detail": [
               {
@@ -3504,7 +3543,7 @@
           },
           "offhand": {
             "item_id": 268196,
-            "item_level": 321,
+            "item_level": 328,
             "icon": "inv_shield_1h_ulatek_d_01",
             "name": "Venom-Slashed Scuteward",
             "item_quality": 4,
@@ -3524,12 +3563,20 @@
             "bonuses": [
               6652,
               13335,
-              12850
+              12852
             ]
           }
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 M",
           "expansion_id": 11,
@@ -3582,7 +3629,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/226/157861090-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-06T15:05:55.000Z",
+      "last_crawled_at": "2026-10-06T19:05:53.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Schisms",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4744,6 +4791,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 M",
           "expansion_id": 11,
@@ -4796,7 +4851,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/121/224562809-avatar.jpg?alt=/wow/static/images/2d/avatar/70-1.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-10-04T12:57:16.000Z",
+      "last_crawled_at": "2026-10-06T19:06:00.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Crackle",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -5894,6 +5949,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -5946,7 +6009,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/254/257766654-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-04T12:57:15.000Z",
+      "last_crawled_at": "2026-10-06T19:06:05.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Blimpi",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -7052,6 +7115,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -7100,11 +7171,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 37975,
+      "achievement_points": 37985,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/8/255143176-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T17:04:12.000Z",
+      "last_crawled_at": "2026-10-06T19:06:04.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Envenumb",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
@@ -7591,8 +7662,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-01T03:21:29.837Z",
-        "updated_at": "2026-10-01T03:21:29.837Z",
+        "created_at": "2026-10-06T19:06:08.493Z",
+        "updated_at": "2026-10-06T19:06:08.493Z",
         "source": "s3",
         "item_level_equipped": 326,
         "item_level_total": 0,
@@ -7825,7 +7896,7 @@
           },
           "waist": {
             "item_id": 271507,
-            "item_level": 311,
+            "item_level": 321,
             "icon": "inv_belt_leather_raidrogueulatek_d_01",
             "name": "Chosen Bloodslayer's Trophy Belt",
             "item_quality": 4,
@@ -7846,7 +7917,7 @@
               13334,
               41,
               13696,
-              12843
+              12846
             ]
           },
           "shirt": {
@@ -7904,7 +7975,7 @@
           },
           "hands": {
             "item_id": 271511,
-            "item_level": 318,
+            "item_level": 321,
             "icon": "inv_glove_leather_raidrogueulatek_d_01",
             "name": "Chosen Bloodslayer's Fanged Grips",
             "item_quality": 4,
@@ -7927,7 +7998,7 @@
               13691,
               6652,
               13697,
-              12845
+              12846
             ]
           },
           "legs": {
@@ -8214,6 +8285,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -8266,7 +8345,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-10-04T22:27:11.000Z",
+      "last_crawled_at": "2026-10-06T19:06:01.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -8753,10 +8832,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T00:43:06.000Z",
-        "updated_at": "2026-10-06T00:43:06.000Z",
+        "created_at": "2026-10-06T21:43:48.000Z",
+        "updated_at": "2026-10-06T21:43:48.000Z",
         "source": "db",
-        "item_level_equipped": 328.375,
+        "item_level_equipped": 329.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -8769,7 +8848,7 @@
         "items": {
           "head": {
             "item_id": 271465,
-            "item_level": 321,
+            "item_level": 331,
             "enchant": 8017,
             "icon": "inv_helm_plate_raidpaladinulatek_d_01",
             "name": "Warhelm of the Consecrated Flame",
@@ -8777,7 +8856,17 @@
             "is_legendary": false,
             "is_azerite_armor": true,
             "azerite_powers": [
-              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
               {
                 "id": 580,
                 "spell": {
@@ -8833,13 +8922,12 @@
               }
             ],
             "bonuses": [
-              12850,
               6652,
               13335,
               13696,
               13692,
               13698,
-              1574
+              12853
             ]
           },
           "neck": {
@@ -8913,9 +9001,9 @@
               }
             ],
             "bonuses": [
-              13334,
-              13694,
               6652,
+              13440,
+              13694,
               13697,
               12846
             ]
@@ -9269,11 +9357,11 @@
             ]
           },
           "finger2": {
-            "item_id": 252258,
-            "item_level": 321,
+            "item_id": 268249,
+            "item_level": 334,
             "enchant": 7967,
-            "icon": "inv_12_jewelry_devouringhost_ring_bronze2",
-            "name": "Sickening Signet of Atroxus",
+            "icon": "inv_121_jewelry_ring01_purple",
+            "name": "Vile Alchemist's Band",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -9305,11 +9393,10 @@
               }
             ],
             "bonuses": [
-              13440,
-              6652,
+              40,
               13668,
-              12699,
-              12846
+              13335,
+              12854
             ]
           },
           "trinket1": {
@@ -9401,6 +9488,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -9449,11 +9544,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 23095,
+      "achievement_points": 23100,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/210/165347282-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-04T12:57:13.000Z",
+      "last_crawled_at": "2026-10-06T19:05:54.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thinboi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10586,6 +10681,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -10638,7 +10741,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/90/267302234-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T16:56:54.000Z",
+      "last_crawled_at": "2026-10-06T19:06:14.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Vampiral",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11770,6 +11873,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -11822,7 +11933,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/mannoroth/149/265888917-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Mannoroth",
-      "last_crawled_at": "2026-10-04T12:57:12.000Z",
+      "last_crawled_at": "2026-10-06T19:06:10.000Z",
       "profile_url": "https://raider.io/characters/us/mannoroth/Rukenji",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -12984,6 +13095,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -13036,7 +13155,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/232/203548648-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-04T12:57:14.000Z",
+      "last_crawled_at": "2026-10-06T19:05:59.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -14198,6 +14317,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -14250,7 +14377,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/19/250437651-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-04T20:38:48.000Z",
+      "last_crawled_at": "2026-10-06T19:06:04.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Drob",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -15353,6 +15480,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -15405,29 +15540,29 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-10-05T21:53:51.000Z",
+      "last_crawled_at": "2026-10-06T19:06:14.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3899.3,
-            "dps": 3899.3,
+            "all": 3899.4,
+            "dps": 3899.4,
             "healer": 0,
             "tank": 3230.2,
-            "spec_0": 3899.3,
+            "spec_0": 3899.4,
             "spec_1": 3271.5,
             "spec_2": 3230.2,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3899.3,
+              "score": 3899.4,
               "color": "#f16a5f"
             },
             "dps": {
-              "score": 3899.3,
+              "score": 3899.4,
               "color": "#f16a5f"
             },
             "healer": {
@@ -15439,7 +15574,7 @@
               "color": "#9246eb"
             },
             "spec_0": {
-              "score": 3899.3,
+              "score": 3899.4,
               "color": "#f16a5f"
             },
             "spec_1": {
@@ -15840,9 +15975,9 @@
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
           "mythic_level": 20,
-          "completed_at": "2026-09-25T06:28:34.000Z",
-          "clear_time_ms": 1646570,
-          "keystone_run_id": 15435983,
+          "completed_at": "2026-10-06T19:10:56.000Z",
+          "clear_time_ms": 1641646,
+          "keystone_run_id": 18798441,
           "par_time_ms": 1680999,
           "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 399,
@@ -15850,7 +15985,7 @@
           "zone_expansion_id": 9,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
-          "score": 485.7,
+          "score": 485.9,
           "affixes": [
             {
               "id": 9,
@@ -15877,7 +16012,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/15435983-20-ruby-life-pools",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18798441-20-ruby-life-pools",
           "spec": {
             "id": 71,
             "name": "Arms",
@@ -15892,10 +16027,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T08:43:09.000Z",
-        "updated_at": "2026-10-06T08:43:09.000Z",
+        "created_at": "2026-10-06T21:39:44.000Z",
+        "updated_at": "2026-10-06T21:39:44.000Z",
         "source": "db",
-        "item_level_equipped": 327.938,
+        "item_level_equipped": 328.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -16033,7 +16168,7 @@
           },
           "shoulder": {
             "item_id": 271454,
-            "item_level": 321,
+            "item_level": 331,
             "enchant": 8031,
             "icon": "inv_shoulder_plate_raidwarriorulatek_d_01",
             "name": "Raging Pauldrons of the Jade Warlord",
@@ -16061,11 +16196,11 @@
               }
             ],
             "bonuses": [
-              12850,
               13335,
               13694,
               6652,
-              13697
+              13697,
+              12853
             ]
           },
           "back": {
@@ -16496,6 +16631,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -16544,11 +16687,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 24575,
+      "achievement_points": 24635,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/137/151523209-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-04T12:57:14.000Z",
+      "last_crawled_at": "2026-10-06T19:05:52.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Deadscythe",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -17035,10 +17178,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-04T14:30:21.000Z",
-        "updated_at": "2026-10-04T14:30:21.000Z",
-        "source": "db",
-        "item_level_equipped": 327.125,
+        "created_at": "2026-10-06T19:05:57.292Z",
+        "updated_at": "2026-10-06T19:05:57.292Z",
+        "source": "s3",
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -17132,7 +17275,7 @@
             "domination_shards": [],
             "gems": [
               240983,
-              240908
+              240910
             ],
             "gems_detail": [
               {
@@ -17141,9 +17284,9 @@
                 "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
               },
               {
-                "id": 240908,
-                "name": "16 Crit & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+                "id": 240910,
+                "name": "16 Crit & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_red"
               }
             ],
             "enchants": [],
@@ -17378,7 +17521,7 @@
               14001,
               8960,
               12384,
-              8791,
+              8795,
               13836,
               13696
             ]
@@ -17499,13 +17642,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240908
+              240910
             ],
             "gems_detail": [
               {
-                "id": 240908,
-                "name": "16 Crit & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+                "id": 240910,
+                "name": "16 Crit & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_red"
               }
             ],
             "enchants": [
@@ -17543,13 +17686,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240908
+              240910
             ],
             "gems_detail": [
               {
-                "id": 240908,
-                "name": "16 Crit & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+                "id": 240910,
+                "name": "16 Crit & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_red"
               }
             ],
             "enchants": [
@@ -17639,8 +17782,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -17675,8 +17817,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -17699,6 +17840,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -17751,7 +17900,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/140/200908428-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-04T12:57:12.000Z",
+      "last_crawled_at": "2026-10-06T19:05:58.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Gazfrosty",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -18835,6 +18984,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -18887,7 +19044,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/199/241658055-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-04T15:33:55.000Z",
+      "last_crawled_at": "2026-10-06T19:06:03.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Tolkie",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -19374,10 +19531,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-04T01:14:03.788Z",
-        "updated_at": "2026-10-04T01:14:03.788Z",
+        "created_at": "2026-10-06T19:06:06.854Z",
+        "updated_at": "2026-10-06T19:06:06.854Z",
         "source": "s3",
-        "item_level_equipped": 327,
+        "item_level_equipped": 326,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -19772,11 +19929,11 @@
             ]
           },
           "finger1": {
-            "item_id": 240949,
-            "item_level": 331,
+            "item_id": 268252,
+            "item_level": 321,
             "enchant": 7967,
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "name": "Masterwork Sin'dorei Band",
+            "icon": "inv_121_jewelry_ring03_red",
+            "name": "Apex Brute's Claw Ring",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -19788,13 +19945,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240894
+              240910
             ],
             "gems_detail": [
               {
-                "id": 240894,
-                "name": "16 Haste & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_green"
+                "id": 240910,
+                "name": "16 Crit & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_red"
               }
             ],
             "enchants": [
@@ -19808,13 +19965,10 @@
               }
             ],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              14001,
-              8790,
-              13836
+              6652,
+              13668,
+              13334,
+              12850
             ]
           },
           "finger2": {
@@ -19979,6 +20133,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -20027,11 +20189,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 9245,
+      "achievement_points": 9475,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/tichondrius/243/243949043-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Tichondrius",
-      "last_crawled_at": "2026-10-05T22:42:50.000Z",
+      "last_crawled_at": "2026-10-06T19:06:03.000Z",
       "profile_url": "https://raider.io/characters/us/tichondrius/Gogi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -20518,10 +20680,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T01:52:57.000Z",
-        "updated_at": "2026-10-06T01:52:57.000Z",
-        "source": "db",
-        "item_level_equipped": 327.938,
+        "created_at": "2026-10-01T22:14:54.003Z",
+        "updated_at": "2026-10-01T22:14:54.003Z",
+        "source": "s3",
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -21077,8 +21239,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -21128,6 +21289,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 M",
           "expansion_id": 11,
@@ -21180,7 +21349,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/145/268390289-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T01:59:04.000Z",
+      "last_crawled_at": "2026-10-06T19:06:15.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Disanyy",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -22251,6 +22420,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -22295,7 +22472,7 @@
       "name": "Blinkforlife",
       "race": "Void Elf",
       "class": "Mage",
-      "active_spec_name": "Frost",
+      "active_spec_name": "Arcane",
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
@@ -22303,30 +22480,30 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/187/187477179-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-06T08:40:03.000Z",
+      "last_crawled_at": "2026-10-06T21:31:01.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Blinkforlife",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3235.9,
-            "dps": 3235.9,
+            "all": 3248.3,
+            "dps": 3248.3,
             "healer": 0,
             "tank": 0,
-            "spec_0": 3194.2,
+            "spec_0": 3206.5,
             "spec_1": 0,
             "spec_2": 2397.8,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3235.9,
-              "color": "#9246eb"
+              "score": 3248.3,
+              "color": "#9b3eec"
             },
             "dps": {
-              "score": 3235.9,
-              "color": "#9246eb"
+              "score": 3248.3,
+              "color": "#9b3eec"
             },
             "healer": {
               "score": 0,
@@ -22337,7 +22514,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3194.2,
+              "score": 3206.5,
               "color": "#8a4de9"
             },
             "spec_1": {
@@ -22356,6 +22533,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Den of Nalorakk",
+          "short_name": "DON",
+          "mythic_level": 15,
+          "completed_at": "2026-10-06T18:47:55.000Z",
+          "clear_time_ms": 1550381,
+          "keystone_run_id": 18821079,
+          "par_time_ms": 1920999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 586,
+          "zone_id": 16368,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
+          "score": 417.2,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18821079-15-den-of-nalorakk",
+          "spec": {
+            "id": 62,
+            "name": "Arcane",
+            "slug": "arcane",
+            "class_id": 8,
+            "role": "dps",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "The Blinding Vale",
           "short_name": "BV",
@@ -22573,60 +22804,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Den of Nalorakk",
-          "short_name": "DON",
-          "mythic_level": 14,
-          "completed_at": "2026-10-01T19:27:56.000Z",
-          "clear_time_ms": 1414501,
-          "keystone_run_id": 17451275,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 586,
-          "zone_id": 16368,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
-          "score": 404.9,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/17451275-14-den-of-nalorakk",
-          "spec": {
-            "id": 62,
-            "name": "Arcane",
-            "slug": "arcane",
-            "class_id": 8,
-            "role": "dps",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Temple of Sethraliss",
           "short_name": "TOS",
           "mythic_level": 14,
@@ -22790,8 +22967,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-03T23:22:20.575Z",
-        "updated_at": "2026-10-03T23:22:20.575Z",
+        "created_at": "2026-10-06T19:05:59.764Z",
+        "updated_at": "2026-10-06T19:05:59.764Z",
         "source": "s3",
         "item_level_equipped": 327,
         "item_level_total": 0,
@@ -22922,8 +23099,8 @@
           },
           "shoulder": {
             "item_id": 271562,
-            "item_level": 321,
-            "enchant": 7999,
+            "item_level": 328,
+            "enchant": 8001,
             "icon": "inv_shoulder_cloth_raidmageulatek_d_01",
             "name": "Primal Leywarden's Manaflux",
             "item_quality": 4,
@@ -22940,21 +23117,21 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7999
+              8001
             ],
             "enchants_detail": [
               {
-                "id": 243989,
-                "name": "Enchant Shoulders - Nature's Grace",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
+                "id": 243991,
+                "name": "Enchant Shoulders - Amirdrassil's Grace",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              6652,
-              13440,
               13694,
+              13440,
+              6652,
               13697,
-              12846
+              12852
             ]
           },
           "back": {
@@ -23203,11 +23380,11 @@
             ]
           },
           "finger1": {
-            "item_id": 251136,
+            "item_id": 159459,
             "item_level": 321,
             "enchant": 7967,
-            "icon": "inv_12_jewelry_voidelf_ring_teal",
-            "name": "Signet of Snarling Servitude",
+            "icon": "inv_ring_80_03e",
+            "name": "Ritual Binder's Ring",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -23219,13 +23396,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240908
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240908,
-                "name": "16 Crit & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [
@@ -23240,18 +23417,18 @@
             ],
             "bonuses": [
               13440,
-              6652,
+              41,
               13668,
               12699,
               12846
             ]
           },
           "finger2": {
-            "item_id": 158366,
+            "item_id": 272148,
             "item_level": 321,
             "enchant": 7967,
-            "icon": "inv_ring_80_03d",
-            "name": "Charged Sandstone Band",
+            "icon": "inv_121_jewelry_ring03_purple",
+            "name": "Anguine Gyre",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -23263,13 +23440,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240908
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240908,
-                "name": "16 Crit & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [
@@ -23283,10 +23460,8 @@
               }
             ],
             "bonuses": [
-              13440,
               6652,
               13668,
-              12699,
               12846
             ]
           },
@@ -23410,6 +23585,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -23462,7 +23645,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moon-guard/108/184824428-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Moon Guard",
-      "last_crawled_at": "2026-10-04T15:30:18.000Z",
+      "last_crawled_at": "2026-10-06T19:05:54.000Z",
       "profile_url": "https://raider.io/characters/us/moon-guard/Mangobrew",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -23949,8 +24132,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-04T15:30:20.799Z",
-        "updated_at": "2026-10-04T15:30:20.799Z",
+        "created_at": "2026-10-06T19:05:56.871Z",
+        "updated_at": "2026-10-06T19:05:56.871Z",
         "source": "s3",
         "item_level_equipped": 326,
         "item_level_total": 0,
@@ -24433,10 +24616,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 193748,
+            "item_id": 250248,
             "item_level": 321,
-            "icon": "inv_10_dungeonjewelry_primalist_trinket_4_fire",
-            "name": "Kyrakka's Searing Embers",
+            "icon": "inv_misc_starspecklemushroom",
+            "name": "Mycolic Medicine",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -24546,6 +24729,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -24598,26 +24789,26 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/88/256839256-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T16:42:00.000Z",
+      "last_crawled_at": "2026-10-06T19:06:05.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Xnut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3211.4,
+            "all": 3231.1,
             "dps": 0,
             "healer": 0,
-            "tank": 3211.4,
-            "spec_0": 3211.4,
+            "tank": 3231.1,
+            "spec_0": 3231.1,
             "spec_1": 0,
             "spec_2": 0,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3211.4,
-              "color": "#8a4de9"
+              "score": 3231.1,
+              "color": "#9246eb"
             },
             "dps": {
               "score": 0,
@@ -24628,12 +24819,12 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 3211.4,
-              "color": "#8a4de9"
+              "score": 3231.1,
+              "color": "#9246eb"
             },
             "spec_0": {
-              "score": 3211.4,
-              "color": "#8a4de9"
+              "score": 3231.1,
+              "color": "#9246eb"
             },
             "spec_1": {
               "score": 0,
@@ -25032,27 +25223,19 @@
         {
           "dungeon": "Kings' Rest",
           "short_name": "KR",
-          "mythic_level": 12,
-          "completed_at": "2026-09-29T23:28:41.000Z",
-          "clear_time_ms": 1252606,
-          "keystone_run_id": 16938800,
+          "mythic_level": 14,
+          "completed_at": "2026-10-06T20:29:34.000Z",
+          "clear_time_ms": 1795452,
+          "keystone_run_id": 18812498,
           "par_time_ms": 1980999,
-          "num_keystone_upgrades": 2,
+          "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 249,
           "zone_id": 9526,
           "zone_expansion_id": 7,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-          "score": 378.8,
+          "score": 398.5,
           "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
             {
               "id": 9,
               "name": "Tyrannical",
@@ -25060,6 +25243,14 @@
               "icon": "achievement_boss_archaedas",
               "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
               "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
             },
             {
               "id": 147,
@@ -25070,7 +25261,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/16938800-12-kings-rest",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18812498-14-kings-rest",
           "spec": {
             "id": 250,
             "name": "Blood",
@@ -25085,10 +25276,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T16:41:46.000Z",
-        "updated_at": "2026-10-06T16:41:46.000Z",
+        "created_at": "2026-10-06T21:39:12.000Z",
+        "updated_at": "2026-10-06T21:39:12.000Z",
         "source": "db",
-        "item_level_equipped": 327.812,
+        "item_level_equipped": 328.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -25185,7 +25376,7 @@
           },
           "neck": {
             "item_id": 251142,
-            "item_level": 328,
+            "item_level": 334,
             "icon": "inv_12_jewelry_silvermoonelf_necklace_green",
             "name": "Pendant of Malefic Fury",
             "item_quality": 4,
@@ -25213,7 +25404,7 @@
             "bonuses": [
               6652,
               13668,
-              12852
+              12854
             ]
           },
           "shoulder": {
@@ -25652,6 +25843,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -25696,15 +25895,15 @@
       "name": "Lionroar",
       "race": "Night Elf",
       "class": "Druid",
-      "active_spec_name": "Restoration",
-      "active_spec_role": "HEALING",
+      "active_spec_name": "Balance",
+      "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
       "achievement_points": 49815,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-10-06T00:45:16.000Z",
+      "last_crawled_at": "2026-10-06T19:05:55.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -26191,10 +26390,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T00:45:17.456Z",
-        "updated_at": "2026-10-06T00:45:17.456Z",
+        "created_at": "2026-10-06T19:05:59.563Z",
+        "updated_at": "2026-10-06T19:05:59.563Z",
         "source": "s3",
-        "item_level_equipped": 327,
+        "item_level_equipped": 326,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -26734,10 +26933,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 270162,
-            "item_level": 334,
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "name": "Soulcoiler Ritual Vessel",
+            "item_id": 273796,
+            "item_level": 321,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile",
+            "name": "Vile Vial of Volatile Venom",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -26753,10 +26952,10 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              13696,
-              12854
+              13440,
+              41,
+              12699,
+              12846
             ]
           },
           "mainhand": {
@@ -26821,6 +27020,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -26873,7 +27080,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/8/246223368-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-04T12:57:14.000Z",
+      "last_crawled_at": "2026-10-06T19:06:03.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Anjaleena",
       "profile_banner": "hordebanner2",
       "mythic_plus_scores_by_season": [
@@ -27963,6 +28170,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -28015,7 +28230,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/35/264810531-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-04T12:57:15.000Z",
+      "last_crawled_at": "2026-10-06T19:06:09.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Veldak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -29160,6 +29375,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -29204,7 +29427,7 @@
       "name": "Solacker",
       "race": "Void Elf",
       "class": "Death Knight",
-      "active_spec_name": "Unholy",
+      "active_spec_name": "Frost",
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
@@ -29212,7 +29435,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/77/268162637-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-04T12:57:13.000Z",
+      "last_crawled_at": "2026-10-06T19:06:14.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Solacker",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -29699,10 +29922,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-02T12:06:19.114Z",
-        "updated_at": "2026-10-02T12:06:19.114Z",
+        "created_at": "2026-10-06T19:06:17.370Z",
+        "updated_at": "2026-10-06T19:06:17.370Z",
         "source": "s3",
-        "item_level_equipped": 328,
+        "item_level_equipped": 329,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -29715,7 +29938,7 @@
         "items": {
           "head": {
             "item_id": 271474,
-            "item_level": 321,
+            "item_level": 334,
             "enchant": 7991,
             "icon": "inv_helm_plate_raiddeathknightulatek_d_01",
             "name": "Baleful Grave-Knight's Casque",
@@ -29723,17 +29946,7 @@
             "is_legendary": false,
             "is_azerite_armor": true,
             "azerite_powers": [
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
+              null,
               {
                 "id": 580,
                 "spell": {
@@ -29789,12 +30002,13 @@
               }
             ],
             "bonuses": [
-              13334,
-              13692,
               6652,
+              13335,
+              12854,
               13696,
+              13692,
               13698,
-              12846
+              1587
             ]
           },
           "neck": {
@@ -30300,11 +30514,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268213,
+            "item_id": 268202,
             "item_level": 334,
-            "enchant": 6245,
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "name": "Maze-roa, Warlord's Fury",
+            "enchant": 3847,
+            "icon": "inv_sword_1h_ulatek_d_01",
+            "name": "Jaw of the Shackled Goddess",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -30318,19 +30532,55 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245
+              3847
+            ],
+            "enchants_detail": [],
+            "bonuses": [
+              40,
+              13334,
+              13847,
+              12854
+            ]
+          },
+          "offhand": {
+            "item_id": 268208,
+            "item_level": 334,
+            "enchant": 3368,
+            "icon": "inv_axe_1h_ulatek_d_01",
+            "name": "Strongblood's Ceremonial Cleaver",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              3368
             ],
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13334,
-              12854,
-              13696
+              13335,
+              12854
             ]
           }
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -30375,7 +30625,7 @@
       "name": "Thebigkahuna",
       "race": "Human",
       "class": "Hunter",
-      "active_spec_name": "Beast Mastery",
+      "active_spec_name": "Marksmanship",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
@@ -30383,7 +30633,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/250/142223354-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-05T20:25:55.000Z",
+      "last_crawled_at": "2026-10-06T19:05:52.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thebigkahuna",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -30870,10 +31120,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T17:07:24.000Z",
-        "updated_at": "2026-10-06T17:07:24.000Z",
-        "source": "db",
-        "item_level_equipped": 325.75,
+        "created_at": "2026-10-02T12:52:15.998Z",
+        "updated_at": "2026-10-02T12:52:15.998Z",
+        "source": "s3",
+        "item_level_equipped": 325,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -31421,8 +31671,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8051
+              8689
             ],
             "enchants_detail": [
               {
@@ -31446,6 +31695,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -31493,7 +31750,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/84/213712468-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-10-04T12:57:13.000Z",
+      "last_crawled_at": "2026-10-06T19:06:00.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Fauxtraut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -32502,6 +32759,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -32549,7 +32814,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/213/247038165-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-04T12:57:13.000Z",
+      "last_crawled_at": "2026-10-06T19:06:03.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Devrak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -33670,6 +33935,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -33717,7 +33990,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/139/249592971-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-04T12:57:14.000Z",
+      "last_crawled_at": "2026-10-06T19:06:04.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Banehate",
       "profile_banner": "alliancebanner2",
       "mythic_plus_scores_by_season": [
@@ -34892,6 +35165,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -34939,7 +35220,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/150/256355734-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T15:49:52.000Z",
+      "last_crawled_at": "2026-10-06T19:06:06.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Fnut",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -36005,6 +36286,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
@@ -36052,7 +36341,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/163/256860579-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T16:09:55.000Z",
+      "last_crawled_at": "2026-10-06T19:06:05.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Nutbb",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -37142,6 +37431,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -37189,7 +37486,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/25/241375001-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-05T23:04:52.000Z",
+      "last_crawled_at": "2026-10-06T19:06:03.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Minichong",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -37676,10 +37973,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T01:02:56.000Z",
-        "updated_at": "2026-10-06T01:02:56.000Z",
-        "source": "db",
-        "item_level_equipped": 321.688,
+        "created_at": "2026-10-06T19:06:04.885Z",
+        "updated_at": "2026-10-06T19:06:04.885Z",
+        "source": "s3",
+        "item_level_equipped": 321,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -38251,8 +38548,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5401
+              8689
             ],
             "enchants_detail": [
               {
@@ -38292,8 +38588,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5400
+              8689
             ],
             "enchants_detail": [
               {
@@ -38312,6 +38607,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -38359,7 +38662,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/216/232603096-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-04T12:57:14.000Z",
+      "last_crawled_at": "2026-10-06T19:06:01.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Semplice",
       "profile_banner": "classbanner_priest1",
       "mythic_plus_scores_by_season": [
@@ -38846,10 +39149,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-04T16:43:44.000Z",
-        "updated_at": "2026-10-04T16:43:44.000Z",
-        "source": "db",
-        "item_level_equipped": 316.188,
+        "created_at": "2026-10-06T19:06:03.489Z",
+        "updated_at": "2026-10-06T19:06:03.489Z",
+        "source": "s3",
+        "item_level_equipped": 316,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -39015,7 +39318,7 @@
           },
           "back": {
             "item_id": 251132,
-            "item_level": 324,
+            "item_level": 328,
             "icon": "inv_cape_leather_dungeonharronir_c_01",
             "name": "Speakeasy Shroud",
             "item_quality": 4,
@@ -39037,12 +39340,12 @@
               6652,
               13662,
               12699,
-              12851
+              12852
             ]
           },
           "chest": {
             "item_id": 271468,
-            "item_level": 315,
+            "item_level": 318,
             "enchant": 7987,
             "icon": "inv_chest_plate_raidpaladinulatek_d_01",
             "name": "Bulwark of the Consecrated Flame",
@@ -39070,11 +39373,11 @@
               }
             ],
             "bonuses": [
-              6652,
-              13440,
               13690,
-              13698,
-              12844
+              12849,
+              13440,
+              40,
+              13698
             ]
           },
           "waist": {
@@ -39162,7 +39465,7 @@
           },
           "legs": {
             "item_id": 271464,
-            "item_level": 318,
+            "item_level": 321,
             "enchant": 8159,
             "icon": "inv_pant_plate_raidpaladinulatek_d_01",
             "name": "Greaves of the Consecrated Flame",
@@ -39194,7 +39497,7 @@
               13440,
               13693,
               13698,
-              12845
+              12846
             ]
           },
           "feet": {
@@ -39388,8 +39691,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              7143
+              8039
             ],
             "enchants_detail": [
               {
@@ -39437,6 +39739,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 N",
           "expansion_id": 11,
@@ -39484,7 +39794,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/142/169499790-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-05T06:52:33.000Z",
+      "last_crawled_at": "2026-10-06T19:05:55.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Oulir",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -40608,6 +40918,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "",
           "expansion_id": 11,
@@ -40655,7 +40973,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-04T12:57:14.000Z",
+      "last_crawled_at": "2026-10-06T19:06:14.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -41142,10 +41460,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-05T15:11:23.000Z",
-        "updated_at": "2026-10-05T15:11:23.000Z",
-        "source": "db",
-        "item_level_equipped": 323.312,
+        "created_at": "2026-10-06T19:06:15.905Z",
+        "updated_at": "2026-10-06T19:06:15.905Z",
+        "source": "s3",
+        "item_level_equipped": 324,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -41158,7 +41476,7 @@
         "items": {
           "head": {
             "item_id": 271456,
-            "item_level": 321,
+            "item_level": 324,
             "enchant": 8017,
             "icon": "inv_helm_plate_raidwarriorulatek_d_01",
             "name": "Tempered Horns of the Jade Warlord",
@@ -41232,12 +41550,12 @@
               }
             ],
             "bonuses": [
-              41,
+              13334,
+              6652,
               13696,
-              13440,
               13692,
               13698,
-              12846
+              12851
             ]
           },
           "neck": {
@@ -41339,7 +41657,7 @@
           },
           "back": {
             "item_id": 251190,
-            "item_level": 311,
+            "item_level": 321,
             "icon": "inv_cape_mail_dungeonharronir_c_01",
             "name": "Bloodthorn Burnous",
             "item_quality": 4,
@@ -41357,16 +41675,16 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12843,
               13440,
               6652,
               13662,
-              12699
+              12699,
+              12846
             ]
           },
           "chest": {
             "item_id": 271459,
-            "item_level": 328,
+            "item_level": 331,
             "enchant": 7987,
             "icon": "inv_chest_plate_raidwarriorulatek_d_01",
             "name": "Cuirass of the Jade Warlord",
@@ -41398,7 +41716,7 @@
               6652,
               13690,
               13698,
-              12852
+              12853
             ]
           },
           "waist": {
@@ -41671,7 +41989,7 @@
           },
           "trinket1": {
             "item_id": 273796,
-            "item_level": 315,
+            "item_level": 321,
             "icon": "inv_121_trinket_dungeon_ulatek_vile",
             "name": "Vile Vial of Volatile Venom",
             "item_quality": 4,
@@ -41692,7 +42010,7 @@
               13440,
               6652,
               12699,
-              12844
+              12846
             ]
           },
           "trinket2": {
@@ -41739,8 +42057,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -41758,6 +42075,14 @@
         }
       },
       "raid_progression": {
+        "the-unbinding-of-kithix": {
+          "summary": "",
+          "expansion_id": 11,
+          "total_bosses": 1,
+          "normal_bosses_killed": 0,
+          "heroic_bosses_killed": 0,
+          "mythic_bosses_killed": 0
+        },
         "the-tidebound-grotto": {
           "summary": "1/1 H",
           "expansion_id": 11,
