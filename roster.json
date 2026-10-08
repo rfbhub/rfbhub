@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T09:15:08.993Z",
+  "updated": "2026-10-08T16:41:56.866Z",
   "rosterCount": 26,
   "mplusCount": 10,
   "guild": {
@@ -88,8 +88,8 @@
           "realm": 39
         },
         "mythic": {
-          "world": 3137,
-          "region": 925,
+          "world": 3149,
+          "region": 931,
           "realm": 58
         }
       },
@@ -122,9 +122,9 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1811,
-          "region": 589,
-          "realm": 37
+          "world": 1823,
+          "region": 597,
+          "realm": 38
         }
       }
     },
@@ -183,11 +183,11 @@
           "segments": {
             "all": {
               "score": 3783.2,
-              "color": "#ea6176"
+              "color": "#e96079"
             },
             "dps": {
               "score": 3783.2,
-              "color": "#ea6176"
+              "color": "#e96079"
             },
             "healer": {
               "score": 0,
@@ -199,7 +199,7 @@
             },
             "spec_0": {
               "score": 3783.2,
-              "color": "#ea6176"
+              "color": "#e96079"
             },
             "spec_1": {
               "score": 0,
@@ -1297,11 +1297,11 @@
           "segments": {
             "all": {
               "score": 3244.7,
-              "color": "#9b3eec"
+              "color": "#9445eb"
             },
             "dps": {
               "score": 3244.7,
-              "color": "#9b3eec"
+              "color": "#9445eb"
             },
             "healer": {
               "score": 0,
@@ -1317,7 +1317,7 @@
             },
             "spec_1": {
               "score": 3231.1,
-              "color": "#9246eb"
+              "color": "#8c4bea"
             },
             "spec_2": {
               "score": 0,
@@ -2435,7 +2435,7 @@
           "segments": {
             "all": {
               "score": 3656.4,
-              "color": "#dd5399"
+              "color": "#db529c"
             },
             "dps": {
               "score": 1507.8,
@@ -2443,7 +2443,7 @@
             },
             "healer": {
               "score": 3656.4,
-              "color": "#dd5399"
+              "color": "#db529c"
             },
             "tank": {
               "score": 0,
@@ -2451,7 +2451,7 @@
             },
             "spec_0": {
               "score": 3656.4,
-              "color": "#dd5399"
+              "color": "#db529c"
             },
             "spec_1": {
               "score": 0,
@@ -2903,10 +2903,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T07:57:53.000Z",
-        "updated_at": "2026-10-08T07:57:53.000Z",
+        "created_at": "2026-10-08T14:06:51.000Z",
+        "updated_at": "2026-10-08T14:06:51.000Z",
         "source": "db",
-        "item_level_equipped": 328.125,
+        "item_level_equipped": 328.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -2920,7 +2920,7 @@
           "head": {
             "item_id": 271465,
             "item_level": 334,
-            "enchant": 7961,
+            "enchant": 8017,
             "icon": "inv_helm_plate_raidpaladinulatek_d_01",
             "name": "Warhelm of the Consecrated Flame",
             "item_quality": 4,
@@ -2973,12 +2973,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7961
+              8017
             ],
             "enchants_detail": [
               {
-                "id": 243951,
-                "name": "Enchant Helm - Empowered Hex of Leeching",
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3009,7 +3009,7 @@
             "domination_shards": [],
             "gems": [
               240983,
-              240900
+              240916
             ],
             "gems_detail": [
               {
@@ -3018,9 +3018,9 @@
                 "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
               },
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [],
@@ -3036,7 +3036,7 @@
           "shoulder": {
             "item_id": 271463,
             "item_level": 321,
-            "enchant": 8031,
+            "enchant": 8001,
             "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
             "name": "Pauldrons of the Consecrated Flame",
             "item_quality": 4,
@@ -3099,12 +3099,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8031
+              8001
             ],
             "enchants_detail": [
               {
-                "id": 244021,
-                "name": "Enchant Shoulders - Silvermoon's Mending",
+                "id": 243991,
+                "name": "Enchant Shoulders - Amirdrassil's Grace",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3151,8 +3151,54 @@
             "name": "Bulwark of the Consecrated Flame",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -3173,11 +3219,12 @@
               }
             ],
             "bonuses": [
+              12846,
+              13334,
               6652,
-              13440,
               13690,
               13698,
-              12846
+              1574
             ]
           },
           "waist": {
@@ -3245,13 +3292,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240900
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [],
@@ -3297,7 +3344,7 @@
           "legs": {
             "item_id": 271464,
             "item_level": 334,
-            "enchant": 7937,
+            "enchant": 7935,
             "icon": "inv_pant_plate_raidpaladinulatek_d_01",
             "name": "Greaves of the Consecrated Flame",
             "item_quality": 4,
@@ -3314,13 +3361,13 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7937
+              7935
             ],
             "enchants_detail": [
               {
-                "id": 240155,
-                "name": "41 Int & +% Mana",
-                "icon": "inv_12_tailoring_spellthread_violet_spellthread"
+                "id": 240133,
+                "name": "41 Int & 115 Sta",
+                "icon": "inv_tailoring_spellthread_orange_spellthread"
               }
             ],
             "bonuses": [
@@ -3335,7 +3382,7 @@
           "feet": {
             "item_id": 268260,
             "item_level": 334,
-            "enchant": 7993,
+            "enchant": 7963,
             "icon": "inv_boot_plate_raidpaladinulatek_d_01",
             "name": "Scaled Fiend's Warboots",
             "item_quality": 4,
@@ -3351,12 +3398,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7993
+              7963
             ],
             "enchants_detail": [
               {
-                "id": 243983,
-                "name": "Enchant Boots - Shaladrassil's Roots",
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3368,9 +3415,53 @@
             ]
           },
           "finger1": {
+            "item_id": 159459,
+            "item_level": 321,
+            "enchant": 8027,
+            "icon": "inv_ring_80_03e",
+            "name": "Ritual Binder's Ring",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240916
+            ],
+            "gems_detail": [
+              {
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
+              }
+            ],
+            "enchants": [
+              8027
+            ],
+            "enchants_detail": [
+              {
+                "id": 244017,
+                "name": "Enchant Ring - Silvermoon's Tenacity",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              13440,
+              6652,
+              13668,
+              12699,
+              12846
+            ]
+          },
+          "finger2": {
             "item_id": 251136,
             "item_level": 334,
-            "enchant": 7969,
+            "enchant": 8027,
             "icon": "inv_12_jewelry_voidelf_ring_teal",
             "name": "Signet of Snarling Servitude",
             "item_quality": 4,
@@ -3384,22 +3475,22 @@
             },
             "domination_shards": [],
             "gems": [
-              240900
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [
-              7969
+              8027
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 244017,
+                "name": "Enchant Ring - Silvermoon's Tenacity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3407,50 +3498,6 @@
               13668,
               13696,
               12854
-            ]
-          },
-          "finger2": {
-            "item_id": 252258,
-            "item_level": 321,
-            "enchant": 7969,
-            "icon": "inv_12_jewelry_devouringhost_ring_bronze2",
-            "name": "Sickening Signet of Atroxus",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240900
-            ],
-            "gems_detail": [
-              {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
-              }
-            ],
-            "enchants": [
-              7969
-            ],
-            "enchants_detail": [
-              {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              13668,
-              12699,
-              12846
             ]
           },
           "trinket1": {
@@ -3504,11 +3551,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 237843,
-            "item_level": 331,
+            "item_id": 268210,
+            "item_level": 334,
             "enchant": 8039,
-            "icon": "inv_sword_1h_questbloodelf_b_01",
-            "name": "Magister's Mana Sword",
+            "icon": "inv_mace_1h_ulatek_d_01",
+            "name": "Malevolent Spiritcudgel",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -3523,7 +3570,7 @@
             "gems_detail": [],
             "enchants": [
               8039,
-              8052
+              7143
             ],
             "enchants_detail": [
               {
@@ -3533,14 +3580,9 @@
               }
             ],
             "bonuses": [
-              12214,
-              12497,
-              13751,
-              14001,
-              12693,
-              8960,
-              8793,
-              13836
+              42,
+              13335,
+              12854
             ]
           },
           "offhand": {
@@ -3650,15 +3692,15 @@
           "segments": {
             "all": {
               "score": 3627.9,
-              "color": "#da519e"
+              "color": "#d850a2"
             },
             "dps": {
               "score": 3627.9,
-              "color": "#da519e"
+              "color": "#d850a2"
             },
             "healer": {
               "score": 3133.1,
-              "color": "#6c5de5"
+              "color": "#675fe4"
             },
             "tank": {
               "score": 0,
@@ -3666,7 +3708,7 @@
             },
             "spec_0": {
               "score": 3627.9,
-              "color": "#da519e"
+              "color": "#d850a2"
             },
             "spec_1": {
               "score": 0,
@@ -3674,7 +3716,7 @@
             },
             "spec_2": {
               "score": 3133.1,
-              "color": "#6c5de5"
+              "color": "#675fe4"
             },
             "spec_3": {
               "score": 0,
@@ -6011,7 +6053,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/254/257766654-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-07T01:53:05.000Z",
+      "last_crawled_at": "2026-10-08T09:48:00.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Blimpi",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -6030,11 +6072,11 @@
           "segments": {
             "all": {
               "score": 3267.9,
-              "color": "#9b3eec"
+              "color": "#9c3eed"
             },
             "dps": {
               "score": 3267.9,
-              "color": "#9b3eec"
+              "color": "#9c3eed"
             },
             "healer": {
               "score": 0,
@@ -6050,7 +6092,7 @@
             },
             "spec_1": {
               "score": 3267.9,
-              "color": "#9b3eec"
+              "color": "#9c3eed"
             },
             "spec_2": {
               "score": 0,
@@ -6498,10 +6540,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T08:31:44.000Z",
-        "updated_at": "2026-10-08T08:31:44.000Z",
-        "source": "db",
-        "item_level_equipped": 326.312,
+        "created_at": "2026-10-04T12:57:16.678Z",
+        "updated_at": "2026-10-04T12:57:16.678Z",
+        "source": "s3",
+        "item_level_equipped": 326,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -7068,8 +7110,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -7197,11 +7238,11 @@
           "segments": {
             "all": {
               "score": 3074.4,
-              "color": "#5366e2"
+              "color": "#4f67e1"
             },
             "dps": {
               "score": 3074.4,
-              "color": "#5366e2"
+              "color": "#4f67e1"
             },
             "healer": {
               "score": 0,
@@ -7213,7 +7254,7 @@
             },
             "spec_0": {
               "score": 3074.4,
-              "color": "#5366e2"
+              "color": "#4f67e1"
             },
             "spec_1": {
               "score": 0,
@@ -8369,11 +8410,11 @@
           "segments": {
             "all": {
               "score": 3614.7,
-              "color": "#da519e"
+              "color": "#d850a2"
             },
             "dps": {
               "score": 3614.7,
-              "color": "#da519e"
+              "color": "#d850a2"
             },
             "healer": {
               "score": 0,
@@ -8393,7 +8434,7 @@
             },
             "spec_2": {
               "score": 3614.7,
-              "color": "#da519e"
+              "color": "#d850a2"
             },
             "spec_3": {
               "score": 0,
@@ -10733,11 +10774,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 31650,
+      "achievement_points": 31660,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/90/267302234-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-06T19:06:14.000Z",
+      "last_crawled_at": "2026-10-08T16:31:07.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Vampiral",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10756,11 +10797,11 @@
           "segments": {
             "all": {
               "score": 3423.2,
-              "color": "#c040cc"
+              "color": "#bc3fd1"
             },
             "dps": {
               "score": 3423.2,
-              "color": "#c040cc"
+              "color": "#bc3fd1"
             },
             "healer": {
               "score": 0,
@@ -10772,7 +10813,7 @@
             },
             "spec_0": {
               "score": 3423.2,
-              "color": "#c040cc"
+              "color": "#bc3fd1"
             },
             "spec_1": {
               "score": 3013,
@@ -11224,10 +11265,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-06T16:56:54.966Z",
-        "updated_at": "2026-10-06T16:56:54.966Z",
+        "created_at": "2026-10-08T16:31:11.241Z",
+        "updated_at": "2026-10-08T16:31:11.241Z",
         "source": "s3",
-        "item_level_equipped": 326,
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -11400,7 +11441,7 @@
           },
           "back": {
             "item_id": 156047,
-            "item_level": 311,
+            "item_level": 321,
             "icon": "inv_misc_cape_naxxramas_01",
             "name": "Cloak of the Makers",
             "item_quality": 4,
@@ -11422,7 +11463,7 @@
               7756,
               13662,
               12699,
-              12843
+              12846
             ]
           },
           "chest": {
@@ -11808,7 +11849,7 @@
           },
           "trinket2": {
             "item_id": 270168,
-            "item_level": 321,
+            "item_level": 334,
             "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
             "name": "Font of Venomous Rage",
             "item_quality": 4,
@@ -11826,9 +11867,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              40,
+              6652,
               13334,
-              12846
+              12854
             ]
           },
           "mainhand": {
@@ -11948,7 +11989,7 @@
           "segments": {
             "all": {
               "score": 3342.2,
-              "color": "#ae39e2"
+              "color": "#a937e8"
             },
             "dps": {
               "score": 647,
@@ -11956,7 +11997,7 @@
             },
             "healer": {
               "score": 3342.2,
-              "color": "#ae39e2"
+              "color": "#a937e8"
             },
             "tank": {
               "score": 0,
@@ -11968,7 +12009,7 @@
             },
             "spec_1": {
               "score": 3342.2,
-              "color": "#ae39e2"
+              "color": "#a937e8"
             },
             "spec_2": {
               "score": 647,
@@ -13150,7 +13191,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/232/203548648-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-07T17:43:57.000Z",
+      "last_crawled_at": "2026-10-08T10:08:02.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -13169,11 +13210,11 @@
           "segments": {
             "all": {
               "score": 3496.9,
-              "color": "#cb47bb"
+              "color": "#c845bf"
             },
             "dps": {
               "score": 3496.9,
-              "color": "#cb47bb"
+              "color": "#c845bf"
             },
             "healer": {
               "score": 0,
@@ -13189,7 +13230,7 @@
             },
             "spec_1": {
               "score": 3496.9,
-              "color": "#cb47bb"
+              "color": "#c845bf"
             },
             "spec_2": {
               "score": 0,
@@ -13637,10 +13678,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T08:43:21.000Z",
-        "updated_at": "2026-10-08T08:43:21.000Z",
-        "source": "db",
-        "item_level_equipped": 328.125,
+        "created_at": "2026-10-08T10:08:02.628Z",
+        "updated_at": "2026-10-08T10:08:02.628Z",
+        "source": "s3",
+        "item_level_equipped": 328,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14278,8 +14319,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5401
+              8689
             ],
             "enchants_detail": [
               {
@@ -14314,8 +14354,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5400
+              8689
             ],
             "enchants_detail": [
               {
@@ -14394,11 +14433,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 30455,
+      "achievement_points": 30465,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/19/250437651-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-06T19:06:04.000Z",
+      "last_crawled_at": "2026-10-08T10:05:56.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Drob",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -14417,11 +14456,11 @@
           "segments": {
             "all": {
               "score": 3648.2,
-              "color": "#dd5399"
+              "color": "#db529c"
             },
             "dps": {
               "score": 3648.2,
-              "color": "#dd5399"
+              "color": "#db529c"
             },
             "healer": {
               "score": 0,
@@ -14433,7 +14472,7 @@
             },
             "spec_0": {
               "score": 3648.2,
-              "color": "#dd5399"
+              "color": "#db529c"
             },
             "spec_1": {
               "score": 741.2,
@@ -14885,10 +14924,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T08:43:21.000Z",
-        "updated_at": "2026-10-08T08:43:21.000Z",
-        "source": "db",
-        "item_level_equipped": 329.562,
+        "created_at": "2026-10-08T10:05:56.521Z",
+        "updated_at": "2026-10-08T10:05:56.521Z",
+        "source": "s3",
+        "item_level_equipped": 329,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15483,8 +15522,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -15581,11 +15619,11 @@
           "segments": {
             "all": {
               "score": 3911.1,
-              "color": "#f36c59"
+              "color": "#f26b5a"
             },
             "dps": {
               "score": 3911.1,
-              "color": "#f36c59"
+              "color": "#f26b5a"
             },
             "healer": {
               "score": 0,
@@ -15593,19 +15631,19 @@
             },
             "tank": {
               "score": 3230.2,
-              "color": "#9246eb"
+              "color": "#8c4bea"
             },
             "spec_0": {
               "score": 3911.1,
-              "color": "#f36c59"
+              "color": "#f26b5a"
             },
             "spec_1": {
               "score": 3271.5,
-              "color": "#9b3eec"
+              "color": "#9c3eed"
             },
             "spec_2": {
               "score": 3230.2,
-              "color": "#9246eb"
+              "color": "#8c4bea"
             },
             "spec_3": {
               "score": 0,
@@ -16764,11 +16802,11 @@
           "segments": {
             "all": {
               "score": 3539.1,
-              "color": "#ce49b5"
+              "color": "#cc47b9"
             },
             "dps": {
               "score": 3539.1,
-              "color": "#ce49b5"
+              "color": "#cc47b9"
             },
             "healer": {
               "score": 0,
@@ -16780,7 +16818,7 @@
             },
             "spec_0": {
               "score": 3539.1,
-              "color": "#ce49b5"
+              "color": "#cc47b9"
             },
             "spec_1": {
               "score": 2890,
@@ -17975,11 +18013,11 @@
           "segments": {
             "all": {
               "score": 3036.3,
-              "color": "#2e6ddf"
+              "color": "#2c6dde"
             },
             "dps": {
               "score": 3036.3,
-              "color": "#2e6ddf"
+              "color": "#2c6dde"
             },
             "healer": {
               "score": 0,
@@ -17991,7 +18029,7 @@
             },
             "spec_0": {
               "score": 3036.3,
-              "color": "#2e6ddf"
+              "color": "#2c6dde"
             },
             "spec_1": {
               "score": 0,
@@ -19120,7 +19158,7 @@
           "segments": {
             "all": {
               "score": 3334.6,
-              "color": "#ae39e2"
+              "color": "#a937e8"
             },
             "dps": {
               "score": 315.3,
@@ -19128,7 +19166,7 @@
             },
             "healer": {
               "score": 3334.6,
-              "color": "#ae39e2"
+              "color": "#a937e8"
             },
             "tank": {
               "score": 0,
@@ -19144,7 +19182,7 @@
             },
             "spec_2": {
               "score": 3334.6,
-              "color": "#ae39e2"
+              "color": "#a937e8"
             },
             "spec_3": {
               "score": 0,
@@ -20312,11 +20350,11 @@
           "segments": {
             "all": {
               "score": 3289.1,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "dps": {
               "score": 3289.1,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "healer": {
               "score": 0,
@@ -20332,7 +20370,7 @@
             },
             "spec_1": {
               "score": 3289.1,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "spec_2": {
               "score": 1640.1,
@@ -21449,7 +21487,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/145/268390289-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-07T20:34:00.000Z",
+      "last_crawled_at": "2026-10-08T10:13:56.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Disanyy",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -21468,11 +21506,11 @@
           "segments": {
             "all": {
               "score": 3530.2,
-              "color": "#ce49b5"
+              "color": "#cc47b9"
             },
             "dps": {
               "score": 3530.2,
-              "color": "#ce49b5"
+              "color": "#cc47b9"
             },
             "healer": {
               "score": 0,
@@ -21484,7 +21522,7 @@
             },
             "spec_0": {
               "score": 3530.2,
-              "color": "#ce49b5"
+              "color": "#cc47b9"
             },
             "spec_1": {
               "score": 0,
@@ -21936,10 +21974,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T08:31:44.000Z",
-        "updated_at": "2026-10-08T08:31:44.000Z",
-        "source": "db",
-        "item_level_equipped": 327.125,
+        "created_at": "2026-10-08T10:13:57.199Z",
+        "updated_at": "2026-10-08T10:13:57.199Z",
+        "source": "s3",
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -22472,8 +22510,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -22600,11 +22637,11 @@
           "segments": {
             "all": {
               "score": 3278.5,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "dps": {
               "score": 3278.5,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "healer": {
               "score": 0,
@@ -22616,7 +22653,7 @@
             },
             "spec_0": {
               "score": 3206.5,
-              "color": "#8a4de9"
+              "color": "#8351e8"
             },
             "spec_1": {
               "score": 0,
@@ -23768,11 +23805,11 @@
           "segments": {
             "all": {
               "score": 3178.4,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "dps": {
               "score": 3117.9,
-              "color": "#6062e3"
+              "color": "#5c63e3"
             },
             "healer": {
               "score": 1939.6,
@@ -23792,7 +23829,7 @@
             },
             "spec_2": {
               "score": 3117.9,
-              "color": "#6062e3"
+              "color": "#5c63e3"
             },
             "spec_3": {
               "score": 0,
@@ -24892,7 +24929,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/88/256839256-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-07T15:59:58.000Z",
+      "last_crawled_at": "2026-10-08T09:36:54.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Xnut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -24911,7 +24948,7 @@
           "segments": {
             "all": {
               "score": 3302.6,
-              "color": "#a937e8"
+              "color": "#a335ee"
             },
             "dps": {
               "score": 0,
@@ -24923,11 +24960,11 @@
             },
             "tank": {
               "score": 3302.6,
-              "color": "#a937e8"
+              "color": "#a335ee"
             },
             "spec_0": {
               "score": 3302.6,
-              "color": "#a937e8"
+              "color": "#a335ee"
             },
             "spec_1": {
               "score": 0,
@@ -25379,9 +25416,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T08:43:21.000Z",
-        "updated_at": "2026-10-08T08:43:21.000Z",
-        "source": "db",
+        "created_at": "2026-10-08T09:36:54.716Z",
+        "updated_at": "2026-10-08T09:36:54.716Z",
+        "source": "s3",
         "item_level_equipped": 330,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -25926,8 +25963,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6241,
-              8052
+              6241
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -26018,7 +26054,7 @@
           "segments": {
             "all": {
               "score": 3373.8,
-              "color": "#b73cd7"
+              "color": "#b33bdc"
             },
             "dps": {
               "score": 2872.9,
@@ -26026,7 +26062,7 @@
             },
             "healer": {
               "score": 3373.8,
-              "color": "#b73cd7"
+              "color": "#b33bdc"
             },
             "tank": {
               "score": 0,
@@ -26046,7 +26082,7 @@
             },
             "spec_3": {
               "score": 3373.8,
-              "color": "#b73cd7"
+              "color": "#b33bdc"
             }
           }
         }
@@ -27200,7 +27236,7 @@
           "segments": {
             "all": {
               "score": 3275.4,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "dps": {
               "score": 198,
@@ -27208,7 +27244,7 @@
             },
             "healer": {
               "score": 3275.4,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "tank": {
               "score": 0,
@@ -27216,7 +27252,7 @@
             },
             "spec_0": {
               "score": 3275.4,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "spec_1": {
               "score": 0,
@@ -28350,11 +28386,11 @@
           "segments": {
             "all": {
               "score": 3079.9,
-              "color": "#5366e2"
+              "color": "#4f67e1"
             },
             "dps": {
               "score": 3079.9,
-              "color": "#5366e2"
+              "color": "#4f67e1"
             },
             "healer": {
               "score": 1918.6,
@@ -28366,7 +28402,7 @@
             },
             "spec_0": {
               "score": 3079.9,
-              "color": "#5366e2"
+              "color": "#4f67e1"
             },
             "spec_1": {
               "score": 0,
@@ -29555,11 +29591,11 @@
           "segments": {
             "all": {
               "score": 3125.5,
-              "color": "#6c5de5"
+              "color": "#675fe4"
             },
             "dps": {
               "score": 3125.5,
-              "color": "#6c5de5"
+              "color": "#675fe4"
             },
             "healer": {
               "score": 0,
@@ -30652,7 +30688,7 @@
       "name": "Thebigkahuna",
       "race": "Human",
       "class": "Hunter",
-      "active_spec_name": "Marksmanship",
+      "active_spec_name": "Beast Mastery",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
@@ -30660,7 +30696,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/250/142223354-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-07T15:38:06.000Z",
+      "last_crawled_at": "2026-10-08T09:36:54.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thebigkahuna",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -31147,10 +31183,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T08:43:21.000Z",
-        "updated_at": "2026-10-08T08:43:21.000Z",
-        "source": "db",
-        "item_level_equipped": 327.75,
+        "created_at": "2026-10-07T15:38:07.967Z",
+        "updated_at": "2026-10-07T15:38:07.967Z",
+        "source": "s3",
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -31698,8 +31734,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8051
+              8689
             ],
             "enchants_detail": [
               {
@@ -31792,7 +31827,7 @@
           "segments": {
             "all": {
               "score": 3606.7,
-              "color": "#d74fa4"
+              "color": "#d54ea8"
             },
             "dps": {
               "score": 0,
@@ -31804,7 +31839,7 @@
             },
             "tank": {
               "score": 3606.7,
-              "color": "#d74fa4"
+              "color": "#d54ea8"
             },
             "spec_0": {
               "score": 0,
@@ -31816,7 +31851,7 @@
             },
             "spec_2": {
               "score": 3606.7,
-              "color": "#d74fa4"
+              "color": "#d54ea8"
             },
             "spec_3": {
               "score": 0,
@@ -32856,11 +32891,11 @@
           "segments": {
             "all": {
               "score": 3731.6,
-              "color": "#e65c82"
+              "color": "#e55b85"
             },
             "dps": {
               "score": 3731.6,
-              "color": "#e65c82"
+              "color": "#e55b85"
             },
             "healer": {
               "score": 0,
@@ -32876,7 +32911,7 @@
             },
             "spec_1": {
               "score": 3731.6,
-              "color": "#e65c82"
+              "color": "#e55b85"
             },
             "spec_2": {
               "score": 0,
@@ -34032,7 +34067,7 @@
           "segments": {
             "all": {
               "score": 3044.1,
-              "color": "#2e6ddf"
+              "color": "#2c6dde"
             },
             "dps": {
               "score": 584,
@@ -34044,11 +34079,11 @@
             },
             "tank": {
               "score": 3044.1,
-              "color": "#2e6ddf"
+              "color": "#2c6dde"
             },
             "spec_0": {
               "score": 3044.1,
-              "color": "#2e6ddf"
+              "color": "#2c6dde"
             },
             "spec_1": {
               "score": 584,
@@ -36383,11 +36418,11 @@
           "segments": {
             "all": {
               "score": 3170.5,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "dps": {
               "score": 3170.5,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "healer": {
               "score": 0,
@@ -36403,7 +36438,7 @@
             },
             "spec_1": {
               "score": 3170.5,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "spec_2": {
               "score": 0,
@@ -37532,11 +37567,11 @@
           "segments": {
             "all": {
               "score": 3509.4,
-              "color": "#cb47bb"
+              "color": "#c845bf"
             },
             "dps": {
               "score": 3509.4,
-              "color": "#cb47bb"
+              "color": "#c845bf"
             },
             "healer": {
               "score": 0,
@@ -37548,11 +37583,11 @@
             },
             "spec_0": {
               "score": 3376,
-              "color": "#b73cd7"
+              "color": "#b33bdc"
             },
             "spec_1": {
               "score": 3291.5,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "spec_2": {
               "score": 0,
@@ -38691,7 +38726,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/216/232603096-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-06T19:06:01.000Z",
+      "last_crawled_at": "2026-10-08T09:28:03.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Semplice",
       "profile_banner": "classbanner_priest1",
       "mythic_plus_scores_by_season": [
@@ -38710,7 +38745,7 @@
           "segments": {
             "all": {
               "score": 3169.5,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "dps": {
               "score": 0,
@@ -38722,7 +38757,7 @@
             },
             "tank": {
               "score": 3169.5,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "spec_0": {
               "score": 1003.9,
@@ -38730,7 +38765,7 @@
             },
             "spec_1": {
               "score": 3169.5,
-              "color": "#8053e8"
+              "color": "#7b56e7"
             },
             "spec_2": {
               "score": 0,
@@ -39178,9 +39213,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T05:49:31.000Z",
-        "updated_at": "2026-10-08T05:49:31.000Z",
-        "source": "db",
+        "created_at": "2026-10-08T09:28:03.894Z",
+        "updated_at": "2026-10-08T09:28:03.894Z",
+        "source": "s3",
         "item_level_equipped": 317,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -39720,8 +39755,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              7143
+              8039
             ],
             "enchants_detail": [
               {
@@ -39843,11 +39877,11 @@
           "segments": {
             "all": {
               "score": 3284.4,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "dps": {
               "score": 3284.4,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "healer": {
               "score": 0,
@@ -39863,7 +39897,7 @@
             },
             "spec_1": {
               "score": 3284.4,
-              "color": "#a335ee"
+              "color": "#9c3eed"
             },
             "spec_2": {
               "score": 0,
@@ -41024,11 +41058,11 @@
           "segments": {
             "all": {
               "score": 3369.9,
-              "color": "#b33add"
+              "color": "#ae39e2"
             },
             "dps": {
               "score": 3369.9,
-              "color": "#b33add"
+              "color": "#ae39e2"
             },
             "healer": {
               "score": 0,
@@ -41040,7 +41074,7 @@
             },
             "spec_0": {
               "score": 3368.5,
-              "color": "#b33add"
+              "color": "#ae39e2"
             },
             "spec_1": {
               "score": 412.7,
