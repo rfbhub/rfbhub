@@ -1,11 +1,18 @@
 {
-  "generated": "2026-10-08T02:37:02.001Z",
-  "weekStart": "2026-10-01",
-  "weekEnd": "2026-10-08",
+  "generated": "2026-10-09T02:52:35.139Z",
+  "weekStart": "2026-10-02",
+  "weekEnd": "2026-10-09",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
   "categories": {
+    "guildProgression": {
+      "previous": "4/8 M",
+      "current": "5/8 M",
+      "newMythicKills": 1,
+      "newHeroicKills": 0,
+      "newNormalKills": 0
+    },
     "topClimbers": [
       {
         "name": "Xnut",
@@ -17,23 +24,23 @@
       {
         "name": "Mangobrew",
         "class": "Monk",
-        "previous": 3003,
+        "previous": 3048,
         "current": 3178,
-        "gain": 175
+        "gain": 130
       },
       {
         "name": "Blinkforlife",
         "class": "Mage",
-        "previous": 3116,
-        "current": 3266,
-        "gain": 151
+        "previous": 3181,
+        "current": 3297,
+        "gain": 116
       },
       {
         "name": "Hashmaker",
         "class": "Paladin",
-        "previous": 3533,
-        "current": 3615,
-        "gain": 82
+        "previous": 3535,
+        "current": 3632,
+        "gain": 97
       },
       {
         "name": "Anjaleena",
@@ -48,41 +55,41 @@
         "name": "Thinboi",
         "class": "Hunter",
         "difficulty": "Mythic",
-        "previous": 13,
-        "current": 38,
-        "gain": 25
+        "previous": 20,
+        "current": 43,
+        "gain": 23
       },
       {
         "name": "Solacker",
         "class": "Death Knight",
         "difficulty": "Mythic",
-        "previous": 68,
+        "previous": 71,
         "current": 89,
-        "gain": 21
+        "gain": 18
       },
       {
         "name": "Drob",
         "class": "Warrior",
         "difficulty": "Mythic",
-        "previous": 53,
-        "current": 74,
-        "gain": 21
+        "previous": 59,
+        "current": 77,
+        "gain": 18
       },
       {
-        "name": "Mangobrew",
-        "class": "Monk",
+        "name": "Enhance",
+        "class": "Shaman",
         "difficulty": "Mythic",
-        "previous": 38,
-        "current": 54,
-        "gain": 16
+        "previous": 47,
+        "current": 64,
+        "gain": 17
       },
       {
-        "name": "Envenumb",
-        "class": "Rogue",
+        "name": "Xnut",
+        "class": "Death Knight",
         "difficulty": "Mythic",
-        "previous": 72,
-        "current": 83,
-        "gain": 11
+        "previous": 2,
+        "current": 17,
+        "gain": 15
       }
     ],
     "newOrangeParses": [
@@ -94,73 +101,45 @@
         "previousParse": null,
         "difficulty": "Mythic",
         "dps": 319815
-      }
-    ],
-    "progression": [
-      {
-        "name": "Blimpi",
-        "class": "Warlock",
-        "previous": "3/9 M",
-        "current": "4/9 M"
       },
       {
-        "name": "Envenumb",
-        "class": "Rogue",
-        "previous": "3/9 M",
-        "current": "4/9 M"
-      },
-      {
-        "name": "Thinboi",
-        "class": "Hunter",
-        "previous": "2/9 M",
-        "current": "4/9 M"
-      },
-      {
-        "name": "Mangobrew",
-        "class": "Monk",
-        "previous": "3/9 M",
-        "current": "4/9 M"
-      },
-      {
-        "name": "Xnut",
-        "class": "Death Knight",
-        "previous": "1/9 M",
-        "current": "4/9 M"
-      },
-      {
-        "name": "Thebigkahuna",
-        "class": "Hunter",
-        "previous": "3/9 M",
-        "current": "4/9 M"
-      },
-      {
-        "name": "Vampiral",
-        "class": "Hunter",
-        "previous": "1/9 M",
-        "current": "2/9 M"
+        "name": "Enhance",
+        "class": "Shaman",
+        "boss": "Entombed Sentinels",
+        "parse": 96,
+        "previousParse": 58,
+        "difficulty": "Mythic",
+        "dps": 204420
       }
     ],
     "gearMovers": [
       {
         "name": "Xnut",
         "class": "Death Knight",
-        "previous": 324.1,
+        "previous": 325.9,
         "current": 330,
-        "gain": 5.9
-      },
-      {
-        "name": "Oulir",
-        "class": "Druid",
-        "previous": 322,
-        "current": 325.7,
-        "gain": 3.7
+        "gain": 4.1
       },
       {
         "name": "Thinboi",
         "class": "Hunter",
         "previous": 325.1,
-        "current": 328.6,
+        "current": 328.8,
+        "gain": 3.7
+      },
+      {
+        "name": "Disanyy",
+        "class": "Mage",
+        "previous": 324.5,
+        "current": 327.9,
         "gain": 3.4
+      },
+      {
+        "name": "Envenumb",
+        "class": "Rogue",
+        "previous": 326.1,
+        "current": 329.4,
+        "gain": 3.3
       },
       {
         "name": "Thebigkahuna",
@@ -168,16 +147,15 @@
         "previous": 324.6,
         "current": 327.8,
         "gain": 3.2
-      },
-      {
-        "name": "Disanyy",
-        "class": "Mage",
-        "previous": 324.5,
-        "current": 327.1,
-        "gain": 2.6
       }
     ],
     "highKeyPushers": [
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "previousKey": 20,
+        "currentKey": 21
+      },
       {
         "name": "Hashmaker",
         "class": "Paladin",
@@ -199,13 +177,7 @@
       {
         "name": "Mangobrew",
         "class": "Monk",
-        "previousKey": 13,
-        "currentKey": 16
-      },
-      {
-        "name": "Xnut",
-        "class": "Death Knight",
-        "previousKey": 14,
+        "previousKey": 15,
         "currentKey": 16
       }
     ],
@@ -214,33 +186,41 @@
         "name": "Stoneius",
         "class": "Paladin",
         "spec": "Holy",
-        "ilvl": 328.1,
-        "rio": 3656,
-        "progression": "3/8 M"
+        "ilvl": 328,
+        "rio": 3657,
+        "progression": "4/8 M"
       },
       {
         "name": "Schisms",
         "class": "Shaman",
         "spec": "Elemental",
-        "ilvl": 326.8,
+        "ilvl": 326,
         "rio": 3628,
-        "progression": "3/8 M"
+        "progression": "4/8 M"
       },
       {
         "name": "Minichong",
         "class": "Shaman",
         "spec": "Enhancement",
-        "ilvl": 322.8,
+        "ilvl": 322,
         "rio": 3509,
         "progression": ""
+      },
+      {
+        "name": "Andywar",
+        "class": "Warrior",
+        "spec": "Arms",
+        "ilvl": 325,
+        "rio": 3457,
+        "progression": "3/8 H"
       },
       {
         "name": "Shredomatic",
         "class": "Druid",
         "spec": "Feral",
-        "ilvl": 324.7,
+        "ilvl": 325.5,
         "rio": 3245,
-        "progression": "3/8 M"
+        "progression": "4/8 M"
       },
       {
         "name": "Semplice",
@@ -263,26 +243,26 @@
   "summary": {
     "totalRaiders": 26,
     "rosterDelta": 2,
-    "avgRio": 3358,
-    "rioDelta": 65,
-    "avgIlvl": 327.7,
-    "ilvlDelta": 1.4,
+    "avgRio": 3360,
+    "rioDelta": 61,
+    "avgIlvl": 328,
+    "ilvlDelta": 1.3,
     "avgMythicParse": 53,
-    "parseDelta": 2,
+    "parseDelta": 3,
     "mythicRaidersCount": 26,
-    "totalMythicKills": 98,
-    "highestKey": 20,
-    "highestKeyPlayer": "Magespheere",
-    "highestKeyClass": "Mage",
-    "enchantPct": 100,
-    "fullyEnchanted": 26,
+    "totalMythicKills": 104,
+    "highestKey": 21,
+    "highestKeyPlayer": "Hersin",
+    "highestKeyClass": "Warrior",
+    "enchantPct": 96,
+    "fullyEnchanted": 25,
     "parseDistribution": {
       "pink": 4,
-      "orange": 3,
-      "purple": 21,
-      "blue": 30
+      "orange": 4,
+      "purple": 23,
+      "blue": 26
     },
     "totalCategories": 7,
-    "totalHighlights": 34
+    "totalHighlights": 30
   }
 }
