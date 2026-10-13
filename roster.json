@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T19:26:40.015Z",
+  "updated": "2026-10-13T23:25:07.017Z",
   "rosterCount": 25,
   "mplusCount": 17,
   "guild": {
@@ -122,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1613,
+          "world": 1627,
           "region": 526,
           "realm": 37
         }
@@ -8735,10 +8735,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T22:27:05.384Z",
-        "updated_at": "2026-10-08T22:27:05.384Z",
-        "source": "s3",
-        "item_level_equipped": 330,
+        "created_at": "2026-10-13T22:22:40.000Z",
+        "updated_at": "2026-10-13T22:22:40.000Z",
+        "source": "db",
+        "item_level_equipped": 330.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9024,7 +9024,7 @@
           },
           "waist": {
             "item_id": 268259,
-            "item_level": 321,
+            "item_level": 324,
             "icon": "inv_belt_plate_raidpaladinulatek_d_01",
             "name": "Girdle of Toxic Regret",
             "item_quality": 4,
@@ -9046,7 +9046,7 @@
               13696,
               13662,
               13334,
-              12850
+              12851
             ]
           },
           "shirt": {
@@ -9179,7 +9179,7 @@
           },
           "feet": {
             "item_id": 268260,
-            "item_level": 331,
+            "item_level": 334,
             "enchant": 7963,
             "icon": "inv_boot_plate_raidpaladinulatek_d_01",
             "name": "Scaled Fiend's Warboots",
@@ -9209,7 +9209,7 @@
               6652,
               13662,
               13335,
-              12853
+              12854
             ]
           },
           "finger1": {
@@ -9370,7 +9370,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -11120,10 +11121,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-08T16:31:11.241Z",
-        "updated_at": "2026-10-08T16:31:11.241Z",
-        "source": "s3",
-        "item_level_equipped": 327,
+        "created_at": "2026-10-13T23:08:51.000Z",
+        "updated_at": "2026-10-13T23:08:51.000Z",
+        "source": "db",
+        "item_level_equipped": 328.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -11592,6 +11593,49 @@
             ]
           },
           "finger1": {
+            "item_id": 268249,
+            "item_level": 331,
+            "enchant": 7967,
+            "icon": "inv_121_jewelry_ring01_purple",
+            "name": "Vile Alchemist's Band",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240983
+            ],
+            "gems_detail": [
+              {
+                "id": 240983,
+                "name": "32 Primary",
+                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
+              }
+            ],
+            "enchants": [
+              7967
+            ],
+            "enchants_detail": [
+              {
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              6652,
+              13668,
+              13334,
+              12853
+            ]
+          },
+          "finger2": {
             "item_id": 272149,
             "item_level": 321,
             "enchant": 7967,
@@ -11630,50 +11674,6 @@
             "bonuses": [
               6652,
               13668,
-              12846
-            ]
-          },
-          "finger2": {
-            "item_id": 251136,
-            "item_level": 321,
-            "enchant": 7967,
-            "icon": "inv_12_jewelry_voidelf_ring_teal",
-            "name": "Signet of Snarling Servitude",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240983
-            ],
-            "gems_detail": [
-              {
-                "id": 240983,
-                "name": "32 Primary",
-                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              13668,
-              12699,
               12846
             ]
           },
@@ -11746,7 +11746,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8051
             ],
             "enchants_detail": [
               {
@@ -11766,11 +11767,11 @@
       },
       "raid_progression": {
         "the-unbinding-of-kithix": {
-          "summary": "",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-tidebound-grotto": {
@@ -29875,10 +29876,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-10T09:40:12.630Z",
-        "updated_at": "2026-10-10T09:40:12.630Z",
-        "source": "s3",
-        "item_level_equipped": 327,
+        "created_at": "2026-10-13T23:11:46.000Z",
+        "updated_at": "2026-10-13T23:11:46.000Z",
+        "source": "db",
+        "item_level_equipped": 328.562,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -29891,14 +29892,50 @@
         "items": {
           "head": {
             "item_id": 271492,
-            "item_level": 321,
+            "item_level": 334,
             "enchant": 8017,
             "icon": "inv_helm_mail_raidhunterulatek_d_01",
             "name": "Skulking Viper's Weeping Fangs",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -29919,10 +29956,13 @@
               }
             ],
             "bonuses": [
+              13335,
+              41,
+              12854,
               13696,
               13692,
               13698,
-              12846
+              1587
             ]
           },
           "neck": {
@@ -30426,7 +30466,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8051
             ],
             "enchants_detail": [
               {
@@ -30446,11 +30487,11 @@
       },
       "raid_progression": {
         "the-unbinding-of-kithix": {
-          "summary": "",
+          "summary": "1/1 H",
           "expansion_id": 11,
           "total_bosses": 1,
           "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
+          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 0
         },
         "the-tidebound-grotto": {
@@ -33970,7 +34011,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/212/252364244-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-10-13T08:56:16.000Z",
+      "last_crawled_at": "2026-10-13T22:07:23.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Lightpowa",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
