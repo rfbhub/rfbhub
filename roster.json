@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T17:35:24.336Z",
+  "updated": "2026-10-16T21:28:58.209Z",
   "rosterCount": 25,
   "mplusCount": 17,
   "guild": {
@@ -100,7 +100,7 @@
           "realm": 0
         },
         "heroic": {
-          "world": 2664,
+          "world": 2666,
           "region": 1149,
           "realm": 69
         },
@@ -122,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1680,
+          "world": 1683,
           "region": 552,
           "realm": 36
         }
@@ -139,11 +139,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 12480,
+      "achievement_points": 12505,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/63/264235583-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T13:25:22.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Magespheere",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -630,8 +630,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-16T13:25:24.790Z",
-        "updated_at": "2026-10-16T13:25:24.790Z",
+        "created_at": "2026-10-16T21:04:31.713Z",
+        "updated_at": "2026-10-16T21:04:31.713Z",
         "source": "s3",
         "item_level_equipped": 331,
         "item_level_total": 0,
@@ -918,6 +918,7 @@
           "hands": {
             "item_id": 268243,
             "item_level": 321,
+            "enchant": 8729,
             "icon": "inv_glove_cloth_raidwarlockulatek_d_01",
             "name": "Grasps of the Eternal Shadow",
             "item_quality": 4,
@@ -932,8 +933,16 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              8729
+            ],
+            "enchants_detail": [
+              {
+                "id": 283996,
+                "name": "|cnIQ4:Ancient Hash'ey Battle Art: Heat Wave|r",
+                "icon": "inv_10_inscription2_repcontracts_trade_archaeology_apexisscroll_uprez_color2"
+              }
+            ],
             "bonuses": [
               6652,
               13662,
@@ -1277,7 +1286,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/232/116693992-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-10-16T09:16:28.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Shredomatic",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -2441,25 +2450,25 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/66/239347522-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Stoneius",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3686.1,
+            "all": 3701,
             "dps": 1507.8,
-            "healer": 3686.1,
+            "healer": 3701,
             "tank": 0,
-            "spec_0": 3686.1,
+            "spec_0": 3701,
             "spec_1": 0,
             "spec_2": 1507.8,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3686.1,
+              "score": 3701,
               "color": "#dd5399"
             },
             "dps": {
@@ -2467,7 +2476,7 @@
               "color": "#8fff73"
             },
             "healer": {
-              "score": 3686.1,
+              "score": 3701,
               "color": "#dd5399"
             },
             "tank": {
@@ -2475,7 +2484,7 @@
               "color": "#ffffff"
             },
             "spec_0": {
-              "score": 3686.1,
+              "score": 3701,
               "color": "#dd5399"
             },
             "spec_1": {
@@ -2494,6 +2503,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 19,
+          "completed_at": "2026-10-16T19:04:10.000Z",
+          "clear_time_ms": 1861151,
+          "keystone_run_id": 20982956,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+          "score": 473.3,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20982956-19-murder-row",
+          "spec": {
+            "id": 65,
+            "name": "Holy",
+            "slug": "holy",
+            "class_id": 2,
+            "role": "healer",
+            "is_melee": false,
+            "patch": "1.0.0",
+            "ordinal": 0
+          },
+          "role": "healer"
+        },
         {
           "dungeon": "Den of Nalorakk",
           "short_name": "DON",
@@ -2644,60 +2707,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/18853282-18-temple-of-sethraliss",
-          "spec": {
-            "id": 65,
-            "name": "Holy",
-            "slug": "holy",
-            "class_id": 2,
-            "role": "healer",
-            "is_melee": false,
-            "patch": "1.0.0",
-            "ordinal": 0
-          },
-          "role": "healer"
-        },
-        {
-          "dungeon": "Murder Row",
-          "short_name": "MR",
-          "mythic_level": 18,
-          "completed_at": "2026-09-25T14:08:51.000Z",
-          "clear_time_ms": 1853492,
-          "keystone_run_id": 15532747,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 587,
-          "zone_id": 16091,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-          "score": 458.4,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/15532747-18-murder-row",
           "spec": {
             "id": 65,
             "name": "Holy",
@@ -2928,8 +2937,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-16T13:24:40.108Z",
-        "updated_at": "2026-10-16T13:24:40.108Z",
+        "created_at": "2026-10-16T21:04:28.760Z",
+        "updated_at": "2026-10-16T21:04:28.760Z",
         "source": "s3",
         "item_level_equipped": 329,
         "item_level_total": 0,
@@ -2945,7 +2954,7 @@
           "head": {
             "item_id": 271465,
             "item_level": 334,
-            "enchant": 7961,
+            "enchant": 8017,
             "icon": "inv_helm_plate_raidpaladinulatek_d_01",
             "name": "Warhelm of the Consecrated Flame",
             "item_quality": 4,
@@ -2998,12 +3007,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7961
+              8017
             ],
             "enchants_detail": [
               {
-                "id": 243951,
-                "name": "Enchant Helm - Empowered Hex of Leeching",
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3034,7 +3043,7 @@
             "domination_shards": [],
             "gems": [
               240983,
-              240900
+              240916
             ],
             "gems_detail": [
               {
@@ -3043,9 +3052,9 @@
                 "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
               },
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [],
@@ -3061,7 +3070,7 @@
           "shoulder": {
             "item_id": 271463,
             "item_level": 321,
-            "enchant": 8031,
+            "enchant": 8001,
             "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
             "name": "Pauldrons of the Consecrated Flame",
             "item_quality": 4,
@@ -3124,12 +3133,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8031
+              8001
             ],
             "enchants_detail": [
               {
-                "id": 244021,
-                "name": "Enchant Shoulders - Silvermoon's Mending",
+                "id": 243991,
+                "name": "Enchant Shoulders - Amirdrassil's Grace",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3270,13 +3279,13 @@
             },
             "domination_shards": [],
             "gems": [
-              240900
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [],
@@ -3360,7 +3369,7 @@
           "feet": {
             "item_id": 268260,
             "item_level": 334,
-            "enchant": 7993,
+            "enchant": 7963,
             "icon": "inv_boot_plate_raidpaladinulatek_d_01",
             "name": "Scaled Fiend's Warboots",
             "item_quality": 4,
@@ -3376,12 +3385,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7993
+              7963
             ],
             "enchants_detail": [
               {
-                "id": 243983,
-                "name": "Enchant Boots - Shaladrassil's Roots",
+                "id": 243953,
+                "name": "Enchant Boots - Lynx's Dexterity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3395,7 +3404,7 @@
           "finger1": {
             "item_id": 251136,
             "item_level": 334,
-            "enchant": 7969,
+            "enchant": 8027,
             "icon": "inv_12_jewelry_voidelf_ring_teal",
             "name": "Signet of Snarling Servitude",
             "item_quality": 4,
@@ -3409,22 +3418,22 @@
             },
             "domination_shards": [],
             "gems": [
-              240900
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [
-              7969
+              8027
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 244017,
+                "name": "Enchant Ring - Silvermoon's Tenacity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -3435,11 +3444,11 @@
             ]
           },
           "finger2": {
-            "item_id": 281029,
+            "item_id": 159459,
             "item_level": 321,
-            "enchant": 7969,
-            "icon": "inv_misc_questionmark",
-            "name": "Band of the Swarmcaller",
+            "enchant": 8027,
+            "icon": "inv_ring_80_03e",
+            "name": "Ritual Binder's Ring",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -3451,30 +3460,31 @@
             },
             "domination_shards": [],
             "gems": [
-              240900
+              240916
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240916,
+                "name": "16 Vers & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_blue"
               }
             ],
             "enchants": [
-              7969
+              8027
             ],
             "enchants_detail": [
               {
-                "id": 243959,
-                "name": "Enchant Ring - Zul'jin's Mast",
+                "id": 244017,
+                "name": "Enchant Ring - Silvermoon's Tenacity",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
+              13440,
               6652,
               13668,
-              13334,
-              12850
+              12699,
+              12846
             ]
           },
           "trinket1": {
@@ -3654,7 +3664,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/226/157861090-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T13:24:38.000Z",
+      "last_crawled_at": "2026-10-16T21:04:25.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Schisms",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4876,7 +4886,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/121/224562809-avatar.jpg?alt=/wow/static/images/2d/avatar/70-1.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Crackle",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -6030,11 +6040,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 13125,
+      "achievement_points": 13145,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/254/257766654-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T04:35:41.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Blimpi",
       "profile_banner": "classbanner_demon-hunter1",
       "mythic_plus_scores_by_season": [
@@ -7201,7 +7211,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/8/255143176-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T09:16:27.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Envenumb",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
@@ -8411,7 +8421,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-10-16T09:16:28.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -9612,7 +9622,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/210/165347282-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T09:16:27.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thinboi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -10794,7 +10804,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/90/267302234-avatar.jpg?alt=/wow/static/images/2d/avatar/2-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-15T07:41:23.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Vampiral",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11986,7 +11996,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/mannoroth/149/265888917-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Mannoroth",
-      "last_crawled_at": "2026-10-16T09:16:29.000Z",
+      "last_crawled_at": "2026-10-16T21:04:29.000Z",
       "profile_url": "https://raider.io/characters/us/mannoroth/Rukenji",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -13206,7 +13216,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/232/203548648-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T10:18:26.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -14450,7 +14460,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/79/268282447-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-16T13:25:23.000Z",
+      "last_crawled_at": "2026-10-16T21:04:30.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Hexxbone",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -15589,7 +15599,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/19/250437651-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-16T13:24:40.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Drob",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -16752,7 +16762,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-10-16T13:25:25.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -17853,7 +17863,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/137/151523209-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T09:16:33.000Z",
+      "last_crawled_at": "2026-10-16T21:04:25.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Deadscythe",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -19100,7 +19110,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/140/200908428-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T09:16:28.000Z",
+      "last_crawled_at": "2026-10-16T21:04:25.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Gazfrosty",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -20243,7 +20253,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/tichondrius/243/243949043-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Tichondrius",
-      "last_crawled_at": "2026-10-16T09:16:27.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/tichondrius/Gogi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -21390,7 +21400,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/145/268390289-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T13:25:23.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Disanyy",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -22519,7 +22529,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/187/187477179-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T13:24:38.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Blinkforlife",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -23684,7 +23694,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moon-guard/108/184824428-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Moon Guard",
-      "last_crawled_at": "2026-10-16T07:55:40.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/moon-guard/Mangobrew",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -24799,7 +24809,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/88/256839256-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:28.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Xnut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -25286,9 +25296,9 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-16T17:30:05.000Z",
-        "updated_at": "2026-10-16T17:30:05.000Z",
-        "source": "db",
+        "created_at": "2026-10-16T13:24:40.478Z",
+        "updated_at": "2026-10-16T13:24:40.478Z",
+        "source": "s3",
         "item_level_equipped": 331,
         "item_level_total": 0,
         "artifact_traits": 0,
@@ -25842,8 +25852,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6241,
-              8052
+              6241
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -25915,7 +25924,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-10-16T09:16:29.000Z",
+      "last_crawled_at": "2026-10-16T21:04:25.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -27106,7 +27115,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/35/264810531-avatar.jpg?alt=/wow/static/images/2d/avatar/11-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-13T08:56:16.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Veldak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -28311,7 +28320,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/77/268162637-avatar.jpg?alt=/wow/static/images/2d/avatar/29-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T09:16:28.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Solacker",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -29462,7 +29471,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/250/142223354-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T09:16:28.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thebigkahuna",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -30663,7 +30672,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/84/213712468-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-10-16T13:24:38.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Fauxtraut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -31727,7 +31736,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/213/247038165-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-13T00:26:15.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Devrak",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -32903,7 +32912,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/139/249592971-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-13T08:56:17.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Banehate",
       "profile_banner": "alliancebanner2",
       "mythic_plus_scores_by_season": [
@@ -34133,7 +34142,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/212/252364244-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Lightpowa",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -35261,11 +35270,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 21415,
+      "achievement_points": 21480,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/150/256355734-avatar.jpg?alt=/wow/static/images/2d/avatar/6-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-13T08:56:16.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Fnut",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -36386,7 +36395,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/73/256586825-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Znut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -37571,11 +37580,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 21590,
+      "achievement_points": 21595,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/163/256860579-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-15T20:33:24.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Nutbb",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -38713,7 +38722,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/25/241375001-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Minichong",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -39941,7 +39950,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/163/241700003-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-16T02:12:25.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Naharyi",
       "profile_banner": "hordebanner2",
       "mythic_plus_scores_by_season": [
@@ -41048,7 +41057,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/8/246223368-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-16T13:24:41.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Anjaleena",
       "profile_banner": "hordebanner2",
       "mythic_plus_scores_by_season": [
@@ -42171,11 +42180,11 @@
       "active_spec_role": "TANK",
       "gender": "female",
       "faction": "horde",
-      "achievement_points": 14770,
+      "achievement_points": 14840,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/216/232603096-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Semplice",
       "profile_banner": "classbanner_priest1",
       "mythic_plus_scores_by_season": [
@@ -43301,7 +43310,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/142/169499790-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-10-16T03:33:30.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Oulir",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -43788,10 +43797,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-16T05:28:59.000Z",
-        "updated_at": "2026-10-16T05:28:59.000Z",
-        "source": "db",
-        "item_level_equipped": 327.562,
+        "created_at": "2026-10-16T03:33:30.963Z",
+        "updated_at": "2026-10-16T03:33:30.963Z",
+        "source": "s3",
+        "item_level_equipped": 327,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -44007,7 +44016,7 @@
           },
           "back": {
             "item_id": 271523,
-            "item_level": 328,
+            "item_level": 331,
             "icon": "inv_cape_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Cloak",
             "item_quality": 4,
@@ -44026,7 +44035,7 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              12852
+              12853
             ]
           },
           "chest": {
@@ -44403,8 +44412,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
@@ -44478,7 +44486,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/118/267606390-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-16T13:25:24.000Z",
+      "last_crawled_at": "2026-10-16T21:04:26.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Cellte",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -44965,8 +44973,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-16T13:25:25.007Z",
-        "updated_at": "2026-10-16T13:25:25.007Z",
+        "created_at": "2026-10-16T21:04:28.244Z",
+        "updated_at": "2026-10-16T21:04:28.244Z",
         "source": "s3",
         "item_level_equipped": 326,
         "item_level_total": 0,
@@ -45333,11 +45341,11 @@
             ]
           },
           "legs": {
-            "item_id": 271878,
+            "item_id": 271455,
             "item_level": 324,
             "enchant": 8163,
-            "icon": "inv_pant_plate_raiddeathknightulatek_d_01",
-            "name": "Chausses of Unbound Rancor",
+            "icon": "inv_pant_plate_raidwarriorulatek_d_01",
+            "name": "Greaves of the Jade Warlord",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -45348,6 +45356,7 @@
               "total": 0
             },
             "domination_shards": [],
+            "tier": "36",
             "gems": [],
             "gems_detail": [],
             "enchants": [
@@ -45361,11 +45370,13 @@
               }
             ],
             "bonuses": [
-              6652,
-              13662,
+              12851,
               13334,
+              6652,
               13708,
-              12851
+              13693,
+              13698,
+              1577
             ]
           },
           "feet": {
@@ -45634,7 +45645,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/malganis/42/250221866-avatar.jpg?alt=/wow/static/images/2d/avatar/91-0.jpg",
       "region": "us",
       "realm": "Mal'Ganis",
-      "last_crawled_at": "2026-10-16T13:16:38.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/malganis/Dìscord",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -46770,11 +46781,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 21590,
+      "achievement_points": 21595,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/153/268300185-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-10-15T20:21:45.000Z",
+      "last_crawled_at": "2026-10-16T21:04:27.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Enut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -47880,7 +47891,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/207/250587087-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-10-16T13:24:39.000Z",
+      "last_crawled_at": "2026-10-16T21:04:28.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Andywar",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
