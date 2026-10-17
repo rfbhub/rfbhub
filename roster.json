@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T09:36:32.529Z",
+  "updated": "2026-10-17T13:49:46.634Z",
   "rosterCount": 25,
   "mplusCount": 17,
   "guild": {
@@ -100,8 +100,8 @@
           "realm": 0
         },
         "heroic": {
-          "world": 2666,
-          "region": 1149,
+          "world": 2667,
+          "region": 1150,
           "realm": 69
         },
         "mythic": {
@@ -122,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1534,
+          "world": 1535,
           "region": 491,
           "realm": 33
         }
@@ -16092,10 +16092,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-17T03:04:09.000Z",
-        "updated_at": "2026-10-17T03:04:09.000Z",
-        "source": "db",
-        "item_level_equipped": 331.375,
+        "created_at": "2026-10-15T04:54:22.895Z",
+        "updated_at": "2026-10-15T04:54:22.895Z",
+        "source": "s3",
+        "item_level_equipped": 331,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -16108,7 +16108,8 @@
         "items": {
           "head": {
             "item_id": 271456,
-            "item_level": 324,
+            "item_level": 321,
+            "enchant": 8017,
             "icon": "inv_helm_plate_raidwarriorulatek_d_01",
             "name": "Tempered Horns of the Jade Warlord",
             "item_quality": 4,
@@ -16170,15 +16171,23 @@
             "tier": "36",
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
+            "enchants": [
+              8017
+            ],
+            "enchants_detail": [
+              {
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
             "bonuses": [
-              12851,
-              13335,
-              13692,
               6652,
               13696,
-              13698
+              13440,
+              13692,
+              13698,
+              12846
             ]
           },
           "neck": {
@@ -16681,8 +16690,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
