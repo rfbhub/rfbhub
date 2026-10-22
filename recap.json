@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-21T01:24:46.306Z",
-  "weekStart": "2026-10-14",
-  "weekEnd": "2026-10-21",
+  "generated": "2026-10-22T01:24:23.113Z",
+  "weekStart": "2026-10-15",
+  "weekEnd": "2026-10-22",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
@@ -17,16 +17,23 @@
       {
         "name": "Minichong",
         "class": "Shaman",
-        "previous": 3544,
+        "previous": 3579,
         "current": 3714,
-        "gain": 170
+        "gain": 135
       },
       {
         "name": "Naharyi",
         "class": "Druid",
-        "previous": 3056,
-        "current": 3169,
-        "gain": 113
+        "previous": 3079,
+        "current": 3203,
+        "gain": 124
+      },
+      {
+        "name": "Thebigkahuna",
+        "class": "Hunter",
+        "previous": 3001,
+        "current": 3091,
+        "gain": 91
       },
       {
         "name": "Blimpi",
@@ -36,18 +43,11 @@
         "gain": 91
       },
       {
-        "name": "Thebigkahuna",
-        "class": "Hunter",
-        "previous": 3001,
-        "current": 3084,
-        "gain": 84
-      },
-      {
-        "name": "Hexxbone",
-        "class": "Death Knight",
-        "previous": 3608,
-        "current": 3677,
-        "gain": 69
+        "name": "Stoneius",
+        "class": "Paladin",
+        "previous": 3657,
+        "current": 3720,
+        "gain": 63
       }
     ],
     "parseSpotlight": [
@@ -76,41 +76,52 @@
         "gain": 5
       }
     ],
-    "gearMovers": [
-      {
-        "name": "Stoneius",
-        "class": "Paladin",
-        "previous": 273,
-        "current": 329,
-        "gain": 56
-      },
-      {
-        "name": "Naharyi",
-        "class": "Druid",
-        "previous": 319.4,
-        "current": 325.4,
-        "gain": 6
-      },
-      {
-        "name": "Drob",
-        "class": "Warrior",
-        "previous": 329,
-        "current": 332.8,
-        "gain": 3.8
-      },
-      {
-        "name": "Lightpowa",
-        "class": "Paladin",
-        "previous": 323,
-        "current": 326.1,
-        "gain": 3.1
-      },
+    "newPinkParses": [
       {
         "name": "Crackle",
         "class": "Evoker",
-        "previous": 325,
-        "current": 328,
-        "gain": 3
+        "boss": "The Twin Fangs",
+        "parse": 99,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 49063
+      }
+    ],
+    "gearMovers": [
+      {
+        "name": "Lionroar",
+        "class": "Druid",
+        "previous": 329.8,
+        "current": 334,
+        "gain": 4.2
+      },
+      {
+        "name": "Hexxbone",
+        "class": "Death Knight",
+        "previous": 329.8,
+        "current": 333.6,
+        "gain": 3.8
+      },
+      {
+        "name": "Hashmaker",
+        "class": "Paladin",
+        "previous": 331.4,
+        "current": 334.8,
+        "gain": 3.4
+      },
+      {
+        "name": "Thinboi",
+        "class": "Hunter",
+        "previous": 328.8,
+        "current": 332.2,
+        "gain": 3.4
+      },
+      {
+        "name": "Deadscythe",
+        "class": "Demon Hunter",
+        "previous": 329.6,
+        "current": 333,
+        "gain": 3.4
       }
     ],
     "highKeyPushers": [
@@ -139,8 +150,8 @@
         "currentKey": 18
       },
       {
-        "name": "Xnut",
-        "class": "Death Knight",
+        "name": "Vampiral",
+        "class": "Hunter",
         "previousKey": 16,
         "currentKey": 17
       }
@@ -150,9 +161,17 @@
         "name": "Drób",
         "class": "Druid",
         "spec": "Feral",
-        "ilvl": 328,
+        "ilvl": 329.9,
         "rio": 3720,
         "progression": "8/8 H"
+      },
+      {
+        "name": "Trillabark",
+        "class": "Shaman",
+        "spec": "Restoration",
+        "ilvl": 331.4,
+        "rio": 3491,
+        "progression": "5/8 M"
       },
       {
         "name": "Blinkbeam",
@@ -167,26 +186,26 @@
   "summary": {
     "totalRaiders": 21,
     "rosterDelta": -4,
-    "avgRio": 3430,
-    "rioDelta": 31,
-    "avgIlvl": 330,
-    "ilvlDelta": 3.9,
-    "avgMythicParse": 49,
-    "parseDelta": 0,
+    "avgRio": 3410,
+    "rioDelta": 7,
+    "avgIlvl": 331.2,
+    "ilvlDelta": 2.1,
+    "avgMythicParse": 51,
+    "parseDelta": 2,
     "mythicRaidersCount": 20,
-    "totalMythicKills": 131,
+    "totalMythicKills": 134,
     "highestKey": 21,
     "highestKeyPlayer": "Hersin",
     "highestKeyClass": "Warrior",
-    "enchantPct": 95,
-    "fullyEnchanted": 20,
+    "enchantPct": 86,
+    "fullyEnchanted": 18,
     "parseDistribution": {
-      "pink": 4,
+      "pink": 5,
       "orange": 3,
       "purple": 25,
-      "blue": 35
+      "blue": 39
     },
-    "totalCategories": 6,
-    "totalHighlights": 21
+    "totalCategories": 7,
+    "totalHighlights": 23
   }
 }
