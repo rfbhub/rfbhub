@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T10:24:40.869Z",
+  "updated": "2026-10-22T15:27:27.442Z",
   "rosterCount": 21,
   "mplusCount": 24,
   "guild": {
@@ -49,7 +49,7 @@
           "realm": 225
         },
         "heroic": {
-          "world": 11198,
+          "world": 11199,
           "region": 5275,
           "realm": 369
         },
@@ -78,7 +78,7 @@
       },
       "the-tidebound-grotto": {
         "normal": {
-          "world": 3776,
+          "world": 3777,
           "region": 1943,
           "realm": 128
         },
@@ -122,8 +122,8 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1449,
-          "region": 511,
+          "world": 1462,
+          "region": 514,
           "realm": 33
         }
       }
@@ -4216,10 +4216,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-20T09:59:30.651Z",
-        "updated_at": "2026-10-20T09:59:30.651Z",
-        "source": "s3",
-        "item_level_equipped": 331,
+        "created_at": "2026-10-22T04:08:33.000Z",
+        "updated_at": "2026-10-22T04:08:33.000Z",
+        "source": "db",
+        "item_level_equipped": 331.438,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -4766,7 +4766,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              6498
             ],
             "enchants_detail": [
               {
@@ -4784,6 +4785,7 @@
           "offhand": {
             "item_id": 237831,
             "item_level": 331,
+            "enchant": 7528,
             "icon": "inv_shield_1h_questbloodelf_b_01",
             "name": "Spellbreaker's Rebuke",
             "item_quality": 4,
@@ -4798,7 +4800,9 @@
             "domination_shards": [],
             "gems": [],
             "gems_detail": [],
-            "enchants": [],
+            "enchants": [
+              7528
+            ],
             "enchants_detail": [],
             "bonuses": [
               12214,
@@ -15026,10 +15030,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-22T04:08:33.000Z",
-        "updated_at": "2026-10-22T04:08:33.000Z",
+        "created_at": "2026-10-22T14:18:20.000Z",
+        "updated_at": "2026-10-22T14:18:20.000Z",
         "source": "db",
-        "item_level_equipped": 333.562,
+        "item_level_equipped": 332.812,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15561,11 +15565,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268213,
-            "item_level": 340,
-            "enchant": 6245,
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "name": "Maze-roa, Warlord's Fury",
+            "item_id": 268209,
+            "item_level": 334,
+            "enchant": 3368,
+            "icon": "inv_axe_1h_ulatek_d_01",
+            "name": "Aman'muso, Warlord's Vengeance",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15579,14 +15583,44 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245,
+              3368,
               8052
             ],
             "enchants_detail": [],
             "bonuses": [
               6652,
               13334,
-              12856
+              12854
+            ]
+          },
+          "offhand": {
+            "item_id": 268202,
+            "item_level": 334,
+            "enchant": 3847,
+            "icon": "inv_sword_1h_ulatek_d_01",
+            "name": "Jaw of the Shackled Goddess",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              3847,
+              8052
+            ],
+            "enchants_detail": [],
+            "bonuses": [
+              6652,
+              13334,
+              13847,
+              12854
             ]
           }
         }
