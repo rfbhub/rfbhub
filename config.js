@@ -67,7 +67,7 @@ const CONFIG = {
 
   // Recruitment block
   recruitment: {
-    status: "open",
+    status: "closed",
     needs: "Exceptional Players",
     notes: "Mythic experience required",
     closedMessage: "Exceptional players are always welcome to apply",
