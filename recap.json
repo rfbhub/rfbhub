@@ -1,25 +1,25 @@
 {
-  "generated": "2026-10-27T01:54:08.316Z",
-  "weekStart": "2026-10-20",
-  "weekEnd": "2026-10-27",
+  "generated": "2026-10-28T02:04:34.075Z",
+  "weekStart": "2026-10-21",
+  "weekEnd": "2026-10-28",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
   "categories": {
     "topClimbers": [
       {
-        "name": "Drób",
-        "class": "Druid",
-        "previous": 3679,
-        "current": 3830,
-        "gain": 151
-      },
-      {
         "name": "Hashmaker",
         "class": "Paladin",
         "previous": 3661,
-        "current": 3786,
-        "gain": 125
+        "current": 3805,
+        "gain": 144
+      },
+      {
+        "name": "Stoneius",
+        "class": "Paladin",
+        "previous": 3720,
+        "current": 3838,
+        "gain": 118
       },
       {
         "name": "Gogi",
@@ -29,18 +29,39 @@
         "gain": 118
       },
       {
-        "name": "Thebigkahuna",
-        "class": "Hunter",
-        "previous": 3055,
-        "current": 3157,
-        "gain": 102
+        "name": "Xnut",
+        "class": "Death Knight",
+        "previous": 3400,
+        "current": 3510,
+        "gain": 110
       },
       {
-        "name": "Minichong",
-        "class": "Shaman",
-        "previous": 3688,
-        "current": 3775,
-        "gain": 87
+        "name": "Drób",
+        "class": "Druid",
+        "previous": 3720,
+        "current": 3830,
+        "gain": 110
+      }
+    ],
+    "parseSpotlight": [
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "difficulty": "Mythic",
+        "previous": 24,
+        "current": 34,
+        "gain": 10
+      }
+    ],
+    "newPinkParses": [
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "boss": "The Twin Fangs",
+        "parse": 99,
+        "previousParse": 5,
+        "difficulty": "Mythic",
+        "dps": 49063
       }
     ],
     "newOrangeParses": [
@@ -60,53 +81,59 @@
         "class": "Death Knight",
         "milestone": "Keystone Myth",
         "threshold": 3400,
-        "score": 3465,
+        "score": 3510,
         "previousScore": 3400
       }
     ],
     "gearMovers": [
       {
-        "name": "Enhance",
-        "class": "Shaman",
-        "previous": 294,
-        "current": 332.9,
-        "gain": 38.9
-      },
-      {
-        "name": "Crackle",
-        "class": "Evoker",
-        "previous": 325,
-        "current": 331,
-        "gain": 6
+        "name": "Shredomatic",
+        "class": "Druid",
+        "previous": 326,
+        "current": 331.4,
+        "gain": 5.4
       },
       {
         "name": "Thinboi",
         "class": "Hunter",
         "previous": 329,
-        "current": 334.2,
-        "gain": 5.2
-      },
-      {
-        "name": "Lionroar",
-        "class": "Druid",
-        "previous": 329,
         "current": 334,
         "gain": 5
       },
       {
-        "name": "Drób",
-        "class": "Druid",
-        "previous": 325.9,
-        "current": 330.9,
+        "name": "Hexxbone",
+        "class": "Death Knight",
+        "previous": 330,
+        "current": 335,
         "gain": 5
+      },
+      {
+        "name": "Deadscythe",
+        "class": "Demon Hunter",
+        "previous": 330,
+        "current": 335,
+        "gain": 5
+      },
+      {
+        "name": "Magespheere",
+        "class": "Mage",
+        "previous": 331,
+        "current": 335.2,
+        "gain": 4.2
       }
     ],
     "highKeyPushers": [
       {
+        "name": "Hersin",
+        "class": "Warrior",
+        "previousKey": 21,
+        "currentKey": 22
+      },
+      {
         "name": "Stoneius",
         "class": "Paladin",
         "previousKey": 19,
-        "currentKey": 20
+        "currentKey": 21
       },
       {
         "name": "Hashmaker",
@@ -121,16 +148,10 @@
         "currentKey": 19
       },
       {
-        "name": "Vampiral",
-        "class": "Hunter",
-        "previousKey": 16,
-        "currentKey": 17
-      },
-      {
-        "name": "Thebigkahuna",
-        "class": "Hunter",
-        "previousKey": 14,
-        "currentKey": 15
+        "name": "Enhance",
+        "class": "Shaman",
+        "previousKey": 17,
+        "currentKey": 18
       }
     ],
     "newFaces": [
@@ -146,7 +167,7 @@
         "name": "Trillabark",
         "class": "Shaman",
         "spec": "Restoration",
-        "ilvl": 331.9,
+        "ilvl": 331,
         "rio": 3491,
         "progression": "5/8 M"
       },
@@ -162,35 +183,43 @@
         "name": "Blinkvoker",
         "class": "Evoker",
         "spec": "Augmentation",
-        "ilvl": 325,
+        "ilvl": 326,
         "rio": 3018,
         "progression": "7/8 H"
+      },
+      {
+        "name": "Chronox",
+        "class": "Paladin",
+        "spec": "Holy",
+        "ilvl": 330.3,
+        "rio": 3011,
+        "progression": "6/8 H"
       }
     ]
   },
   "summary": {
     "totalRaiders": 21,
-    "rosterDelta": -1,
-    "avgRio": 3438,
-    "rioDelta": -6,
-    "avgIlvl": 330.5,
-    "ilvlDelta": 4.4,
-    "avgMythicParse": 53,
-    "parseDelta": 4,
-    "mythicRaidersCount": 19,
-    "totalMythicKills": 127,
-    "highestKey": 21,
+    "rosterDelta": 0,
+    "avgRio": 3448,
+    "rioDelta": 18,
+    "avgIlvl": 332.7,
+    "ilvlDelta": 2.7,
+    "avgMythicParse": 52,
+    "parseDelta": 3,
+    "mythicRaidersCount": 20,
+    "totalMythicKills": 133,
+    "highestKey": 22,
     "highestKeyPlayer": "Hersin",
     "highestKeyClass": "Warrior",
-    "enchantPct": 100,
-    "fullyEnchanted": 21,
+    "enchantPct": 90,
+    "fullyEnchanted": 19,
     "parseDistribution": {
-      "pink": 4,
+      "pink": 5,
       "orange": 4,
       "purple": 26,
-      "blue": 37
+      "blue": 38
     },
-    "totalCategories": 6,
-    "totalHighlights": 21
+    "totalCategories": 8,
+    "totalHighlights": 24
   }
 }
