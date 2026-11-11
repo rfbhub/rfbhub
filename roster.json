@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T06:52:08.668Z",
+  "updated": "2026-11-11T15:29:41.218Z",
   "rosterCount": 21,
   "mplusCount": 28,
   "guild": {
@@ -122,8 +122,8 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1915,
-          "region": 660,
+          "world": 1933,
+          "region": 666,
           "realm": 43
         }
       }
@@ -15705,7 +15705,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/148/267828372-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-10T10:45:50.000Z",
+      "last_crawled_at": "2026-11-11T07:49:48.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Drób",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -16192,10 +16192,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-11T03:04:40.000Z",
-        "updated_at": "2026-11-11T03:04:40.000Z",
-        "source": "db",
-        "item_level_equipped": 335.438,
+        "created_at": "2026-11-11T07:49:48.226Z",
+        "updated_at": "2026-11-11T07:49:48.226Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -16811,8 +16811,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -17378,10 +17377,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-10T21:08:41.000Z",
-        "updated_at": "2026-11-10T21:08:41.000Z",
-        "source": "db",
-        "item_level_equipped": 335.25,
+        "created_at": "2026-11-06T00:55:27.899Z",
+        "updated_at": "2026-11-06T00:55:27.899Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -17395,7 +17394,7 @@
           "head": {
             "item_id": 271456,
             "item_level": 334,
-            "enchant": 8015,
+            "enchant": 8017,
             "icon": "inv_helm_plate_raidwarriorulatek_d_01",
             "name": "Tempered Horns of the Jade Warlord",
             "item_quality": 4,
@@ -17403,7 +17402,17 @@
             "is_azerite_armor": true,
             "azerite_powers": [
               null,
-              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
               {
                 "id": 580,
                 "spell": {
@@ -17438,20 +17447,19 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8015
+              8017
             ],
             "enchants_detail": [
               {
-                "id": 244005,
-                "name": "Enchant Helm - Rune of Avoidance",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
+                "id": 244007,
+                "name": "Enchant Helm - Empowered Rune of Avoidance",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              13334,
-              6652,
+              13335,
               12854,
-              14049,
+              43,
               13696,
               13692,
               13698,
@@ -17666,22 +17674,13 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [
-              240900
-            ],
-            "gems_detail": [
-              {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
               12214,
               13667,
-              13695,
               12497,
               13751,
               14001,
@@ -17889,10 +17888,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270173,
+            "item_id": 270165,
             "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "name": "Zul'jin's Guillotine Technique",
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green",
+            "name": "Keeper's Seething Core",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -17909,7 +17908,7 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13334,
+              13335,
               12856
             ]
           },
@@ -17939,11 +17938,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268213,
+            "item_id": 268202,
             "item_level": 341,
-            "enchant": 8689,
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "name": "Maze-roa, Warlord's Fury",
+            "enchant": 8039,
+            "icon": "inv_sword_1h_ulatek_d_01",
+            "name": "Jaw of the Shackled Goddess",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -17957,20 +17956,44 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
-                "id": 273072,
-                "name": "Rite of the Hash'ey",
+                "id": 244029,
+                "name": "Enchant Weapon - Acuity of the Ren'dorei",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
               6652,
               13334,
-              13696,
+              13847,
+              12856
+            ]
+          },
+          "offhand": {
+            "item_id": 268262,
+            "item_level": 341,
+            "icon": "inv_shield_1h_ulatek_d_01",
+            "name": "Bubblefin Splash Guard",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              40,
+              13335,
               12856
             ]
           }
