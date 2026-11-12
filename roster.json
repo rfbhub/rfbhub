@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T22:07:23.355Z",
+  "updated": "2026-11-12T03:10:59.252Z",
   "rosterCount": 21,
-  "mplusCount": 28,
+  "mplusCount": 27,
   "guild": {
     "name": "Rolling For Blame",
     "raid_progression": {
@@ -122,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1974,
+          "world": 1978,
           "region": 668,
           "realm": 44
         }
@@ -135,7 +135,7 @@
       "name": "Shredomatic",
       "race": "Tauren",
       "class": "Druid",
-      "active_spec_name": "Feral",
+      "active_spec_name": "Balance",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "horde",
@@ -143,7 +143,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/232/116693992-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-11-09T18:25:50.000Z",
+      "last_crawled_at": "2026-11-12T02:26:48.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Shredomatic",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -630,8 +630,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-09T18:25:51.950Z",
-        "updated_at": "2026-11-09T18:25:51.950Z",
+        "created_at": "2026-11-12T02:26:49.677Z",
+        "updated_at": "2026-11-12T02:26:49.677Z",
         "source": "s3",
         "item_level_equipped": 334,
         "item_level_total": 0,
@@ -998,10 +998,10 @@
             ]
           },
           "hands": {
-            "item_id": 244575,
-            "item_level": 331,
-            "icon": "inv_glove_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Handwraps",
+            "item_id": 268234,
+            "item_level": 334,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
+            "name": "Ruthless Slaughtergrips",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1017,21 +1017,16 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              14001,
-              8960,
-              12384,
-              8793,
-              13836
+              6652,
+              13662,
+              13334,
+              12854
             ]
           },
           "legs": {
             "item_id": 271527,
             "item_level": 334,
-            "enchant": 8159,
+            "enchant": 7935,
             "icon": "inv_pant_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Leggings",
             "item_quality": 4,
@@ -1048,21 +1043,20 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8159
+              7935
             ],
             "enchants_detail": [
               {
-                "id": 244641,
-                "name": "41 Agi/Str & 115 Sta",
-                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
+                "id": 240133,
+                "name": "41 Int & 115 Sta",
+                "icon": "inv_tailoring_spellthread_orange_spellthread"
               }
             ],
             "bonuses": [
-              13334,
-              41,
+              12854,
               13693,
               13698,
-              12854
+              1587
             ]
           },
           "feet": {
@@ -1104,49 +1098,6 @@
             ]
           },
           "finger1": {
-            "item_id": 281029,
-            "item_level": 334,
-            "enchant": 7967,
-            "icon": "inv_misc_questionmark",
-            "name": "Band of the Swarmcaller",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              6652,
-              13668,
-              13334,
-              12854
-            ]
-          },
-          "finger2": {
             "item_id": 240949,
             "item_level": 331,
             "enchant": 7967,
@@ -1192,7 +1143,76 @@
               13836
             ]
           },
+          "finger2": {
+            "item_id": 281029,
+            "item_level": 334,
+            "enchant": 7967,
+            "icon": "inv_misc_questionmark",
+            "name": "Band of the Swarmcaller",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240906
+            ],
+            "gems_detail": [
+              {
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+              }
+            ],
+            "enchants": [
+              7967
+            ],
+            "enchants_detail": [
+              {
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              6652,
+              13668,
+              13334,
+              12854
+            ]
+          },
           "trinket1": {
+            "item_id": 273796,
+            "item_level": 321,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile",
+            "name": "Vile Vial of Volatile Venom",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12846
+            ]
+          },
+          "trinket2": {
             "item_id": 281215,
             "item_level": 341,
             "icon": "inv_misc_questionmark",
@@ -1217,37 +1237,12 @@
               12856
             ]
           },
-          "trinket2": {
-            "item_id": 270175,
-            "item_level": 334,
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "name": "Voracious Heart of Ula'tek",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13334,
-              12854
-            ]
-          },
           "mainhand": {
-            "item_id": 268215,
-            "item_level": 334,
+            "item_id": 271092,
+            "item_level": 341,
             "enchant": 8689,
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "name": "Abyssal Broodfiend's Bardiche",
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
+            "name": "Jan'thrazet, the Soul Fang",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1271,10 +1266,40 @@
               }
             ],
             "bonuses": [
-              42,
+              6652,
               13334,
-              13846,
-              12854
+              12856
+            ]
+          },
+          "offhand": {
+            "item_id": 245769,
+            "item_level": 337,
+            "icon": "inv_offhand_1h_dungeonharronir_c_01",
+            "name": "Aln'hara Lantern",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              12214,
+              13852,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
             ]
           }
         }
@@ -1340,7 +1365,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/250/142223354-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-09T18:32:44.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Thebigkahuna",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -2545,7 +2570,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/wyrmrest-accord/36/176507940-avatar.jpg?alt=/wow/static/images/2d/avatar/8-0.jpg",
       "region": "us",
       "realm": "Wyrmrest Accord",
-      "last_crawled_at": "2026-11-05T01:06:18.000Z",
+      "last_crawled_at": "2026-11-12T02:26:48.000Z",
       "profile_url": "https://raider.io/characters/us/wyrmrest-accord/Trillabark",
       "profile_banner": "classbanner_monk1",
       "mythic_plus_scores_by_season": [
@@ -3032,10 +3057,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-07T04:02:58.000Z",
-        "updated_at": "2026-11-07T04:02:58.000Z",
-        "source": "db",
-        "item_level_equipped": 332.25,
+        "created_at": "2026-10-31T19:05:18.217Z",
+        "updated_at": "2026-10-31T19:05:18.217Z",
+        "source": "s3",
+        "item_level_equipped": 332,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3582,8 +3607,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              6498
+              8039
             ],
             "enchants_detail": [
               {
@@ -3695,7 +3719,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/226/157861090-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-10T03:51:44.000Z",
+      "last_crawled_at": "2026-11-12T00:40:59.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Schisms",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4922,7 +4946,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/antonidas/113/168425329-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Antonidas",
-      "last_crawled_at": "2026-11-08T23:54:32.000Z",
+      "last_crawled_at": "2026-11-12T02:26:48.000Z",
       "profile_url": "https://raider.io/characters/us/antonidas/Dadda",
       "profile_banner": "classbanner_hunter1",
       "mythic_plus_scores_by_season": [
@@ -5409,10 +5433,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-11T18:50:16.000Z",
-        "updated_at": "2026-11-11T18:50:16.000Z",
-        "source": "db",
-        "item_level_equipped": 334.562,
+        "created_at": "2026-11-12T02:26:48.565Z",
+        "updated_at": "2026-11-12T02:26:48.565Z",
+        "source": "s3",
+        "item_level_equipped": 334,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -6028,8 +6052,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -8477,7 +8500,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/8/255143176-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-09T18:27:43.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Envenumb",
       "profile_banner": "classbanner_rogue1",
       "mythic_plus_scores_by_season": [
@@ -8964,8 +8987,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-09T18:27:44.153Z",
-        "updated_at": "2026-11-09T18:27:44.153Z",
+        "created_at": "2026-11-12T02:26:49.713Z",
+        "updated_at": "2026-11-12T02:26:49.713Z",
         "source": "s3",
         "item_level_equipped": 335,
         "item_level_total": 0,
@@ -8989,17 +9012,7 @@
             "is_azerite_armor": true,
             "azerite_powers": [
               null,
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
+              null,
               {
                 "id": 580,
                 "spell": {
@@ -9031,8 +9044,16 @@
             },
             "domination_shards": [],
             "tier": "36",
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240906
+            ],
+            "gems_detail": [
+              {
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+              }
+            ],
             "enchants": [
               8017
             ],
@@ -9050,7 +9071,8 @@
               13847,
               13692,
               13698,
-              12854
+              12854,
+              13695
             ]
           },
           "neck": {
@@ -9710,7 +9732,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-11-09T19:45:04.000Z",
+      "last_crawled_at": "2026-11-12T00:31:50.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -12069,7 +12091,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/mannoroth/149/265888917-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Mannoroth",
-      "last_crawled_at": "2026-11-09T18:45:55.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/mannoroth/Rukenji",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -13302,7 +13324,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/232/203548648-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-05T01:03:30.000Z",
+      "last_crawled_at": "2026-11-12T02:26:48.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -13789,10 +13811,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-05T03:59:19.000Z",
-        "updated_at": "2026-11-05T03:59:19.000Z",
-        "source": "db",
-        "item_level_equipped": 335.375,
+        "created_at": "2026-11-12T02:26:49.619Z",
+        "updated_at": "2026-11-12T02:26:49.619Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14427,8 +14449,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5401
+              8689
             ],
             "enchants_detail": [
               {
@@ -14463,8 +14484,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5400
+              8689
             ],
             "enchants_detail": [
               {
@@ -14547,7 +14567,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/79/268282447-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-11-09T13:44:31.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Hexxbone",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -15034,10 +15054,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-10T23:44:42.000Z",
-        "updated_at": "2026-11-10T23:44:42.000Z",
-        "source": "db",
-        "item_level_equipped": 335.438,
+        "created_at": "2026-11-12T02:26:51.038Z",
+        "updated_at": "2026-11-12T02:26:51.038Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -15603,8 +15623,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              3368,
-              8052
+              3368
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -15632,8 +15651,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              3847,
-              8052
+              3847
             ],
             "enchants_detail": [],
             "bonuses": [
@@ -15706,7 +15724,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/148/267828372-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-11T07:49:48.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Drób",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -16891,7 +16909,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-11-10T10:34:49.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -17378,10 +17396,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-10T21:08:41.000Z",
-        "updated_at": "2026-11-10T21:08:41.000Z",
-        "source": "db",
-        "item_level_equipped": 335.25,
+        "created_at": "2026-11-12T02:26:51.008Z",
+        "updated_at": "2026-11-12T02:26:51.008Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -17889,10 +17907,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270173,
+            "item_id": 281215,
             "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "name": "Zul'jin's Guillotine Technique",
+            "icon": "inv_misc_questionmark",
+            "name": "Twisted Horror's Tendril",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -17914,10 +17932,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 270175,
+            "item_id": 270165,
             "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "name": "Voracious Heart of Ula'tek",
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green",
+            "name": "Keeper's Seething Core",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -17934,16 +17952,16 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13334,
+              13335,
               12856
             ]
           },
           "mainhand": {
-            "item_id": 268213,
+            "item_id": 268202,
             "item_level": 341,
-            "enchant": 8689,
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "name": "Maze-roa, Warlord's Fury",
+            "enchant": 8039,
+            "icon": "inv_sword_1h_ulatek_d_01",
+            "name": "Jaw of the Shackled Goddess",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -17957,20 +17975,44 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
-                "id": 273072,
-                "name": "Rite of the Hash'ey",
+                "id": 244029,
+                "name": "Enchant Weapon - Acuity of the Ren'dorei",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
               6652,
               13334,
-              13696,
+              13847,
+              12856
+            ]
+          },
+          "offhand": {
+            "item_id": 268262,
+            "item_level": 341,
+            "icon": "inv_shield_1h_ulatek_d_01",
+            "name": "Bubblefin Splash Guard",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              40,
+              13335,
               12856
             ]
           }
@@ -18037,7 +18079,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/137/151523209-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-09T18:45:57.000Z",
+      "last_crawled_at": "2026-11-12T02:26:47.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Deadscythe",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -20411,7 +20453,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/tichondrius/243/243949043-avatar.jpg?alt=/wow/static/images/2d/avatar/29-0.jpg",
       "region": "us",
       "realm": "Tichondrius",
-      "last_crawled_at": "2026-11-06T00:35:29.000Z",
+      "last_crawled_at": "2026-11-12T02:26:47.000Z",
       "profile_url": "https://raider.io/characters/us/tichondrius/Gogi",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -20898,10 +20940,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-07T04:02:58.000Z",
-        "updated_at": "2026-11-07T04:02:58.000Z",
-        "source": "db",
-        "item_level_equipped": 335.125,
+        "created_at": "2026-10-31T19:05:18.084Z",
+        "updated_at": "2026-10-31T19:05:18.084Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -21448,8 +21490,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -23800,15 +23841,15 @@
       "name": "Lionroar",
       "race": "Night Elf",
       "class": "Druid",
-      "active_spec_name": "Balance",
-      "active_spec_role": "DPS",
+      "active_spec_name": "Restoration",
+      "active_spec_role": "HEALING",
       "gender": "male",
       "faction": "alliance",
       "achievement_points": 50250,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-11-09T19:38:42.000Z",
+      "last_crawled_at": "2026-11-12T02:25:51.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -24295,10 +24336,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-09T19:38:44.558Z",
-        "updated_at": "2026-11-09T19:38:44.558Z",
+        "created_at": "2026-11-12T02:25:51.218Z",
+        "updated_at": "2026-11-12T02:25:51.218Z",
         "source": "s3",
-        "item_level_equipped": 333,
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -24838,32 +24879,6 @@
             ]
           },
           "trinket1": {
-            "item_id": 273796,
-            "item_level": 321,
-            "icon": "inv_121_trinket_dungeon_ulatek_vile",
-            "name": "Vile Vial of Volatile Venom",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              13440,
-              41,
-              12699,
-              12846
-            ]
-          },
-          "trinket2": {
             "item_id": 270167,
             "item_level": 341,
             "icon": "inv_tradeskillitem_sorcererswater",
@@ -24885,6 +24900,32 @@
             "bonuses": [
               6652,
               13335,
+              12856
+            ]
+          },
+          "trinket2": {
+            "item_id": 270162,
+            "item_level": 341,
+            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
+            "name": "Soulcoiler Ritual Vessel",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              6652,
+              13334,
+              13696,
               12856
             ]
           },
@@ -29639,7 +29680,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/212/252364244-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-11-05T02:24:23.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Lightpowa",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -30126,8 +30167,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-27T20:18:58.168Z",
-        "updated_at": "2026-10-27T20:18:58.168Z",
+        "created_at": "2026-11-12T02:26:51.138Z",
+        "updated_at": "2026-11-12T02:26:51.138Z",
         "source": "s3",
         "item_level_equipped": 329,
         "item_level_total": 0,
@@ -30639,7 +30680,7 @@
           },
           "mainhand": {
             "item_id": 268202,
-            "item_level": 334,
+            "item_level": 341,
             "enchant": 8039,
             "icon": "inv_sword_1h_ulatek_d_01",
             "name": "Jaw of the Shackled Goddess",
@@ -30669,7 +30710,7 @@
               6652,
               13334,
               13847,
-              12854
+              12856
             ]
           },
           "offhand": {
@@ -30761,7 +30802,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/145/256013457-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-10T05:35:46.000Z",
+      "last_crawled_at": "2026-11-12T01:05:48.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Fuluu",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -36630,26 +36671,26 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/163/241700003-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-11-08T14:51:28.000Z",
+      "last_crawled_at": "2026-11-12T02:26:49.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Naharyi",
       "profile_banner": "hordebanner2",
       "mythic_plus_scores_by_season": [
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3380,
+            "all": 3388.1,
             "dps": 0,
             "healer": 0,
-            "tank": 3380,
+            "tank": 3388.1,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3380,
+            "spec_2": 3388.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3380,
-              "color": "#9643ec"
+              "score": 3388.1,
+              "color": "#9d3ded"
             },
             "dps": {
               "score": 0,
@@ -36660,8 +36701,8 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 3380,
-              "color": "#9643ec"
+              "score": 3388.1,
+              "color": "#9d3ded"
             },
             "spec_0": {
               "score": 0,
@@ -36672,8 +36713,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3380,
-              "color": "#9643ec"
+              "score": 3388.1,
+              "color": "#9d3ded"
             },
             "spec_3": {
               "score": 0,
@@ -36686,10 +36727,10 @@
         {
           "dungeon": "Altar of Fangs",
           "short_name": "AOF",
-          "mythic_level": 16,
-          "completed_at": "2026-10-28T23:44:09.000Z",
-          "clear_time_ms": 1462373,
-          "keystone_run_id": 23598963,
+          "mythic_level": 17,
+          "completed_at": "2026-11-11T23:29:26.000Z",
+          "clear_time_ms": 1791513,
+          "keystone_run_id": 25477714,
           "par_time_ms": 1800999,
           "num_keystone_upgrades": 1,
           "map_challenge_mode_id": 588,
@@ -36697,7 +36738,7 @@
           "zone_expansion_id": 11,
           "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
           "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
-          "score": 432,
+          "score": 440.2,
           "affixes": [
             {
               "id": 10,
@@ -36724,7 +36765,7 @@
               "wowhead_url": "https://wowhead.com/affix=147"
             }
           ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/23598963-16-altar-of-fangs",
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25477714-17-altar-of-fangs",
           "spec": {
             "id": 104,
             "name": "Guardian",
@@ -37117,10 +37158,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-11T02:08:08.000Z",
-        "updated_at": "2026-11-11T02:08:08.000Z",
-        "source": "db",
-        "item_level_equipped": 327.938,
+        "created_at": "2026-11-12T02:26:49.746Z",
+        "updated_at": "2026-11-12T02:26:49.746Z",
+        "source": "s3",
+        "item_level_equipped": 329,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -37526,7 +37567,7 @@
           },
           "feet": {
             "item_id": 268247,
-            "item_level": 324,
+            "item_level": 328,
             "enchant": 7993,
             "icon": "inv_boot_leather_raiddemonhunterulatek_d_01",
             "name": "Breakwater Boots",
@@ -37556,7 +37597,7 @@
               6652,
               13662,
               13334,
-              12851
+              12852
             ]
           },
           "finger1": {
@@ -37649,10 +37690,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270167,
+            "item_id": 270165,
             "item_level": 334,
-            "icon": "inv_tradeskillitem_sorcererswater",
-            "name": "Wavecaller's Seastone",
+            "icon": "inv_121_trinket_raid_ulatek_golemhearts_green",
+            "name": "Keeper's Seething Core",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -37674,10 +37715,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 270164,
+            "item_id": 280617,
             "item_level": 334,
-            "icon": "inv_10_tailoring_bag1_color2",
-            "name": "Gebbo's Bottomless Bag",
+            "icon": "inv_misc_questionmark",
+            "name": "Lightbearer's Shield Fragment",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -37699,11 +37740,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 251156,
-            "item_level": 321,
-            "enchant": 8052,
-            "icon": "inv_staff_2h_amani_c_01",
-            "name": "Fallen Speaker's Staff",
+            "item_id": 245771,
+            "item_level": 331,
+            "enchant": 7983,
+            "icon": "inv_staff_2h_dungeonharronir_c_01",
+            "name": "Aln'hara Pikestaff",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -37717,14 +37758,23 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8052
+              7983
             ],
-            "enchants_detail": [],
+            "enchants_detail": [
+              {
+                "id": 243973,
+                "name": "Enchant Weapon - Berserker's Rage",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+              }
+            ],
             "bonuses": [
-              13440,
-              6652,
-              12701,
-              12846
+              12214,
+              13667,
+              12497,
+              13751,
+              14004,
+              8792,
+              13836
             ]
           }
         }
@@ -38946,7 +38996,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/150/234002582-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-11-10T05:41:44.000Z",
+      "last_crawled_at": "2026-11-12T00:54:58.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmakr",
       "profile_banner": "",
       "use_animated_banner": false,
@@ -38954,23 +39004,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3062.2,
-            "dps": 3062.2,
+            "all": 3092.9,
+            "dps": 3092.9,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3062.2,
+            "spec_2": 3092.9,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3062.2,
-              "color": "#1c74d9"
+              "score": 3092.9,
+              "color": "#0070dd"
             },
             "dps": {
-              "score": 3062.2,
-              "color": "#1c74d9"
+              "score": 3092.9,
+              "color": "#0070dd"
             },
             "healer": {
               "score": 0,
@@ -38989,8 +39039,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3062.2,
-              "color": "#1c74d9"
+              "score": 3092.9,
+              "color": "#0070dd"
             },
             "spec_3": {
               "score": 0,
@@ -39042,6 +39092,60 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/25311596-15-altar-of-fangs",
+          "spec": {
+            "id": 70,
+            "name": "Retribution",
+            "slug": "retribution",
+            "class_id": 2,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
+        {
+          "dungeon": "Voidscar Arena",
+          "short_name": "VSA",
+          "mythic_level": 14,
+          "completed_at": "2026-11-11T23:11:29.000Z",
+          "clear_time_ms": 1439077,
+          "keystone_run_id": 25479208,
+          "par_time_ms": 1800999,
+          "num_keystone_upgrades": 2,
+          "map_challenge_mode_id": 585,
+          "zone_id": 16425,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
+          "score": 402.5,
+          "affixes": [
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25479208-14-voidscar-arena",
           "spec": {
             "id": 70,
             "name": "Retribution",
@@ -39377,67 +39481,13 @@
             "ordinal": 2
           },
           "role": "dps"
-        },
-        {
-          "dungeon": "Voidscar Arena",
-          "short_name": "VSA",
-          "mythic_level": 12,
-          "completed_at": "2026-11-07T16:25:38.000Z",
-          "clear_time_ms": 1471771,
-          "keystone_run_id": 25042556,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 585,
-          "zone_id": 16425,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-          "score": 371.8,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25042556-12-voidscar-arena",
-          "spec": {
-            "id": 70,
-            "name": "Retribution",
-            "slug": "retribution",
-            "class_id": 2,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
         }
       ],
       "gear": {
-        "created_at": "2026-11-11T02:39:34.000Z",
-        "updated_at": "2026-11-11T02:39:34.000Z",
-        "source": "db",
-        "item_level_equipped": 328.625,
+        "created_at": "2026-11-12T00:54:58.850Z",
+        "updated_at": "2026-11-12T00:54:58.850Z",
+        "source": "s3",
+        "item_level_equipped": 329,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -39773,7 +39823,7 @@
           },
           "legs": {
             "item_id": 271464,
-            "item_level": 321,
+            "item_level": 334,
             "enchant": 8159,
             "icon": "inv_pant_plate_raidpaladinulatek_d_01",
             "name": "Greaves of the Consecrated Flame",
@@ -39806,7 +39856,7 @@
               13708,
               13693,
               13698,
-              12850
+              12854
             ]
           },
           "feet": {
@@ -39961,7 +40011,7 @@
           },
           "trinket2": {
             "item_id": 250228,
-            "item_level": 324,
+            "item_level": 331,
             "icon": "inv_alchemy_90_stone_green",
             "name": "Resonant Bellowstone",
             "item_quality": 4,
@@ -39980,7 +40030,7 @@
             "enchants_detail": [],
             "bonuses": [
               40,
-              12851
+              12853
             ]
           },
           "mainhand": {
@@ -40002,8 +40052,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -41259,1132 +41308,6 @@
           "total_bosses": 9,
           "normal_bosses_killed": 6,
           "heroic_bosses_killed": 6,
-          "mythic_bosses_killed": 5
-        }
-      },
-      "_mplusOnly": true
-    },
-    {
-      "name": "Semplice",
-      "race": "Blood Elf",
-      "class": "Paladin",
-      "active_spec_name": "Protection",
-      "active_spec_role": "TANK",
-      "gender": "female",
-      "faction": "horde",
-      "achievement_points": 14905,
-      "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/216/232603096-avatar.jpg?alt=/wow/static/images/2d/avatar/10-1.jpg",
-      "region": "us",
-      "realm": "Zul'jin",
-      "last_crawled_at": "2026-11-05T02:22:16.000Z",
-      "profile_url": "https://raider.io/characters/us/zuljin/Semplice",
-      "profile_banner": "classbanner_priest1",
-      "mythic_plus_scores_by_season": [
-        {
-          "season": "season-mn-2",
-          "scores": {
-            "all": 3358.6,
-            "dps": 1898.4,
-            "healer": 1003.9,
-            "tank": 3322,
-            "spec_0": 1003.9,
-            "spec_1": 3322,
-            "spec_2": 1898.4,
-            "spec_3": 0
-          },
-          "segments": {
-            "all": {
-              "score": 3358.6,
-              "color": "#8f49ea"
-            },
-            "dps": {
-              "score": 1898.4,
-              "color": "#66ff4a"
-            },
-            "healer": {
-              "score": 1003.9,
-              "color": "#c3ffae"
-            },
-            "tank": {
-              "score": 3322,
-              "color": "#884ee9"
-            },
-            "spec_0": {
-              "score": 1003.9,
-              "color": "#c3ffae"
-            },
-            "spec_1": {
-              "score": 3322,
-              "color": "#884ee9"
-            },
-            "spec_2": {
-              "score": 1898.4,
-              "color": "#66ff4a"
-            },
-            "spec_3": {
-              "score": 0,
-              "color": "#ffffff"
-            }
-          }
-        }
-      ],
-      "mythic_plus_best_runs": [
-        {
-          "dungeon": "Murder Row",
-          "short_name": "MR",
-          "mythic_level": 17,
-          "completed_at": "2026-11-02T20:43:59.000Z",
-          "clear_time_ms": 1818858,
-          "keystone_run_id": 24434388,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 587,
-          "zone_id": 16091,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-          "score": 444.1,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24434388-17-murder-row",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "Voidscar Arena",
-          "short_name": "VSA",
-          "mythic_level": 17,
-          "completed_at": "2026-11-02T15:50:16.000Z",
-          "clear_time_ms": 1696475,
-          "keystone_run_id": 24426716,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 585,
-          "zone_id": 16425,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_voidscararena.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/voidscar-arena.jpg",
-          "score": 442.2,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24426716-17-voidscar-arena",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "The Blinding Vale",
-          "short_name": "BV",
-          "mythic_level": 16,
-          "completed_at": "2026-10-12T13:20:53.000Z",
-          "clear_time_ms": 1769310,
-          "keystone_run_id": 20157866,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 584,
-          "zone_id": 16359,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_lightbloom.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/the-blinding-vale.jpg",
-          "score": 425.6,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/20157866-16-the-blinding-vale",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "Temple of Sethraliss",
-          "short_name": "TOS",
-          "mythic_level": 16,
-          "completed_at": "2026-11-03T19:08:50.000Z",
-          "clear_time_ms": 1892184,
-          "keystone_run_id": 24624042,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 250,
-          "zone_id": 9527,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_templeofsethraliss.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/temple-of-sethraliss.jpg",
-          "score": 425.5,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24624042-16-temple-of-sethraliss",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "Ruby Life Pools",
-          "short_name": "RLP",
-          "mythic_level": 15,
-          "completed_at": "2026-10-04T16:43:38.000Z",
-          "clear_time_ms": 1462126,
-          "keystone_run_id": 18249573,
-          "par_time_ms": 1680999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 399,
-          "zone_id": 14063,
-          "zone_expansion_id": 9,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_lifepools.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion9/base/ruby-life-pools.jpg",
-          "score": 414.9,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/18249573-15-ruby-life-pools",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "Kings' Rest",
-          "short_name": "KR",
-          "mythic_level": 15,
-          "completed_at": "2026-10-10T18:36:33.000Z",
-          "clear_time_ms": 1803803,
-          "keystone_run_id": 19747264,
-          "par_time_ms": 1980999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 249,
-          "zone_id": 9526,
-          "zone_expansion_id": 7,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_dungeon_kingsrest.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion7/base/kings-rest.jpg",
-          "score": 413.3,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/19747264-15-kings-rest",
-          "spec": {
-            "id": 70,
-            "name": "Retribution",
-            "slug": "retribution",
-            "class_id": 2,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
-          "dungeon": "Den of Nalorakk",
-          "short_name": "DON",
-          "mythic_level": 14,
-          "completed_at": "2026-11-03T12:26:02.000Z",
-          "clear_time_ms": 1407594,
-          "keystone_run_id": 24534900,
-          "par_time_ms": 1920999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 586,
-          "zone_id": 16368,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_proveyourworth.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/den-of-nalorakk.jpg",
-          "score": 405,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/24534900-14-den-of-nalorakk",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "Altar of Fangs",
-          "short_name": "AOF",
-          "mythic_level": 13,
-          "completed_at": "2026-09-26T15:55:58.000Z",
-          "clear_time_ms": 1416857,
-          "keystone_run_id": 15901019,
-          "par_time_ms": 1800999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 588,
-          "zone_id": 16865,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_altaroffangs.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/altar-of-fangs.jpg",
-          "score": 388,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/15901019-13-altar-of-fangs",
-          "spec": {
-            "id": 66,
-            "name": "Protection",
-            "slug": "protection",
-            "class_id": 2,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 1
-          },
-          "role": "tank"
-        }
-      ],
-      "gear": {
-        "created_at": "2026-11-05T02:22:17.409Z",
-        "updated_at": "2026-11-05T02:22:17.409Z",
-        "source": "s3",
-        "item_level_equipped": 326,
-        "item_level_total": 0,
-        "artifact_traits": 0,
-        "corruption": {
-          "added": 0,
-          "resisted": 0,
-          "total": 0,
-          "cloakRank": 0,
-          "spells": []
-        },
-        "items": {
-          "head": {
-            "item_id": 271465,
-            "item_level": 334,
-            "enchant": 7961,
-            "icon": "inv_helm_plate_raidpaladinulatek_d_01",
-            "name": "Warhelm of the Consecrated Flame",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": true,
-            "azerite_powers": [
-              null,
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
-              null
-            ],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "tier": "36",
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
-            "enchants": [
-              7961
-            ],
-            "enchants_detail": [
-              {
-                "id": 243951,
-                "name": "Enchant Helm - Empowered Hex of Leeching",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13692,
-              13440,
-              6652,
-              13696,
-              13698,
-              12854,
-              13695
-            ]
-          },
-          "neck": {
-            "item_id": 251142,
-            "item_level": 334,
-            "icon": "inv_12_jewelry_silvermoonelf_necklace_green",
-            "name": "Pendant of Malefic Fury",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240983
-            ],
-            "gems_detail": [
-              {
-                "id": 240983,
-                "name": "32 Primary",
-                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_green"
-              }
-            ],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13668,
-              12854
-            ]
-          },
-          "shoulder": {
-            "item_id": 251138,
-            "item_level": 334,
-            "enchant": 8031,
-            "icon": "inv_shoulder_plate_dungeonharronir_c_01",
-            "name": "Cinderfury Shoulderguards",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8031
-            ],
-            "enchants_detail": [
-              {
-                "id": 244021,
-                "name": "Enchant Shoulders - Silvermoon's Mending",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              6652,
-              13662,
-              12854
-            ]
-          },
-          "back": {
-            "item_id": 251132,
-            "item_level": 334,
-            "icon": "inv_cape_leather_dungeonharronir_c_01",
-            "name": "Speakeasy Shroud",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              13440,
-              6652,
-              13662,
-              12699,
-              12854
-            ]
-          },
-          "chest": {
-            "item_id": 271468,
-            "item_level": 334,
-            "enchant": 7987,
-            "icon": "inv_chest_plate_raidpaladinulatek_d_01",
-            "name": "Bulwark of the Consecrated Flame",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "tier": "36",
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              7987
-            ],
-            "enchants_detail": [
-              {
-                "id": 243977,
-                "name": "Enchant Chest - Mark of the Worldsoul",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13690,
-              13440,
-              40,
-              13698,
-              12854
-            ]
-          },
-          "waist": {
-            "item_id": 159418,
-            "item_level": 315,
-            "icon": "inv_belt_plate_zandalardungeon_c_01",
-            "name": "Girdle of Pestilent Purification",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              13440,
-              6652,
-              13696,
-              13662,
-              12699,
-              12844
-            ]
-          },
-          "wrist": {
-            "item_id": 159409,
-            "item_level": 334,
-            "icon": "inv_bracer_plate_zandalardungeon_c_01",
-            "name": "Embalmer's Steadying Bracers",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13696,
-              13662,
-              12854
-            ]
-          },
-          "hands": {
-            "item_id": 271466,
-            "item_level": 308,
-            "icon": "inv_glove_plate_raidpaladinulatek_d_01",
-            "name": "Gauntlets of the Consecrated Flame",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "tier": "36",
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13333,
-              13691,
-              13697,
-              12838
-            ]
-          },
-          "legs": {
-            "item_id": 271464,
-            "item_level": 334,
-            "enchant": 8159,
-            "icon": "inv_pant_plate_raidpaladinulatek_d_01",
-            "name": "Greaves of the Consecrated Flame",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "tier": "36",
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8159
-            ],
-            "enchants_detail": [
-              {
-                "id": 244641,
-                "name": "41 Agi/Str & 115 Sta",
-                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
-              }
-            ],
-            "bonuses": [
-              6652,
-              13693,
-              13698,
-              12854
-            ]
-          },
-          "feet": {
-            "item_id": 193728,
-            "item_level": 334,
-            "enchant": 7993,
-            "icon": "inv_plate_dragondungeon_c_01_boot",
-            "name": "Scaleguard's Stalwart Greatboots",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              7993
-            ],
-            "enchants_detail": [
-              {
-                "id": 243983,
-                "name": "Enchant Boots - Shaladrassil's Roots",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              13662,
-              12699,
-              12854
-            ]
-          },
-          "finger1": {
-            "item_id": 159459,
-            "item_level": 311,
-            "enchant": 7967,
-            "icon": "inv_ring_80_03e",
-            "name": "Ritual Binder's Ring",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              12843,
-              13440,
-              6652,
-              13668,
-              12699
-            ]
-          },
-          "finger2": {
-            "item_id": 273792,
-            "item_level": 311,
-            "enchant": 7967,
-            "icon": "inv_121_jewelry_ring02_green",
-            "name": "Band of the Amani Warlord",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              12843,
-              13440,
-              6652,
-              13668,
-              12699
-            ]
-          },
-          "trinket1": {
-            "item_id": 270175,
-            "item_level": 321,
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "name": "Voracious Heart of Ula'tek",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13334,
-              12846
-            ]
-          },
-          "trinket2": {
-            "item_id": 270173,
-            "item_level": 321,
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "name": "Zul'jin's Guillotine Technique",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13333,
-              12846
-            ]
-          },
-          "mainhand": {
-            "item_id": 251218,
-            "item_level": 341,
-            "enchant": 8039,
-            "icon": "inv_sword_1h_domanaar_b_01",
-            "name": "Taz'Rah's Cosmic Edge",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8039
-            ],
-            "enchants_detail": [
-              {
-                "id": 244029,
-                "name": "Enchant Weapon - Acuity of the Ren'dorei",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
-            "bonuses": [
-              13440,
-              6652,
-              12701,
-              12856
-            ]
-          },
-          "offhand": {
-            "item_id": 251196,
-            "item_level": 321,
-            "icon": "inv_shield_1h_rutaani_b_01",
-            "name": "Teldrassil's Sacrifice",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [],
-            "enchants_detail": [],
-            "bonuses": [
-              13440,
-              6652,
-              12699,
-              12846
-            ]
-          }
-        }
-      },
-      "raid_progression": {
-        "the-unbinding-of-kithix": {
-          "summary": "",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "the-tidebound-grotto": {
-          "summary": "1/1 N",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 1,
-          "heroic_bosses_killed": 0,
-          "mythic_bosses_killed": 0
-        },
-        "the-venomous-abyss": {
-          "summary": "1/8 H",
-          "expansion_id": 11,
-          "total_bosses": 8,
-          "normal_bosses_killed": 7,
-          "heroic_bosses_killed": 1,
-          "mythic_bosses_killed": 0
-        },
-        "sporefall": {
-          "summary": "1/1 M",
-          "expansion_id": 11,
-          "total_bosses": 1,
-          "normal_bosses_killed": 0,
-          "heroic_bosses_killed": 1,
-          "mythic_bosses_killed": 1
-        },
-        "tier-mn-1": {
-          "summary": "5/9 M",
-          "expansion_id": 11,
-          "total_bosses": 9,
-          "normal_bosses_killed": 5,
-          "heroic_bosses_killed": 1,
           "mythic_bosses_killed": 5
         }
       },
@@ -53992,11 +52915,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 30590,
+      "achievement_points": 30600,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/19/250437651-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-11-02T02:04:14.000Z",
+      "last_crawled_at": "2026-11-12T02:26:50.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Drob",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
