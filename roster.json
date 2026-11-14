@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T10:44:16.144Z",
+  "updated": "2026-11-14T17:14:54.938Z",
   "rosterCount": 21,
   "mplusCount": 27,
   "guild": {
@@ -122,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 1858,
+          "world": 1861,
           "region": 593,
           "realm": 38
         }
@@ -4180,10 +4180,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-14T00:59:54.000Z",
-        "updated_at": "2026-11-14T00:59:54.000Z",
-        "source": "db",
-        "item_level_equipped": 334.812,
+        "created_at": "2026-11-12T15:43:50.578Z",
+        "updated_at": "2026-11-12T15:43:50.578Z",
+        "source": "s3",
+        "item_level_equipped": 334,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -4818,8 +4818,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5400
+              8689
             ],
             "enchants_detail": [
               {
@@ -8973,10 +8972,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-12T02:26:49.713Z",
-        "updated_at": "2026-11-12T02:26:49.713Z",
-        "source": "s3",
-        "item_level_equipped": 335,
+        "created_at": "2026-11-14T00:59:54.000Z",
+        "updated_at": "2026-11-14T00:59:54.000Z",
+        "source": "db",
+        "item_level_equipped": 335.375,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9599,7 +9598,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -9633,7 +9633,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -15041,8 +15042,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-14T00:59:54.000Z",
-        "updated_at": "2026-11-14T00:59:54.000Z",
+        "created_at": "2026-11-14T16:35:16.000Z",
+        "updated_at": "2026-11-14T16:35:16.000Z",
         "source": "db",
         "item_level_equipped": 335.438,
         "item_level_total": 0,
@@ -15542,10 +15543,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270173,
+            "item_id": 281215,
             "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
-            "name": "Zul'jin's Guillotine Technique",
+            "icon": "inv_misc_questionmark",
+            "name": "Twisted Horror's Tendril",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15592,11 +15593,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268213,
+            "item_id": 268209,
             "item_level": 341,
-            "enchant": 6245,
-            "icon": "inv_axe_2h_ulatek_d_01",
-            "name": "Maze-roa, Warlord's Fury",
+            "enchant": 3368,
+            "icon": "inv_axe_1h_ulatek_d_01",
+            "name": "Aman'muso, Warlord's Vengeance",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15610,13 +15611,43 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              6245,
+              3368,
               8052
             ],
             "enchants_detail": [],
             "bonuses": [
               6652,
               13334,
+              12856
+            ]
+          },
+          "offhand": {
+            "item_id": 268202,
+            "item_level": 341,
+            "enchant": 3847,
+            "icon": "inv_sword_1h_ulatek_d_01",
+            "name": "Jaw of the Shackled Goddess",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              3847,
+              8052
+            ],
+            "enchants_detail": [],
+            "bonuses": [
+              6652,
+              13334,
+              13847,
               12856
             ]
           }
@@ -39418,10 +39449,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-14T03:01:24.000Z",
-        "updated_at": "2026-11-14T03:01:24.000Z",
+        "created_at": "2026-11-14T17:09:14.000Z",
+        "updated_at": "2026-11-14T17:09:14.000Z",
         "source": "db",
-        "item_level_equipped": 330.688,
+        "item_level_equipped": 331.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -39559,7 +39590,7 @@
           },
           "shoulder": {
             "item_id": 271463,
-            "item_level": 324,
+            "item_level": 334,
             "icon": "inv_shoulder_plate_raidpaladinulatek_d_01",
             "name": "Pauldrons of the Consecrated Flame",
             "item_quality": 4,
@@ -39578,10 +39609,9 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12851,
               13694,
               13697,
-              1577
+              12854
             ]
           },
           "back": {
