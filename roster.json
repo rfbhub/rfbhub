@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T03:43:29.466Z",
+  "updated": "2026-11-19T13:39:46.206Z",
   "rosterCount": 21,
   "mplusCount": 28,
   "guild": {
@@ -122,8 +122,8 @@
           "realm": 39
         },
         "mythic": {
-          "world": 2054,
-          "region": 651,
+          "world": 2044,
+          "region": 647,
           "realm": 43
         }
       }
@@ -630,10 +630,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-14T23:51:03.733Z",
-        "updated_at": "2026-11-14T23:51:03.733Z",
-        "source": "s3",
-        "item_level_equipped": 335,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 334.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -998,10 +998,10 @@
             ]
           },
           "hands": {
-            "item_id": 244575,
-            "item_level": 331,
-            "icon": "inv_glove_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Handwraps",
+            "item_id": 268234,
+            "item_level": 334,
+            "icon": "inv_glove_leather_raiddemonhunterulatek_d_01",
+            "name": "Ruthless Slaughtergrips",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1017,21 +1017,16 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              14001,
-              8960,
-              12384,
-              8793,
-              13836
+              6652,
+              13662,
+              13334,
+              12854
             ]
           },
           "legs": {
             "item_id": 271527,
             "item_level": 334,
-            "enchant": 8159,
+            "enchant": 7935,
             "icon": "inv_pant_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Leggings",
             "item_quality": 4,
@@ -1048,21 +1043,20 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8159
+              7935
             ],
             "enchants_detail": [
               {
-                "id": 244641,
-                "name": "41 Agi/Str & 115 Sta",
-                "icon": "inv_12_profession_leatherworking_amani_armor_kit"
+                "id": 240133,
+                "name": "41 Int & 115 Sta",
+                "icon": "inv_tailoring_spellthread_orange_spellthread"
               }
             ],
             "bonuses": [
-              13334,
-              41,
+              12854,
               13693,
               13698,
-              12854
+              1587
             ]
           },
           "feet": {
@@ -1104,49 +1098,6 @@
             ]
           },
           "finger1": {
-            "item_id": 281029,
-            "item_level": 334,
-            "enchant": 7967,
-            "icon": "inv_misc_questionmark",
-            "name": "Band of the Swarmcaller",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [
-              240906
-            ],
-            "gems_detail": [
-              {
-                "id": 240906,
-                "name": "16 Crit & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
-              }
-            ],
-            "enchants": [
-              7967
-            ],
-            "enchants_detail": [
-              {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
-              }
-            ],
-            "bonuses": [
-              6652,
-              13668,
-              13334,
-              12854
-            ]
-          },
-          "finger2": {
             "item_id": 240949,
             "item_level": 331,
             "enchant": 7967,
@@ -1192,7 +1143,76 @@
               13836
             ]
           },
+          "finger2": {
+            "item_id": 281029,
+            "item_level": 334,
+            "enchant": 7967,
+            "icon": "inv_misc_questionmark",
+            "name": "Band of the Swarmcaller",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240906
+            ],
+            "gems_detail": [
+              {
+                "id": 240906,
+                "name": "16 Crit & 7 Haste",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_red"
+              }
+            ],
+            "enchants": [
+              7967
+            ],
+            "enchants_detail": [
+              {
+                "id": 243957,
+                "name": "Enchant Ring - Eyes of the Eagle",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+              }
+            ],
+            "bonuses": [
+              6652,
+              13668,
+              13334,
+              12854
+            ]
+          },
           "trinket1": {
+            "item_id": 273796,
+            "item_level": 321,
+            "icon": "inv_121_trinket_dungeon_ulatek_vile",
+            "name": "Vile Vial of Volatile Venom",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              13440,
+              6652,
+              12699,
+              12846
+            ]
+          },
+          "trinket2": {
             "item_id": 281215,
             "item_level": 341,
             "icon": "inv_misc_questionmark",
@@ -1217,11 +1237,46 @@
               12856
             ]
           },
-          "trinket2": {
-            "item_id": 270175,
+          "mainhand": {
+            "item_id": 271092,
             "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "name": "Voracious Heart of Ula'tek",
+            "enchant": 8689,
+            "icon": "inv_knife_1h_ulatekfang_d_01_spirit",
+            "name": "Jan'thrazet, the Soul Fang",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [],
+            "gems_detail": [],
+            "enchants": [
+              8689,
+              8052
+            ],
+            "enchants_detail": [
+              {
+                "id": 273072,
+                "name": "Rite of the Hash'ey",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
+              }
+            ],
+            "bonuses": [
+              6652,
+              13334,
+              12856
+            ]
+          },
+          "offhand": {
+            "item_id": 245769,
+            "item_level": 337,
+            "icon": "inv_offhand_1h_dungeonharronir_c_01",
+            "name": "Aln'hara Lantern",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -1237,44 +1292,15 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              12856
-            ]
-          },
-          "mainhand": {
-            "item_id": 268215,
-            "item_level": 341,
-            "enchant": 8689,
-            "icon": "inv_polearm_2h_ulatek_d_01",
-            "name": "Abyssal Broodfiend's Bardiche",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8689
-            ],
-            "enchants_detail": [
-              {
-                "id": 273072,
-                "name": "Rite of the Hash'ey",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
-              }
-            ],
-            "bonuses": [
-              42,
-              13334,
-              13846,
-              12856
+              12214,
+              13852,
+              12497,
+              13751,
+              14001,
+              13771,
+              8960,
+              8793,
+              13836
             ]
           }
         }
@@ -1827,10 +1853,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-13T07:41:58.115Z",
-        "updated_at": "2026-11-13T07:41:58.115Z",
-        "source": "s3",
-        "item_level_equipped": 335,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 335.625,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -2462,7 +2488,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -3028,10 +3055,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-18T01:00:41.779Z",
-        "updated_at": "2026-11-18T01:00:41.779Z",
-        "source": "s3",
-        "item_level_equipped": 332,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 332.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -3578,7 +3605,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              6498
             ],
             "enchants_detail": [
               {
@@ -3690,7 +3718,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/226/157861090-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-19T00:46:02.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Schisms",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -4918,7 +4946,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/antonidas/113/168425329-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Antonidas",
-      "last_crawled_at": "2026-11-17T08:19:19.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/antonidas/Dadda",
       "profile_banner": "classbanner_hunter1",
       "mythic_plus_scores_by_season": [
@@ -5405,8 +5433,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-17T08:19:19.445Z",
-        "updated_at": "2026-11-17T08:19:19.445Z",
+        "created_at": "2026-11-19T12:40:10.058Z",
+        "updated_at": "2026-11-19T12:40:10.058Z",
         "source": "s3",
         "item_level_equipped": 334,
         "item_level_total": 0,
@@ -5429,17 +5457,7 @@
             "is_legendary": false,
             "is_azerite_armor": true,
             "azerite_powers": [
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
+              null,
               {
                 "id": 580,
                 "spell": {
@@ -5482,8 +5500,16 @@
             },
             "domination_shards": [],
             "tier": "36",
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240910
+            ],
+            "gems_detail": [
+              {
+                "id": 240910,
+                "name": "16 Crit & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_red"
+              }
+            ],
             "enchants": [
               8017
             ],
@@ -5500,7 +5526,8 @@
               13696,
               13692,
               13698,
-              12854
+              12854,
+              13695
             ]
           },
           "neck": {
@@ -6590,10 +6617,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-12T15:43:54.123Z",
-        "updated_at": "2026-11-12T15:43:54.123Z",
-        "source": "s3",
-        "item_level_equipped": 333,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 334.375,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -7059,7 +7086,7 @@
           "finger1": {
             "item_id": 268249,
             "item_level": 334,
-            "enchant": 7967,
+            "enchant": 7969,
             "icon": "inv_121_jewelry_ring01_purple",
             "name": "Vile Alchemist's Band",
             "item_quality": 4,
@@ -7083,12 +7110,12 @@
               }
             ],
             "enchants": [
-              7967
+              7969
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 243959,
+                "name": "Enchant Ring - Zul'jin's Mast",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -7102,7 +7129,7 @@
           "finger2": {
             "item_id": 281029,
             "item_level": 334,
-            "enchant": 7967,
+            "enchant": 7969,
             "icon": "inv_misc_questionmark",
             "name": "Band of the Swarmcaller",
             "item_quality": 4,
@@ -7126,12 +7153,12 @@
               }
             ],
             "enchants": [
-              7967
+              7969
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
+                "id": 243959,
+                "name": "Enchant Ring - Zul'jin's Mast",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
@@ -7143,10 +7170,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 270162,
-            "item_level": 334,
-            "icon": "inv_121_trinket_raid_ulatek_ritualvessel",
-            "name": "Soulcoiler Ritual Vessel",
+            "item_id": 270168,
+            "item_level": 341,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
+            "name": "Font of Venomous Rage",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -7163,8 +7190,8 @@
             "enchants_detail": [],
             "bonuses": [
               6652,
-              13335,
-              12854
+              13334,
+              12856
             ]
           },
           "trinket2": {
@@ -7211,7 +7238,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8041
+              8041,
+              8052
             ],
             "enchants_detail": [
               {
@@ -7806,8 +7834,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-19T03:39:54.000Z",
-        "updated_at": "2026-11-19T03:39:54.000Z",
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
         "source": "db",
         "item_level_equipped": 331.25,
         "item_level_total": 0,
@@ -8969,10 +8997,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-18T07:09:40.499Z",
-        "updated_at": "2026-11-18T07:09:40.499Z",
-        "source": "s3",
-        "item_level_equipped": 335,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 335.375,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9604,7 +9632,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -9638,7 +9667,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -9723,7 +9753,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/21/233682453-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-11-16T08:03:12.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmaker",
       "profile_banner": "classbanner_paladin1",
       "mythic_plus_scores_by_season": [
@@ -12569,10 +12599,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-05T01:04:28.856Z",
-        "updated_at": "2026-11-05T01:04:28.856Z",
-        "source": "s3",
-        "item_level_equipped": 334,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 334.312,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -13214,7 +13244,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -13315,7 +13346,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/232/203548648-avatar.jpg?alt=/wow/static/images/2d/avatar/34-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-13T07:42:55.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Enhance",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -13802,10 +13833,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-19T03:25:01.000Z",
-        "updated_at": "2026-11-19T03:25:01.000Z",
-        "source": "db",
-        "item_level_equipped": 335.375,
+        "created_at": "2026-11-12T02:26:49.619Z",
+        "updated_at": "2026-11-12T02:26:49.619Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14440,8 +14471,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5401
+              8689
             ],
             "enchants_detail": [
               {
@@ -14476,8 +14506,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              5400
+              8689
             ],
             "enchants_detail": [
               {
@@ -14552,7 +14581,7 @@
       "name": "Hexxbone",
       "race": "Night Elf",
       "class": "Death Knight",
-      "active_spec_name": "Frost",
+      "active_spec_name": "Unholy",
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
@@ -14560,7 +14589,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/79/268282447-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-11-19T00:52:48.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Hexxbone",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -15047,8 +15076,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-15T19:32:28.465Z",
-        "updated_at": "2026-11-15T19:32:28.465Z",
+        "created_at": "2026-11-19T12:40:10.075Z",
+        "updated_at": "2026-11-19T12:40:10.075Z",
         "source": "s3",
         "item_level_equipped": 335,
         "item_level_total": 0,
@@ -15548,10 +15577,10 @@
             ]
           },
           "trinket1": {
-            "item_id": 281215,
+            "item_id": 270173,
             "item_level": 341,
-            "icon": "inv_misc_questionmark",
-            "name": "Twisted Horror's Tendril",
+            "icon": "inv_121_trinket_raid_ulatek_trolltablet",
+            "name": "Zul'jin's Guillotine Technique",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15598,11 +15627,11 @@
             ]
           },
           "mainhand": {
-            "item_id": 268209,
+            "item_id": 268213,
             "item_level": 341,
-            "enchant": 3368,
-            "icon": "inv_axe_1h_ulatek_d_01",
-            "name": "Aman'muso, Warlord's Vengeance",
+            "enchant": 6245,
+            "icon": "inv_axe_2h_ulatek_d_01",
+            "name": "Maze-roa, Warlord's Fury",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -15616,41 +15645,12 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              3368
+              6245
             ],
             "enchants_detail": [],
             "bonuses": [
               6652,
               13334,
-              12856
-            ]
-          },
-          "offhand": {
-            "item_id": 268202,
-            "item_level": 341,
-            "enchant": 3847,
-            "icon": "inv_sword_1h_ulatek_d_01",
-            "name": "Jaw of the Shackled Goddess",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              3847
-            ],
-            "enchants_detail": [],
-            "bonuses": [
-              6652,
-              13334,
-              13847,
               12856
             ]
           }
@@ -15709,15 +15709,15 @@
       "name": "Drób",
       "race": "Night Elf",
       "class": "Druid",
-      "active_spec_name": "Guardian",
-      "active_spec_role": "TANK",
+      "active_spec_name": "Feral",
+      "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
       "achievement_points": 30655,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/148/267828372-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-18T01:31:28.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Drób",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -16899,7 +16899,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/165/267239845-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-11-17T05:30:19.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Hersin",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -17386,8 +17386,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-17T05:30:29.340Z",
-        "updated_at": "2026-11-17T05:30:29.340Z",
+        "created_at": "2026-11-19T12:40:10.351Z",
+        "updated_at": "2026-11-19T12:40:10.351Z",
         "source": "s3",
         "item_level_equipped": 335,
         "item_level_total": 0,
@@ -17412,17 +17412,7 @@
             "azerite_powers": [
               null,
               null,
-              {
-                "id": 580,
-                "spell": {
-                  "id": 0,
-                  "school": 0,
-                  "icon": "inv_misc_questionmark",
-                  "name": "Unknown",
-                  "rank": null
-                },
-                "tier": 999
-              },
+              null,
               {
                 "id": 580,
                 "spell": {
@@ -17443,8 +17433,16 @@
             },
             "domination_shards": [],
             "tier": "36",
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240894
+            ],
+            "gems_detail": [
+              {
+                "id": 240894,
+                "name": "16 Haste & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_green"
+              }
+            ],
             "enchants": [
               8015
             ],
@@ -17463,7 +17461,8 @@
               13696,
               13692,
               13698,
-              1587
+              1587,
+              13695
             ]
           },
           "neck": {
@@ -18044,7 +18043,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/137/151523209-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-14T23:50:59.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Deadscythe",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -18531,10 +18530,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-03T20:34:14.873Z",
-        "updated_at": "2026-11-03T20:34:14.873Z",
+        "created_at": "2026-11-19T04:58:54.629Z",
+        "updated_at": "2026-11-19T04:58:54.629Z",
         "source": "s3",
-        "item_level_equipped": 335,
+        "item_level_equipped": 334,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -19114,10 +19113,10 @@
             ]
           },
           "trinket2": {
-            "item_id": 270175,
-            "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "name": "Voracious Heart of Ula'tek",
+            "item_id": 270168,
+            "item_level": 334,
+            "icon": "inv_10_dungeonjewelry_dragon_trinket_3djardintrophy_green",
+            "name": "Font of Venomous Rage",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -19135,7 +19134,7 @@
             "bonuses": [
               6652,
               13334,
-              12856
+              12854
             ]
           },
           "mainhand": {
@@ -19763,10 +19762,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-25T16:50:48.364Z",
-        "updated_at": "2026-10-25T16:50:48.364Z",
-        "source": "s3",
-        "item_level_equipped": 329,
+        "created_at": "2026-11-13T03:45:13.000Z",
+        "updated_at": "2026-11-13T03:45:13.000Z",
+        "source": "db",
+        "item_level_equipped": 329.188,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -20309,7 +20308,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -20905,10 +20905,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-10-31T19:05:18.084Z",
-        "updated_at": "2026-10-31T19:05:18.084Z",
-        "source": "s3",
-        "item_level_equipped": 335,
+        "created_at": "2026-11-19T04:12:46.000Z",
+        "updated_at": "2026-11-19T04:12:46.000Z",
+        "source": "db",
+        "item_level_equipped": 335.125,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -21455,7 +21455,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -21566,7 +21567,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/145/268390289-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-16T11:37:14.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Disanyy",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -22688,7 +22689,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/88/256839256-avatar.jpg?alt=/wow/static/images/2d/avatar/34-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-13T07:42:55.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Xnut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -23805,7 +23806,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-11-19T00:29:59.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -29636,7 +29637,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/bleeding-hollow/212/252364244-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Bleeding Hollow",
-      "last_crawled_at": "2026-11-13T07:42:58.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/bleeding-hollow/Lightpowa",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -30758,7 +30759,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/145/256013457-avatar.jpg?alt=/wow/static/images/2d/avatar/6-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-13T07:42:56.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Fuluu",
       "profile_banner": "hordebanner1",
       "mythic_plus_scores_by_season": [
@@ -33001,7 +33002,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/73/256586825-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-19T01:03:40.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Znut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -34239,7 +34240,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/163/256860579-avatar.jpg?alt=/wow/static/images/2d/avatar/1-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-13T07:42:57.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Nutbb",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -36625,11 +36626,11 @@
       "active_spec_role": "TANK",
       "gender": "male",
       "faction": "horde",
-      "achievement_points": 17030,
+      "achievement_points": 17035,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/163/241700003-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-11-15T15:43:01.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Naharyi",
       "profile_banner": "hordebanner2",
       "mythic_plus_scores_by_season": [
@@ -37116,10 +37117,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-19T00:47:22.000Z",
-        "updated_at": "2026-11-19T00:47:22.000Z",
-        "source": "db",
-        "item_level_equipped": 331.5,
+        "created_at": "2026-11-19T12:40:10.259Z",
+        "updated_at": "2026-11-19T12:40:10.259Z",
+        "source": "s3",
+        "item_level_equipped": 332,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -37216,7 +37217,7 @@
           },
           "neck": {
             "item_id": 268250,
-            "item_level": 331,
+            "item_level": 334,
             "icon": "inv_121_jewelry_neck02_green",
             "name": "Sentinel's Vitriolic Chain",
             "item_quality": 4,
@@ -37245,7 +37246,7 @@
               6652,
               13668,
               13334,
-              12853
+              12854
             ]
           },
           "shoulder": {
@@ -37525,7 +37526,7 @@
           },
           "feet": {
             "item_id": 268247,
-            "item_level": 328,
+            "item_level": 334,
             "enchant": 7993,
             "icon": "inv_boot_leather_raiddemonhunterulatek_d_01",
             "name": "Breakwater Boots",
@@ -37555,7 +37556,7 @@
               6652,
               13662,
               13334,
-              12852
+              12854
             ]
           },
           "finger1": {
@@ -37716,8 +37717,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7983,
-              8052
+              7983
             ],
             "enchants_detail": [
               {
@@ -37795,7 +37795,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/malganis/224/244957152-avatar.jpg?alt=/wow/static/images/2d/avatar/10-0.jpg",
       "region": "us",
       "realm": "Mal'Ganis",
-      "last_crawled_at": "2026-11-16T08:03:14.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/malganis/Chronox",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -45932,7 +45932,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/90/267302234-avatar.jpg?alt=/wow/static/images/2d/avatar/2-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-13T07:42:57.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Vampiral",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -47129,7 +47129,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moon-guard/108/184824428-avatar.jpg?alt=/wow/static/images/2d/avatar/7-0.jpg",
       "region": "us",
       "realm": "Moon Guard",
-      "last_crawled_at": "2026-11-13T07:41:57.000Z",
+      "last_crawled_at": "2026-11-19T12:40:09.000Z",
       "profile_url": "https://raider.io/characters/us/moon-guard/Mangobrew",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -52874,11 +52874,11 @@
       "active_spec_role": "DPS",
       "gender": "female",
       "faction": "alliance",
-      "achievement_points": 30600,
+      "achievement_points": 30655,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/19/250437651-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-11-13T07:42:56.000Z",
+      "last_crawled_at": "2026-11-19T12:40:10.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Drob",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -54044,7 +54044,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/153/268300185-avatar.jpg?alt=/wow/static/images/2d/avatar/86-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-13T07:42:56.000Z",
+      "last_crawled_at": "2026-11-19T12:40:08.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Enut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
