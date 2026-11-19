@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T14:23:32.274Z",
+  "updated": "2026-11-19T03:43:29.466Z",
   "rosterCount": 21,
   "mplusCount": 28,
   "guild": {
@@ -122,9 +122,9 @@
           "realm": 39
         },
         "mythic": {
-          "world": 2011,
-          "region": 644,
-          "realm": 41
+          "world": 2054,
+          "region": 651,
+          "realm": 43
         }
       }
     },
@@ -3690,7 +3690,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/sargeras/226/157861090-avatar.jpg?alt=/wow/static/images/2d/avatar/3-1.jpg",
       "region": "us",
       "realm": "Sargeras",
-      "last_crawled_at": "2026-11-16T08:03:11.000Z",
+      "last_crawled_at": "2026-11-19T00:46:02.000Z",
       "profile_url": "https://raider.io/characters/us/sargeras/Schisms",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -7806,10 +7806,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-12T15:43:56.492Z",
-        "updated_at": "2026-11-12T15:43:56.492Z",
-        "source": "s3",
-        "item_level_equipped": 331,
+        "created_at": "2026-11-19T03:39:54.000Z",
+        "updated_at": "2026-11-19T03:39:54.000Z",
+        "source": "db",
+        "item_level_equipped": 331.25,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -8372,7 +8372,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039
+              8039,
+              8052
             ],
             "enchants_detail": [
               {
@@ -13801,10 +13802,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-12T02:26:49.619Z",
-        "updated_at": "2026-11-12T02:26:49.619Z",
-        "source": "s3",
-        "item_level_equipped": 335,
+        "created_at": "2026-11-19T03:25:01.000Z",
+        "updated_at": "2026-11-19T03:25:01.000Z",
+        "source": "db",
+        "item_level_equipped": 335.375,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -14439,7 +14440,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              5401
             ],
             "enchants_detail": [
               {
@@ -14474,7 +14476,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              5400
             ],
             "enchants_detail": [
               {
@@ -14557,7 +14560,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/79/268282447-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-11-17T04:38:20.000Z",
+      "last_crawled_at": "2026-11-19T00:52:48.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Hexxbone",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -16201,10 +16204,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-18T02:55:07.000Z",
-        "updated_at": "2026-11-18T02:55:07.000Z",
-        "source": "db",
-        "item_level_equipped": 335.625,
+        "created_at": "2026-11-18T01:31:29.386Z",
+        "updated_at": "2026-11-18T01:31:29.386Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -16817,8 +16820,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8689
             ],
             "enchants_detail": [
               {
@@ -17384,10 +17386,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-18T04:13:32.000Z",
-        "updated_at": "2026-11-18T04:13:32.000Z",
-        "source": "db",
-        "item_level_equipped": 335.25,
+        "created_at": "2026-11-17T05:30:29.340Z",
+        "updated_at": "2026-11-17T05:30:29.340Z",
+        "source": "s3",
+        "item_level_equipped": 335,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -17410,7 +17412,17 @@
             "azerite_powers": [
               null,
               null,
-              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
               {
                 "id": 580,
                 "spell": {
@@ -17431,16 +17443,8 @@
             },
             "domination_shards": [],
             "tier": "36",
-            "gems": [
-              240894
-            ],
-            "gems_detail": [
-              {
-                "id": 240894,
-                "name": "16 Haste & 7 Vers",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_green"
-              }
-            ],
+            "gems": [],
+            "gems_detail": [],
             "enchants": [
               8015
             ],
@@ -17459,8 +17463,7 @@
               13696,
               13692,
               13698,
-              1587,
-              13695
+              1587
             ]
           },
           "neck": {
@@ -23802,7 +23805,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/moknathal/200/98388680-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Mok'Nathal",
-      "last_crawled_at": "2026-11-16T08:03:11.000Z",
+      "last_crawled_at": "2026-11-19T00:29:59.000Z",
       "profile_url": "https://raider.io/characters/us/moknathal/Lionroar",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -32998,7 +33001,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/73/256586825-avatar.jpg?alt=/wow/static/images/2d/avatar/1-0.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-13T07:42:56.000Z",
+      "last_crawled_at": "2026-11-19T01:03:40.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Znut",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -33485,10 +33488,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-14T00:59:54.000Z",
-        "updated_at": "2026-11-14T00:59:54.000Z",
-        "source": "db",
-        "item_level_equipped": 333.375,
+        "created_at": "2026-11-12T15:43:56.297Z",
+        "updated_at": "2026-11-12T15:43:56.297Z",
+        "source": "s3",
+        "item_level_equipped": 333,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -34138,8 +34141,7 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8039,
-              7143
+              8039
             ],
             "enchants_detail": [
               {
@@ -36634,18 +36636,18 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3388.1,
+            "all": 3402.1,
             "dps": 0,
             "healer": 0,
-            "tank": 3388.1,
+            "tank": 3402.1,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3388.1,
+            "spec_2": 3402.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3388.1,
+              "score": 3402.1,
               "color": "#9742ec"
             },
             "dps": {
@@ -36657,7 +36659,7 @@
               "color": "#ffffff"
             },
             "tank": {
-              "score": 3388.1,
+              "score": 3402.1,
               "color": "#9742ec"
             },
             "spec_0": {
@@ -36669,7 +36671,7 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3388.1,
+              "score": 3402.1,
               "color": "#9742ec"
             },
             "spec_3": {
@@ -36680,6 +36682,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 17,
+          "completed_at": "2026-11-18T23:26:18.000Z",
+          "clear_time_ms": 1940296,
+          "keystone_run_id": 26020304,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+          "score": 441.8,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/26020304-17-murder-row",
+          "spec": {
+            "id": 104,
+            "name": "Guardian",
+            "slug": "guardian",
+            "class_id": 11,
+            "role": "tank",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "tank"
+        },
         {
           "dungeon": "Altar of Fangs",
           "short_name": "AOF",
@@ -36776,60 +36832,6 @@
             }
           ],
           "url": "https://raider.io/mythic-plus-runs/season-mn-2/25299126-16-temple-of-sethraliss",
-          "spec": {
-            "id": 104,
-            "name": "Guardian",
-            "slug": "guardian",
-            "class_id": 11,
-            "role": "tank",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "tank"
-        },
-        {
-          "dungeon": "Murder Row",
-          "short_name": "MR",
-          "mythic_level": 16,
-          "completed_at": "2026-11-09T00:59:27.000Z",
-          "clear_time_ms": 1883330,
-          "keystone_run_id": 25205879,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 1,
-          "map_challenge_mode_id": 587,
-          "zone_id": 16091,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-          "score": 427.9,
-          "affixes": [
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25205879-16-murder-row",
           "spec": {
             "id": 104,
             "name": "Guardian",
@@ -37114,8 +37116,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-18T00:21:10.000Z",
-        "updated_at": "2026-11-18T00:21:10.000Z",
+        "created_at": "2026-11-19T00:47:22.000Z",
+        "updated_at": "2026-11-19T00:47:22.000Z",
         "source": "db",
         "item_level_equipped": 331.5,
         "item_level_total": 0,
@@ -38962,23 +38964,23 @@
         {
           "season": "season-mn-2",
           "scores": {
-            "all": 3295.9,
-            "dps": 3295.9,
+            "all": 3330.1,
+            "dps": 3330.1,
             "healer": 0,
             "tank": 0,
             "spec_0": 0,
             "spec_1": 0,
-            "spec_2": 3295.9,
+            "spec_2": 3330.1,
             "spec_3": 0
           },
           "segments": {
             "all": {
-              "score": 3295.9,
-              "color": "#7c55e7"
+              "score": 3330.1,
+              "color": "#8351e8"
             },
             "dps": {
-              "score": 3295.9,
-              "color": "#7c55e7"
+              "score": 3330.1,
+              "color": "#8351e8"
             },
             "healer": {
               "score": 0,
@@ -38997,8 +38999,8 @@
               "color": "#ffffff"
             },
             "spec_2": {
-              "score": 3295.9,
-              "color": "#7c55e7"
+              "score": 3330.1,
+              "color": "#8351e8"
             },
             "spec_3": {
               "score": 0,
@@ -39008,6 +39010,60 @@
         }
       ],
       "mythic_plus_best_runs": [
+        {
+          "dungeon": "Murder Row",
+          "short_name": "MR",
+          "mythic_level": 17,
+          "completed_at": "2026-11-18T23:26:18.000Z",
+          "clear_time_ms": 1940296,
+          "keystone_run_id": 26020304,
+          "par_time_ms": 2040999,
+          "num_keystone_upgrades": 1,
+          "map_challenge_mode_id": 587,
+          "zone_id": 16091,
+          "zone_expansion_id": 11,
+          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
+          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
+          "score": 441.8,
+          "affixes": [
+            {
+              "id": 9,
+              "name": "Tyrannical",
+              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
+              "icon": "achievement_boss_archaedas",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
+              "wowhead_url": "https://wowhead.com/affix=9"
+            },
+            {
+              "id": 10,
+              "name": "Fortified",
+              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
+              "icon": "ability_toughness",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
+              "wowhead_url": "https://wowhead.com/affix=10"
+            },
+            {
+              "id": 147,
+              "name": "Xal'atath's Guile",
+              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
+              "icon": "ability_racial_chillofnight",
+              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
+              "wowhead_url": "https://wowhead.com/affix=147"
+            }
+          ],
+          "url": "https://raider.io/mythic-plus-runs/season-mn-2/26020304-17-murder-row",
+          "spec": {
+            "id": 70,
+            "name": "Retribution",
+            "slug": "retribution",
+            "class_id": 2,
+            "role": "dps",
+            "is_melee": true,
+            "patch": "1.0.0",
+            "ordinal": 2
+          },
+          "role": "dps"
+        },
         {
           "dungeon": "Kings' Rest",
           "short_name": "KR",
@@ -39225,60 +39281,6 @@
           "role": "dps"
         },
         {
-          "dungeon": "Murder Row",
-          "short_name": "MR",
-          "mythic_level": 14,
-          "completed_at": "2026-11-16T23:32:06.000Z",
-          "clear_time_ms": 1351002,
-          "keystone_run_id": 25887370,
-          "par_time_ms": 2040999,
-          "num_keystone_upgrades": 2,
-          "map_challenge_mode_id": 587,
-          "zone_id": 16091,
-          "zone_expansion_id": 11,
-          "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/inv_achievement_dungeon_murderrow.jpg",
-          "background_image_url": "https://cdn.raiderio.net/images/dungeons/expansion11/base/murder-row.jpg",
-          "score": 407.7,
-          "affixes": [
-            {
-              "id": 10,
-              "name": "Fortified",
-              "description": "Non-boss enemies have 20% more health and inflict up to 20% increased damage.",
-              "icon": "ability_toughness",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_toughness.jpg",
-              "wowhead_url": "https://wowhead.com/affix=10"
-            },
-            {
-              "id": 9,
-              "name": "Tyrannical",
-              "description": "Bosses have 25% more health. Bosses and their minions inflict up to 15% increased damage.",
-              "icon": "achievement_boss_archaedas",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/achievement_boss_archaedas.jpg",
-              "wowhead_url": "https://wowhead.com/affix=9"
-            },
-            {
-              "id": 147,
-              "name": "Xal'atath's Guile",
-              "description": "Xal'atath betrays players, revoking her bargains while making deaths subtract 15 seconds from time remaining.",
-              "icon": "ability_racial_chillofnight",
-              "icon_url": "https://cdn.raiderio.net/images/wow/icons/large/ability_racial_chillofnight.jpg",
-              "wowhead_url": "https://wowhead.com/affix=147"
-            }
-          ],
-          "url": "https://raider.io/mythic-plus-runs/season-mn-2/25887370-14-murder-row",
-          "spec": {
-            "id": 70,
-            "name": "Retribution",
-            "slug": "retribution",
-            "class_id": 2,
-            "role": "dps",
-            "is_melee": true,
-            "patch": "1.0.0",
-            "ordinal": 2
-          },
-          "role": "dps"
-        },
-        {
           "dungeon": "Ruby Life Pools",
           "short_name": "RLP",
           "mythic_level": 14,
@@ -39442,10 +39444,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-18T04:46:12.000Z",
-        "updated_at": "2026-11-18T04:46:12.000Z",
+        "created_at": "2026-11-18T23:09:20.000Z",
+        "updated_at": "2026-11-18T23:09:20.000Z",
         "source": "db",
-        "item_level_equipped": 333.375,
+        "item_level_equipped": 334,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -39815,11 +39817,11 @@
             ]
           },
           "feet": {
-            "item_id": 268260,
-            "item_level": 321,
+            "item_id": 237828,
+            "item_level": 331,
             "enchant": 7963,
-            "icon": "inv_boot_plate_raidpaladinulatek_d_01",
-            "name": "Scaled Fiend's Warboots",
+            "icon": "inv_plate_questbloodelf_b_01_boot",
+            "name": "Spellbreaker's March",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -39843,10 +39845,13 @@
               }
             ],
             "bonuses": [
-              43,
-              13662,
-              13334,
-              12846
+              12214,
+              13667,
+              12497,
+              13751,
+              14001,
+              8793,
+              13836
             ]
           },
           "finger1": {
