@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T09:20:41.304Z",
+  "updated": "2026-11-23T21:35:35.465Z",
   "rosterCount": 18,
   "mplusCount": 33,
   "guild": {
@@ -122,7 +122,7 @@
           "realm": 39
         },
         "mythic": {
-          "world": 2092,
+          "world": 2096,
           "region": 646,
           "realm": 42
         }
@@ -9079,10 +9079,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-22T15:28:44.065Z",
-        "updated_at": "2026-11-22T15:28:44.065Z",
-        "source": "s3",
-        "item_level_equipped": 337,
+        "created_at": "2026-11-23T21:22:52.000Z",
+        "updated_at": "2026-11-23T21:22:52.000Z",
+        "source": "db",
+        "item_level_equipped": 337.062,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -9664,7 +9664,8 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689
+              8689,
+              8052
             ],
             "enchants_detail": [
               {
@@ -10972,11 +10973,11 @@
       "active_spec_role": "DPS",
       "gender": "male",
       "faction": "alliance",
-      "achievement_points": 17780,
+      "achievement_points": 17790,
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/zuljin/79/268282447-avatar.jpg?alt=/wow/static/images/2d/avatar/4-0.jpg",
       "region": "us",
       "realm": "Zul'jin",
-      "last_crawled_at": "2026-11-23T00:48:27.000Z",
+      "last_crawled_at": "2026-11-23T17:41:40.000Z",
       "profile_url": "https://raider.io/characters/us/zuljin/Hexxbone",
       "profile_banner": "alliancebanner1",
       "mythic_plus_scores_by_season": [
@@ -11463,8 +11464,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-23T01:59:00.000Z",
-        "updated_at": "2026-11-23T01:59:00.000Z",
+        "created_at": "2026-11-23T18:02:50.000Z",
+        "updated_at": "2026-11-23T18:02:50.000Z",
         "source": "db",
         "item_level_equipped": 336.25,
         "item_level_total": 0,
@@ -12133,7 +12134,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/stormrage/148/267828372-avatar.jpg?alt=/wow/static/images/2d/avatar/4-1.jpg",
       "region": "us",
       "realm": "Stormrage",
-      "last_crawled_at": "2026-11-22T15:28:43.000Z",
+      "last_crawled_at": "2026-11-23T19:03:30.000Z",
       "profile_url": "https://raider.io/characters/us/stormrage/Drób",
       "profile_banner": "classbanner_druid1",
       "mythic_plus_scores_by_season": [
@@ -12620,10 +12621,10 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-23T01:59:00.000Z",
-        "updated_at": "2026-11-23T01:59:00.000Z",
-        "source": "db",
-        "item_level_equipped": 335.625,
+        "created_at": "2026-11-23T19:03:32.774Z",
+        "updated_at": "2026-11-23T19:03:32.774Z",
+        "source": "s3",
+        "item_level_equipped": 292,
         "item_level_total": 0,
         "artifact_traits": 0,
         "corruption": {
@@ -12636,8 +12637,8 @@
         "items": {
           "head": {
             "item_id": 271528,
-            "item_level": 334,
-            "enchant": 8017,
+            "item_level": 292,
+            "enchant": 7961,
             "icon": "inv_helm_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Somnolent Stare",
             "item_quality": 4,
@@ -12646,7 +12647,17 @@
             "azerite_powers": [
               null,
               null,
-              null,
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
               {
                 "id": 580,
                 "spell": {
@@ -12668,42 +12679,41 @@
             "domination_shards": [],
             "tier": "36",
             "gems": [
-              240900
+              240902
             ],
             "gems_detail": [
               {
-                "id": 240900,
-                "name": "16 Mast & 7 Haste",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_nature_purple"
+                "id": 240902,
+                "name": "16 Mast & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
               }
             ],
             "enchants": [
-              8017
+              7961
             ],
             "enchants_detail": [
               {
-                "id": 244007,
-                "name": "Enchant Helm - Empowered Rune of Avoidance",
+                "id": 243951,
+                "name": "Enchant Helm - Empowered Hex of Leeching",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              13334,
-              6652,
-              12854,
-              13696,
-              13847,
+              13452,
+              13658,
+              12833,
+              13554,
               13692,
               13698,
-              1587,
-              13695
+              1545,
+              13576
             ]
           },
           "neck": {
-            "item_id": 268265,
-            "item_level": 341,
-            "icon": "inv_121_jewelry_neck03_green",
-            "name": "Aqirbane Reliquary",
+            "item_id": 240952,
+            "item_level": 292,
+            "icon": "inv_12_profession_jewelcrafting_necklace2_silver",
+            "name": "Thalassian Competitor's Amulet",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -12715,41 +12725,82 @@
             },
             "domination_shards": [],
             "gems": [
-              240967,
-              240908
+              241144
             ],
             "gems_detail": [
               {
-                "id": 240967,
-                "name": "23 Primary / +0.15% critical strike effectiveness per unique Midnight gem color",
-                "icon": "inv_12_profession_jewelcrafting_epic_gem_cut_orange"
-              },
-              {
-                "id": 240908,
-                "name": "16 Crit & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_red"
+                "id": 241144,
+                "name": "23 Primary / +5% Damage Reduction when affected by Crowd Control",
+                "icon": "inv_misc_cutgemsuperior6"
               }
             ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13668,
-              13334,
-              13987,
-              12856
+              12245,
+              13760,
+              12497,
+              13766,
+              13658,
+              8794
             ]
           },
           "shoulder": {
             "item_id": 271526,
-            "item_level": 334,
-            "enchant": 8001,
+            "item_level": 292,
+            "enchant": 8031,
             "icon": "inv_shoulder_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Plumage",
             "item_quality": 4,
             "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
+            "is_azerite_armor": true,
+            "azerite_powers": [
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              {
+                "id": 580,
+                "spell": {
+                  "id": 0,
+                  "school": 0,
+                  "icon": "inv_misc_questionmark",
+                  "name": "Unknown",
+                  "rank": null
+                },
+                "tier": 999
+              },
+              null
+            ],
             "corruption": {
               "added": 0,
               "resisted": 0,
@@ -12760,28 +12811,29 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8001
+              8031
             ],
             "enchants_detail": [
               {
-                "id": 243991,
-                "name": "Enchant Shoulders - Amirdrassil's Grace",
+                "id": 244021,
+                "name": "Enchant Shoulders - Silvermoon's Mending",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              13334,
-              6652,
+              13452,
+              13658,
+              12833,
               13694,
               13697,
-              12854
+              1545
             ]
           },
           "back": {
-            "item_id": 271523,
-            "item_level": 334,
+            "item_id": 270570,
+            "item_level": 292,
             "icon": "inv_cape_leather_raiddruidulatek_d_01",
-            "name": "Enigmatic Dreamwatcher's Cloak",
+            "name": "Venomous Gladiator's Drape",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -12797,15 +12849,15 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              13334,
-              6652,
-              12854,
-              1587
+              12833,
+              13658,
+              13662,
+              13452
             ]
           },
           "chest": {
             "item_id": 271531,
-            "item_level": 334,
+            "item_level": 292,
             "enchant": 7987,
             "icon": "inv_robe_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Lunar Raiment",
@@ -12879,19 +12931,19 @@
               }
             ],
             "bonuses": [
-              13334,
-              6652,
-              14049,
+              13452,
+              13658,
+              12833,
               13690,
               13698,
-              12854
+              1545
             ]
           },
           "waist": {
-            "item_id": 271525,
-            "item_level": 334,
-            "icon": "inv_belt_leather_raiddruidulatek_d_01",
-            "name": "Enigmatic Dreamwatcher's Sigiled Cincture",
+            "item_id": 244557,
+            "item_level": 292,
+            "icon": "inv_belt_leather_questbloodelf_b_01",
+            "name": "Thalassian Competitor's Leather Belt",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -12902,16 +12954,29 @@
               "total": 0
             },
             "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
+            "gems": [
+              240902
+            ],
+            "gems_detail": [
+              {
+                "id": 240902,
+                "name": "16 Mast & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
+              }
+            ],
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13335,
-              12854,
-              13696,
-              1587
+              12245,
+              13760,
+              13554,
+              13576,
+              12497,
+              13766,
+              13658,
+              8960,
+              12384,
+              8794
             ]
           },
           "shirt": {
@@ -12936,10 +13001,50 @@
             "bonuses": []
           },
           "wrist": {
-            "item_id": 244576,
-            "item_level": 331,
+            "item_id": 244560,
+            "item_level": 292,
             "icon": "inv_bracer_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Deflectors",
+            "name": "Thalassian Competitor's Leather Wristwraps",
+            "item_quality": 4,
+            "is_legendary": false,
+            "is_azerite_armor": false,
+            "azerite_powers": [],
+            "corruption": {
+              "added": 0,
+              "resisted": 0,
+              "total": 0
+            },
+            "domination_shards": [],
+            "gems": [
+              240902
+            ],
+            "gems_detail": [
+              {
+                "id": 240902,
+                "name": "16 Mast & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
+              }
+            ],
+            "enchants": [],
+            "enchants_detail": [],
+            "bonuses": [
+              12245,
+              13760,
+              13554,
+              13576,
+              12497,
+              13766,
+              13658,
+              8960,
+              12384,
+              8794
+            ]
+          },
+          "hands": {
+            "item_id": 270681,
+            "item_level": 292,
+            "icon": "inv_glove_leather_raiddruidulatek_d_01",
+            "name": "Venomous Gladiator's Leather Gloves",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -12955,61 +13060,15 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              14001,
-              8960,
-              12384,
-              8790,
-              13836,
-              13696
-            ]
-          },
-          "hands": {
-            "item_id": 244575,
-            "item_level": 331,
-            "enchant": 8728,
-            "icon": "inv_glove_leather_questbloodelf_b_01",
-            "name": "Silvermoon Agent's Handwraps",
-            "item_quality": 4,
-            "is_legendary": false,
-            "is_azerite_armor": false,
-            "azerite_powers": [],
-            "corruption": {
-              "added": 0,
-              "resisted": 0,
-              "total": 0
-            },
-            "domination_shards": [],
-            "gems": [],
-            "gems_detail": [],
-            "enchants": [
-              8728
-            ],
-            "enchants_detail": [
-              {
-                "id": 283997,
-                "name": "|cnIQ4:Ancient Hash'ey Battle Art: Ursine's Ironhide|r",
-                "icon": "inv_10_inscription2_repcontracts_trade_archaeology_apexisscroll_uprez_color1"
-              }
-            ],
-            "bonuses": [
-              12214,
-              13667,
-              12497,
-              13751,
-              14001,
-              8960,
-              12384,
-              8791,
-              13836
+              12833,
+              13658,
+              13662,
+              13452
             ]
           },
           "legs": {
             "item_id": 271527,
-            "item_level": 334,
+            "item_level": 292,
             "enchant": 8159,
             "icon": "inv_pant_leather_raiddruidulatek_d_01",
             "name": "Enigmatic Dreamwatcher's Leggings",
@@ -13037,18 +13096,20 @@
               }
             ],
             "bonuses": [
-              12854,
+              13452,
+              13658,
+              12833,
               13693,
               13698,
-              1587
+              1545
             ]
           },
           "feet": {
-            "item_id": 268261,
-            "item_level": 334,
-            "enchant": 7963,
-            "icon": "inv_boot_leather_raidmonkulatek_d_01",
-            "name": "Bespittled Slitherslippers",
+            "item_id": 270680,
+            "item_level": 292,
+            "enchant": 7993,
+            "icon": "inv_boot_leather_raiddruidulatek_d_01",
+            "name": "Venomous Gladiator's Leather Treads",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -13062,28 +13123,28 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              7963
+              7993
             ],
             "enchants_detail": [
               {
-                "id": 243953,
-                "name": "Enchant Boots - Lynx's Dexterity",
+                "id": 243983,
+                "name": "Enchant Boots - Shaladrassil's Roots",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
               }
             ],
             "bonuses": [
-              6652,
+              12833,
+              13658,
               13662,
-              13334,
-              12854
+              13452
             ]
           },
           "finger1": {
-            "item_id": 240949,
-            "item_level": 331,
-            "enchant": 7967,
-            "icon": "inv_12_profession_jewelcrafting_ring4_gold",
-            "name": "Masterwork Sin'dorei Band",
+            "item_id": 240951,
+            "item_level": 292,
+            "enchant": 8023,
+            "icon": "inv_12_profession_jewelcrafting_ring1_silver",
+            "name": "Thalassian Competitor's Signet",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -13095,41 +13156,40 @@
             },
             "domination_shards": [],
             "gems": [
-              240918
+              240902
             ],
             "gems_detail": [
               {
-                "id": 240918,
-                "name": "16 Vers & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_blue"
+                "id": 240902,
+                "name": "16 Mast & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
               }
             ],
             "enchants": [
-              7967
+              8023
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+                "id": 244013,
+                "name": "Enchant Ring - Thalassian Vers",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
               }
             ],
             "bonuses": [
-              12214,
-              13667,
+              12245,
+              13760,
               12497,
-              13751,
-              14001,
-              8790,
-              13836
+              13766,
+              13658,
+              8794
             ]
           },
           "finger2": {
-            "item_id": 281029,
-            "item_level": 334,
-            "enchant": 7967,
-            "icon": "inv_misc_questionmark",
-            "name": "Band of the Swarmcaller",
+            "item_id": 240951,
+            "item_level": 292,
+            "enchant": 8023,
+            "icon": "inv_12_profession_jewelcrafting_ring1_silver",
+            "name": "Thalassian Competitor's Signet",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -13141,37 +13201,39 @@
             },
             "domination_shards": [],
             "gems": [
-              240892
+              240902
             ],
             "gems_detail": [
               {
-                "id": 240892,
-                "name": "16 Haste & 7 Mast",
-                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_void_green"
+                "id": 240902,
+                "name": "16 Mast & 7 Vers",
+                "icon": "inv_12_profession_jewelcrafting_rare_gem_cut_frost_purple"
               }
             ],
             "enchants": [
-              7967
+              8023
             ],
             "enchants_detail": [
               {
-                "id": 243957,
-                "name": "Enchant Ring - Eyes of the Eagle",
-                "icon": "inv_12_profession_enchanting_enchantedvellum_blue"
+                "id": 244013,
+                "name": "Enchant Ring - Thalassian Vers",
+                "icon": "inv_12_profession_enchanting_enchantedvellum_green"
               }
             ],
             "bonuses": [
-              6652,
-              13668,
-              13334,
-              12854
+              12245,
+              13760,
+              12497,
+              13766,
+              13658,
+              8794
             ]
           },
           "trinket1": {
-            "item_id": 281215,
-            "item_level": 341,
-            "icon": "inv_misc_questionmark",
-            "name": "Twisted Horror's Tendril",
+            "item_id": 270603,
+            "item_level": 292,
+            "icon": "inv_misc_token_argentdawn3",
+            "name": "Venomous Gladiator's Insignia of Alacrity",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -13187,16 +13249,16 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              12856
+              12833,
+              13658,
+              13452
             ]
           },
           "trinket2": {
-            "item_id": 270175,
-            "item_level": 341,
-            "icon": "inv_121_trinket_raid_ulatek_heart",
-            "name": "Voracious Heart of Ula'tek",
+            "item_id": 270605,
+            "item_level": 292,
+            "icon": "ability_pvp_gladiatormedallion",
+            "name": "Venomous Gladiator's Medallion",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -13212,17 +13274,17 @@
             "enchants": [],
             "enchants_detail": [],
             "bonuses": [
-              6652,
-              13334,
-              12856
+              12833,
+              13658,
+              13452
             ]
           },
           "mainhand": {
-            "item_id": 268215,
-            "item_level": 341,
-            "enchant": 8689,
+            "item_id": 270843,
+            "item_level": 292,
+            "enchant": 8039,
             "icon": "inv_polearm_2h_ulatek_d_01",
-            "name": "Abyssal Broodfiend's Bardiche",
+            "name": "Venomous Gladiator's Spear",
             "item_quality": 4,
             "is_legendary": false,
             "is_azerite_armor": false,
@@ -13236,21 +13298,19 @@
             "gems": [],
             "gems_detail": [],
             "enchants": [
-              8689,
-              8052
+              8039
             ],
             "enchants_detail": [
               {
-                "id": 273072,
-                "name": "Rite of the Hash'ey",
+                "id": 244029,
+                "name": "Enchant Weapon - Acuity of the Ren'dorei",
                 "icon": "inv_12_profession_enchanting_enchantedvellum_purple"
               }
             ],
             "bonuses": [
-              42,
-              13334,
-              13846,
-              12856
+              12833,
+              13658,
+              13452
             ]
           }
         }
@@ -37866,7 +37926,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/area-52/163/241700003-avatar.jpg?alt=/wow/static/images/2d/avatar/28-0.jpg",
       "region": "us",
       "realm": "Area 52",
-      "last_crawled_at": "2026-11-19T12:40:10.000Z",
+      "last_crawled_at": "2026-11-23T15:57:30.000Z",
       "profile_url": "https://raider.io/characters/us/area-52/Naharyi",
       "profile_banner": "hordebanner2",
       "mythic_plus_scores_by_season": [
@@ -40192,7 +40252,7 @@
       "thumbnail_url": "https://render.worldofwarcraft.com/us/character/illidan/150/234002582-avatar.jpg?alt=/wow/static/images/2d/avatar/3-0.jpg",
       "region": "us",
       "realm": "Illidan",
-      "last_crawled_at": "2026-11-22T15:28:43.000Z",
+      "last_crawled_at": "2026-11-23T18:16:44.000Z",
       "profile_url": "https://raider.io/characters/us/illidan/Hashmakr",
       "profile_banner": "",
       "use_animated_banner": false,
@@ -40680,8 +40740,8 @@
         }
       ],
       "gear": {
-        "created_at": "2026-11-23T01:36:00.000Z",
-        "updated_at": "2026-11-23T01:36:00.000Z",
+        "created_at": "2026-11-23T19:18:56.000Z",
+        "updated_at": "2026-11-23T19:18:56.000Z",
         "source": "db",
         "item_level_equipped": 334,
         "item_level_total": 0,
