@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-23T03:36:24.430Z",
-  "weekStart": "2026-11-16",
-  "weekEnd": "2026-11-23",
+  "generated": "2026-11-24T06:51:10.391Z",
+  "weekStart": "2026-11-17",
+  "weekEnd": "2026-11-24",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
@@ -24,16 +24,9 @@
       {
         "name": "Hashmakr",
         "class": "Paladin",
-        "previous": 3276,
+        "previous": 3296,
         "current": 3330,
-        "gain": 54
-      },
-      {
-        "name": "Deadchong",
-        "class": "Death Knight",
-        "previous": 3086,
-        "current": 3140,
-        "gain": 54
+        "gain": 34
       },
       {
         "name": "Hexxbone",
@@ -41,6 +34,13 @@
         "previous": 3803,
         "current": 3833,
         "gain": 30
+      },
+      {
+        "name": "Naharyi",
+        "class": "Druid",
+        "previous": 3388,
+        "current": 3417,
+        "gain": 29
       }
     ],
     "parseSpotlight": [
@@ -51,18 +51,28 @@
         "previous": 61,
         "current": 71,
         "gain": 10
+      },
+      {
+        "name": "Deadscythe",
+        "class": "Demon Hunter",
+        "difficulty": "Mythic",
+        "previous": 39,
+        "current": 45,
+        "gain": 6
+      }
+    ],
+    "newPinkParses": [
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "boss": "Nymrissa Wavecaller",
+        "parse": 99,
+        "previousParse": 90,
+        "difficulty": "Mythic",
+        "dps": 143113
       }
     ],
     "newOrangeParses": [
-      {
-        "name": "Hexxbone",
-        "class": "Death Knight",
-        "boss": "The Coiled Altar",
-        "parse": 97,
-        "previousParse": null,
-        "difficulty": "Mythic",
-        "dps": 340781
-      },
       {
         "name": "Hersin",
         "class": "Warrior",
@@ -71,6 +81,15 @@
         "previousParse": null,
         "difficulty": "Mythic",
         "dps": 166725
+      },
+      {
+        "name": "Hexxbone",
+        "class": "Death Knight",
+        "boss": "The Coiled Altar",
+        "parse": 97,
+        "previousParse": null,
+        "difficulty": "Mythic",
+        "dps": 340781
       }
     ],
     "mplusMilestones": [
@@ -79,7 +98,7 @@
         "class": "Druid",
         "milestone": "Keystone Myth",
         "threshold": 3400,
-        "score": 3402,
+        "score": 3417,
         "previousScore": 3388
       }
     ],
@@ -95,8 +114,8 @@
         "name": "Naharyi",
         "class": "Druid",
         "previous": 329,
-        "current": 332,
-        "gain": 3
+        "current": 332.9,
+        "gain": 3.9
       },
       {
         "name": "Hashmakr",
@@ -109,8 +128,8 @@
         "name": "Hashmaker",
         "class": "Paladin",
         "previous": 335,
-        "current": 337,
-        "gain": 2
+        "current": 337.1,
+        "gain": 2.1
       }
     ],
     "highKeyPushers": [
@@ -134,7 +153,7 @@
         "name": "Undaüntëd",
         "class": "Priest",
         "spec": "Holy",
-        "ilvl": 335.8,
+        "ilvl": 335,
         "rio": 3130,
         "progression": "7/8 M"
       }
@@ -143,26 +162,26 @@
   "summary": {
     "totalRaiders": 18,
     "rosterDelta": -3,
-    "avgRio": 3530,
-    "rioDelta": 41,
-    "avgIlvl": 334.6,
-    "ilvlDelta": 2.3,
-    "avgMythicParse": 58,
-    "parseDelta": 4,
-    "mythicRaidersCount": 16,
-    "totalMythicKills": 101,
+    "avgRio": 3531,
+    "rioDelta": 42,
+    "avgIlvl": 332.1,
+    "ilvlDelta": -0.1,
+    "avgMythicParse": 57,
+    "parseDelta": 3,
+    "mythicRaidersCount": 18,
+    "totalMythicKills": 114,
     "highestKey": 22,
     "highestKeyPlayer": "Hersin",
     "highestKeyClass": "Warrior",
     "enchantPct": 83,
     "fullyEnchanted": 15,
     "parseDistribution": {
-      "pink": 4,
+      "pink": 5,
       "orange": 5,
-      "purple": 27,
-      "blue": 28
+      "purple": 31,
+      "blue": 31
     },
-    "totalCategories": 8,
-    "totalHighlights": 16
+    "totalCategories": 9,
+    "totalHighlights": 18
   }
 }
