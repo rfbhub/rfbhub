@@ -1,18 +1,11 @@
 {
-  "generated": "2026-11-26T04:46:54.249Z",
-  "weekStart": "2026-11-19",
-  "weekEnd": "2026-11-26",
+  "generated": "2026-11-27T04:53:08.660Z",
+  "weekStart": "2026-11-20",
+  "weekEnd": "2026-11-27",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
   "categories": {
-    "guildProgression": {
-      "previous": "6/8 M",
-      "current": "7/8 M",
-      "newMythicKills": 1,
-      "newHeroicKills": 0,
-      "newNormalKills": 0
-    },
     "topClimbers": [
       {
         "name": "Minichong",
@@ -27,9 +20,24 @@
         "previous": 3803,
         "current": 3833,
         "gain": 30
+      },
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "previous": 4133,
+        "current": 4154,
+        "gain": 22
       }
     ],
     "parseSpotlight": [
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "difficulty": "Mythic",
+        "previous": 24,
+        "current": 37,
+        "gain": 13
+      },
       {
         "name": "Hashmaker",
         "class": "Paladin",
@@ -56,6 +64,15 @@
         "previousParse": 90,
         "difficulty": "Mythic",
         "dps": 143113
+      },
+      {
+        "name": "Crackle",
+        "class": "Evoker",
+        "boss": "The Twin Fangs",
+        "parse": 99,
+        "previousParse": 5,
+        "difficulty": "Mythic",
+        "dps": 49063
       }
     ],
     "newOrangeParses": [
@@ -83,22 +100,23 @@
         "name": "Minichong",
         "class": "Shaman",
         "previous": 327.8,
-        "current": 330.3,
-        "gain": 2.5
-      },
-      {
-        "name": "Hashmaker",
-        "class": "Paladin",
-        "previous": 335,
-        "current": 337.3,
+        "current": 330,
         "gain": 2.3
       },
       {
         "name": "Deadscythe",
         "class": "Demon Hunter",
-        "previous": 335,
+        "previous": 334.9,
         "current": 337,
-        "gain": 2
+        "gain": 2.1
+      }
+    ],
+    "highKeyPushers": [
+      {
+        "name": "Hersin",
+        "class": "Warrior",
+        "previousKey": 22,
+        "currentKey": 23
       }
     ],
     "newFaces": [
@@ -121,8 +139,8 @@
       {
         "name": "Undaüntëd",
         "class": "Priest",
-        "spec": "Holy",
-        "ilvl": 335.8,
+        "spec": "Discipline",
+        "ilvl": 331,
         "rio": 3130,
         "progression": "7/8 M"
       }
@@ -131,19 +149,19 @@
   "summary": {
     "totalRaiders": 19,
     "rosterDelta": -2,
-    "avgRio": 3541,
-    "rioDelta": 52,
-    "avgIlvl": 331.8,
-    "ilvlDelta": -2.2,
+    "avgRio": 3542,
+    "rioDelta": 53,
+    "avgIlvl": 331.6,
+    "ilvlDelta": -2.8,
     "avgMythicParse": 58,
-    "parseDelta": 4,
+    "parseDelta": 5,
     "mythicRaidersCount": 18,
     "totalMythicKills": 114,
-    "highestKey": 22,
+    "highestKey": 23,
     "highestKeyPlayer": "Hersin",
     "highestKeyClass": "Warrior",
-    "enchantPct": 89,
-    "fullyEnchanted": 17,
+    "enchantPct": 84,
+    "fullyEnchanted": 16,
     "parseDistribution": {
       "pink": 6,
       "orange": 5,
@@ -151,6 +169,6 @@
       "blue": 32
     },
     "totalCategories": 7,
-    "totalHighlights": 14
+    "totalHighlights": 16
   }
 }
