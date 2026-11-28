@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-27T04:53:08.660Z",
-  "weekStart": "2026-11-20",
-  "weekEnd": "2026-11-27",
+  "generated": "2026-11-28T04:37:28.383Z",
+  "weekStart": "2026-11-21",
+  "weekEnd": "2026-11-28",
   "seasonName": "Midnight S2",
   "raidName": "The Venomous Abyss",
   "guildName": "Rolling For Blame",
@@ -18,8 +18,8 @@
         "name": "Hexxbone",
         "class": "Death Knight",
         "previous": 3803,
-        "current": 3833,
-        "gain": 30
+        "current": 3844,
+        "gain": 42
       },
       {
         "name": "Hersin",
@@ -31,28 +31,44 @@
     ],
     "parseSpotlight": [
       {
+        "name": "Drób",
+        "class": "Druid",
+        "difficulty": "Mythic",
+        "previous": 23,
+        "current": 48,
+        "gain": 25
+      },
+      {
         "name": "Crackle",
         "class": "Evoker",
         "difficulty": "Mythic",
-        "previous": 24,
+        "previous": 23,
         "current": 37,
-        "gain": 13
+        "gain": 14
       },
       {
         "name": "Hashmaker",
         "class": "Paladin",
         "difficulty": "Mythic",
-        "previous": 61,
+        "previous": 64,
         "current": 71,
-        "gain": 10
+        "gain": 7
+      },
+      {
+        "name": "Blimpi",
+        "class": "Warlock",
+        "difficulty": "Mythic",
+        "previous": 30,
+        "current": 37,
+        "gain": 7
       },
       {
         "name": "Deadscythe",
         "class": "Demon Hunter",
         "difficulty": "Mythic",
-        "previous": 39,
+        "previous": 40,
         "current": 45,
-        "gain": 6
+        "gain": 5
       }
     ],
     "newPinkParses": [
@@ -75,33 +91,13 @@
         "dps": 49063
       }
     ],
-    "newOrangeParses": [
-      {
-        "name": "Hersin",
-        "class": "Warrior",
-        "boss": "The Coiled Altar",
-        "parse": 96,
-        "previousParse": null,
-        "difficulty": "Mythic",
-        "dps": 166725
-      },
-      {
-        "name": "Hexxbone",
-        "class": "Death Knight",
-        "boss": "The Coiled Altar",
-        "parse": 97,
-        "previousParse": null,
-        "difficulty": "Mythic",
-        "dps": 340781
-      }
-    ],
     "gearMovers": [
       {
         "name": "Minichong",
         "class": "Shaman",
-        "previous": 327.8,
-        "current": 330,
-        "gain": 2.3
+        "previous": 327,
+        "current": 330.3,
+        "gain": 3.3
       },
       {
         "name": "Deadscythe",
@@ -131,9 +127,17 @@
       {
         "name": "Nøør",
         "class": "Druid",
-        "spec": "Guardian",
+        "spec": "Balance",
         "ilvl": 334,
         "rio": 3721,
+        "progression": "8/8 H"
+      },
+      {
+        "name": "Cyberiajk",
+        "class": "Rogue",
+        "spec": "Subtlety",
+        "ilvl": 334.4,
+        "rio": 3624,
         "progression": "8/8 H"
       },
       {
@@ -147,28 +151,28 @@
     ]
   },
   "summary": {
-    "totalRaiders": 19,
-    "rosterDelta": -2,
-    "avgRio": 3542,
-    "rioDelta": 53,
-    "avgIlvl": 331.6,
-    "ilvlDelta": -2.8,
+    "totalRaiders": 20,
+    "rosterDelta": 4,
+    "avgRio": 3547,
+    "rioDelta": 24,
+    "avgIlvl": 331.8,
+    "ilvlDelta": -2.6,
     "avgMythicParse": 58,
-    "parseDelta": 5,
+    "parseDelta": 1,
     "mythicRaidersCount": 18,
     "totalMythicKills": 114,
     "highestKey": 23,
     "highestKeyPlayer": "Hersin",
     "highestKeyClass": "Warrior",
-    "enchantPct": 84,
-    "fullyEnchanted": 16,
+    "enchantPct": 85,
+    "fullyEnchanted": 17,
     "parseDistribution": {
       "pink": 6,
       "orange": 5,
       "purple": 31,
       "blue": 32
     },
-    "totalCategories": 7,
-    "totalHighlights": 16
+    "totalCategories": 6,
+    "totalHighlights": 17
   }
 }
